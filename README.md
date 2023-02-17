@@ -1,6 +1,6 @@
 # vamsys-scraper
 
 In WSL, apt install python3 python3-pip.
-Then  pip install selenium
-   pip install webdriver-manager
+
+Then pip install selenium==4.4.3 && pip install webdriver-manager
 
