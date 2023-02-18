@@ -24,9 +24,9 @@ sign_in_button.click()
 #sleep(5)
 
 # Or something from https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
-pilotIdElements = WebDriverWait(driver, 5).until(lambda d: d.find_elements(by=By.XPATH, value="//button[./i[@class='fal fa-plane-departure']]"))
-# Add //*[text()='PIREPs Filed'] somehow to avoid RYR?
-for pilotIdElement in pilotIdElements:
-    print(pilotIdElement.text)
+pilotIdElements = WebDriverWait(driver, 5).until(lambda d: d.find_elements(by=By.XPATH, value="//div[.//p[text()='PIREPs Filed']]/dl/dd/div/button[./i[@class='fal fa-plane-departure']]"))
+pilotIdIterator = map(lambda pilotIdElement: pilotIdElement.text, pilotIdElements)
+for pilotId in pilotIdIterator:
+    print(pilotId)
 
 driver.quit()
