@@ -29,13 +29,12 @@ sleep(2)
 
 # Or something from https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
 pilot_id_elements = WebDriverWait(driver, 2).until(lambda d: d.find_elements(by=By.XPATH, value="//div[.//p[text()='PIREPs Filed']]/dl/dd/div/button[./i[@class='fal fa-plane-departure']]"))
-for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a list so it doesn't hang onto the elements for too long.
+for pilot_id in reversed(list(map(lambda e: e.text, pilot_id_elements))): # Convert to a list so it doesn't hang onto the elements for too long.
     #print(pilot_id)
-    xpath = f"//button[normalize-space() = '{pilot_id}']"
+    xpath = f"//button[normalize-space() = '{pilot_id}']//ancestor::div[2]"
     print(xpath)
-    #pilot_id_element = WebDriverWait(driver, 2).until(lambda d: d.find_element(by=By.XPATH, value=xpath))
-    pilot_id_element = driver.find_element(by=By.XPATH, value=xpath)
-    print(pilot_id_element)
+    pilot_id_element = WebDriverWait(driver, 2).until(lambda d: d.find_element(by=By.XPATH, value=xpath))
+    driver.execute_script("arguments[0].scrollIntoView();", pilot_id_element) # Seems to scroll it too far up - is it the wrong element to do this to? Perhaps just run the "login(nnn)" javascript directly?
     pilot_id_element.click()
 
     sleep(2)
