@@ -13,40 +13,52 @@ types_by_airline = {
 airports = {}
 routes = {}
 
-def airport(icao, latitude, longitude, name):
-    latitude = float(latitude)
-    longitude = float(longitude)
+def airport(airport):
+    icao = airport['icao']
+    latitude = float(airport['latitude'])
+    longitude = float(airport['longitude'])
+    name = airport['name']
     if icao in airports:
-        #TODO: check things
         airports[icao]['names'].add(name)
+        if airports[icao]['latlng'] != [latitude, longitude]:
+            raise ValueError(f"Mismatch in location for {icao}")
     else:
         airports[icao] = {'latlng': [latitude, longitude], 'names': {name}}
 
+def add_or_update_route(origin, destination, distance, airline):
+    key = f"{origin}-{destination}"
+    if key in routes:
+        routes[key]['airlines'] += [airline]
+    else:
+        routes[key] = {'distance': distance, 'airlines': [airline]}
+
+flyable_types = ['A20N', 'A339']
 with open('routes.csv', 'w', newline='') as f:
     csvwriter = csv.writer(f, quoting=csv.QUOTE_NONNUMERIC)
     csvwriter.writerow(['From', 'Departure', 'To', 'Destination', 'NM', 'Time', 'Type', 'Carrier'])
     for airline in all_data:
-        types = types_by_airline.get(airline['airline']['name'], ['A20N', 'A339'])
+        airline_name = airline['airline']['name']
+        types = types_by_airline.get(airline_name, flyable_types)
         for route in airline['map']['routes']:
-            airport(route['icao'], route['latitude'], route['longitude'], route['name'])
+            airport(route)
             from_latlon = (route['latitude'], route['longitude'])
             for dest in route['destinations']:
+                airport(dest)
                 to_latlon = (dest['latitude'], dest['longitude'])
                 for type in [t for t in dest['types'].split(',') if t in types]:
                     dist = round(geopy.distance.distance(from_latlon, to_latlon).nautical)
-                    csvwriter.writerow([route['icao'], route['name'], dest['icao'], dest['name'], dist, dest['time'], type, airline['airline']['name']])
+                    csvwriter.writerow([route['icao'], route['name'], dest['icao'], dest['name'], dist, dest['time'], type, airline_name])
+                    add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_name)
 
-def serialize_sets(obj):
-    if isinstance(obj, set):
-        return list(obj)
+def writeJsonJs(obj, name):
+    def serialize_sets(obj):
+        if isinstance(obj, set):
+            return list(obj)
+        return obj
+    with open(f'{name}.vamsys.js', 'w') as f:
+        f.write(f'const {name} = ');
+        json.dump(obj, f, indent=4, default=serialize_sets)
+        f.write(';');
 
-    return obj
-with open('airports.vamsys.js', 'w') as f:
-    f.write('const airports = ');
-    json.dump(airports, f, indent=4, default=serialize_sets)
-    f.write(';');
-
-with open('routes.vamsys.js', 'w') as f:
-    f.write('const routes = ');
-    json.dump(routes, f, indent=4, default=serialize_sets)
-    f.write(';');
+writeJsonJs(airports, 'airports')
+writeJsonJs(routes, 'routes')

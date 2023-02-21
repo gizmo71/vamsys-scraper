@@ -16,7 +16,7 @@ function airportClicked(e) {
         if (icao != to && icao != from) continue;
         var colour = undefined, tooltip = routes[route].airlines.join(', ') + ' ';
         if (routes.hasOwnProperty(to + "-" + from)) {
-            if (to == icao) continue;
+            if (to == icao) continue; // Only do one copy of the route
             colour = "purple", tooltip += "to/from " + to;
         } else if (from != icao) {
             colour = "blue"; tooltip += "from " + from;
