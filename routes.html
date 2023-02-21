@@ -5,7 +5,9 @@
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
   <!-- See https://github.com/henrythasler/Leaflet.Geodesic -->
   <script src="https://unpkg.com/leaflet.geodesic@2.6.1/dist/leaflet.geodesic.umd.min.js" integrity="sha512-k+3Y3fGyHbudHgKFqN4i3nME+jKQ4d2Kcj8hsNyS9y3VfKhTVB1P5Dintek7bML9Hwjg+JHXsL+6coqLXs0Hhw==" crossorigin=""></script>
-  <!-- Consider also https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet, https://github.com/bbecquet/Leaflet.PolylineDecorator -->
+  <!-- See https://github.com/makinacorpus/Leaflet.TextPath -->
+  <script src="https://www.unpkg.com/leaflet-textpath@1.2.3/leaflet.textpath.js"></script>
+  <!-- Consider also https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet -->
   <style>
 #map { height: 90%; }
   </style>
@@ -16,10 +18,11 @@
 
 <script>
 const airports = {
-    'EGMC': {latlng: [51.566845,  0.697632]},
-    'EGLC': {latlng: [51.502805,  0.054932]},
-    'EGSS': {latlng: [51.882410,  0.245819]},
-    'EGKK': {latlng: [51.153955, -0.182304]}
+    'EGMC': {latlng: [51.566845,    0.697632]},
+    'EGLC': {latlng: [51.502805,    0.054932]},
+    'EGSS': {latlng: [51.882410,    0.245819]},
+    'EGKK': {latlng: [51.153955,   -0.182304]},
+    'CYVR': {latlng: [49.194722, -123.183889]}
 };
 const routes = {
     'EGLC-EGSS': '10nm',
@@ -27,6 +30,7 @@ const routes = {
     'EGLC-EGMC': '11nm',
     'EGMC-EGKK': '12nm',
     'EGMC-EGSS': '13nm',
+    'EGKK-CYVR': '3000nm',
 };
 
 var map = L.map('map').setView([51.55, -0.1], 9.5);
@@ -54,7 +58,10 @@ function airportClicked(e) {
         } else if (to != icao) {
             colour = "red"; tooltip += "to " + to;
         }
-        shown.push(new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour}).bindTooltip(tooltip).addTo(map));
+        var polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour}).bindTooltip(tooltip);
+        shown.push(polyline);
+        if (colour != "purple") polyline.setText('  ►  ', {repeat: true, attributes: {fill: colour}});
+        polyline.addTo(map);
     }
 }
 for (airport in airports) {
