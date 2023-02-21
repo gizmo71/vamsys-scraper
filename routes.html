@@ -5,6 +5,7 @@
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
   <!-- See https://github.com/henrythasler/Leaflet.Geodesic -->
   <script src="https://unpkg.com/leaflet.geodesic@2.6.1/dist/leaflet.geodesic.umd.min.js" integrity="sha512-k+3Y3fGyHbudHgKFqN4i3nME+jKQ4d2Kcj8hsNyS9y3VfKhTVB1P5Dintek7bML9Hwjg+JHXsL+6coqLXs0Hhw==" crossorigin=""></script>
+  <!-- Consider also https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet, https://github.com/bbecquet/Leaflet.PolylineDecorator -->
   <style>
 #map { height: 90%; }
   </style>
@@ -21,11 +22,11 @@ const airports = {
     'EGKK': {latlng: [51.153955, -0.182304]}
 };
 const routes = {
-    'EGLC-EGSS': 'wibble',
-    'EGSS-EGLC': 'wobble',
-    'EGLC-EGMC': 'zip',
-    'EGMC-EGKK': 'zap',
-    'EGMC-EGSS': 'zoop',
+    'EGLC-EGSS': '10nm',
+    'EGSS-EGLC': '10nm',
+    'EGLC-EGMC': '11nm',
+    'EGMC-EGKK': '12nm',
+    'EGMC-EGSS': '13nm',
 };
 
 var map = L.map('map').setView([51.55, -0.1], 9.5);
@@ -35,38 +36,33 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-const outbound = new L.Geodesic([[airports['EGMC'].latlng, airports['EGSS'].latlng],[airports['EGMC'].latlng, airports['EGKK'].latlng]], {opacity: 0.666, color: 'red'}).addTo(map);
-const inbound = new L.Geodesic([[airports['EGLC'].latlng, airports['EGMC'].latlng]], {opacity: 0.666, color: 'blue'}).addTo(map);
-const bidirectional = new L.Geodesic([[airports['EGSS'].latlng, airports['EGLC'].latlng]], {opacity: 0.666, color: 'purple'}).addTo(map);
+const shown = [];
 
 function airportClicked(e) {
     var icao = e.target.options.icao;
-    var newOutbound = [];
-    var newInbound = [];
-    var newBidirectional = [];
+    while (shown.length) shown.pop().removeFrom(map);
     for (route in routes) {
         const from = route.substring(0, 4);
         const to = route.substring(5, 9);
         if (icao != to && icao != from) continue;
-        var list = undefined;
-        if (routes.hasOwnProperty(to + "-" + from))
-            list = newBidirectional;
-        else if (from == icao)
-            list = newOutbound;
-        else
-            list = newInbound;
-        list.push([airports[from].latlng, airports[to].latlng]);
+        var colour = undefined, tooltip = routes[route] + ' ';
+        if (routes.hasOwnProperty(to + "-" + from)) {
+            if (to == icao) continue;
+            colour = "purple", tooltip += "to/from " + to;
+        } else if (from != icao) {
+            colour = "blue"; tooltip += "from " + from;
+        } else if (to != icao) {
+            colour = "red"; tooltip += "to " + to;
+        }
+        shown.push(new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour}).bindTooltip(tooltip).addTo(map));
     }
-    outbound.setLatLngs(newOutbound);
-    inbound.setLatLngs(newInbound);
-    bidirectional.setLatLngs(newBidirectional);
 }
 for (airport in airports) {
     L.marker(airports[airport].latlng, {icao: airport}).addTo(map).bindTooltip(airport).on('click', airportClicked);
 }
 
 </script>
-Red: outbound, Purple: both, Blue: inbound
+<span>Red: outbound, Purple: both, Blue: inbound</span>
 
 </body>
 </html>
