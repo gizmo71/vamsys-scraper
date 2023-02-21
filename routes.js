@@ -31,6 +31,7 @@ function airportClicked(e) {
 }
 
 for (airport in airports) {
-    var name = airports[airport].name.replace('\n', '<br/>'); //TODO: be more careful about HTML characaters
-    L.marker(airports[airport].latlng, {icao: airport}).addTo(map).bindTooltip(airport + ": " + name).on('click', airportClicked);
+    L.marker(airports[airport].latlng, {icao: airport}).addTo(map)
+        .bindTooltip("<b>" + airport + "</b><br/>" + airports[airport].names.join('<br/>'))
+        .on('click', airportClicked);
 }
