@@ -11,66 +11,14 @@
   <style>
 #map { height: 90%; }
   </style>
+  <script src="airports.sample.js"></script>
+  <script src="routes.sample.js"></script>
 </head>
 <body>
 
 <div id="map"></div>
 
-<script>
-const airports = {
-    'EGMC': {latlng: [51.566845,    0.697632], name: "London Southend\nSouthend"},
-    'EGLC': {latlng: [51.502805,    0.054932], name: "London City\nCity (London)"},
-    'EGSS': {latlng: [51.882410,    0.245819], name: "Stansted"},
-    'EGKK': {latlng: [51.153955,   -0.182304], name: "Gatters"},
-    'CYVR': {latlng: [49.194722, -123.183889], name: "Vancouver Int'l"},
-};
-const routes = { // Add approx time, airline/callsigns, aircraft; do we need distance or should we calculate it here?
-    'EGLC-EGSS': {distance: '10nm'},
-    'EGSS-EGLC': {distance: '10nm'},
-    'EGLC-EGMC': {distance: '11nm'},
-    'EGMC-EGKK': {distance: '12nm'},
-    'EGMC-EGSS': {distance: '13nm'},
-    'EGKK-CYVR': {distance: '3000nm'},
-};
-
-var map = L.map('map').setView([51.55, -0.1], 9.5);
-
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
-
-const shown = [];
-
-function airportClicked(e) {
-    var icao = e.target.options.icao;
-    while (shown.length) shown.pop().removeFrom(map);
-    for (route in routes) {
-        const from = route.substring(0, 4);
-        const to = route.substring(5, 9);
-        if (icao != to && icao != from) continue;
-        var colour = undefined, tooltip = routes[route] + ' ';
-        if (routes.hasOwnProperty(to + "-" + from)) {
-            if (to == icao) continue;
-            colour = "purple", tooltip += "to/from " + to;
-        } else if (from != icao) {
-            colour = "blue"; tooltip += "from " + from;
-        } else if (to != icao) {
-            colour = "red"; tooltip += "to " + to;
-        }
-        var polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour}).bindTooltip(tooltip);
-        shown.push(polyline);
-        polyline.setText((colour != "purple" ? '' :   '◄') + routes[route].distance + '►', {repeat: true, attributes: {fill: colour}});
-        polyline.addTo(map);
-    }
-}
-
-for (airport in airports) {
-    var name = airports[airport].name.replace('\n', '<br/>'); //TODO: be more careful about HTML characaters
-    L.marker(airports[airport].latlng, {icao: airport}).addTo(map).bindTooltip(airport + ": " + name).on('click', airportClicked);
-}
-
-</script>
+<script src="routes.js"></script>
 <span>Red: outbound, Purple: both, Blue: inbound</span>
 
 </body>
