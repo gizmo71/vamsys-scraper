@@ -1,4 +1,3 @@
-import csv
 import geopy.distance
 import json
 
@@ -33,22 +32,18 @@ def add_or_update_route(origin, destination, distance, airline):
         routes[key] = {'distance': distance, 'airlines': [airline]}
 
 flyable_types = ['A20N', 'A339']
-with open('routes.csv', 'w', newline='') as f:
-    csvwriter = csv.writer(f, quoting=csv.QUOTE_NONNUMERIC)
-    csvwriter.writerow(['From', 'Departure', 'To', 'Destination', 'NM', 'Time', 'Type', 'Carrier'])
-    for airline in all_data:
-        airline_name = airline['airline']['name']
-        types = types_by_airline.get(airline_name, flyable_types)
-        for route in airline['map']['routes']:
-            airport(route)
-            from_latlon = (route['latitude'], route['longitude'])
-            for dest in route['destinations']:
-                airport(dest)
-                to_latlon = (dest['latitude'], dest['longitude'])
-                for type in [t for t in dest['types'].split(',') if t in types]:
-                    dist = round(geopy.distance.distance(from_latlon, to_latlon).nautical)
-                    csvwriter.writerow([route['icao'], route['name'], dest['icao'], dest['name'], dist, dest['time'], type, airline_name])
-                    add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_name)
+for airline in all_data:
+    airline_name = airline['airline']['name']
+    types = types_by_airline.get(airline_name, flyable_types)
+    for route in airline['map']['routes']:
+        airport(route)
+        from_latlon = (route['latitude'], route['longitude'])
+        for dest in route['destinations']:
+            airport(dest)
+            to_latlon = (dest['latitude'], dest['longitude'])
+            for type in [t for t in dest['types'].split(',') if t in types]:
+                dist = round(geopy.distance.distance(from_latlon, to_latlon).nautical)
+                add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_name)
 
 def writeJsonJs(obj, name):
     def serialize_sets(obj):
