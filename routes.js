@@ -14,7 +14,7 @@ function airportClicked(e) {
         const from = route.substring(0, 4);
         const to = route.substring(5, 9);
         if (icao != to && icao != from) continue;
-        var colour = undefined, tooltip = routes[route].airlines.join(', ') + ' ';
+        var colour = undefined, tooltip = Object.getOwnPropertyNames(routes[route].type_to_airlines).map(type => type + ": " + routes[route].type_to_airlines[type].join(', ')).join('</br>') + ' ';
         if (routes.hasOwnProperty(to + "-" + from)) {
             if (to == icao) continue; // Only do one copy of the route
             colour = "purple", tooltip += "to/from " + to;
@@ -30,8 +30,9 @@ function airportClicked(e) {
     }
 }
 
-for (airport in airports) {
-    L.marker(airports[airport].latlng, {icao: airport}).addTo(map)
-        .bindTooltip("<b>" + airport + "</b><br/>" + airports[airport].names.join('<br/>'))
+for (icao in airports) {
+    const airport = airports[icao];
+    L.marker(airport.latlng, {icao: icao}).addTo(map)
+        .bindTooltip("<b>" + icao + "</b><br/>" + airport.names.join('<br/>'))
         .on('click', airportClicked);
 }

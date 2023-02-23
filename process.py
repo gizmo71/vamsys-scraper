@@ -22,14 +22,13 @@ def airport(airport):
         if airports[icao]['latlng'] != [latitude, longitude]:
             raise ValueError(f"Mismatch in location for {icao}")
     else:
-        airports[icao] = {'latlng': [latitude, longitude], 'names': {name}}
+        airports[icao] = {'latlng': [latitude, longitude], 'iata': airport['iata'], 'names': {name}}
 
-def add_or_update_route(origin, destination, distance, airline):
+def add_or_update_route(origin, destination, distance, airline, type):
     key = f"{origin}-{destination}"
-    if key in routes:
-        routes[key]['airlines'] += [airline]
-    else:
-        routes[key] = {'distance': distance, 'airlines': [airline]}
+    route = routes.setdefault(key, {'distance': distance, 'type_to_airlines': {}})
+    airlines = route['type_to_airlines'].setdefault(type, set())
+    airlines.add(airline)
 
 flyable_types = ['A20N', 'A339']
 for airline in all_data:
@@ -43,7 +42,7 @@ for airline in all_data:
             to_latlon = (dest['latitude'], dest['longitude'])
             for type in [t for t in dest['types'].split(',') if t in types]:
                 dist = round(geopy.distance.distance(from_latlon, to_latlon).nautical)
-                add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_name)
+                add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_name, type)
 
 def writeJsonJs(obj, name):
     def serialize_sets(obj):
