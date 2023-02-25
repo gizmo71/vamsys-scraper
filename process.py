@@ -4,9 +4,9 @@ import json
 with open('vamsys.json', 'r') as f:
     all_data = json.load(f)
 
-types_by_airline = {
-    'Dan Air Virtual': {'A20N', 'A320', 'A333'},
-    'vTCXgroup': {'A320', 'A339'}
+type_mapping_by_airline = {
+    'Dan Air Virtual': {'A320':'A20N', 'A333':'A339'},
+    'vTCXgroup': {'A320':'A20N'}
 }
 
 airports = {}
@@ -33,14 +33,14 @@ def add_or_update_route(origin, destination, distance, airline, type):
 flyable_types = ['A20N', 'A339']
 for airline in all_data:
     airline_name = airline['airline']['name']
-    types = types_by_airline.get(airline_name, flyable_types)
+    type_mapping = type_mapping_by_airline.get(airline_name, {})
     for route in airline['map']['routes']:
         airport(route)
         from_latlon = (route['latitude'], route['longitude'])
         for dest in route['destinations']:
             airport(dest)
             to_latlon = (dest['latitude'], dest['longitude'])
-            for type in [t for t in dest['types'].split(',') if t in types]:
+            for type in [t for t in map(lambda type: type_mapping.get(type, type), dest['types'].split(',')) if t in flyable_types]:
                 dist = round(geopy.distance.distance(from_latlon, to_latlon).nautical)
                 add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_name, type)
 
