@@ -7,37 +7,44 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 const shown = [];
 
-var currentIcao = "-none-";
+var currentIcao = undefined;
 var isInbound = false;
+
+const airportNeutral = "\u2708";
+const airportDepart = "\ud83d\udeeb"; // 1F6EB as a surrogate pair
+const airportArrive = "\ud83d\udeec"; // 1F6EC
 
 function airportClicked(e) {
     var icao = e.target.options.icao;
-    if (icao == currentIcao)
+    if (icao == currentIcao) {
         isInbound = !isInbound;
-    else
+    } else {
+        if (currentIcao) document.getElementById("airport-" + currentIcao).innerText = airportNeutral;
         currentIcao = icao;
+    }
+    document.getElementById("airport-" + currentIcao).innerText = isInbound ? airportArrive : airportDepart;
     while (shown.length) shown.pop().removeFrom(map);
     for (route in routes) {
         const from = route.substring(0, 4);
         const to = route.substring(5, 9);
-        var colour = undefined, tooltip = Object.getOwnPropertyNames(routes[route].type_to_airlines).map(type => type + ": " + routes[route].type_to_airlines[type].join(', ')).join('</br>') + ' ';
+        var colour = undefined
+        var tooltip = Object.getOwnPropertyNames(routes[route].type_to_airlines).map(type => type + ": " + routes[route].type_to_airlines[type].join(', ')).join('</br>') + ' ';
         if (from == icao && !isInbound) {
             colour = "blue"; tooltip += "from " + from;
         } else if (to == icao && isInbound) {
             colour = "red"; tooltip += "to " + to;
         } else
             continue;
-        var polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour}).bindTooltip(tooltip);
+        var polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour, weight: 1}).bindTooltip(tooltip);
         shown.push(polyline);
-        polyline.setText((colour != "purple" ? '' :   '◄') + routes[route].distance + '►', {repeat: true, attributes: {fill: colour}});
+        polyline.setText(routes[route].distance + '►', {repeat: true, attributes: {fill: colour}});
         polyline.addTo(map);
     }
 }
 
-const airportIcon = L.divIcon({html: "\u1F6EB;\u1F6EC;"});
 for (icao in airports) {
     const airport = airports[icao];
-    const icon = L.divIcon({html: "\u2708;</br>" + airport['iata'], className: 'airport'});
+    const icon = L.divIcon({html: "<span id='airport-" + icao + "'>" + airportNeutral + "</span></br>" + airport['iata'], className: 'airport'});
     airport.marker = L.marker(airport.latlng, {icao: icao, icon: icon}).addTo(map)
         .bindTooltip("<b>" + icao + "</b><br/>" + airport.names.join('<br/>'))
         .on('click', airportClicked);
