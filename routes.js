@@ -30,9 +30,9 @@ function airportClicked(e) {
         var colour = undefined
         var tooltip = Object.getOwnPropertyNames(routes[route].type_to_airlines).map(type => type + ": " + routes[route].type_to_airlines[type].join(', ')).join('</br>') + ' ';
         if (from == icao && !isInbound) {
-            colour = "blue"; tooltip += "from " + from;
-        } else if (to == icao && isInbound) {
             colour = "red"; tooltip += "to " + to;
+        } else if (to == icao && isInbound) {
+            colour = "blue"; tooltip += "from " + from;
         } else
             continue;
         var polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour, weight: 1}).bindTooltip(tooltip);

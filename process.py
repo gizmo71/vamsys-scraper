@@ -22,25 +22,27 @@ def airport(airport):
         if airports[icao]['latlng'] != [latitude, longitude]:
             raise ValueError(f"Mismatch in location for {icao}")
     else:
-        airports[icao] = {'latlng': [latitude, longitude], 'iata': airport['iata'], 'names': {name}}
+        airports[icao] = {'latlng': [latitude, longitude], 'iata': airport['iata'], 'names': {name}, 'inbound': 0, 'outbound': 0}
 
 def add_or_update_route(origin, destination, distance, airline, type):
     key = f"{origin}-{destination}"
     route = routes.setdefault(key, {'distance': distance, 'type_to_airlines': {}})
     airlines = route['type_to_airlines'].setdefault(type, set())
     airlines.add(airline)
+    airports[origin]['outbound'] += 1
+    airports[destination]['inbound'] += 1
 
 flyable_types = ['A20N', 'A339']
 for airline in all_data:
     airline_name = airline['airline']['name']
     type_mapping = type_mapping_by_airline.get(airline_name, {})
     for route in airline['map']['routes']:
-        airport(route)
         from_latlon = (route['latitude'], route['longitude'])
         for dest in route['destinations']:
-            airport(dest)
             to_latlon = (dest['latitude'], dest['longitude'])
             for type in [t for t in map(lambda type: type_mapping.get(type, type), dest['types'].split(',')) if t in flyable_types]:
+                airport(route)
+                airport(dest)
                 dist = round(geopy.distance.distance(from_latlon, to_latlon).nautical)
                 add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_name, type)
 
