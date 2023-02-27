@@ -35,10 +35,11 @@ function airportClicked(e) {
             colour = "blue"; tooltip += "from " + from;
         } else
             continue;
-        var polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour, weight: 1}).bindTooltip(tooltip);
+        var polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour, weight: 2})
+            .setText(routes[route].distance + '►', {repeat: true, attributes: {fill: colour}})
+            .bindTooltip(tooltip, {sticky: true})
+            .addTo(map);
         shown.push(polyline);
-        polyline.setText(routes[route].distance + '►', {repeat: true, attributes: {fill: colour}});
-        polyline.addTo(map);
     }
 }
 
