@@ -4,11 +4,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromiumService
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.core.utils import ChromeType
 from seleniumwire import webdriver
 from seleniumwire.utils import decode as sw_decode
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.core.utils import ChromeType
 from time import sleep
+
+from vamsys import config
 
 driver_manager = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
 driver = webdriver.Chrome(service=ChromiumService(driver_manager), seleniumwire_options={'request_storage': 'memory'})
@@ -25,8 +27,8 @@ password_box = driver.find_element(by=By.ID, value="password")
 remember_me_checkbox = driver.find_element(by=By.ID, value="remember-me")
 sign_in_button = driver.find_element(by=By.CSS_SELECTOR, value="button")
 
-username_box.send_keys("vamsys@davegymer.org")
-password_box.send_keys("fcb")
+username_box.send_keys(config["username"])
+password_box.send_keys(config["password"])
 remember_me_checkbox.click()
 sign_in_button.click()
 
