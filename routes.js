@@ -6,6 +6,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 const shown = [];
+const endpoints = new Map();
 
 var currentIcao = undefined;
 var isInbound = false;
@@ -24,6 +25,7 @@ function airportClicked(e) {
     }
     document.getElementById("airport-" + currentIcao).innerText = isInbound ? airportArrive : airportDepart;
     while (shown.length) shown.pop().removeFrom(map);
+    endpoints.clear();
     for (route in routes) {
         const from = route.substring(0, 4);
         const to = route.substring(5, 9);
@@ -35,11 +37,19 @@ function airportClicked(e) {
             colour = "blue"; tooltip += "from " + from;
         } else
             continue;
+        endpoints.set(to, 'to');
+        endpoints.set(from, 'from');
         var polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour, weight: 2})
             .setText(routes[route].distance + '►', {repeat: true, attributes: {fill: colour}})
             .bindTooltip(tooltip, {sticky: true})
             .addTo(map);
         shown.push(polyline);
+    }
+    for (icao in airports) {
+        var classList = airports[icao].marker.getElement().classList;
+        classList.remove("airport-to");
+        classList.remove("airport-from");
+        if (endpoints.has(icao)) classList.add("airport-" + endpoints.get(icao));
     }
 }
 
