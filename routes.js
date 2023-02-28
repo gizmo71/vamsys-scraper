@@ -39,8 +39,9 @@ function airportClicked(e) {
             continue;
         endpoints.set(to, 'to');
         endpoints.set(from, 'from');
+        var orientation = 0;
         var polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: colour, weight: 2})
-            .setText(routes[route].distance + '►', {repeat: true, attributes: {fill: colour}})
+            .setText(routes[route].distance + '►', {repeat: true, attributes: {fill: colour}, orientation: orientation, below: isInbound})
             .bindTooltip(tooltip, {sticky: true})
             .addTo(map);
         shown.push(polyline);
