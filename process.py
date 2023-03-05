@@ -9,6 +9,7 @@ type_mapping_by_airline = {
     'vTCXgroup': {'A320':'A20N'}
 }
 
+airlines = {}
 airports = {}
 routes = {}
 
@@ -34,8 +35,9 @@ def add_or_update_route(origin, destination, distance, airline, type):
 
 flyable_types = ['A20N', 'A339']
 for airline in all_data:
-    airline_name = airline['airline']['name']
-    type_mapping = type_mapping_by_airline.get(airline_name, {})
+    airline_id = airline['airline']['id']
+    airlines[airline_id] = airline['airline']['name']
+    type_mapping = type_mapping_by_airline.get(airlines[airline_id], {})
     for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
         for dest in route['destinations']:
@@ -44,7 +46,7 @@ for airline in all_data:
                 airport(route)
                 airport(dest)
                 dist = round(geopy.distance.distance(from_latlon, to_latlon).nautical)
-                add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_name, type)
+                add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_id, type)
 
 def writeJsonJs(obj, name):
     def serialize_sets(obj):
@@ -56,5 +58,6 @@ def writeJsonJs(obj, name):
         json.dump(obj, f, indent=4, default=serialize_sets)
         f.write(';');
 
+writeJsonJs(airlines, 'airlines')
 writeJsonJs(airports, 'airports')
 writeJsonJs(routes, 'routes')

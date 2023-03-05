@@ -10,7 +10,7 @@
   <script src="https://www.unpkg.com/leaflet-textpath@1.2.3/leaflet.textpath.js"></script>
   <!-- Consider also https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet -->
   <style>
-#map { height: 95%; }
+#map { height: 100%; width: 88%; }
 .airport {
     text-align: center;
     background-color: white;
@@ -29,15 +29,17 @@
     z-index: 1009 !important;
 }
   </style>
+  <script src="airlines.vamsys.js"></script>
   <script src="airports.vamsys.js"></script>
   <script src="routes.vamsys.js"></script>
 </head>
 <body>
 
+<span style="float: right;">Red: outbound, Blue: inbound
+<ul id="airline-picker"></ul></span>
 <div id="map"></div>
 
 <script src="routes.js"></script>
-<span>Red: outbound, Purple: both, Blue: inbound</span>
 
 </body>
 </html>
