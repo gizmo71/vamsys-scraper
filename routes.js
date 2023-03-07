@@ -27,7 +27,7 @@ function typesToAirlineNames(route) {
     for (const [type, allAirlineIds] of Object.entries(route.type_to_airlines)) {
         var airlineIds = allAirlineIds.filter(id => { var cb = airlines[id].cb; /*console.log(cb.id + " -->> " + cb.checked);*/ return cb.checked; });
         if (airlineIds.length) {
-            typeToNames.set(type, type + ": " + airlineIds.map(id => airlines[id].name).join(', '));
+            typeToNames.set(type, airlineIds.map(id => airlines[id].name).join(', '));
         }
     }
     return typeToNames;
