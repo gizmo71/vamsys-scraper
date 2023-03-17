@@ -71,6 +71,17 @@ console.log("blu " + currentIcao + " in? " + isInbound);
     }
 }
 
+function airportClicked(e) {
+    var icao = e.target.options.icao;
+    if (icao == currentIcao) {
+        isInbound = !isInbound;
+    } else {
+        if (currentIcao) document.getElementById("airport-" + currentIcao).innerText = airportNeutral;
+        currentIcao = icao;
+    }
+    redraw();
+}
+
 for (icao in airports) {
     const airport = airports[icao];
     const icon = L.divIcon({html: "<span id='airport-" + icao + "'>" + airportNeutral + "</span></br>" + airport['iata'], className: 'airport'});
