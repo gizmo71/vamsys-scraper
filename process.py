@@ -20,8 +20,14 @@ def airport(airport):
     name = airport['name']
     if icao in airports:
         airports[icao]['names'].add(name)
-        if airports[icao]['latlng'] != [latitude, longitude]:
-            raise ValueError(f"Mismatch in location for {icao}")
+        latlng = [latitude, longitude]
+        if airports[icao]['latlng'] != latlng:
+            diff = geopy.distance.distance(airports[icao]['latlng'], latlng).nautical
+            msg = f"Mismatch in location for {icao}; {airports[icao]['latlng']} against {latlng}, difference of {diff:.3f}"
+            if diff >= 0.8:
+                raise ValueError(msg)
+            elif diff >= 0.01:
+                print(msg)
     else:
         airports[icao] = {'latlng': [latitude, longitude], 'iata': airport['iata'], 'names': {name}, 'inbound': 0, 'outbound': 0}
 
