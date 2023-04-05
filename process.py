@@ -34,16 +34,16 @@ def airport(airport):
 def add_or_update_route(origin, destination, distance, airline, type):
     key = f"{origin}-{destination}"
     route = routes.setdefault(key, {'distance': distance, 'type_to_airlines': {}})
-    airlines = route['type_to_airlines'].setdefault(type, set())
-    airlines.add(airline)
+    type_to_airlines = route['type_to_airlines'].setdefault(type, set())
+    type_to_airlines.add(airline)
     airports[origin]['outbound'] += 1
     airports[destination]['inbound'] += 1
 
 flyable_types = ['A20N', 'A339']
 for airline in all_data:
     airline_id = airline['airline']['id']
-    airlines[airline_id] = airline['airline']['name']
-    type_mapping = type_mapping_by_airline.get(airlines[airline_id], {})
+    airlines[airline_id] = {'name': airline['airline']['name']}
+    type_mapping = type_mapping_by_airline.get(airlines[airline_id]['name'], {})
     for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
         for dest in route['destinations']:

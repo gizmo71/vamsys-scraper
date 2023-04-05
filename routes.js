@@ -1,8 +1,7 @@
-for (id in airlines) {
-    var name = airlines[id];
+for (const [id, airline] of Object.entries(airlines)) {
     var elementId = "airline-" + id;
-    document.getElementById("airline-picker").insertAdjacentHTML('beforeend', "<li><input type='checkbox' onChange='redraw();' checked id='" + elementId + "'><label for='" + elementId + "' />" + airlines[id] + "</li>");
-    airlines[id] = { name: name, cb: document.getElementById(elementId) }
+    document.getElementById("airline-picker").insertAdjacentHTML('beforeend', "<li><input type='checkbox' onChange='redraw();' checked id='" + elementId + "'><label for='" + elementId + "' />" + airline.name + "</li>");
+    airline.cb = document.getElementById(elementId);
 }
 
 var map = L.map('map').setView([51.55, -0.1], 9.5);
