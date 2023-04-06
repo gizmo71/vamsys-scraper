@@ -43,6 +43,10 @@ flyable_types = ['A20N', 'A339']
 for airline in all_data:
     airline_id = airline['airline']['id']
     airlines[airline_id] = {'name': airline['airline']['name']}
+    if airline['airline']['activity_requirements']:
+        if not airline['airline']['activity_requirement_type_pireps']:
+            raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
+        airlines[airline_id]['requirements'] = f"{airline['airline']['activity_requirement_value']} PIREP(s) in rolling {airline['airline']['activity_requirement_period']} days"
     type_mapping = type_mapping_by_airline.get(airlines[airline_id]['name'], {})
     for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
