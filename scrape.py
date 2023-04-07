@@ -1,6 +1,7 @@
 import atexit
 import json
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromiumService
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -12,8 +13,11 @@ from time import sleep
 
 from vamsys import config
 
+options = Options()
+options.add_argument("--headless=new")
+options.add_argument("--no-sandbox") # Only needed to run as root
 driver_manager = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
-driver = webdriver.Chrome(service=ChromiumService(driver_manager), seleniumwire_options={'request_storage': 'memory'})
+driver = webdriver.Chrome(service=ChromiumService(driver_manager), options=options, seleniumwire_options={'request_storage': 'memory'})
 driver.scopes = [ '.*/api/v1/.*' ]
 
 def driver_quit(): driver.quit()
