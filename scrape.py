@@ -1,5 +1,6 @@
 import atexit
 import json
+import re
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromiumService
@@ -45,10 +46,10 @@ def handle_destinations(driver):
         body = sw_decode(request.response.body, request.response.headers.get('Content-Encoding', 'identity'))
         body = body.decode("utf-8")
         if request.url == 'https://vamsys.io/api/v1/airline':
-            airline = body
+            airline = json.loads(body)
         if request.url == 'https://vamsys.io/api/v1/destinations/map':
-            map = body
-    return '{\n"airline":%s,\n"map":%s\n}' % (airline, map) if airline and map else None
+            map = json.loads(body)
+    return {'airline':airline, 'map':map} if airline and map else None
 
 all_data = []
 
@@ -58,6 +59,12 @@ for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a l
     print(pilot_id)
     xpath = f"//button[normalize-space() = '{pilot_id}']//ancestor::div[2]"
     pilot_id_element = WebDriverWait(driver, 10).until(lambda d: d.find_element(by=By.XPATH, value=xpath))
+
+    match = re.search(r'Last PIREP\s+-\s+(\d{4}-\d{2}-\d{2})\s+', pilot_id_element.get_attribute('innerHTML'))
+    if not match:
+        raise ValueError("Failed to find last PIREP date in " + pilot_id_element.get_attribute('innerHTML'))
+    last_pirep_date = match[1]
+
     driver.execute_script("arguments[0].scrollIntoView();", pilot_id_element) # Seems to scroll it too far up - is it the wrong element to do this to? Perhaps just run the "login(nnn)" javascript directly?
     pilot_id_element.click()
 
@@ -65,7 +72,8 @@ for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a l
     del driver.requests
     driver.get("https://vamsys.io/destinations")
     airline_and_map = WebDriverWait(driver, 15).until(handle_destinations)
-    all_data.append(json.loads(airline_and_map))
+    airline_and_map['last_pirep_date'] = last_pirep_date
+    all_data.append(airline_and_map)
 
     sleep(5)
     driver.get("https://vamsys.io/select") # Back to the airline selection page for the next airline.

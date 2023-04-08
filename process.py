@@ -1,6 +1,8 @@
 import geopy.distance
 import json
 
+from datetime import date, timedelta
+
 with open('vamsys.json', 'r') as f:
     all_data = json.load(f)
 
@@ -46,7 +48,10 @@ for airline in all_data:
     if airline['airline']['activity_requirements']:
         if not airline['airline']['activity_requirement_type_pireps']:
             raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
-        airlines[airline_id]['requirements'] = f"{airline['airline']['activity_requirement_value']} PIREP(s) in rolling {airline['airline']['activity_requirement_period']} days"
+        if airline['airline']['activity_requirement_value'] != 1:
+            raise ValueError(f"{airline['airline']['name']} requires multiple PIREPs in the period")
+        pirep_by = date.fromisoformat(airline['last_pirep_date']) + timedelta(days=airline['airline']['activity_requirement_period'])
+        airlines[airline_id]['requirements'] = f"Next PIREP required by {pirep_by}"
     type_mapping = type_mapping_by_airline.get(airlines[airline_id]['name'], {})
     for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
