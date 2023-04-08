@@ -4,12 +4,17 @@ on:
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
-    #TODO: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idoutputs
+#TODO: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idoutputs
     steps:
       - name: Check out code
         uses: actions/checkout@v3
+#TODO: can we split this into pieces?
       - name: Build and run
+        env:
+          VAMSYS_USERNAME: ${{ secrets.VAMSYS_USERNAME }}
+          VAMSYS_PASSWORD: ${{ secrets.VAMSYS_PASSWORD }}
         run: |
           podman build -t gizmo71/vamsys-scraper -f Dockerfile
+          echo "config = {'username': '${VAMSYS_USERNAME}', 'password': '${VAMSYS_PASSWORD}'}" >$GITHUB_WORKSPACE/vamsys.py
           podman run --rm -v$GITHUB_WORKSPACE:/data --shm-size="2g" gizmo71/vamsys-scraper python3 /data/scrape.py
           podman run --rm -v$GITHUB_WORKSPACE:/data gizmo71/vamsys-scraper python3 /data/process.py
