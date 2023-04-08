@@ -1,0 +1,15 @@
+on:
+  workflow_dispatch
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    #TODO: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idoutputs
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+      - name: Build and run
+        run: |
+          podman build -t gizmo71/vamsys-scraper -f Dockerfile
+          podman run -it --rm -v.:/data --shm-size="2g" gizmo71/vamsys-scraper python3 /data/scrape.py
+          podman run -it --rm -v.:/data gizmo71/vamsys-scraper python3 /data/process.py
