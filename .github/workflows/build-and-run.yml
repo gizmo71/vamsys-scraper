@@ -11,5 +11,5 @@ jobs:
       - name: Build and run
         run: |
           podman build -t gizmo71/vamsys-scraper -f Dockerfile
-          podman run -it --rm -v.:/data --shm-size="2g" gizmo71/vamsys-scraper python3 /data/scrape.py
-          podman run -it --rm -v.:/data gizmo71/vamsys-scraper python3 /data/process.py
+          podman run --rm -v$GITHUB_WORKSPACE:/data --shm-size="2g" gizmo71/vamsys-scraper python3 /data/scrape.py
+          podman run --rm -v$GITHUB_WORKSPACE:/data gizmo71/vamsys-scraper python3 /data/process.py
