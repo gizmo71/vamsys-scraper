@@ -25,9 +25,8 @@ def driver_quit(): driver.quit()
 atexit.register(driver_quit)
 
 driver.get("https://vamsys.io/login")
-driver.implicitly_wait(1) #TODO: wait until one or all of the login elements below are found. Consider slowing the script down so it looks less like the bot it actually is...
 
-username_box = driver.find_element(by=By.ID, value="email")
+username_box = WebDriverWait(driver, 10).until(lambda d: d.find_element(by=By.ID, value="email"))
 password_box = driver.find_element(by=By.ID, value="password")
 remember_me_checkbox = driver.find_element(by=By.ID, value="remember-me")
 sign_in_button = driver.find_element(by=By.CSS_SELECTOR, value="button")
