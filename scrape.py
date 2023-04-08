@@ -26,7 +26,7 @@ atexit.register(driver_quit)
 
 driver.get("https://vamsys.io/login")
 
-username_box = WebDriverWait(driver, 10).until(lambda d: d.find_element(by=By.ID, value="email"))
+username_box = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.ID, value="email"))
 password_box = driver.find_element(by=By.ID, value="password")
 remember_me_checkbox = driver.find_element(by=By.ID, value="remember-me")
 sign_in_button = driver.find_element(by=By.CSS_SELECTOR, value="button")
@@ -53,11 +53,11 @@ def handle_destinations(driver):
 all_data = []
 
 # Or something from https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
-pilot_id_elements = WebDriverWait(driver, 5).until(lambda d: d.find_elements(by=By.XPATH, value="//div[.//p[text()='PIREPs Filed']]/dl/dd/div/button[./i[@class='fal fa-plane-departure']]"))
+pilot_id_elements = WebDriverWait(driver, 30).until(lambda d: d.find_elements(by=By.XPATH, value="//div[.//p[text()='PIREPs Filed']]/dl/dd/div/button[./i[@class='fal fa-plane-departure']]"))
 for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a list so it doesn't hang onto the elements for too long.
     print(pilot_id)
     xpath = f"//button[normalize-space() = '{pilot_id}']//ancestor::div[2]"
-    pilot_id_element = WebDriverWait(driver, 10).until(lambda d: d.find_element(by=By.XPATH, value=xpath))
+    pilot_id_element = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value=xpath))
 
     match = re.search(r'Last PIREP\s+-\s+(\d{4}-\d{2}-\d{2})\s+', pilot_id_element.get_attribute('innerHTML'))
     if not match:
@@ -70,7 +70,7 @@ for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a l
     sleep(5)
     del driver.requests
     driver.get("https://vamsys.io/destinations")
-    airline_and_map = WebDriverWait(driver, 15).until(handle_destinations)
+    airline_and_map = WebDriverWait(driver, 30).until(handle_destinations)
     airline_and_map['last_pirep_date'] = last_pirep_date
     all_data.append(airline_and_map)
 
