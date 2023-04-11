@@ -41,10 +41,15 @@ def add_or_update_route(origin, destination, distance, airline, type):
     airports[origin]['outbound'] += 1
     airports[destination]['inbound'] += 1
 
+def map_airline_name(vamsys_name):
+    if vamsys_name.startswith("ALVA "):
+        return "AVLA"
+    return vamsys_name
+
 flyable_types = ['A20N', 'A339']
 for airline in all_data:
     airline_id = airline['airline']['id']
-    airlines[airline_id] = {'name': airline['airline']['name']}
+    airlines[airline_id] = {'name': map_airline_name(airline['airline']['name'])}
     if airline['airline']['activity_requirements']:
         if not airline['airline']['activity_requirement_type_pireps']:
             raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
