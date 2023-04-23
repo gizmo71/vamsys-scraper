@@ -1,6 +1,7 @@
 import atexit
 import json
 import re
+import selenium.common.exceptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromiumService
@@ -26,10 +27,10 @@ atexit.register(driver_quit)
 
 driver.get("https://vamsys.io/login")
 
-username_box = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.ID, value="email"))
-password_box = driver.find_element(by=By.ID, value="password")
-remember_me_checkbox = driver.find_element(by=By.ID, value="remember-me")
-sign_in_button = driver.find_element(by=By.CSS_SELECTOR, value="button")
+username_box = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.NAME, value="email"))
+password_box = driver.find_element(by=By.NAME, value="password")
+remember_me_checkbox = driver.find_element(by=By.NAME, value="remember")
+sign_in_button = driver.find_element(by=By.ID, value="login-button")
 
 username_box.send_keys(config["username"])
 password_box.send_keys(config["password"])
