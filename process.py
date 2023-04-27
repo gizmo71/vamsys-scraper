@@ -7,6 +7,7 @@ with open('vamsys.json', 'r') as f:
     all_data = json.load(f)
 
 type_mapping_by_airline = {
+    'ALVA': {'A333':'A339'},
     'Dan Air Virtual': {'A320':'A20N', 'A333':'A339'},
     'vTCXgroup': {'A320':'A20N'}
 }
