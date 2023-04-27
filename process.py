@@ -44,7 +44,7 @@ def add_or_update_route(origin, destination, distance, airline, type):
 
 def map_airline_name(vamsys_name):
     if vamsys_name.startswith("ALVA "):
-        return "AVLA"
+        return "ALVA"
     return vamsys_name
 
 flyable_types = ['A20N', 'A339']
