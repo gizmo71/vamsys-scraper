@@ -29,11 +29,7 @@ class ExitHooks(object):
     def driver_quit(self):
         driver.quit()
 
-handler = logging.StreamHandler(sys.stdout)
-handler.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
-logging.getLogger().addHandler(handler)
+logging.basicConfig(stream=sys.stdout)
 logging.getLogger("selenium").setLevel(logging.DEBUG)
 
 options = Options()
