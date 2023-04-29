@@ -25,7 +25,7 @@ class ExitHooks(object):
         if driver and hasattr(driver, 'page_source'):
             print('--- page start ---', driver.page_source, '--- page end ---', sep='\n')
         self.original_excepthook(exception_type, exception, args)
-    def driver_quit():
+    def driver_quit(self):
         driver.quit()
 
 options = Options()
