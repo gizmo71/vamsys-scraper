@@ -22,8 +22,8 @@ class ExitHooks(object):
         sys.excepthook = self.excepthook
         atexit.register(self.driver_quit)
     def excepthook(self, exception_type, exception, *args):
-        if driver and hasattr(driver, 'page_source'):
-            print('--- page start ---', driver.page_source, '--- page end ---', sep='\n')
+        if driver:
+            print(f"--- page start --- {driver.current_url}", driver.page_source, '--- page end ---', sep='\n')
         self.original_excepthook(exception_type, exception, args)
     def driver_quit(self):
         driver.quit()
