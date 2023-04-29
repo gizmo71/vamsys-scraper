@@ -2,6 +2,7 @@ import atexit
 import json
 import re
 import selenium.common.exceptions
+import sys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromiumService
@@ -15,6 +16,18 @@ from time import sleep
 
 from vamsys import config
 
+class ExitHooks(object):
+    def __init__(self):
+        self.original_excepthook = sys.excepthook
+        sys.excepthook = self.excepthook
+        atexit.register(self.driver_quit)
+    def excepthook(self, exception_type, exception, *args):
+        if driver and hasattr(driver, 'page_source'):
+            print('--- page start ---', driver.page_source, '--- page end ---', sep='\n')
+        self.original_excepthook(exception_type, exception, args)
+    def driver_quit():
+        driver.quit()
+
 options = Options()
 options.add_argument("--headless=new")
 options.add_argument("--no-sandbox") # Only needed to run as root
@@ -22,8 +35,7 @@ driver_manager = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
 driver = webdriver.Chrome(service=ChromiumService(driver_manager), options=options, seleniumwire_options={'request_storage': 'memory'})
 driver.scopes = [ '.*/api/v1/.*' ]
 
-def driver_quit(): driver.quit()
-atexit.register(driver_quit)
+ExitHooks()
 
 driver.get("https://vamsys.io/login")
 
