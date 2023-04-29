@@ -14,7 +14,7 @@ jobs:
           VAMSYS_USERNAME: ${{ secrets.VAMSYS_USERNAME }}
           VAMSYS_PASSWORD: ${{ secrets.VAMSYS_PASSWORD }}
         run: |
-          export | sed 's/./& /g'
+          #export | sed 's/./& /g'
           podman build -t gizmo71/vamsys-scraper -f Dockerfile
           echo "config = {'username': '${VAMSYS_USERNAME}', 'password': '${VAMSYS_PASSWORD}'}" >$GITHUB_WORKSPACE/vamsys.py
           podman run --rm -v$GITHUB_WORKSPACE:/data --shm-size="2g" gizmo71/vamsys-scraper python3 /data/scrape.py
