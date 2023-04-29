@@ -1,11 +1,12 @@
 import atexit
 import json
+import logging
 import re
 import selenium.common.exceptions
 import sys
-from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromiumService
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from seleniumwire import webdriver
@@ -27,6 +28,13 @@ class ExitHooks(object):
         self.original_excepthook(exception_type, exception, args)
     def driver_quit(self):
         driver.quit()
+
+handler = logging.StreamHandler(sys.stdout)
+handler.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+logging.getLogger().addHandler(handler)
+logging.getLogger("selenium").setLevel(logging.DEBUG)
 
 options = Options()
 options.add_argument("--headless=new")
