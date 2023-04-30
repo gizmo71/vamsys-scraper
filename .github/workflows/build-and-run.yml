@@ -19,3 +19,4 @@ jobs:
           echo "config = {'username': '${VAMSYS_USERNAME}', 'password': '${VAMSYS_PASSWORD}'}" >$GITHUB_WORKSPACE/vamsys.py
           podman run --rm -v$GITHUB_WORKSPACE:/data --shm-size="2g" gizmo71/vamsys-scraper python3 /data/scrape.py
           podman run --rm -v$GITHUB_WORKSPACE:/data gizmo71/vamsys-scraper python3 /data/process.py
+          rm $GITHUB_WORKSPACE/vamsys.py
