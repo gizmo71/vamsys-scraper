@@ -20,3 +20,10 @@ jobs:
           podman run --rm -v$GITHUB_WORKSPACE:/data --shm-size="2g" gizmo71/vamsys-scraper python3 /data/scrape.py
           podman run --rm -v$GITHUB_WORKSPACE:/data gizmo71/vamsys-scraper python3 /data/process.py
           rm $GITHUB_WORKSPACE/vamsys.py
+          mkdir dist
+          cp routes.html routes.js *.vamsys.js dist/
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
