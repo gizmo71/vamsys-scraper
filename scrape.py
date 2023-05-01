@@ -93,10 +93,9 @@ for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a l
     sleep(5)
     driver.get("https://vamsys.io/documents/ranks")
     rank_div = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.ID, value='app'))
-    airline_and_map['rank_html'] = rank_div.get_attribute('innerHTML')
+    airline_and_map['rank_html'] = rank_div.get_attribute('outerHTML')
 
     all_data.append(airline_and_map)
-    break
     sleep(5)
     driver.get("https://vamsys.io/select") # Back to the airline selection page for the next airline.
 

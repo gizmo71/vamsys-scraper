@@ -1,7 +1,7 @@
 for (const [id, airline] of Object.entries(airlines)) {
     var elementId = "airline-" + id;
     document.getElementById("airline-picker").insertAdjacentHTML('beforeend', "<li><input type='checkbox' onChange='redraw();' checked id='" + elementId + "'>"
-        + "<label for='" + elementId + "' />" + airline.name + (airline.requirements ? "<sup title='" + airline.requirements + "'>*</sup>" : "") + "</li>");
+        + "<label for='" + elementId + "' title='" + airline.rank_info + "' />" + airline.name + (airline.requirements ? "<sup title='" + airline.requirements + "'>*</sup>" : "") + "</li>");
     airline.cb = document.getElementById(elementId);
 }
 

@@ -2,6 +2,7 @@ import geopy.distance
 import json
 
 from datetime import date, timedelta
+from lxml import etree
 
 with open('vamsys.json', 'r') as f:
     all_data = json.load(f)
@@ -16,6 +17,10 @@ type_mapping_by_airline = {
 airlines = {}
 airports = {}
 routes = {}
+
+def rank_info(html):
+    div = etree.HTML(html)
+    return div.xpath("normalize-space(//div[./div[normalize-space()='Hours to fly:']]/div[2])")
 
 def airport(airport):
     icao = airport['icao']
@@ -59,6 +64,7 @@ for airline in all_data:
             raise ValueError(f"{airline['airline']['name']} requires multiple PIREPs in the period")
         pirep_by = date.fromisoformat(airline['last_pirep_date']) + timedelta(days=airline['airline']['activity_requirement_period'])
         airlines[airline_id]['requirements'] = f"Next PIREP required by {pirep_by}"
+    airlines[airline_id]['rank_info'] = rank_info(airline['rank_html'])
     type_mapping = type_mapping_by_airline.get(airlines[airline_id]['name'], {})
     for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
