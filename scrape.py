@@ -84,16 +84,14 @@ for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a l
     driver.execute_script("arguments[0].scrollIntoView();", pilot_id_element) # Seems to scroll it too far up - is it the wrong element to do this to? Perhaps just run the "login(nnn)" javascript directly?
     pilot_id_element.click()
 
+    rank_div = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@class = 'row stats']")).get_attribute('outerHTML')
+
     sleep(5)
     del driver.requests
     driver.get("https://vamsys.io/destinations")
     airline_and_map = WebDriverWait(driver, 30).until(handle_destinations)
     airline_and_map['last_pirep_date'] = last_pirep_date
-
-    sleep(5)
-    driver.get("https://vamsys.io/documents/ranks")
-    rank_div = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.ID, value='app'))
-    airline_and_map['rank_html'] = rank_div.get_attribute('outerHTML')
+    airline_and_map['rank_html'] = rank_div
 
     all_data.append(airline_and_map)
     sleep(5)

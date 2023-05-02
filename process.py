@@ -1,5 +1,6 @@
 import geopy.distance
 import json
+import re
 
 from datetime import date, timedelta
 from lxml import etree
@@ -18,9 +19,21 @@ airlines = {}
 airports = {}
 routes = {}
 
+def requirement(div):
+    next_in = re.sub('^Next Rank In:? ', '', div.xpath('normalize-space(./h3/@data-original-title)'))
+    next_in = re.sub(' pts$', '', next_in)
+    current = div.xpath('normalize-space(./h3/text())').replace(' ', '')
+    units = div.xpath('normalize-space(./h6/text())')
+    return f"{next_in} {units}, current {current}"
+
 def rank_info(html):
     div = etree.HTML(html)
-    return div.xpath("normalize-space(//div[./div[normalize-space()='Hours to fly:']]/div[2])")
+    pireps = div.xpath("number(normalize-space(//div[h6/text() = 'PIREPs Filed']/h3/text()))")
+    need = 'Need:'
+    for req in div.xpath("//div[./h3[starts-with(@data-original-title, 'Next Rank In') and not(contains(@data-original-title, 'Requirement met'))]]"):
+        need = f"{need}\n{requirement(req)}"
+    need = f"{need}\nfrom some proportion of {pireps}"
+    return need
 
 def airport(airport):
     icao = airport['icao']
