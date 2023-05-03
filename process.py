@@ -19,20 +19,27 @@ airlines = {}
 airports = {}
 routes = {}
 
+def hours_or_points(s):
+    def parse_hours(match):
+        hours, minutes, seconds = (match.group(1), match.group(2), match.group(3))
+        return str(float(hours) + (float(minutes) / 60.0 + (float(seconds) / 60.0)))
+    return float(re.sub(r'(\d+):(\d\d):(\d\d)', parse_hours, s))
+
 def requirement(div):
     next_in = re.sub('^Next Rank In:? ', '', div.xpath('normalize-space(./h3/@data-original-title)'))
     next_in = re.sub(' pts$', '', next_in)
-    current = div.xpath('normalize-space(./h3/text())').replace(' ', '')
+    next_in = hours_or_points(next_in)
+    current = hours_or_points(div.xpath('normalize-space(./h3/text())').replace(' ', ''))
     units = div.xpath('normalize-space(./h6/text())')
-    return f"{next_in} {units}, current {current}"
+    return (next_in, units, current)
 
 def rank_info(html):
     div = etree.HTML(html)
     pireps = div.xpath("number(normalize-space(//div[h6/text() = 'PIREPs Filed']/h3/text()))")
     need = 'Need:'
     for req in div.xpath("//div[./h3[starts-with(@data-original-title, 'Next Rank In') and not(contains(@data-original-title, 'Requirement met'))]]"):
-        need = f"{need}\n{requirement(req)}"
-    need = f"{need}\nfrom some proportion of {pireps}"
+        next_in, units, current = requirement(req)
+        need = f"{need}\n{round(next_in, 2)} {units} (~ {round(next_in / (current / pireps), 1)} PIREPs)"
     return need
 
 def airport(airport):
