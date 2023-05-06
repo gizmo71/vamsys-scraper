@@ -7,7 +7,7 @@
   <!-- See https://github.com/henrythasler/Leaflet.Geodesic -->
   <script src="https://unpkg.com/leaflet.geodesic@2.6.1/dist/leaflet.geodesic.umd.min.js" integrity="sha512-k+3Y3fGyHbudHgKFqN4i3nME+jKQ4d2Kcj8hsNyS9y3VfKhTVB1P5Dintek7bML9Hwjg+JHXsL+6coqLXs0Hhw==" crossorigin=""></script>
   <!-- See https://github.com/makinacorpus/Leaflet.TextPath -->
-  <script src="https://www.unpkg.com/leaflet-textpath@1.2.3/leaflet.textpath.js"></script>
+  <!-- script src="https://www.unpkg.com/leaflet-textpath@1.2.3/leaflet.textpath.js"></script -->
   <!-- Consider also https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet -->
   <style>
 #map { height: 100%; width: 88%; }
@@ -28,6 +28,10 @@
     background-color: #ff7777;
     z-index: 1009 !important;
 }
+.airport-both {
+    background-color: #ff77ff;
+    z-index: 1009 !important;
+}
   </style>
   <script src="airlines.vamsys.js"></script>
   <script src="airports.vamsys.js"></script>
@@ -35,7 +39,7 @@
 </head>
 <body>
 
-<span style="float: right;">Red: outbound, Blue: inbound
+<span style="float: right;">Red: departure, Blue: destination
 <ul id="airline-picker"></ul></span>
 <div id="map"></div>
 
