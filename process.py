@@ -2,7 +2,7 @@ import geopy.distance
 import json
 import re
 
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from lxml import etree
 
 with open('vamsys.json', 'r') as f:
@@ -82,7 +82,8 @@ for airline in all_data:
             raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
         if airline['airline']['activity_requirement_value'] != 1:
             raise ValueError(f"{airline['airline']['name']} requires multiple PIREPs in the period")
-        pirep_by = date.fromisoformat(airline['last_pirep_date']) + timedelta(days=airline['airline']['activity_requirement_period'])
+        last_pirep_datetime = datetime.fromisoformat(airline['dashboard']['flightProgress']['lastPirep']['pirep_end_time'])
+        pirep_by = last_pirep_datetime.date() + timedelta(days=airline['airline']['activity_requirement_period'])
         airlines[airline_id]['requirements'] = f"Next PIREP required by {pirep_by}"
     airlines[airline_id]['rank_info'] = rank_info(airline['rank_html'])
     type_mapping = type_mapping_by_airline.get(airlines[airline_id]['name'], {})
