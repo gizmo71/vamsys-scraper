@@ -33,13 +33,14 @@ def requirement(div):
     units = div.xpath('normalize-space(./h6/text())')
     return (next_in, units, current)
 
-def rank_info(html):
+def rank_info(html, time_mode):
     div = etree.HTML(html)
     pireps = div.xpath("number(normalize-space(//div[h6/text() = 'PIREPs Filed']/h3/text()))")
     need = 'Need:'
     for req in div.xpath("//div[./h3[starts-with(@data-original-title, 'Next Rank In') and not(contains(@data-original-title, 'Requirement met'))]]"):
         next_in, units, current = requirement(req)
         need = f"{need}\n{round(next_in, 2)} {units} (~ {round(next_in / (current / pireps), 1)} PIREPs)"
+    need = f"{need}\nTime mode: {time_mode}"
     return need
 
 def airport(airport):
@@ -73,6 +74,16 @@ def map_airline_name(vamsys_name):
         return "ALVA"
     return vamsys_name
 
+def time_mode(last_pirep):
+    air_time = (datetime.fromisoformat(last_pirep['landing_time']) - datetime.fromisoformat(last_pirep['departure_time'])).total_seconds()
+    block_time = (datetime.fromisoformat(last_pirep['on_blocks_time']) - datetime.fromisoformat(last_pirep['off_blocks_time'])).total_seconds()
+    flight_length = last_pirep['flight_length']
+    if air_time == flight_length:
+        return "air"
+    elif block_time == flight_length:
+        return "block"
+    raise ValueError(f"Couldn't match flight_length {flight_length} against air {air_time} or block {block_time} time for {last_pirep['booking']['callsign']}")
+
 flyable_types = ['A20N', 'A339']
 for airline in all_data:
     airline_id = airline['airline']['id']
@@ -85,7 +96,7 @@ for airline in all_data:
         last_pirep_datetime = datetime.fromisoformat(airline['dashboard']['flightProgress']['lastPirep']['pirep_end_time'])
         pirep_by = last_pirep_datetime.date() + timedelta(days=airline['airline']['activity_requirement_period'])
         airlines[airline_id]['requirements'] = f"Next PIREP required by {pirep_by}"
-    airlines[airline_id]['rank_info'] = rank_info(airline['rank_html'])
+    airlines[airline_id]['rank_info'] = rank_info(airline['rank_html'], time_mode(airline['dashboard']['flightProgress']['lastPirep']))
     type_mapping = type_mapping_by_airline.get(airlines[airline_id]['name'], {})
     for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
