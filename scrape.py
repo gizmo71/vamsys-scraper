@@ -88,17 +88,21 @@ for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a l
     driver.execute_script("arguments[0].scrollIntoView();", pilot_id_element)
     pilot_id_element.click()
 
-    rank_div = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@id = 'app']")).get_attribute('outerHTML')
+    dashboard_rank = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@class = 'row stats']")).get_attribute('outerHTML')
     dashboard_json = WebDriverWait(driver, 30).until(handle_dashboard)
 
-    sleep(5)
+    sleep(3)
     driver.get("https://vamsys.io/destinations")
     airline_and_map = WebDriverWait(driver, 30).until(handle_destinations)
-    airline_and_map['rank_html'] = rank_div
+    airline_and_map['dashboard_rank'] = dashboard_rank
     airline_and_map['dashboard'] = dashboard_json
 
+    sleep(3)
+    driver.get("https://vamsys.io/documents/ranks")
+    airline_and_map['ranks_html'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@id = 'app']")).get_attribute('outerHTML')
+
     all_data.append(airline_and_map)
-    sleep(5)
+    sleep(3)
     driver.get("https://vamsys.io/select") # Back to the airline selection page for the next airline.
 
 with open(f'vamsys.json', 'w', encoding="utf-8") as f:

@@ -97,7 +97,7 @@ for airline in all_data:
         last_pirep_datetime = datetime.fromisoformat(airline['dashboard']['flightProgress']['lastPirep']['pirep_end_time'])
         pirep_by = last_pirep_datetime.date() + timedelta(days=airline['airline']['activity_requirement_period'])
         airlines[airline_id]['requirements'] = f"Next PIREP required by {pirep_by}"
-    airlines[airline_id]['rank_info'] = rank_info(airline['rank_html'], time_mode(airline['dashboard']['flightProgress']['lastPirep']))
+    airlines[airline_id]['rank_info'] = rank_info(airline['dashboard_rank'], time_mode(airline['dashboard']['flightProgress']['lastPirep']))
     type_mapping = type_mapping_by_airline.get(airlines[airline_id]['name'], {})
     for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
