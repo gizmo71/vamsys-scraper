@@ -88,7 +88,7 @@ for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a l
     driver.execute_script("arguments[0].scrollIntoView();", pilot_id_element)
     pilot_id_element.click()
 
-    rank_div = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@class = 'row stats']")).get_attribute('outerHTML')
+    rank_div = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@id = 'app']")).get_attribute('outerHTML')
     dashboard_json = WebDriverWait(driver, 30).until(handle_dashboard)
 
     sleep(5)

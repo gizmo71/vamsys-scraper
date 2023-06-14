@@ -41,6 +41,7 @@ def rank_info(html, time_mode):
         next_in, units, current = requirement(req)
         need = f"{need}\n{round(next_in, 2)} {units} (~ {round(next_in / (current / pireps), 1)} PIREPs)"
     need = f"{need}\nTime mode: {time_mode}"
+#TODO: look ahead at future ranks and make similar predictions for them...
     return need
 
 def airport(airport):
