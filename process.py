@@ -47,7 +47,7 @@ def rank_info(html, time_mode):
             need += f"{title}:"
             for criteria_name in target.keys():
                 next_in = target[criteria_name]
-                need += f"\t+{round(next_in, 1)} {criteria_name}"
+                need += f"\n\t+{round(next_in, 1)} {criteria_name}"
                 if achieved[criteria_name]:
                     avg_pireps = round(next_in / (achieved[criteria_name] / pireps), 1)
                     need += f" ({avg_pireps} PIREPs)"
