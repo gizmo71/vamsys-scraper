@@ -20,29 +20,39 @@ airports = {}
 routes = {}
 
 def hours_or_points(s):
+    s = s.replace(' ', '').replace(',', '')
     def parse_hours(match):
         hours, minutes, seconds = (match.group(1), match.group(2), match.group(3))
         return str(float(hours) + ((float(minutes) + float(seconds) / 60.0) / 60.0))
     return float(re.sub(r'(\d+):(\d\d):(\d\d)', parse_hours, s))
 
-def requirement(div):
-    next_in = re.sub('^Next Rank In:? ', '', div.xpath('normalize-space(./h3/@data-original-title)'))
-    next_in = re.sub(' pts$', '', next_in)
-    next_in = hours_or_points(next_in)
-    current = hours_or_points(div.xpath('normalize-space(./h3/text())').replace(' ', ''))
-    units = div.xpath('normalize-space(./h6/text())')
-    return (next_in, units, current)
+rank_criteria = {"Hours": 3, "Points": 4, "Bonus Points": 5}
 
 def rank_info(html, time_mode):
     div = etree.HTML(html)
-    pireps = div.xpath("number(normalize-space(//div[h6/text() = 'PIREPs Filed']/h3/text()))")
-    need = 'Need:'
-    for req in div.xpath("//div[./h3[starts-with(@data-original-title, 'Next Rank In') and not(contains(@data-original-title, 'Requirement met'))]]"):
-        next_in, units, current = requirement(req)
-        need = f"{need}\n{round(next_in, 2)} {units} (~ {round(next_in / (current / pireps), 1)} PIREPs)"
-    need = f"{need}\nTime mode: {time_mode}"
-#TODO: look ahead at future ranks and make similar predictions for them...
-    return need
+    current_div = div.xpath("//div[@class = 'row stats']")[0]
+    achieved = {}
+    for criteria_name in rank_criteria.keys():
+        achieved[criteria_name] = hours_or_points(current_div.xpath("normalize-space(./div[h6 = $criteria_name]/h3)", criteria_name = criteria_name))
+    pireps = div.xpath("number(normalize-space(//div[h6/text() = 'PIREPs Filed']/h3))")
+    need = ''
+    for rank in div.xpath("//table[thead/tr/th[text() = 'Epaulette']]/tbody/tr[td[3]/text() != 'By Appointment Only']"):
+        title = rank.xpath("string(./td[2])")
+        target = {}
+        for criteria_name, cell_index in rank_criteria.items():
+            next_in = hours_or_points(rank.xpath("normalize-space(./td[$cell_index])", cell_index = cell_index)) - achieved[criteria_name]
+            if next_in > 0:
+                target[criteria_name] = next_in
+        if target:
+            need += f"{title}:"
+            for criteria_name in target.keys():
+                next_in = target[criteria_name]
+                need += f"\t+{round(next_in, 1)} {criteria_name}"
+                if achieved[criteria_name]:
+                    avg_pireps = round(next_in / (achieved[criteria_name] / pireps), 1)
+                    need += f" ({avg_pireps} PIREPs)"
+            need += "\n"
+    return f"{need}Time mode: {time_mode}"
 
 def airport(airport):
     icao = airport['icao']
@@ -97,7 +107,7 @@ for airline in all_data:
         last_pirep_datetime = datetime.fromisoformat(airline['dashboard']['flightProgress']['lastPirep']['pirep_end_time'])
         pirep_by = last_pirep_datetime.date() + timedelta(days=airline['airline']['activity_requirement_period'])
         airlines[airline_id]['requirements'] = f"Next PIREP required by {pirep_by}"
-    airlines[airline_id]['rank_info'] = rank_info(airline['dashboard_rank'], time_mode(airline['dashboard']['flightProgress']['lastPirep']))
+    airlines[airline_id]['rank_info'] = rank_info(airline['ranks_html'], time_mode(airline['dashboard']['flightProgress']['lastPirep']))
     type_mapping = type_mapping_by_airline.get(airlines[airline_id]['name'], {})
     for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
