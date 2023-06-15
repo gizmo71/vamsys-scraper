@@ -22,7 +22,7 @@ routes = {}
 def hours_or_points(s):
     def parse_hours(match):
         hours, minutes, seconds = (match.group(1), match.group(2), match.group(3))
-        return str(float(hours) + (float(minutes) / 60.0 + (float(seconds) / 60.0)))
+        return str(float(hours) + ((float(minutes) + float(seconds) / 60.0) / 60.0))
     return float(re.sub(r'(\d+):(\d\d):(\d\d)', parse_hours, s))
 
 def requirement(div):
