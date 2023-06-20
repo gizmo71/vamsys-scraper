@@ -89,9 +89,9 @@ def time_mode(last_pirep):
     air_time = (datetime.fromisoformat(last_pirep['landing_time']) - datetime.fromisoformat(last_pirep['departure_time'])).total_seconds()
     block_time = (datetime.fromisoformat(last_pirep['on_blocks_time']) - datetime.fromisoformat(last_pirep['off_blocks_time'])).total_seconds()
     flight_length = last_pirep['flight_length']
-    if air_time == flight_length:
+    if abs(air_time - flight_length) <= 2:
         return "air"
-    elif block_time == flight_length:
+    elif abs(block_time - flight_length) <= 2:
         return "block"
     raise ValueError(f"Couldn't match flight_length {flight_length} against air {air_time} or block {block_time} time for {last_pirep['booking']['callsign']}")
 
