@@ -104,7 +104,7 @@ function airportClicked(e) {
 
 for (icao in airports) {
     const airport = airports[icao];
-    const icon = L.divIcon({html: "<span id='airport-" + icao + "'>" + airportNeutral + "</span></br>" + airport['iata'], className: 'airport'});
+    const icon = L.divIcon({html: "<span id='airport-" + icao + "'>" + airportNeutral + "</span></br>" + airport['iata'], className: 'airport', iconAnchor: [18, 15], iconSize: [36, 30]});
     airport.marker = L.marker(airport.latlng, {icao: icao, icon: icon}).addTo(map)
         .bindTooltip("<b>" + icao + "</b><br/>" + airport.names.join('<br/>'))
         .on('click', airportClicked);
