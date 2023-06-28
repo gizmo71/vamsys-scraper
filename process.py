@@ -2,6 +2,7 @@ import geopy.distance
 import json
 import re
 
+from math import isnan
 from datetime import date, datetime, timedelta
 from lxml import etree
 
@@ -34,22 +35,30 @@ def rank_info(html, time_mode):
     achieved = {}
     for criteria_name in rank_criteria.keys():
         achieved[criteria_name] = hours_or_points(current_div.xpath("normalize-space(./div[h6 = $criteria_name]/h3)", criteria_name = criteria_name))
+    next_rank = div.xpath("normalize-space(//div[normalize-space(div) = 'Next Rank:']/div[2])")
+    points_to_earn = div.xpath("number(//div[normalize-space(div) = 'Points to earn:']/div[2])")
+    if not isnan(points_to_earn) and achieved['Bonus Points']:
+        next_points_target = hours_or_points(div.xpath("normalize-space(//tr[td[2] = $next_rank]/td[4])", next_rank = next_rank))
+        if next_points_target == achieved['Points'] + achieved['Bonus Points'] + points_to_earn:
+            achieved['Points'] += achieved['Bonus Points']
+        elif next_points_target != achieved['Points'] + points_to_earn:
+            raise ValueError(f"Failed to determine whether points target include bonus points for {html}")
     pireps = div.xpath("number(normalize-space(//div[h6/text() = 'PIREPs Filed']/h3))")
     need = ''
     for rank in div.xpath("//table[thead/tr/th[text() = 'Epaulette']]/tbody/tr[td[3]/text() != 'By Appointment Only']"):
         title = rank.xpath("string(./td[2])")
         target = {}
         for criteria_name, cell_index in rank_criteria.items():
-            next_in = hours_or_points(rank.xpath("normalize-space(./td[$cell_index])", cell_index = cell_index)) - achieved[criteria_name]
-            if next_in > 0:
-                target[criteria_name] = next_in
+            rank_in = hours_or_points(rank.xpath("normalize-space(./td[$cell_index])", cell_index = cell_index)) - achieved[criteria_name]
+            if rank_in > 0:
+                target[criteria_name] = rank_in
         if target:
             need += f"{title}:"
             for criteria_name in target.keys():
-                next_in = target[criteria_name]
-                need += f"\n\t+{round(next_in, 1)} {criteria_name}"
+                rank_in = target[criteria_name]
+                need += f"\n\t+{round(rank_in, 1)} {criteria_name}"
                 if achieved[criteria_name]:
-                    avg_pireps = round(next_in / (achieved[criteria_name] / pireps), 1)
+                    avg_pireps = round(rank_in / (achieved[criteria_name] / pireps), 1)
                     need += f" ({avg_pireps} PIREPs)"
             need += "\n"
     return f"{need}Time mode: {time_mode}"
