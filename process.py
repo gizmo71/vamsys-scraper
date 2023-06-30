@@ -35,16 +35,19 @@ def rank_info(html, time_mode):
     achieved = {}
     for criteria_name in rank_criteria.keys():
         achieved[criteria_name] = hours_or_points(current_div.xpath("normalize-space(./div[h6 = $criteria_name]/h3)", criteria_name = criteria_name))
+    need = ''
     next_rank = div.xpath("normalize-space(//div[normalize-space(div) = 'Next Rank:']/div[2])")
     points_to_earn = div.xpath("number(//div[normalize-space(div) = 'Points to earn:']/div[2])")
     if not isnan(points_to_earn) and achieved['Bonus Points']:
         next_points_target = hours_or_points(div.xpath("normalize-space(//tr[td[2] = $next_rank]/td[4])", next_rank = next_rank))
         if next_points_target == achieved['Points'] + achieved['Bonus Points'] + points_to_earn:
             achieved['Points'] += achieved['Bonus Points']
-        elif next_points_target != achieved['Points'] + points_to_earn:
+            need += "Bonus points counts towards normal points total\n"
+        elif next_points_target == achieved['Points'] + points_to_earn:
+            need += "Bonus points not included in normal points total\n"
+        else:
             raise ValueError(f"Failed to determine whether points target include bonus points for {html}")
     pireps = div.xpath("number(normalize-space(//div[h6/text() = 'PIREPs Filed']/h3))")
-    need = ''
     for rank in div.xpath("//table[thead/tr/th[text() = 'Epaulette']]/tbody/tr[td[3]/text() != 'By Appointment Only']"):
         title = rank.xpath("string(./td[2])")
         target = {}
