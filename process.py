@@ -42,7 +42,7 @@ def rank_info(html, time_mode):
         next_points_target = hours_or_points(div.xpath("normalize-space(//tr[td[2] = $next_rank]/td[4])", next_rank = next_rank))
         if next_points_target == achieved['Points'] + achieved['Bonus Points'] + points_to_earn:
             achieved['Points'] += achieved['Bonus Points']
-            need += "Bonus points counts towards normal points total\n"
+            need += "Bonus points count towards normal points total\n"
         elif next_points_target == achieved['Points'] + points_to_earn:
             need += "Bonus points not included in normal points total\n"
         else:
