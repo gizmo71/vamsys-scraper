@@ -46,7 +46,7 @@ def rank_info(html, time_mode):
         elif next_points_target == achieved['Points'] + points_to_earn:
             need += "Bonus points not included in normal points total\n"
         else:
-            raise ValueError(f"Failed to determine whether points target include bonus points for {html}")
+            raise ValueError(f"Failed to determine whether points target include bonus points for {html}; target {next_points_target} P/BP {achieved['Points']}/{achieved['Bonus Points']} to earn {points_to_earn}")
     pireps = div.xpath("number(normalize-space(//div[h6/text() = 'PIREPs Filed']/h3))")
     for rank in div.xpath("//table[thead/tr/th[text() = 'Epaulette']]/tbody/tr[td[3]/text() != 'By Appointment Only']"):
         title = rank.xpath("string(./td[2])")
