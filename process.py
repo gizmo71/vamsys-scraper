@@ -2,12 +2,10 @@ import geopy.distance
 import json
 import re
 
-from math import isnan
 from datetime import date, datetime, timedelta
+from glob import glob
+from math import isnan
 from lxml import etree
-
-with open('vamsys.json', 'r') as f:
-    all_data = json.load(f)
 
 type_mapping_by_airline = {
     'ALVA': {'A333':'A339'},
@@ -108,7 +106,11 @@ def time_mode(last_pirep):
     raise ValueError(f"Couldn't match flight_length {flight_length} against air {air_time} or block {block_time} time for {last_pirep['booking']['callsign']}")
 
 flyable_types = ['A20N', 'A339']
-for airline in all_data:
+
+for file in glob('vamsys.*.json'):
+    with open(file, 'r') as f:
+        airline = json.load(f)
+    print(file)
     airline_id = airline['airline']['id']
     airlines[airline_id] = {'name': map_airline_name(airline['airline']['name'])}
     if airline['airline']['activity_requirements']:

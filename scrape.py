@@ -75,11 +75,11 @@ def handle_dashboard(driver):
             return json.loads(body)
     return None
 
-all_data = []
-
 # Or something from https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
 pilot_id_elements = WebDriverWait(driver, 30).until(lambda d: d.find_elements(by=By.XPATH, value="//div[.//p[text()='PIREPs Filed']]/dl/dd/div/button[./i[@class='fal fa-plane-departure']]"))
-for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a list so it doesn't hang onto the elements for too long.
+pilot_ids = list(map(lambda e: e.text, pilot_id_elements))
+print(f'IDS: {pilot_ids}')
+for pilot_id in pilot_ids: # Convert to a list so it doesn't hang onto the elements for too long.
     del driver.requests
 
     print(pilot_id)
@@ -101,9 +101,8 @@ for pilot_id in list(map(lambda e: e.text, pilot_id_elements)): # Convert to a l
     driver.get("https://vamsys.io/documents/ranks")
     airline_and_map['ranks_html'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@id = 'app']")).get_attribute('outerHTML')
 
-    all_data.append(airline_and_map)
+    with open(f'vamsys.{pilot_id}.json', 'w', encoding="utf-8") as f:
+        json.dump(airline_and_map, f, indent=4)
+
     sleep(3)
     driver.get("https://vamsys.io/select") # Back to the airline selection page for the next airline.
-
-with open(f'vamsys.json', 'w', encoding="utf-8") as f:
-    json.dump(all_data, f, indent=4)
