@@ -1,9 +1,11 @@
+import argparse
 import atexit
 import json
 import logging
 import re
 import selenium.common.exceptions
 import sys
+
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromiumService
 from selenium.webdriver.common.by import By
@@ -16,6 +18,10 @@ from webdriver_manager.core.utils import ChromeType
 from time import sleep
 
 from vamsys import config
+
+parser = argparse.ArgumentParser(description='Scrape route and other data from vAMSYS')
+parser.add_argument('pilot_ids', help='Only scrape specific IDs', nargs='*')
+args = parser.parse_args()
 
 class ExitHooks(object):
     def __init__(self):
@@ -77,9 +83,12 @@ def handle_dashboard(driver):
 
 # Or something from https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
 pilot_id_elements = WebDriverWait(driver, 30).until(lambda d: d.find_elements(by=By.XPATH, value="//div[.//p[text()='PIREPs Filed']]/dl/dd/div/button[./i[@class='fal fa-plane-departure']]"))
-pilot_ids = list(map(lambda e: e.text, pilot_id_elements))
-print(f'IDS: {pilot_ids}')
-for pilot_id in pilot_ids: # Convert to a list so it doesn't hang onto the elements for too long.
+all_pilot_ids = list(map(lambda e: e.text, pilot_id_elements))
+print(f'All pilot_ids: {all_pilot_ids}')
+pilot_ids = args.pilot_ids or all_pilot_ids
+print(f'filtered: {pilot_ids}')
+
+for pilot_id in pilot_ids:
     del driver.requests
 
     print(pilot_id)
