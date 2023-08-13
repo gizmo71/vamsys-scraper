@@ -86,6 +86,9 @@ pilot_id_elements = WebDriverWait(driver, 30).until(lambda d: d.find_elements(by
 all_pilot_ids = list(map(lambda e: e.text, pilot_id_elements))
 print(f'All pilot_ids: {all_pilot_ids}')
 pilot_ids = args.pilot_ids or all_pilot_ids
+unknown_ids = set(pilot_ids) - set(all_pilot_ids)
+if unknown_ids:
+    raise ValueError(f"Unknown airlines: {unknown_ids}; known airlines are {all_pilot_ids}")
 print(f'filtered: {pilot_ids}')
 
 for pilot_id in pilot_ids:
