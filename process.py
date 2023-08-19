@@ -8,10 +8,10 @@ from math import isnan
 from lxml import etree
 
 type_mapping_by_airline = {
-    'ALVA': {'A333':'A339','A320':'A20N'},
-    'Dan Air Virtual': {'A320':'A20N', 'A333':'A339'},
+    'ALVA': {'A333':'A339','A320':'A20N (sub)'},
+    'Dan Air Virtual': {'A320':'A20N (sub)', 'A333':'A339'},
     'vSAS': {'A333':'A339'},
-    'vTCXgroup': {'A320':'A20N'}
+    'vTCXgroup': {'A320':'A20N (sub)'}
 }
 
 airlines = {}
@@ -105,7 +105,7 @@ def time_mode(last_pirep):
         return "block"
     raise ValueError(f"Couldn't match flight_length {flight_length} against air {air_time} or block {block_time} time for {last_pirep['booking']['callsign']}")
 
-flyable_types = ['A20N', 'A339']
+flyable_types = ['A20N', 'A20N (sub)', 'A339']
 
 for file in glob('vamsys.*.json'):
     with open(file, 'r') as f:
