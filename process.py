@@ -1,5 +1,6 @@
 import geopy.distance
 import json
+import logging
 import re
 
 from datetime import date, datetime, timedelta
@@ -12,8 +13,10 @@ type_mapping_by_airline = {
     'Dan Air Virtual': {'A320':'A20N', 'A333':'A339'},
     'vJBU': {'A320':'A20N'},
     'vSAS': {'A333':'A339'},
-    'vTCXgroup': {'A320':'A20N'}
+    'vTCXgroup': {'A320':'A20N'},
+    'Delta Virtual': {'A320':'A20N', 'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3'} # Not 100% about all of these...
 }
+exclude_types = set(['B703', 'B712', 'B720', 'CONC', 'DC6', 'JU52', 'L101', 'MD11' 'MD80', 'MD82', 'PC12', 'RJ1H', 'RJ85', 'SF34', 'SW4'])
 
 aircraft = set()
 airlines = {}
@@ -118,7 +121,8 @@ for file in glob('vamsys.*.json'):
         if not airline['airline']['activity_requirement_type_pireps']:
             raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
         if airline['airline']['activity_requirement_value'] != 1:
-            raise ValueError(f"{airline['airline']['name']} requires multiple PIREPs in the period")
+            #raise ValueError(f"{airline['airline']['name']} requires multiple PIREPs in the period")
+            logging.critical(f"{airline['airline']['name']} requires multiple PIREPs in the period, which cannot currently be reported")
         last_pirep_datetime = datetime.fromisoformat(airline['dashboard']['flightProgress']['lastPirep']['pirep_end_time'])
         pirep_by = last_pirep_datetime.date() + timedelta(days=airline['airline']['activity_requirement_period'])
         airlines[airline_id]['requirements'] = f"Next PIREP required by {pirep_by}"
@@ -129,6 +133,8 @@ for file in glob('vamsys.*.json'):
         for dest in route['destinations']:
             to_latlon = (dest['latitude'], dest['longitude'])
             for type in [t for t in map(lambda type: type_mapping.get(type, type), dest['types'].split(',')) if 3 <= len(t) <= 4]:
+                if type in exclude_types:
+                    continue
                 aircraft.add(type)
                 airport(route)
                 airport(dest)
