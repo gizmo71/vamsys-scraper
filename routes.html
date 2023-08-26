@@ -30,15 +30,22 @@
     background-color: #ff77ff;
     z-index: 1009 !important;
 }
+
+ul {
+    list-style: none;
+}
   </style>
   <script src="airlines.vamsys.js"></script>
+  <script src="aircraft.vamsys.js"></script>
   <script src="airports.vamsys.js"></script>
   <script src="routes.vamsys.js"></script>
 </head>
 <body>
 
-<span style="float: right;">Red: departure, Blue: destination
-<ul id="airline-picker"></ul></span>
+<div style="float: right;">Red: departure, Blue: destination
+<ul id="airline-picker"></ul>
+<ul id="aircraft-picker" style="columns: 2;"></ul>
+</div>
 <div id="map"></div>
 
 <script src="routes.js"></script>

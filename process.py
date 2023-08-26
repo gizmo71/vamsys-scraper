@@ -8,12 +8,14 @@ from math import isnan
 from lxml import etree
 
 type_mapping_by_airline = {
-    'ALVA': {'A333':'A339','A320':'A20N (sub)'},
-    'Dan Air Virtual': {'A320':'A20N (sub)', 'A333':'A339'},
+    'ALVA': {'A333':'A339','A320':'A20N ', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'},
+    'Dan Air Virtual': {'A320':'A20N', 'A333':'A339'},
+    'vJBU': {'A320':'A20N'},
     'vSAS': {'A333':'A339'},
-    'vTCXgroup': {'A320':'A20N (sub)'}
+    'vTCXgroup': {'A320':'A20N'}
 }
 
+aircraft = set()
 airlines = {}
 airports = {}
 routes = {}
@@ -105,7 +107,6 @@ def time_mode(last_pirep):
         return "block"
     raise ValueError(f"Couldn't match flight_length {flight_length} against air {air_time} or block {block_time} time for {last_pirep['booking']['callsign']}")
 
-flyable_types = ['A20N', 'A20N (sub)', 'A339']
 
 for file in glob('vamsys.*.json'):
     with open(file, 'r') as f:
@@ -127,7 +128,8 @@ for file in glob('vamsys.*.json'):
         from_latlon = (route['latitude'], route['longitude'])
         for dest in route['destinations']:
             to_latlon = (dest['latitude'], dest['longitude'])
-            for type in [t for t in map(lambda type: type_mapping.get(type, type), dest['types'].split(',')) if t in flyable_types]:
+            for type in [t for t in map(lambda type: type_mapping.get(type, type), dest['types'].split(',')) if 3 <= len(t) <= 4]:
+                aircraft.add(type)
                 airport(route)
                 airport(dest)
                 dist = round(geopy.distance.distance(from_latlon, to_latlon).nautical)
@@ -143,6 +145,7 @@ def writeJsonJs(obj, name):
         json.dump(obj, f, indent=4, default=serialize_sets)
         f.write(';');
 
+writeJsonJs(sorted(aircraft), 'aircraft');
 writeJsonJs(airlines, 'airlines')
 writeJsonJs(airports, 'airports')
 writeJsonJs(routes, 'routes')
