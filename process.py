@@ -16,7 +16,7 @@ type_mapping_by_airline = {
     'vTCXgroup': {'A320':'A20N'},
     'Delta Virtual': {'A320':'A20N', 'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3'} # Not 100% about all of these...
 }
-exclude_types = set(['B703', 'B712', 'B720', 'CONC', 'DC6', 'JU52', 'L101', 'MD11' 'MD80', 'MD82', 'PC12', 'RJ1H', 'RJ85', 'SF34', 'SW4'])
+exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'CONC', 'DC6', 'F50', 'JU52', 'L101', 'MD11' 'MD80', 'MD82', 'PC12', 'RJ1H', 'RJ85', 'SF34', 'SW4'])
 
 aircraft = set()
 airlines = {}
@@ -120,12 +120,9 @@ for file in glob('vamsys.*.json'):
     if airline['airline']['activity_requirements']:
         if not airline['airline']['activity_requirement_type_pireps']:
             raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
-        if airline['airline']['activity_requirement_value'] != 1:
-            #raise ValueError(f"{airline['airline']['name']} requires multiple PIREPs in the period")
-            logging.critical(f"{airline['airline']['name']} requires multiple PIREPs in the period, which cannot currently be reported")
         last_pirep_datetime = datetime.fromisoformat(airline['dashboard']['flightProgress']['lastPirep']['pirep_end_time'])
         pirep_by = last_pirep_datetime.date() + timedelta(days=airline['airline']['activity_requirement_period'])
-        airlines[airline_id]['requirements'] = f"Next PIREP required by {pirep_by}"
+        airlines[airline_id]['requirements'] = f"Next {airline['airline']['activity_requirement_value']} PIREP(s) required by {pirep_by}"
     airlines[airline_id]['rank_info'] = rank_info(airline['ranks_html'], time_mode(airline['dashboard']['flightProgress']['lastPirep']))
     type_mapping = type_mapping_by_airline.get(airlines[airline_id]['name'], {})
     for route in airline['map']['routes']:
