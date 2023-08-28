@@ -74,6 +74,9 @@ def airport(airport):
     latitude = float(airport['latitude'])
     longitude = float(airport['longitude'])
     name = airport['name']
+    iata = airport['iata']
+    if not iata:
+        iata = {'EGHL':'QLA', 'LROV':'GHV', 'VIKA':'KNU', 'VOBG':'VOBG'}.get(icao, None)
     if icao in airports:
         airports[icao]['names'].add(name)
         latlng = [latitude, longitude]
@@ -84,8 +87,10 @@ def airport(airport):
                 raise ValueError(msg)
             elif diff >= 0.01:
                 print(msg)
+        if airports[icao]['iata'] != iata:
+            raise ValueError(f"{iaco} has inconsistent IATA codes, {airports[icao]['iata']} versus {iata}")
     else:
-        airports[icao] = {'latlng': [latitude, longitude], 'iata': airport['iata'], 'names': {name}, 'inbound': 0, 'outbound': 0}
+        airports[icao] = {'latlng': [latitude, longitude], 'iata': iata, 'names': {name}, 'inbound': 0, 'outbound': 0}
 
 def add_or_update_route(origin, destination, distance, airline, type):
     key = f"{origin}-{destination}"
@@ -147,6 +152,10 @@ def writeJsonJs(obj, name):
         f.write(f'const {name} = ');
         json.dump(obj, f, indent=4, default=serialize_sets)
         f.write(';');
+
+bad_airports = {icao: airport for icao, airport in airports.items() if not airport['iata']}
+if bad_airports:
+    print(f"Airports without IATA codes: {', '.join(bad_airports)}")
 
 writeJsonJs(sorted(aircraft), 'aircraft');
 writeJsonJs(airlines, 'airlines')
