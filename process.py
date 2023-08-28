@@ -117,9 +117,9 @@ def time_mode(last_pirep):
 
 
 for file in glob('vamsys.*.json'):
+    print(file)
     with open(file, 'r') as f:
         airline = json.load(f)
-    print(file)
     airline_id = airline['airline']['id']
     airlines[airline_id] = {'name': map_airline_name(airline['airline']['name'])}
     if airline['airline']['activity_requirements']:
