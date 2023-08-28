@@ -81,6 +81,13 @@ def handle_dashboard(driver):
             return json.loads(body)
     return None
 
+def handle_pireps(driver):
+    for request in filter(lambda req: req.response, driver.requests):
+        body = sw_decode(request.response.body, request.response.headers.get('Content-Encoding', 'identity'))
+        body = body.decode("utf-8")
+        if request.url == 'https://vamsys.io/api/v1/pilot/pireps':
+            return json.loads(body)
+
 # Or something from https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
 pilot_id_elements = WebDriverWait(driver, 30).until(lambda d: d.find_elements(by=By.XPATH, value="//div[.//p[text()='PIREPs Filed']]/dl/dd/div/button[./i[@class='fal fa-plane-departure']]"))
 all_pilot_ids = list(map(lambda e: e.text, pilot_id_elements))
@@ -100,21 +107,23 @@ for pilot_id in pilot_ids:
     driver.execute_script("arguments[0].scrollIntoView();", pilot_id_element)
     pilot_id_element.click()
 
-    dashboard_rank = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@class = 'row stats']")).get_attribute('outerHTML')
     dashboard_json = WebDriverWait(driver, 30).until(handle_dashboard)
 
-    sleep(3)
+    sleep(1)
     driver.get("https://vamsys.io/destinations")
     airline_and_map = WebDriverWait(driver, 30).until(handle_destinations)
-    airline_and_map['dashboard_rank'] = dashboard_rank
     airline_and_map['dashboard'] = dashboard_json
 
-    sleep(3)
+    sleep(1)
+    driver.get("https://vamsys.io/pireps")
+    airline_and_map['pireps'] = WebDriverWait(driver, 30).until(handle_pireps)
+
+    sleep(1)
     driver.get("https://vamsys.io/documents/ranks")
     airline_and_map['ranks_html'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@id = 'app']")).get_attribute('outerHTML')
 
     with open(f'vamsys.{pilot_id}.json', 'w', encoding="utf-8") as f:
         json.dump(airline_and_map, f, indent=4)
 
-    sleep(3)
+    sleep(1)
     driver.get("https://vamsys.io/select") # Back to the airline selection page for the next airline.
