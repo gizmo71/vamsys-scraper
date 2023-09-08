@@ -10,7 +10,7 @@ for (const [index, icao] of Object.entries(aircraft)) {
     var flyable = icao == 'A20N' || icao == 'A320' || icao == 'A339';
     document.getElementById("aircraft-picker").insertAdjacentHTML('beforeend',
         `<li><input type='checkbox' ${flyable ? 'checked ' : ''}id='type-${icao}' onmouseover='redraw(undefined, "${icao}");' onmouseout='redraw();' onChange='redraw();'>`
-        + `<label for='${icao}' />${icao}</li>`);
+        + `<label for='type-${icao}' />${icao}</li>`);
 }
 
 var map = L.map('map').setView([51.55, 10.1], 4.5);
