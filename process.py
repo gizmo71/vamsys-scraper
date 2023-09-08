@@ -9,14 +9,19 @@ from math import isnan
 from lxml import etree
 
 type_mapping_by_airline = {
-    'ALVA': {'A333':'A339','A320':'A20N ', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'},
-    'Dan Air Virtual': {'A320':'A20N', 'A333':'A339'},
-    'vJBU': {'A320':'A20N'},
+# Removed 'A320':'A20N ', look into LatinVFR
+    'ALVA': {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'},
+# Removed 'A320':'A20N ', look into LatinVFR
+    'Dan Air Virtual': {'A333':'A339'},
+# Removed 'vJBU': {'A320':'A20N'}, look into LatinVFR
     'vSAS': {'A333':'A339'},
-    'vTCXgroup': {'A320':'A20N'},
-    'Delta Virtual': {'A320':'A20N', 'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3'} # Not 100% about all of these...
+# Removed 'vTCXgroup': {'A320':'A20N'}, look into LatinVFR
+# Removed 'A320':'A20N', look into LatinVFR
+    'Delta Virtual': {'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3'} # Not 100% about all of these...
 }
-exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'CONC', 'DC6', 'F50', 'JU52', 'L101', 'MD11' 'MD80', 'MD82', 'PC12', 'RJ1H', 'RJ85', 'SF34', 'SW4'])
+exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B742', 'B744', 'B772', 'B773', 'B77L', 'B77W',
+                     'CONC', 'DC6', 'DH8D', 'F50', 'JU52', 'L101', 'MD11' 'MD80', 'MD82', 'PC12',
+                     'RJ1H', 'RJ85', 'SF34', 'SW4'])
 
 aircraft = set()
 airlines = {}
@@ -86,17 +91,18 @@ def airport(airport):
             if diff >= 0.8:
                 raise ValueError(msg)
             elif diff >= 0.025:
+                # Consider using logging and suppressing duplicates a la https://stackoverflow.com/questions/44691558/suppress-multiple-messages-with-same-content-in-python-logging-module-aka-log-co
                 print(msg)
         if airports[icao]['iata'] != iata:
             raise ValueError(f"{iaco} has inconsistent IATA codes, {airports[icao]['iata']} versus {iata}")
     else:
         airports[icao] = {'latlng': [latitude, longitude], 'iata': iata, 'names': {name}, 'inbound': 0, 'outbound': 0}
 
-def add_or_update_route(origin, destination, distance, airline, type):
+def add_or_update_route(origin, destination, distance, airline, type, callsigns):
     key = f"{origin}-{destination}"
     route = routes.setdefault(key, {'distance': distance, 'type_to_airlines': {}})
-    type_to_airlines = route['type_to_airlines'].setdefault(type, set())
-    type_to_airlines.add(airline)
+    type_to_airlines = route['type_to_airlines'].setdefault(type, {})
+    type_to_airlines[airline] = callsigns
     airports[origin]['outbound'] += 1
     airports[destination]['inbound'] += 1
 
@@ -136,14 +142,12 @@ for file in glob('vamsys.*.json'):
         from_latlon = (route['latitude'], route['longitude'])
         for dest in route['destinations']:
             to_latlon = (dest['latitude'], dest['longitude'])
-            for type in [t for t in map(lambda type: type_mapping.get(type, type), dest['types'].split(',')) if 3 <= len(t) <= 4]:
-                if type in exclude_types:
-                    continue
+            for type in [t for t in map(lambda type: type_mapping.get(type, type), dest['types'].split(',')) if 3 <= len(t) <= 4 and not t in exclude_types]:
                 aircraft.add(type)
                 airport(route)
                 airport(dest)
                 dist = round(geopy.distance.distance(from_latlon, to_latlon).nautical)
-                add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_id, type)
+                add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_id, type, dest['callsigns'])
 
 def writeJsonJs(obj, name):
     def serialize_sets(obj):

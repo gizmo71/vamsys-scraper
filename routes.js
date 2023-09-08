@@ -7,7 +7,7 @@ for (const [id, airline] of Object.entries(airlines)) {
 }
 
 for (const [index, icao] of Object.entries(aircraft)) {
-    var flyable = icao == 'A20N' || icao == 'A339';
+    var flyable = icao == 'A20N' || icao == 'A320' || icao == 'A339';
     document.getElementById("aircraft-picker").insertAdjacentHTML('beforeend',
         `<li><input type='checkbox' ${flyable ? 'checked ' : ''}id='type-${icao}' onmouseover='redraw(undefined, "${icao}");' onmouseout='redraw();' onChange='redraw();'>`
         + `<label for='${icao}' />${icao}</li>`);
@@ -32,11 +32,11 @@ const airportArrive = "\ud83d\udeec"; // 1F6EC
 
 function typesToAirlineNames(route, airlineFilter, typeFilter) {
     var typeToNames = new Map();
-    for (const [type, allAirlineIds] of Object.entries(route.type_to_airlines)) {
+    for (const [type, allAirlineIdsToCallsigns] of Object.entries(route.type_to_airlines)) {
         if (!typeFilter(type)) continue;
-        var airlineIds = allAirlineIds.filter(airlineFilter);
-        if (airlineIds.length) {
-            typeToNames.set(type, airlineIds.map(id => airlines[id].name).join(', '));
+        var airlineIdsToCallsigns = Object.entries(allAirlineIdsToCallsigns).filter(([id, _]) => airlineFilter(id));
+        if (airlineIdsToCallsigns.length) {
+            typeToNames.set(type, airlineIdsToCallsigns.map(([id, callsigns]) => airlines[id].name + ' (' + callsigns + ')').join(', '));
         }
     }
     return typeToNames;
