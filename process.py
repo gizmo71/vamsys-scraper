@@ -8,20 +8,36 @@ from glob import glob
 from math import isnan
 from lxml import etree
 
-type_mapping_by_airline = {
-# Removed 'A320':'A20N ', look into LatinVFR
-    'ALVA': {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'},
-# Removed 'A320':'A20N ', look into LatinVFR
-    'Dan Air Virtual': {'A333':'A339'},
-# Removed 'vJBU': {'A320':'A20N'}, look into LatinVFR
-    'vSAS': {'A333':'A339'},
-# Removed 'vTCXgroup': {'A320':'A20N'}, look into LatinVFR
-# Removed 'A320':'A20N', look into LatinVFR
-    'Delta Virtual': {'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3'} # Not 100% about all of these...
+airline_mappings = {
+    'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'type_mapping': # Removed 'A320':'A20N', look into LatinVFR
+        {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'}},
+    'vANA'                             :{'display_name':'All Nippon'},
+    'vBAW'                             :{'display_name':'British Airways'},
+    'Virtual Air China'                :{'display_name':'Air China'},
+    'Dan Air Virtual'                  :{'display_name':'Dan Air', 'type_mapping':{'A333':'A339'}}, # Removed {'A320':'A20N'}, look into LatinVFR
+    'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3'}}, # Mappings questionable...
+    'VEZY'                             :{'display_name':'EasyJet'},
+    'vEWG'                             :{'display_name':'Eurowings'},
+    'AirGoldberg'                      :{'display_name':'Goldberg'},
+    'IndiGo Virtual'                   :{'display_name':'IndiGo'},
+    'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
+    'LH-Virtual'                       :{'display_name':'Lufthansa'},
+    'vRYR'                             :{'display_name':'Ryanair'},
+    'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
+    'vspirit'                          :{'display_name':'Spirit'},
+    'vTCXgroup'                        :{'display_name': 'Thomas Cook'}, # Removed {'A320':'A20N'}, look into LatinVFR
+    'WZZ Virtual'                      :{'display_name':'Wizz'},
 }
-exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B742', 'B744', 'B772', 'B773', 'B77L', 'B77W',
-                     'CONC', 'DC6', 'DH8D', 'F50', 'JU52', 'L101', 'MD11' 'MD80', 'MD82', 'PC12',
-                     'RJ1H', 'RJ85', 'SF34', 'SW4'])
+exclude_types = set(['AJ27', 'B703', 'B712', 'B720',
+                     'B461', 'B462', 'B463',
+                     'B38M', 'B732',  'B733', 'B734', 'B735', 'B736', 'B737', 'B738', 'B739',
+                     'B742', 'B744', 'B772', 'B773', 'B77L', 'B77W', 'B77F',
+                     'B752', 'B753', 'B763', 'B764',
+                     'B788', 'B789', 'B78X',
+                     'CONC', 'CRJ2', 'CRJ7', 'CRJ9', 'CRJX', 'DC6', 'DC10', 'DH8D',
+                     'E145', 'E170', 'E175', 'E190', 'E195',
+                     'F28', 'F50', 'JU52', 'L101', 'MD11', 'MD80', 'MD82', 'PC12',
+                     'RJ1H', 'RJ85', 'SH36', 'SF34', 'SW4'])
 
 aircraft = set()
 airlines = {}
@@ -106,11 +122,6 @@ def add_or_update_route(origin, destination, distance, airline, type, callsigns)
     airports[origin]['outbound'] += 1
     airports[destination]['inbound'] += 1
 
-def map_airline_name(vamsys_name):
-    if vamsys_name.startswith("ALVA "):
-        return "ALVA"
-    return vamsys_name
-
 def time_mode(last_pirep):
     air_time = (datetime.fromisoformat(last_pirep['landing_time']) - datetime.fromisoformat(last_pirep['departure_time'])).total_seconds()
     block_time = (datetime.fromisoformat(last_pirep['on_blocks_time']) - datetime.fromisoformat(last_pirep['off_blocks_time'])).total_seconds()
@@ -127,7 +138,8 @@ for file in glob('vamsys.*.json'):
     with open(file, 'r') as f:
         airline = json.load(f)
     airline_id = airline['airline']['id']
-    airlines[airline_id] = {'name': map_airline_name(airline['airline']['name'])}
+    airline_mapping = airline_mappings.get(airline['airline']['name'], {})
+    airlines[airline_id] = {'name': airline_mapping.get('display_name', airline['airline']['name'])}
     if airline['airline']['activity_requirements']:
         if not airline['airline']['activity_requirement_type_pireps']:
             raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
@@ -137,7 +149,7 @@ for file in glob('vamsys.*.json'):
         req_dates = [f"{pirep_date + timedelta(days=airline['airline']['activity_requirement_period'])}" for pirep_date in pirep_dates]
         airlines[airline_id]['requirements'] += f"\nNext {airline['airline']['activity_requirement_value']} PIREP(s) required by {', '.join(req_dates)}"
     airlines[airline_id]['rank_info'] = rank_info(airline['ranks_html'], time_mode(airline['dashboard']['flightProgress']['lastPirep']))
-    type_mapping = type_mapping_by_airline.get(airlines[airline_id]['name'], {})
+    type_mapping = airline_mapping.get('type_mapping', {})
     for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
         for dest in route['destinations']:
