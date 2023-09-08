@@ -1,4 +1,4 @@
-for (const [id, airline] of Object.entries(airlines)) {
+for (const [id, airline] of Object.entries(airlines).toSorted(([id1, airline1], [id2, airline2]) => airline1.sortName.localeCompare(airline2.sortName))) {
     var elementId = "airline-" + id;
     document.getElementById("airline-picker").insertAdjacentHTML('beforeend',
         `<li><input type='checkbox' onmouseover='redraw(${id}, undefined);' onmouseout='redraw();' onChange='redraw();' checked id='${elementId}'>`
@@ -51,7 +51,7 @@ function mergeEndpoint(icao, direction) {
 
 function redraw(airlineId, icaoType) {
 //for (id in airlines) { var cb = airlines[id].cb; console.log(id + " -> " + cb + " == " + cb.checked + " with ID " + cb.id); }
-console.log(`currentIcao ${currentIcao} in? ${isInbound}, airline ${airlineId}, type ${icaoType}`);
+//console.log(`currentIcao ${currentIcao} in? ${isInbound}, airline ${airlineId}, type ${icaoType}`);
     if (currentIcao)
         document.getElementById("airport-" + currentIcao).innerText = isInbound ? airportArrive : airportDepart;
     for (polyline of shown.values()) polyline.removeFrom(map);

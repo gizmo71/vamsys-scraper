@@ -9,23 +9,23 @@ from math import isnan
 from lxml import etree
 
 airline_mappings = {
-    'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'type_mapping': # Removed 'A320':'A20N', look into LatinVFR
+    'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'sort_name':'Linugs', 'type_mapping': # Removed 'A320':'A20N', look into LatinVFR
         {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'}},
-    'vANA'                             :{'display_name':'All Nippon'},
+    'vANA'                             :{'display_name':'All Nippon', 'sort_name':'Nippon'},
     'vBAW'                             :{'display_name':'British Airways'},
-    'Virtual Air China'                :{'display_name':'Air China'},
+    'Virtual Air China'                :{'display_name':'Air China', 'sort_name':'China'},
     'Dan Air Virtual'                  :{'display_name':'Dan Air', 'type_mapping':{'A333':'A339'}}, # Removed {'A320':'A20N'}, look into LatinVFR
     'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3'}}, # Mappings questionable...
     'VEZY'                             :{'display_name':'EasyJet'},
     'vEWG'                             :{'display_name':'Eurowings'},
-    'AirGoldberg'                      :{'display_name':'Goldberg'},
+    'AirGoldberg'                      :{'display_name':'Air Goldberg', 'sort_name':'Goldberg'},
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
     'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
     'LH-Virtual'                       :{'display_name':'Lufthansa'},
     'vRYR'                             :{'display_name':'Ryanair'},
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
     'vspirit'                          :{'display_name':'Spirit'},
-    'vTCXgroup'                        :{'display_name': 'Thomas Cook'}, # Removed {'A320':'A20N'}, look into LatinVFR
+    'vTCXgroup'                        :{'sort_name':'Thomas Cook'}, # Removed {'A320':'A20N'}, look into LatinVFR
     'WZZ Virtual'                      :{'display_name':'Wizz'},
 }
 exclude_types = set(['AJ27', 'B703', 'B712', 'B720',
@@ -140,6 +140,7 @@ for file in glob('vamsys.*.json'):
     airline_id = airline['airline']['id']
     airline_mapping = airline_mappings.get(airline['airline']['name'], {})
     airlines[airline_id] = {'name': airline_mapping.get('display_name', airline['airline']['name'])}
+    airlines[airline_id]['sortName'] = airline_mapping.get('sort_name', airlines[airline_id]['name'])
     if airline['airline']['activity_requirements']:
         if not airline['airline']['activity_requirement_type_pireps']:
             raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
