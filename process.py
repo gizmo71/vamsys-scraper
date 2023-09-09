@@ -1,6 +1,7 @@
 import geopy.distance
 import json
 import logging
+import operator
 import re
 
 from datetime import date, datetime, timedelta
@@ -123,14 +124,33 @@ def add_or_update_route(origin, destination, distance, airline, type, callsigns)
     airports[destination]['inbound'] += 1
 
 def time_mode(last_pirep):
-    air_time = (datetime.fromisoformat(last_pirep['landing_time']) - datetime.fromisoformat(last_pirep['departure_time'])).total_seconds()
-    block_time = (datetime.fromisoformat(last_pirep['on_blocks_time']) - datetime.fromisoformat(last_pirep['off_blocks_time'])).total_seconds()
+    def pause_time(last_pirep, after, before):
+        def just_timestamps(events, after, before):
+            def transform(item):
+                return datetime.fromisoformat(item['timestamp'])
+            return [item for item in map(transform, events) if after <= item <= before]
+        pauses = just_timestamps(last_pirep['pirep_data'].get('pauses', []), after, before)
+        unpauses = just_timestamps(last_pirep['pirep_data'].get('unpauses', []), after, before)
+        if len(pauses) != len(unpauses):
+            raise ValueError(f"Between {after} and {before}, number of pauses {pauses} inconsistent with unpauses {unpauses}")
+        return sum(map(operator.sub, unpauses, pauses), start=timedelta()).total_seconds()
+
+    departure_time = datetime.fromisoformat(last_pirep['departure_time'])
+    landing_time = datetime.fromisoformat(last_pirep['landing_time'])
+    air_time = (landing_time - departure_time).total_seconds()
+    off_blocks_time = datetime.fromisoformat(last_pirep['off_blocks_time'])
+    on_blocks_time = datetime.fromisoformat(last_pirep['on_blocks_time'])
+    block_time = (on_blocks_time - off_blocks_time).total_seconds()
+
+    block_paused = pause_time(last_pirep, off_blocks_time, on_blocks_time)
+    air_paused = pause_time(last_pirep, departure_time, landing_time)
+
     flight_length = last_pirep['flight_length']
-    if abs(air_time - flight_length) <= 2:
+    if abs(air_time - air_paused - flight_length) <= 2:
         return "air"
-    elif abs(block_time - flight_length) <= 2:
+    elif abs(block_time - block_paused - flight_length) <= 2:
         return "block"
-    raise ValueError(f"Couldn't match flight_length {flight_length} against air {air_time} or block {block_time} time for {last_pirep['booking']['callsign']}")
+    raise ValueError(f"Couldn't match flight_length {flight_length} against air {air_time} or block {block_time} time for {last_pirep['booking']['callsign']} with pauses in block {block_paused}s/air {air_paused}s")
 
 
 for file in glob('vamsys.*.json'):
