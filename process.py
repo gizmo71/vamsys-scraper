@@ -29,10 +29,10 @@ airline_mappings = {
     'vTCXgroup'                        :{'sort_name':'Thomas Cook'}, # Removed {'A320':'A20N'}, look into LatinVFR
     'WZZ Virtual'                      :{'display_name':'Wizz'},
 }
-exclude_types = set(['AJ27', 'B703', 'B712', 'B720',
+exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
                      'B461', 'B462', 'B463',
                      'B38M', 'B732',  'B733', 'B734', 'B735', 'B736', 'B737', 'B738', 'B739',
-                     'B742', 'B744', 'B772', 'B773', 'B77L', 'B77W', 'B77F',
+                     'B742', 'B744', 'B762',  'B772', 'B773', 'B77L', 'B77W', 'B77F',
                      'B752', 'B753', 'B763', 'B764',
                      'B788', 'B789', 'B78X',
                      'CONC', 'CRJ2', 'CRJ7', 'CRJ9', 'CRJX', 'DC6', 'DC10', 'DH8D',
