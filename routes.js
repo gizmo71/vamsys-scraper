@@ -34,11 +34,9 @@ function typesToAirlineNames(route, airlineFilter, typeFilter) {
     try {
         var typeToNames = new Map();
         for (const [type, allAirlineIdsToCallsigns] of Object.entries(route.type_to_airlines)) {
-            if (!typeFilter(type)) continue;
             var airlineIdsToCallsigns = Object.entries(allAirlineIdsToCallsigns).filter(([id, _]) => airlineFilter(id));
-            if (airlineIdsToCallsigns.length) {
-                typeToNames.set(type, airlineIdsToCallsigns.map(([id, callsigns]) => airlines[id].name + ' (' + callsigns + ')').join(', '));
-            }
+            if (!airlineIdsToCallsigns.length || !typeFilter(type)) continue; // Do this second to avoid excluding based on selected types for unselected airlines.
+            typeToNames.set(type, airlineIdsToCallsigns.map(([id, callsigns]) => airlines[id].name + ' (' + callsigns + ')').join(', '));
         }
         return typeToNames;
     } catch (e) {
