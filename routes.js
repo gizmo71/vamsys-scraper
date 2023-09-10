@@ -31,15 +31,20 @@ const airportDepart = "\ud83d\udeeb"; // 1F6EB as a surrogate pair
 const airportArrive = "\ud83d\udeec"; // 1F6EC
 
 function typesToAirlineNames(route, airlineFilter, typeFilter) {
-    var typeToNames = new Map();
-    for (const [type, allAirlineIdsToCallsigns] of Object.entries(route.type_to_airlines)) {
-        if (!typeFilter(type)) continue;
-        var airlineIdsToCallsigns = Object.entries(allAirlineIdsToCallsigns).filter(([id, _]) => airlineFilter(id));
-        if (airlineIdsToCallsigns.length) {
-            typeToNames.set(type, airlineIdsToCallsigns.map(([id, callsigns]) => airlines[id].name + ' (' + callsigns + ')').join(', '));
+    try {
+        var typeToNames = new Map();
+        for (const [type, allAirlineIdsToCallsigns] of Object.entries(route.type_to_airlines)) {
+            if (!typeFilter(type)) continue;
+            var airlineIdsToCallsigns = Object.entries(allAirlineIdsToCallsigns).filter(([id, _]) => airlineFilter(id));
+            if (airlineIdsToCallsigns.length) {
+                typeToNames.set(type, airlineIdsToCallsigns.map(([id, callsigns]) => airlines[id].name + ' (' + callsigns + ')').join(', '));
+            }
         }
+        return typeToNames;
+    } catch (e) {
+        if (e === "exclude") return new Map();
+        throw e;
     }
-    return typeToNames;
 }
 
 function mergeEndpoint(icao, direction) {
@@ -66,7 +71,8 @@ function redraw(airlineId, icaoType) {
         if (airlineId) {
             airlineFilter = id => id == airlineId;
         } else if (icaoType) {
-            typeFilter = id => id == icaoType;
+            byCheckbox = typeFilter;
+            typeFilter = id => { if (id == icaoType) return true; if (byCheckbox(id)) throw "exclude"; return false; }
         } else if (from == currentIcao && !isInbound) {
             tooltip = "To " + to;
         } else if (to == currentIcao && isInbound) {
