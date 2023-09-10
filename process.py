@@ -27,6 +27,7 @@ airline_mappings = {
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
     'vspirit'                          :{'display_name':'Spirit'},
     'vTCXgroup'                        :{'sort_name':'Thomas Cook'}, # Removed {'A320':'A20N'}, look into LatinVFR
+    'Titan Virtual'                    :{'display_name':'Titan'},
     'WZZ Virtual'                      :{'display_name':'Wizz'},
 }
 exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
