@@ -22,7 +22,7 @@ airline_mappings = {
     'AirGoldberg'                      :{'display_name':'Air Goldberg', 'sort_name':'Goldberg'},
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
     'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
-    'LH-Virtual'                       :{'display_name':'Lufthansa'},
+    'LH-Virtual'                       :{'display_name':'Lufthansa', 'type_mapping':{'A21F':'A321'}},
     'vRYR'                             :{'display_name':'Ryanair'},
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
     'vspirit'                          :{'display_name':'Spirit'},
