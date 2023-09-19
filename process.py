@@ -25,7 +25,7 @@ airline_mappings = {
     'LH-Virtual'                       :{'display_name':'Lufthansa', 'type_mapping':{'A21F':'A321'}},
     'vRYR'                             :{'display_name':'Ryanair'},
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
-    'vspirit'                          :{'display_name':'Spirit'},
+    'vspirit'                          :{'display_name':'Spirit', 'type_mapping':{'A319':'-', 'A320':'-', 'A321':'-', 'A21N':'-'}},
     'vTCXgroup'                        :{'sort_name':'Thomas Cook'}, # Removed {'A320':'A20N'}, look into LatinVFR
     'Titan Virtual'                    :{'display_name':'Titan'},
     'WZZ Virtual'                      :{'display_name':'Wizz'},
