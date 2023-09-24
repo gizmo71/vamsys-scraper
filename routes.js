@@ -7,7 +7,7 @@ for (const [id, airline] of Object.entries(airlines).toSorted(([id1, airline1], 
 }
 
 for (const [index, icao] of Object.entries(aircraft)) {
-    var flyable = icao == 'A20N' || icao == 'A320' || icao == 'A339';
+    var flyable = icao == 'A319' || icao == 'A320' || icao == 'A20N' || icao == 'A21N' || icao == 'A339';
     document.getElementById("aircraft-picker").insertAdjacentHTML('beforeend',
         `<li><input type='checkbox' ${flyable ? 'checked ' : ''}id='type-${icao}' onmouseover='redraw(undefined, "${icao}");' onmouseout='redraw();' onChange='redraw();'>`
         + `<label for='type-${icao}' />${icao}</li>`);
