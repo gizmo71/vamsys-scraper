@@ -16,7 +16,7 @@ airline_mappings = {
     'vBAW'                             :{'display_name':'British Airways'},
     'Virtual Air China'                :{'display_name':'Air China', 'sort_name':'China'},
     'Dan Air Virtual'                  :{'display_name':'Dan Air', 'type_mapping':{'A333':'A339'}}, # Removed {'A320':'A20N'}, look into LatinVFR
-    'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3'}}, # Mappings questionable...
+    'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3', 'A313':'A310'}}, # Mappings questionable...
     'VEZY'                             :{'display_name':'EasyJet'},
     'vEWG'                             :{'display_name':'Eurowings'},
     'AirGoldberg'                      :{'display_name':'Air Goldberg', 'sort_name':'Goldberg'},
@@ -33,14 +33,15 @@ airline_mappings = {
 }
 exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
                      'B461', 'B462', 'B463',
-                     'B38M', 'B732',  'B733', 'B734', 'B735', 'B736', 'B737', 'B738', 'B739',
+                     'B732', 'B733', 'B734', 'B735', 'B736', 'B737', 'B738', 'B739', 'B38M', 'B39M',
                      'B742', 'B744', 'B762',  'B772', 'B773', 'B77L', 'B77W', 'B77F',
                      'B752', 'B753', 'B763', 'B764',
                      'B788', 'B789', 'B78X',
-                     'CONC', 'CRJ2', 'CRJ7', 'CRJ9', 'CRJX', 'DC6', 'DC10', 'DH8D',
+                     'CONC', 'CRJ2', 'CRJ5', 'CRJ7', 'CRJ9', 'CRJX', 'DC6', 'DC10', 'DH8D',
                      'E145', 'E170', 'E175', 'E190', 'E195',
                      'F28', 'F50', 'JU52', 'L101', 'MD11', 'MD80', 'MD82', 'PC12',
-                     'RJ1H', 'RJ85', 'SH36', 'SF34', 'SW4'])
+                     'RJ1H', 'RJ85', 'SH36', 'SF34', 'SW4',
+                     '-'])
 
 aircraft = set()
 airlines = {}
