@@ -19,6 +19,7 @@ airline_mappings = {
     'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3', 'A313':'A310'}}, # Mappings questionable...
     'VEZY'                             :{'display_name':'EasyJet'},
     'vEWG'                             :{'display_name':'Eurowings'},
+    'Frontier Airlines'                :{'display_name':'Frontier'},
     'AirGoldberg'                      :{'display_name':'Air Goldberg', 'sort_name':'Goldberg'},
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
     'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
@@ -26,7 +27,7 @@ airline_mappings = {
     'vRYR'                             :{'display_name':'Ryanair'},
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
     'vspirit'                          :{'display_name':'Spirit', 'type_mapping':{'A319':'-', 'A320':'-', 'A321':'-', 'A21N':'-'}},
-    'vTCXgroup'                        :{'sort_name':'Thomas Cook'}, # Removed {'A320':'A20N'}, look into LatinVFR
+    'vTCXgroup'                        :{'sort_name':'Thomas Cook', 'type_mapping':{'A321':'A21N'}},
     'Titan Virtual'                    :{'display_name':'Titan'},
     'Virtual United'                   :{'display_name':'United', 'type_mapping':{'A20N':'A320'}},
     'WZZ Virtual'                      :{'display_name':'Wizz'},
