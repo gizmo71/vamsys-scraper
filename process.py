@@ -146,6 +146,8 @@ def time_mode(last_pirep):
     on_blocks_time = datetime.fromisoformat(last_pirep['on_blocks_time'])
     block_time = (on_blocks_time - off_blocks_time).total_seconds()
 
+    off_blocks_time -= timedelta(seconds = 1)
+    on_blocks_time += timedelta(seconds = 1)
     block_paused = pause_time(last_pirep, off_blocks_time, on_blocks_time)
     air_paused = pause_time(last_pirep, departure_time, landing_time)
 
