@@ -6,12 +6,12 @@ const airports = {
         ],
         "iata": "HND",
         "names": [
-            "Tokyo",
             "Tokyo Haneda",
-            "Tokyo Haneda International Airport",
             "Tokyo International Airport (Haneda)",
             "Tokyo Haneda Airport",
-            "Tokyo Airport"
+            "Tokyo Haneda International Airport",
+            "Tokyo Airport",
+            "Tokyo"
         ],
         "inbound": 426,
         "outbound": 409
@@ -95,8 +95,8 @@ const airports = {
         ],
         "iata": "TNA",
         "names": [
-            "Jinan Yaoqiang International Airport",
-            "Jinan Yaoqiang Airport"
+            "Jinan Yaoqiang Airport",
+            "Jinan Yaoqiang International Airport"
         ],
         "inbound": 373,
         "outbound": 445
@@ -230,8 +230,8 @@ const airports = {
         ],
         "iata": "OKA",
         "names": [
-            "Naha Airport",
-            "Okinawa Naha Airport"
+            "Okinawa Naha Airport",
+            "Naha Airport"
         ],
         "inbound": 26,
         "outbound": 30
@@ -243,8 +243,8 @@ const airports = {
         ],
         "iata": "ITM",
         "names": [
-            "Osaka International Airport",
-            "Osaka Itami International Airport"
+            "Osaka Itami International Airport",
+            "Osaka International Airport"
         ],
         "inbound": 22,
         "outbound": 26
@@ -256,9 +256,9 @@ const airports = {
         ],
         "iata": "KIX",
         "names": [
+            "Kansai International Airport",
             "Osaka Kansai International Airport",
             "Kansai\u00a0",
-            "Kansai International Airport",
             "Osaka"
         ],
         "inbound": 95,
@@ -295,9 +295,9 @@ const airports = {
         ],
         "iata": "CTS",
         "names": [
-            "Chitose",
             "Sapporo New Chitose Airport",
-            "New Chitose Airport"
+            "New Chitose Airport",
+            "Chitose"
         ],
         "inbound": 55,
         "outbound": 57
@@ -309,8 +309,8 @@ const airports = {
         ],
         "iata": "GMP",
         "names": [
-            "Seoul Gimpo",
-            "Seoul Gimpo International Airport"
+            "Seoul Gimpo International Airport",
+            "Seoul Gimpo"
         ],
         "inbound": 13,
         "outbound": 13
@@ -407,9 +407,9 @@ const airports = {
         ],
         "iata": "NRT",
         "names": [
-            "Tokyo Narita",
-            "Tokyo Narita International Airport",
             "Tokyo Narita Intl",
+            "Tokyo Narita International Airport",
+            "Tokyo Narita",
             "Narita International Airport"
         ],
         "inbound": 283,
@@ -434,9 +434,9 @@ const airports = {
         ],
         "iata": "HNL",
         "names": [
+            "Honolulu",
             "Honolulu International Airport",
-            "Daniel K. Inouye International Airport",
-            "Honolulu"
+            "Daniel K. Inouye International Airport"
         ],
         "inbound": 39,
         "outbound": 37
@@ -448,8 +448,8 @@ const airports = {
         ],
         "iata": "ISG",
         "names": [
-            "New Ishigaki Airport",
-            "Ishigaki New Airport"
+            "Ishigaki New Airport",
+            "New Ishigaki Airport"
         ],
         "inbound": 13,
         "outbound": 13
@@ -461,9 +461,9 @@ const airports = {
         ],
         "iata": "TPE",
         "names": [
-            "Taipei Taoyuan International Airport",
+            "Taipei",
             "Taiwan Taoyuan International Airport",
-            "Taipei"
+            "Taipei Taoyuan International Airport"
         ],
         "inbound": 99,
         "outbound": 99
@@ -501,10 +501,10 @@ const airports = {
         ],
         "iata": "HKG",
         "names": [
+            "Hong Kong International Airport",
             "Hong Kong International Airport (Chek Lap Kok Airport)",
             "Hong Kong International",
-            "Hong Kong",
-            "Hong Kong International Airport"
+            "Hong Kong"
         ],
         "inbound": 467,
         "outbound": 467
@@ -542,8 +542,8 @@ const airports = {
         "names": [
             "Seoul Incheon International Airport",
             "Seoul",
-            "Incheon International Airport",
-            "Seoul Incheon"
+            "Seoul Incheon",
+            "Incheon International Airport"
         ],
         "inbound": 103,
         "outbound": 112
@@ -555,10 +555,10 @@ const airports = {
         ],
         "iata": "PVG",
         "names": [
+            "Shanghai",
             "Shanghai Pudong International Airport",
             "Shanghai Pudong Intl Airport",
-            "Shanghai Pudong",
-            "Shanghai"
+            "Shanghai Pudong"
         ],
         "inbound": 575,
         "outbound": 570
@@ -607,9 +607,9 @@ const airports = {
         "iata": "SFO",
         "names": [
             "San Francisco",
+            "San Francisco International",
             "San Francisco International Airport",
-            "SAN FRANCISCO INTERNATIONAL AIRPORT",
-            "San Francisco International"
+            "SAN FRANCISCO INTERNATIONAL AIRPORT"
         ],
         "inbound": 249,
         "outbound": 258
@@ -621,9 +621,9 @@ const airports = {
         ],
         "iata": "XMN",
         "names": [
-            "Xiamen Gaoqi Airport",
+            "Xiamen Gaoqi Intl Airport",
             "Xiamen Gaoqi International Airport",
-            "Xiamen Gaoqi Intl Airport"
+            "Xiamen Gaoqi Airport"
         ],
         "inbound": 300,
         "outbound": 481
@@ -635,8 +635,8 @@ const airports = {
         ],
         "iata": "STN",
         "names": [
-            "London Stansted",
-            "London Stansted Airport"
+            "London Stansted Airport",
+            "London Stansted"
         ],
         "inbound": 147,
         "outbound": 140
@@ -673,11 +673,11 @@ const airports = {
         ],
         "iata": "ATH",
         "names": [
+            "Athens International Airport (Eleftherios Venizelos Airport)",
             "Athen-Eleftherios-Venizelos",
             "Athens Eleftherios Venizelos",
-            "Athens International",
-            "Athens International Airport (Eleftherios Venizelos Airport)",
-            "Athens"
+            "Athens",
+            "Athens International"
         ],
         "inbound": 160,
         "outbound": 161
@@ -689,10 +689,10 @@ const airports = {
         ],
         "iata": "CHQ",
         "names": [
-            "Chania Airport",
-            "Chania International Airport",
+            "Crete Chania",
             "Chania",
-            "Crete Chania"
+            "Chania Airport",
+            "Chania International Airport"
         ],
         "inbound": 116,
         "outbound": 114
@@ -705,8 +705,8 @@ const airports = {
         "iata": "DLM",
         "names": [
             "Dalaman International Airport",
-            "Dalaman Airport",
-            "Dalaman"
+            "Dalaman",
+            "Dalaman Airport"
         ],
         "inbound": 73,
         "outbound": 75
@@ -744,10 +744,10 @@ const airports = {
         "iata": "HER",
         "names": [
             "Heraklion International Airport",
-            "Heraklion",
-            "Heraklion Crete",
+            "Crete Heraklion",
             "Heraklion International Airport (Nikos Kazantzakis Airport)",
-            "Crete Heraklion"
+            "Heraklion",
+            "Heraklion Crete"
         ],
         "inbound": 222,
         "outbound": 224
@@ -787,9 +787,9 @@ const airports = {
         "iata": "LPA",
         "names": [
             "Gran Canaria Airport",
-            "Gran Canaria",
+            "Las Palmas",
             "Gran Canaria (Las Palmas)",
-            "Las Palmas"
+            "Gran Canaria"
         ],
         "inbound": 164,
         "outbound": 179
@@ -816,8 +816,8 @@ const airports = {
         "names": [
             "Malaga",
             "Malaga Airport",
-            "M\u00c3\u00a1laga",
             "Malaga Costa Del Sol",
+            "M\u00c3\u00a1laga",
             "Malaga Costa Del Sol Airport"
         ],
         "inbound": 245,
@@ -830,13 +830,13 @@ const airports = {
         ],
         "iata": "MLA",
         "names": [
-            "Luqa Malta",
             "Luqa Malta International Airport",
             "Malta International Airport (Luqa Airport)",
-            "Malta International",
-            "Malta Luqa",
             "Malta",
-            "Malta Luqa International Airport"
+            "Luqa Malta",
+            "Malta Luqa",
+            "Malta Luqa International Airport",
+            "Malta International"
         ],
         "inbound": 94,
         "outbound": 95
@@ -848,9 +848,9 @@ const airports = {
         ],
         "iata": "MAH",
         "names": [
-            "Mahon Menorca Airport",
             "Menorca Mahon",
-            "Menorca"
+            "Menorca",
+            "Mahon Menorca Airport"
         ],
         "inbound": 125,
         "outbound": 125
@@ -862,9 +862,9 @@ const airports = {
         ],
         "iata": "PMI",
         "names": [
+            "Palma de Mallorca Airport",
             "Majorca Palma",
-            "Palma de Mallorca",
-            "Palma de Mallorca Airport"
+            "Palma de Mallorca"
         ],
         "inbound": 405,
         "outbound": 408
@@ -876,10 +876,10 @@ const airports = {
         ],
         "iata": "REU",
         "names": [
-            "Barcelona Reus",
+            "Reus Airport",
             "Reus",
             "Reus Air Base",
-            "Reus Airport"
+            "Barcelona Reus"
         ],
         "inbound": 21,
         "outbound": 22
@@ -891,12 +891,12 @@ const airports = {
         ],
         "iata": "RHO",
         "names": [
-            "Rhodes Diagoras Airport",
-            "Rhodes",
             "Rhodos",
-            "Rhodes International Airport",
+            "Rhodes International",
+            "Rhodes",
+            "Rhodes Diagoras Airport",
             "Rhodes Diogaras ",
-            "Rhodes International"
+            "Rhodes International Airport"
         ],
         "inbound": 203,
         "outbound": 197
@@ -908,12 +908,12 @@ const airports = {
         ],
         "iata": "JTR",
         "names": [
+            "Santorini Airport",
             "Santorini International Airport",
             "Santorini Thira National Airport",
-            "Santorini Thira National",
+            "Santorini",
             "Santorin",
-            "Santorini Airport",
-            "Santorini"
+            "Santorini Thira National"
         ],
         "inbound": 96,
         "outbound": 101
@@ -938,8 +938,8 @@ const airports = {
         ],
         "iata": "SEN",
         "names": [
-            "London Southend",
-            "Southend"
+            "Southend",
+            "London Southend"
         ],
         "inbound": 14,
         "outbound": 14
@@ -951,8 +951,8 @@ const airports = {
         ],
         "iata": "SPU",
         "names": [
-            "Split Airport",
-            "Split"
+            "Split",
+            "Split Airport"
         ],
         "inbound": 122,
         "outbound": 122
@@ -964,13 +964,13 @@ const airports = {
         ],
         "iata": "TLV",
         "names": [
-            "Tel Aviv Ben Gurion International Airport",
-            "Ben Gurion Airport",
             "Tel Aviv",
-            "Tel Aviv-Yafo",
+            "Tel Aviv Ben Gurion Airport ",
             "Tel Aviv Ben Gurion",
+            "Tel Aviv Ben Gurion International Airport",
             "Tel Aviv Airport",
-            "Tel Aviv Ben Gurion Airport "
+            "Tel Aviv-Yafo",
+            "Ben Gurion Airport"
         ],
         "inbound": 181,
         "outbound": 180
@@ -982,11 +982,11 @@ const airports = {
         ],
         "iata": "TFS",
         "names": [
-            "Teneriffa S\u00fcd",
-            "Tenerife South Airport",
             "Tenerife South",
-            "Tenerife Sur",
-            "Tenerife"
+            "Tenerife South Airport",
+            "Tenerife",
+            "Teneriffa S\u00fcd",
+            "Tenerife Sur"
         ],
         "inbound": 258,
         "outbound": 249
@@ -998,10 +998,10 @@ const airports = {
         ],
         "iata": "SKG",
         "names": [
-            "Thessaloniki International Airport",
-            "Thessaloniki Macedonia International Airport",
             "Thessaloniki Airport",
             "Thessolaniki",
+            "Thessaloniki Macedonia International Airport",
+            "Thessaloniki International Airport",
             "Thessaloniki"
         ],
         "inbound": 140,
@@ -1014,11 +1014,11 @@ const airports = {
         ],
         "iata": "ZTH",
         "names": [
-            "Zakynthos",
-            "Zakynthos Airport",
-            "Zakynthos International Airport",
             "Zante, Dionysios Solomos Airport",
-            "Zante Zakynthos"
+            "Zakynthos",
+            "Zante Zakynthos",
+            "Zakynthos International Airport",
+            "Zakynthos Airport"
         ],
         "inbound": 74,
         "outbound": 77
@@ -1032,8 +1032,8 @@ const airports = {
         "names": [
             "London Gatwick Airport",
             "Gatwick (London)",
-            "London Gatwick",
-            "Gatwick Airport"
+            "Gatwick Airport",
+            "London Gatwick"
         ],
         "inbound": 785,
         "outbound": 791
@@ -1045,11 +1045,11 @@ const airports = {
         ],
         "iata": "ALC",
         "names": [
-            "Alicante-Elche Airport",
-            "Alicante Elche",
-            "Alicante-Elche",
             "Alicante",
-            "Alicante Airport"
+            "Alicante-Elche Airport",
+            "Alicante Airport",
+            "Alicante Elche",
+            "Alicante-Elche"
         ],
         "inbound": 186,
         "outbound": 174
@@ -1062,10 +1062,10 @@ const airports = {
         "iata": "CFU",
         "names": [
             "Corfu International Airport (Ioannis Kapodistrias Int'l Airport)",
+            "Corfu International Airport",
             "Corfu (Kerkira)",
             "Korfu",
-            "Corfu",
-            "Corfu International Airport"
+            "Corfu"
         ],
         "inbound": 177,
         "outbound": 171
@@ -1077,8 +1077,8 @@ const airports = {
         ],
         "iata": "FUE",
         "names": [
-            "Fuerteventura Airport",
-            "Fuerteventura"
+            "Fuerteventura",
+            "Fuerteventura Airport"
         ],
         "inbound": 156,
         "outbound": 153
@@ -1145,11 +1145,11 @@ const airports = {
         "iata": "RAK",
         "names": [
             "Marrakesh",
-            "Marrakesh Menara",
             "Marrakesh Menara Airport",
-            "Menara",
+            "Marrakech",
             "Marrakesch-Menara",
-            "Marrakech"
+            "Marrakesh Menara",
+            "Menara"
         ],
         "inbound": 76,
         "outbound": 75
@@ -1162,10 +1162,10 @@ const airports = {
         "iata": "BGI",
         "names": [
             "Barbados",
-            "Bridgetown, Barbados",
-            "Sir Grantley Adams International Airport, Barbados",
             "Grantley Adams International Airport",
-            "Bridgetown Grantley Adams International Airport"
+            "Bridgetown, Barbados",
+            "Bridgetown Grantley Adams International Airport",
+            "Sir Grantley Adams International Airport, Barbados"
         ],
         "inbound": 36,
         "outbound": 33
@@ -1178,9 +1178,9 @@ const airports = {
         "iata": "CTA",
         "names": [
             "Sicily Catania",
-            "Catania Fontanarossa",
             "Catania Fontanarossa Airport",
             "Catania",
+            "Catania Fontanarossa",
             "Catania-Fontanarossa"
         ],
         "inbound": 200,
@@ -1193,10 +1193,10 @@ const airports = {
         ],
         "iata": "MAD",
         "names": [
-            "Madrid Barajas",
-            "Madrid Barajas Airport",
+            "Madrid",
             "Adolfo Su\u00c3\u00a1rez Madrid\u00e2\u0080\u0093Barajas",
-            "Madrid"
+            "Madrid Barajas Airport",
+            "Madrid Barajas"
         ],
         "inbound": 156,
         "outbound": 158
@@ -1258,10 +1258,10 @@ const airports = {
         ],
         "iata": "AMM",
         "names": [
+            "Queen Alia International Airport",
             "Queen Alia International",
             "Amman",
-            "Amman Queen Alia",
-            "Queen Alia International Airport"
+            "Amman Queen Alia"
         ],
         "inbound": 37,
         "outbound": 40
@@ -1285,8 +1285,8 @@ const airports = {
         ],
         "iata": "TIA",
         "names": [
-            "Tirana International Airport",
-            "Tirana"
+            "Tirana",
+            "Tirana International Airport"
         ],
         "inbound": 198,
         "outbound": 205
@@ -1298,8 +1298,8 @@ const airports = {
         ],
         "iata": "VLC",
         "names": [
-            "Valencia",
-            "Valencia Airport"
+            "Valencia Airport",
+            "Valencia"
         ],
         "inbound": 81,
         "outbound": 89
@@ -1325,11 +1325,11 @@ const airports = {
         ],
         "iata": "CGN",
         "names": [
-            "Cologne-Bonn",
+            "Cologne Bonn",
             "Cologne Bonn Airport",
-            "K\u00f6ln/Bonn",
             "Cologne",
-            "Cologne Bonn"
+            "K\u00f6ln/Bonn",
+            "Cologne-Bonn"
         ],
         "inbound": 323,
         "outbound": 311
@@ -1341,10 +1341,10 @@ const airports = {
         ],
         "iata": "MIA",
         "names": [
-            "Miami, FL",
-            "Miami International Airport",
+            "Miami",
             "Miami International",
-            "Miami"
+            "Miami International Airport",
+            "Miami, FL"
         ],
         "inbound": 382,
         "outbound": 389
@@ -1380,8 +1380,8 @@ const airports = {
         ],
         "iata": "MRU",
         "names": [
-            "Mauritius",
-            "Sir Seewoosagur Ramgoolam International"
+            "Sir Seewoosagur Ramgoolam International",
+            "Mauritius"
         ],
         "inbound": 19,
         "outbound": 6
@@ -1393,10 +1393,10 @@ const airports = {
         ],
         "iata": "SAL",
         "names": [
-            "San Salvador, El Salvador",
+            "San Salvador",
             "Monsenor Oscar Arnulfo Romero International Airport",
             "El Salvador International",
-            "San Salvador"
+            "San Salvador, El Salvador"
         ],
         "inbound": 20,
         "outbound": 21
@@ -1408,13 +1408,13 @@ const airports = {
         ],
         "iata": "MXP",
         "names": [
-            "Milan Malpensa",
-            "Milan-Malpensa Airport",
-            "Milan Malpensa Intl Airport",
             "Milano Malpensa",
             "Malpensa",
-            "Milan Malpensa Airport",
             "Mailand-Malpensa",
+            "Milan Malpensa",
+            "Milan Malpensa Airport",
+            "Milan Malpensa Intl Airport",
+            "Milan-Malpensa Airport",
             "Milan"
         ],
         "inbound": 443,
@@ -1427,8 +1427,8 @@ const airports = {
         ],
         "iata": "RNS",
         "names": [
-            "Rennes\u2013Saint-Jacques",
             "Rennes Bretagne Airport",
+            "Rennes\u2013Saint-Jacques",
             "Rennes Saint-Jacques"
         ],
         "inbound": 19,
@@ -1441,12 +1441,12 @@ const airports = {
         ],
         "iata": "NAP",
         "names": [
-            "Napoli",
             "Naples International",
+            "Naples Airport",
+            "Napoli",
             "Naples",
             "Naples International Airport",
-            "Neapel",
-            "Naples Airport"
+            "Neapel"
         ],
         "inbound": 216,
         "outbound": 215
@@ -1458,10 +1458,10 @@ const airports = {
         ],
         "iata": "LEJ",
         "names": [
-            "Leipzig Halle",
             "Leipzig/Halle",
-            "Liepzig-Halle",
-            "Leipzig"
+            "Leipzig",
+            "Leipzig Halle",
+            "Liepzig-Halle"
         ],
         "inbound": 79,
         "outbound": 85
@@ -1473,12 +1473,12 @@ const airports = {
         ],
         "iata": "BCN",
         "names": [
-            "Josep Tarradellas Barcelona\u00e2\u0080\u0093El Prat",
-            "Barcelona El Prat Airport",
             "Barcelona",
-            "Barcelona El Prat",
             "Barcelona (El Prat)",
-            "Barcelona El Prat Intl Airport"
+            "Barcelona El Prat",
+            "Barcelona El Prat Intl Airport",
+            "Barcelona El Prat Airport",
+            "Josep Tarradellas Barcelona\u00e2\u0080\u0093El Prat"
         ],
         "inbound": 403,
         "outbound": 403
@@ -1515,9 +1515,9 @@ const airports = {
         ],
         "iata": "GYE",
         "names": [
-            "Guayaquil",
             "Guayaquil International Airport",
-            "Guayaquil, Ecuador"
+            "Guayaquil, Ecuador",
+            "Guayaquil"
         ],
         "inbound": 8,
         "outbound": 8
@@ -1529,10 +1529,10 @@ const airports = {
         ],
         "iata": "DEL",
         "names": [
-            "Delhi Indira Gandhi",
+            "Delhi Indira Gandhi International Airport",
             "Delhi",
-            "Indira Gandhi International Airport",
-            "Delhi Indira Gandhi International Airport"
+            "Delhi Indira Gandhi",
+            "Indira Gandhi International Airport"
         ],
         "inbound": 226,
         "outbound": 223
@@ -1544,8 +1544,8 @@ const airports = {
         ],
         "iata": "BOJ",
         "names": [
-            "Burgas",
-            "Burgas Airport"
+            "Burgas Airport",
+            "Burgas"
         ],
         "inbound": 77,
         "outbound": 75
@@ -1557,8 +1557,8 @@ const airports = {
         ],
         "iata": "BZG",
         "names": [
-            "Bydgoszcz",
-            "Bydgoszcz Ignacy Jan Paderewski Airport"
+            "Bydgoszcz Ignacy Jan Paderewski Airport",
+            "Bydgoszcz"
         ],
         "inbound": 4,
         "outbound": 5
@@ -1596,11 +1596,11 @@ const airports = {
         ],
         "iata": "BOG",
         "names": [
-            "Bogota El Dorado",
             "El Dorado International Airport",
+            "Bogota El Dorado",
+            "Bogota",
             "Bogota El Dorado International Airport",
-            "Bogota, Colombia",
-            "Bogota"
+            "Bogota, Colombia"
         ],
         "inbound": 17,
         "outbound": 16
@@ -1636,10 +1636,10 @@ const airports = {
         ],
         "iata": "JNB",
         "names": [
+            "Johannesburg OR Tambo",
             "O. R. Tambo International",
-            "Johannesburg OR Tambo International Airport",
             "Johannesburg",
-            "Johannesburg OR Tambo"
+            "Johannesburg OR Tambo International Airport"
         ],
         "inbound": 18,
         "outbound": 18
@@ -1663,8 +1663,8 @@ const airports = {
         ],
         "iata": "ORY",
         "names": [
-            "Paris Orly Airport",
-            "Paris Orly"
+            "Paris Orly",
+            "Paris Orly Airport"
         ],
         "inbound": 64,
         "outbound": 64
@@ -1676,8 +1676,8 @@ const airports = {
         ],
         "iata": "BOD",
         "names": [
-            "Bordeaux Merignac",
             "Bordeaux",
+            "Bordeaux Merignac",
             "Bordeaux\u2013M\u00e9rignac"
         ],
         "inbound": 89,
@@ -1702,8 +1702,8 @@ const airports = {
         ],
         "iata": "ESB",
         "names": [
-            "Ankara",
-            "Ankara Esenbo\u011fa Airport"
+            "Ankara Esenbo\u011fa Airport",
+            "Ankara"
         ],
         "inbound": 3,
         "outbound": 3
@@ -1715,9 +1715,9 @@ const airports = {
         ],
         "iata": "ABZ",
         "names": [
-            "Aberdeen",
             "Aberdeen Airport",
-            "Aberdeen International Airport"
+            "Aberdeen International Airport",
+            "Aberdeen"
         ],
         "inbound": 23,
         "outbound": 24
@@ -1765,9 +1765,9 @@ const airports = {
         ],
         "iata": "ANC",
         "names": [
-            "Anchorage",
+            "Anchorage Ted Stevens International Airport",
             "Ted Stevens Anchorage",
-            "Anchorage Ted Stevens International Airport"
+            "Anchorage"
         ],
         "inbound": 66,
         "outbound": 23
@@ -1779,11 +1779,11 @@ const airports = {
         ],
         "iata": "AUS",
         "names": [
-            "Austin-Bergstrom International",
-            "Austin",
             "Austin Bergstrom International Airport",
-            "Austin, TX",
-            "Austin-Bergstrom International Airport"
+            "Austin",
+            "Austin-Bergstrom International Airport",
+            "Austin-Bergstrom International",
+            "Austin, TX"
         ],
         "inbound": 85,
         "outbound": 83
@@ -1796,10 +1796,10 @@ const airports = {
         "iata": "LHR",
         "names": [
             "London-Heathrow",
-            "London Heathrow",
-            "Heathrow Airport",
+            "London Heathrow Airport",
             "Heathrow (London)",
-            "London Heathrow Airport"
+            "Heathrow Airport",
+            "London Heathrow"
         ],
         "inbound": 520,
         "outbound": 504
@@ -1812,10 +1812,10 @@ const airports = {
         "iata": "KEF",
         "names": [
             "Keflav\u00c3\u00adk International Airport",
+            "Reykjavik Keflavik",
             "Keflavik",
-            "Keflavik International Airport",
             "Reykjavik",
-            "Reykjavik Keflavik"
+            "Keflavik International Airport"
         ],
         "inbound": 97,
         "outbound": 95
@@ -1827,11 +1827,11 @@ const airports = {
         ],
         "iata": "YUL",
         "names": [
-            "Montr\u00e8al - Trudeau International",
-            "Montreal Pierre Elliott Trudeau Airport",
             "Montreal",
+            "Montreal-Trudeau International",
             "Montr\u00e9al\u2013Trudeau",
-            "Montreal-Trudeau International"
+            "Montreal Pierre Elliott Trudeau Airport",
+            "Montr\u00e8al - Trudeau International"
         ],
         "inbound": 17,
         "outbound": 14
@@ -1843,9 +1843,9 @@ const airports = {
         ],
         "iata": "YVR",
         "names": [
+            "Vancouver",
             "Vancouver International Airport",
-            "Vancouver International",
-            "Vancouver"
+            "Vancouver International"
         ],
         "inbound": 60,
         "outbound": 65
@@ -1857,9 +1857,9 @@ const airports = {
         ],
         "iata": "YYZ",
         "names": [
-            "Toronto Pearson International Airport",
             "Toronto",
             "Toronto Pearson International",
+            "Toronto Pearson International Airport",
             "Toronto Pearson"
         ],
         "inbound": 61,
@@ -1885,9 +1885,9 @@ const airports = {
         ],
         "iata": "ACC",
         "names": [
-            "Accra Kotoka",
             "Kotoka International",
-            "Accra"
+            "Accra",
+            "Accra Kotoka"
         ],
         "inbound": 7,
         "outbound": 19
@@ -1899,9 +1899,9 @@ const airports = {
         ],
         "iata": "LOS",
         "names": [
+            "Murtala Muhammed International",
             "Lagos Murtala Mohammed",
             "Lagos Murtala",
-            "Murtala Muhammed International",
             "Lagos"
         ],
         "inbound": 16,
@@ -1914,10 +1914,10 @@ const airports = {
         ],
         "iata": "BRU",
         "names": [
+            "Brussels Airport",
             "Brussels",
             "Brussels Intl",
-            "Brussels national",
-            "Brussels Airport"
+            "Brussels national"
         ],
         "inbound": 288,
         "outbound": 297
@@ -1929,10 +1929,10 @@ const airports = {
         ],
         "iata": "FRA",
         "names": [
-            "Frankfurt",
             "Frankfurt-Main",
+            "Frankfurt Airport",
             "Frankfurt am Main International",
-            "Frankfurt Airport"
+            "Frankfurt"
         ],
         "inbound": 1178,
         "outbound": 1196
@@ -1944,10 +1944,10 @@ const airports = {
         ],
         "iata": "MUC",
         "names": [
-            "M\u00fcnchen Airport",
-            "M\u00fcnchen",
+            "Munich Airport",
             "Munich",
-            "Munich Airport"
+            "M\u00fcnchen",
+            "M\u00fcnchen Airport"
         ],
         "inbound": 726,
         "outbound": 713
@@ -1972,10 +1972,10 @@ const airports = {
         ],
         "iata": "HAJ",
         "names": [
-            "Hannover Airport",
-            "Hannover Langenhagen Airport",
             "Hannover Langenhagen",
-            "Hannover"
+            "Hannover",
+            "Hannover Langenhagen Airport",
+            "Hannover Airport"
         ],
         "inbound": 115,
         "outbound": 114
@@ -1987,9 +1987,9 @@ const airports = {
         ],
         "iata": "BHD",
         "names": [
+            "Belfast City (George Best)",
             "Belfast City",
-            "George Best Belfast City Airport",
-            "Belfast City (George Best)"
+            "George Best Belfast City Airport"
         ],
         "inbound": 45,
         "outbound": 37
@@ -2001,9 +2001,9 @@ const airports = {
         ],
         "iata": "MAN",
         "names": [
-            "Manchester",
+            "Manchester International",
             "Manchester Airport",
-            "Manchester International"
+            "Manchester"
         ],
         "inbound": 412,
         "outbound": 411
@@ -2027,11 +2027,11 @@ const airports = {
         ],
         "iata": "AMS",
         "names": [
-            "Amsterdam Schiphol Airport",
             "Amsterdam Airport Schiphol",
-            "Amsterdam-Schiphol",
             "Amsterdam",
-            "Amsterdam Schiphol"
+            "Amsterdam Schiphol Airport",
+            "Amsterdam Schiphol",
+            "Amsterdam-Schiphol"
         ],
         "inbound": 255,
         "outbound": 250
@@ -2056,10 +2056,10 @@ const airports = {
         ],
         "iata": "CAG",
         "names": [
-            "Cagliari Elmas Airport",
-            "Cagliari",
             "Cagliari Elmas",
-            "Sardinia Cagliari"
+            "Cagliari Elmas Airport",
+            "Sardinia Cagliari",
+            "Cagliari"
         ],
         "inbound": 85,
         "outbound": 83
@@ -2084,11 +2084,11 @@ const airports = {
         ],
         "iata": "GVA",
         "names": [
-            "Genf",
             "Geneva Airport",
-            "Geneva International",
             "Geneva International Airport",
-            "Geneva"
+            "Geneva International",
+            "Geneva",
+            "Genf"
         ],
         "inbound": 268,
         "outbound": 268
@@ -2101,8 +2101,8 @@ const airports = {
         "iata": "GLA",
         "names": [
             "Glasgow International",
-            "Glasgow International Airport",
-            "Glasgow"
+            "Glasgow",
+            "Glasgow International Airport"
         ],
         "inbound": 126,
         "outbound": 128
@@ -2114,8 +2114,8 @@ const airports = {
         ],
         "iata": "GNB",
         "names": [
-            "Grenoble-Is\u00e8re",
-            "Grenoble Isere"
+            "Grenoble Isere",
+            "Grenoble-Is\u00e8re"
         ],
         "inbound": 16,
         "outbound": 16
@@ -2128,9 +2128,9 @@ const airports = {
         "iata": "LYS",
         "names": [
             "Lyon",
-            "Lyon Saint Exupery",
             "Lyon Saint-Exup\u00e9ry",
             "Lyon\u2013Saint-Exup\u00e9ry Airport",
+            "Lyon Saint Exupery",
             "Lyon-Saint Exup\u00e9ry"
         ],
         "inbound": 140,
@@ -2143,12 +2143,12 @@ const airports = {
         ],
         "iata": "NCE",
         "names": [
-            "Nizza",
-            "Nice Cote D' Azur",
-            "Nice C\u00c3\u00b4te d'Azur",
-            "Nice Cote d'Azur Airport",
-            "Nice Cote d'Azur",
             "Nice Cote d\u2019Azur",
+            "Nice Cote d'Azur Airport",
+            "Nizza",
+            "Nice C\u00c3\u00b4te d'Azur",
+            "Nice Cote D' Azur",
+            "Nice Cote d'Azur",
             "Nice"
         ],
         "inbound": 229,
@@ -2161,9 +2161,9 @@ const airports = {
         ],
         "iata": "PFO",
         "names": [
-            "Cyprus Paphos",
             "Paphos International",
             "Paphos",
+            "Cyprus Paphos",
             "Paphos International Airport"
         ],
         "inbound": 57,
@@ -2176,10 +2176,10 @@ const airports = {
         ],
         "iata": "SCQ",
         "names": [
+            "Santiago de Compostela Airport",
             "Santiago",
             "Santiago de Compostela",
-            "Santiago\u0096Rosal\u00eda de Castro",
-            "Santiago de Compostela Airport"
+            "Santiago\u0096Rosal\u00eda de Castro"
         ],
         "inbound": 30,
         "outbound": 26
@@ -2192,8 +2192,8 @@ const airports = {
         "iata": "TRN",
         "names": [
             "Torino",
-            "Turin",
-            "Turin Caselle Airport"
+            "Turin Caselle Airport",
+            "Turin"
         ],
         "inbound": 46,
         "outbound": 50
@@ -2205,11 +2205,11 @@ const airports = {
         ],
         "iata": "VCE",
         "names": [
+            "Venice",
             "Venedig-Marco Polo",
             "Venice Marco Polo Airport",
-            "Venice",
-            "Venice Marco Polo",
             "Venice M.Polo",
+            "Venice Marco Polo",
             "Venezia Marco Polo"
         ],
         "inbound": 155,
@@ -2222,9 +2222,9 @@ const airports = {
         ],
         "iata": "VRN",
         "names": [
+            "Verona",
             "Verona Villafranca",
-            "Verona Airport",
-            "Verona"
+            "Verona Airport"
         ],
         "inbound": 61,
         "outbound": 56
@@ -2236,9 +2236,9 @@ const airports = {
         ],
         "iata": "BSL",
         "names": [
+            "EuroAirport Basel Mulhouse",
             "Basel Mulhouse-Freiburg EuroAirport",
             "Basle-Mulhouse",
-            "EuroAirport Basel Mulhouse",
             "Basel"
         ],
         "inbound": 267,
@@ -2251,8 +2251,8 @@ const airports = {
         ],
         "iata": "BLL",
         "names": [
-            "Billund",
-            "Billund Airport"
+            "Billund Airport",
+            "Billund"
         ],
         "inbound": 32,
         "outbound": 24
@@ -2264,8 +2264,8 @@ const airports = {
         ],
         "iata": "BLQ",
         "names": [
-            "Bologna",
             "Bologna Guglielmo Marconi Airport",
+            "Bologna",
             "Bologna Guglielmo Marconi"
         ],
         "inbound": 90,
@@ -2278,13 +2278,13 @@ const airports = {
         ],
         "iata": "BOS",
         "names": [
-            "Boston Logan",
-            "General Edward Lawrence Logan International Airport",
-            "Boston Logan International",
-            "Boston Logan International Airport",
             "Boston, MA",
+            "General Edward Lawrence Logan International Airport",
             "BOSTON-LOGAN INTERNATIONAL AIRPORT",
-            "Boston"
+            "Boston Logan International Airport",
+            "Boston",
+            "Boston Logan",
+            "Boston Logan International"
         ],
         "inbound": 438,
         "outbound": 442
@@ -2296,9 +2296,9 @@ const airports = {
         ],
         "iata": "CPT",
         "names": [
-            "Cape Town International Airport",
             "Cape Town International",
-            "Cape Town"
+            "Cape Town",
+            "Cape Town International Airport"
         ],
         "inbound": 14,
         "outbound": 14
@@ -2311,9 +2311,9 @@ const airports = {
         "iata": "BOM",
         "names": [
             "Mumbai Chhatrapati Shivaji",
-            "Chhatrapati Shivaji Maharaj International Airport",
             "Chhatrapati Shivaji Maharaj International",
-            "Mumbai Chhatrapati Shivaji International Airport"
+            "Mumbai Chhatrapati Shivaji International Airport",
+            "Chhatrapati Shivaji Maharaj International Airport"
         ],
         "inbound": 205,
         "outbound": 202
@@ -2325,12 +2325,12 @@ const airports = {
         ],
         "iata": "ORD",
         "names": [
-            "Chicago O'Hare",
-            "Chicago O'Hare International Airport",
-            "Chicago O'Hare International",
             "Chicago O'Hare Intl.",
-            "ORD-Chicago, IL",
-            "CHICAGO O'HARE INTERNATIONAL AIRPORT"
+            "Chicago O'Hare International",
+            "CHICAGO O'HARE INTERNATIONAL AIRPORT",
+            "Chicago O'Hare International Airport",
+            "Chicago O'Hare",
+            "ORD-Chicago, IL"
         ],
         "inbound": 297,
         "outbound": 318
@@ -2343,9 +2343,9 @@ const airports = {
         "iata": "CPH",
         "names": [
             "Copenhagen Kastrup",
-            "Copenhagen Airport",
+            "Copenhagen",
             "Kopenhagen-Kastrup",
-            "Copenhagen"
+            "Copenhagen Airport"
         ],
         "inbound": 416,
         "outbound": 413
@@ -2357,13 +2357,13 @@ const airports = {
         ],
         "iata": "DFW",
         "names": [
-            "Dallas Fort Worth International Airport",
-            "Dallas/Fort Worth International",
-            "Dallas/Fort Worth International Airport",
-            "Dallas/Forth Worth",
             "Dallas/Fort Worth, TX",
+            "Dallas-Ft Worth International",
+            "Dallas/Fort Worth International Airport",
             "Dallas/Fort Worth",
-            "Dallas-Ft Worth International"
+            "Dallas/Forth Worth",
+            "Dallas/Fort Worth International",
+            "Dallas Fort Worth International Airport"
         ],
         "inbound": 199,
         "outbound": 197
@@ -2375,10 +2375,10 @@ const airports = {
         ],
         "iata": "DXB",
         "names": [
-            "Dubai",
             "Dubai International Airport",
+            "Dubai International",
             "DUBAI, UNITED ARAB EMIRATES",
-            "Dubai International"
+            "Dubai"
         ],
         "inbound": 108,
         "outbound": 105
@@ -2391,8 +2391,8 @@ const airports = {
         "iata": "DUB",
         "names": [
             "Dublin International",
-            "Dublin Airport",
-            "Dublin"
+            "Dublin",
+            "Dublin Airport"
         ],
         "inbound": 279,
         "outbound": 280
@@ -2444,12 +2444,12 @@ const airports = {
         ],
         "iata": "GOT",
         "names": [
+            "Gothenburg",
+            "G\u00f6teborg-Landvetter",
             "Gothenburg Landvetter",
             "G\u00f6teborg Landvetter Airport",
-            "Goteborg Landvetter",
             "Gothenburg Landvetter Airport",
-            "G\u00f6teborg-Landvetter",
-            "Gothenburg"
+            "Goteborg Landvetter"
         ],
         "inbound": 109,
         "outbound": 120
@@ -2488,8 +2488,8 @@ const airports = {
         "iata": "NBO",
         "names": [
             "Nairobi-Jomo Kenyatta Intl.",
-            "Nairobi Jomo Kenyatta",
             "Jomo Kenyatta International",
+            "Nairobi Jomo Kenyatta",
             "Nairobi Jomo Kenyatta Intl Airport"
         ],
         "inbound": 17,
@@ -2502,11 +2502,11 @@ const airports = {
         ],
         "iata": "LCA",
         "names": [
-            "Larnaca International Airport",
             "Larnaca",
-            "Cyprus Larnaca",
             "Larnaka",
-            "Larnaca International"
+            "Larnaca International Airport",
+            "Larnaca International",
+            "Cyprus Larnaca"
         ],
         "inbound": 220,
         "outbound": 220
@@ -2520,8 +2520,8 @@ const airports = {
         "names": [
             "Milano Linate",
             "Linate",
-            "Milan Linate Airport",
-            "Milan Linate"
+            "Milan Linate",
+            "Milan Linate Airport"
         ],
         "inbound": 53,
         "outbound": 55
@@ -2533,10 +2533,10 @@ const airports = {
         ],
         "iata": "LIS",
         "names": [
-            "Lisbon Portela Airport",
-            "Lisbon",
             "Lisbon Humberto Delgado",
             "Lisbon Portela",
+            "Lisbon",
+            "Lisbon Portela Airport",
             "Lissabon-Portela",
             "Lisbon Humberto Delgado Airport"
         ],
@@ -2550,9 +2550,9 @@ const airports = {
         ],
         "iata": "LAX",
         "names": [
-            "Los Angeles International Airport",
             "Los Angeles International",
             "Los Angeles, CA",
+            "Los Angeles International Airport",
             "Los Angeles"
         ],
         "inbound": 406,
@@ -2565,9 +2565,9 @@ const airports = {
         ],
         "iata": "LUX",
         "names": [
-            "Luxembourg Findel",
             "Luxembourg Findel Airport",
-            "Luxembourg"
+            "Luxembourg",
+            "Luxembourg Findel"
         ],
         "inbound": 36,
         "outbound": 38
@@ -2579,13 +2579,13 @@ const airports = {
         ],
         "iata": "FNC",
         "names": [
-            "Madeira CR7 Airport",
-            "Funchal Cristiano Ronaldo Airport",
-            "Funchal Madeira ",
-            "Madeira Funchal",
-            "Madeira Airport",
             "Madeira",
-            "Funchal Cristiano Ronaldo"
+            "Funchal Cristiano Ronaldo Airport",
+            "Funchal Cristiano Ronaldo",
+            "Madeira Funchal",
+            "Madeira CR7 Airport",
+            "Funchal Madeira ",
+            "Madeira Airport"
         ],
         "inbound": 155,
         "outbound": 150
@@ -2597,10 +2597,10 @@ const airports = {
         ],
         "iata": "MRS",
         "names": [
-            "Marseille",
             "Marseilles",
-            "Marseille Provence",
-            "Marseille Province"
+            "Marseille",
+            "Marseille Province",
+            "Marseille Provence"
         ],
         "inbound": 44,
         "outbound": 62
@@ -2612,11 +2612,11 @@ const airports = {
         ],
         "iata": "LAS",
         "names": [
-            "Las Vegas Harry Reid International Airport",
-            "Las Vegas, NV",
             "Harry Reid International Airport",
+            "Las Vegas, NV",
             "Las Vegas",
-            "McCarran International"
+            "McCarran International",
+            "Las Vegas Harry Reid International Airport"
         ],
         "inbound": 322,
         "outbound": 326
@@ -2628,8 +2628,8 @@ const airports = {
         ],
         "iata": "NCL",
         "names": [
-            "Newcastle",
             "Newcastle Airport",
+            "Newcastle",
             "Newcastle International"
         ],
         "inbound": 36,
@@ -2643,8 +2643,8 @@ const airports = {
         "iata": "NUE",
         "names": [
             "Nuremberg",
-            "N\u00fcrnberg",
             "Nurenburg",
+            "N\u00fcrnberg",
             "Nuremberg Airport"
         ],
         "inbound": 192,
@@ -2657,11 +2657,11 @@ const airports = {
         ],
         "iata": "OSL",
         "names": [
+            "Oslo Airport",
             "Oslo",
             "Oslo Gardermoen Airport",
             "Oslo-Gardermoen",
-            "Oslo Gardermoen",
-            "Oslo Airport"
+            "Oslo Gardermoen"
         ],
         "inbound": 281,
         "outbound": 262
@@ -2673,12 +2673,12 @@ const airports = {
         ],
         "iata": "PMO",
         "names": [
-            "Sicily Palermo",
-            "Falcone Borsellino Airport",
             "Palermo-Punta Raisi",
-            "Palermo Falcone-Borsellino",
+            "Falcone Borsellino Airport",
             "Palermo Falcone-Borsellino Airport",
-            "Palermo"
+            "Palermo Falcone-Borsellino",
+            "Palermo",
+            "Sicily Palermo"
         ],
         "inbound": 90,
         "outbound": 93
@@ -2690,12 +2690,12 @@ const airports = {
         ],
         "iata": "CDG",
         "names": [
-            "Paris",
-            "Paris CDG",
-            "Paris Charles De Gaulle",
-            "Paris Charles de Gaulle",
             "Paris Charles de Gaulle Airport",
-            "Paris-Charles de Gaulle"
+            "Paris Charles De Gaulle",
+            "Paris CDG",
+            "Paris",
+            "Paris-Charles de Gaulle",
+            "Paris Charles de Gaulle"
         ],
         "inbound": 272,
         "outbound": 272
@@ -2707,10 +2707,10 @@ const airports = {
         ],
         "iata": "PSA",
         "names": [
-            "Pisa (Tuscany)",
+            "Pisa Galileo Galilei Airport",
             "Pisa International",
             "Pisa",
-            "Pisa Galileo Galilei Airport"
+            "Pisa (Tuscany)"
         ],
         "inbound": 50,
         "outbound": 59
@@ -2737,15 +2737,15 @@ const airports = {
         ],
         "iata": "FCO",
         "names": [
-            "Rome Fiumicino International Airport",
-            "Rome Leonardo da Vinci Fiumicino",
-            "Rome",
-            "Rome Fiumicino",
-            "Rom-Fiumicino",
-            "Rom Fiumicino",
-            "Rome Leonardo da Vinci Fiumicino Airport",
             "Rome Fiumicino International",
-            "Roma Fiumicino"
+            "Rome",
+            "Rome Leonardo da Vinci Fiumicino",
+            "Rome Leonardo da Vinci Fiumicino Airport",
+            "Rome Fiumicino",
+            "Roma Fiumicino",
+            "Rom Fiumicino",
+            "Rom-Fiumicino",
+            "Rome Fiumicino International Airport"
         ],
         "inbound": 339,
         "outbound": 345
@@ -2758,8 +2758,8 @@ const airports = {
         "iata": "SAN",
         "names": [
             "San Diego, CA",
-            "San Diego International",
             "San Diego",
+            "San Diego International",
             "San Diego International Airport",
             "San Diego international Airport"
         ],
@@ -2774,9 +2774,9 @@ const airports = {
         "iata": "ARN",
         "names": [
             "Stockholm-Arlanda",
-            "Stockholm Arlanda",
+            "Stockholm",
             "Stockholm Arlanda Airport",
-            "Stockholm"
+            "Stockholm Arlanda"
         ],
         "inbound": 440,
         "outbound": 441
@@ -2788,10 +2788,10 @@ const airports = {
         ],
         "iata": "TLS",
         "names": [
-            "Toulouse",
+            "Toulouse-Blagnac",
             "Toulouse\u2013Blagnac",
-            "Toulouse Blagnac",
-            "Toulouse-Blagnac"
+            "Toulouse",
+            "Toulouse Blagnac"
         ],
         "inbound": 79,
         "outbound": 81
@@ -2803,11 +2803,11 @@ const airports = {
         ],
         "iata": "VIE",
         "names": [
-            "Vienna",
-            "Vienna International",
             "Wien-Schwechat",
+            "Vienna International",
             "Vienna International Airport",
-            "Vienna Airport"
+            "Vienna Airport",
+            "Vienna"
         ],
         "inbound": 690,
         "outbound": 688
@@ -2820,10 +2820,10 @@ const airports = {
         "iata": "IAD",
         "names": [
             "Washington Dulles International",
-            "Washington Dulles",
-            "Washington Dulles International Airport ",
             "Washington Reagan",
-            "Washington Dulles International Airport"
+            "Washington Dulles",
+            "Washington Dulles International Airport",
+            "Washington Dulles International Airport "
         ],
         "inbound": 114,
         "outbound": 103
@@ -2835,10 +2835,10 @@ const airports = {
         ],
         "iata": "ZRH",
         "names": [
-            "Zurich",
-            "Zurich Kloten",
             "Zurich Airport",
-            "Z\u00fcrich"
+            "Z\u00fcrich",
+            "Zurich Kloten",
+            "Zurich"
         ],
         "inbound": 130,
         "outbound": 134
@@ -2852,12 +2852,12 @@ const airports = {
         "names": [
             "John F. Kennedy International Airport",
             "New York",
-            "John F Kennedy International",
-            "New York Kennedy International",
             "New York John F. Kennedy International",
-            "New York (JFK)",
             "New York John F. Kennedy",
-            "New York John F. Kennedy International Airport"
+            "John F Kennedy International",
+            "New York John F. Kennedy International Airport",
+            "New York Kennedy International",
+            "New York (JFK)"
         ],
         "inbound": 559,
         "outbound": 562
@@ -2869,8 +2869,8 @@ const airports = {
         ],
         "iata": "ISB",
         "names": [
-            "Islamabad International Airport",
-            "Islamabad International"
+            "Islamabad International",
+            "Islamabad International Airport"
         ],
         "inbound": 13,
         "outbound": 13
@@ -2895,10 +2895,10 @@ const airports = {
         ],
         "iata": "MLE",
         "names": [
-            "Male Velana",
+            "Male Velana International Airport",
             "Mal\u00e9",
             "Velana International Airport",
-            "Male Velana International Airport",
+            "Male Velana",
             "Male"
         ],
         "inbound": 28,
@@ -2925,8 +2925,8 @@ const airports = {
         "iata": "EVN",
         "names": [
             "Yerevan Zvartnots International Airport",
-            "Zvartnots International Airport",
-            "Yerevan"
+            "Yerevan",
+            "Zvartnots International Airport"
         ],
         "inbound": 49,
         "outbound": 44
@@ -2939,9 +2939,9 @@ const airports = {
         "iata": "PEK",
         "names": [
             "Beijing Capital Airport",
-            "Beijing Capital International Airport",
             "Beijing Capital Intl Airport",
-            "Beijing Capital"
+            "Beijing Capital",
+            "Beijing Capital International Airport"
         ],
         "inbound": 1778,
         "outbound": 1780
@@ -2990,8 +2990,8 @@ const airports = {
         ],
         "iata": "BNE",
         "names": [
-            "Brisbane, Australia",
-            "Brisbane Airport "
+            "Brisbane Airport ",
+            "Brisbane, Australia"
         ],
         "inbound": 12,
         "outbound": 12
@@ -3003,8 +3003,8 @@ const airports = {
         ],
         "iata": "TFU",
         "names": [
-            "Chengdu Tianfu Intl Airport",
-            "Chengdu Tianfu Airport"
+            "Chengdu Tianfu Airport",
+            "Chengdu Tianfu Intl Airport"
         ],
         "inbound": 1056,
         "outbound": 1092
@@ -3040,8 +3040,8 @@ const airports = {
         ],
         "iata": "DAC",
         "names": [
-            "Dhaka Hazrat Shahjalal International Airport",
-            "Dhaka Shahjalal International Airport"
+            "Dhaka Shahjalal International Airport",
+            "Dhaka Hazrat Shahjalal International Airport"
         ],
         "inbound": 25,
         "outbound": 25
@@ -3053,8 +3053,8 @@ const airports = {
         ],
         "iata": "HAN",
         "names": [
-            "Noi Bai International Airport",
-            "Hanoi Noi Bai International Airport"
+            "Hanoi Noi Bai International Airport",
+            "Noi Bai International Airport"
         ],
         "inbound": 24,
         "outbound": 24
@@ -3128,8 +3128,8 @@ const airports = {
         ],
         "iata": "MNL",
         "names": [
-            "Manila Ninoy Aquino International Airport",
-            "Ninoy Aquino International Airport / Villamor Air Base"
+            "Ninoy Aquino International Airport / Villamor Air Base",
+            "Manila Ninoy Aquino International Airport"
         ],
         "inbound": 56,
         "outbound": 56
@@ -3141,8 +3141,8 @@ const airports = {
         ],
         "iata": "MEL",
         "names": [
-            "Melbourne Airport",
-            "Melbourne"
+            "Melbourne",
+            "Melbourne Airport"
         ],
         "inbound": 26,
         "outbound": 26
@@ -3191,9 +3191,9 @@ const airports = {
         ],
         "iata": "SIN",
         "names": [
+            "Singapore Changi Airport",
             "Singapore Changi",
-            "Singapore",
-            "Singapore Changi Airport"
+            "Singapore"
         ],
         "inbound": 76,
         "outbound": 82
@@ -3231,9 +3231,9 @@ const airports = {
         ],
         "iata": "HGH",
         "names": [
-            "Hangzhou Xiaoshan Intl Airport",
             "Hangzhou Xiaoshan International Airport",
-            "Hangzhou Xiaoshan Airport"
+            "Hangzhou Xiaoshan Airport",
+            "Hangzhou Xiaoshan Intl Airport"
         ],
         "inbound": 540,
         "outbound": 517
@@ -3365,9 +3365,9 @@ const airports = {
         ],
         "iata": "MAA",
         "names": [
+            "Chennai International Airport",
             "Chennai\u00a0",
-            "Chennai",
-            "Chennai International Airport"
+            "Chennai"
         ],
         "inbound": 137,
         "outbound": 137
@@ -3379,8 +3379,8 @@ const airports = {
         ],
         "iata": "DEN",
         "names": [
-            "Denver",
             "Denver, CO",
+            "Denver",
             "Denver International Airport"
         ],
         "inbound": 531,
@@ -3393,11 +3393,11 @@ const airports = {
         ],
         "iata": "DUS",
         "names": [
-            "DUSSELDORF",
             "D\u00fcsseldorf",
+            "DUSSELDORF",
             "D\u00c3\u00bcsseldorf Airport",
-            "Dusseldorf International Airport",
-            "Dusseldorf"
+            "Dusseldorf",
+            "Dusseldorf International Airport"
         ],
         "inbound": 771,
         "outbound": 778
@@ -3409,9 +3409,9 @@ const airports = {
         ],
         "iata": "GUM",
         "names": [
-            "Guam International Airport",
+            "Guam",
             "Antonio B. Won Pat International Airport",
-            "Guam"
+            "Guam International Airport"
         ],
         "inbound": 14,
         "outbound": 14
@@ -3423,8 +3423,8 @@ const airports = {
         ],
         "iata": "IAH",
         "names": [
-            "Houston George Bush Intercontinental Airport",
             "Houston George Bush Intercontinental",
+            "Houston George Bush Intercontinental Airport",
             "George Bush Intercontinental Airport",
             "Houston",
             "IAH-Houston, TX"
@@ -3439,10 +3439,10 @@ const airports = {
         ],
         "iata": "MEX",
         "names": [
-            "LIC. BENITO JUAREZ INT'L AIRPORT",
-            "Mexico City International Airport",
             "Aeropuerto Internacional Benito Juarez CDMX",
-            "Mexico City"
+            "LIC. BENITO JUAREZ INT'L AIRPORT",
+            "Mexico City",
+            "Mexico City International Airport"
         ],
         "inbound": 299,
         "outbound": 295
@@ -3454,13 +3454,13 @@ const airports = {
         ],
         "iata": "EWR",
         "names": [
-            "New York/Newark",
-            "New York Newark Liberty International Airport",
-            "Newark Liberty International Airport",
-            "New York Newark Liberty",
-            "Newark Liberty International",
             "Newark, NJ",
-            "Newark"
+            "New York Newark Liberty International Airport",
+            "New York Newark Liberty",
+            "New York/Newark",
+            "Newark Liberty International",
+            "Newark",
+            "Newark Liberty International Airport"
         ],
         "inbound": 229,
         "outbound": 212
@@ -3496,9 +3496,9 @@ const airports = {
         ],
         "iata": "WAW",
         "names": [
-            "Warsaw Chopin Airport",
+            "Warsaw Chopin",
             "Warsaw",
-            "Warsaw Chopin"
+            "Warsaw Chopin Airport"
         ],
         "inbound": 238,
         "outbound": 237
@@ -3522,8 +3522,8 @@ const airports = {
         ],
         "iata": "SJC",
         "names": [
-            "San Jose International Airport",
             "San Jose, CA",
+            "San Jose International Airport",
             "San Jose"
         ],
         "inbound": 19,
@@ -3536,15 +3536,15 @@ const airports = {
         ],
         "iata": "SEA",
         "names": [
-            "SEATTLE TACOMA INTERNATIONAL AIRPORT",
-            "Seattle",
-            "Seattle\u2013Tacoma International",
-            "Seattle-Tacoma International Airport",
-            "Seattle/Tacoma",
             "Seattle\u2013Tacoma International Airport",
             "Seattle Tacoma International Airport",
+            "Seattle Tacoma",
+            "SEATTLE TACOMA INTERNATIONAL AIRPORT",
+            "Seattle\u2013Tacoma International",
+            "Seattle/Tacoma",
+            "Seattle-Tacoma International Airport",
             "Seattle, WA",
-            "Seattle Tacoma"
+            "Seattle"
         ],
         "inbound": 220,
         "outbound": 217
@@ -3581,12 +3581,12 @@ const airports = {
         ],
         "iata": "BUD",
         "names": [
-            "Budapest Ferenc Liszt",
             "Budapest Liszt Ferenc international Airport",
-            "Budapest Liszt Ferenc Airport",
-            "Budapest Liszt Ferenc Intl",
+            "Budapest Ferenc Liszt",
+            "Budapest",
             "Budapest Ferenc Liszt International Airport",
-            "Budapest"
+            "Budapest Liszt Ferenc Intl",
+            "Budapest Liszt Ferenc Airport"
         ],
         "inbound": 292,
         "outbound": 288
@@ -3622,8 +3622,8 @@ const airports = {
         ],
         "iata": "HFE",
         "names": [
-            "Hefei Xinqiao Airport",
-            "Hefei Xinqiao International Airport"
+            "Hefei Xinqiao International Airport",
+            "Hefei Xinqiao Airport"
         ],
         "inbound": 307,
         "outbound": 211
@@ -3864,8 +3864,8 @@ const airports = {
         "iata": "CAN",
         "names": [
             "Guangzhou Baiyun Airport",
-            "Guangzhou Baiyun Intl Airport",
-            "Guangzhou Baiyun International Airport"
+            "Guangzhou Baiyun International Airport",
+            "Guangzhou Baiyun Intl Airport"
         ],
         "inbound": 415,
         "outbound": 439
@@ -3889,8 +3889,8 @@ const airports = {
         ],
         "iata": "KWE",
         "names": [
-            "Guiyang Longdongbao Intl Airport",
-            "Guiyang Longdongbao Airport"
+            "Guiyang Longdongbao Airport",
+            "Guiyang Longdongbao Intl Airport"
         ],
         "inbound": 228,
         "outbound": 264
@@ -4311,8 +4311,8 @@ const airports = {
         ],
         "iata": "SHA",
         "names": [
-            "Shanghai Hongqiao Airport",
-            "Shanghai Hongqiao Intl Airport"
+            "Shanghai Hongqiao Intl Airport",
+            "Shanghai Hongqiao Airport"
         ],
         "inbound": 132,
         "outbound": 144
@@ -4444,8 +4444,8 @@ const airports = {
         ],
         "iata": "URC",
         "names": [
-            "Urumqi Diwopu Intl Airport",
-            "Urumqi Diwopu Airport"
+            "Urumqi Diwopu Airport",
+            "Urumqi Diwopu Intl Airport"
         ],
         "inbound": 144,
         "outbound": 276
@@ -5167,12 +5167,12 @@ const airports = {
         "iata": "ATL",
         "names": [
             "Hartsfield-Jackson Atlanta International Airport",
+            "Hartsfield-Jackson Atlanta International",
+            "Atlanta Hartsfield-Jackson Intl",
+            "Atlanta, GA",
             "Atlanta Hartsfield\u2013Jackson Atlanta International Airport",
             "Atlanta Hartsfield\u2013Jackson",
-            "Atlanta",
-            "Atlanta, GA",
-            "Hartsfield-Jackson Atlanta International",
-            "Atlanta Hartsfield-Jackson Intl"
+            "Atlanta"
         ],
         "inbound": 697,
         "outbound": 687
@@ -5196,9 +5196,9 @@ const airports = {
         ],
         "iata": "ABQ",
         "names": [
+            "Albuquerque International Airport",
             "Albuquerque, NM",
-            "Albuquerque",
-            "Albuquerque International Airport"
+            "Albuquerque"
         ],
         "inbound": 25,
         "outbound": 25
@@ -5224,10 +5224,10 @@ const airports = {
         ],
         "iata": "BWI",
         "names": [
-            "Baltimore\u2013Washington International Airport",
             "Baltimore, MD",
+            "Baltimore/Washington International",
             "Baltimore",
-            "Baltimore/Washington International"
+            "Baltimore\u2013Washington International Airport"
         ],
         "inbound": 68,
         "outbound": 69
@@ -5239,8 +5239,8 @@ const airports = {
         ],
         "iata": "BOI",
         "names": [
-            "Boise",
-            "Boise, ID"
+            "Boise, ID",
+            "Boise"
         ],
         "inbound": 28,
         "outbound": 31
@@ -5277,11 +5277,11 @@ const airports = {
         ],
         "iata": "CUN",
         "names": [
-            "Canc\u00fan International Airport",
             "Cancun",
+            "Canc\u00fan",
+            "Canc\u00fan International Airport",
             "Cancun International Airport",
-            "Cancun, Mexico",
-            "Canc\u00fan"
+            "Cancun, Mexico"
         ],
         "inbound": 164,
         "outbound": 170
@@ -5293,8 +5293,8 @@ const airports = {
         ],
         "iata": "CHS",
         "names": [
-            "Charleston",
             "Charleston International Airport",
+            "Charleston",
             "Charleston, SC"
         ],
         "inbound": 73,
@@ -5307,9 +5307,9 @@ const airports = {
         ],
         "iata": "CLT",
         "names": [
-            "Charlotte, NC",
+            "Charlotte Douglas International Airport",
             "Charlotte",
-            "Charlotte Douglas International Airport"
+            "Charlotte, NC"
         ],
         "inbound": 76,
         "outbound": 74
@@ -5321,8 +5321,8 @@ const airports = {
         ],
         "iata": "MDW",
         "names": [
-            "Chicago Kmdw",
-            "Chicago Midway International Airport"
+            "Chicago Midway International Airport",
+            "Chicago Kmdw"
         ],
         "inbound": 71,
         "outbound": 76
@@ -5334,8 +5334,8 @@ const airports = {
         ],
         "iata": "CVG",
         "names": [
-            "Cincinnati",
             "Cincinnnati",
+            "Cincinnati",
             "Cincinnati/Northern Kentucky International Airport"
         ],
         "inbound": 86,
@@ -5360,9 +5360,9 @@ const airports = {
         ],
         "iata": "CMH",
         "names": [
-            "Columbus",
             "John Glenn Columbus International Airport",
-            "Columbus, OH"
+            "Columbus, OH",
+            "Columbus"
         ],
         "inbound": 38,
         "outbound": 36
@@ -5398,10 +5398,10 @@ const airports = {
         ],
         "iata": "DTW",
         "names": [
-            "Detroit Metropolitan Wayne County",
-            "Detroit",
             "Detroit Metropolitan Wayne County Airport",
-            "Detroit, MI"
+            "Detroit, MI",
+            "Detroit",
+            "Detroit Metropolitan Wayne County"
         ],
         "inbound": 205,
         "outbound": 205
@@ -5425,12 +5425,12 @@ const airports = {
         ],
         "iata": "FLL",
         "names": [
-            "Fort Lauderdale, FL",
-            "Fort Lauderdale-Hollywood International Airport",
-            "Fort Lauderdale",
+            "Fort Lauderdale Hollywood International Airport",
             "FORT LAUDERDALE INTERNATIONAL AIRPORT",
             "Fort Lauderdale\u2013Hollywood International Airport",
-            "Fort Lauderdale Hollywood International Airport"
+            "Fort Lauderdale",
+            "Fort Lauderdale, FL",
+            "Fort Lauderdale-Hollywood International Airport"
         ],
         "inbound": 261,
         "outbound": 265
@@ -5470,9 +5470,9 @@ const airports = {
         ],
         "iata": "JAX",
         "names": [
+            "JACKSONVILLE INTERNATIONAL AIRPORT",
             "Jacksonville International Airport",
-            "Jacksonville",
-            "JACKSONVILLE INTERNATIONAL AIRPORT"
+            "Jacksonville"
         ],
         "inbound": 52,
         "outbound": 57
@@ -5485,8 +5485,8 @@ const airports = {
         "iata": "MCI",
         "names": [
             "Kansas City International Airport",
-            "Kansas City, MO",
-            "Kansas City"
+            "Kansas City",
+            "Kansas City, MO"
         ],
         "inbound": 56,
         "outbound": 53
@@ -5498,10 +5498,10 @@ const airports = {
         ],
         "iata": "LIM",
         "names": [
-            "Lima Jorge Ch\u00e1vez International Airport",
-            "Lima, Peru",
             "Jorge Ch\u00e1vez International Airport",
-            "Lima"
+            "Lima",
+            "Lima, Peru",
+            "Lima Jorge Ch\u00e1vez International Airport"
         ],
         "inbound": 11,
         "outbound": 12
@@ -5513,8 +5513,8 @@ const airports = {
         ],
         "iata": "SDF",
         "names": [
-            "Louisville, KY",
-            "Louisville"
+            "Louisville",
+            "Louisville, KY"
         ],
         "inbound": 15,
         "outbound": 14
@@ -5564,8 +5564,8 @@ const airports = {
         "iata": "MEM",
         "names": [
             "Memphis International Airport",
-            "Memphis",
-            "Memphis, TN"
+            "Memphis, TN",
+            "Memphis"
         ],
         "inbound": 41,
         "outbound": 38
@@ -5577,9 +5577,9 @@ const airports = {
         ],
         "iata": "MSP",
         "names": [
+            "Minneapolis/Saint Paul, MN",
             "Minneapolis/St. Paul",
             "Minneapolis Saint Paul International Airport",
-            "Minneapolis/Saint Paul, MN",
             "Minneapolis\u2013Saint Paul International Airport"
         ],
         "inbound": 250,
@@ -5604,8 +5604,8 @@ const airports = {
         ],
         "iata": "BNA",
         "names": [
-            "Nashville International Airport",
             "Nashville",
+            "Nashville International Airport",
             "Nashville, TN"
         ],
         "inbound": 81,
@@ -5618,10 +5618,10 @@ const airports = {
         ],
         "iata": "NAS",
         "names": [
-            "Lynden Pindling International Airport",
+            "Nassau Lynden Pindling International Airport",
             "Nassau",
             "Lyndon Pindling International Airport",
-            "Nassau Lynden Pindling International Airport"
+            "Lynden Pindling International Airport"
         ],
         "inbound": 48,
         "outbound": 46
@@ -5633,10 +5633,10 @@ const airports = {
         ],
         "iata": "MSY",
         "names": [
+            "Louis Armstrong New Orleans International Airport",
             "New Orleans",
             "New Orleans Louis Armstrong International Airport",
-            "New Orleans, LA",
-            "Louis Armstrong New Orleans International Airport"
+            "New Orleans, LA"
         ],
         "inbound": 98,
         "outbound": 97
@@ -5648,10 +5648,10 @@ const airports = {
         ],
         "iata": "LGA",
         "names": [
-            "New York",
-            "LaGuardia Airport",
             "New York LaGuardia Airport",
+            "LaGuardia Airport",
             "LGA-New York, NY",
+            "New York",
             "New York/La Guardia"
         ],
         "inbound": 137,
@@ -5665,9 +5665,9 @@ const airports = {
         "iata": "MCO",
         "names": [
             "Orlando International Airport",
+            "Orlando, FL",
             "Orlando",
-            "Orlando International",
-            "Orlando, FL"
+            "Orlando International"
         ],
         "inbound": 327,
         "outbound": 324
@@ -5679,8 +5679,8 @@ const airports = {
         ],
         "iata": "GCM",
         "names": [
-            "Owen Roberts International Airport",
-            "George Town Owen Roberts International Airport"
+            "George Town Owen Roberts International Airport",
+            "Owen Roberts International Airport"
         ],
         "inbound": 14,
         "outbound": 17
@@ -5704,8 +5704,8 @@ const airports = {
         ],
         "iata": "PNS",
         "names": [
-            "Pensacola International Airport",
             "Pensacola",
+            "Pensacola International Airport",
             "Pensacola, FL"
         ],
         "inbound": 17,
@@ -5718,11 +5718,11 @@ const airports = {
         ],
         "iata": "PHL",
         "names": [
-            "Philadelphia Intl",
             "Philadelphia",
+            "Philadelphia Intl",
+            "Philadelphia International",
             "Philadelphia, PA",
-            "Philadelphia International Airport",
-            "Philadelphia International"
+            "Philadelphia International Airport"
         ],
         "inbound": 190,
         "outbound": 188
@@ -5734,9 +5734,9 @@ const airports = {
         ],
         "iata": "PHX",
         "names": [
+            "Phoenix",
             "Phoenix Sky Harbor International Airport",
-            "Phoenix, AZ",
-            "Phoenix"
+            "Phoenix, AZ"
         ],
         "inbound": 115,
         "outbound": 120
@@ -5748,9 +5748,9 @@ const airports = {
         ],
         "iata": "RDU",
         "names": [
-            "Raleigh/Durham, NC",
+            "Raleigh/Durham",
             "Raleigh\u2013Durham International Airport",
-            "Raleigh/Durham"
+            "Raleigh/Durham, NC"
         ],
         "inbound": 124,
         "outbound": 123
@@ -5774,8 +5774,8 @@ const airports = {
         ],
         "iata": "STL",
         "names": [
-            "St. Louis, MO",
             "Saint Louis",
+            "St. Louis, MO",
             "St. Louis",
             "St. Louis Lambert International Airport"
         ],
@@ -5789,11 +5789,11 @@ const airports = {
         ],
         "iata": "SXM",
         "names": [
-            "Saint Maarten",
             "Princess Juliana International Airport",
+            "Sint Maarten Princess Juliana International Airport",
             "PRINCESS JULIANA INTERNATIONAL AIRPORT",
             "Sint Maarten",
-            "Sint Maarten Princess Juliana International Airport"
+            "Saint Maarten"
         ],
         "inbound": 38,
         "outbound": 38
@@ -5805,11 +5805,11 @@ const airports = {
         ],
         "iata": "SLC",
         "names": [
+            "Salt Lake City, UT",
             "Salt Lake City International Airport",
-            "Salt Lake City",
-            "SALT LAKE CITY INTERNATIONAL AIRPORT",
             "Salt Lake City Airport",
-            "Salt Lake City, UT"
+            "SALT LAKE CITY INTERNATIONAL AIRPORT",
+            "Salt Lake City"
         ],
         "inbound": 250,
         "outbound": 261
@@ -5821,9 +5821,9 @@ const airports = {
         ],
         "iata": "SAT",
         "names": [
+            "San Antonio",
             "San Antonio International Airport",
-            "San Antonio, TX",
-            "San Antonio"
+            "San Antonio, TX"
         ],
         "inbound": 65,
         "outbound": 80
@@ -5835,9 +5835,9 @@ const airports = {
         ],
         "iata": "SJU",
         "names": [
-            "San Juan Luis Mu\u00f1oz Mar\u00edn International Airport",
             "San Juan, Puerto Rico",
             "San Juan",
+            "San Juan Luis Mu\u00f1oz Mar\u00edn International Airport",
             "Luis Mu\u00f1oz Mar\u00edn International Airport"
         ],
         "inbound": 156,
@@ -5850,10 +5850,10 @@ const airports = {
         ],
         "iata": "SNA",
         "names": [
-            "Orange Country",
-            "Santa Ana, CA",
-            "John Wayne Airport",
             "Santa Ana",
+            "John Wayne Airport",
+            "Santa Ana, CA",
+            "Orange Country",
             "SANTA ANA INTERNATIONAL AIRPORT"
         ],
         "inbound": 39,
@@ -5866,9 +5866,9 @@ const airports = {
         ],
         "iata": "STI",
         "names": [
+            "Santiago de los Caballeros Cibao International Airport",
             "Santiago",
-            "Santiago, Dominican Republic",
-            "Santiago de los Caballeros Cibao International Airport"
+            "Santiago, Dominican Republic"
         ],
         "inbound": 21,
         "outbound": 27
@@ -5932,8 +5932,8 @@ const airports = {
         "iata": "STT",
         "names": [
             "Saint Thomas, USVI",
-            "St. Thomas",
-            "St. Thomas Cyril E. King Airport"
+            "St. Thomas Cyril E. King Airport",
+            "St. Thomas"
         ],
         "inbound": 11,
         "outbound": 8
@@ -5958,8 +5958,8 @@ const airports = {
         "iata": "TPA",
         "names": [
             "Tampa International",
-            "Tampa International Airport",
             "Tampa, FL",
+            "Tampa International Airport",
             "Tampa/St. Petersburg",
             "Tampa"
         ],
@@ -5986,10 +5986,10 @@ const airports = {
         "iata": "DCA",
         "names": [
             "Ronald Reagan Washington National Airport",
-            "Washington Dulles",
+            "Ronald Reagan Washington National",
             "Washington DCA",
-            "Washington Ronald Reagan Washington National Airport",
-            "Ronald Reagan Washington National"
+            "Washington Dulles",
+            "Washington Ronald Reagan Washington National Airport"
         ],
         "inbound": 65,
         "outbound": 90
@@ -6001,9 +6001,9 @@ const airports = {
         ],
         "iata": "PBI",
         "names": [
+            "West Palm Beach, FL",
             "West Palm Beach",
-            "West Palm Beach International Airport",
-            "West Palm Beach, FL"
+            "West Palm Beach International Airport"
         ],
         "inbound": 36,
         "outbound": 54
@@ -6015,8 +6015,8 @@ const airports = {
         ],
         "iata": "MKE",
         "names": [
-            "Milwaukee Mitchell International Airport",
             "Milwaukee, WI",
+            "Milwaukee Mitchell International Airport",
             "Milwaukee"
         ],
         "inbound": 25,
@@ -6029,10 +6029,10 @@ const airports = {
         ],
         "iata": "PVR",
         "names": [
+            "Licenciado Gustavo D\u00edaz Ordaz International Airport",
             "Puerto Vallarta International Airport",
-            "Puerto Vallarta, Mexico",
             "Puerto Vallarta",
-            "Licenciado Gustavo D\u00edaz Ordaz International Airport"
+            "Puerto Vallarta, Mexico"
         ],
         "inbound": 29,
         "outbound": 25
@@ -6044,9 +6044,9 @@ const airports = {
         ],
         "iata": "SMF",
         "names": [
-            "Sacramento International Airport",
             "Sacramento",
-            "Sacramento, CA"
+            "Sacramento, CA",
+            "Sacramento International Airport"
         ],
         "inbound": 28,
         "outbound": 21
@@ -6058,11 +6058,11 @@ const airports = {
         ],
         "iata": "SJD",
         "names": [
-            "Los Cabos, Mexico",
+            "Los Cabos International Airport",
             "San jose del Cabo Los Cabos International Airport",
-            "San Jose del Cabo",
             "San Jose Cabo",
-            "Los Cabos International Airport"
+            "San Jose del Cabo",
+            "Los Cabos, Mexico"
         ],
         "inbound": 31,
         "outbound": 43
@@ -6074,9 +6074,9 @@ const airports = {
         ],
         "iata": "OMA",
         "names": [
+            "OMAHA EPPLEY INTERNATIONAL AIRPORT",
             "Eppley Airfield",
-            "Omaha",
-            "OMAHA EPPLEY INTERNATIONAL AIRPORT"
+            "Omaha"
         ],
         "inbound": 25,
         "outbound": 20
@@ -6089,9 +6089,9 @@ const airports = {
         "iata": "PDX",
         "names": [
             "Portland, OR",
-            "Portland",
+            "Portland International Airport",
             "PORTLAND INTERNATIONAL",
-            "Portland International Airport"
+            "Portland"
         ],
         "inbound": 57,
         "outbound": 37
@@ -6103,8 +6103,8 @@ const airports = {
         ],
         "iata": "BDA",
         "names": [
-            "Bermuda L.F. Wade International Airport",
             "L.F. Wade International Airport",
+            "Bermuda L.F. Wade International Airport",
             "Bermuda"
         ],
         "inbound": 22,
@@ -6131,9 +6131,9 @@ const airports = {
         "names": [
             "Montego Bay Sangster",
             "Montego Bay",
-            "Montego Bay Sangster International Airport",
             "Sangster International Airport",
-            "Montego Bay, Jamaica"
+            "Montego Bay, Jamaica",
+            "Montego Bay Sangster International Airport"
         ],
         "inbound": 61,
         "outbound": 65
@@ -6145,9 +6145,9 @@ const airports = {
         ],
         "iata": "PIT",
         "names": [
-            "Pittsburgh International Airport",
             "Pittsburgh, PA",
-            "Pittsburgh"
+            "Pittsburgh",
+            "Pittsburgh International Airport"
         ],
         "inbound": 23,
         "outbound": 20
@@ -6159,12 +6159,12 @@ const airports = {
         ],
         "iata": "PRG",
         "names": [
-            "Prague Vaclav Havel Airport",
-            "Prague Vaclav Havel",
+            "V\u00e1clav Havel Airport Prague",
             "Prag",
-            "Prague Ruzyne",
             "Prague",
-            "V\u00e1clav Havel Airport Prague"
+            "Prague Vaclav Havel",
+            "Prague Ruzyne",
+            "Prague Vaclav Havel Airport"
         ],
         "inbound": 174,
         "outbound": 164
@@ -6176,8 +6176,8 @@ const airports = {
         ],
         "iata": "PUJ",
         "names": [
-            "Punta Cana",
             "Punta Cana International Airport",
+            "Punta Cana",
             "Punta Cana, Dominican Republic"
         ],
         "inbound": 53,
@@ -6190,9 +6190,9 @@ const airports = {
         ],
         "iata": "SDQ",
         "names": [
-            "Santo Domingo Las Am\u00e9ricas International Airport",
-            "Las Americas International Airport",
             "Las Am\u00e9ricas International Airport",
+            "Las Americas International Airport",
+            "Santo Domingo Las Am\u00e9ricas International Airport",
             "Santo Domingo",
             "Santo Domingo, Dominican Republic"
         ],
@@ -6232,8 +6232,8 @@ const airports = {
         ],
         "iata": "OKC",
         "names": [
-            "OKLAHOMA INTERNATIONAL AIRPORT",
             "Oklahoma City",
+            "OKLAHOMA INTERNATIONAL AIRPORT",
             "Will Rogers World Airport"
         ],
         "inbound": 19,
@@ -6246,8 +6246,8 @@ const airports = {
         ],
         "iata": "ONT",
         "names": [
-            "Ontario",
             "ONTARIO INTERNATIONAL AIRPORT",
+            "Ontario",
             "Ontario International Airport"
         ],
         "inbound": 65,
@@ -6285,9 +6285,9 @@ const airports = {
         "iata": "HAV",
         "names": [
             "JOSE MARTI INT'L AIRPORT",
-            "Havana Jos\u00e9 Mart\u00ed International Airport",
+            "Havanna",
             "Jose Marti International Airport",
-            "Havanna"
+            "Havana Jos\u00e9 Mart\u00ed International Airport"
         ],
         "inbound": 32,
         "outbound": 26
@@ -6337,8 +6337,8 @@ const airports = {
         "names": [
             "Stavanger\u00a0",
             "Stavanger Sola Airport",
-            "Stavanger Sola",
-            "Stavanger"
+            "Stavanger",
+            "Stavanger Sola"
         ],
         "inbound": 67,
         "outbound": 79
@@ -6350,9 +6350,9 @@ const airports = {
         ],
         "iata": "BHX",
         "names": [
+            "Birmingham International",
             "Birmingham Airport",
-            "Birmingham",
-            "Birmingham International"
+            "Birmingham"
         ],
         "inbound": 177,
         "outbound": 177
@@ -6364,8 +6364,8 @@ const airports = {
         ],
         "iata": "AGA",
         "names": [
-            "Al Massira Airport",
             "Agadir Al Massira",
+            "Al Massira Airport",
             "Agadir-Al Massira",
             "Agadir"
         ],
@@ -6404,8 +6404,8 @@ const airports = {
         ],
         "iata": "INN",
         "names": [
-            "Innsbruck",
             "Innsbruck Kranebitten",
+            "Innsbruck",
             "Innsbruck Airport"
         ],
         "inbound": 44,
@@ -6418,8 +6418,8 @@ const airports = {
         ],
         "iata": "MIR",
         "names": [
-            "Monastir Habib Bourguiba International Airport",
-            "Monastir Habib Bourguiba International"
+            "Monastir Habib Bourguiba International",
+            "Monastir Habib Bourguiba International Airport"
         ],
         "inbound": 45,
         "outbound": 43
@@ -6431,8 +6431,8 @@ const airports = {
         ],
         "iata": "SSH",
         "names": [
-            "Sharm El Sheikh",
             "Sharm el-Sheikh International Airport",
+            "Sharm El Sheikh",
             "Sharm El Sheikh International Airport"
         ],
         "inbound": 48,
@@ -6445,8 +6445,8 @@ const airports = {
         ],
         "iata": "VAR",
         "names": [
-            "Varna",
-            "Varna Airport"
+            "Varna Airport",
+            "Varna"
         ],
         "inbound": 87,
         "outbound": 90
@@ -6458,9 +6458,9 @@ const airports = {
         ],
         "iata": "FMO",
         "names": [
-            "Munster Osnabruck",
+            "M\u00fcnster/Osnabr\u00fcck",
             "Muenster Osnabrueck",
-            "M\u00fcnster/Osnabr\u00fcck"
+            "Munster Osnabruck"
         ],
         "inbound": 73,
         "outbound": 76
@@ -6472,10 +6472,10 @@ const airports = {
         ],
         "iata": "PAD",
         "names": [
+            "Paderborn/Lippstadt",
             "Paderborn Lippstadt\u00a0",
-            "Paderborn-Lippstadt",
             "Paderborn",
-            "Paderborn/Lippstadt"
+            "Paderborn-Lippstadt"
         ],
         "inbound": 73,
         "outbound": 83
@@ -6488,8 +6488,8 @@ const airports = {
         "iata": "BFS",
         "names": [
             "Belfast International",
-            "Belfast International Airport",
             "Belfast Aldergrove",
+            "Belfast International Airport",
             "Belfast Int"
         ],
         "inbound": 119,
@@ -6529,9 +6529,9 @@ const airports = {
         "iata": "LEI",
         "names": [
             "Almeria International Airport",
-            "Almeria",
             "Almeri\u00ada",
-            "Almeria Airport"
+            "Almeria Airport",
+            "Almeria"
         ],
         "inbound": 15,
         "outbound": 14
@@ -6543,11 +6543,11 @@ const airports = {
         ],
         "iata": "LJU",
         "names": [
-            "Ljubljana Joze Pucnik",
-            "Brink, Ljunljana, Slovenia",
-            "Ljubljana Jo\u017ee Pu\u010dnik Airport",
+            "Ljubljana Joze Pucnik Airport (Brnik Airport)",
             "Ljubljana",
-            "Ljubljana Joze Pucnik Airport (Brnik Airport)"
+            "Brink, Ljunljana, Slovenia",
+            "Ljubljana Joze Pucnik",
+            "Ljubljana Jo\u017ee Pu\u010dnik Airport"
         ],
         "inbound": 34,
         "outbound": 30
@@ -6559,9 +6559,9 @@ const airports = {
         ],
         "iata": "TUN",
         "names": [
-            "Tunis Carthage",
+            "Tunis-Carthage",
             "Carthage Tunis",
-            "Tunis-Carthage"
+            "Tunis Carthage"
         ],
         "inbound": 24,
         "outbound": 24
@@ -6622,10 +6622,10 @@ const airports = {
         ],
         "iata": "HEL",
         "names": [
+            "Helsinki Airport (Helsinki-Vantaa Airport)",
+            "Helsinki Vantaa",
             "Helsinki Vantaa Airport",
             "Helsinki",
-            "Helsinki Vantaa",
-            "Helsinki Airport (Helsinki-Vantaa Airport)",
             "Helsinki-Vantaa"
         ],
         "inbound": 44,
@@ -6638,9 +6638,9 @@ const airports = {
         ],
         "iata": "HRG",
         "names": [
-            "Hurghada International Airport",
             "Hurghada Airport",
-            "Hurghada"
+            "Hurghada",
+            "Hurghada International Airport"
         ],
         "inbound": 119,
         "outbound": 117
@@ -6676,8 +6676,8 @@ const airports = {
         ],
         "iata": "JED",
         "names": [
-            "King Abdulaziz International",
-            "Jeddah King Abdulaziz International Airport"
+            "Jeddah King Abdulaziz International Airport",
+            "King Abdulaziz International"
         ],
         "inbound": 39,
         "outbound": 40
@@ -6750,10 +6750,10 @@ const airports = {
         ],
         "iata": "OLB",
         "names": [
-            "Sardinia Olbia",
+            "Olbia Costa Smeralda Airport",
             "Olbia-Costa Smeralda",
             "Olbia Costa Smeralda",
-            "Olbia Costa Smeralda Airport"
+            "Sardinia Olbia"
         ],
         "inbound": 127,
         "outbound": 128
@@ -6802,10 +6802,10 @@ const airports = {
         ],
         "iata": "JSI",
         "names": [
-            "Skiathos International Airport",
-            "Skiathos",
             "Skiathos Airport",
-            "Skiathos Island National Airport"
+            "Skiathos International Airport",
+            "Skiathos Island National Airport",
+            "Skiathos"
         ],
         "inbound": 22,
         "outbound": 22
@@ -6866,8 +6866,8 @@ const airports = {
         ],
         "iata": "BRS",
         "names": [
-            "Bristol Airport",
-            "Bristol"
+            "Bristol",
+            "Bristol Airport"
         ],
         "inbound": 319,
         "outbound": 315
@@ -6891,9 +6891,9 @@ const airports = {
         ],
         "iata": "LPL",
         "names": [
-            "Liverpool",
+            "Liverpool John Lennon Airport",
             "Liverpool John Lennon",
-            "Liverpool John Lennon Airport"
+            "Liverpool"
         ],
         "inbound": 109,
         "outbound": 109
@@ -6929,8 +6929,8 @@ const airports = {
         ],
         "iata": "EXT",
         "names": [
-            "Exeter",
-            "Exeter International Airport"
+            "Exeter International Airport",
+            "Exeter"
         ],
         "inbound": 16,
         "outbound": 16
@@ -6966,8 +6966,8 @@ const airports = {
         ],
         "iata": "LBA",
         "names": [
-            "Leeds Bradford Airport",
-            "Leeds Bradford"
+            "Leeds Bradford",
+            "Leeds Bradford Airport"
         ],
         "inbound": 41,
         "outbound": 36
@@ -6979,8 +6979,8 @@ const airports = {
         ],
         "iata": "BRE",
         "names": [
-            "Bremen Airport",
-            "Bremen"
+            "Bremen",
+            "Bremen Airport"
         ],
         "inbound": 49,
         "outbound": 50
@@ -7030,8 +7030,8 @@ const airports = {
         ],
         "iata": "LNZ",
         "names": [
-            "Linz Airport",
-            "Linz H\u00f6rsching Airport"
+            "Linz H\u00f6rsching Airport",
+            "Linz Airport"
         ],
         "inbound": 25,
         "outbound": 28
@@ -7043,8 +7043,8 @@ const airports = {
         ],
         "iata": "BIO",
         "names": [
-            "Bilbao Airport",
-            "Bilbao"
+            "Bilbao",
+            "Bilbao Airport"
         ],
         "inbound": 57,
         "outbound": 60
@@ -7056,9 +7056,9 @@ const airports = {
         ],
         "iata": "XRY",
         "names": [
-            "Jerez",
             "Jerez de la Frontera",
-            "Jerez Airport"
+            "Jerez Airport",
+            "Jerez"
         ],
         "inbound": 44,
         "outbound": 41
@@ -7107,8 +7107,8 @@ const airports = {
         "iata": "SVQ",
         "names": [
             "Seville San Pablo",
-            "Seville",
-            "Seville Airport"
+            "Seville Airport",
+            "Seville"
         ],
         "inbound": 49,
         "outbound": 39
@@ -7132,8 +7132,8 @@ const airports = {
         ],
         "iata": "CIA",
         "names": [
-            "Rome Ciampino Airport",
-            "Rome Ciampino"
+            "Rome Ciampino",
+            "Rome Ciampino Airport"
         ],
         "inbound": 25,
         "outbound": 26
@@ -7145,9 +7145,9 @@ const airports = {
         ],
         "iata": "TRD",
         "names": [
-            "Trondheim Vaernes",
             "Trondheim",
-            "Trondheim Vaernes Airport"
+            "Trondheim Vaernes Airport",
+            "Trondheim Vaernes"
         ],
         "inbound": 53,
         "outbound": 51
@@ -7184,9 +7184,9 @@ const airports = {
         ],
         "iata": "DJE",
         "names": [
-            "Djerba Airport",
+            "Djerba\u0096Zarzis International",
             "Djerba-Zarzis International Airport",
-            "Djerba\u0096Zarzis International"
+            "Djerba Airport"
         ],
         "inbound": 21,
         "outbound": 21
@@ -7198,9 +7198,9 @@ const airports = {
         ],
         "iata": "JMK",
         "names": [
-            "Mykonos International",
+            "Mykonos Airport",
             "Mykonos",
-            "Mykonos Airport"
+            "Mykonos International"
         ],
         "inbound": 64,
         "outbound": 58
@@ -7212,10 +7212,10 @@ const airports = {
         ],
         "iata": "BGY",
         "names": [
-            "Bergamo - Milan",
+            "Milan Bergamo",
             "Orio al Serio",
             "Milan Bergamo Il Caravaggio International Airport",
-            "Milan Bergamo"
+            "Bergamo - Milan"
         ],
         "inbound": 92,
         "outbound": 87
@@ -7227,8 +7227,8 @@ const airports = {
         ],
         "iata": "SMI",
         "names": [
-            "Samos International Airport",
-            "Samos"
+            "Samos",
+            "Samos International Airport"
         ],
         "inbound": 39,
         "outbound": 36
@@ -7303,8 +7303,8 @@ const airports = {
         "names": [
             "Sardinia Alghero",
             "Alghero Fertilia Airport",
-            "Alghero Fertilia",
-            "Alghero"
+            "Alghero",
+            "Alghero Fertilia"
         ],
         "inbound": 16,
         "outbound": 16
@@ -7316,8 +7316,8 @@ const airports = {
         ],
         "iata": "BDS",
         "names": [
-            "Brindisi Airport",
-            "Brindisi"
+            "Brindisi",
+            "Brindisi Airport"
         ],
         "inbound": 40,
         "outbound": 41
@@ -7440,8 +7440,8 @@ const airports = {
         ],
         "iata": "UVF",
         "names": [
-            "Hewanorra International Airport",
-            "Vieux Fort Hewanorra International Airport"
+            "Vieux Fort Hewanorra International Airport",
+            "Hewanorra International Airport"
         ],
         "inbound": 16,
         "outbound": 16
@@ -7453,9 +7453,9 @@ const airports = {
         ],
         "iata": "GOA",
         "names": [
-            "Genoa",
             "Genoa Cristoforo Colombo Airport",
-            "Genova"
+            "Genova",
+            "Genoa"
         ],
         "inbound": 16,
         "outbound": 16
@@ -7469,8 +7469,8 @@ const airports = {
         "names": [
             "Lamezia",
             "Lamezia Terme International Airport",
-            "Lamezia Terme Airport",
-            "Lamezia Terme"
+            "Lamezia Terme",
+            "Lamezia Terme Airport"
         ],
         "inbound": 52,
         "outbound": 50
@@ -7495,8 +7495,8 @@ const airports = {
         "iata": "BEY",
         "names": [
             "Beirut Rafic Hariri International Airport",
-            "Beirut",
-            "Beirut Rafic Hariri"
+            "Beirut Rafic Hariri",
+            "Beirut"
         ],
         "inbound": 27,
         "outbound": 27
@@ -7520,8 +7520,8 @@ const airports = {
         ],
         "iata": "CMN",
         "names": [
-            "Mohammed V International Airport",
-            "Casablanca"
+            "Casablanca",
+            "Mohammed V International Airport"
         ],
         "inbound": 13,
         "outbound": 13
@@ -7583,9 +7583,9 @@ const airports = {
         ],
         "iata": "LAD",
         "names": [
+            "Luanda",
             "Quatro de Fevereiro Airport",
-            "Luanda Quatro de Fevereiro",
-            "Luanda"
+            "Luanda Quatro de Fevereiro"
         ],
         "inbound": 10,
         "outbound": 10
@@ -7929,10 +7929,10 @@ const airports = {
         ],
         "iata": "BEG",
         "names": [
-            "Belgrade",
-            "Belgrade Nikola Tesla Airport",
             "Belgrad",
-            "Belgrade Nikola Tesla"
+            "Belgrade",
+            "Belgrade Nikola Tesla",
+            "Belgrade Nikola Tesla Airport"
         ],
         "inbound": 116,
         "outbound": 97
@@ -7944,8 +7944,8 @@ const airports = {
         ],
         "iata": "BLR",
         "names": [
-            "Bengaluru Kempegowda",
-            "Bengaluru Kempegowda International Airport"
+            "Bengaluru Kempegowda International Airport",
+            "Bengaluru Kempegowda"
         ],
         "inbound": 167,
         "outbound": 167
@@ -7957,10 +7957,10 @@ const airports = {
         ],
         "iata": "BGO",
         "names": [
-            "Bergen Flesland",
             "Bergen Airport",
-            "Bergen Flesland Airport",
-            "Bergen"
+            "Bergen Flesland",
+            "Bergen",
+            "Bergen Flesland Airport"
         ],
         "inbound": 66,
         "outbound": 57
@@ -7985,11 +7985,11 @@ const airports = {
         ],
         "iata": "OTP",
         "names": [
-            "Bucharest",
-            "Bucharest Henri Coand\u0103 International Airport",
-            "Bucharest Henri Coanda",
             "Bucharest Henri Coand\u00c4\u0083 International Airport",
-            "Bukarest-Otopeni"
+            "Bucharest",
+            "Bucharest Henri Coanda",
+            "Bukarest-Otopeni",
+            "Bucharest Henri Coand\u0103 International Airport"
         ],
         "inbound": 271,
         "outbound": 268
@@ -8001,9 +8001,9 @@ const airports = {
         ],
         "iata": "CLJ",
         "names": [
+            "Cluj",
             "Cluj-Napoca",
-            "Avram Iancu Cluj International Airport",
-            "Cluj"
+            "Avram Iancu Cluj International Airport"
         ],
         "inbound": 138,
         "outbound": 137
@@ -8027,9 +8027,9 @@ const airports = {
         ],
         "iata": "FDH",
         "names": [
-            "Friedrichshafen",
             "Friedrichshafen Airport",
-            "Friedrichshafen Airport (Bodensee Airport)"
+            "Friedrichshafen Airport (Bodensee Airport)",
+            "Friedrichshafen"
         ],
         "inbound": 19,
         "outbound": 19
@@ -8042,8 +8042,8 @@ const airports = {
         "iata": "GDN",
         "names": [
             "Gdansk",
-            "Gdansk Lech Walesa",
-            "Gdansk Lech Walesa Airport"
+            "Gdansk Lech Walesa Airport",
+            "Gdansk Lech Walesa"
         ],
         "inbound": 136,
         "outbound": 154
@@ -8067,8 +8067,8 @@ const airports = {
         ],
         "iata": "PDL",
         "names": [
-            "Jo\u00e3o Paulo II",
-            "Ponta Delgada"
+            "Ponta Delgada",
+            "Jo\u00e3o Paulo II"
         ],
         "inbound": 7,
         "outbound": 6
@@ -8093,10 +8093,10 @@ const airports = {
         ],
         "iata": "KRK",
         "names": [
-            "Krakow",
-            "Krakow John Paul II International Airport",
             "Krakow John Paul II",
-            "Krakau"
+            "Krakau",
+            "Krakow John Paul II International Airport",
+            "Krakow"
         ],
         "inbound": 144,
         "outbound": 150
@@ -8108,8 +8108,8 @@ const airports = {
         ],
         "iata": "KWI",
         "names": [
-            "Kuwait",
-            "Kuwait International Airport"
+            "Kuwait International Airport",
+            "Kuwait"
         ],
         "inbound": 28,
         "outbound": 28
@@ -8135,8 +8135,8 @@ const airports = {
         ],
         "iata": "RIX",
         "names": [
-            "Riga International Airport",
-            "Riga"
+            "Riga",
+            "Riga International Airport"
         ],
         "inbound": 24,
         "outbound": 24
@@ -8161,8 +8161,8 @@ const airports = {
         "iata": "RUH",
         "names": [
             "Riyadh King Khalid",
-            "Riyadh King Khalid International Airport",
-            "King Khalid International Airport"
+            "King Khalid International Airport",
+            "Riyadh King Khalid International Airport"
         ],
         "inbound": 37,
         "outbound": 37
@@ -8174,11 +8174,11 @@ const airports = {
         ],
         "iata": "SJO",
         "names": [
-            "Juan Santamaria International Airport",
             "San Jose Juan Santamaria",
+            "Juan Santamar\u00eda International Airport",
             "San Jose, Costa Rica",
             "San Jose Juan Santamar\u00eda International Airport",
-            "Juan Santamar\u00eda International Airport"
+            "Juan Santamaria International Airport"
         ],
         "inbound": 37,
         "outbound": 31
@@ -8203,8 +8203,8 @@ const airports = {
         ],
         "iata": "SKP",
         "names": [
-            "Skopje International Airport",
-            "Skopje International"
+            "Skopje International",
+            "Skopje International Airport"
         ],
         "inbound": 115,
         "outbound": 115
@@ -8228,10 +8228,10 @@ const airports = {
         ],
         "iata": "TLL",
         "names": [
-            "Tallinn",
-            "Tallinn Lennart Meri",
+            "Tallinn Airport (Lennart Meri Tallinn Airport)",
             "Tallinn Lennart Meri Airport",
-            "Tallinn Airport (Lennart Meri Tallinn Airport)"
+            "Tallinn Lennart Meri",
+            "Tallinn"
         ],
         "inbound": 34,
         "outbound": 33
@@ -8256,8 +8256,8 @@ const airports = {
         "iata": "TSR",
         "names": [
             "Timisoara",
-            "Timisoara Traian Vuia",
-            "Timi\u0219oara Traian Vuia International Airport"
+            "Timi\u0219oara Traian Vuia International Airport",
+            "Timisoara Traian Vuia"
         ],
         "inbound": 62,
         "outbound": 62
@@ -8296,9 +8296,9 @@ const airports = {
         ],
         "iata": "VNO",
         "names": [
+            "Vilnius International Airport",
             "Vilnius",
-            "Vilnius Airport",
-            "Vilnius International Airport"
+            "Vilnius Airport"
         ],
         "inbound": 71,
         "outbound": 73
@@ -8310,10 +8310,10 @@ const airports = {
         ],
         "iata": "WRO",
         "names": [
-            "Wroclaw",
             "Wroclaw Copernicus",
             "Wroclaw Copernicus Airport",
-            "Breslau"
+            "Breslau",
+            "Wroclaw"
         ],
         "inbound": 75,
         "outbound": 68
@@ -8338,9 +8338,9 @@ const airports = {
         ],
         "iata": "ZAG",
         "names": [
+            "Zagreb",
             "Zagreb Airport",
-            "Zagreb Franjo Tudman",
-            "Zagreb"
+            "Zagreb Franjo Tudman"
         ],
         "inbound": 44,
         "outbound": 38
@@ -8352,8 +8352,8 @@ const airports = {
         ],
         "iata": "BAH",
         "names": [
-            "Bahrain",
-            "Bahrain International Airport"
+            "Bahrain International Airport",
+            "Bahrain"
         ],
         "inbound": 10,
         "outbound": 10
@@ -8365,9 +8365,9 @@ const airports = {
         ],
         "iata": "DMM",
         "names": [
-            "Dammam King Fahd",
+            "King Fahd International Airport",
             "Dammam King Fahd International Airport",
-            "King Fahd International Airport"
+            "Dammam King Fahd"
         ],
         "inbound": 29,
         "outbound": 29
@@ -8380,8 +8380,8 @@ const airports = {
         "iata": "TBS",
         "names": [
             "Tbilisi",
-            "Tbilisi International Airport",
-            "Tiflis"
+            "Tiflis",
+            "Tbilisi International Airport"
         ],
         "inbound": 18,
         "outbound": 18
@@ -8406,9 +8406,9 @@ const airports = {
         ],
         "iata": "AOI",
         "names": [
+            "Ancona Marche Airport",
             "Ancona",
-            "Ancona Marche",
-            "Ancona Marche Airport"
+            "Ancona Marche"
         ],
         "inbound": 8,
         "outbound": 10
@@ -8471,8 +8471,8 @@ const airports = {
         ],
         "iata": "BES",
         "names": [
-            "Brest",
-            "Brest Brittany"
+            "Brest Brittany",
+            "Brest"
         ],
         "inbound": 7,
         "outbound": 7
@@ -8522,11 +8522,11 @@ const airports = {
         ],
         "iata": "BDL",
         "names": [
-            "Bradley International Airport",
-            "Hartford-Bradley International",
-            "Hartford",
             "Hartford, CT",
-            "Windsor Locks Bradley International Airport"
+            "Windsor Locks Bradley International Airport",
+            "Hartford",
+            "Bradley International Airport",
+            "Hartford-Bradley International"
         ],
         "inbound": 44,
         "outbound": 44
@@ -8563,8 +8563,8 @@ const airports = {
         ],
         "iata": "NQY",
         "names": [
-            "Newquay",
-            "Newquay Cornwall"
+            "Newquay Cornwall",
+            "Newquay"
         ],
         "inbound": 12,
         "outbound": 12
@@ -8625,8 +8625,8 @@ const airports = {
         ],
         "iata": "NOC",
         "names": [
-            "Knock Ireland West",
-            "Knock"
+            "Knock",
+            "Knock Ireland West"
         ],
         "inbound": 4,
         "outbound": 5
@@ -8638,8 +8638,8 @@ const airports = {
         ],
         "iata": "AJA",
         "names": [
-            "Ajaccio, Corsica",
-            "Ajaccio"
+            "Ajaccio",
+            "Ajaccio, Corsica"
         ],
         "inbound": 20,
         "outbound": 20
@@ -8711,8 +8711,8 @@ const airports = {
         ],
         "iata": "FAE",
         "names": [
-            "Vagar Airport",
-            "Vagar"
+            "Vagar",
+            "Vagar Airport"
         ],
         "inbound": 10,
         "outbound": 10
@@ -8797,8 +8797,8 @@ const airports = {
         ],
         "iata": "KSC",
         "names": [
-            "Kosice International Airport",
             "Ko\u0161ice",
+            "Kosice International Airport",
             "Kosice"
         ],
         "inbound": 8,
@@ -8823,8 +8823,8 @@ const airports = {
         ],
         "iata": "RMF",
         "names": [
-            "Marsa Alam",
-            "Marsa Alam International Airport"
+            "Marsa Alam International Airport",
+            "Marsa Alam"
         ],
         "inbound": 15,
         "outbound": 15
@@ -8848,8 +8848,8 @@ const airports = {
         ],
         "iata": "PRN",
         "names": [
-            "Pristina Adem Jashari International Airport",
-            "Pristina"
+            "Pristina",
+            "Pristina Adem Jashari International Airport"
         ],
         "inbound": 65,
         "outbound": 63
@@ -8873,8 +8873,8 @@ const airports = {
         ],
         "iata": "TNG",
         "names": [
-            "Tanger-Boukhalef",
-            "Tangier"
+            "Tangier",
+            "Tanger-Boukhalef"
         ],
         "inbound": 8,
         "outbound": 10
@@ -8958,8 +8958,8 @@ const airports = {
         ],
         "iata": "AOK",
         "names": [
-            "Karpathos Island National Airport",
-            "Karpathos"
+            "Karpathos",
+            "Karpathos Island National Airport"
         ],
         "inbound": 12,
         "outbound": 12
@@ -8971,8 +8971,8 @@ const airports = {
         ],
         "iata": "KLU",
         "names": [
-            "Klagenfurt",
-            "Klagenfurt Airport"
+            "Klagenfurt Airport",
+            "Klagenfurt"
         ],
         "inbound": 7,
         "outbound": 7
@@ -8984,8 +8984,8 @@ const airports = {
         ],
         "iata": "FMM",
         "names": [
-            "Memmingen Airport",
-            "Memmingen"
+            "Memmingen",
+            "Memmingen Airport"
         ],
         "inbound": 91,
         "outbound": 91
@@ -9034,8 +9034,8 @@ const airports = {
         ],
         "iata": "ZNZ",
         "names": [
-            "Tanzania Abeid Amani Karume",
-            "Zanzibar Abeid Amani Karume International Airport"
+            "Zanzibar Abeid Amani Karume International Airport",
+            "Tanzania Abeid Amani Karume"
         ],
         "inbound": 3,
         "outbound": 3
@@ -9121,8 +9121,8 @@ const airports = {
         ],
         "iata": "RMU",
         "names": [
-            "Murcia Intl",
-            "Murcia"
+            "Murcia",
+            "Murcia Intl"
         ],
         "inbound": 11,
         "outbound": 10
@@ -9134,8 +9134,8 @@ const airports = {
         ],
         "iata": "FSC",
         "names": [
-            "Figari-Corsica",
-            "Figari, Corsica"
+            "Figari, Corsica",
+            "Figari-Corsica"
         ],
         "inbound": 11,
         "outbound": 10
@@ -9171,8 +9171,8 @@ const airports = {
         ],
         "iata": "BVA",
         "names": [
-            "Paris Beauvais-Tille Airport",
-            "Paris Beauvais"
+            "Paris Beauvais",
+            "Paris Beauvais-Tille Airport"
         ],
         "inbound": 73,
         "outbound": 80
@@ -9270,8 +9270,8 @@ const airports = {
         ],
         "iata": "GRR",
         "names": [
-            "Grand Rapids Gerald R. Ford International Airport",
-            "Grand Rapids"
+            "Grand Rapids",
+            "Grand Rapids Gerald R. Ford International Airport"
         ],
         "inbound": 10,
         "outbound": 10
@@ -9295,9 +9295,9 @@ const airports = {
         ],
         "iata": "ORF",
         "names": [
-            "NORFOLK INTERNATIONAL AIRPORT",
             "Norfolk International Airport",
             "Norfolk",
+            "NORFOLK INTERNATIONAL AIRPORT",
             "Norfolk, VA"
         ],
         "inbound": 24,
@@ -9334,8 +9334,8 @@ const airports = {
         ],
         "iata": "ELP",
         "names": [
-            "El Paso International Airport",
             "EL PASO INTERNATIONAL AIRPORT",
+            "El Paso International Airport",
             "El Paso"
         ],
         "inbound": 8,
@@ -9348,8 +9348,8 @@ const airports = {
         ],
         "iata": "GDL",
         "names": [
-            "Guadalajara International Airport",
             "Guadalajara International Airport (Miguel Hidalgo y Costilla Int'l)",
+            "Guadalajara International Airport",
             "Guadalajara"
         ],
         "inbound": 21,
@@ -9388,9 +9388,9 @@ const airports = {
         ],
         "iata": "SAV",
         "names": [
+            "Savannah/Hilton Head International Airport",
             "Savannah Hilton Head International Airport",
-            "Savannah",
-            "Savannah/Hilton Head International Airport"
+            "Savannah"
         ],
         "inbound": 21,
         "outbound": 22
@@ -9415,9 +9415,9 @@ const airports = {
         ],
         "iata": "GUA",
         "names": [
-            "Guatemala City La Aurora International Airport",
             "Guatemala City, Guatemala",
-            "La Aurora International Airport"
+            "La Aurora International Airport",
+            "Guatemala City La Aurora International Airport"
         ],
         "inbound": 12,
         "outbound": 12
@@ -9429,9 +9429,9 @@ const airports = {
         ],
         "iata": "KIN",
         "names": [
-            "Kingston, Jamaica",
+            "Norman Manley International Airport",
             "Kingston Norman Manley International Airport",
-            "Norman Manley International Airport"
+            "Kingston, Jamaica"
         ],
         "inbound": 20,
         "outbound": 20
@@ -9443,9 +9443,9 @@ const airports = {
         ],
         "iata": "BTS",
         "names": [
-            "Bratislava",
             "M. R. Stefanik Airport",
-            "Bratislava Airport"
+            "Bratislava Airport",
+            "Bratislava"
         ],
         "inbound": 17,
         "outbound": 18
@@ -9590,8 +9590,8 @@ const airports = {
         ],
         "iata": "UIO",
         "names": [
-            "Mariscal Sucre International Airport",
-            "Quito Mariscal Sucre International Airport"
+            "Quito Mariscal Sucre International Airport",
+            "Mariscal Sucre International Airport"
         ],
         "inbound": 8,
         "outbound": 8
@@ -9615,9 +9615,9 @@ const airports = {
         ],
         "iata": "MTY",
         "names": [
-            "Monterrey, Mexico",
+            "Monterrey",
             "General Mariano Escobedo International Airport",
-            "Monterrey"
+            "Monterrey, Mexico"
         ],
         "inbound": 22,
         "outbound": 22
@@ -9666,8 +9666,8 @@ const airports = {
         ],
         "iata": "MGA",
         "names": [
-            "Managua, Nicaragua",
-            "Augusto C. Sandino International Airport"
+            "Augusto C. Sandino International Airport",
+            "Managua, Nicaragua"
         ],
         "inbound": 8,
         "outbound": 8
@@ -9691,8 +9691,8 @@ const airports = {
         ],
         "iata": "BAQ",
         "names": [
-            "Ernesto Cortissoz International Airport",
-            "Barranquilla, Colombia"
+            "Barranquilla, Colombia",
+            "Ernesto Cortissoz International Airport"
         ],
         "inbound": 8,
         "outbound": 8
@@ -10849,8 +10849,8 @@ const airports = {
         "iata": "RIC",
         "names": [
             "Richmond",
-            "Richmond, VA",
-            "Richmond International Airport"
+            "Richmond International Airport",
+            "Richmond, VA"
         ],
         "inbound": 19,
         "outbound": 19
@@ -10862,8 +10862,8 @@ const airports = {
         ],
         "iata": "ROC",
         "names": [
-            "Rochester, NY",
-            "Rochester International Airport"
+            "Rochester International Airport",
+            "Rochester, NY"
         ],
         "inbound": 9,
         "outbound": 9
@@ -10963,9 +10963,9 @@ const airports = {
         ],
         "iata": "RNO",
         "names": [
-            "Reno, NV",
             "Reno",
-            "Reno Tahoe International Airport"
+            "Reno Tahoe International Airport",
+            "Reno, NV"
         ],
         "inbound": 11,
         "outbound": 11
@@ -10977,9 +10977,9 @@ const airports = {
         ],
         "iata": "BUR",
         "names": [
-            "Burbank Bob Hope Airport",
+            "Burbank, CA",
             "Burbank",
-            "Burbank, CA"
+            "Burbank Bob Hope Airport"
         ],
         "inbound": 6,
         "outbound": 6
@@ -10991,8 +10991,8 @@ const airports = {
         ],
         "iata": "BTV",
         "names": [
-            "Burlington",
-            "Burlington International Airport"
+            "Burlington International Airport",
+            "Burlington"
         ],
         "inbound": 11,
         "outbound": 11
@@ -11187,8 +11187,8 @@ const airports = {
         ],
         "iata": "AAL",
         "names": [
-            "Aalborg Airport",
-            "Aalborg"
+            "Aalborg",
+            "Aalborg Airport"
         ],
         "inbound": 8,
         "outbound": 11
@@ -11238,8 +11238,8 @@ const airports = {
         ],
         "iata": "BNX",
         "names": [
-            "Banja Luka",
-            "Banja Luka International Airport"
+            "Banja Luka International Airport",
+            "Banja Luka"
         ],
         "inbound": 21,
         "outbound": 21
@@ -11263,8 +11263,8 @@ const airports = {
         ],
         "iata": "EIN",
         "names": [
-            "Eindhoven",
-            "Eindhoven Airport"
+            "Eindhoven Airport",
+            "Eindhoven"
         ],
         "inbound": 89,
         "outbound": 88
@@ -11351,8 +11351,8 @@ const airports = {
         ],
         "iata": "TSF",
         "names": [
-            "Treviso Airport",
-            "Venice Treviso"
+            "Venice Treviso",
+            "Treviso Airport"
         ],
         "inbound": 20,
         "outbound": 16
@@ -11388,8 +11388,8 @@ const airports = {
         ],
         "iata": "LCJ",
         "names": [
-            "Lodz",
-            "\u0141\u00f3d\u017a W\u0142adys\u0142aw Reymont Airport"
+            "\u0141\u00f3d\u017a W\u0142adys\u0142aw Reymont Airport",
+            "Lodz"
         ],
         "inbound": 4,
         "outbound": 4
@@ -11401,8 +11401,8 @@ const airports = {
         ],
         "iata": "HHN",
         "names": [
-            "Frankfurt Hahn Airport",
-            "Frankfurt Hahn"
+            "Frankfurt Hahn",
+            "Frankfurt Hahn Airport"
         ],
         "inbound": 31,
         "outbound": 40
@@ -11500,8 +11500,8 @@ const airports = {
         ],
         "iata": "SZY",
         "names": [
-            "Olsztyn Mazury Airport",
-            "Olsztyn - Mazury"
+            "Olsztyn - Mazury",
+            "Olsztyn Mazury Airport"
         ],
         "inbound": 8,
         "outbound": 7
@@ -11597,8 +11597,8 @@ const airports = {
         ],
         "iata": "PEG",
         "names": [
-            "Perugia San Francesco d'Assisi \u2013 Umbria International Airport",
-            "Perugia"
+            "Perugia",
+            "Perugia San Francesco d'Assisi \u2013 Umbria International Airport"
         ],
         "inbound": 5,
         "outbound": 11
@@ -11646,8 +11646,8 @@ const airports = {
         ],
         "iata": "CDT",
         "names": [
-            "Castellon (Valencia)",
-            "Castell\u00f3n\u2013Costa Azahar Airport"
+            "Castell\u00f3n\u2013Costa Azahar Airport",
+            "Castellon (Valencia)"
         ],
         "inbound": 13,
         "outbound": 12
@@ -11684,8 +11684,8 @@ const airports = {
         ],
         "iata": "LLA",
         "names": [
-            "Lulea",
-            "Lulea Airport"
+            "Lulea Airport",
+            "Lulea"
         ],
         "inbound": 8,
         "outbound": 13
@@ -11709,8 +11709,8 @@ const airports = {
         ],
         "iata": "AQJ",
         "names": [
-            "Aqaba King Hussein International Airport",
-            "King Hussein International Airport"
+            "King Hussein International Airport",
+            "Aqaba King Hussein International Airport"
         ],
         "inbound": 10,
         "outbound": 11
@@ -12252,8 +12252,8 @@ const airports = {
         ],
         "iata": "OHD",
         "names": [
-            "Ohrid Airport",
-            "Ohrid St. Paul the Apostle Airport"
+            "Ohrid St. Paul the Apostle Airport",
+            "Ohrid Airport"
         ],
         "inbound": 18,
         "outbound": 18

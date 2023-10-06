@@ -12,7 +12,7 @@ const airlines = {
     "35": {
         "name": "British Airways",
         "sortName": "British Airways",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+89.0 Hours (59.3 PIREPs)\n\t+6977.0 Points (33.3 PIREPs)\nSenior First Officer:\n\t+264.0 Hours (175.9 PIREPs)\n\t+22477.0 Points (107.4 PIREPs)\nCaptain:\n\t+564.0 Hours (375.9 PIREPs)\n\t+54977.0 Points (262.7 PIREPs)\nTraining Captain:\n\t+964.0 Hours (642.4 PIREPs)\n\t+94977.0 Points (453.8 PIREPs)\nBase Captain:\n\t+1964.0 Hours (1308.9 PIREPs)\n\t+194977.0 Points (931.6 PIREPs)\nTime mode: block"
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+87.7 Hours (58.8 PIREPs)\n\t+6757.0 Points (32.2 PIREPs)\nSenior First Officer:\n\t+262.7 Hours (176.2 PIREPs)\n\t+22257.0 Points (106.1 PIREPs)\nCaptain:\n\t+562.7 Hours (377.4 PIREPs)\n\t+54757.0 Points (261.1 PIREPs)\nTraining Captain:\n\t+962.7 Hours (645.7 PIREPs)\n\t+94757.0 Points (451.8 PIREPs)\nBase Captain:\n\t+1962.7 Hours (1316.3 PIREPs)\n\t+194757.0 Points (928.7 PIREPs)\nTime mode: block"
     },
     "265": {
         "name": "Air China",
