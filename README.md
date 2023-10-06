@@ -15,7 +15,7 @@ In WSL2 (using openSUSE Tumbleweed as at the time of writing it was one of the f
 Or
 ```sh
 sudo apt install podman
-podman build -t gizmo71/vamsys-scraper -f Dockerfile
+podman build -t gizmo71/vamsys-scraper -f python.Dockerfile
 podman run -it --rm -v.:/data --shm-size="2g" gizmo71/vamsys-scraper python3 /data/scrape.py
-podman run -it --rm -v.:/data gizmo71/vamsys-scraper python3 /data/process.py
+podman run -it --rm -v.:/data -v../vamsys-scraper-pages:/pages gizmo71/vamsys-scraper python3 /data/process.py
 ```

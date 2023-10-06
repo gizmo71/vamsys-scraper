@@ -193,7 +193,7 @@ def writeJsonJs(obj, name):
         if isinstance(obj, set):
             return list(obj)
         return obj
-    with open(f'{name}.vamsys.js', 'w') as f:
+    with open(f'../pages/{name}.vamsys.js', 'w') as f:
         f.write(f'const {name} = ');
         json.dump(obj, f, indent=4, default=serialize_sets)
         f.write(';');
