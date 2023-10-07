@@ -7,7 +7,7 @@ const airlines = {
     "500": {
         "name": "Titan",
         "sortName": "Titan",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+43.3 Hours (25.8 PIREPs)\n\t+2944.0 Points (11.2 PIREPs)\nFirst Officer:\n\t+143.3 Hours (85.5 PIREPs)\n\t+12944.0 Points (49.0 PIREPs)\nSenior First Officer:\n\t+293.3 Hours (175.1 PIREPs)\n\t+26444.0 Points (100.2 PIREPs)\nCaptain:\n\t+593.3 Hours (354.2 PIREPs)\n\t+58944.0 Points (223.3 PIREPs)\nTraining Captain:\n\t+993.3 Hours (593.0 PIREPs)\n\t+98944.0 Points (374.8 PIREPs)\nBase Captain:\n\t+1993.3 Hours (1190.0 PIREPs)\n\t+198944.0 Points (753.6 PIREPs)\nTime mode: block"
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+36.3 Hours (13.3 PIREPs)\n\t+2589.0 Points (9.2 PIREPs)\nFirst Officer:\n\t+136.3 Hours (49.9 PIREPs)\n\t+12589.0 Points (44.6 PIREPs)\nSenior First Officer:\n\t+286.3 Hours (104.8 PIREPs)\n\t+26089.0 Points (92.4 PIREPs)\nCaptain:\n\t+586.3 Hours (214.6 PIREPs)\n\t+58589.0 Points (207.6 PIREPs)\nTraining Captain:\n\t+986.3 Hours (361.1 PIREPs)\n\t+98589.0 Points (349.4 PIREPs)\nBase Captain:\n\t+1986.3 Hours (727.1 PIREPs)\n\t+198589.0 Points (703.7 PIREPs)\nTime mode: block"
     },
     "35": {
         "name": "British Airways",
@@ -90,7 +90,7 @@ const airlines = {
     "13": {
         "name": "vTCXgroup",
         "sortName": "Thomas Cook",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+62.9 Hours (32.2 PIREPs)\n\t+545.0 Points (1.9 PIREPs)\nSenior First Officer:\n\t+712.9 Hours (364.9 PIREPs)\n\t+2045.0 Points (7.0 PIREPs)\nCaptain:\n\t+962.9 Hours (492.8 PIREPs)\n\t+6545.0 Points (22.4 PIREPs)\nTraining Captain:\n\t+4462.9 Hours (2284.3 PIREPs)\n\t+27445.0 Points (93.9 PIREPs)\nChief Pilot:\n\t+4462.9 Hours (2284.3 PIREPs)\n\t+84445.0 Points (288.8 PIREPs)\nTime mode: air"
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+62.2 Hours (33.0 PIREPs)\n\t+330.0 Points (1.1 PIREPs)\nSenior First Officer:\n\t+712.2 Hours (377.2 PIREPs)\n\t+1830.0 Points (6.3 PIREPs)\nCaptain:\n\t+962.2 Hours (509.6 PIREPs)\n\t+6330.0 Points (21.9 PIREPs)\nTraining Captain:\n\t+4462.2 Hours (2363.4 PIREPs)\n\t+27230.0 Points (94.4 PIREPs)\nChief Pilot:\n\t+4462.2 Hours (2363.4 PIREPs)\n\t+84230.0 Points (292.0 PIREPs)\nTime mode: air"
     },
     "46": {
         "name": "United",
