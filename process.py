@@ -191,11 +191,11 @@ for file in glob('vamsys.*.json'):
 def writeJsonJs(obj, name):
     def serialize_sets(obj):
         if isinstance(obj, set):
-            return list(obj)
+            return list(sorted(obj))
         return obj
     with open(f'../pages/{name}.vamsys.js', 'w') as f:
         f.write(f'const {name} = ');
-        json.dump(obj, f, indent=4, default=serialize_sets)
+        json.dump(obj, f, indent=4, default=serialize_sets, sort_keys=True)
         f.write(';');
 
 bad_airports = {icao: airport for icao, airport in airports.items() if not airport['iata']}
