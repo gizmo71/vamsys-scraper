@@ -5055,7 +5055,7 @@ const airports = {
     },
     "LEIB": {
         "iata": "IBZ",
-        "inbound": 159,
+        "inbound": 156,
         "latlng": [
             38.872898,
             1.37312
@@ -5064,7 +5064,7 @@ const airports = {
             "Ibiza",
             "Ibiza Airport"
         ],
-        "outbound": 160
+        "outbound": 157
     },
     "LEJR": {
         "iata": "XRY",
@@ -5413,7 +5413,7 @@ const airports = {
     },
     "LFKF": {
         "iata": "FSC",
-        "inbound": 9,
+        "inbound": 6,
         "latlng": [
             41.500599,
             9.09778
@@ -5421,7 +5421,7 @@ const airports = {
         "names": [
             "Figari, Corsica"
         ],
-        "outbound": 9
+        "outbound": 6
     },
     "LFKJ": {
         "iata": "AJA",
@@ -5450,7 +5450,7 @@ const airports = {
     },
     "LFLL": {
         "iata": "LYS",
-        "inbound": 140,
+        "inbound": 137,
         "latlng": [
             45.725556,
             5.081111
@@ -5462,7 +5462,7 @@ const airports = {
             "Lyon-Saint Exup\u00e9ry",
             "Lyon\u2013Saint-Exup\u00e9ry Airport"
         ],
-        "outbound": 140
+        "outbound": 137
     },
     "LFLS": {
         "iata": "GNB",
@@ -6823,7 +6823,7 @@ const airports = {
     },
     "LPPR": {
         "iata": "OPO",
-        "inbound": 139,
+        "inbound": 136,
         "latlng": [
             41.2481003,
             -8.6813898
@@ -6834,7 +6834,7 @@ const airports = {
             "Porto",
             "Porto Francisco de Sa Carneiro"
         ],
-        "outbound": 138
+        "outbound": 135
     },
     "LPPS": {
         "iata": "PXO",

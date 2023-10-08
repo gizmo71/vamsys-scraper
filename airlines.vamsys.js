@@ -1,7 +1,7 @@
 const airlines = {
     "1": {
         "name": "EasyJet",
-        "rank_info": "Senior First Officer:\n\t+106.6 Hours (61.7 PIREPs)\n\t+6100.0 Points (31.9 PIREPs)\nCaptain:\n\t+406.6 Hours (235.4 PIREPs)\n\t+38600.0 Points (202.0 PIREPs)\nTraining Captain:\n\t+806.6 Hours (467.1 PIREPs)\n\t+78600.0 Points (411.4 PIREPs)\nBase Captain:\n\t+1806.6 Hours (1046.1 PIREPs)\n\t+178600.0 Points (934.7 PIREPs)\nTime mode: block",
+        "rank_info": "Senior First Officer:\n\t+105.1 Hours (60.9 PIREPs)\n\t+5875.0 Points (30.7 PIREPs)\nCaptain:\n\t+405.1 Hours (234.8 PIREPs)\n\t+38375.0 Points (200.5 PIREPs)\nTraining Captain:\n\t+805.1 Hours (466.7 PIREPs)\n\t+78375.0 Points (409.5 PIREPs)\nBase Captain:\n\t+1805.1 Hours (1046.4 PIREPs)\n\t+178375.0 Points (932.1 PIREPs)\nTime mode: block",
         "sortName": "EasyJet"
     },
     "3": {
