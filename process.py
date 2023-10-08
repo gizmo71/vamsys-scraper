@@ -202,6 +202,13 @@ bad_airports = {icao: airport for icao, airport in airports.items() if not airpo
 if bad_airports:
     print(f"Airports without IATA codes: {', '.join(bad_airports)}")
 
+for airport in airports.values():
+    uniqueNames = []
+    for name in sorted(airport['names'], key=len, reverse=True):
+        if not any(name in superstring for superstring in uniqueNames):
+            uniqueNames.append(name)
+    airport['names'] = uniqueNames
+
 writeJsonJs(sorted(aircraft), 'aircraft');
 writeJsonJs(airlines, 'airlines')
 writeJsonJs(airports, 'airports')
