@@ -6,8 +6,10 @@ import re
 
 from datetime import date, datetime, timedelta
 from glob import glob
-from math import isnan
+from locale import strxfrm
 from lxml import etree
+from math import isnan
+from unidecode import unidecode
 
 airline_mappings = {
     'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'sort_name':'Linugs', 'type_mapping': # Removed 'A320':'A20N', look into LatinVFR
@@ -99,7 +101,7 @@ def airport(airport):
     icao = airport['icao']
     latitude = float(airport['latitude'])
     longitude = float(airport['longitude'])
-    name = airport['name']
+    name = " ".join(airport['name'].split())
     iata = airport['iata']
     if not iata:
         iata = {'EGHL':'QLA', 'LROV':'GHV', 'VIKA':'KNU', 'VOBG':'VOBG'}.get(icao, None)
@@ -204,8 +206,12 @@ if bad_airports:
 
 for airport in airports.values():
     uniqueNames = []
-    for name in sorted(airport['names'], key=len, reverse=True):
-        if not any(name in superstring for superstring in uniqueNames):
+    def normalise(name):
+        return unidecode(name).casefold().replace('/', ' ').replace('-', ' ') # See https://stackoverflow.com/questions/517923/what-is-the-best-way-to-remove-accents-normalize-in-a-python-unicode-string
+    def sort_key(name):
+        return strxfrm(str(1000 - len(normalise(name))) + name)
+    for name in sorted(airport['names'], key=sort_key):
+        if not any(normalise(name) in normalise(superstring) for superstring in uniqueNames):
             uniqueNames.append(name)
     airport['names'] = uniqueNames
 
