@@ -67,8 +67,8 @@ const airports = {
             -22.6056
         ],
         "names": [
-            "Keflav\u00c3\u00adk International Airport",
             "Keflavik International Airport",
+            "Keflav\u00c3\u00adk International Airport",
             "Reykjavik Keflavik"
         ],
         "outbound": 95
@@ -107,8 +107,7 @@ const airports = {
         "names": [
             "Montreal Pierre Elliott Trudeau Airport",
             "Montr\u00e8al - Trudeau International",
-            "Montreal-Trudeau International",
-            "Montr\u00e9al\u2013Trudeau"
+            "Montreal-Trudeau International"
         ],
         "outbound": 14
     },
@@ -292,7 +291,6 @@ const airports = {
         ],
         "names": [
             "Carthage Tunis",
-            "Tunis-Carthage",
             "Tunis Carthage"
         ],
         "outbound": 24
@@ -457,7 +455,6 @@ const airports = {
         ],
         "names": [
             "Muenster Osnabrueck",
-            "M\u00fcnster/Osnabr\u00fcck",
             "Munster Osnabruck"
         ],
         "outbound": 77
@@ -483,7 +480,6 @@ const airports = {
         ],
         "names": [
             "Cologne Bonn Airport",
-            "Cologne-Bonn",
             "K\u00f6ln/Bonn"
         ],
         "outbound": 315
@@ -497,9 +493,7 @@ const airports = {
         ],
         "names": [
             "Dusseldorf International Airport",
-            "D\u00c3\u00bcsseldorf Airport",
-            "DUSSELDORF",
-            "D\u00fcsseldorf"
+            "D\u00c3\u00bcsseldorf Airport"
         ],
         "outbound": 778
     },
@@ -538,9 +532,8 @@ const airports = {
             12.236389
         ],
         "names": [
-            "Liepzig-Halle",
             "Leipzig Halle",
-            "Leipzig/Halle"
+            "Liepzig-Halle"
         ],
         "outbound": 85
     },
@@ -625,9 +618,7 @@ const airports = {
             8.6163197
         ],
         "names": [
-            "Paderborn Lippstadt\u00a0",
-            "Paderborn/Lippstadt",
-            "Paderborn-Lippstadt"
+            "Paderborn Lippstadt"
         ],
         "outbound": 83
     },
@@ -712,8 +703,7 @@ const airports = {
             24.963301
         ],
         "names": [
-            "Helsinki Airport (Helsinki-Vantaa Airport)",
-            "Helsinki Vantaa Airport"
+            "Helsinki Airport (Helsinki-Vantaa Airport)"
         ],
         "outbound": 46
     },
@@ -749,8 +739,8 @@ const airports = {
             24.8467999
         ],
         "names": [
-            "Kittil\u00e4",
-            "Kitilla"
+            "Kitilla",
+            "Kittil\u00e4"
         ],
         "outbound": 10
     },
@@ -1080,8 +1070,7 @@ const airports = {
         ],
         "names": [
             "London Heathrow Airport",
-            "Heathrow (London)",
-            "London-Heathrow"
+            "Heathrow (London)"
         ],
         "outbound": 504
     },
@@ -1312,8 +1301,7 @@ const airports = {
         ],
         "names": [
             "Amsterdam Airport Schiphol",
-            "Amsterdam Schiphol Airport",
-            "Amsterdam-Schiphol"
+            "Amsterdam Schiphol Airport"
         ],
         "outbound": 250
     },
@@ -1582,7 +1570,6 @@ const airports = {
         ],
         "names": [
             "Oslo Gardermoen Airport",
-            "Oslo-Gardermoen",
             "Oslo Airport"
         ],
         "outbound": 262
@@ -1667,8 +1654,8 @@ const airports = {
             18.9189
         ],
         "names": [
-            "Tromso Airport",
-            "Tromse Airport"
+            "Tromse Airport",
+            "Tromso Airport"
         ],
         "outbound": 51
     },
@@ -1705,8 +1692,7 @@ const airports = {
             5.63778
         ],
         "names": [
-            "Stavanger Sola Airport",
-            "Stavanger\u00a0"
+            "Stavanger Sola Airport"
         ],
         "outbound": 79
     },
@@ -1779,8 +1765,7 @@ const airports = {
             19.3980999
         ],
         "names": [
-            "\u0141\u00f3d\u017a W\u0142adys\u0142aw Reymont Airport",
-            "Lodz"
+            "\u0141\u00f3d\u017a W\u0142adys\u0142aw Reymont Airport"
         ],
         "outbound": 4
     },
@@ -1890,9 +1875,7 @@ const airports = {
         ],
         "names": [
             "Gothenburg Landvetter Airport",
-            "G\u00f6teborg Landvetter Airport",
-            "G\u00f6teborg-Landvetter",
-            "Goteborg Landvetter"
+            "G\u00f6teborg Landvetter Airport"
         ],
         "outbound": 117
     },
@@ -2096,8 +2079,7 @@ const airports = {
             17.9186001
         ],
         "names": [
-            "Stockholm Arlanda Airport",
-            "Stockholm-Arlanda"
+            "Stockholm Arlanda Airport"
         ],
         "outbound": 441
     },
@@ -2466,8 +2448,8 @@ const airports = {
             -16.341499
         ],
         "names": [
-            "Tenerife North",
-            "Tenerife Norte"
+            "Tenerife Norte",
+            "Tenerife North"
         ],
         "outbound": 6
     },
@@ -2516,8 +2498,7 @@ const airports = {
         ],
         "names": [
             "Al Massira Airport",
-            "Agadir Al Massira",
-            "Agadir-Al Massira"
+            "Agadir Al Massira"
         ],
         "outbound": 41
     },
@@ -2737,7 +2718,6 @@ const airports = {
             34.394717
         ],
         "names": [
-            "Sharm el-Sheikh International Airport",
             "Sharm El Sheikh International Airport"
         ],
         "outbound": 48
@@ -2775,8 +2755,8 @@ const airports = {
         ],
         "names": [
             "Nairobi Jomo Kenyatta Intl Airport",
-            "Nairobi-Jomo Kenyatta Intl.",
-            "Jomo Kenyatta International"
+            "Jomo Kenyatta International",
+            "Nairobi-Jomo Kenyatta Intl."
         ],
         "outbound": 8
     },
@@ -2923,7 +2903,6 @@ const airports = {
         ],
         "names": [
             "Atlanta Hartsfield\u2013Jackson Atlanta International Airport",
-            "Hartsfield-Jackson Atlanta International Airport",
             "Atlanta Hartsfield-Jackson Intl",
             "Atlanta, GA"
         ],
@@ -2937,7 +2916,6 @@ const airports = {
             -97.662015
         ],
         "names": [
-            "Austin-Bergstrom International Airport",
             "Austin Bergstrom International Airport",
             "Austin, TX"
         ],
@@ -3028,7 +3006,6 @@ const airports = {
         "names": [
             "General Edward Lawrence Logan International Airport",
             "BOSTON-LOGAN INTERNATIONAL AIRPORT",
-            "Boston Logan International Airport",
             "Boston, MA"
         ],
         "outbound": 442
@@ -3079,7 +3056,6 @@ const airports = {
         ],
         "names": [
             "Baltimore\u2013Washington International Airport",
-            "Baltimore/Washington International",
             "Baltimore, MD"
         ],
         "outbound": 69
@@ -3130,7 +3106,6 @@ const airports = {
         ],
         "names": [
             "Cleveland Hopkins International Airport",
-            "Cleveland-Hopkins International",
             "Cleveland, OH"
         ],
         "outbound": 99
@@ -3233,7 +3208,6 @@ const airports = {
             -97.038002
         ],
         "names": [
-            "Dallas/Fort Worth International Airport",
             "Dallas Fort Worth International Airport",
             "Dallas-Ft Worth International",
             "Dallas/Fort Worth, TX",
@@ -3322,7 +3296,6 @@ const airports = {
             -106.3779984
         ],
         "names": [
-            "El Paso International Airport",
             "EL PASO INTERNATIONAL AIRPORT"
         ],
         "outbound": 8
@@ -3348,7 +3321,6 @@ const airports = {
         ],
         "names": [
             "New York Newark Liberty International Airport",
-            "New York/Newark",
             "Newark, NJ"
         ],
         "outbound": 212
@@ -3373,8 +3345,6 @@ const airports = {
             -80.152702
         ],
         "names": [
-            "Fort Lauderdale-Hollywood International Airport",
-            "Fort Lauderdale\u2013Hollywood International Airport",
             "Fort Lauderdale Hollywood International Airport",
             "FORT LAUDERDALE INTERNATIONAL AIRPORT",
             "Fort Lauderdale, FL"
@@ -3509,7 +3479,7 @@ const airports = {
             -77.455803
         ],
         "names": [
-            "Washington Dulles International Airport ",
+            "Washington Dulles International Airport",
             "Washington Reagan"
         ],
         "outbound": 103
@@ -3572,7 +3542,6 @@ const airports = {
             -81.6878967
         ],
         "names": [
-            "Jacksonville International Airport",
             "JACKSONVILLE INTERNATIONAL AIRPORT"
         ],
         "outbound": 57
@@ -3851,7 +3820,6 @@ const airports = {
             -93.221802
         ],
         "names": [
-            "Minneapolis\u2013Saint Paul International Airport",
             "Minneapolis Saint Paul International Airport",
             "Minneapolis/Saint Paul, MN",
             "Minneapolis/St. Paul"
@@ -3866,8 +3834,8 @@ const airports = {
             -90.2580032
         ],
         "names": [
-            "New Orleans Louis Armstrong International Airport",
             "Louis Armstrong New Orleans International Airport",
+            "New Orleans Louis Armstrong International Airport",
             "New Orleans, LA"
         ],
         "outbound": 97
@@ -3933,8 +3901,7 @@ const airports = {
         ],
         "names": [
             "OMAHA EPPLEY INTERNATIONAL AIRPORT",
-            "Eppley Airfield",
-            "Omaha"
+            "Eppley Airfield"
         ],
         "outbound": 20
     },
@@ -3946,7 +3913,6 @@ const airports = {
             -117.6009979
         ],
         "names": [
-            "Ontario International Airport",
             "ONTARIO INTERNATIONAL AIRPORT"
         ],
         "outbound": 76
@@ -3959,7 +3925,6 @@ const airports = {
             -87.9048
         ],
         "names": [
-            "Chicago O'Hare International Airport",
             "CHICAGO O'HARE INTERNATIONAL AIRPORT",
             "Chicago O'Hare Intl.",
             "ORD-Chicago, IL"
@@ -3975,7 +3940,6 @@ const airports = {
         ],
         "names": [
             "NORFOLK INTERNATIONAL AIRPORT",
-            "Norfolk International Airport",
             "Norfolk, VA"
         ],
         "outbound": 20
@@ -4026,7 +3990,6 @@ const airports = {
         ],
         "names": [
             "Portland International Airport",
-            "PORTLAND INTERNATIONAL",
             "Portland, OR"
         ],
         "outbound": 37
@@ -4229,7 +4192,6 @@ const airports = {
             -117.1900024
         ],
         "names": [
-            "San Diego international Airport",
             "San Diego International Airport",
             "San Diego, CA"
         ],
@@ -4256,7 +4218,6 @@ const airports = {
             -81.2021027
         ],
         "names": [
-            "Savannah/Hilton Head International Airport",
             "Savannah Hilton Head International Airport"
         ],
         "outbound": 22
@@ -4293,11 +4254,7 @@ const airports = {
             -122.311134
         ],
         "names": [
-            "Seattle Tacoma International Airport",
             "SEATTLE TACOMA INTERNATIONAL AIRPORT",
-            "Seattle\u2013Tacoma International Airport",
-            "Seattle-Tacoma International Airport",
-            "Seattle/Tacoma",
             "Seattle, WA"
         ],
         "outbound": 217
@@ -4310,7 +4267,6 @@ const airports = {
             -122.375
         ],
         "names": [
-            "San Francisco International Airport",
             "SAN FRANCISCO INTERNATIONAL AIRPORT"
         ],
         "outbound": 258
@@ -4336,7 +4292,6 @@ const airports = {
             -111.979746
         ],
         "names": [
-            "Salt Lake City International Airport",
             "SALT LAKE CITY INTERNATIONAL AIRPORT",
             "Salt Lake City Airport",
             "Salt Lake City, UT"
@@ -4379,8 +4334,7 @@ const airports = {
             -82.554398
         ],
         "names": [
-            "Sarasota\u2013Bradenton International Airport",
-            "Sarasota Bradenton"
+            "Sarasota\u2013Bradenton International Airport"
         ],
         "outbound": 9
     },
@@ -4701,8 +4655,7 @@ const airports = {
         ],
         "names": [
             "Alicante-Elche Airport",
-            "Alicante Airport",
-            "Alicante Elche"
+            "Alicante Airport"
         ],
         "outbound": 171
     },
@@ -4715,8 +4668,7 @@ const airports = {
         ],
         "names": [
             "Almeria International Airport",
-            "Almeria Airport",
-            "Almeri\u00ada"
+            "Almeria Airport"
         ],
         "outbound": 14
     },
@@ -5018,7 +4970,6 @@ const airports = {
             -0.715556
         ],
         "names": [
-            "Bordeaux\u2013M\u00e9rignac",
             "Bordeaux Merignac"
         ],
         "outbound": 82
@@ -5079,9 +5030,7 @@ const airports = {
             1.36382
         ],
         "names": [
-            "Toulouse\u2013Blagnac",
-            "Toulouse Blagnac",
-            "Toulouse-Blagnac"
+            "Toulouse Blagnac"
         ],
         "outbound": 79
     },
@@ -5093,8 +5042,7 @@ const airports = {
             -0.006439
         ],
         "names": [
-            "Tarbes\u2013Lourdes\u2013Pyr\u00e9n\u00e9es",
-            "Lourdes-Pyrenees"
+            "Tarbes\u2013Lourdes\u2013Pyr\u00e9n\u00e9es"
         ],
         "outbound": 5
     },
@@ -5178,10 +5126,7 @@ const airports = {
             5.081111
         ],
         "names": [
-            "Lyon\u2013Saint-Exup\u00e9ry Airport",
-            "Lyon Saint Exupery",
-            "Lyon-Saint Exup\u00e9ry",
-            "Lyon Saint-Exup\u00e9ry"
+            "Lyon\u2013Saint-Exup\u00e9ry Airport"
         ],
         "outbound": 137
     },
@@ -5193,7 +5138,6 @@ const airports = {
             5.32937
         ],
         "names": [
-            "Grenoble-Is\u00e8re",
             "Grenoble Isere"
         ],
         "outbound": 16
@@ -5218,8 +5162,8 @@ const airports = {
             5.2214241
         ],
         "names": [
-            "Marseille Province",
             "Marseille Provence",
+            "Marseille Province",
             "Marseilles"
         ],
         "outbound": 42
@@ -5235,7 +5179,6 @@ const airports = {
             "Nice Cote d'Azur Airport",
             "Nice Cote D' Azur",
             "Nice C\u00c3\u00b4te d'Azur",
-            "Nice Cote d\u2019Azur",
             "Nizza"
         ],
         "outbound": 227
@@ -5296,8 +5239,8 @@ const airports = {
             0.727606
         ],
         "names": [
-            "Tours Val de Loire",
-            "Tours Loire Valley"
+            "Tours Loire Valley",
+            "Tours Val de Loire"
         ],
         "outbound": 2
     },
@@ -5310,8 +5253,6 @@ const airports = {
         ],
         "names": [
             "Paris Charles de Gaulle Airport",
-            "Paris-Charles de Gaulle",
-            "Paris Charles De Gaulle",
             "Paris CDG"
         ],
         "outbound": 272
@@ -5361,8 +5302,7 @@ const airports = {
         ],
         "names": [
             "Rennes Bretagne Airport",
-            "Rennes Saint-Jacques",
-            "Rennes\u2013Saint-Jacques"
+            "Rennes Saint-Jacques"
         ],
         "outbound": 19
     },
@@ -5627,7 +5567,7 @@ const airports = {
         "names": [
             "Rhodes International Airport",
             "Rhodes Diagoras Airport",
-            "Rhodes Diogaras ",
+            "Rhodes Diogaras",
             "Rhodos"
         ],
         "outbound": 198
@@ -5748,8 +5688,8 @@ const airports = {
             19.261093
         ],
         "names": [
-            "Budapest Liszt Ferenc international Airport",
             "Budapest Ferenc Liszt International Airport",
+            "Budapest Liszt Ferenc international Airport",
             "Budapest Liszt Ferenc Airport",
             "Budapest Liszt Ferenc Intl"
         ],
@@ -5799,7 +5739,7 @@ const airports = {
             14.1811
         ],
         "names": [
-            "Pescara\tAbruzzo Airport"
+            "Pescara Abruzzo Airport"
         ],
         "outbound": 5
     },
@@ -5849,7 +5789,6 @@ const airports = {
         ],
         "names": [
             "Catania Fontanarossa Airport",
-            "Catania-Fontanarossa",
             "Sicily Catania"
         ],
         "outbound": 196
@@ -5875,7 +5814,6 @@ const airports = {
         ],
         "names": [
             "Palermo Falcone-Borsellino Airport",
-            "Falcone Borsellino Airport",
             "Palermo-Punta Raisi",
             "Sicily Palermo"
         ],
@@ -5940,7 +5878,6 @@ const airports = {
         ],
         "names": [
             "Olbia Costa Smeralda Airport",
-            "Olbia-Costa Smeralda",
             "Sardinia Olbia"
         ],
         "outbound": 128
@@ -5955,7 +5892,6 @@ const airports = {
         "names": [
             "Milan Malpensa Intl Airport",
             "Milan Malpensa Airport",
-            "Milan-Malpensa Airport",
             "Mailand-Malpensa",
             "Milano Malpensa"
         ],
@@ -6150,7 +6086,6 @@ const airports = {
             "Rome Leonardo da Vinci Fiumicino Airport",
             "Rome Fiumicino International Airport",
             "Roma Fiumicino",
-            "Rom-Fiumicino",
             "Rom Fiumicino"
         ],
         "outbound": 344
@@ -6165,8 +6100,8 @@ const airports = {
         "names": [
             "Naples International Airport",
             "Naples Airport",
-            "Neapel",
-            "Napoli"
+            "Napoli",
+            "Neapel"
         ],
         "outbound": 218
     },
@@ -6218,7 +6153,6 @@ const airports = {
         ],
         "names": [
             "Ljubljana Joze Pucnik Airport (Brnik Airport)",
-            "Ljubljana Jo\u017ee Pu\u010dnik Airport",
             "Brink, Ljunljana, Slovenia"
         ],
         "outbound": 30
@@ -6255,8 +6189,8 @@ const airports = {
             14.26
         ],
         "names": [
-            "V\u00e1clav Havel Airport Prague",
             "Prague Vaclav Havel Airport",
+            "V\u00e1clav Havel Airport Prague",
             "Prague Ruzyne"
         ],
         "outbound": 166
@@ -6282,7 +6216,7 @@ const airports = {
         ],
         "names": [
             "Tel Aviv Ben Gurion International Airport",
-            "Tel Aviv Ben Gurion Airport ",
+            "Tel Aviv Ben Gurion Airport",
             "Tel Aviv Airport",
             "Tel Aviv-Yafo"
         ],
@@ -6297,8 +6231,8 @@ const airports = {
         ],
         "names": [
             "Malta International Airport (Luqa Airport)",
-            "Malta Luqa International Airport",
-            "Luqa Malta International Airport"
+            "Luqa Malta International Airport",
+            "Malta Luqa International Airport"
         ],
         "outbound": 85
     },
@@ -6413,7 +6347,7 @@ const airports = {
         "names": [
             "Funchal Cristiano Ronaldo Airport",
             "Madeira CR7 Airport",
-            "Funchal Madeira ",
+            "Funchal Madeira",
             "Madeira Airport",
             "Madeira Funchal"
         ],
@@ -6427,8 +6361,8 @@ const airports = {
             -25.6979008
         ],
         "names": [
-            "Ponta Delgada",
-            "Jo\u00e3o Paulo II"
+            "Jo\u00e3o Paulo II",
+            "Ponta Delgada"
         ],
         "outbound": 6
     },
@@ -6590,8 +6524,6 @@ const airports = {
         ],
         "names": [
             "Bucharest Henri Coand\u00c4\u0083 International Airport",
-            "Bucharest Henri Coand\u0103 International Airport",
-            "Bucharest Henri Coanda",
             "Bukarest-Otopeni"
         ],
         "outbound": 268
@@ -6664,8 +6596,7 @@ const airports = {
             21.3379002
         ],
         "names": [
-            "Timi\u0219oara Traian Vuia International Airport",
-            "Timisoara Traian Vuia"
+            "Timi\u0219oara Traian Vuia International Airport"
         ],
         "outbound": 62
     },
@@ -6704,8 +6635,7 @@ const airports = {
         ],
         "names": [
             "Zurich Airport",
-            "Zurich Kloten",
-            "Z\u00fcrich"
+            "Zurich Kloten"
         ],
         "outbound": 134
     },
@@ -6973,8 +6903,7 @@ const airports = {
             21.2411003
         ],
         "names": [
-            "Kosice International Airport",
-            "Ko\u0161ice"
+            "Kosice International Airport"
         ],
         "outbound": 8
     },
@@ -7048,7 +6977,6 @@ const airports = {
         ],
         "names": [
             "Santo Domingo Las Am\u00e9ricas International Airport",
-            "Las Americas International Airport",
             "Santo Domingo, Dominican Republic"
         ],
         "outbound": 43
@@ -7264,7 +7192,6 @@ const airports = {
         "names": [
             "San jose del Cabo Los Cabos International Airport",
             "Los Cabos, Mexico",
-            "San Jose del Cabo",
             "San Jose Cabo"
         ],
         "outbound": 43
@@ -7313,7 +7240,6 @@ const airports = {
             -86.874304
         ],
         "names": [
-            "Canc\u00fan International Airport",
             "Cancun International Airport",
             "Cancun, Mexico"
         ],
@@ -7366,8 +7292,6 @@ const airports = {
         ],
         "names": [
             "San Jose Juan Santamar\u00eda International Airport",
-            "Juan Santamaria International Airport",
-            "San Jose Juan Santamaria",
             "San Jose, Costa Rica"
         ],
         "outbound": 31
@@ -7381,8 +7305,8 @@ const airports = {
         ],
         "names": [
             "Monsenor Oscar Arnulfo Romero International Airport",
-            "San Salvador, El Salvador",
-            "El Salvador International"
+            "El Salvador International",
+            "San Salvador, El Salvador"
         ],
         "outbound": 21
     },
@@ -7432,7 +7356,6 @@ const airports = {
         ],
         "names": [
             "Havana Jos\u00e9 Mart\u00ed International Airport",
-            "Jose Marti International Airport",
             "JOSE MARTI INT'L AIRPORT",
             "Havanna"
         ],
@@ -7749,8 +7672,8 @@ const airports = {
             55.364399
         ],
         "names": [
-            "Dubai International Airport",
-            "DUBAI, UNITED ARAB EMIRATES"
+            "DUBAI, UNITED ARAB EMIRATES",
+            "Dubai International Airport"
         ],
         "outbound": 105
     },
@@ -8031,8 +7954,7 @@ const airports = {
             135.244003
         ],
         "names": [
-            "Osaka Kansai International Airport",
-            "Kansai\u00a0"
+            "Osaka Kansai International Airport"
         ],
         "outbound": 90
     },
@@ -8188,8 +8110,7 @@ const airports = {
             136.8049927
         ],
         "names": [
-            "Nagoya Chubu Centrair International Airport",
-            "Chubu Centrair International Airport "
+            "Nagoya Chubu Centrair International Airport"
         ],
         "outbound": 32
     },
@@ -8505,8 +8426,8 @@ const airports = {
             124.245
         ],
         "names": [
-            "New Ishigaki Airport",
-            "Ishigaki New Airport"
+            "Ishigaki New Airport",
+            "New Ishigaki Airport"
         ],
         "outbound": 13
     },
@@ -8719,7 +8640,6 @@ const airports = {
         ],
         "names": [
             "Medellin Jos\u00e9 Mar\u00eda C\u00f3rdova International Airport",
-            "Jose Maria Cordova International Airport",
             "MDE-Medellin, Colombia"
         ],
         "outbound": 12
@@ -9006,7 +8926,6 @@ const airports = {
         ],
         "names": [
             "Sint Maarten Princess Juliana International Airport",
-            "PRINCESS JULIANA INTERNATIONAL AIRPORT",
             "Saint Maarten"
         ],
         "outbound": 38
@@ -10248,8 +10167,7 @@ const airports = {
             80.169296
         ],
         "names": [
-            "Chennai International Airport",
-            "Chennai\u00a0"
+            "Chennai International Airport"
         ],
         "outbound": 137
     },
@@ -10369,8 +10287,7 @@ const airports = {
             73.5290985
         ],
         "names": [
-            "Male Velana International Airport",
-            "Mal\u00e9"
+            "Male Velana International Airport"
         ],
         "outbound": 26
     },
@@ -10491,7 +10408,6 @@ const airports = {
         ],
         "names": [
             "Jakarta Soekarno Hatta International Airport",
-            "Jakarta Soekarno\u2013Hatta International Airport",
             "Soekarno\u00e2\u0080\u0093Hatta International Airport"
         ],
         "outbound": 52
@@ -10541,7 +10457,7 @@ const airports = {
         ],
         "names": [
             "Brisbane, Australia",
-            "Brisbane Airport "
+            "Brisbane Airport"
         ],
         "outbound": 12
     },
@@ -10602,8 +10518,8 @@ const airports = {
             151.177002
         ],
         "names": [
-            "Sydney Kingsford Smith Airport",
-            "Sidney Kingsford Smith Airport"
+            "Sidney Kingsford Smith Airport",
+            "Sydney Kingsford Smith Airport"
         ],
         "outbound": 39
     },
