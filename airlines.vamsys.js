@@ -1,7 +1,7 @@
 const airlines = {
     "1": {
         "name": "EasyJet",
-        "rank_info": "Senior First Officer:\n\t+105.1 Hours (60.9 PIREPs)\n\t+5875.0 Points (30.7 PIREPs)\nCaptain:\n\t+405.1 Hours (234.8 PIREPs)\n\t+38375.0 Points (200.5 PIREPs)\nTraining Captain:\n\t+805.1 Hours (466.7 PIREPs)\n\t+78375.0 Points (409.5 PIREPs)\nBase Captain:\n\t+1805.1 Hours (1046.4 PIREPs)\n\t+178375.0 Points (932.1 PIREPs)\nTime mode: block",
+        "rank_info": "Senior First Officer:\n\t+103.7 Hours (60.2 PIREPs)\n\t+5695.0 Points (29.8 PIREPs)\nCaptain:\n\t+403.7 Hours (234.5 PIREPs)\n\t+38195.0 Points (199.7 PIREPs)\nTraining Captain:\n\t+803.7 Hours (466.8 PIREPs)\n\t+78195.0 Points (408.8 PIREPs)\nBase Captain:\n\t+1803.7 Hours (1047.7 PIREPs)\n\t+178195.0 Points (931.6 PIREPs)\nTime mode: block",
         "sortName": "EasyJet"
     },
     "3": {
@@ -89,12 +89,12 @@ const airlines = {
     },
     "1005": {
         "name": "All Nippon",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+44.1 Hours (37.2 PIREPs)\n\t+3633.0 Points (49.5 PIREPs)\nFirst Officer:\n\t+144.1 Hours (121.7 PIREPs)\n\t+13633.0 Points (185.7 PIREPs)\nSenior First Officer:\n\t+294.1 Hours (248.4 PIREPs)\n\t+27133.0 Points (369.7 PIREPs)\nCaptain:\n\t+594.1 Hours (501.7 PIREPs)\n\t+59633.0 Points (812.4 PIREPs)\nTraining Captain:\n\t+994.1 Hours (839.6 PIREPs)\n\t+99633.0 Points (1357.4 PIREPs)\nBase Captain:\n\t+1994.1 Hours (1684.1 PIREPs)\n\t+199633.0 Points (2719.8 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+42.8 Hours (35.4 PIREPs)\n\t+3578.0 Points (50.9 PIREPs)\nFirst Officer:\n\t+142.8 Hours (118.3 PIREPs)\n\t+13578.0 Points (193.1 PIREPs)\nSenior First Officer:\n\t+292.8 Hours (242.7 PIREPs)\n\t+27078.0 Points (385.0 PIREPs)\nCaptain:\n\t+592.8 Hours (491.4 PIREPs)\n\t+59578.0 Points (847.1 PIREPs)\nTraining Captain:\n\t+992.8 Hours (823.0 PIREPs)\n\t+99578.0 Points (1415.8 PIREPs)\nBase Captain:\n\t+1992.8 Hours (1652.0 PIREPs)\n\t+199578.0 Points (2837.6 PIREPs)\nTime mode: air",
         "sortName": "Nippon"
     },
     "1033": {
         "name": "Delta",
-        "rank_info": "First Officer:\n\t+41.6 Hours (34.5 PIREPs)\n\t+145.0 Points (0.7 PIREPs)\nSenior First Officer:\n\t+91.6 Hours (76.0 PIREPs)\n\t+2645.0 Points (13.7 PIREPs)\nCaptain:\n\t+191.6 Hours (158.9 PIREPs)\n\t+8645.0 Points (44.7 PIREPs)\n\t+1000.0 Bonus Points\nSenior Captain:\n\t+441.6 Hours (366.4 PIREPs)\n\t+23645.0 Points (122.2 PIREPs)\n\t+1500.0 Bonus Points\nBase Captain:\n\t+541.6 Hours (449.3 PIREPs)\n\t+48645.0 Points (251.3 PIREPs)\n\t+2500.0 Bonus Points\nTime mode: air",
+        "rank_info": "First Officer:\n\t+40.6 Hours (34.6 PIREPs)\nSenior First Officer:\n\t+90.6 Hours (77.2 PIREPs)\n\t+2430.0 Points (12.4 PIREPs)\nCaptain:\n\t+190.6 Hours (162.3 PIREPs)\n\t+8430.0 Points (43.0 PIREPs)\n\t+1000.0 Bonus Points\nSenior Captain:\n\t+440.6 Hours (375.2 PIREPs)\n\t+23430.0 Points (119.4 PIREPs)\n\t+1500.0 Bonus Points\nBase Captain:\n\t+540.6 Hours (460.4 PIREPs)\n\t+48430.0 Points (246.8 PIREPs)\n\t+2500.0 Bonus Points\nTime mode: air",
         "sortName": "Delta"
     },
     "1131": {
