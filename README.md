@@ -1,6 +1,6 @@
 # vamsys-scraper
 
-Logs into each of your active (vAMSYS)[https://vamsys.io/] airlines, pulls the route and activity data, and transforms them into a unified page for examining routes and seeing how soon your must file your PIREP for each airline.
+Logs into each of your active [vAMSYS](https://vamsys.io/) airlines, pulls the route and activity data, and transforms them into a unified page for examining routes and seeing how soon your must file your PIREP for each airline.
 
 Currently hardcoded to only show A20N and A339 routes, with some mappings where those types are shared with others.
 
