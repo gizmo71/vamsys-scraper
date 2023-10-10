@@ -14,7 +14,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from seleniumwire import webdriver
 from seleniumwire.utils import decode as sw_decode
 from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.core.utils import ChromeType
+from webdriver_manager.core.os_manager import ChromeType
 from time import sleep
 
 from vamsys import config
