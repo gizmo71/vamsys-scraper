@@ -2,7 +2,7 @@ import geopy.distance
 import json
 import logging
 import operator
-import re
+import regex
 
 from datetime import date, datetime, timedelta
 from glob import glob
@@ -56,7 +56,7 @@ def hours_or_points(s):
     def parse_hours(match):
         hours, minutes, seconds = (match.group(1), match.group(2), match.group(3))
         return str(float(hours) + ((float(minutes) + float(seconds) / 60.0) / 60.0))
-    return float(re.sub(r'(\d+):(\d\d):(\d\d)', parse_hours, s))
+    return float(regex.sub(r'(\d+):(\d\d):(\d\d)', parse_hours, s))
 
 rank_criteria = {"Hours": 3, "Points": 4, "Bonus Points": 5}
 
@@ -205,15 +205,31 @@ if bad_airports:
     print(f"Airports without IATA codes: {', '.join(bad_airports)}")
 
 for airport in airports.values():
-    uniqueNames = []
-    def normalise(name):
-        return unidecode(name).casefold().replace('/', ' ').replace('-', ' ') # See https://stackoverflow.com/questions/517923/what-is-the-best-way-to-remove-accents-normalize-in-a-python-unicode-string
+    unique_names = []
+    #print(f"---- {airport} ----")
+    nothing_words = ['', 'airport', 'int', 'international']
+    def nothing_word(word):
+        return word in nothing_words
+    def normalise(name, is_sorting = False):
+        words = regex.split(r'[\s\p{Pd}/()]+', name.casefold())
+        ordered_name = " ".join(sorted([word for word in words if is_sorting or not nothing_word(word)]))
+        #print(f"\t'{name}' -> {words} -> '{ordered_name}'")
+        return unidecode(ordered_name) # See https://stackoverflow.com/questions/517923/what-is-the-best-way-to-remove-accents-normalize-in-a-python-unicode-string
     def sort_key(name):
-        return strxfrm(str(1000 - len(normalise(name))) + name)
-    for name in sorted(airport['names'], key=sort_key):
-        if not any(normalise(name) in normalise(superstring) for superstring in uniqueNames):
-            uniqueNames.append(name)
-    airport['names'] = uniqueNames
+        return strxfrm(f"{1000 - len(normalise(name, True)):3}{name}")
+    sorted_names = sorted(airport['names'], key=sort_key)
+    #print(f"sorted: {sorted_names}")
+    for name in sorted_names:
+        if '\\' in name:
+            raise ValueError(f"'{name}' contains backslash")
+        normalised_candidate = normalise(name).replace(' ', r' (?:[^ ]+ )*')
+        if not any(regex.search(normalised_candidate, normalise(superstring_candidate)) for superstring_candidate in unique_names):
+            unique_names.append(name)
+            #print(f"\t\tAdding '{name}' regex /{normalised_candidate}/")
+        #else:
+            #print(f"\t\tAlready got '{name}' regex /{normalised_candidate}/")
+    #print(f"unique: {unique_names}")
+    airport['names'] = unique_names
 
 writeJsonJs(sorted(aircraft), 'aircraft');
 writeJsonJs(airlines, 'airlines')
