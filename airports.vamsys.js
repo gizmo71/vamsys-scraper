@@ -4580,7 +4580,7 @@ const airports = {
     },
     "LDSP": {
         "iata": "SPU",
-        "inbound": 122,
+        "inbound": 119,
         "latlng": [
             43.5388985,
             16.2980003
@@ -4588,7 +4588,7 @@ const airports = {
         "names": [
             "Split Airport"
         ],
-        "outbound": 122
+        "outbound": 119
     },
     "LDZA": {
         "iata": "ZAG",
@@ -5205,7 +5205,7 @@ const airports = {
     },
     "LFPG": {
         "iata": "CDG",
-        "inbound": 272,
+        "inbound": 269,
         "latlng": [
             49.012798,
             2.55
@@ -5214,7 +5214,7 @@ const airports = {
             "Paris Charles de Gaulle Airport",
             "Paris CDG"
         ],
-        "outbound": 272
+        "outbound": 269
     },
     "LFPO": {
         "iata": "ORY",
