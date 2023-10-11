@@ -477,7 +477,7 @@ const airports = {
     },
     "EDDL": {
         "iata": "DUS",
-        "inbound": 771,
+        "inbound": 769,
         "latlng": [
             51.289501,
             6.76678
@@ -486,11 +486,11 @@ const airports = {
             "Dusseldorf International Airport",
             "D\u00c3\u00bcsseldorf Airport"
         ],
-        "outbound": 778
+        "outbound": 776
     },
     "EDDM": {
         "iata": "MUC",
-        "inbound": 726,
+        "inbound": 724,
         "latlng": [
             48.353802,
             11.7861
@@ -499,7 +499,7 @@ const airports = {
             "M\u00fcnchen Airport",
             "Munich Airport"
         ],
-        "outbound": 713
+        "outbound": 711
     },
     "EDDN": {
         "iata": "NUE",
@@ -590,7 +590,7 @@ const airports = {
     },
     "EDJA": {
         "iata": "FMM",
-        "inbound": 91,
+        "inbound": 87,
         "latlng": [
             47.9888001,
             10.2395001
@@ -598,7 +598,7 @@ const airports = {
         "names": [
             "Memmingen Airport"
         ],
-        "outbound": 93
+        "outbound": 89
     },
     "EDLP": {
         "iata": "PAD",
@@ -771,7 +771,7 @@ const airports = {
     },
     "EFTU": {
         "iata": "TKU",
-        "inbound": 9,
+        "inbound": 5,
         "latlng": [
             60.514099,
             22.2628
@@ -779,7 +779,7 @@ const airports = {
         "names": [
             "Turku Airport"
         ],
-        "outbound": 9
+        "outbound": 5
     },
     "EFVA": {
         "iata": "VAA",
@@ -928,7 +928,7 @@ const airports = {
     },
     "EGGW": {
         "iata": "LTN",
-        "inbound": 389,
+        "inbound": 382,
         "latlng": [
             51.8746986,
             -0.368333
@@ -936,7 +936,7 @@ const airports = {
         "names": [
             "London Luton Airport"
         ],
-        "outbound": 386
+        "outbound": 379
     },
     "EGHH": {
         "iata": "BOH",
@@ -976,7 +976,7 @@ const airports = {
     },
     "EGHQ": {
         "iata": "NQY",
-        "inbound": 12,
+        "inbound": 15,
         "latlng": [
             50.440601,
             -4.99541
@@ -1012,7 +1012,7 @@ const airports = {
     },
     "EGKK": {
         "iata": "LGW",
-        "inbound": 784,
+        "inbound": 785,
         "latlng": [
             51.148102,
             -0.190278
@@ -1020,7 +1020,7 @@ const airports = {
         "names": [
             "London Gatwick Airport"
         ],
-        "outbound": 788
+        "outbound": 789
     },
     "EGLC": {
         "iata": "LCY",
@@ -1240,7 +1240,7 @@ const airports = {
     },
     "EGSS": {
         "iata": "STN",
-        "inbound": 235,
+        "inbound": 237,
         "latlng": [
             51.8849983,
             0.235
@@ -1248,7 +1248,7 @@ const airports = {
         "names": [
             "London Stansted Airport"
         ],
-        "outbound": 230
+        "outbound": 235
     },
     "EGTE": {
         "iata": "EXT",
@@ -1336,7 +1336,7 @@ const airports = {
     },
     "EIDW": {
         "iata": "DUB",
-        "inbound": 262,
+        "inbound": 263,
         "latlng": [
             53.428713,
             -6.262121
@@ -1344,7 +1344,7 @@ const airports = {
         "names": [
             "Dublin International"
         ],
-        "outbound": 271
+        "outbound": 272
     },
     "EIKN": {
         "iata": "NOC",
@@ -1384,7 +1384,7 @@ const airports = {
     },
     "EKBI": {
         "iata": "BLL",
-        "inbound": 31,
+        "inbound": 32,
         "latlng": [
             55.7402992,
             9.1517801
@@ -1392,11 +1392,11 @@ const airports = {
         "names": [
             "Billund Airport"
         ],
-        "outbound": 26
+        "outbound": 27
     },
     "EKCH": {
         "iata": "CPH",
-        "inbound": 418,
+        "inbound": 419,
         "latlng": [
             55.6179009,
             12.6560001
@@ -1676,7 +1676,7 @@ const airports = {
     },
     "EPBY": {
         "iata": "BZG",
-        "inbound": 5,
+        "inbound": 4,
         "latlng": [
             53.096802,
             17.977699
@@ -1684,7 +1684,7 @@ const airports = {
         "names": [
             "Bydgoszcz Ignacy Jan Paderewski Airport"
         ],
-        "outbound": 5
+        "outbound": 4
     },
     "EPGD": {
         "iata": "GDN",
@@ -1713,7 +1713,7 @@ const airports = {
     },
     "EPKT": {
         "iata": "KTW",
-        "inbound": 107,
+        "inbound": 115,
         "latlng": [
             50.4743,
             19.08
@@ -1721,11 +1721,11 @@ const airports = {
         "names": [
             "Katowice International Airport"
         ],
-        "outbound": 107
+        "outbound": 115
     },
     "EPLB": {
         "iata": "LUZ",
-        "inbound": 4,
+        "inbound": 3,
         "latlng": [
             51.240278,
             22.713611
@@ -1733,7 +1733,7 @@ const airports = {
         "names": [
             "Lublin Airport"
         ],
-        "outbound": 4
+        "outbound": 3
     },
     "EPLL": {
         "iata": "LCJ",
@@ -1809,7 +1809,7 @@ const airports = {
     },
     "EPWA": {
         "iata": "WAW",
-        "inbound": 238,
+        "inbound": 234,
         "latlng": [
             52.165699,
             20.9671001
@@ -1817,7 +1817,7 @@ const airports = {
         "names": [
             "Warsaw Chopin Airport"
         ],
-        "outbound": 238
+        "outbound": 234
     },
     "EPWR": {
         "iata": "WRO",
@@ -2123,7 +2123,7 @@ const airports = {
     },
     "EYKA": {
         "iata": "KUN",
-        "inbound": 20,
+        "inbound": 19,
         "latlng": [
             54.9639015,
             24.0848007
@@ -2131,7 +2131,7 @@ const airports = {
         "names": [
             "Kaunas Airport"
         ],
-        "outbound": 23
+        "outbound": 22
     },
     "EYPA": {
         "iata": "PLQ",
@@ -2354,7 +2354,7 @@ const airports = {
     },
     "GCFV": {
         "iata": "FUE",
-        "inbound": 159,
+        "inbound": 160,
         "latlng": [
             28.4527,
             -13.8638
@@ -2362,7 +2362,7 @@ const airports = {
         "names": [
             "Fuerteventura Airport"
         ],
-        "outbound": 152
+        "outbound": 156
     },
     "GCLA": {
         "iata": "SPC",
@@ -2379,7 +2379,7 @@ const airports = {
     },
     "GCLP": {
         "iata": "LPA",
-        "inbound": 163,
+        "inbound": 165,
         "latlng": [
             27.9319,
             -15.3866
@@ -2387,7 +2387,7 @@ const airports = {
         "names": [
             "Gran Canaria (Las Palmas)"
         ],
-        "outbound": 164
+        "outbound": 166
     },
     "GCRR": {
         "iata": "ACE",
@@ -4445,7 +4445,7 @@ const airports = {
     },
     "LATI": {
         "iata": "TIA",
-        "inbound": 198,
+        "inbound": 197,
         "latlng": [
             41.4146996,
             19.7206001
@@ -4453,11 +4453,11 @@ const airports = {
         "names": [
             "Tirana International Airport"
         ],
-        "outbound": 205
+        "outbound": 204
     },
     "LBBG": {
         "iata": "BOJ",
-        "inbound": 77,
+        "inbound": 76,
         "latlng": [
             42.5695992,
             27.5151997
@@ -4465,11 +4465,11 @@ const airports = {
         "names": [
             "Burgas Airport"
         ],
-        "outbound": 76
+        "outbound": 75
     },
     "LBPD": {
         "iata": "PDV",
-        "inbound": 8,
+        "inbound": 4,
         "latlng": [
             42.067799,
             24.8508
@@ -4477,11 +4477,11 @@ const airports = {
         "names": [
             "Plovdiv Airport"
         ],
-        "outbound": 8
+        "outbound": 4
     },
     "LBSF": {
         "iata": "SOF",
-        "inbound": 157,
+        "inbound": 158,
         "latlng": [
             42.6966934,
             23.4114361
@@ -4489,7 +4489,7 @@ const airports = {
         "names": [
             "Sofia Airport"
         ],
-        "outbound": 157
+        "outbound": 158
     },
     "LBWN": {
         "iata": "VAR",
@@ -4800,7 +4800,7 @@ const airports = {
     },
     "LEPA": {
         "iata": "PMI",
-        "inbound": 474,
+        "inbound": 473,
         "latlng": [
             39.551701,
             2.73881
@@ -4809,7 +4809,7 @@ const airports = {
             "Palma de Mallorca Airport",
             "Majorca Palma"
         ],
-        "outbound": 473
+        "outbound": 472
     },
     "LERS": {
         "iata": "REU",
@@ -4847,7 +4847,7 @@ const airports = {
         "names": [
             "Valencia Airport"
         ],
-        "outbound": 89
+        "outbound": 88
     },
     "LEVD": {
         "iata": "VLL",
@@ -4947,7 +4947,7 @@ const airports = {
     },
     "LFBH": {
         "iata": "LRH",
-        "inbound": 6,
+        "inbound": 7,
         "latlng": [
             46.1791992,
             -1.19528
@@ -4955,7 +4955,7 @@ const airports = {
         "names": [
             "La Rochelle"
         ],
-        "outbound": 6
+        "outbound": 7
     },
     "LFBI": {
         "iata": "PIS",
@@ -5377,7 +5377,7 @@ const airports = {
     },
     "LGIR": {
         "iata": "HER",
-        "inbound": 223,
+        "inbound": 217,
         "latlng": [
             35.3396988,
             25.1802998
@@ -5386,7 +5386,7 @@ const airports = {
             "Heraklion International Airport (Nikos Kazantzakis Airport)",
             "Crete Heraklion"
         ],
-        "outbound": 224
+        "outbound": 218
     },
     "LGKF": {
         "iata": "EFL",
@@ -5415,7 +5415,7 @@ const airports = {
     },
     "LGKO": {
         "iata": "KGS",
-        "inbound": 125,
+        "inbound": 123,
         "latlng": [
             36.7933006,
             27.0916996
@@ -5439,7 +5439,7 @@ const airports = {
     },
     "LGKR": {
         "iata": "CFU",
-        "inbound": 177,
+        "inbound": 173,
         "latlng": [
             39.6018982,
             19.9116993
@@ -5449,7 +5449,7 @@ const airports = {
             "Corfu (Kerkira)",
             "Korfu"
         ],
-        "outbound": 170
+        "outbound": 166
     },
     "LGKV": {
         "iata": "KVA",
@@ -5540,7 +5540,7 @@ const airports = {
     },
     "LGSA": {
         "iata": "CHQ",
-        "inbound": 113,
+        "inbound": 114,
         "latlng": [
             35.5317001,
             24.1497002
@@ -5549,11 +5549,11 @@ const airports = {
             "Chania International Airport",
             "Crete Chania"
         ],
-        "outbound": 112
+        "outbound": 113
     },
     "LGSK": {
         "iata": "JSI",
-        "inbound": 22,
+        "inbound": 16,
         "latlng": [
             39.1771011,
             23.5037003
@@ -5561,7 +5561,7 @@ const airports = {
         "names": [
             "Skiathos Island National Airport"
         ],
-        "outbound": 22
+        "outbound": 16
     },
     "LGSM": {
         "iata": "SMI",
@@ -5577,7 +5577,7 @@ const airports = {
     },
     "LGSR": {
         "iata": "JTR",
-        "inbound": 97,
+        "inbound": 93,
         "latlng": [
             36.3992004,
             25.4792996
@@ -5585,7 +5585,7 @@ const airports = {
         "names": [
             "Santorini Thira National Airport"
         ],
-        "outbound": 103
+        "outbound": 99
     },
     "LGST": {
         "iata": "JSH",
@@ -5614,7 +5614,7 @@ const airports = {
     },
     "LGZA": {
         "iata": "ZTH",
-        "inbound": 73,
+        "inbound": 69,
         "latlng": [
             37.7509,
             20.8843
@@ -5624,7 +5624,7 @@ const airports = {
             "Zakynthos International Airport",
             "Zante Zakynthos"
         ],
-        "outbound": 76
+        "outbound": 72
     },
     "LHBP": {
         "iata": "BUD",
@@ -5641,7 +5641,7 @@ const airports = {
     },
     "LHDC": {
         "iata": "DEB",
-        "inbound": 29,
+        "inbound": 25,
         "latlng": [
             47.488899,
             21.615299
@@ -5649,7 +5649,7 @@ const airports = {
         "names": [
             "Debrecen International Airport"
         ],
-        "outbound": 29
+        "outbound": 25
     },
     "LHSM": {
         "iata": "SOB",
@@ -5814,7 +5814,7 @@ const airports = {
     },
     "LIEO": {
         "iata": "OLB",
-        "inbound": 127,
+        "inbound": 125,
         "latlng": [
             40.898701,
             9.51763
@@ -5823,7 +5823,7 @@ const airports = {
             "Olbia Costa Smeralda Airport",
             "Sardinia Olbia"
         ],
-        "outbound": 128
+        "outbound": 126
     },
     "LIMC": {
         "iata": "MXP",
@@ -5841,7 +5841,7 @@ const airports = {
     },
     "LIME": {
         "iata": "BGY",
-        "inbound": 80,
+        "inbound": 77,
         "latlng": [
             45.673901,
             9.70417
@@ -5850,7 +5850,7 @@ const airports = {
             "Milan Bergamo Il Caravaggio International Airport",
             "Orio al Serio"
         ],
-        "outbound": 80
+        "outbound": 76
     },
     "LIMF": {
         "iata": "TRN",
@@ -5863,7 +5863,7 @@ const airports = {
             "Turin Caselle Airport",
             "Torino"
         ],
-        "outbound": 43
+        "outbound": 44
     },
     "LIMJ": {
         "iata": "GOA",
@@ -5990,7 +5990,7 @@ const airports = {
     },
     "LIPZ": {
         "iata": "VCE",
-        "inbound": 157,
+        "inbound": 153,
         "latlng": [
             45.505299,
             12.3519
@@ -6001,11 +6001,11 @@ const airports = {
             "Venezia Marco Polo",
             "Venice M.Polo"
         ],
-        "outbound": 158
+        "outbound": 154
     },
     "LIRA": {
         "iata": "CIA",
-        "inbound": 22,
+        "inbound": 26,
         "latlng": [
             41.7994,
             12.5949
@@ -6013,11 +6013,11 @@ const airports = {
         "names": [
             "Rome Ciampino Airport"
         ],
-        "outbound": 22
+        "outbound": 26
     },
     "LIRF": {
         "iata": "FCO",
-        "inbound": 339,
+        "inbound": 335,
         "latlng": [
             41.804532,
             12.251998
@@ -6026,7 +6026,7 @@ const airports = {
             "Rome Leonardo da Vinci Fiumicino Airport",
             "Roma Fiumicino"
         ],
-        "outbound": 344
+        "outbound": 340
     },
     "LIRN": {
         "iata": "NAP",
@@ -6182,7 +6182,7 @@ const airports = {
     },
     "LOWI": {
         "iata": "INN",
-        "inbound": 44,
+        "inbound": 42,
         "latlng": [
             47.260201,
             11.344
@@ -6190,7 +6190,7 @@ const airports = {
         "names": [
             "Innsbruck Kranebitten"
         ],
-        "outbound": 44
+        "outbound": 42
     },
     "LOWK": {
         "iata": "KLU",
@@ -6218,7 +6218,7 @@ const airports = {
     },
     "LOWS": {
         "iata": "SZG",
-        "inbound": 105,
+        "inbound": 107,
         "latlng": [
             47.7933006,
             13.0043001
@@ -6230,7 +6230,7 @@ const airports = {
     },
     "LOWW": {
         "iata": "VIE",
-        "inbound": 752,
+        "inbound": 756,
         "latlng": [
             48.110298,
             16.5697
@@ -6239,7 +6239,7 @@ const airports = {
             "Vienna International Airport",
             "Wien-Schwechat"
         ],
-        "outbound": 755
+        "outbound": 759
     },
     "LPFR": {
         "iata": "FAO",
@@ -6442,7 +6442,7 @@ const airports = {
     },
     "LROP": {
         "iata": "OTP",
-        "inbound": 267,
+        "inbound": 259,
         "latlng": [
             44.571111,
             26.085
@@ -6451,7 +6451,7 @@ const airports = {
             "Bucharest Henri Coand\u00c4\u0083 International Airport",
             "Bukarest-Otopeni"
         ],
-        "outbound": 268
+        "outbound": 260
     },
     "LROV": {
         "iata": "GHV",
@@ -6637,7 +6637,7 @@ const airports = {
     },
     "LTBS": {
         "iata": "DLM",
-        "inbound": 72,
+        "inbound": 73,
         "latlng": [
             36.7131004,
             28.7924995
@@ -6757,7 +6757,7 @@ const airports = {
     },
     "LYBE": {
         "iata": "BEG",
-        "inbound": 116,
+        "inbound": 112,
         "latlng": [
             44.818401,
             20.309099
@@ -6765,7 +6765,7 @@ const airports = {
         "names": [
             "Belgrade Nikola Tesla Airport"
         ],
-        "outbound": 97
+        "outbound": 93
     },
     "LYNI": {
         "iata": "INI",
@@ -6781,7 +6781,7 @@ const airports = {
     },
     "LYPG": {
         "iata": "TGD",
-        "inbound": 29,
+        "inbound": 33,
         "latlng": [
             42.359402,
             19.2519
@@ -6789,7 +6789,7 @@ const airports = {
         "names": [
             "Podgorica Airport"
         ],
-        "outbound": 29
+        "outbound": 33
     },
     "LYTV": {
         "iata": "TIV",
@@ -6818,7 +6818,7 @@ const airports = {
     },
     "LZKZ": {
         "iata": "KSC",
-        "inbound": 8,
+        "inbound": 9,
         "latlng": [
             48.6631012,
             21.2411003
@@ -6826,7 +6826,7 @@ const airports = {
         "names": [
             "Kosice International Airport"
         ],
-        "outbound": 8
+        "outbound": 9
     },
     "LZTT": {
         "iata": "TAT",
@@ -7595,18 +7595,6 @@ const airports = {
             "DUBAI, UNITED ARAB EMIRATES"
         ],
         "outbound": 105
-    },
-    "OMDW": {
-        "iata": "DWC",
-        "inbound": 2,
-        "latlng": [
-            24.896356,
-            55.161389
-        ],
-        "names": [
-            "Al Maktoum"
-        ],
-        "outbound": 2
     },
     "OMRK": {
         "iata": "RKT",
@@ -9725,7 +9713,7 @@ const airports = {
     },
     "VIDP": {
         "iata": "DEL",
-        "inbound": 230,
+        "inbound": 229,
         "latlng": [
             28.55563,
             77.09519
@@ -9733,7 +9721,7 @@ const airports = {
         "names": [
             "Delhi Indira Gandhi International Airport"
         ],
-        "outbound": 227
+        "outbound": 226
     },
     "VIGG": {
         "iata": "DHM",
