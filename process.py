@@ -119,15 +119,14 @@ def airport(airport):
         if airports[icao]['iata'] != iata:
             raise ValueError(f"{iaco} has inconsistent IATA codes, {airports[icao]['iata']} versus {iata}")
     else:
-        airports[icao] = {'latlng': [latitude, longitude], 'iata': iata, 'names': {name}, 'inbound': 0, 'outbound': 0}
+        airports[icao] = {'latlng': [latitude, longitude], 'iata': iata, 'names': {name}, 'inbound': False, 'outbound': False}
 
 def add_or_update_route(origin, destination, distance, airline, type, callsigns):
     key = f"{origin}-{destination}"
     route = routes.setdefault(key, {'distance': distance, 'type_to_airlines': {}})
     type_to_airlines = route['type_to_airlines'].setdefault(type, {})
     type_to_airlines[airline] = ','.join(sorted(callsigns.split(',')))
-    airports[origin]['outbound'] += 1
-    airports[destination]['inbound'] += 1
+    airports[origin]['outbound'] = airports[destination]['inbound'] = True
 
 def time_mode(last_pirep):
     def pause_time(last_pirep, after, before):
