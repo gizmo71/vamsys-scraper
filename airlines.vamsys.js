@@ -54,7 +54,7 @@ const airlines = {
     },
     "265": {
         "name": "Air China",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+40.8 Hours (26.6 PIREPs)\n\t+3405.0 Points (34.3 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+140.8 Hours (91.9 PIREPs)\n\t+13405.0 Points (135.2 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+290.8 Hours (189.9 PIREPs)\n\t+26905.0 Points (271.3 PIREPs)\nCaptain / \u673a\u957f:\n\t+590.8 Hours (385.7 PIREPs)\n\t+59405.0 Points (599.0 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+990.8 Hours (646.9 PIREPs)\n\t+99405.0 Points (1002.4 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1990.8 Hours (1299.8 PIREPs)\n\t+199405.0 Points (2010.8 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+39.0 Hours (24.9 PIREPs)\n\t+3205.0 Points (28.2 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+139.0 Hours (88.7 PIREPs)\n\t+13205.0 Points (116.3 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+289.0 Hours (184.5 PIREPs)\n\t+26705.0 Points (235.1 PIREPs)\nCaptain / \u673a\u957f:\n\t+589.0 Hours (376.0 PIREPs)\n\t+59205.0 Points (521.3 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+989.0 Hours (631.3 PIREPs)\n\t+99205.0 Points (873.5 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1989.0 Hours (1269.5 PIREPs)\n\t+199205.0 Points (1754.0 PIREPs)\nTime mode: block",
         "sortName": "China"
     },
     "291": {
