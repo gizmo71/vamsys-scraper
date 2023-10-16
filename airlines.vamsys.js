@@ -22,8 +22,8 @@ const airlines = {
     },
     "30": {
         "name": "Aer Lingus",
-        "rank_info": "Second Officer:\n\t+6.4 Hours (7.5 PIREPs)\nFirst Officer:\n\t+21.4 Hours (25.0 PIREPs)\n\t+2310.0 Points (10.5 PIREPs)\nSenior First Officer:\n\t+91.4 Hours (106.6 PIREPs)\n\t+9810.0 Points (44.8 PIREPs)\n\t+1000.0 Bonus Points\nCaptain:\n\t+291.4 Hours (339.7 PIREPs)\n\t+27810.0 Points (127.0 PIREPs)\n\t+4000.0 Bonus Points\nSenior Captain (TRE/TRI/Line):\n\t+891.4 Hours (1039.0 PIREPs)\n\t+72810.0 Points (332.5 PIREPs)\n\t+12000.0 Bonus Points\nBase Chief Pilot:\n\t+1491.4 Hours (1738.3 PIREPs)\n\t+127810.0 Points (583.6 PIREPs)\n\t+20000.0 Bonus Points\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2023-11-01",
+        "rank_info": "Second Officer:\n\t+0.0 Hours (0.0 PIREPs)\nFirst Officer:\n\t+15.0 Hours (11.0 PIREPs)\n\t+2025.0 Points (9.0 PIREPs)\nSenior First Officer:\n\t+85.0 Hours (62.4 PIREPs)\n\t+9525.0 Points (42.3 PIREPs)\n\t+1000.0 Bonus Points\nCaptain:\n\t+285.0 Hours (209.1 PIREPs)\n\t+27525.0 Points (122.3 PIREPs)\n\t+4000.0 Bonus Points\nSenior Captain (TRE/TRI/Line):\n\t+885.0 Hours (649.2 PIREPs)\n\t+72525.0 Points (322.3 PIREPs)\n\t+12000.0 Bonus Points\nBase Chief Pilot:\n\t+1485.0 Hours (1089.3 PIREPs)\n\t+127525.0 Points (566.8 PIREPs)\n\t+20000.0 Bonus Points\nTime mode: air",
+        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2023-11-14",
         "sortName": "Linugs"
     },
     "35": {
@@ -64,7 +64,7 @@ const airlines = {
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+198.7 Hours (114.0 PIREPs)\nBase Captain:\n\t+813.7 Hours (466.9 PIREPs)\nChief Pilot:\n\t+2133.7 Hours (1224.4 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+196.8 Hours (112.9 PIREPs)\nBase Captain:\n\t+811.8 Hours (465.7 PIREPs)\nChief Pilot:\n\t+2131.8 Hours (1222.9 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
