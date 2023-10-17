@@ -1,7 +1,7 @@
 const airlines = {
     "1": {
         "name": "EasyJet",
-        "rank_info": "Senior First Officer:\n\t+99.7 Hours (58.2 PIREPs)\n\t+5275.0 Points (27.8 PIREPs)\nCaptain:\n\t+399.7 Hours (233.4 PIREPs)\n\t+37775.0 Points (198.9 PIREPs)\nTraining Captain:\n\t+799.7 Hours (467.0 PIREPs)\n\t+77775.0 Points (409.4 PIREPs)\nBase Captain:\n\t+1799.7 Hours (1051.1 PIREPs)\n\t+177775.0 Points (935.9 PIREPs)\nTime mode: block",
+        "rank_info": "Senior First Officer:\n\t+98.6 Hours (57.7 PIREPs)\n\t+5120.0 Points (27.0 PIREPs)\nCaptain:\n\t+398.6 Hours (233.5 PIREPs)\n\t+37620.0 Points (198.4 PIREPs)\nTraining Captain:\n\t+798.6 Hours (467.8 PIREPs)\n\t+77620.0 Points (409.3 PIREPs)\nBase Captain:\n\t+1798.6 Hours (1053.5 PIREPs)\n\t+177620.0 Points (936.5 PIREPs)\nTime mode: block",
         "sortName": "EasyJet"
     },
     "3": {
@@ -103,8 +103,8 @@ const airlines = {
         "sortName": "Goldberg"
     },
     "1309": {
-        "name": "Allegiant Virtual",
+        "name": "Allegiant",
         "rank_info": "Trainee:\n\t+1.3 Hours (1.9 PIREPs)\nTrainee Second Officer:\n\t+14.3 Hours (20.7 PIREPs)\n\t+2775.0 Points (12.3 PIREPs)\nSecond Officer:\n\t+39.3 Hours (56.8 PIREPs)\n\t+7775.0 Points (34.6 PIREPs)\nSenior Second Officer:\n\t+64.3 Hours (93.0 PIREPs)\n\t+12775.0 Points (56.8 PIREPs)\nTrainee First Officer:\n\t+89.3 Hours (129.1 PIREPs)\n\t+19775.0 Points (87.9 PIREPs)\nFirst Officer:\n\t+114.3 Hours (165.3 PIREPs)\n\t+24775.0 Points (110.1 PIREPs)\nSenior First Officer:\n\t+139.3 Hours (201.4 PIREPs)\n\t+29775.0 Points (132.3 PIREPs)\nCaptain:\n\t+164.3 Hours (237.6 PIREPs)\n\t+34775.0 Points (154.6 PIREPs)\nJunior Training Captain:\n\t+189.3 Hours (273.7 PIREPs)\n\t+39775.0 Points (176.8 PIREPs)\nTraining Captain:\n\t+214.3 Hours (309.8 PIREPs)\n\t+44775.0 Points (199.0 PIREPs)\nSenior Training Captain:\n\t+239.3 Hours (346.0 PIREPs)\n\t+49775.0 Points (221.2 PIREPs)\nTime mode: air",
-        "sortName": "Allegiant Virtual"
+        "sortName": "Allegiant"
     }
 };
