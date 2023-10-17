@@ -64,7 +64,7 @@ const airlines = {
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+196.8 Hours (112.9 PIREPs)\nBase Captain:\n\t+811.8 Hours (465.7 PIREPs)\nChief Pilot:\n\t+2131.8 Hours (1222.9 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+195.0 Hours (111.9 PIREPs)\nBase Captain:\n\t+810.0 Hours (464.6 PIREPs)\nChief Pilot:\n\t+2130.0 Hours (1221.7 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
@@ -101,5 +101,10 @@ const airlines = {
         "name": "Air Goldberg",
         "rank_info": "Second Officer:\n\t+47.9 Hours (45.9 PIREPs)\n\t+3703.0 Points (24.9 PIREPs)\nFirst Officer:\n\t+147.9 Hours (141.6 PIREPs)\n\t+13703.0 Points (92.3 PIREPs)\nSenior First Officer:\n\t+297.9 Hours (285.1 PIREPs)\n\t+27203.0 Points (183.2 PIREPs)\nCaptain:\n\t+597.9 Hours (572.2 PIREPs)\n\t+59703.0 Points (402.0 PIREPs)\nTraining Captain:\n\t+997.9 Hours (955.1 PIREPs)\n\t+99703.0 Points (671.4 PIREPs)\nTime mode: block",
         "sortName": "Goldberg"
+    },
+    "1309": {
+        "name": "Allegiant Virtual",
+        "rank_info": "Trainee:\n\t+1.3 Hours (1.9 PIREPs)\nTrainee Second Officer:\n\t+14.3 Hours (20.7 PIREPs)\n\t+2775.0 Points (12.3 PIREPs)\nSecond Officer:\n\t+39.3 Hours (56.8 PIREPs)\n\t+7775.0 Points (34.6 PIREPs)\nSenior Second Officer:\n\t+64.3 Hours (93.0 PIREPs)\n\t+12775.0 Points (56.8 PIREPs)\nTrainee First Officer:\n\t+89.3 Hours (129.1 PIREPs)\n\t+19775.0 Points (87.9 PIREPs)\nFirst Officer:\n\t+114.3 Hours (165.3 PIREPs)\n\t+24775.0 Points (110.1 PIREPs)\nSenior First Officer:\n\t+139.3 Hours (201.4 PIREPs)\n\t+29775.0 Points (132.3 PIREPs)\nCaptain:\n\t+164.3 Hours (237.6 PIREPs)\n\t+34775.0 Points (154.6 PIREPs)\nJunior Training Captain:\n\t+189.3 Hours (273.7 PIREPs)\n\t+39775.0 Points (176.8 PIREPs)\nTraining Captain:\n\t+214.3 Hours (309.8 PIREPs)\n\t+44775.0 Points (199.0 PIREPs)\nSenior Training Captain:\n\t+239.3 Hours (346.0 PIREPs)\n\t+49775.0 Points (221.2 PIREPs)\nTime mode: air",
+        "sortName": "Allegiant Virtual"
     }
 };
