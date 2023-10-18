@@ -28,7 +28,7 @@ const airlines = {
     },
     "35": {
         "name": "British Airways",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+86.7 Hours (58.8 PIREPs)\n\t+6589.0 Points (31.7 PIREPs)\nSenior First Officer:\n\t+261.7 Hours (177.4 PIREPs)\n\t+22089.0 Points (106.1 PIREPs)\nCaptain:\n\t+561.7 Hours (380.8 PIREPs)\n\t+54589.0 Points (262.3 PIREPs)\nTraining Captain:\n\t+961.7 Hours (652.0 PIREPs)\n\t+94589.0 Points (454.5 PIREPs)\nBase Captain:\n\t+1961.7 Hours (1330.1 PIREPs)\n\t+194589.0 Points (935.0 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+85.6 Hours (58.7 PIREPs)\n\t+6399.0 Points (30.8 PIREPs)\nSenior First Officer:\n\t+260.6 Hours (178.8 PIREPs)\n\t+21899.0 Points (105.6 PIREPs)\nCaptain:\n\t+560.6 Hours (384.5 PIREPs)\n\t+54399.0 Points (262.2 PIREPs)\nTraining Captain:\n\t+960.6 Hours (658.9 PIREPs)\n\t+94399.0 Points (455.1 PIREPs)\nBase Captain:\n\t+1960.6 Hours (1344.8 PIREPs)\n\t+194399.0 Points (937.1 PIREPs)\nTime mode: block",
         "sortName": "British Airways"
     },
     "42": {
@@ -49,7 +49,7 @@ const airlines = {
     },
     "64": {
         "name": "Lufthansa",
-        "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+447.4 Hours (281.0 PIREPs)\n\t+2835.0 Points (29.6 PIREPs)\nTraining Captain:\n\t+447.4 Hours (281.0 PIREPs)\n\t+31835.0 Points (331.9 PIREPs)\nBase Captain:\n\t+1447.4 Hours (908.9 PIREPs)\n\t+71835.0 Points (749.0 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+446.7 Hours (284.9 PIREPs)\n\t+2750.0 Points (28.8 PIREPs)\nTraining Captain:\n\t+446.7 Hours (284.9 PIREPs)\n\t+31750.0 Points (332.2 PIREPs)\nBase Captain:\n\t+1446.7 Hours (922.8 PIREPs)\n\t+71750.0 Points (750.6 PIREPs)\nTime mode: air",
         "sortName": "Lufthansa"
     },
     "265": {

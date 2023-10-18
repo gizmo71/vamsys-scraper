@@ -7700,7 +7700,7 @@ const airports = {
         ],
         "names": [
             "General Mariano Escobedo International Airport",
-            "Monterrey, Mexico"
+            "Monterrey"
         ],
         "outbound": true
     },
@@ -9216,8 +9216,7 @@ const airports = {
             -77.114305
         ],
         "names": [
-            "Lima Jorge Ch\u00e1vez International Airport",
-            "Lima, Peru"
+            "Lima Jorge Ch\u00e1vez International Airport"
         ],
         "outbound": true
     },
