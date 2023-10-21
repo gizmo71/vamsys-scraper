@@ -59,12 +59,12 @@ const airlines = {
     },
     "291": {
         "name": "JetBlue",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+43.9 Hours (50.5 PIREPs)\n\t+2525.0 Points (12.0 PIREPs)\nSenior First Officer:\n\t+193.9 Hours (222.8 PIREPs)\n\t+15525.0 Points (73.7 PIREPs)\nCaptain:\n\t+493.9 Hours (567.6 PIREPs)\n\t+43525.0 Points (206.6 PIREPs)\nTraining Captain:\n\t+993.9 Hours (1142.2 PIREPs)\n\t+78525.0 Points (372.7 PIREPs)\nSenior Training Captain:\n\t+1493.9 Hours (1716.8 PIREPs)\n\t+128525.0 Points (609.9 PIREPs)\nChief Pilot:\n\t+2493.9 Hours (2866.0 PIREPs)\n\t+248525.0 Points (1179.4 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+43.0 Hours (49.3 PIREPs)\n\t+2325.0 Points (11.1 PIREPs)\nSenior First Officer:\n\t+193.0 Hours (221.4 PIREPs)\n\t+15325.0 Points (73.2 PIREPs)\nCaptain:\n\t+493.0 Hours (565.4 PIREPs)\n\t+43325.0 Points (206.9 PIREPs)\nTraining Captain:\n\t+993.0 Hours (1138.9 PIREPs)\n\t+78325.0 Points (374.1 PIREPs)\nSenior Training Captain:\n\t+1493.0 Hours (1712.3 PIREPs)\n\t+128325.0 Points (612.9 PIREPs)\nChief Pilot:\n\t+2493.0 Hours (2859.2 PIREPs)\n\t+248325.0 Points (1186.0 PIREPs)\nTime mode: block",
         "sortName": "JetBlue"
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+195.0 Hours (111.9 PIREPs)\nBase Captain:\n\t+810.0 Hours (464.6 PIREPs)\nChief Pilot:\n\t+2130.0 Hours (1221.7 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+193.8 Hours (111.4 PIREPs)\nBase Captain:\n\t+808.8 Hours (464.7 PIREPs)\nChief Pilot:\n\t+2128.8 Hours (1223.0 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
@@ -74,13 +74,18 @@ const airlines = {
     },
     "550": {
         "name": "SAS",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+33.3 Hours (27.8 PIREPs)\n\t+3392.0 Points (18.2 PIREPs)\nSenior First Officer:\n\t+183.3 Hours (153.3 PIREPs)\n\t+12392.0 Points (66.5 PIREPs)\nCaptain:\n\t+383.3 Hours (320.6 PIREPs)\n\t+27392.0 Points (147.0 PIREPs)\n\t+845.0 Bonus Points (76.3 PIREPs)\nSenior Captain:\n\t+783.3 Hours (655.2 PIREPs)\n\t+37392.0 Points (200.7 PIREPs)\n\t+1845.0 Bonus Points (166.6 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+31.9 Hours (26.5 PIREPs)\n\t+3222.0 Points (17.4 PIREPs)\nSenior First Officer:\n\t+181.9 Hours (151.0 PIREPs)\n\t+12222.0 Points (66.0 PIREPs)\nCaptain:\n\t+381.9 Hours (317.0 PIREPs)\n\t+27222.0 Points (147.0 PIREPs)\n\t+845.0 Bonus Points (81.8 PIREPs)\nSenior Captain:\n\t+781.9 Hours (649.0 PIREPs)\n\t+37222.0 Points (201.0 PIREPs)\n\t+1845.0 Bonus Points (178.5 PIREPs)\nTime mode: block",
         "sortName": "SAS"
     },
     "706": {
         "name": "IndiGo",
-        "rank_info": "First Officer:\n\t+37.7 Hours (24.4 PIREPs)\nSenior First Officer:\n\t+87.7 Hours (56.9 PIREPs)\n\t+10380.0 Points (51.3 PIREPs)\nCaptain:\n\t+237.7 Hours (154.2 PIREPs)\n\t+28380.0 Points (140.1 PIREPs)\nBase Captain:\n\t+487.7 Hours (316.4 PIREPs)\n\t+58380.0 Points (288.3 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+36.5 Hours (24.4 PIREPs)\nSenior First Officer:\n\t+86.5 Hours (57.8 PIREPs)\n\t+10150.0 Points (49.4 PIREPs)\nCaptain:\n\t+236.5 Hours (158.1 PIREPs)\n\t+28150.0 Points (136.9 PIREPs)\nBase Captain:\n\t+486.5 Hours (325.2 PIREPs)\n\t+58150.0 Points (282.9 PIREPs)\nTime mode: air",
         "sortName": "IndiGo"
+    },
+    "876": {
+        "name": "Air India",
+        "rank_info": "First Officer:\n\t+49.2 Hours (58.1 PIREPs)\nSenior First Officer:\n\t+299.2 Hours (353.4 PIREPs)\n\t+14805.0 Points (75.9 PIREPs)\nCaptain:\n\t+599.2 Hours (707.9 PIREPs)\n\t+29805.0 Points (152.8 PIREPs)\nBase Captain:\n\t+999.2 Hours (1180.5 PIREPs)\n\t+59805.0 Points (306.7 PIREPs)\nTime mode: air",
+        "sortName": "India"
     },
     "939": {
         "name": "Frontier",
@@ -89,7 +94,7 @@ const airlines = {
     },
     "1005": {
         "name": "All Nippon",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+42.8 Hours (35.4 PIREPs)\n\t+3578.0 Points (50.9 PIREPs)\nFirst Officer:\n\t+142.8 Hours (118.3 PIREPs)\n\t+13578.0 Points (193.1 PIREPs)\nSenior First Officer:\n\t+292.8 Hours (242.7 PIREPs)\n\t+27078.0 Points (385.0 PIREPs)\nCaptain:\n\t+592.8 Hours (491.4 PIREPs)\n\t+59578.0 Points (847.1 PIREPs)\nTraining Captain:\n\t+992.8 Hours (823.0 PIREPs)\n\t+99578.0 Points (1415.8 PIREPs)\nBase Captain:\n\t+1992.8 Hours (1652.0 PIREPs)\n\t+199578.0 Points (2837.6 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+42.1 Hours (37.3 PIREPs)\n\t+3523.0 Points (51.7 PIREPs)\nFirst Officer:\n\t+142.1 Hours (125.9 PIREPs)\n\t+13523.0 Points (198.5 PIREPs)\nSenior First Officer:\n\t+292.1 Hours (258.9 PIREPs)\n\t+27023.0 Points (396.6 PIREPs)\nCaptain:\n\t+592.1 Hours (524.8 PIREPs)\n\t+59523.0 Points (873.5 PIREPs)\nTraining Captain:\n\t+992.1 Hours (879.3 PIREPs)\n\t+99523.0 Points (1460.5 PIREPs)\nBase Captain:\n\t+1992.1 Hours (1765.6 PIREPs)\n\t+199523.0 Points (2928.0 PIREPs)\nTime mode: air",
         "sortName": "Nippon"
     },
     "1033": {

@@ -1034,18 +1034,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "EGLF": {
-        "iata": "FAB",
-        "inbound": true,
-        "latlng": [
-            51.2757988,
-            -0.776333
-        ],
-        "names": [
-            "Farnborough"
-        ],
-        "outbound": true
-    },
     "EGLL": {
         "iata": "LHR",
         "inbound": true,
@@ -2226,7 +2214,7 @@ const airports = {
             57.683601
         ],
         "names": [
-            "Sir Seewoosagur Ramgoolam International",
+            "Sir Seewoosagur Ramgoolam International Airport",
             "Mauritius"
         ],
         "outbound": true
@@ -9747,6 +9735,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VA1P": {
+        "iata": "DIU",
+        "inbound": false,
+        "latlng": [
+            20.7131,
+            70.921097
+        ],
+        "names": [
+            "Diu Airport"
+        ],
+        "outbound": true
+    },
     "VAAH": {
         "iata": "AMD",
         "inbound": true,
@@ -9785,6 +9785,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VABJ": {
+        "iata": "BHJ",
+        "inbound": true,
+        "latlng": [
+            23.2877998,
+            69.6701965
+        ],
+        "names": [
+            "Bhuj Airport"
+        ],
+        "outbound": true
+    },
     "VABO": {
         "iata": "BDQ",
         "inbound": true,
@@ -9809,6 +9821,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VADU": {
+        "iata": "DIU",
+        "inbound": true,
+        "latlng": [
+            20.7131,
+            70.921097
+        ],
+        "names": [
+            "Diu Airport"
+        ],
+        "outbound": false
+    },
     "VAID": {
         "iata": "IDR",
         "inbound": true,
@@ -9825,11 +9849,23 @@ const airports = {
         "iata": "JLR",
         "inbound": true,
         "latlng": [
-            23.177799,
+            23.1777992,
             80.052002
         ],
         "names": [
             "Jabalpur Airport"
+        ],
+        "outbound": true
+    },
+    "VAJM": {
+        "iata": "JGA",
+        "inbound": true,
+        "latlng": [
+            22.4654999,
+            70.0126038
+        ],
+        "names": [
+            "Jamnagar Airport"
         ],
         "outbound": true
     },
@@ -9842,6 +9878,18 @@ const airports = {
         ],
         "names": [
             "Kolhapur Airport"
+        ],
+        "outbound": true
+    },
+    "VAKS": {
+        "iata": "IXK",
+        "inbound": true,
+        "latlng": [
+            21.317101,
+            70.270401
+        ],
+        "names": [
+            "Keshod Airport"
         ],
         "outbound": true
     },
@@ -9941,6 +9989,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VCCJ": {
+        "iata": "JAF",
+        "inbound": true,
+        "latlng": [
+            9.79233,
+            80.070099
+        ],
+        "names": [
+            "Jaffna International Airport"
+        ],
+        "outbound": true
+    },
     "VCRI": {
         "iata": "HRI",
         "inbound": true,
@@ -10033,6 +10093,7 @@ const airports = {
             82.861805
         ],
         "names": [
+            "Lal Bahadur Shastri International Airport",
             "Varanasi International Airport"
         ],
         "outbound": true
@@ -10046,6 +10107,18 @@ const airports = {
         ],
         "names": [
             "Bhubaneswar Biju Patnaik International Airport"
+        ],
+        "outbound": true
+    },
+    "VEBU": {
+        "iata": "PAB",
+        "inbound": true,
+        "latlng": [
+            21.9884,
+            82.111
+        ],
+        "names": [
+            "Bilaspur Airport"
         ],
         "outbound": true
     },
@@ -10157,6 +10230,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VEJH": {
+        "iata": "JRG",
+        "inbound": true,
+        "latlng": [
+            21.9135,
+            84.0504
+        ],
+        "names": [
+            "Jharsuguda Veer Surendra Sai Airport"
+        ],
+        "outbound": true
+    },
     "VEJT": {
         "iata": "JRH",
         "inbound": true,
@@ -10193,6 +10278,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VELR": {
+        "iata": "IXI",
+        "inbound": true,
+        "latlng": [
+            27.2955,
+            94.097603
+        ],
+        "names": [
+            "Lilabari Airport"
+        ],
+        "outbound": true
+    },
     "VEMN": {
         "iata": "DIB",
         "inbound": true,
@@ -10217,6 +10314,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VEPG": {
+        "iata": "IXT",
+        "inbound": true,
+        "latlng": [
+            28.064786,
+            95.336952
+        ],
+        "names": [
+            "Pasighat Airport"
+        ],
+        "outbound": true
+    },
     "VEPT": {
         "iata": "PAT",
         "inbound": true,
@@ -10234,12 +10343,24 @@ const airports = {
         "inbound": true,
         "latlng": [
             23.3143005,
-            85.321701
+            85.3217011
         ],
         "names": [
             "Ranchi Birsa Munda Airport"
         ],
         "outbound": true
+    },
+    "VERK": {
+        "iata": "RRK",
+        "inbound": true,
+        "latlng": [
+            22.256571,
+            84.815193
+        ],
+        "names": [
+            "Rourkela"
+        ],
+        "outbound": false
     },
     "VERP": {
         "iata": "RPR",
@@ -10249,7 +10370,32 @@ const airports = {
             81.7388
         ],
         "names": [
+            "Swami Vivekananda International Airport",
             "Raipur Swami Vivekananda Airport"
+        ],
+        "outbound": true
+    },
+    "VETJ": {
+        "iata": "TEI",
+        "inbound": true,
+        "latlng": [
+            27.9412003,
+            96.1343994
+        ],
+        "names": [
+            "Tezu Airport"
+        ],
+        "outbound": true
+    },
+    "VETZ": {
+        "iata": "TEZ",
+        "inbound": true,
+        "latlng": [
+            26.7091007,
+            92.7846985
+        ],
+        "names": [
+            "Tezpur Airport"
         ],
         "outbound": true
     },
@@ -10310,6 +10456,30 @@ const airports = {
         ],
         "names": [
             "Amritsar International Airport"
+        ],
+        "outbound": true
+    },
+    "VIBK": {
+        "iata": "BKB",
+        "inbound": true,
+        "latlng": [
+            28.0706005,
+            73.2071991
+        ],
+        "names": [
+            "Bikaner Nal Airport"
+        ],
+        "outbound": true
+    },
+    "VIBR": {
+        "iata": "KUU",
+        "inbound": true,
+        "latlng": [
+            31.876699,
+            77.154404
+        ],
+        "names": [
+            "Kullu Bhuntar Airport"
         ],
         "outbound": true
     },
@@ -10409,6 +10579,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VIJR": {
+        "iata": "JSA",
+        "inbound": true,
+        "latlng": [
+            26.8887005,
+            70.8649979
+        ],
+        "names": [
+            "Jaisalmer Airport"
+        ],
+        "outbound": true
+    },
     "VIJU": {
         "iata": "IXJ",
         "inbound": true,
@@ -10469,6 +10651,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VISM": {
+        "iata": "SLV",
+        "inbound": true,
+        "latlng": [
+            31.0818,
+            77.068001
+        ],
+        "names": [
+            "Shimla Airport"
+        ],
+        "outbound": true
+    },
     "VISR": {
         "iata": "SXR",
         "inbound": true,
@@ -10502,6 +10696,18 @@ const airports = {
         ],
         "names": [
             "Kathmandu Tribhuvan International Airport"
+        ],
+        "outbound": true
+    },
+    "VOAT": {
+        "iata": "AGX",
+        "inbound": true,
+        "latlng": [
+            10.8237,
+            72.176003
+        ],
+        "names": [
+            "Agatti Airport"
         ],
         "outbound": true
     },
@@ -10613,6 +10819,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VOGB": {
+        "iata": "GBI",
+        "inbound": true,
+        "latlng": [
+            17.308154,
+            76.965246
+        ],
+        "names": [
+            "Gulbarga Kalaburagi Airport"
+        ],
+        "outbound": true
+    },
     "VOGO": {
         "iata": "GOI",
         "inbound": true,
@@ -10621,6 +10839,7 @@ const airports = {
             73.831398
         ],
         "names": [
+            "Goa International Airport",
             "Goa Dabolim Airport"
         ],
         "outbound": true
@@ -10646,6 +10865,18 @@ const airports = {
         ],
         "names": [
             "Hyderabad Rajiv Gandhi International Airport"
+        ],
+        "outbound": true
+    },
+    "VOJV": {
+        "iata": "VDY",
+        "inbound": true,
+        "latlng": [
+            15.175921,
+            76.63303
+        ],
+        "names": [
+            "Vidyanagar Jindal Airport"
         ],
         "outbound": true
     },
@@ -10745,6 +10976,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VOSR": {
+        "iata": "SDW",
+        "inbound": true,
+        "latlng": [
+            16.0,
+            73.533333
+        ],
+        "names": [
+            "Sindhudurg Airport"
+        ],
+        "outbound": true
+    },
     "VOTK": {
         "iata": "TCR",
         "inbound": true,
@@ -10785,8 +11028,8 @@ const airports = {
         "iata": "TRV",
         "inbound": true,
         "latlng": [
-            8.4821196,
-            76.9200974
+            8.48212,
+            76.920097
         ],
         "names": [
             "Trivandrum International Airport"
