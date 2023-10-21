@@ -24,6 +24,7 @@ airline_mappings = {
     'vEWG'                             :{'display_name':'Eurowings'},
     'Frontier Airlines'                :{'display_name':'Frontier'},
     'AirGoldberg'                      :{'display_name':'Air Goldberg', 'sort_name':'Goldberg'},
+    'Air India Virtual'                :{'display_name':'Air India', 'sort_name':'India'},
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
     'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
     'LH-Virtual'                       :{'display_name':'Lufthansa', 'type_mapping':{'A21F':'A321'}},
