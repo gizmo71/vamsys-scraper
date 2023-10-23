@@ -59,12 +59,12 @@ const airlines = {
     },
     "291": {
         "name": "JetBlue",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+43.0 Hours (49.3 PIREPs)\n\t+2325.0 Points (11.1 PIREPs)\nSenior First Officer:\n\t+193.0 Hours (221.4 PIREPs)\n\t+15325.0 Points (73.2 PIREPs)\nCaptain:\n\t+493.0 Hours (565.4 PIREPs)\n\t+43325.0 Points (206.9 PIREPs)\nTraining Captain:\n\t+993.0 Hours (1138.9 PIREPs)\n\t+78325.0 Points (374.1 PIREPs)\nSenior Training Captain:\n\t+1493.0 Hours (1712.3 PIREPs)\n\t+128325.0 Points (612.9 PIREPs)\nChief Pilot:\n\t+2493.0 Hours (2859.2 PIREPs)\n\t+248325.0 Points (1186.0 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+41.5 Hours (43.8 PIREPs)\n\t+2075.0 Points (9.7 PIREPs)\nSenior First Officer:\n\t+191.5 Hours (202.1 PIREPs)\n\t+15075.0 Points (70.5 PIREPs)\nCaptain:\n\t+491.5 Hours (518.7 PIREPs)\n\t+43075.0 Points (201.4 PIREPs)\nTraining Captain:\n\t+991.5 Hours (1046.4 PIREPs)\n\t+78075.0 Points (365.0 PIREPs)\nSenior Training Captain:\n\t+1491.5 Hours (1574.2 PIREPs)\n\t+128075.0 Points (598.8 PIREPs)\nChief Pilot:\n\t+2491.5 Hours (2629.6 PIREPs)\n\t+248075.0 Points (1159.8 PIREPs)\nTime mode: block",
         "sortName": "JetBlue"
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+193.8 Hours (111.4 PIREPs)\nBase Captain:\n\t+808.8 Hours (464.7 PIREPs)\nChief Pilot:\n\t+2128.8 Hours (1223.0 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+191.9 Hours (110.2 PIREPs)\nBase Captain:\n\t+806.9 Hours (463.4 PIREPs)\nChief Pilot:\n\t+2126.9 Hours (1221.3 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
