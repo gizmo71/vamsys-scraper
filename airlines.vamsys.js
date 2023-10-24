@@ -17,7 +17,7 @@ const airlines = {
     },
     "13": {
         "name": "vTCXgroup",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+62.2 Hours (33.0 PIREPs)\n\t+330.0 Points (1.1 PIREPs)\nSenior First Officer:\n\t+712.2 Hours (377.2 PIREPs)\n\t+1830.0 Points (6.3 PIREPs)\nCaptain:\n\t+962.2 Hours (509.6 PIREPs)\n\t+6330.0 Points (21.9 PIREPs)\nTraining Captain:\n\t+4462.2 Hours (2363.4 PIREPs)\n\t+27230.0 Points (94.4 PIREPs)\nChief Pilot:\n\t+4462.2 Hours (2363.4 PIREPs)\n\t+84230.0 Points (292.0 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+61.5 Hours (33.6 PIREPs)\n\t+115.0 Points (0.4 PIREPs)\nSenior First Officer:\n\t+711.5 Hours (388.3 PIREPs)\n\t+1615.0 Points (5.7 PIREPs)\nCaptain:\n\t+961.5 Hours (524.7 PIREPs)\n\t+6115.0 Points (21.5 PIREPs)\nTraining Captain:\n\t+4461.5 Hours (2434.6 PIREPs)\n\t+27015.0 Points (94.8 PIREPs)\nChief Pilot:\n\t+4461.5 Hours (2434.6 PIREPs)\n\t+84015.0 Points (294.8 PIREPs)\nTime mode: air",
         "sortName": "Thomas Cook"
     },
     "30": {
@@ -64,7 +64,7 @@ const airlines = {
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+191.9 Hours (110.2 PIREPs)\nBase Captain:\n\t+806.9 Hours (463.4 PIREPs)\nChief Pilot:\n\t+2126.9 Hours (1221.3 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+190.5 Hours (109.5 PIREPs)\nBase Captain:\n\t+805.5 Hours (462.9 PIREPs)\nChief Pilot:\n\t+2125.5 Hours (1221.6 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
