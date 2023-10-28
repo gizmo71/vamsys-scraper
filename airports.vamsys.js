@@ -2968,6 +2968,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KBFI": {
+        "iata": "BFI",
+        "inbound": true,
+        "latlng": [
+            47.529999,
+            -122.302002
+        ],
+        "names": [
+            "Boeing Field"
+        ],
+        "outbound": false
+    },
     "KBGR": {
         "iata": "BGR",
         "inbound": true,
@@ -6567,6 +6579,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LIPO": {
+        "iata": "VBS",
+        "inbound": true,
+        "latlng": [
+            45.428902,
+            10.3306
+        ],
+        "names": [
+            "Brescia"
+        ],
+        "outbound": true
+    },
     "LIPQ": {
         "iata": "TRS",
         "inbound": true,
@@ -9220,6 +9244,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "SPSO": {
+        "iata": "PIO",
+        "inbound": true,
+        "latlng": [
+            -13.7449,
+            -76.220299
+        ],
+        "names": [
+            "Pisco"
+        ],
+        "outbound": true
+    },
     "SVMI": {
         "iata": "CCS",
         "inbound": true,
@@ -10022,6 +10058,18 @@ const airports = {
         ],
         "names": [
             "Phnom Penh International Airport"
+        ],
+        "outbound": true
+    },
+    "VDSR": {
+        "iata": "REP",
+        "inbound": true,
+        "latlng": [
+            13.41155,
+            103.813044
+        ],
+        "names": [
+            "Siem Reap"
         ],
         "outbound": true
     },

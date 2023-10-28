@@ -38,7 +38,7 @@ const airlines = {
     },
     "46": {
         "name": "United",
-        "rank_info": "Second Officer:\n\t+3.2 Hours (3.6 PIREPs)\nFirst Officer:\n\t+18.2 Hours (20.5 PIREPs)\n\t+1675.0 Points (10.3 PIREPs)\nSenior First Officer:\n\t+38.2 Hours (43.1 PIREPs)\n\t+5675.0 Points (34.9 PIREPs)\nCaptain:\n\t+98.2 Hours (110.6 PIREPs)\n\t+9675.0 Points (59.5 PIREPs)\n\t+750.0 Bonus Points (6.0 PIREPs)\nBase Captain:\n\t+148.2 Hours (167.0 PIREPs)\n\t+14675.0 Points (90.3 PIREPs)\n\t+1250.0 Bonus Points (10.0 PIREPs)\nChief Pilot:\n\t+298.2 Hours (335.9 PIREPs)\n\t+29675.0 Points (182.6 PIREPs)\n\t+1750.0 Bonus Points (14.0 PIREPs)\nTime mode: block",
+        "rank_info": "Second Officer:\n\t+2.3 Hours (2.6 PIREPs)\nFirst Officer:\n\t+17.3 Hours (19.3 PIREPs)\n\t+1495.0 Points (8.9 PIREPs)\nSenior First Officer:\n\t+37.3 Hours (41.5 PIREPs)\n\t+5495.0 Points (32.6 PIREPs)\nCaptain:\n\t+97.3 Hours (108.3 PIREPs)\n\t+9495.0 Points (56.4 PIREPs)\n\t+750.0 Bonus Points (9.0 PIREPs)\nBase Captain:\n\t+147.3 Hours (164.0 PIREPs)\n\t+14495.0 Points (86.1 PIREPs)\n\t+1250.0 Bonus Points (15.0 PIREPs)\nChief Pilot:\n\t+297.3 Hours (330.9 PIREPs)\n\t+29495.0 Points (175.2 PIREPs)\n\t+1750.0 Bonus Points (21.0 PIREPs)\nTime mode: block",
         "sortName": "United"
     },
     "55": {
@@ -64,7 +64,7 @@ const airlines = {
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+190.5 Hours (109.5 PIREPs)\nBase Captain:\n\t+805.5 Hours (462.9 PIREPs)\nChief Pilot:\n\t+2125.5 Hours (1221.6 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+187.6 Hours (107.5 PIREPs)\nBase Captain:\n\t+802.6 Hours (459.8 PIREPs)\nChief Pilot:\n\t+2122.6 Hours (1216.1 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
