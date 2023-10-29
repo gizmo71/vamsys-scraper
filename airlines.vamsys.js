@@ -1,7 +1,7 @@
 const airlines = {
     "1": {
         "name": "EasyJet",
-        "rank_info": "Senior First Officer:\n\t+98.6 Hours (57.7 PIREPs)\n\t+5120.0 Points (27.0 PIREPs)\nCaptain:\n\t+398.6 Hours (233.5 PIREPs)\n\t+37620.0 Points (198.4 PIREPs)\nTraining Captain:\n\t+798.6 Hours (467.8 PIREPs)\n\t+77620.0 Points (409.3 PIREPs)\nBase Captain:\n\t+1798.6 Hours (1053.5 PIREPs)\n\t+177620.0 Points (936.5 PIREPs)\nTime mode: block",
+        "rank_info": "Senior First Officer:\n\t+97.0 Hours (57.3 PIREPs)\n\t+4815.0 Points (25.5 PIREPs)\nCaptain:\n\t+397.0 Hours (234.7 PIREPs)\n\t+37315.0 Points (197.4 PIREPs)\nTraining Captain:\n\t+797.0 Hours (471.1 PIREPs)\n\t+77315.0 Points (409.0 PIREPs)\nBase Captain:\n\t+1797.0 Hours (1062.3 PIREPs)\n\t+177315.0 Points (938.0 PIREPs)\nTime mode: block",
         "sortName": "EasyJet"
     },
     "3": {
@@ -64,7 +64,7 @@ const airlines = {
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+187.6 Hours (107.5 PIREPs)\nBase Captain:\n\t+802.6 Hours (459.8 PIREPs)\nChief Pilot:\n\t+2122.6 Hours (1216.1 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+184.9 Hours (105.6 PIREPs)\nBase Captain:\n\t+799.9 Hours (457.0 PIREPs)\nChief Pilot:\n\t+2119.9 Hours (1211.1 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {

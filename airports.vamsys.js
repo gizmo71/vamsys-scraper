@@ -5640,7 +5640,7 @@ const airports = {
             -0.006439
         ],
         "names": [
-            "Tarbes\u2013Lourdes\u2013Pyr\u00e9n\u00e9es"
+            "Lourdes-Pyrenees"
         ],
         "outbound": true
     },
@@ -5677,18 +5677,6 @@ const airports = {
         ],
         "names": [
             "Calvi"
-        ],
-        "outbound": true
-    },
-    "LFKF": {
-        "iata": "FSC",
-        "inbound": true,
-        "latlng": [
-            41.500599,
-            9.09778
-        ],
-        "names": [
-            "Figari, Corsica"
         ],
         "outbound": true
     },
@@ -6433,8 +6421,7 @@ const airports = {
             8.29077
         ],
         "names": [
-            "Alghero Fertilia Airport",
-            "Sardinia Alghero"
+            "Alghero Fertilia Airport"
         ],
         "outbound": true
     },
