@@ -64,7 +64,7 @@ const airlines = {
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+184.9 Hours (105.6 PIREPs)\nBase Captain:\n\t+799.9 Hours (457.0 PIREPs)\nChief Pilot:\n\t+2119.9 Hours (1211.1 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+183.7 Hours (105.1 PIREPs)\nBase Captain:\n\t+798.7 Hours (456.9 PIREPs)\nChief Pilot:\n\t+2118.7 Hours (1212.1 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
@@ -89,7 +89,7 @@ const airlines = {
     },
     "939": {
         "name": "Frontier",
-        "rank_info": "First Officer:\n\t+48.0 Hours (49.1 PIREPs)\n\t+201.0 Points (1.3 PIREPs)\nSenior First Officer:\n\t+248.0 Hours (253.5 PIREPs)\n\t+2701.0 Points (18.1 PIREPs)\nCaptain:\n\t+498.0 Hours (509.0 PIREPs)\n\t+4701.0 Points (31.4 PIREPs)\n\t+5000.0 Bonus Points\nSenior Captain:\n\t+1498.0 Hours (1531.0 PIREPs)\n\t+99701.0 Points (666.9 PIREPs)\n\t+6000.0 Bonus Points\nBoomer Captain:\n\t+2998.0 Hours (3064.0 PIREPs)\n\t+199701.0 Points (1335.8 PIREPs)\n\t+10000.0 Bonus Points\nTime mode: block",
+        "rank_info": "First Officer:\n\t+46.6 Hours (41.5 PIREPs)\nSenior First Officer:\n\t+246.6 Hours (219.4 PIREPs)\n\t+2484.0 Points (14.4 PIREPs)\nCaptain:\n\t+496.6 Hours (441.8 PIREPs)\n\t+4484.0 Points (26.1 PIREPs)\n\t+5000.0 Bonus Points\nSenior Captain:\n\t+1496.6 Hours (1331.3 PIREPs)\n\t+99484.0 Points (578.4 PIREPs)\n\t+6000.0 Bonus Points\nBase Captain:\n\t+2996.6 Hours (2665.6 PIREPs)\n\t+199484.0 Points (1159.8 PIREPs)\n\t+10000.0 Bonus Points\nTime mode: block",
         "sortName": "Frontier"
     },
     "1005": {
