@@ -2863,7 +2863,6 @@ const airports = {
         ],
         "names": [
             "Atlanta Hartsfield\u2013Jackson Atlanta International Airport",
-            "Atlanta Hartsfield-Jackson Intl",
             "Atlanta, GA"
         ],
         "outbound": true
