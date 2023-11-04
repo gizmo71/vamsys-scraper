@@ -2088,7 +2088,7 @@ const airports = {
         "iata": "RLG",
         "inbound": true,
         "latlng": [
-            53.9182014,
+            53.9182015,
             12.2783003
         ],
         "names": [
