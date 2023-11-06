@@ -97,6 +97,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "CYQX": {
+        "iata": "YQX",
+        "inbound": false,
+        "latlng": [
+            48.936258,
+            -54.567719
+        ],
+        "names": [
+            "Gander International Airport"
+        ],
+        "outbound": true
+    },
     "CYUL": {
         "iata": "YUL",
         "inbound": true,
@@ -648,18 +660,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "EDXW": {
-        "iata": "GWT",
-        "inbound": true,
-        "latlng": [
-            54.9132,
-            8.34047
-        ],
-        "names": [
-            "Sylt"
-        ],
-        "outbound": true
-    },
     "EETN": {
         "iata": "TLL",
         "inbound": true,
@@ -1174,7 +1174,7 @@ const airports = {
             -4.587019
         ],
         "names": [
-            "Glasgow Prestwick"
+            "Glasgow Prestwick Airport"
         ],
         "outbound": true
     },
@@ -1877,18 +1877,6 @@ const airports = {
         ],
         "names": [
             "Malmo Airport"
-        ],
-        "outbound": true
-    },
-    "ESMX": {
-        "iata": "VXO",
-        "inbound": true,
-        "latlng": [
-            56.9291,
-            14.7279997
-        ],
-        "names": [
-            "Vaxjo Smaland"
         ],
         "outbound": true
     },
@@ -3669,18 +3657,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "KHYA": {
-        "iata": "HYA",
-        "inbound": true,
-        "latlng": [
-            41.6693,
-            -70.280403
-        ],
-        "names": [
-            "Hyannis Barnstable Municipal Airport"
-        ],
-        "outbound": true
-    },
     "KIAD": {
         "iata": "IAD",
         "inbound": true,
@@ -3753,6 +3729,18 @@ const airports = {
         "names": [
             "Indianapolis International Airport",
             "Indianapolis, IN"
+        ],
+        "outbound": true
+    },
+    "KISP": {
+        "iata": "ISP",
+        "inbound": true,
+        "latlng": [
+            40.7952004,
+            -73.1001968
+        ],
+        "names": [
+            "Long Island MacArthur Airport"
         ],
         "outbound": true
     },
@@ -4445,6 +4433,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KPSP": {
+        "iata": "PSP",
+        "inbound": true,
+        "latlng": [
+            33.8297,
+            -116.507004
+        ],
+        "names": [
+            "Palm Springs International Airport"
+        ],
+        "outbound": true
+    },
     "KPVD": {
         "iata": "PVD",
         "inbound": true,
@@ -5098,7 +5098,7 @@ const airports = {
             32.485699
         ],
         "names": [
-            "Paphos International Airport",
+            "Paphos International",
             "Cyprus Paphos"
         ],
         "outbound": true
@@ -5365,7 +5365,6 @@ const airports = {
             1.16717
         ],
         "names": [
-            "Barcelona Reus",
             "Reus Air Base"
         ],
         "outbound": true
@@ -5799,18 +5798,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LFTW": {
-        "iata": "FNI",
-        "inbound": true,
-        "latlng": [
-            43.7574005,
-            4.4163499
-        ],
-        "names": [
-            "Nimes"
-        ],
-        "outbound": true
-    },
     "LGAV": {
         "iata": "ATH",
         "inbound": true,
@@ -6006,8 +5993,7 @@ const airports = {
             24.1497002
         ],
         "names": [
-            "Chania International Airport",
-            "Crete Chania"
+            "Chania International Airport"
         ],
         "outbound": true
     },
@@ -6191,18 +6177,6 @@ const airports = {
         "names": [
             "Catania Fontanarossa Airport",
             "Sicily Catania"
-        ],
-        "outbound": true
-    },
-    "LICD": {
-        "iata": "LMP",
-        "inbound": true,
-        "latlng": [
-            35.497898,
-            12.6181
-        ],
-        "names": [
-            "Lampedusa"
         ],
         "outbound": true
     },
@@ -8772,7 +8746,6 @@ const airports = {
             -43.250557
         ],
         "names": [
-            "Rio de Janeiro Airport",
             "Rio Galeao"
         ],
         "outbound": true
