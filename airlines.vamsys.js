@@ -1,7 +1,7 @@
 const airlines = {
     "1": {
         "name": "EasyJet",
-        "rank_info": "Senior First Officer:\n\t+97.0 Hours (57.3 PIREPs)\n\t+4815.0 Points (25.5 PIREPs)\nCaptain:\n\t+397.0 Hours (234.7 PIREPs)\n\t+37315.0 Points (197.4 PIREPs)\nTraining Captain:\n\t+797.0 Hours (471.1 PIREPs)\n\t+77315.0 Points (409.0 PIREPs)\nBase Captain:\n\t+1797.0 Hours (1062.3 PIREPs)\n\t+177315.0 Points (938.0 PIREPs)\nTime mode: block",
+        "rank_info": "Senior First Officer:\n\t+94.5 Hours (55.7 PIREPs)\n\t+4650.0 Points (24.6 PIREPs)\nCaptain:\n\t+394.5 Hours (232.4 PIREPs)\n\t+37150.0 Points (196.7 PIREPs)\nTraining Captain:\n\t+794.5 Hours (467.9 PIREPs)\n\t+77150.0 Points (408.5 PIREPs)\nBase Captain:\n\t+1794.5 Hours (1056.9 PIREPs)\n\t+177150.0 Points (938.1 PIREPs)\nTime mode: block",
         "sortName": "EasyJet"
     },
     "3": {
@@ -43,8 +43,8 @@ const airlines = {
     },
     "55": {
         "name": "Spirit",
-        "rank_info": "Bonus points not included in normal points total\nFirst Officer:\n\t+69.7 Hours (36.8 PIREPs)\n\t+6570.0 Points (30.6 PIREPs)\nCaptain:\n\t+244.7 Hours (129.2 PIREPs)\n\t+19070.0 Points (89.0 PIREPs)\n\t+2770.0 Bonus Points (14.9 PIREPs)\nSenior Captain:\n\t+719.7 Hours (380.1 PIREPs)\n\t+71570.0 Points (333.9 PIREPs)\n\t+13020.0 Bonus Points (69.9 PIREPs)\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2023-11-19",
+        "rank_info": "Bonus points not included in normal points total\nFirst Officer:\n\t+68.9 Hours (37.7 PIREPs)\n\t+6350.0 Points (29.6 PIREPs)\nCaptain:\n\t+243.9 Hours (133.5 PIREPs)\n\t+18850.0 Points (87.8 PIREPs)\n\t+2770.0 Bonus Points (15.8 PIREPs)\nSenior Captain:\n\t+718.9 Hours (393.5 PIREPs)\n\t+71350.0 Points (332.3 PIREPs)\n\t+13020.0 Bonus Points (74.3 PIREPs)\nTime mode: air",
+        "requirements": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-02-05",
         "sortName": "Spirit"
     },
     "64": {
