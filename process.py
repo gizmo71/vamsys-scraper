@@ -17,6 +17,7 @@ airline_mappings = {
         {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'}},
     'vANA'                             :{'display_name':'All Nippon', 'sort_name':'Nippon'},
     'vBAW'                             :{'display_name':'British Airways'},
+    'Air Canada Virtual'               :{'display_name':'Air Canada', 'sort_name':'Canada', 'type_mapping':{'A21N':'A321', 'A330':'A333', 'A350':'A359'}},
     'Virtual Air China'                :{'display_name':'Air China', 'sort_name':'China'},
     'Dan Air Virtual'                  :{'display_name':'Dan Air', 'type_mapping':{'A333':'A339'}}, # Removed {'A320':'A20N'}, look into LatinVFR
     'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3', 'A313':'A310'}}, # Mappings questionable...
@@ -42,10 +43,10 @@ exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
                      'B742', 'B744', 'B762',  'B772', 'B773', 'B77L', 'B77W', 'B77F',
                      'B752', 'B753', 'B763', 'B764',
                      'B788', 'B789', 'B78X',
-                     'CONC', 'CRJ2', 'CRJ5', 'CRJ7', 'CRJ9', 'CRJX', 'DC6', 'DC10', 'DH8D',
-                     'E145', 'E170', 'E175', 'E190', 'E195',
+                     'CONC', 'CRJ2', 'CRJ5', 'CRJ7', 'CRJ9', 'CRJX', 'DC4', 'DC6', 'DC7', 'DC10', 'DH8D',
+                     'E75S', 'E145', 'E170', 'E175', 'E190', 'E195',
                      'F28', 'F50', 'JU52', 'L101', 'MD11', 'MD80', 'MD82', 'PC12',
-                     'RJ1H', 'RJ85', 'SH36', 'SF34', 'SW4',
+                     'RJ1H', 'RJ85', 'SH36', 'SF34', 'SW4', 'TBM8',
                      '-'])
 
 aircraft = set()
@@ -106,7 +107,7 @@ def airport(airport):
     name = " ".join(airport['name'].split())
     iata = airport['iata']
     if not iata:
-        iata = {'EGHL':'QLA', 'LROV':'GHV', 'VIKA':'KNU', 'VOBG':'VOBG'}.get(icao, None)
+        iata = {'EGHL':'QLA', 'LROV':'GHV', 'MUOC':'MUOC', 'VIKA':'KNU', 'VOBG':'VOBG'}.get(icao, None)
     if icao in airports:
         airports[icao]['names'].add(name)
         latlng = [latitude, longitude]
