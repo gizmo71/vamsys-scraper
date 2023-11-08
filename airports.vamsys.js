@@ -85,6 +85,174 @@ const airports = {
         ],
         "outbound": true
     },
+    "CTP9": {
+        "iata": "YAU",
+        "inbound": true,
+        "latlng": [
+            61.6622009,
+            -73.3214035
+        ],
+        "names": [
+            "Kattiniq/Donaldson Airport"
+        ],
+        "outbound": true
+    },
+    "CYBG": {
+        "iata": "YBG",
+        "inbound": true,
+        "latlng": [
+            48.3306007,
+            -70.9963989
+        ],
+        "names": [
+            "Saguenay-Bagotville Airport"
+        ],
+        "outbound": true
+    },
+    "CYCD": {
+        "iata": "YCD",
+        "inbound": true,
+        "latlng": [
+            49.05497,
+            -123.869863
+        ],
+        "names": [
+            "Nanaimo Airport"
+        ],
+        "outbound": true
+    },
+    "CYCG": {
+        "iata": "YCG",
+        "inbound": true,
+        "latlng": [
+            49.2963982,
+            -117.6320038
+        ],
+        "names": [
+            "West Kootenay Regional Airport"
+        ],
+        "outbound": true
+    },
+    "CYDF": {
+        "iata": "YDF",
+        "inbound": true,
+        "latlng": [
+            49.2108002,
+            -57.3913994
+        ],
+        "names": [
+            "Deer Lake Regional Airport"
+        ],
+        "outbound": true
+    },
+    "CYEG": {
+        "iata": "YEG",
+        "inbound": true,
+        "latlng": [
+            53.3097,
+            -113.580002
+        ],
+        "names": [
+            "Edmonton International Airport"
+        ],
+        "outbound": true
+    },
+    "CYFB": {
+        "iata": "YFB",
+        "inbound": true,
+        "latlng": [
+            63.756402,
+            -68.555801
+        ],
+        "names": [
+            "Iqaluit International Airport"
+        ],
+        "outbound": true
+    },
+    "CYFC": {
+        "iata": "YFC",
+        "inbound": true,
+        "latlng": [
+            45.8689003,
+            -66.5372009
+        ],
+        "names": [
+            "Fredericton International Airport"
+        ],
+        "outbound": true
+    },
+    "CYGW": {
+        "iata": "YGW",
+        "inbound": true,
+        "latlng": [
+            55.2818985,
+            -77.7652969
+        ],
+        "names": [
+            "Kuujjuarapik Airport"
+        ],
+        "outbound": false
+    },
+    "CYHM": {
+        "iata": "YHM",
+        "inbound": true,
+        "latlng": [
+            43.1735992,
+            -79.9349976
+        ],
+        "names": [
+            "John C. Munro Hamilton International Airport"
+        ],
+        "outbound": true
+    },
+    "CYHZ": {
+        "iata": "YHZ",
+        "inbound": true,
+        "latlng": [
+            44.8807983,
+            -63.5085983
+        ],
+        "names": [
+            "Halifax Stanfield International Airport"
+        ],
+        "outbound": true
+    },
+    "CYKA": {
+        "iata": "YKA",
+        "inbound": true,
+        "latlng": [
+            50.702202,
+            -120.444
+        ],
+        "names": [
+            "Kamloops Airport"
+        ],
+        "outbound": true
+    },
+    "CYLW": {
+        "iata": "YLW",
+        "inbound": true,
+        "latlng": [
+            49.9561,
+            -119.377998
+        ],
+        "names": [
+            "Kelowna International Airport"
+        ],
+        "outbound": true
+    },
+    "CYMM": {
+        "iata": "YMM",
+        "inbound": true,
+        "latlng": [
+            56.6533012,
+            -111.2220001
+        ],
+        "names": [
+            "Fort McMurray Airport"
+        ],
+        "outbound": true
+    },
     "CYMX": {
         "iata": "YMX",
         "inbound": true,
@@ -97,15 +265,183 @@ const airports = {
         ],
         "outbound": true
     },
+    "CYOW": {
+        "iata": "YOW",
+        "inbound": true,
+        "latlng": [
+            45.322498,
+            -75.669197
+        ],
+        "names": [
+            "Ottawa Macdonald-Cartier International Airport"
+        ],
+        "outbound": true
+    },
+    "CYPR": {
+        "iata": "YPR",
+        "inbound": true,
+        "latlng": [
+            54.2860985,
+            -130.4450073
+        ],
+        "names": [
+            "Prince Rupert Airport"
+        ],
+        "outbound": true
+    },
+    "CYQB": {
+        "iata": "YQB",
+        "inbound": true,
+        "latlng": [
+            46.7911,
+            -71.393303
+        ],
+        "names": [
+            "Quebec City International Airport"
+        ],
+        "outbound": true
+    },
+    "CYQG": {
+        "iata": "YQG",
+        "inbound": true,
+        "latlng": [
+            42.2756004,
+            -82.9555969
+        ],
+        "names": [
+            "Windsor International Airport"
+        ],
+        "outbound": true
+    },
+    "CYQM": {
+        "iata": "YQM",
+        "inbound": true,
+        "latlng": [
+            46.112202,
+            -64.678596
+        ],
+        "names": [
+            "Moncton International Airport"
+        ],
+        "outbound": true
+    },
+    "CYQR": {
+        "iata": "YQR",
+        "inbound": true,
+        "latlng": [
+            50.4319,
+            -104.6660004
+        ],
+        "names": [
+            "Regina International Airport"
+        ],
+        "outbound": true
+    },
+    "CYQT": {
+        "iata": "YQT",
+        "inbound": true,
+        "latlng": [
+            48.3718987,
+            -89.3238983
+        ],
+        "names": [
+            "Thunder Bay International Airport"
+        ],
+        "outbound": true
+    },
+    "CYQU": {
+        "iata": "YQU",
+        "inbound": true,
+        "latlng": [
+            55.1796989,
+            -118.8850021
+        ],
+        "names": [
+            "Grande Prairie Airport"
+        ],
+        "outbound": true
+    },
     "CYQX": {
         "iata": "YQX",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             48.936258,
             -54.567719
         ],
         "names": [
             "Gander International Airport"
+        ],
+        "outbound": true
+    },
+    "CYQY": {
+        "iata": "YQY",
+        "inbound": true,
+        "latlng": [
+            46.1614,
+            -60.047798
+        ],
+        "names": [
+            "J.A. Douglas McCurdy Sydney Airport"
+        ],
+        "outbound": true
+    },
+    "CYRQ": {
+        "iata": "YRQ",
+        "inbound": true,
+        "latlng": [
+            46.3527985,
+            -72.6793976
+        ],
+        "names": [
+            "Trois-Rivieres Airport"
+        ],
+        "outbound": true
+    },
+    "CYSB": {
+        "iata": "YSB",
+        "inbound": true,
+        "latlng": [
+            46.625,
+            -80.7988968
+        ],
+        "names": [
+            "Sudbury Airport"
+        ],
+        "outbound": true
+    },
+    "CYSJ": {
+        "iata": "YSJ",
+        "inbound": true,
+        "latlng": [
+            45.3161011,
+            -65.8902969
+        ],
+        "names": [
+            "Saint John Airport"
+        ],
+        "outbound": true
+    },
+    "CYTS": {
+        "iata": "YTS",
+        "inbound": true,
+        "latlng": [
+            48.5696983,
+            -81.3767014
+        ],
+        "names": [
+            "Timmins Airport"
+        ],
+        "outbound": true
+    },
+    "CYTZ": {
+        "iata": "YTZ",
+        "inbound": true,
+        "latlng": [
+            43.627499,
+            -79.396202
+        ],
+        "names": [
+            "Toronto City Billy Bishop Airport"
         ],
         "outbound": true
     },
@@ -121,6 +457,42 @@ const airports = {
         ],
         "outbound": true
     },
+    "CYUY": {
+        "iata": "YUY",
+        "inbound": true,
+        "latlng": [
+            48.2061005,
+            -78.8356018
+        ],
+        "names": [
+            "Rouyn-Noranda Airport"
+        ],
+        "outbound": true
+    },
+    "CYVO": {
+        "iata": "YVO",
+        "inbound": false,
+        "latlng": [
+            48.053299,
+            -77.7827988
+        ],
+        "names": [
+            "Val-d'Or Airport"
+        ],
+        "outbound": true
+    },
+    "CYVP": {
+        "iata": "YVP",
+        "inbound": true,
+        "latlng": [
+            58.0960999,
+            -68.4269028
+        ],
+        "names": [
+            "Kuujjuaq Airport"
+        ],
+        "outbound": true
+    },
     "CYVR": {
         "iata": "YVR",
         "inbound": true,
@@ -133,6 +505,114 @@ const airports = {
         ],
         "outbound": true
     },
+    "CYWG": {
+        "iata": "YWG",
+        "inbound": true,
+        "latlng": [
+            49.9099999,
+            -97.2398987
+        ],
+        "names": [
+            "Winnipeg International Airport"
+        ],
+        "outbound": true
+    },
+    "CYXC": {
+        "iata": "YXC",
+        "inbound": true,
+        "latlng": [
+            49.6108017,
+            -115.7819977
+        ],
+        "names": [
+            "Cranbrook Canadian Rockies International Airport"
+        ],
+        "outbound": true
+    },
+    "CYXE": {
+        "iata": "YXE",
+        "inbound": true,
+        "latlng": [
+            52.1707993,
+            -106.6999969
+        ],
+        "names": [
+            "Saskatoon John G. Diefenbaker International Airport"
+        ],
+        "outbound": true
+    },
+    "CYXJ": {
+        "iata": "YXJ",
+        "inbound": true,
+        "latlng": [
+            56.238098,
+            -120.739998
+        ],
+        "names": [
+            "Fort St. John Airport"
+        ],
+        "outbound": true
+    },
+    "CYXS": {
+        "iata": "YXS",
+        "inbound": true,
+        "latlng": [
+            53.884311,
+            -122.666554
+        ],
+        "names": [
+            "Prince George Airport"
+        ],
+        "outbound": true
+    },
+    "CYXT": {
+        "iata": "YXT",
+        "inbound": true,
+        "latlng": [
+            54.468498,
+            -128.576009
+        ],
+        "names": [
+            "Terrace Northwest Regional Airport"
+        ],
+        "outbound": true
+    },
+    "CYXU": {
+        "iata": "YXU",
+        "inbound": true,
+        "latlng": [
+            43.035599,
+            -81.1539
+        ],
+        "names": [
+            "London International Airport"
+        ],
+        "outbound": true
+    },
+    "CYXY": {
+        "iata": "YXY",
+        "inbound": true,
+        "latlng": [
+            60.709599,
+            -135.067001
+        ],
+        "names": [
+            "Whitehorse International Airport"
+        ],
+        "outbound": true
+    },
+    "CYYB": {
+        "iata": "YYB",
+        "inbound": true,
+        "latlng": [
+            46.363602,
+            -79.422798
+        ],
+        "names": [
+            "North Bay Jack Garland Airport"
+        ],
+        "outbound": true
+    },
     "CYYC": {
         "iata": "YYC",
         "inbound": true,
@@ -141,7 +621,67 @@ const airports = {
             -114.0199966
         ],
         "names": [
-            "Calgary"
+            "Calgary International Airport"
+        ],
+        "outbound": true
+    },
+    "CYYD": {
+        "iata": "YYD",
+        "inbound": true,
+        "latlng": [
+            54.8246994,
+            -127.1829987
+        ],
+        "names": [
+            "Smithers Airport"
+        ],
+        "outbound": true
+    },
+    "CYYF": {
+        "iata": "YYF",
+        "inbound": true,
+        "latlng": [
+            49.4631004,
+            -119.6019974
+        ],
+        "names": [
+            "Penticton Regional Airport"
+        ],
+        "outbound": true
+    },
+    "CYYG": {
+        "iata": "YYG",
+        "inbound": true,
+        "latlng": [
+            46.2900009,
+            -63.1211014
+        ],
+        "names": [
+            "Charlottetown Airport"
+        ],
+        "outbound": true
+    },
+    "CYYJ": {
+        "iata": "YYJ",
+        "inbound": true,
+        "latlng": [
+            48.6469,
+            -123.426003
+        ],
+        "names": [
+            "Victoria International Airport"
+        ],
+        "outbound": true
+    },
+    "CYYR": {
+        "iata": "YYR",
+        "inbound": true,
+        "latlng": [
+            53.3191986,
+            -60.4258003
+        ],
+        "names": [
+            "Goose Bay Airport"
         ],
         "outbound": true
     },
@@ -153,7 +693,7 @@ const airports = {
             -52.7519
         ],
         "names": [
-            "St John's International Airport"
+            "St. John's International Airport"
         ],
         "outbound": true
     },
@@ -165,7 +705,43 @@ const airports = {
             -79.6306
         ],
         "names": [
-            "Toronto Pearson International Airport"
+            "Toronto Lester B. Pearson International Aiport"
+        ],
+        "outbound": true
+    },
+    "CYZF": {
+        "iata": "YZF",
+        "inbound": true,
+        "latlng": [
+            62.462799,
+            -114.440002
+        ],
+        "names": [
+            "Yellowknife Airport"
+        ],
+        "outbound": true
+    },
+    "CYZP": {
+        "iata": "YZP",
+        "inbound": true,
+        "latlng": [
+            53.2542992,
+            -131.8139954
+        ],
+        "names": [
+            "Sandspit Airport"
+        ],
+        "outbound": true
+    },
+    "CYZV": {
+        "iata": "YZV",
+        "inbound": true,
+        "latlng": [
+            50.2233009,
+            -66.2656021
+        ],
+        "names": [
+            "Sept-Iles Airport"
         ],
         "outbound": true
     },
@@ -177,7 +753,7 @@ const airports = {
             3.214531
         ],
         "names": [
-            "Algiers Houari Boumediene"
+            "Algiers Houari Boumediene Airport"
         ],
         "outbound": true
     },
@@ -874,7 +1450,7 @@ const airports = {
             -3.34333
         ],
         "names": [
-            "Cardiff"
+            "Cardiff Airport"
         ],
         "outbound": true
     },
@@ -1271,6 +1847,18 @@ const airports = {
         ],
         "names": [
             "Eindhoven Airport"
+        ],
+        "outbound": true
+    },
+    "EHRD": {
+        "iata": "RTM",
+        "inbound": true,
+        "latlng": [
+            51.956902,
+            4.43722
+        ],
+        "names": [
+            "Rotterdam The Hague Airport"
         ],
         "outbound": true
     },
@@ -2481,8 +3069,7 @@ const airports = {
             -7.5899701
         ],
         "names": [
-            "Mohammed V International Airport",
-            "Casablanca"
+            "Casablanca Mohammed V International Airport"
         ],
         "outbound": true
     },
@@ -2997,6 +3584,7 @@ const airports = {
             -116.223
         ],
         "names": [
+            "Boise Airport",
             "Boise, ID"
         ],
         "outbound": true
@@ -3060,7 +3648,7 @@ const airports = {
             -76.668297
         ],
         "names": [
-            "Baltimore\u2013Washington International Airport",
+            "Baltimore Washington International Airport",
             "Baltimore, MD"
         ],
         "outbound": true
@@ -3172,7 +3760,7 @@ const airports = {
             -82.891899
         ],
         "names": [
-            "John Glenn Columbus International Airport",
+            "Columbus John Glenn International Airport",
             "Columbus, OH"
         ],
         "outbound": true
@@ -3197,7 +3785,7 @@ const airports = {
             -84.667801
         ],
         "names": [
-            "Cincinnati/Northern Kentucky International Airport",
+            "Cincinnati Northern Kentucky International Airport",
             "Cincinnnati"
         ],
         "outbound": true
@@ -3678,7 +4266,7 @@ const airports = {
             -78.946198
         ],
         "names": [
-            "Niagara Falls International"
+            "Niagara Falls International Airport"
         ],
         "outbound": true
     },
@@ -4040,7 +4628,7 @@ const airports = {
             -87.8965988
         ],
         "names": [
-            "Milwaukee Mitchell International Airport",
+            "Milwaukee General Mitchell International Airport",
             "Milwaukee, WI"
         ],
         "outbound": true
@@ -4053,7 +4641,7 @@ const airports = {
             -80.645302
         ],
         "names": [
-            "Melbourne"
+            "Melbourne International Airport"
         ],
         "outbound": true
     },
@@ -4202,7 +4790,7 @@ const airports = {
             -97.6007
         ],
         "names": [
-            "Oklahoma City Will Rogers World"
+            "Oklahoma City Will Rogers World Airport"
         ],
         "outbound": true
     },
@@ -4277,6 +4865,7 @@ const airports = {
             -122.281998
         ],
         "names": [
+            "Paine Field",
             "Everett"
         ],
         "outbound": true
@@ -4513,7 +5102,7 @@ const airports = {
             -78.7874985
         ],
         "names": [
-            "Raleigh\u2013Durham International Airport",
+            "Raleigh-Durham International Airport",
             "Raleigh/Durham, NC"
         ],
         "outbound": true
@@ -5510,7 +6099,7 @@ const airports = {
             1.36382
         ],
         "names": [
-            "Toulouse Blagnac"
+            "Toulouse Blagnac Airport"
         ],
         "outbound": true
     },
@@ -5757,7 +6346,7 @@ const airports = {
             -1.6107301
         ],
         "names": [
-            "Nantes Atlantique"
+            "Nantes Atlantique Airport"
         ],
         "outbound": true
     },
@@ -7233,6 +7822,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "MDCY": {
+        "iata": "AZS",
+        "inbound": true,
+        "latlng": [
+            19.269259,
+            -69.737405
+        ],
+        "names": [
+            "Samana El Catey International Airport"
+        ],
+        "outbound": true
+    },
     "MDLR": {
         "iata": "LRM",
         "inbound": true,
@@ -7266,7 +7867,7 @@ const airports = {
             -70.5699997
         ],
         "names": [
-            "Puerto Plata Gregorio Luper\u00f3n International Airport"
+            "Puerto Plata Gregorio Luperon International Airport"
         ],
         "outbound": true
     },
@@ -7554,7 +8155,7 @@ const airports = {
             -86.1681976
         ],
         "names": [
-            "Augusto C. Sandino International Airport",
+            "Managua Augusto C. Sandino International Airport",
             "Managua, Nicaragua"
         ],
         "outbound": true
@@ -7567,7 +8168,7 @@ const airports = {
             -79.3834992
         ],
         "names": [
-            "Panama City"
+            "Panama City Tocumen International Airport"
         ],
         "outbound": true
     },
@@ -7592,7 +8193,7 @@ const airports = {
             -84.208801
         ],
         "names": [
-            "San Jose Juan Santamar\u00eda International Airport",
+            "San Jose Juan Santamaria International Airport",
             "San Jose, Costa Rica"
         ],
         "outbound": true
@@ -7644,7 +8245,7 @@ const airports = {
             -78.3283997
         ],
         "names": [
-            "Cayo Coco"
+            "Cayo Coco Jardines del Rey Airport"
         ],
         "outbound": true
     },
@@ -7670,7 +8271,19 @@ const airports = {
             -76.3151016
         ],
         "names": [
-            "Holguin"
+            "Holguin Frank Pais Airport"
+        ],
+        "outbound": true
+    },
+    "MUOC": {
+        "iata": "MUOC",
+        "inbound": true,
+        "latlng": [
+            22.5132008,
+            -78.5110016
+        ],
+        "names": [
+            "Cayo Coco Airport"
         ],
         "outbound": true
     },
@@ -7682,7 +8295,7 @@ const airports = {
             -81.435303
         ],
         "names": [
-            "Varadero"
+            "Varadero Juan Gualberto Gomez Airport"
         ],
         "outbound": true
     },
@@ -8118,7 +8731,7 @@ const airports = {
             -156.045603
         ],
         "names": [
-            "Kona"
+            "Kona International Airport"
         ],
         "outbound": true
     },
@@ -8143,6 +8756,7 @@ const airports = {
             -156.431212
         ],
         "names": [
+            "Kahului Airport",
             "Maui"
         ],
         "outbound": true
@@ -8738,6 +9352,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "SAVP": {
+        "iata": "IND",
+        "inbound": true,
+        "latlng": [
+            -43.8666992,
+            -69.0500031
+        ],
+        "names": [
+            "Indianapolis International Airport"
+        ],
+        "outbound": false
+    },
     "SBGL": {
         "iata": "GIG",
         "inbound": true,
@@ -8758,7 +9384,7 @@ const airports = {
             -46.467778
         ],
         "names": [
-            "Sao Paulo Guarulhos",
+            "Sao Paulo Guarulhos International Airport",
             "Sao Paulo Garulhos"
         ],
         "outbound": true
@@ -9044,6 +9670,7 @@ const airports = {
             -61.531799
         ],
         "names": [
+            "Pointe-a-Pitre International Airport",
             "Pointe-\u00e0-Pitre International Airport"
         ],
         "outbound": true

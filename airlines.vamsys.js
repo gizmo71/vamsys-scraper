@@ -64,7 +64,7 @@ const airlines = {
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+172.7 Hours (96.8 PIREPs)\nBase Captain:\n\t+787.7 Hours (441.4 PIREPs)\nChief Pilot:\n\t+2107.7 Hours (1181.1 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+166.8 Hours (92.4 PIREPs)\nBase Captain:\n\t+781.8 Hours (433.2 PIREPs)\nChief Pilot:\n\t+2101.8 Hours (1164.6 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
@@ -106,6 +106,11 @@ const airlines = {
         "name": "Air Goldberg",
         "rank_info": "Second Officer:\n\t+47.9 Hours (45.9 PIREPs)\n\t+3703.0 Points (24.9 PIREPs)\nFirst Officer:\n\t+147.9 Hours (141.6 PIREPs)\n\t+13703.0 Points (92.3 PIREPs)\nSenior First Officer:\n\t+297.9 Hours (285.1 PIREPs)\n\t+27203.0 Points (183.2 PIREPs)\nCaptain:\n\t+597.9 Hours (572.2 PIREPs)\n\t+59703.0 Points (402.0 PIREPs)\nTraining Captain:\n\t+997.9 Hours (955.1 PIREPs)\n\t+99703.0 Points (671.4 PIREPs)\nTime mode: block",
         "sortName": "Goldberg"
+    },
+    "1259": {
+        "name": "Air Canada",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+49.5 Hours (102.2 PIREPs)\n\t+3819.0 Points (21.1 PIREPs)\nFirst Officer:\n\t+149.5 Hours (308.5 PIREPs)\n\t+13819.0 Points (76.3 PIREPs)\nSenior First Officer:\n\t+299.5 Hours (617.9 PIREPs)\n\t+27319.0 Points (150.9 PIREPs)\nCaptain:\n\t+599.5 Hours (1236.8 PIREPs)\n\t+59819.0 Points (330.5 PIREPs)\nTraining Captain:\n\t+999.5 Hours (2062.0 PIREPs)\n\t+99819.0 Points (551.5 PIREPs)\nBase Captain:\n\t+1999.5 Hours (4125.1 PIREPs)\n\t+199819.0 Points (1104.0 PIREPs)\nTime mode: block",
+        "sortName": "Canada"
     },
     "1309": {
         "name": "Allegiant",
