@@ -3,6 +3,7 @@ import json
 import logging
 import operator
 import regex
+import sys
 
 from datetime import date, datetime, timedelta
 from glob import glob
@@ -10,6 +11,23 @@ from locale import strxfrm
 from lxml import etree
 from math import isnan
 from unidecode import unidecode
+
+# https://stackoverflow.com/a/44692178
+class DuplicateFilter(logging.Filter):
+    def filter(self, record):
+        current_log = (record.module, record.levelno, record.msg)
+        if current_log != getattr(self, "last_log", None):
+            self.last_log = current_log
+            return True
+        return False
+
+class DeduplicatingLogger(logging.getLoggerClass()):
+    def __init__(self, name: str) -> None:
+        logging.Logger.__init__(self, name)
+        self.addFilter(DuplicateFilter())
+
+logging.basicConfig(stream=sys.stdout)
+logging.setLoggerClass(DeduplicatingLogger)
 
 airline_mappings = {
     'Allegiant Virtual'                :{'display_name':'Allegiant'},
@@ -102,6 +120,7 @@ def rank_info(html, time_mode):
     return f"{need}Time mode: {time_mode}"
 
 def airport(airport):
+    logger = logging.getLogger('airport')
     icao = airport['icao']
     latitude = float(airport['latitude'])
     longitude = float(airport['longitude'])
@@ -117,9 +136,8 @@ def airport(airport):
             msg = f"Mismatch in location for {icao}; {airports[icao]['latlng']} against {latlng}, difference of {diff:.3f}"
             if diff >= 0.8:
                 raise ValueError(msg)
-            elif diff >= 0.025:
-                # Consider using logging and suppressing duplicates a la https://stackoverflow.com/questions/44691558/suppress-multiple-messages-with-same-content-in-python-logging-module-aka-log-co
-                print(msg)
+            elif diff >= 0.1:
+                logger.warning(msg)
         if airports[icao]['iata'] != iata:
             raise ValueError(f"{iaco} has inconsistent IATA codes, {airports[icao]['iata']} versus {iata}")
     else:
