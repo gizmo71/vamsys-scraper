@@ -52,6 +52,12 @@ const airlines = {
         "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+446.7 Hours (284.9 PIREPs)\n\t+2750.0 Points (28.8 PIREPs)\nTraining Captain:\n\t+446.7 Hours (284.9 PIREPs)\n\t+31750.0 Points (332.2 PIREPs)\nBase Captain:\n\t+1446.7 Hours (922.8 PIREPs)\n\t+71750.0 Points (750.6 PIREPs)\nTime mode: air",
         "sortName": "Lufthansa"
     },
+    "227": {
+        "name": "Qatar",
+        "rank_info": "Second Officer:\n\t+49.3 Hours (69.8 PIREPs)\n\t+2810.0 Points (14.8 PIREPs)\n\t+200.0 Bonus Points\nFirst Officer:\n\t+199.3 Hours (282.1 PIREPs)\n\t+4810.0 Points (25.3 PIREPs)\n\t+1500.0 Bonus Points\nSenior First Officer:\n\t+399.3 Hours (565.3 PIREPs)\n\t+8810.0 Points (46.4 PIREPs)\n\t+2000.0 Bonus Points\nCaptain:\n\t+599.3 Hours (848.4 PIREPs)\n\t+11810.0 Points (62.2 PIREPs)\n\t+3500.0 Bonus Points\nTraining Captain:\n\t+999.3 Hours (1414.7 PIREPs)\n\t+99810.0 Points (525.3 PIREPs)\n\t+4000.0 Bonus Points\nBase Captain:\n\t+1999.3 Hours (2830.3 PIREPs)\n\t+199810.0 Points (1051.6 PIREPs)\n\t+5000.0 Bonus Points\nTime mode: block",
+        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2023-12-05",
+        "sortName": "Qatar"
+    },
     "265": {
         "name": "Air China",
         "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+39.0 Hours (24.9 PIREPs)\n\t+3205.0 Points (28.2 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+139.0 Hours (88.7 PIREPs)\n\t+13205.0 Points (116.3 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+289.0 Hours (184.5 PIREPs)\n\t+26705.0 Points (235.1 PIREPs)\nCaptain / \u673a\u957f:\n\t+589.0 Hours (376.0 PIREPs)\n\t+59205.0 Points (521.3 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+989.0 Hours (631.3 PIREPs)\n\t+99205.0 Points (873.5 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1989.0 Hours (1269.5 PIREPs)\n\t+199205.0 Points (1754.0 PIREPs)\nTime mode: block",
