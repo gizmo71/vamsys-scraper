@@ -29,6 +29,7 @@ airline_mappings = {
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
     'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
     'LH-Virtual'                       :{'display_name':'Lufthansa', 'type_mapping':{'A21F':'A321'}},
+    'vQatar'                           :{'display_name':'Qatar'},
     'vRYR'                             :{'display_name':'Ryanair'},
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
     'vspirit'                          :{'display_name':'Spirit', 'type_mapping':{'A319':'-', 'A320':'-', 'A321':'-', 'A21N':'-'}},
