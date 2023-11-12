@@ -33,7 +33,7 @@ const airlines = {
     },
     "42": {
         "name": "Wizz",
-        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+83.3 Hours (46.2 PIREPs)\n\t+5140.0 Points (25.8 PIREPs)\nCaptain:\n\t+233.3 Hours (129.4 PIREPs)\n\t+17640.0 Points (88.7 PIREPs)\nTraining Captain:\n\t+533.3 Hours (295.7 PIREPs)\n\t+52640.0 Points (264.6 PIREPs)\nBase Captain:\n\t+1933.3 Hours (1072.1 PIREPs)\n\t+192640.0 Points (968.4 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+81.5 Hours (45.2 PIREPs)\n\t+4935.0 Points (24.8 PIREPs)\nCaptain:\n\t+231.5 Hours (128.3 PIREPs)\n\t+17435.0 Points (87.6 PIREPs)\nTraining Captain:\n\t+531.5 Hours (294.6 PIREPs)\n\t+52435.0 Points (263.4 PIREPs)\nBase Captain:\n\t+1931.5 Hours (1070.7 PIREPs)\n\t+192435.0 Points (966.6 PIREPs)\nTime mode: air",
         "sortName": "Wizz"
     },
     "46": {
@@ -60,7 +60,7 @@ const airlines = {
     },
     "265": {
         "name": "Air China",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+39.0 Hours (24.9 PIREPs)\n\t+3205.0 Points (28.2 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+139.0 Hours (88.7 PIREPs)\n\t+13205.0 Points (116.3 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+289.0 Hours (184.5 PIREPs)\n\t+26705.0 Points (235.1 PIREPs)\nCaptain / \u673a\u957f:\n\t+589.0 Hours (376.0 PIREPs)\n\t+59205.0 Points (521.3 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+989.0 Hours (631.3 PIREPs)\n\t+99205.0 Points (873.5 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1989.0 Hours (1269.5 PIREPs)\n\t+199205.0 Points (1754.0 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+38.0 Hours (25.4 PIREPs)\n\t+3205.0 Points (32.3 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+138.0 Hours (92.3 PIREPs)\n\t+13205.0 Points (132.9 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+288.0 Hours (192.6 PIREPs)\n\t+26705.0 Points (268.7 PIREPs)\nCaptain / \u673a\u957f:\n\t+588.0 Hours (393.3 PIREPs)\n\t+59205.0 Points (595.8 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+988.0 Hours (660.8 PIREPs)\n\t+99205.0 Points (998.3 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1988.0 Hours (1329.6 PIREPs)\n\t+199205.0 Points (2004.6 PIREPs)\nTime mode: block",
         "sortName": "China"
     },
     "291": {
