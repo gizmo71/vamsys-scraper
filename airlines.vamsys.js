@@ -70,7 +70,7 @@ const airlines = {
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+165.0 Hours (91.4 PIREPs)\nBase Captain:\n\t+780.0 Hours (432.2 PIREPs)\nChief Pilot:\n\t+2100.0 Hours (1163.5 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+161.6 Hours (89.2 PIREPs)\nBase Captain:\n\t+776.6 Hours (428.5 PIREPs)\nChief Pilot:\n\t+2096.6 Hours (1156.7 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
