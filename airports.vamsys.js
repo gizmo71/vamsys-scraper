@@ -840,6 +840,7 @@ const airports = {
             3.3211601
         ],
         "names": [
+            "Murtala Muhammed International",
             "Lagos Murtala Mohammed"
         ],
         "outbound": true
@@ -2262,6 +2263,7 @@ const airports = {
         ],
         "names": [
             "Krakow John Paul II International Airport",
+            "Krak\u00c3\u00b3w John Paul II International",
             "Krakau"
         ],
         "outbound": true
@@ -2743,7 +2745,8 @@ const airports = {
             28.246
         ],
         "names": [
-            "Johannesburg OR Tambo International Airport"
+            "Johannesburg OR Tambo International Airport",
+            "O. R. Tambo International"
         ],
         "outbound": true
     },
@@ -4490,6 +4493,7 @@ const airports = {
         ],
         "names": [
             "Las Vegas Harry Reid International Airport",
+            "McCarran International",
             "Las Vegas, NV"
         ],
         "outbound": true
@@ -5895,6 +5899,7 @@ const airports = {
             2.07846
         ],
         "names": [
+            "Josep Tarradellas Barcelona\u00e2\u0080\u0093El Prat",
             "Barcelona El Prat Intl Airport"
         ],
         "outbound": true
@@ -5980,6 +5985,7 @@ const airports = {
             -3.56264
         ],
         "names": [
+            "Adolfo Su\u00c3\u00a1rez Madrid\u00e2\u0080\u0093Barajas",
             "Madrid Barajas Airport"
         ],
         "outbound": true
@@ -5992,7 +5998,8 @@ const airports = {
             -4.49911
         ],
         "names": [
-            "Malaga Costa Del Sol Airport"
+            "Malaga Costa Del Sol Airport",
+            "M\u00c3\u00a1laga"
         ],
         "outbound": true
     },
@@ -6203,6 +6210,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "LFKB": {
+        "iata": "BIA",
+        "inbound": true,
+        "latlng": [
+            42.5527,
+            9.4837303
+        ],
+        "names": [
+            "Bastia"
+        ],
+        "outbound": true
+    },
+    "LFKF": {
+        "iata": "FSC",
+        "inbound": true,
+        "latlng": [
+            41.500599,
+            9.09778
+        ],
+        "names": [
+            "Figari"
+        ],
+        "outbound": true
+    },
     "LFKJ": {
         "iata": "AJA",
         "inbound": true,
@@ -6287,6 +6318,7 @@ const airports = {
         "names": [
             "Nice Cote d'Azur Airport",
             "Nice Cote D' Azur",
+            "Nice C\u00c3\u00b4te d'Azur",
             "Nizza"
         ],
         "outbound": true
@@ -6632,6 +6664,7 @@ const airports = {
         "names": [
             "Rhodes International Airport",
             "Rhodes Diagoras Airport",
+            "Rhodes Diogaras",
             "Rhodos"
         ],
         "outbound": true
@@ -6716,7 +6749,8 @@ const airports = {
             22.9708996
         ],
         "names": [
-            "Thessaloniki Macedonia International Airport"
+            "Thessaloniki Macedonia International Airport",
+            "Thessolaniki"
         ],
         "outbound": true
     },
@@ -7182,7 +7216,8 @@ const airports = {
         ],
         "names": [
             "Ljubljana Joze Pucnik Airport (Brnik Airport)",
-            "Brink, Ljunljana, Slovenia"
+            "Brink, Ljunljana, Slovenia",
+            "Ljubijana"
         ],
         "outbound": true
     },
@@ -7207,7 +7242,8 @@ const airports = {
         ],
         "names": [
             "Prague Vaclav Havel Airport",
-            "Prague Ruzyne"
+            "Prague Ruzyne",
+            "V\u00c3\u00a1clav Havel"
         ],
         "outbound": true
     },
@@ -7771,7 +7807,7 @@ const airports = {
             29.3092
         ],
         "names": [
-            "Istanbul Sabiha Gokcen International"
+            "Istanbul Sabiha Gokcen International Airport"
         ],
         "outbound": true
     },
@@ -7831,7 +7867,7 @@ const airports = {
             -5.34966
         ],
         "names": [
-            "Gibraltar"
+            "Gibraltar International"
         ],
         "outbound": true
     },
@@ -8053,7 +8089,8 @@ const airports = {
         ],
         "names": [
             "Kingston Norman Manley International Airport",
-            "Kingston, Jamaica"
+            "Kingston, Jamaica",
+            "Palisadoes"
         ],
         "outbound": true
     },
@@ -8253,6 +8290,7 @@ const airports = {
         ],
         "names": [
             "Cancun International Airport",
+            "Canc\u00c3\u00ban International",
             "Cancun, Mexico"
         ],
         "outbound": true
@@ -9701,8 +9739,8 @@ const airports = {
             -43.250557
         ],
         "names": [
-            "Galeao-antonio carlo",
-            "Rio Galeao"
+            "Rio de Janeiro/Gale\u00e3o International",
+            "Galeao-antonio carlo"
         ],
         "outbound": true
     },
@@ -9714,7 +9752,7 @@ const airports = {
             -46.467778
         ],
         "names": [
-            "Sao Paulo Guarulhos International Airport",
+            "S\u00e3o Paulo/Guarulhos - Governor Andr\u00e9 Franco Montoro International",
             "Sao Paulo Garulhos"
         ],
         "outbound": true
@@ -9727,6 +9765,7 @@ const airports = {
             -70.7857971
         ],
         "names": [
+            "Arturo Merino Ben\u00c3\u00adtez International",
             "Santiago"
         ],
         "outbound": true
@@ -10163,7 +10202,8 @@ const airports = {
             -60.8321991
         ],
         "names": [
-            "Arthur Napoleon Raymond Robinson International Airport"
+            "Arthur Napoleon Raymond Robinson International Airport",
+            "A.N.R. Robinson International"
         ],
         "outbound": true
     },
