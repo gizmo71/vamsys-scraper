@@ -70,7 +70,7 @@ const airlines = {
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+160.5 Hours (88.7 PIREPs)\nBase Captain:\n\t+775.5 Hours (428.6 PIREPs)\nChief Pilot:\n\t+2095.5 Hours (1158.1 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+159.9 Hours (88.7 PIREPs)\nBase Captain:\n\t+774.9 Hours (429.8 PIREPs)\nChief Pilot:\n\t+2094.9 Hours (1161.8 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
@@ -90,7 +90,7 @@ const airlines = {
     },
     "876": {
         "name": "Air India",
-        "rank_info": "First Officer:\n\t+49.2 Hours (58.1 PIREPs)\nSenior First Officer:\n\t+299.2 Hours (353.4 PIREPs)\n\t+14805.0 Points (75.9 PIREPs)\nCaptain:\n\t+599.2 Hours (707.9 PIREPs)\n\t+29805.0 Points (152.8 PIREPs)\nBase Captain:\n\t+999.2 Hours (1180.5 PIREPs)\n\t+59805.0 Points (306.7 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+48.0 Hours (49.1 PIREPs)\nSenior First Officer:\n\t+298.0 Hours (304.6 PIREPs)\n\t+14575.0 Points (68.6 PIREPs)\nCaptain:\n\t+598.0 Hours (611.2 PIREPs)\n\t+29575.0 Points (139.2 PIREPs)\nBase Captain:\n\t+998.0 Hours (1020.0 PIREPs)\n\t+59575.0 Points (280.4 PIREPs)\nTime mode: air",
         "sortName": "India"
     },
     "939": {
