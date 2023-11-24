@@ -28,7 +28,7 @@ const airlines = {
     },
     "35": {
         "name": "British Airways",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+85.6 Hours (58.7 PIREPs)\n\t+6399.0 Points (30.8 PIREPs)\nSenior First Officer:\n\t+260.6 Hours (178.8 PIREPs)\n\t+21899.0 Points (105.6 PIREPs)\nCaptain:\n\t+560.6 Hours (384.5 PIREPs)\n\t+54399.0 Points (262.2 PIREPs)\nTraining Captain:\n\t+960.6 Hours (658.9 PIREPs)\n\t+94399.0 Points (455.1 PIREPs)\nBase Captain:\n\t+1960.6 Hours (1344.8 PIREPs)\n\t+194399.0 Points (937.1 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+83.7 Hours (56.7 PIREPs)\n\t+6334.0 Points (31.3 PIREPs)\nSenior First Officer:\n\t+258.7 Hours (175.2 PIREPs)\n\t+21834.0 Points (107.9 PIREPs)\nCaptain:\n\t+558.7 Hours (378.3 PIREPs)\n\t+54334.0 Points (268.5 PIREPs)\nTraining Captain:\n\t+958.7 Hours (649.2 PIREPs)\n\t+94334.0 Points (466.2 PIREPs)\nBase Captain:\n\t+1958.7 Hours (1326.4 PIREPs)\n\t+194334.0 Points (960.4 PIREPs)\nTime mode: block",
         "sortName": "British Airways"
     },
     "42": {
@@ -70,7 +70,7 @@ const airlines = {
     },
     "356": {
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+157.7 Hours (89.0 PIREPs)\nBase Captain:\n\t+772.7 Hours (436.1 PIREPs)\nChief Pilot:\n\t+2092.7 Hours (1181.2 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+157.3 Hours (89.1 PIREPs)\nBase Captain:\n\t+772.3 Hours (437.5 PIREPs)\nChief Pilot:\n\t+2092.3 Hours (1185.3 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
