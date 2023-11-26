@@ -33,7 +33,7 @@ const airlines = {
     },
     "42": {
         "name": "Wizz",
-        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+80.2 Hours (44.8 PIREPs)\n\t+4760.0 Points (24.0 PIREPs)\nCaptain:\n\t+230.2 Hours (128.5 PIREPs)\n\t+17260.0 Points (87.0 PIREPs)\nTraining Captain:\n\t+530.2 Hours (296.0 PIREPs)\n\t+52260.0 Points (263.3 PIREPs)\nBase Captain:\n\t+1930.2 Hours (1077.7 PIREPs)\n\t+192260.0 Points (968.8 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+79.3 Hours (44.9 PIREPs)\n\t+4575.0 Points (23.1 PIREPs)\nCaptain:\n\t+229.3 Hours (129.8 PIREPs)\n\t+17075.0 Points (86.2 PIREPs)\nTraining Captain:\n\t+529.3 Hours (299.5 PIREPs)\n\t+52075.0 Points (262.8 PIREPs)\nBase Captain:\n\t+1929.3 Hours (1091.8 PIREPs)\n\t+192075.0 Points (969.5 PIREPs)\nTime mode: air",
         "sortName": "Wizz"
     },
     "46": {
