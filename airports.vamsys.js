@@ -1252,6 +1252,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EDXW": {
+        "iata": "GWT",
+        "inbound": true,
+        "latlng": [
+            54.9132,
+            8.34047
+        ],
+        "names": [
+            "Sylt"
+        ],
+        "outbound": true
+    },
     "EETN": {
         "iata": "TLL",
         "inbound": true,
@@ -2531,7 +2543,7 @@ const airports = {
         "names": [
             "Arvidsjaur Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "ESNZ": {
         "iata": "OSD",
