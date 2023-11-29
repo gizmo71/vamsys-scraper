@@ -136,7 +136,7 @@ def airport(airport):
             msg = f"Mismatch in location for {icao}; {airports[icao]['latlng']} against {latlng}, difference of {diff:.3f}"
             if diff >= 0.8:
                 raise ValueError(msg)
-            elif diff >= 0.1:
+            elif diff >= 0.3:
                 logger.warning(msg)
         if airports[icao]['iata'] != iata:
             raise ValueError(f"{iaco} has inconsistent IATA codes, {airports[icao]['iata']} versus {iata}")
