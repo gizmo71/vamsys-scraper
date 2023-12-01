@@ -221,8 +221,8 @@ const airports = {
         "iata": "YKA",
         "inbound": true,
         "latlng": [
-            50.702202,
-            -120.444
+            50.703038,
+            -120.448641
         ],
         "names": [
             "Kamloops Airport"
@@ -510,7 +510,7 @@ const airports = {
         "iata": "YWG",
         "inbound": true,
         "latlng": [
-            49.9099999,
+            49.9099998,
             -97.2398987
         ],
         "names": [
@@ -744,6 +744,18 @@ const airports = {
         ],
         "names": [
             "Sept-Iles Airport"
+        ],
+        "outbound": true
+    },
+    "DAAE": {
+        "iata": "BJA",
+        "inbound": true,
+        "latlng": [
+            36.711952,
+            5.069804
+        ],
+        "names": [
+            "Bejaia International Airport Abane Ramdane"
         ],
         "outbound": true
     },
@@ -1478,7 +1490,7 @@ const airports = {
             -3.34333
         ],
         "names": [
-            "Cardiff Airport"
+            "Cardiff"
         ],
         "outbound": true
     },
@@ -1966,7 +1978,7 @@ const airports = {
         "iata": "CPH",
         "inbound": true,
         "latlng": [
-            55.6179009,
+            55.6179008,
             12.6560001
         ],
         "names": [
@@ -2068,7 +2080,7 @@ const airports = {
             5.21814
         ],
         "names": [
-            "Bergen Flesland Airport"
+            "Bergen Airport, Flesland"
         ],
         "outbound": true
     },
@@ -2116,7 +2128,7 @@ const airports = {
             11.1004
         ],
         "names": [
-            "Oslo Gardermoen Airport"
+            "Oslo Airport Gardermoen"
         ],
         "outbound": true
     },
@@ -2177,6 +2189,18 @@ const airports = {
         ],
         "names": [
             "Lakselv Banak Airport"
+        ],
+        "outbound": true
+    },
+    "ENRA": {
+        "iata": "MQN",
+        "inbound": true,
+        "latlng": [
+            66.3638992,
+            14.3014002
+        ],
+        "names": [
+            "Mo i Rana Airport, R\u00f8ssvoll"
         ],
         "outbound": true
     },
@@ -2685,7 +2709,8 @@ const airports = {
             23.9711
         ],
         "names": [
-            "Riga International Airport"
+            "Riga International Airport",
+            "Mo I Rana Airport"
         ],
         "outbound": true
     },
@@ -4377,7 +4402,7 @@ const airports = {
         "inbound": true,
         "latlng": [
             29.9843998,
-            -95.3414002
+            -95.3414001
         ],
         "names": [
             "Houston George Bush Intercontinental Airport",
@@ -5201,8 +5226,8 @@ const airports = {
         "iata": "RDU",
         "inbound": true,
         "latlng": [
-            35.8776016,
-            -78.7874985
+            35.877602,
+            -78.787498
         ],
         "names": [
             "Raleigh-Durham International Airport",
@@ -5279,7 +5304,7 @@ const airports = {
         "inbound": true,
         "latlng": [
             26.5361996,
-            -81.7552033
+            -81.7552032
         ],
         "names": [
             "Southwest Florida International Airport",
@@ -5748,8 +5773,8 @@ const airports = {
         "iata": "SOF",
         "inbound": true,
         "latlng": [
-            42.6966934,
-            23.4114361
+            42.696357,
+            23.417671
         ],
         "names": [
             "Sofia Airport"
@@ -6278,7 +6303,7 @@ const airports = {
             5.081111
         ],
         "names": [
-            "Lyon\u2013Saint-Exup\u00e9ry Airport"
+            "Lyon-Saint Exup\u00e9ry Airport"
         ],
         "outbound": true
     },
@@ -6417,7 +6442,7 @@ const airports = {
             2.37944
         ],
         "names": [
-            "Aeroporto de Paris-Orly"
+            "Paris Orly Airport"
         ],
         "outbound": true
     },
@@ -6783,8 +6808,8 @@ const airports = {
         "iata": "BUD",
         "inbound": true,
         "latlng": [
-            47.42976,
-            19.261093
+            47.43018,
+            19.262393
         ],
         "names": [
             "Budapest Ferenc Liszt International Airport",
@@ -7576,7 +7601,7 @@ const airports = {
             26.085
         ],
         "names": [
-            "Bucharest Henri Coand\u00c4\u0083 International Airport",
+            "Bucharest Henri Coanda International General Airport",
             "Bukarest-Otopeni"
         ],
         "outbound": true
@@ -9839,6 +9864,7 @@ const airports = {
             -73.1848
         ],
         "names": [
+            "Bucaramunga Palonegro Intl. Airport",
             "Bucaramanga, Colombia"
         ],
         "outbound": true
@@ -9890,7 +9916,7 @@ const airports = {
             -76.3816
         ],
         "names": [
-            "Alfonso Bonilla Aragon International Airport",
+            "Cali Alfonso Bonilla Aragon International Airport",
             "Cali, Colombia"
         ],
         "outbound": true
@@ -9903,7 +9929,7 @@ const airports = {
             -75.4231
         ],
         "names": [
-            "Medellin Jos\u00e9 Mar\u00eda C\u00f3rdova International Airport",
+            "Medellin Jose Maria Cordova International Airport",
             "MDE-Medellin, Colombia"
         ],
         "outbound": true
@@ -9940,7 +9966,7 @@ const airports = {
             -77.114305
         ],
         "names": [
-            "Lima Jorge Ch\u00e1vez International Airport"
+            "Lima Jorge Chavez International Airport"
         ],
         "outbound": true
     },
@@ -10127,7 +10153,7 @@ const airports = {
             -66.0018005
         ],
         "names": [
-            "San Juan Luis Mu\u00f1oz Mar\u00edn International Airport",
+            "San Juan Luis Munoz Marin International Airport",
             "San Juan, Puerto Rico"
         ],
         "outbound": true
@@ -12038,7 +12064,7 @@ const airports = {
             145.7550049
         ],
         "names": [
-            "Cairns"
+            "Cairns Airport"
         ],
         "outbound": true
     },
