@@ -971,8 +971,8 @@ const airports = {
         "iata": "LGG",
         "inbound": true,
         "latlng": [
-            50.637402,
-            5.44322
+            50.638574,
+            5.443897
         ],
         "names": [
             "Liege Airport"
@@ -1324,6 +1324,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EFKS": {
+        "iata": "KAO",
+        "inbound": true,
+        "latlng": [
+            65.987602,
+            29.239401
+        ],
+        "names": [
+            "Kuusamo"
+        ],
+        "outbound": true
+    },
     "EFKT": {
         "iata": "KTT",
         "inbound": true,
@@ -1333,7 +1345,19 @@ const airports = {
         ],
         "names": [
             "Kitilla",
-            "Kittil\u00e4"
+            "Kittila"
+        ],
+        "outbound": true
+    },
+    "EFKU": {
+        "iata": "KUO",
+        "inbound": true,
+        "latlng": [
+            63.007099,
+            27.7978
+        ],
+        "names": [
+            "Kuopio"
         ],
         "outbound": true
     },
@@ -1353,7 +1377,7 @@ const airports = {
         "iata": "RVN",
         "inbound": true,
         "latlng": [
-            66.5647965,
+            66.5647964,
             25.8304005
         ],
         "names": [
@@ -2368,8 +2392,8 @@ const airports = {
         "iata": "RZE",
         "inbound": true,
         "latlng": [
-            50.110001,
-            22.018999
+            50.109791,
+            22.024155
         ],
         "names": [
             "Rzeszow Jasionka Airport"
@@ -2593,18 +2617,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "ESOK": {
-        "iata": "KSD",
-        "inbound": true,
-        "latlng": [
-            59.4446983,
-            13.3374004
-        ],
-        "names": [
-            "Karlstad"
-        ],
-        "outbound": true
-    },
     "ESOW": {
         "iata": "VST",
         "inbound": true,
@@ -2638,18 +2650,6 @@ const airports = {
         ],
         "names": [
             "Stockholm Arlanda Airport"
-        ],
-        "outbound": true
-    },
-    "ESSD": {
-        "iata": "BLE",
-        "inbound": true,
-        "latlng": [
-            60.422001,
-            15.5152
-        ],
-        "names": [
-            "Borlange Dala Airport"
         ],
         "outbound": true
     },
@@ -3210,6 +3210,7 @@ const airports = {
             -22.9494
         ],
         "names": [
+            "Espargos Amilcar Cabral International Airport",
             "Sal"
         ],
         "outbound": true
@@ -3617,7 +3618,7 @@ const airports = {
         "names": [
             "Boeing Field"
         ],
-        "outbound": false
+        "outbound": true
     },
     "KBGR": {
         "iata": "BGR",
@@ -5519,7 +5520,7 @@ const airports = {
             -117.867996
         ],
         "names": [
-            "Santa Ana John Wayne",
+            "Santa Ana John Wayne Airport",
             "Orange Country",
             "Santa Ana, CA"
         ],
@@ -5860,7 +5861,7 @@ const airports = {
         "iata": "ZAG",
         "inbound": true,
         "latlng": [
-            45.7429009,
+            45.7429008,
             16.0688
         ],
         "names": [
@@ -6230,8 +6231,7 @@ const airports = {
             -0.006439
         ],
         "names": [
-            "Lourdes-Pyrenees",
-            "Lourdes Tarbes"
+            "Lourdes-Pyrenees"
         ],
         "outbound": true
     },
@@ -6315,7 +6315,7 @@ const airports = {
             5.32937
         ],
         "names": [
-            "Grenoble Isere"
+            "Grenoble (Alpes\u2013Is\u00e8re)"
         ],
         "outbound": true
     },
@@ -6396,18 +6396,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LFOK": {
-        "iata": "XCR",
-        "inbound": true,
-        "latlng": [
-            48.773333,
-            4.206111
-        ],
-        "names": [
-            "Paris Vatry"
-        ],
-        "outbound": true
-    },
     "LFOT": {
         "iata": "TUF",
         "inbound": true,
@@ -6478,7 +6466,7 @@ const airports = {
             -1.73479
         ],
         "names": [
-            "Rennes\u2013Saint-Jacques"
+            "Rennes Saint-Jacques"
         ],
         "outbound": true
     },
@@ -6695,8 +6683,8 @@ const airports = {
         "iata": "RHO",
         "inbound": true,
         "latlng": [
-            36.4053993,
-            28.0862007
+            36.405399,
+            28.086201
         ],
         "names": [
             "Rhodes International Airport",
@@ -6759,7 +6747,7 @@ const airports = {
         "inbound": true,
         "latlng": [
             36.3992004,
-            25.4792996
+            25.4792995
         ],
         "names": [
             "Santorini Thira National Airport"
@@ -6897,7 +6885,8 @@ const airports = {
             14.607182
         ],
         "names": [
-            "Comiso Airport"
+            "Comiso Airport",
+            "Sicily Comiso"
         ],
         "outbound": true
     },
@@ -7274,8 +7263,8 @@ const airports = {
         "iata": "PRG",
         "inbound": true,
         "latlng": [
-            50.1008,
-            14.26
+            50.103514,
+            14.256992
         ],
         "names": [
             "Prague Vaclav Havel Airport",
@@ -7544,6 +7533,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LRBV": {
+        "iata": "GHV",
+        "inbound": true,
+        "latlng": [
+            45.70558,
+            25.522871
+        ],
+        "names": [
+            "Bra\u0219ov-Ghimbav International Airport"
+        ],
+        "outbound": true
+    },
     "LRCK": {
         "iata": "CND",
         "inbound": true,
@@ -7560,8 +7561,8 @@ const airports = {
         "iata": "CLJ",
         "inbound": true,
         "latlng": [
-            46.785198,
-            23.686199
+            46.787425,
+            23.684292
         ],
         "names": [
             "Avram Iancu Cluj International Airport",
@@ -7603,18 +7604,6 @@ const airports = {
         "names": [
             "Bucharest Henri Coanda International General Airport",
             "Bukarest-Otopeni"
-        ],
-        "outbound": true
-    },
-    "LROV": {
-        "iata": "GHV",
-        "inbound": true,
-        "latlng": [
-            45.70558,
-            25.522871
-        ],
-        "names": [
-            "Bra\u0219ov-Ghimbav International Airport"
         ],
         "outbound": true
     },
@@ -7731,7 +7720,7 @@ const airports = {
         "iata": "ESB",
         "inbound": true,
         "latlng": [
-            40.1281014,
+            40.1281013,
             32.9950981
         ],
         "names": [
@@ -7888,8 +7877,8 @@ const airports = {
         "iata": "SKP",
         "inbound": true,
         "latlng": [
-            41.961601,
-            21.621401
+            41.958087,
+            21.622581
         ],
         "names": [
             "Skopje International Airport"
@@ -8252,8 +8241,7 @@ const airports = {
         ],
         "names": [
             "Licenciado Gustavo D\u00edaz Ordaz International Airport",
-            "Puerto Vallarta International Airport",
-            "Puerto Vallarta, Mexico"
+            "Puerto Vallarta International Airport"
         ],
         "outbound": true
     },
@@ -8277,8 +8265,7 @@ const airports = {
             -109.716811
         ],
         "names": [
-            "San jose del Cabo Los Cabos International Airport",
-            "Los Cabos, Mexico"
+            "San jose del Cabo Los Cabos International Airport"
         ],
         "outbound": true
     },
@@ -8521,6 +8508,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "NCRG": {
+        "iata": "RAR",
+        "inbound": true,
+        "latlng": [
+            -21.2027,
+            -159.806
+        ],
+        "names": [
+            "Rarotonga"
+        ],
+        "outbound": true
+    },
     "NFFN": {
         "iata": "NAN",
         "inbound": true,
@@ -8615,6 +8614,18 @@ const airports = {
         ],
         "names": [
             "Auckland Airport"
+        ],
+        "outbound": true
+    },
+    "NZCH": {
+        "iata": "CHC",
+        "inbound": true,
+        "latlng": [
+            -43.489399,
+            172.5319977
+        ],
+        "names": [
+            "Christchurch"
         ],
         "outbound": true
     },
@@ -8731,7 +8742,7 @@ const airports = {
         "iata": "IKA",
         "inbound": true,
         "latlng": [
-            35.4160996,
+            35.4160995,
             51.1521988
         ],
         "names": [
@@ -9086,7 +9097,8 @@ const airports = {
             -156.045603
         ],
         "names": [
-            "Kona International Airport"
+            "Kona International Airport",
+            "Kailua-Kona"
         ],
         "outbound": true
     },
@@ -10803,6 +10815,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VDSA": {
+        "iata": "SAI",
+        "inbound": true,
+        "latlng": [
+            13.369167,
+            104.223056
+        ],
+        "names": [
+            "Siem Reap"
+        ],
+        "outbound": true
+    },
     "VDSR": {
         "iata": "REP",
         "inbound": true,
@@ -12044,6 +12068,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YAYE": {
+        "iata": "AYQ",
+        "inbound": true,
+        "latlng": [
+            -25.185913,
+            130.97703
+        ],
+        "names": [
+            "Ayers Rock"
+        ],
+        "outbound": true
+    },
     "YBBN": {
         "iata": "BNE",
         "inbound": true,
@@ -12065,6 +12101,18 @@ const airports = {
         ],
         "names": [
             "Cairns Airport"
+        ],
+        "outbound": true
+    },
+    "YMHB": {
+        "iata": "HBA",
+        "inbound": true,
+        "latlng": [
+            -42.8361015,
+            147.5099945
+        ],
+        "names": [
+            "Hobart"
         ],
         "outbound": true
     },
