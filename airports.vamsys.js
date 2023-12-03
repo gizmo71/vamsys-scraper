@@ -10253,6 +10253,7 @@ const airports = {
         ],
         "names": [
             "Arthur Napoleon Raymond Robinson International Airport",
+            "Scarborough International Airport",
             "A.N.R. Robinson International"
         ],
         "outbound": true
