@@ -2104,7 +2104,7 @@ const airports = {
             5.21814
         ],
         "names": [
-            "Bergen Airport, Flesland"
+            "Bergen Flesland Airport"
         ],
         "outbound": true
     },
