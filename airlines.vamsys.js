@@ -54,8 +54,8 @@ const airlines = {
     },
     "227": {
         "name": "Qatar",
-        "rank_info": "Second Officer:\n\t+49.3 Hours (69.8 PIREPs)\n\t+2810.0 Points (14.8 PIREPs)\n\t+200.0 Bonus Points\nFirst Officer:\n\t+199.3 Hours (282.1 PIREPs)\n\t+4810.0 Points (25.3 PIREPs)\n\t+1500.0 Bonus Points\nSenior First Officer:\n\t+399.3 Hours (565.3 PIREPs)\n\t+8810.0 Points (46.4 PIREPs)\n\t+2000.0 Bonus Points\nCaptain:\n\t+599.3 Hours (848.4 PIREPs)\n\t+11810.0 Points (62.2 PIREPs)\n\t+3500.0 Bonus Points\nTraining Captain:\n\t+999.3 Hours (1414.7 PIREPs)\n\t+99810.0 Points (525.3 PIREPs)\n\t+4000.0 Bonus Points\nBase Captain:\n\t+1999.3 Hours (2830.3 PIREPs)\n\t+199810.0 Points (1051.6 PIREPs)\n\t+5000.0 Bonus Points\nTime mode: block",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2023-12-05",
+        "rank_info": "Second Officer:\n\t+47.9 Hours (46.2 PIREPs)\n\t+2570.0 Points (12.0 PIREPs)\n\t+200.0 Bonus Points\nFirst Officer:\n\t+197.9 Hours (190.7 PIREPs)\n\t+4570.0 Points (21.3 PIREPs)\n\t+1500.0 Bonus Points\nSenior First Officer:\n\t+397.9 Hours (383.5 PIREPs)\n\t+8570.0 Points (39.9 PIREPs)\n\t+2000.0 Bonus Points\nCaptain:\n\t+597.9 Hours (576.2 PIREPs)\n\t+11570.0 Points (53.8 PIREPs)\n\t+3500.0 Bonus Points\nTraining Captain:\n\t+997.9 Hours (961.7 PIREPs)\n\t+99570.0 Points (463.1 PIREPs)\n\t+4000.0 Bonus Points\nBase Captain:\n\t+1997.9 Hours (1925.5 PIREPs)\n\t+199570.0 Points (928.2 PIREPs)\n\t+5000.0 Bonus Points\nTime mode: block",
+        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-01-05",
         "sortName": "Qatar"
     },
     "265": {
