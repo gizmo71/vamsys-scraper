@@ -9764,7 +9764,7 @@ const airports = {
             -58.5358
         ],
         "names": [
-            "Buenos Aires Ministro Pistarini"
+            "Buenos Aires Ministro Pistarini International Airport"
         ],
         "outbound": true
     },
