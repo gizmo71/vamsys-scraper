@@ -987,8 +987,7 @@ const airports = {
             2.874673
         ],
         "names": [
-            "Oostende-Brugge",
-            "Ostend-Bruges"
+            "Oostende-Brugge"
         ],
         "outbound": true
     },
@@ -1344,8 +1343,8 @@ const airports = {
             24.8467999
         ],
         "names": [
-            "Kitilla",
-            "Kittila"
+            "Kittila Airport",
+            "Kitilla"
         ],
         "outbound": true
     },
@@ -1381,7 +1380,7 @@ const airports = {
             25.8304005
         ],
         "names": [
-            "Rovaniemi"
+            "Rovaniemi Airport"
         ],
         "outbound": true
     },
@@ -5722,18 +5721,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LAKU": {
-        "iata": "KFZ",
-        "inbound": true,
-        "latlng": [
-            42.035802,
-            20.415955
-        ],
-        "names": [
-            "Kuk\u00ebs International Airport"
-        ],
-        "outbound": true
-    },
     "LATI": {
         "iata": "TIA",
         "inbound": true,
@@ -6135,7 +6122,7 @@ const airports = {
             -3.82001
         ],
         "names": [
-            "Seve Ballesteros\u2013Santander Airport"
+            "Santander"
         ],
         "outbound": true
     },
@@ -6455,6 +6442,18 @@ const airports = {
         ],
         "names": [
             "Brest Brittany"
+        ],
+        "outbound": true
+    },
+    "LFRG": {
+        "iata": "DOL",
+        "inbound": true,
+        "latlng": [
+            49.365299,
+            0.154306
+        ],
+        "names": [
+            "Deauville"
         ],
         "outbound": true
     },
@@ -6873,7 +6872,7 @@ const airports = {
             16.2423
         ],
         "names": [
-            "Lamezia Terme"
+            "Lamezia Terme International Airport"
         ],
         "outbound": true
     },
@@ -6936,7 +6935,7 @@ const airports = {
             8.29077
         ],
         "names": [
-            "Alghero Fertilia Airport"
+            "Alghero Fertilia"
         ],
         "outbound": true
     },
@@ -7101,6 +7100,7 @@ const airports = {
             13.4722
         ],
         "names": [
+            "Friuli Venezia Giulia Airport",
             "Trieste"
         ],
         "outbound": true
@@ -7331,7 +7331,7 @@ const airports = {
             11.344
         ],
         "names": [
-            "Innsbruck Kranebitten"
+            "Innsbruck Kranebitten Airport"
         ],
         "outbound": true
     },
@@ -8504,6 +8504,7 @@ const airports = {
             -88.303556
         ],
         "names": [
+            "Belize City Philip S. W. Goldson International Airport",
             "Philip S.W. Goldson International Airport"
         ],
         "outbound": true
