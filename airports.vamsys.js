@@ -3655,6 +3655,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KBKL": {
+        "iata": "BKL",
+        "inbound": true,
+        "latlng": [
+            41.5175018,
+            -81.6832962
+        ],
+        "names": [
+            "Cleveland Burke Lakefront Airport"
+        ],
+        "outbound": true
+    },
     "KBLI": {
         "iata": "BLI",
         "inbound": true,
@@ -5394,7 +5406,7 @@ const airports = {
             -85.736
         ],
         "names": [
-            "Louisville International",
+            "Louisville International Airport",
             "Louisville, KY"
         ],
         "outbound": true
@@ -9129,6 +9141,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "PHTO": {
+        "iata": "ITO",
+        "inbound": true,
+        "latlng": [
+            19.721399,
+            -155.048004
+        ],
+        "names": [
+            "Hilo Intl Airport"
+        ],
+        "outbound": true
+    },
     "RCKH": {
         "iata": "KHH",
         "inbound": true,
@@ -12142,6 +12166,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YPDN": {
+        "iata": "DRW",
+        "inbound": false,
+        "latlng": [
+            -12.41497,
+            130.88185
+        ],
+        "names": [
+            "Darwin International Airport"
+        ],
+        "outbound": true
+    },
     "YPPH": {
         "iata": "PER",
         "inbound": true,
@@ -12150,7 +12186,8 @@ const airports = {
             115.9670029
         ],
         "names": [
-            "Perth International Airport"
+            "Perth International Airport",
+            "Perth Intl Airport"
         ],
         "outbound": true
     },
