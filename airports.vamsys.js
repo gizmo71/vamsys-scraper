@@ -2644,7 +2644,7 @@ const airports = {
         "iata": "ARN",
         "inbound": true,
         "latlng": [
-            59.6519013,
+            59.6519012,
             17.9186001
         ],
         "names": [
@@ -6497,8 +6497,8 @@ const airports = {
         "iata": "BSL",
         "inbound": true,
         "latlng": [
-            47.59,
-            7.529167
+            47.60068,
+            7.521117
         ],
         "names": [
             "Basel Mulhouse-Freiburg EuroAirport",
@@ -12166,18 +12166,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "YPDN": {
-        "iata": "DRW",
-        "inbound": false,
-        "latlng": [
-            -12.41497,
-            130.88185
-        ],
-        "names": [
-            "Darwin International Airport"
-        ],
-        "outbound": true
-    },
     "YPPH": {
         "iata": "PER",
         "inbound": true,
@@ -12186,8 +12174,7 @@ const airports = {
             115.9670029
         ],
         "names": [
-            "Perth International Airport",
-            "Perth Intl Airport"
+            "Perth International Airport"
         ],
         "outbound": true
     },
