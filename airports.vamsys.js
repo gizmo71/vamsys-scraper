@@ -959,8 +959,8 @@ const airports = {
         "iata": "CRL",
         "inbound": true,
         "latlng": [
-            50.459202,
-            4.45382
+            50.460982,
+            4.457158
         ],
         "names": [
             "Brussels South Charleroi Airport"
@@ -1437,8 +1437,8 @@ const airports = {
         "iata": "BHD",
         "inbound": true,
         "latlng": [
-            54.615286,
-            -5.871945
+            54.618099,
+            -5.8725
         ],
         "names": [
             "George Best Belfast City Airport"
@@ -1893,7 +1893,7 @@ const airports = {
         "iata": "EIN",
         "inbound": true,
         "latlng": [
-            51.4501,
+            51.4500999,
             5.3745298
         ],
         "names": [
@@ -2387,6 +2387,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EPRA": {
+        "iata": "RDO",
+        "inbound": true,
+        "latlng": [
+            51.389198,
+            21.213301
+        ],
+        "names": [
+            "Warsaw Radom Airport"
+        ],
+        "outbound": true
+    },
     "EPRZ": {
         "iata": "RZE",
         "inbound": true,
@@ -2620,7 +2632,7 @@ const airports = {
         "iata": "VST",
         "inbound": true,
         "latlng": [
-            59.5894013,
+            59.5894012,
             16.6336002
         ],
         "names": [
@@ -3939,6 +3951,18 @@ const airports = {
         ],
         "names": [
             "Daytona"
+        ],
+        "outbound": true
+    },
+    "KDAL": {
+        "iata": "DAL",
+        "inbound": true,
+        "latlng": [
+            32.847099,
+            -96.851799
+        ],
+        "names": [
+            "Dallas Love Field Airport"
         ],
         "outbound": true
     },
@@ -6158,7 +6182,8 @@ const airports = {
             -5.89311
         ],
         "names": [
-            "Seville San Pablo"
+            "Seville San Pablo",
+            "Sevilla"
         ],
         "outbound": true
     },
@@ -6314,6 +6339,7 @@ const airports = {
             5.32937
         ],
         "names": [
+            "Grenoble-Is\u00e8re Airport",
             "Grenoble (Alpes\u2013Is\u00e8re)"
         ],
         "outbound": true
@@ -6379,7 +6405,8 @@ const airports = {
             3.9630101
         ],
         "names": [
-            "Montpellier Mediterranee Airport"
+            "Montpellier Mediterranee Airport",
+            "Montpellier\u2013M\u00e9diterran\u00e9e"
         ],
         "outbound": true
     },
@@ -7092,18 +7119,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LIPO": {
-        "iata": "VBS",
-        "inbound": true,
-        "latlng": [
-            45.428902,
-            10.3306
-        ],
-        "names": [
-            "Brescia"
-        ],
-        "outbound": true
-    },
     "LIPQ": {
         "iata": "TRS",
         "inbound": true,
@@ -7375,8 +7390,8 @@ const airports = {
         "iata": "SZG",
         "inbound": true,
         "latlng": [
-            47.7933006,
-            13.0043001
+            47.793301,
+            13.0043
         ],
         "names": [
             "Salzburg Airport"
@@ -7651,7 +7666,8 @@ const airports = {
             26.3540993
         ],
         "names": [
-            "Suceava International Airport"
+            "Suceava International Airport",
+            "Suceava \u0218tefan cel Mare"
         ],
         "outbound": true
     },
@@ -10511,7 +10527,8 @@ const airports = {
             69.2811966
         ],
         "names": [
-            "Islam Karimov Tashkent International Airport"
+            "Islam Karimov Tashkent International Airport",
+            "Tashkent-Yuzhny Airport"
         ],
         "outbound": true
     },
@@ -12731,6 +12748,18 @@ const airports = {
         ],
         "names": [
             "Sanya Phoenix Airport"
+        ],
+        "outbound": true
+    },
+    "ZKPY": {
+        "iata": "FNJ",
+        "inbound": true,
+        "latlng": [
+            39.224098,
+            125.669998
+        ],
+        "names": [
+            "Pyongyang Sunan International Airport"
         ],
         "outbound": true
     },

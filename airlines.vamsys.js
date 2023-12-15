@@ -106,6 +106,7 @@ const airlines = {
     "1033": {
         "name": "Delta",
         "rank_info": "First Officer:\n\t+40.6 Hours (34.6 PIREPs)\nSenior First Officer:\n\t+90.6 Hours (77.2 PIREPs)\n\t+2430.0 Points (12.4 PIREPs)\nCaptain:\n\t+190.6 Hours (162.3 PIREPs)\n\t+8430.0 Points (43.0 PIREPs)\n\t+1000.0 Bonus Points\nSenior Captain:\n\t+440.6 Hours (375.2 PIREPs)\n\t+23430.0 Points (119.4 PIREPs)\n\t+1500.0 Bonus Points\nBase Captain:\n\t+540.6 Hours (460.4 PIREPs)\n\t+48430.0 Points (246.8 PIREPs)\n\t+2500.0 Bonus Points\nTime mode: air",
+        "requirements": "1 PIREP(s) required over 45 days\nNext 1 PIREP(s) required by 2023-11-23",
         "sortName": "Delta"
     },
     "1131": {
