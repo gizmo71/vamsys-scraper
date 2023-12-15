@@ -49,7 +49,7 @@ const airlines = {
     },
     "64": {
         "name": "Lufthansa",
-        "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+446.7 Hours (284.9 PIREPs)\n\t+2750.0 Points (28.8 PIREPs)\nTraining Captain:\n\t+446.7 Hours (284.9 PIREPs)\n\t+31750.0 Points (332.2 PIREPs)\nBase Captain:\n\t+1446.7 Hours (922.8 PIREPs)\n\t+71750.0 Points (750.6 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+445.8 Hours (288.1 PIREPs)\n\t+2665.0 Points (28.0 PIREPs)\nTraining Captain:\n\t+445.8 Hours (288.1 PIREPs)\n\t+31665.0 Points (332.3 PIREPs)\nBase Captain:\n\t+1445.8 Hours (934.3 PIREPs)\n\t+71665.0 Points (752.1 PIREPs)\nTime mode: air",
         "sortName": "Lufthansa"
     },
     "227": {
