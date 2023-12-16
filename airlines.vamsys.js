@@ -90,7 +90,7 @@ const airlines = {
     },
     "876": {
         "name": "Air India",
-        "rank_info": "First Officer:\n\t+48.0 Hours (49.1 PIREPs)\nSenior First Officer:\n\t+298.0 Hours (304.6 PIREPs)\n\t+14575.0 Points (68.6 PIREPs)\nCaptain:\n\t+598.0 Hours (611.2 PIREPs)\n\t+29575.0 Points (139.2 PIREPs)\nBase Captain:\n\t+998.0 Hours (1020.0 PIREPs)\n\t+59575.0 Points (280.4 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+47.2 Hours (51.1 PIREPs)\nSenior First Officer:\n\t+297.2 Hours (321.7 PIREPs)\n\t+14380.0 Points (69.6 PIREPs)\nCaptain:\n\t+597.2 Hours (646.4 PIREPs)\n\t+29380.0 Points (142.2 PIREPs)\nBase Captain:\n\t+997.2 Hours (1079.3 PIREPs)\n\t+59380.0 Points (287.3 PIREPs)\nTime mode: air",
         "sortName": "India"
     },
     "939": {
