@@ -1047,6 +1047,7 @@ const airports = {
             7.68483
         ],
         "names": [
+            "Munster Ostrobruck Intl Airport",
             "Muenster Osnabrueck",
             "Munster Osnabruck"
         ],
@@ -1086,6 +1087,7 @@ const airports = {
         ],
         "names": [
             "Dusseldorf International Airport",
+            "Dusseldorf Intl Airport",
             "D\u00c3\u00bcsseldorf Airport",
             "Duesseldorf"
         ],
@@ -1188,6 +1190,18 @@ const airports = {
         ],
         "names": [
             "Frankfurt Hahn Airport"
+        ],
+        "outbound": true
+    },
+    "EDHI": {
+        "iata": "XFW",
+        "inbound": false,
+        "latlng": [
+            53.5352783,
+            9.835556
+        ],
+        "names": [
+            "Hamburg Finkenwerder"
         ],
         "outbound": true
     },
@@ -1826,6 +1840,18 @@ const airports = {
         ],
         "names": [
             "Dundee"
+        ],
+        "outbound": true
+    },
+    "EGQS": {
+        "iata": "LMO",
+        "inbound": true,
+        "latlng": [
+            57.7052002,
+            -3.33917
+        ],
+        "names": [
+            "RAF Lossiemouth"
         ],
         "outbound": true
     },
@@ -3148,6 +3174,18 @@ const airports = {
         ],
         "names": [
             "Casablanca Mohammed V International Airport"
+        ],
+        "outbound": true
+    },
+    "GMMW": {
+        "iata": "NDR",
+        "inbound": true,
+        "latlng": [
+            34.9888,
+            -3.02821
+        ],
+        "names": [
+            "Nador"
         ],
         "outbound": true
     },
@@ -6312,7 +6350,7 @@ const airports = {
         "inbound": true,
         "latlng": [
             45.6380997,
-            5.88023
+            5.8802299
         ],
         "names": [
             "Chambery"
@@ -6826,7 +6864,7 @@ const airports = {
         ],
         "names": [
             "Zante, Dionysios Solomos Airport",
-            "Zakynthos Airport"
+            "Zakynthos Intl Airport"
         ],
         "outbound": true
     },
@@ -8658,6 +8696,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "OAKB": {
+        "iata": "KBL",
+        "inbound": true,
+        "latlng": [
+            34.565899,
+            69.212303
+        ],
+        "names": [
+            "Kabul International Airport"
+        ],
+        "outbound": true
+    },
     "OBBI": {
         "iata": "BAH",
         "inbound": true,
@@ -8779,6 +8829,18 @@ const airports = {
             "Teheran-Imam Chomeini"
         ],
         "outbound": true
+    },
+    "OIII": {
+        "iata": "THR",
+        "inbound": true,
+        "latlng": [
+            35.6892014,
+            51.3134003
+        ],
+        "names": [
+            "Mehrabad International Airport"
+        ],
+        "outbound": false
     },
     "OIMM": {
         "iata": "MHD",
@@ -9809,6 +9871,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "SARI": {
+        "iata": "IGR",
+        "inbound": true,
+        "latlng": [
+            -25.737301,
+            -54.4734
+        ],
+        "names": [
+            "Puerto Iguazu"
+        ],
+        "outbound": true
+    },
     "SAVP": {
         "iata": "IND",
         "inbound": true,
@@ -9844,6 +9918,18 @@ const airports = {
         "names": [
             "S\u00e3o Paulo/Guarulhos - Governor Andr\u00e9 Franco Montoro International",
             "Sao Paulo Garulhos"
+        ],
+        "outbound": true
+    },
+    "SCCI": {
+        "iata": "PUQ",
+        "inbound": true,
+        "latlng": [
+            -53.002602,
+            -70.854599
+        ],
+        "names": [
+            "Punta Arenas"
         ],
         "outbound": true
     },
@@ -10504,6 +10590,18 @@ const airports = {
         ],
         "names": [
             "Minsk International Airport"
+        ],
+        "outbound": true
+    },
+    "UTAA": {
+        "iata": "ASB",
+        "inbound": true,
+        "latlng": [
+            37.986801,
+            58.361
+        ],
+        "names": [
+            "Ashgabat International Airport"
         ],
         "outbound": true
     },
@@ -12654,6 +12752,18 @@ const airports = {
             "Zhengzhou Xinzhou Airport"
         ],
         "outbound": true
+    },
+    "ZHEC": {
+        "iata": "EHU",
+        "inbound": true,
+        "latlng": [
+            30.341178,
+            115.03926
+        ],
+        "names": [
+            "Ezhou Huahu Airport"
+        ],
+        "outbound": false
     },
     "ZHES": {
         "iata": "ENH",
