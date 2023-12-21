@@ -38,7 +38,7 @@ airline_mappings = {
     'Air Canada Virtual'               :{'display_name':'Air Canada', 'sort_name':'Canada', 'type_mapping':{'76F':'B763', 'A21N':'A321', 'A330':'A333', 'A350':'A359'}},
     'Virtual Air China'                :{'display_name':'Air China', 'sort_name':'China'},
     'Dan Air Virtual'                  :{'display_name':'Dan Air', 'type_mapping':{'A333':'A339'}}, # Removed {'A320':'A20N'}, look into LatinVFR
-    'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3', 'A313':'A310'}}, # Mappings questionable...
+    'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3', 'A313':'A310', 'E175':'E75L'}}, # Mappings questionable...
     'VEZY'                             :{'display_name':'EasyJet'},
     'vEWG'                             :{'display_name':'Eurowings'},
     'Frontier Airlines'                :{'display_name':'Frontier'},
@@ -53,7 +53,7 @@ airline_mappings = {
     'vspirit'                          :{'display_name':'Spirit', 'type_mapping':{'A319':'-', 'A320':'-', 'A321':'-', 'A21N':'-'}},
     'vTCXgroup'                        :{'sort_name':'Thomas Cook', 'type_mapping':{'A321':'A21N'}},
     'Titan Virtual'                    :{'display_name':'Titan'},
-    'Virtual United'                   :{'display_name':'United', 'type_mapping':{'A20N':'A320'}},
+    'Virtual United'                   :{'display_name':'United', 'type_mapping':{'A20N':'A320', 'E175':'E75L'}},
     'WZZ Virtual'                      :{'display_name':'Wizz'},
 }
 exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
@@ -63,7 +63,7 @@ exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
                      'B752', 'B753', 'B763', 'B764',
                      'B788', 'B789', 'B78X',
                      'CONC', 'CRJ2', 'CRJ5', 'CRJ7', 'CRJ9', 'CRJX', 'DC4', 'DC6', 'DC7', 'DC10', 'DH8D',
-                     'E75S', 'E145', 'E170', 'E175', 'E190', 'E195',
+                     'E145', #'E170', 'E75L', 'E75S', 'E190', 'E195',
                      'F28', 'F50', 'JU52', 'L101', 'MD11', 'MD80', 'MD82', 'PC12',
                      'RJ1H', 'RJ85', 'SH36', 'SF34', 'SW4', 'TBM8',
                      '-'])
