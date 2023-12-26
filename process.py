@@ -155,7 +155,7 @@ def time_mode(last_pirep):
         def just_timestamps(events, after, before):
             def transform(item):
                 return datetime.fromisoformat(item['timestamp'])
-            return [item for item in map(transform, events) if after <= item <= before]
+            return [item for item in map(transform, events) if after < item < before]
         pauses = just_timestamps(last_pirep['pirep_data'].get('pauses', []), after, before)
         unpauses = just_timestamps(last_pirep['pirep_data'].get('unpauses', []), after, before)
         if len(pauses) != len(unpauses):
