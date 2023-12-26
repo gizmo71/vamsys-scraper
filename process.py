@@ -147,7 +147,7 @@ def add_or_update_route(origin, destination, distance, airline, type, callsigns)
     key = f"{origin}-{destination}"
     route = routes.setdefault(key, {'distance': distance, 'type_to_airlines': {}})
     type_to_airlines = route['type_to_airlines'].setdefault(type, {})
-    type_to_airlines[airline] = ','.join(sorted(callsigns.split(',')))
+    type_to_airlines[airline] = ','.join(callsigns)
     airports[origin]['outbound'] = airports[destination]['inbound'] = True
 
 def time_mode(last_pirep):
@@ -188,7 +188,7 @@ for file in glob('vamsys.*.json'):
         airline = json.load(f)
     airline_id = airline['airline']['id']
     airline_mapping = airline_mappings.get(airline['airline']['name'], {})
-    airlines[airline_id] = {'name': airline_mapping.get('display_name', airline['airline']['name'])}
+    airlines[airline_id] = {'name': airline_mapping.get('display_name', airline['airline']['name']), 'callsigns': []}
     airlines[airline_id]['sortName'] = airline_mapping.get('sort_name', airlines[airline_id]['name'])
     if airline['airline']['activity_requirements']:
         if not airline['airline']['activity_requirement_type_pireps']:
@@ -209,7 +209,9 @@ for file in glob('vamsys.*.json'):
                 airport(route)
                 airport(dest)
                 dist = round(geopy.distance.distance(from_latlon, to_latlon).nautical)
-                add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_id, type, dest['callsigns'])
+                callsigns = sorted(dest['callsigns'].split(','))
+                airlines[airline_id]['callsigns'] = sorted(set(callsigns) | set(airlines[airline_id]['callsigns']))
+                add_or_update_route(route['icao'], dest['icao'], f"{dist}nm", airline_id, type, callsigns)
 
 def writeJsonJs(obj, name):
     def serialize_sets(obj):
