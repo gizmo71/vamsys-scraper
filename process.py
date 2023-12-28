@@ -147,7 +147,7 @@ def add_or_update_route(origin, destination, distance, airline, type, callsigns)
     key = f"{origin}-{destination}"
     route = routes.setdefault(key, {'distance': distance, 'type_to_airlines': {}})
     type_to_airlines = route['type_to_airlines'].setdefault(type, {})
-    type_to_airlines[airline] = ','.join(callsigns)
+    type_to_airlines[airline] = callsigns
     airports[origin]['outbound'] = airports[destination]['inbound'] = True
 
 def time_mode(last_pirep):
