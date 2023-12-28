@@ -1,9 +1,17 @@
 for (const [id, airline] of Object.entries(airlines).toSorted(([id1, airline1], [id2, airline2]) => airline1.sortName.localeCompare(airline2.sortName))) {
     var elementId = "airline-" + id;
+    var callsignSelectors = airline.callsigns.map(callsign => `<input id='${id}-${callsign}' type='checkbox' checked onmouseover='redraw("${id}-${callsign}", undefined);' onmouseout='redraw();' />`
+        + `<label for='${id}-${callsign}'>${callsign}</label>`);
     document.getElementById("airline-picker").insertAdjacentHTML('beforeend',
-        `<li><input type='checkbox' onmouseover='redraw(${id}, undefined);' onmouseout='redraw();' onChange='redraw();' checked id='${elementId}'>`
-        + `<label for='${elementId}' title='${airline.rank_info}' />${airline.name}` + (airline.requirements ? `<sup title='${airline.requirements}'>*</sup>` : "") + `</li>`);
+        `<li onmouseout='document.getElementById("callsigns-${id}").style.display = "none";' onmouseover='document.getElementById("callsigns-${id}").style.display = "block";'>`
+        + `<input type='checkbox' onmouseover='redraw("${id}-", undefined);' onmouseout='redraw();' onChange='airlineChanged(this, ${id}); redraw();' checked id='${elementId}'>`
+        + `<label for='${elementId}' title='${airline.rank_info}'>${airline.name}</label>` + (airline.requirements ? `<sup title='${airline.requirements}'>*</sup>` : "")
+        + `<span style='float:right; position: absolute; background-color: #BFBFBF; display: none; margin-left: 1em;' id='callsigns-${id}'>${callsignSelectors.join('<br/>')}</span></li>`);
     airline.cb = document.getElementById(elementId);
+}
+
+function airlineChanged(overallCheckbox, id) {
+    var callsignCheckboxes = document.querySelectorAll(`[id^="${id}-"]`).forEach(callsignCheckbox => callsignCheckbox.checked = overallCheckbox.checked);
 }
 
 for (const [index, icao] of Object.entries(aircraft)) {
@@ -34,7 +42,7 @@ function typesToAirlineNames(route, airlineFilter, typeFilter) {
     try {
         var typeToNames = new Map();
         for (const [type, allAirlineIdsToCallsigns] of Object.entries(route.type_to_airlines)) {
-            var airlineIdsToCallsigns = Object.entries(allAirlineIdsToCallsigns).filter(([id, _]) => airlineFilter(id));
+            var airlineIdsToCallsigns = Object.entries(allAirlineIdsToCallsigns).filter(([id, callsigns]) => callsigns.some(callsign => airlineFilter(`${id}-${callsign}`)));
             if (!airlineIdsToCallsigns.length || !typeFilter(type)) continue; // Do this second to avoid excluding based on selected types for unselected airlines.
             typeToNames.set(type, airlineIdsToCallsigns.map(([id, callsigns]) => airlines[id].name + ' (' + callsigns + ')').join(', '));
         }
@@ -52,9 +60,9 @@ function mergeEndpoint(icao, direction) {
     endpoints.set(icao, direction);
 }
 
-function redraw(airlineId, icaoType) {
+function redraw(airlineCallsignIdPrefix, icaoType) {
 //for (id in airlines) { var cb = airlines[id].cb; console.log(id + " -> " + cb + " == " + cb.checked + " with ID " + cb.id); }
-//console.log(`currentIcao ${currentIcao} in? ${isInbound}, airline ${airlineId}, type ${icaoType}`);
+//console.log(`currentIcao ${currentIcao} in? ${isInbound}, airline ${airlineCallsignIdPrefix}, type ${icaoType}`);
     if (currentIcao)
         document.getElementById("airport-" + currentIcao).innerText = isInbound ? airportArrive : airportDepart;
     for (polyline of shown.values()) polyline.removeFrom(map);
@@ -64,10 +72,10 @@ function redraw(airlineId, icaoType) {
         const from = route.substring(0, 4);
         const to = route.substring(5, 9);
         var tooltip;
-        var airlineFilter = id => airlines[id].cb.checked;
+        var airlineFilter = (id, callsign) => airlines[id].cb.checked;
         var typeFilter = id => document.getElementById(`type-${id}`).checked;
-        if (airlineId) {
-            airlineFilter = id => id == airlineId;
+        if (airlineCallsignIdPrefix) {
+            airlineFilter = (id, callsign) => `${id}-${callsign}`.startsWith(airlineCallsignIdPrefix);
         } else if (icaoType) {
             byCheckbox = typeFilter;
             typeFilter = id => { if (id == icaoType) return true; if (byCheckbox(id)) throw "exclude"; return false; }
