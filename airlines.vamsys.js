@@ -254,13 +254,5 @@ const airlines = {
         "name": "Air Canada",
         "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+39.8 Hours (19.6 PIREPs)\n\t+2931.0 Points (13.7 PIREPs)\nFirst Officer:\n\t+139.8 Hours (68.8 PIREPs)\n\t+12931.0 Points (60.5 PIREPs)\nSenior First Officer:\n\t+289.8 Hours (142.6 PIREPs)\n\t+26431.0 Points (123.6 PIREPs)\nCaptain:\n\t+589.8 Hours (290.2 PIREPs)\n\t+58931.0 Points (275.6 PIREPs)\nTraining Captain:\n\t+989.8 Hours (486.9 PIREPs)\n\t+98931.0 Points (462.7 PIREPs)\nBase Captain:\n\t+1989.8 Hours (978.9 PIREPs)\n\t+198931.0 Points (930.5 PIREPs)\nTime mode: block",
         "sortName": "Canada"
-    },
-    "1309": {
-        "callsigns": [
-            "AAY"
-        ],
-        "name": "Allegiant",
-        "rank_info": "Trainee Second Officer:\n\t+12.7 Hours (16.7 PIREPs)\n\t+2335.0 Points (10.5 PIREPs)\nSecond Officer:\n\t+37.7 Hours (49.7 PIREPs)\n\t+7335.0 Points (33.1 PIREPs)\nSenior Second Officer:\n\t+62.7 Hours (82.6 PIREPs)\n\t+12335.0 Points (55.6 PIREPs)\nTrainee First Officer:\n\t+87.7 Hours (115.5 PIREPs)\n\t+19335.0 Points (87.2 PIREPs)\nFirst Officer:\n\t+112.7 Hours (148.4 PIREPs)\n\t+24335.0 Points (109.8 PIREPs)\nSenior First Officer:\n\t+137.7 Hours (181.3 PIREPs)\n\t+29335.0 Points (132.3 PIREPs)\nCaptain:\n\t+162.7 Hours (214.2 PIREPs)\n\t+34335.0 Points (154.9 PIREPs)\nJunior Training Captain:\n\t+187.7 Hours (247.1 PIREPs)\n\t+39335.0 Points (177.5 PIREPs)\nTraining Captain:\n\t+212.7 Hours (280.0 PIREPs)\n\t+44335.0 Points (200.0 PIREPs)\nSenior Training Captain:\n\t+237.7 Hours (312.9 PIREPs)\n\t+49335.0 Points (222.6 PIREPs)\nTime mode: air",
-        "sortName": "Allegiant"
     }
 };
