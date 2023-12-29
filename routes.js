@@ -42,7 +42,7 @@ function typesToAirlineNames(route, airlineFilter, typeFilter) {
     try {
         var typeToNames = new Map();
         for (const [type, allAirlineIdsToCallsigns] of Object.entries(route.type_to_airlines)) {
-            var airlineIdsToCallsigns = Object.entries(allAirlineIdsToCallsigns).filter(([id, callsigns]) => callsigns.some(callsign => airlineFilter(`${id}-${callsign}`)));
+            var airlineIdsToCallsigns = Object.entries(allAirlineIdsToCallsigns).filter(([id, callsigns]) => callsigns.some(callsign => airlineFilter(id, callsign)));
             if (!airlineIdsToCallsigns.length || !typeFilter(type)) continue; // Do this second to avoid excluding based on selected types for unselected airlines.
             typeToNames.set(type, airlineIdsToCallsigns.map(([id, callsigns]) => airlines[id].name + ' (' + callsigns + ')').join(', '));
         }
@@ -72,7 +72,7 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
         const from = route.substring(0, 4);
         const to = route.substring(5, 9);
         var tooltip;
-        var airlineFilter = (id, callsign) => airlines[id].cb.checked;
+        var airlineFilter = (id, callsign) => document.getElementById(`${id}-${callsign}`).checked;
         var typeFilter = id => document.getElementById(`type-${id}`).checked;
         if (airlineCallsignIdPrefix) {
             airlineFilter = (id, callsign) => `${id}-${callsign}`.startsWith(airlineCallsignIdPrefix);
