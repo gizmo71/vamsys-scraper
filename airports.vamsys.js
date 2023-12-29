@@ -1309,7 +1309,8 @@ const airports = {
             24.8327999
         ],
         "names": [
-            "Tallinn Airport (Lennart Meri Tallinn Airport)"
+            "Tallinn Airport (Lennart Meri Tallinn Airport)",
+            "Talinn"
         ],
         "outbound": true
     },
@@ -1402,7 +1403,7 @@ const airports = {
         "iata": "RVN",
         "inbound": true,
         "latlng": [
-            66.5647964,
+            66.5647965,
             25.8304005
         ],
         "names": [
@@ -3689,7 +3690,7 @@ const airports = {
             -82.541801
         ],
         "names": [
-            "Asheville Regional Airport"
+            "Asheville Regional"
         ],
         "outbound": true
     },
@@ -4478,7 +4479,7 @@ const airports = {
             -81.759598
         ],
         "names": [
-            "Key West"
+            "Key West Airport"
         ],
         "outbound": true
     },
@@ -6491,7 +6492,7 @@ const airports = {
             -110.938053
         ],
         "names": [
-            "Tucson"
+            "Tucson International Airport"
         ],
         "outbound": true
     },
@@ -7364,7 +7365,7 @@ const airports = {
             -1.73479
         ],
         "names": [
-            "Rennes Saint-Jacques"
+            "Rennes\u2013Saint-Jacques"
         ],
         "outbound": true
     },
@@ -7976,6 +7977,18 @@ const airports = {
         "names": [
             "Treviso Airport",
             "Venice Treviso"
+        ],
+        "outbound": true
+    },
+    "LIPO": {
+        "iata": "VBS",
+        "inbound": true,
+        "latlng": [
+            45.428902,
+            10.3306
+        ],
+        "names": [
+            "Brescia"
         ],
         "outbound": true
     },
@@ -9759,7 +9772,7 @@ const airports = {
         "names": [
             "Mehrabad International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "OIMM": {
         "iata": "MHD",
@@ -9890,7 +9903,8 @@ const airports = {
             58.2844009
         ],
         "names": [
-            "Muscat International Airport"
+            "Muscat International Airport",
+            "Seeb International Airport"
         ],
         "outbound": true
     },
@@ -10049,6 +10063,18 @@ const airports = {
             "Doha Hamad International Airport"
         ],
         "outbound": true
+    },
+    "OYSN": {
+        "iata": "SAH",
+        "inbound": true,
+        "latlng": [
+            15.4763002,
+            44.2196999
+        ],
+        "names": [
+            "Sana'a International Airport"
+        ],
+        "outbound": false
     },
     "PAFA": {
         "iata": "FAI",
@@ -11024,7 +11050,8 @@ const airports = {
             -77.114305
         ],
         "names": [
-            "Lima Jorge Chavez International Airport"
+            "Lima Jorge Chavez International Airport",
+            "Lima, Peru"
         ],
         "outbound": true
     },
@@ -11185,8 +11212,7 @@ const airports = {
             -67.129402
         ],
         "names": [
-            "Aguadilla Rafael Hern\u00e1ndez Airport",
-            "Aguadilla, Puerto Rico"
+            "Aguadilla Rafael Hern\u00e1ndez Airport"
         ],
         "outbound": true
     },
@@ -11198,8 +11224,7 @@ const airports = {
             -66.5630035
         ],
         "names": [
-            "Ponce Mercedita Airport",
-            "Ponce, Puerto Rico"
+            "Ponce Mercedita Airport"
         ],
         "outbound": true
     },
@@ -11682,6 +11707,18 @@ const airports = {
             "Diu Airport"
         ],
         "outbound": false
+    },
+    "VAHS": {
+        "iata": "HSR",
+        "inbound": false,
+        "latlng": [
+            22.378824,
+            71.039391
+        ],
+        "names": [
+            "Rajkot International Airport"
+        ],
+        "outbound": true
     },
     "VAID": {
         "iata": "IDR",
@@ -12217,7 +12254,7 @@ const airports = {
         "inbound": true,
         "latlng": [
             23.3143005,
-            85.3217011
+            85.321701
         ],
         "names": [
             "Ranchi Birsa Munda Airport"
@@ -13034,7 +13071,7 @@ const airports = {
         "iata": "RGN",
         "inbound": true,
         "latlng": [
-            16.907301,
+            16.9073009,
             96.1332016
         ],
         "names": [
@@ -13682,7 +13719,7 @@ const airports = {
         "names": [
             "Ezhou Huahu Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "ZHES": {
         "iata": "ENH",

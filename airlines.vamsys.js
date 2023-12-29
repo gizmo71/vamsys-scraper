@@ -163,6 +163,7 @@ const airlines = {
             "BIX",
             "KRH",
             "LOG",
+            "MSA",
             "TMT",
             "WUK"
         ],
@@ -243,9 +244,11 @@ const airlines = {
             "DAL",
             "FDX",
             "JZA",
+            "NKS",
             "ROU",
             "SWA",
             "UAL",
+            "UPS",
             "WJA"
         ],
         "name": "Air Canada",
