@@ -49,8 +49,8 @@ const airlines = {
             "EUK"
         ],
         "name": "Aer Lingus",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+7.6 Hours (5.4 PIREPs)\n\t+120.0 Points (0.4 PIREPs)\nSenior First Officer:\n\t+77.6 Hours (55.3 PIREPs)\n\t+7620.0 Points (27.8 PIREPs)\n\t+200.0 Bonus Points (4.0 PIREPs)\nCaptain:\n\t+277.6 Hours (198.0 PIREPs)\n\t+25620.0 Points (93.6 PIREPs)\n\t+3200.0 Bonus Points (64.0 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+877.6 Hours (626.1 PIREPs)\n\t+70620.0 Points (258.0 PIREPs)\n\t+11200.0 Bonus Points (224.0 PIREPs)\nBase Chief Pilot:\n\t+1477.6 Hours (1054.1 PIREPs)\n\t+125620.0 Points (458.9 PIREPs)\n\t+19200.0 Bonus Points (384.0 PIREPs)\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-01-21",
+        "rank_info": "First Officer:\n\t+5.2 Hours (3.6 PIREPs)\n\t+665.0 Points (2.9 PIREPs)\nSenior First Officer:\n\t+75.2 Hours (51.7 PIREPs)\n\t+8165.0 Points (36.2 PIREPs)\nCaptain:\n\t+275.2 Hours (189.0 PIREPs)\n\t+26165.0 Points (116.0 PIREPs)\n\t+2800.0 Bonus Points (39.7 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+875.2 Hours (600.9 PIREPs)\n\t+71165.0 Points (315.5 PIREPs)\n\t+10800.0 Bonus Points (153.0 PIREPs)\nBase Chief Pilot:\n\t+1475.2 Hours (1012.9 PIREPs)\n\t+126165.0 Points (559.3 PIREPs)\n\t+18800.0 Bonus Points (266.3 PIREPs)\nTime mode: air",
+        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-01-30",
         "sortName": "Linugs"
     },
     "35": {
@@ -206,7 +206,7 @@ const airlines = {
             "VOI"
         ],
         "name": "Frontier",
-        "rank_info": "First Officer:\n\t+46.6 Hours (41.5 PIREPs)\nSenior First Officer:\n\t+246.6 Hours (219.4 PIREPs)\n\t+2484.0 Points (14.4 PIREPs)\nCaptain:\n\t+496.6 Hours (441.8 PIREPs)\n\t+4484.0 Points (26.1 PIREPs)\n\t+5000.0 Bonus Points\nSenior Captain:\n\t+1496.6 Hours (1331.3 PIREPs)\n\t+99484.0 Points (578.4 PIREPs)\n\t+6000.0 Bonus Points\nBase Captain:\n\t+2996.6 Hours (2665.6 PIREPs)\n\t+199484.0 Points (1159.8 PIREPs)\n\t+10000.0 Bonus Points\nTime mode: block",
+        "rank_info": "First Officer:\n\t+45.7 Hours (42.3 PIREPs)\nSenior First Officer:\n\t+245.7 Hours (227.3 PIREPs)\n\t+2327.0 Points (13.8 PIREPs)\nCaptain:\n\t+495.7 Hours (458.6 PIREPs)\n\t+4327.0 Points (25.7 PIREPs)\n\t+4500.0 Bonus Points (36.0 PIREPs)\nSenior Captain:\n\t+1495.7 Hours (1383.9 PIREPs)\n\t+99327.0 Points (590.4 PIREPs)\n\t+5500.0 Bonus Points (44.0 PIREPs)\nBase Captain:\n\t+2995.7 Hours (2771.8 PIREPs)\n\t+199327.0 Points (1184.7 PIREPs)\n\t+9500.0 Bonus Points (76.0 PIREPs)\nTime mode: block",
         "sortName": "Frontier"
     },
     "1005": {
