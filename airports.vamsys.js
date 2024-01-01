@@ -2938,7 +2938,7 @@ const airports = {
     },
     "FSIA": {
         "iata": "SEZ",
-        "inbound": true,
+        "inbound": false,
         "latlng": [
             -4.67434,
             55.521801
@@ -3273,8 +3273,7 @@ const airports = {
             -22.9494
         ],
         "names": [
-            "Espargos Amilcar Cabral International Airport",
-            "Sal"
+            "Espargos Amilcar Cabral International Airport"
         ],
         "outbound": true
     },
@@ -5525,8 +5524,7 @@ const airports = {
             -122.281998
         ],
         "names": [
-            "Paine Field",
-            "Everett"
+            "Paine Field"
         ],
         "outbound": true
     },
@@ -8971,18 +8969,6 @@ const airports = {
         ],
         "names": [
             "Tampico"
-        ],
-        "outbound": true
-    },
-    "MMTO": {
-        "iata": "TLC",
-        "inbound": true,
-        "latlng": [
-            19.338196,
-            -99.570358
-        ],
-        "names": [
-            "Toluca"
         ],
         "outbound": true
     },
@@ -12666,18 +12652,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "VRMG": {
-        "iata": "GAN",
-        "inbound": true,
-        "latlng": [
-            -0.693342,
-            73.155602
-        ],
-        "names": [
-            "Gan"
-        ],
-        "outbound": true
-    },
     "VRMM": {
         "iata": "MLE",
         "inbound": true,
@@ -12687,18 +12661,6 @@ const airports = {
         ],
         "names": [
             "Male Velana International Airport"
-        ],
-        "outbound": true
-    },
-    "VTBD": {
-        "iata": "DMK",
-        "inbound": true,
-        "latlng": [
-            13.9125996,
-            100.6070023
-        ],
-        "names": [
-            "Bangkok Don Mueang"
         ],
         "outbound": true
     },
@@ -12794,8 +12756,7 @@ const airports = {
             115.167
         ],
         "names": [
-            "Ngurah Rai International",
-            "Bali"
+            "Ngurah Rai International"
         ],
         "outbound": true
     },
