@@ -1636,7 +1636,7 @@ const airports = {
             -4.99541
         ],
         "names": [
-            "Newquay"
+            "Newquay Cornwall"
         ],
         "outbound": true
     },
