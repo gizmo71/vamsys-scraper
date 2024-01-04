@@ -62,7 +62,7 @@ const airlines = {
             "SHT"
         ],
         "name": "British Airways",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+83.7 Hours (56.7 PIREPs)\n\t+6334.0 Points (31.3 PIREPs)\nSenior First Officer:\n\t+258.7 Hours (175.2 PIREPs)\n\t+21834.0 Points (107.9 PIREPs)\nCaptain:\n\t+558.7 Hours (378.3 PIREPs)\n\t+54334.0 Points (268.5 PIREPs)\nTraining Captain:\n\t+958.7 Hours (649.2 PIREPs)\n\t+94334.0 Points (466.2 PIREPs)\nBase Captain:\n\t+1958.7 Hours (1326.4 PIREPs)\n\t+194334.0 Points (960.4 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+82.6 Hours (56.4 PIREPs)\n\t+6189.0 Points (30.9 PIREPs)\nSenior First Officer:\n\t+257.6 Hours (176.1 PIREPs)\n\t+21689.0 Points (108.2 PIREPs)\nCaptain:\n\t+557.6 Hours (381.1 PIREPs)\n\t+54189.0 Points (270.4 PIREPs)\nTraining Captain:\n\t+957.6 Hours (654.5 PIREPs)\n\t+94189.0 Points (470.1 PIREPs)\nBase Captain:\n\t+1957.6 Hours (1338.1 PIREPs)\n\t+194189.0 Points (969.1 PIREPs)\nTime mode: block",
         "sortName": "British Airways"
     },
     "42": {

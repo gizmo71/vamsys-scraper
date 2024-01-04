@@ -6881,7 +6881,7 @@ const airports = {
             5.8802299
         ],
         "names": [
-            "Chambery"
+            "Chambery Aix-les-Bains"
         ],
         "outbound": true
     },
