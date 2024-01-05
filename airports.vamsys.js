@@ -5362,7 +5362,7 @@ const airports = {
         "names": [
             "Minneapolis Saint Paul International Airport",
             "Minneapolis/Saint Paul, MN",
-            "Minneapolis/St. Paul"
+            "Minneapolis / St. Paul"
         ],
         "outbound": true
     },
