@@ -165,6 +165,7 @@ const airlines = {
             "LOG",
             "MSA",
             "TMT",
+            "TOM",
             "WUK"
         ],
         "name": "Titan",
@@ -185,7 +186,7 @@ const airlines = {
             "IGO"
         ],
         "name": "IndiGo",
-        "rank_info": "First Officer:\n\t+36.5 Hours (24.4 PIREPs)\nSenior First Officer:\n\t+86.5 Hours (57.8 PIREPs)\n\t+10150.0 Points (49.4 PIREPs)\nCaptain:\n\t+236.5 Hours (158.1 PIREPs)\n\t+28150.0 Points (136.9 PIREPs)\nBase Captain:\n\t+486.5 Hours (325.2 PIREPs)\n\t+58150.0 Points (282.9 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+35.8 Hours (25.2 PIREPs)\nSenior First Officer:\n\t+85.8 Hours (60.4 PIREPs)\n\t+9980.0 Points (49.4 PIREPs)\nCaptain:\n\t+235.8 Hours (165.9 PIREPs)\n\t+27980.0 Points (138.5 PIREPs)\nBase Captain:\n\t+485.8 Hours (341.8 PIREPs)\n\t+57980.0 Points (287.0 PIREPs)\nTime mode: air",
         "sortName": "IndiGo"
     },
     "876": {
@@ -197,7 +198,7 @@ const airlines = {
             "VTI"
         ],
         "name": "Air India",
-        "rank_info": "First Officer:\n\t+47.2 Hours (51.1 PIREPs)\nSenior First Officer:\n\t+297.2 Hours (321.7 PIREPs)\n\t+14380.0 Points (69.6 PIREPs)\nCaptain:\n\t+597.2 Hours (646.4 PIREPs)\n\t+29380.0 Points (142.2 PIREPs)\nBase Captain:\n\t+997.2 Hours (1079.3 PIREPs)\n\t+59380.0 Points (287.3 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+46.3 Hours (50.4 PIREPs)\nSenior First Officer:\n\t+296.3 Hours (322.6 PIREPs)\n\t+14160.0 Points (67.4 PIREPs)\nCaptain:\n\t+596.3 Hours (649.3 PIREPs)\n\t+29160.0 Points (138.9 PIREPs)\nBase Captain:\n\t+996.3 Hours (1084.8 PIREPs)\n\t+59160.0 Points (281.7 PIREPs)\nTime mode: air",
         "sortName": "India"
     },
     "939": {
@@ -221,6 +222,7 @@ const airlines = {
     "1033": {
         "callsigns": [
             "DAL",
+            "EDV",
             "REP",
             "SKW"
         ],
@@ -247,6 +249,7 @@ const airlines = {
             "NKS",
             "ROU",
             "SWA",
+            "TNO",
             "UAL",
             "UPS",
             "WJA"
@@ -254,5 +257,13 @@ const airlines = {
         "name": "Air Canada",
         "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+39.8 Hours (19.6 PIREPs)\n\t+2931.0 Points (13.7 PIREPs)\nFirst Officer:\n\t+139.8 Hours (68.8 PIREPs)\n\t+12931.0 Points (60.5 PIREPs)\nSenior First Officer:\n\t+289.8 Hours (142.6 PIREPs)\n\t+26431.0 Points (123.6 PIREPs)\nCaptain:\n\t+589.8 Hours (290.2 PIREPs)\n\t+58931.0 Points (275.6 PIREPs)\nTraining Captain:\n\t+989.8 Hours (486.9 PIREPs)\n\t+98931.0 Points (462.7 PIREPs)\nBase Captain:\n\t+1989.8 Hours (978.9 PIREPs)\n\t+198931.0 Points (930.5 PIREPs)\nTime mode: block",
         "sortName": "Canada"
+    },
+    "1500": {
+        "callsigns": [
+            "AAY"
+        ],
+        "name": "Allegiant",
+        "rank_info": "Second Officer:\n\t+24.2 Hours (29.7 PIREPs)\n\t+584.0 Points (3.5 PIREPs)\nFirst Officer:\n\t+49.2 Hours (60.4 PIREPs)\n\t+1334.0 Points (8.0 PIREPs)\nCaptain:\n\t+199.2 Hours (244.5 PIREPs)\n\t+9834.0 Points (59.2 PIREPs)\n\t+1000.0 Bonus Points\nSenior Captain:\n\t+449.2 Hours (551.3 PIREPs)\n\t+24834.0 Points (149.6 PIREPs)\n\t+1500.0 Bonus Points\nTime mode: air",
+        "sortName": "Allegiant"
     }
 };

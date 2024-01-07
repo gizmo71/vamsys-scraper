@@ -23,6 +23,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "AYBN": {
+        "iata": "BNA",
+        "inbound": true,
+        "latlng": [
+            -6.8918,
+            143.6818
+        ],
+        "names": [
+            "Nashville International Airport"
+        ],
+        "outbound": true
+    },
     "AYPY": {
         "iata": "POM",
         "inbound": true,
@@ -261,7 +273,8 @@ const airports = {
             -74.038696
         ],
         "names": [
-            "Montr\u00c3\u00a9al-Mirabel International Airport"
+            "Montr\u00c3\u00a9al-Mirabel International Airport",
+            "Montreal Mirabel International Airport"
         ],
         "outbound": true
     },
@@ -587,6 +600,18 @@ const airports = {
         ],
         "names": [
             "London International Airport"
+        ],
+        "outbound": true
+    },
+    "CYXX": {
+        "iata": "YXX",
+        "inbound": true,
+        "latlng": [
+            49.025299,
+            -122.361
+        ],
+        "names": [
+            "Abbotsford"
         ],
         "outbound": true
     },
@@ -1202,18 +1227,6 @@ const airports = {
         ],
         "names": [
             "Frankfurt Hahn Airport"
-        ],
-        "outbound": true
-    },
-    "EDHI": {
-        "iata": "XFW",
-        "inbound": false,
-        "latlng": [
-            53.5352783,
-            9.835556
-        ],
-        "names": [
-            "Hamburg Finkenwerder"
         ],
         "outbound": true
     },
@@ -2254,18 +2267,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "ENRA": {
-        "iata": "MQN",
-        "inbound": true,
-        "latlng": [
-            66.3638992,
-            14.3014002
-        ],
-        "names": [
-            "Mo i Rana Airport, R\u00f8ssvoll"
-        ],
-        "outbound": true
-    },
     "ENSB": {
         "iata": "LYR",
         "inbound": true,
@@ -2938,7 +2939,7 @@ const airports = {
     },
     "FSIA": {
         "iata": "SEZ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -4.67434,
             55.521801
@@ -3529,6 +3530,7 @@ const airports = {
             -75.442797
         ],
         "names": [
+            "Lehigh Valley International Airport",
             "Allentown"
         ],
         "outbound": true
@@ -3663,7 +3665,7 @@ const airports = {
             -88.519096
         ],
         "names": [
-            "Appleton"
+            "Appleton International Airport"
         ],
         "outbound": true
     },
@@ -3688,7 +3690,7 @@ const airports = {
             -82.541801
         ],
         "names": [
-            "Asheville"
+            "Asheville Regional Airport"
         ],
         "outbound": true
     },
@@ -3762,7 +3764,7 @@ const airports = {
             -68.828102
         ],
         "names": [
-            "Bangor"
+            "Bangor International Airport"
         ],
         "outbound": true
     },
@@ -3798,7 +3800,7 @@ const airports = {
             -108.542999
         ],
         "names": [
-            "Billings"
+            "Billings Logan International Airport"
         ],
         "outbound": true
     },
@@ -3810,7 +3812,7 @@ const airports = {
             -100.7460022
         ],
         "names": [
-            "Bismarck"
+            "Bismarck Municipal Airport"
         ],
         "outbound": true
     },
@@ -3826,6 +3828,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "KBLI": {
+        "iata": "BLI",
+        "inbound": true,
+        "latlng": [
+            48.7928009,
+            -122.538002
+        ],
+        "names": [
+            "Bellingham International Airport"
+        ],
+        "outbound": true
+    },
+    "KBLV": {
+        "iata": "BLV",
+        "inbound": true,
+        "latlng": [
+            38.5452,
+            -89.835197
+        ],
+        "names": [
+            "Belleville MidAmerica St. Louis Airport"
+        ],
+        "outbound": true
+    },
     "KBMI": {
         "iata": "BMI",
         "inbound": true,
@@ -3834,7 +3860,7 @@ const airports = {
             -88.915901
         ],
         "names": [
-            "Central Illinois Regional Airport"
+            "Bloomington Central Illinois Regional Airport"
         ],
         "outbound": true
     },
@@ -3972,7 +3998,7 @@ const airports = {
             -81.4421997
         ],
         "names": [
-            "Akron/Canton"
+            "Akron Canton Airport"
         ],
         "outbound": true
     },
@@ -3984,7 +4010,7 @@ const airports = {
             -85.203796
         ],
         "names": [
-            "Chattanooga"
+            "Chattanooga Metropolitan Airport"
         ],
         "outbound": true
     },
@@ -4021,7 +4047,19 @@ const airports = {
             -91.7108
         ],
         "names": [
-            "Cedar Rapids"
+            "Cedar Rapids Eastern Iowa Airport"
+        ],
+        "outbound": true
+    },
+    "KCKB": {
+        "iata": "CKB",
+        "inbound": true,
+        "latlng": [
+            39.2966,
+            -80.228104
+        ],
+        "names": [
+            "Clarksburg North Central West Virginia Airport"
         ],
         "outbound": true
     },
@@ -4181,7 +4219,7 @@ const airports = {
             -84.219398
         ],
         "names": [
-            "Dayton"
+            "Dayton International Airport"
         ],
         "outbound": true
     },
@@ -4372,6 +4410,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KELM": {
+        "iata": "ELM",
+        "inbound": true,
+        "latlng": [
+            42.1599007,
+            -76.8916016
+        ],
+        "names": [
+            "Elmira Corning Regional Airport"
+        ],
+        "outbound": true
+    },
     "KELP": {
         "iata": "ELP",
         "inbound": true,
@@ -4392,7 +4442,19 @@ const airports = {
             -123.211998
         ],
         "names": [
-            "Eugene"
+            "Eugene Airport"
+        ],
+        "outbound": true
+    },
+    "KEVV": {
+        "iata": "EVV",
+        "inbound": true,
+        "latlng": [
+            38.0369987,
+            -87.532402
+        ],
+        "names": [
+            "Evansville Regional Airport"
         ],
         "outbound": true
     },
@@ -4417,7 +4479,7 @@ const airports = {
             -81.759598
         ],
         "names": [
-            "Key West Airport"
+            "Key West International Airport"
         ],
         "outbound": true
     },
@@ -4429,8 +4491,7 @@ const airports = {
             -96.8158035
         ],
         "names": [
-            "Hector International Airport",
-            "Fargo"
+            "Fargo Hector International Airport"
         ],
         "outbound": true
     },
@@ -4442,7 +4503,7 @@ const airports = {
             -119.718002
         ],
         "names": [
-            "Fresno"
+            "Fresno Yosemite International Airport"
         ],
         "outbound": true
     },
@@ -4467,6 +4528,7 @@ const airports = {
             -83.7435989
         ],
         "names": [
+            "Bishop International Airport",
             "Flint"
         ],
         "outbound": true
@@ -4503,7 +4565,7 @@ const airports = {
             -85.195099
         ],
         "names": [
-            "Fort Wayne"
+            "Fort Wayne International Airport"
         ],
         "outbound": true
     },
@@ -4527,7 +4589,19 @@ const airports = {
             -117.533997
         ],
         "names": [
-            "Spokane"
+            "Spokane International Airport"
+        ],
+        "outbound": true
+    },
+    "KGFK": {
+        "iata": "GFK",
+        "inbound": true,
+        "latlng": [
+            47.949299,
+            -97.176102
+        ],
+        "names": [
+            "Grand Forks International Airport"
         ],
         "outbound": true
     },
@@ -4539,7 +4613,7 @@ const airports = {
             -108.529387
         ],
         "names": [
-            "Grand Junction"
+            "Grand Junction Regional Airport"
         ],
         "outbound": true
     },
@@ -4563,7 +4637,7 @@ const airports = {
             -114.2559967
         ],
         "names": [
-            "Kalispell/Glacier Park"
+            "Kalispell Glacier Park International Airport"
         ],
         "outbound": true
     },
@@ -4576,6 +4650,18 @@ const airports = {
         ],
         "names": [
             "Green Bay"
+        ],
+        "outbound": true
+    },
+    "KGRI": {
+        "iata": "GRI",
+        "inbound": true,
+        "latlng": [
+            40.9674988,
+            -98.3096008
+        ],
+        "names": [
+            "Grand Island Central Nebraska Regional Airport"
         ],
         "outbound": true
     },
@@ -4599,7 +4685,7 @@ const airports = {
             -79.937302
         ],
         "names": [
-            "Greensboro"
+            "Greensboro Piedmont Triad International Airport"
         ],
         "outbound": true
     },
@@ -4611,7 +4697,7 @@ const airports = {
             -82.218903
         ],
         "names": [
-            "Greenville/Spartanburg"
+            "Greenville-Spartanburg International Airport"
         ],
         "outbound": true
     },
@@ -4623,7 +4709,7 @@ const airports = {
             -111.3710022
         ],
         "names": [
-            "Great Falls"
+            "Great Falls International Airport"
         ],
         "outbound": true
     },
@@ -4651,6 +4737,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KHGR": {
+        "iata": "HGR",
+        "inbound": true,
+        "latlng": [
+            39.707901,
+            -77.7294998
+        ],
+        "names": [
+            "Hagerstown Regional Airport"
+        ],
+        "outbound": true
+    },
     "KHLN": {
         "iata": "HLN",
         "inbound": true,
@@ -4671,7 +4769,7 @@ const airports = {
             -95.2789
         ],
         "names": [
-            "William P. Hobby Airport",
+            "Houston William P. Hobby Airport",
             "William P Hobby Airport"
         ],
         "outbound": true
@@ -4709,6 +4807,18 @@ const airports = {
         ],
         "names": [
             "Huntsville"
+        ],
+        "outbound": true
+    },
+    "KHTS": {
+        "iata": "HTS",
+        "inbound": true,
+        "latlng": [
+            38.366699,
+            -82.557999
+        ],
+        "names": [
+            "Huntington Tri State Airport"
         ],
         "outbound": true
     },
@@ -4781,7 +4891,7 @@ const airports = {
             -97.433098
         ],
         "names": [
-            "Wichita"
+            "Wichita Dwight D. Eisenhower National Airport"
         ],
         "outbound": true
     },
@@ -4793,6 +4903,7 @@ const airports = {
             -112.070999
         ],
         "names": [
+            "Idaho Falls Regional Airport",
             "Idoha Falls"
         ],
         "outbound": true
@@ -4831,6 +4942,18 @@ const airports = {
         ],
         "names": [
             "Long Island MacArthur Airport"
+        ],
+        "outbound": true
+    },
+    "KIWA": {
+        "iata": "AZA",
+        "inbound": true,
+        "latlng": [
+            33.3078,
+            -111.654999
+        ],
+        "names": [
+            "Phoenix Mesa Gateway Airport"
         ],
         "outbound": true
     },
@@ -4893,6 +5016,18 @@ const airports = {
         ],
         "names": [
             "Jamestown"
+        ],
+        "outbound": true
+    },
+    "KJQF": {
+        "iata": "USA",
+        "inbound": true,
+        "latlng": [
+            35.387798,
+            -80.709099
+        ],
+        "names": [
+            "Concord Regional Airport"
         ],
         "outbound": true
     },
@@ -4995,6 +5130,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KLCK": {
+        "iata": "LCK",
+        "inbound": true,
+        "latlng": [
+            39.813801,
+            -82.927803
+        ],
+        "names": [
+            "Columbus Rickenbacker International Airport"
+        ],
+        "outbound": true
+    },
     "KLEX": {
         "iata": "LEX",
         "inbound": true,
@@ -5003,7 +5150,7 @@ const airports = {
             -84.605904
         ],
         "names": [
-            "Lexington"
+            "Lexington Blue Grass Airport"
         ],
         "outbound": true
     },
@@ -5041,8 +5188,7 @@ const airports = {
             -92.223728
         ],
         "names": [
-            "Clinton National Airport Airport",
-            "Little Rock"
+            "Little Rock Clinton National Airport"
         ],
         "outbound": true
     },
@@ -5202,7 +5348,7 @@ const airports = {
             -98.237965
         ],
         "names": [
-            "McAllen"
+            "McAllen Miller International Airport"
         ],
         "outbound": true
     },
@@ -5214,7 +5360,7 @@ const airports = {
             -122.8730011
         ],
         "names": [
-            "Medford"
+            "Medford Rogue Valley International Airport"
         ],
         "outbound": true
     },
@@ -5276,7 +5422,7 @@ const airports = {
             -90.5075
         ],
         "names": [
-            "Moline"
+            "Moline Quad City International Airport"
         ],
         "outbound": true
     },
@@ -5312,7 +5458,7 @@ const airports = {
             -101.2799988
         ],
         "names": [
-            "Minot"
+            "Minot International Airport"
         ],
         "outbound": true
     },
@@ -5324,7 +5470,7 @@ const airports = {
             -121.8430023
         ],
         "names": [
-            "Monterey"
+            "Monterey Regional Airport"
         ],
         "outbound": true
     },
@@ -5348,7 +5494,7 @@ const airports = {
             -114.0910034
         ],
         "names": [
-            "Missoula"
+            "Missoula International Airport"
         ],
         "outbound": true
     },
@@ -5528,6 +5674,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KPBG": {
+        "iata": "PBG",
+        "inbound": true,
+        "latlng": [
+            44.6509018,
+            -73.4681015
+        ],
+        "names": [
+            "Plattsburgh International Airport"
+        ],
+        "outbound": true
+    },
     "KPBI": {
         "iata": "PBI",
         "inbound": true,
@@ -5551,6 +5709,18 @@ const airports = {
         "names": [
             "Portland International Airport",
             "Portland, OR"
+        ],
+        "outbound": true
+    },
+    "KPGD": {
+        "iata": "PGD",
+        "inbound": true,
+        "latlng": [
+            26.9202,
+            -81.990501
+        ],
+        "names": [
+            "Punta Gorda Airport"
         ],
         "outbound": true
     },
@@ -5589,7 +5759,7 @@ const airports = {
             -89.693298
         ],
         "names": [
-            "Peoria"
+            "Peoria International Airport"
         ],
         "outbound": true
     },
@@ -5615,7 +5785,7 @@ const airports = {
         "names": [
             "St. Petersburg Clearwater International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "KPIT": {
         "iata": "PIT",
@@ -5663,7 +5833,7 @@ const airports = {
             -119.1190033
         ],
         "names": [
-            "Pasco"
+            "Pasco Tri-Cities Airport"
         ],
         "outbound": true
     },
@@ -5675,7 +5845,7 @@ const airports = {
             -70.8233032
         ],
         "names": [
-            "Portsmouth"
+            "Portsmouth International Airport"
         ],
         "outbound": true
     },
@@ -5703,6 +5873,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KPVU": {
+        "iata": "PVU",
+        "inbound": true,
+        "latlng": [
+            40.2192,
+            -111.723
+        ],
+        "names": [
+            "Provo Municipal Airport"
+        ],
+        "outbound": true
+    },
     "KPWM": {
         "iata": "PWM",
         "inbound": true,
@@ -5723,7 +5905,7 @@ const airports = {
             -103.0569992
         ],
         "names": [
-            "Rapid City"
+            "Rapid City Regional Airport"
         ],
         "outbound": true
     },
@@ -5761,6 +5943,18 @@ const airports = {
         "names": [
             "Raleigh-Durham International Airport",
             "Raleigh/Durham, NC"
+        ],
+        "outbound": true
+    },
+    "KRFD": {
+        "iata": "RFD",
+        "inbound": true,
+        "latlng": [
+            42.1954,
+            -89.097198
+        ],
+        "names": [
+            "Chicago Rockford International Airport"
         ],
         "outbound": true
     },
@@ -5822,6 +6016,7 @@ const airports = {
             -79.975403
         ],
         "names": [
+            "Roanoke Regional Airport",
             "Roanoke Rgnl"
         ],
         "outbound": true
@@ -5910,7 +6105,7 @@ const airports = {
             -86.317299
         ],
         "names": [
-            "South Bend"
+            "South Bend Airport"
         ],
         "outbound": true
     },
@@ -5923,6 +6118,18 @@ const airports = {
         ],
         "names": [
             "San Luis Obispo"
+        ],
+        "outbound": true
+    },
+    "KSCK": {
+        "iata": "SCK",
+        "inbound": true,
+        "latlng": [
+            37.8941994,
+            -121.237999
+        ],
+        "names": [
+            "Stockton Metropolitan Airport"
         ],
         "outbound": true
     },
@@ -5952,6 +6159,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KSFB": {
+        "iata": "SFB",
+        "inbound": true,
+        "latlng": [
+            28.7775993,
+            -81.2375031
+        ],
+        "names": [
+            "Orlando Sanford International Airport"
+        ],
+        "outbound": true
+    },
     "KSFO": {
         "iata": "SFO",
         "inbound": true,
@@ -5972,7 +6191,7 @@ const airports = {
             -93.388603
         ],
         "names": [
-            "Springfield"
+            "Springfield Branson National Airport"
         ],
         "outbound": true
     },
@@ -6008,6 +6227,7 @@ const airports = {
             -93.8256
         ],
         "names": [
+            "Shreveport Regional Airport",
             "SHREVEPORT RGNL AIRPORT"
         ],
         "outbound": true
@@ -6063,6 +6283,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KSMX": {
+        "iata": "SMX",
+        "inbound": true,
+        "latlng": [
+            34.898899,
+            -120.457001
+        ],
+        "names": [
+            "Santa Maria Public Airport"
+        ],
+        "outbound": true
+    },
     "KSNA": {
         "iata": "SNA",
         "inbound": true,
@@ -6077,6 +6309,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KSPI": {
+        "iata": "SPI",
+        "inbound": true,
+        "latlng": [
+            39.844101,
+            -89.677902
+        ],
+        "names": [
+            "Springfield Abraham Lincoln Capital Airport"
+        ],
+        "outbound": true
+    },
     "KSRQ": {
         "iata": "SRQ",
         "inbound": true,
@@ -6085,7 +6329,19 @@ const airports = {
             -82.554398
         ],
         "names": [
-            "Sarasota\u2013Bradenton International Airport"
+            "Sarasota Bradenton International Airport"
+        ],
+        "outbound": true
+    },
+    "KSTC": {
+        "iata": "STC",
+        "inbound": true,
+        "latlng": [
+            45.5466,
+            -94.059898
+        ],
+        "names": [
+            "St. Cloud Regional Airport"
         ],
         "outbound": true
     },
@@ -6127,6 +6383,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KSWF": {
+        "iata": "SWF",
+        "inbound": true,
+        "latlng": [
+            41.504101,
+            -74.104797
+        ],
+        "names": [
+            "New York Stewart International Airport"
+        ],
+        "outbound": true
+    },
     "KSYR": {
         "iata": "SYR",
         "inbound": true,
@@ -6151,6 +6419,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KTOL": {
+        "iata": "TOL",
+        "inbound": true,
+        "latlng": [
+            41.5868,
+            -83.8078
+        ],
+        "names": [
+            "Toledo Express Airport"
+        ],
+        "outbound": true
+    },
     "KTPA": {
         "iata": "TPA",
         "inbound": true,
@@ -6162,6 +6442,18 @@ const airports = {
             "Tampa International Airport",
             "Tampa/St. Petersburg",
             "Tampa, FL"
+        ],
+        "outbound": true
+    },
+    "KTRI": {
+        "iata": "TRI",
+        "inbound": true,
+        "latlng": [
+            36.475201,
+            -82.407401
+        ],
+        "names": [
+            "Blountville Tri-Cities Regional Airport"
         ],
         "outbound": true
     },
@@ -6185,7 +6477,7 @@ const airports = {
             -95.8880997
         ],
         "names": [
-            "Tulsa"
+            "Tulsa International Airport"
         ],
         "outbound": true
     },
@@ -6209,7 +6501,7 @@ const airports = {
             -85.5821991
         ],
         "names": [
-            "Traverse City"
+            "Traverse City Cherry Capital Airport"
         ],
         "outbound": true
     },
@@ -6221,8 +6513,7 @@ const airports = {
             -83.994003
         ],
         "names": [
-            "McGhee Tyson Airport",
-            "Knoxville"
+            "Knoxville McGhee Tyson Airport"
         ],
         "outbound": true
     },
@@ -6282,7 +6573,7 @@ const airports = {
             -86.525398
         ],
         "names": [
-            "Destin Fort Walton Beach"
+            "Destin Fort Walton Beach International Airport"
         ],
         "outbound": true
     },
@@ -6306,6 +6597,7 @@ const airports = {
             -94.306801
         ],
         "names": [
+            "Bentonville Northwest Arkansas National Airport",
             "NW Arkansas/Fayetteville"
         ],
         "outbound": true
@@ -7047,18 +7339,6 @@ const airports = {
         ],
         "names": [
             "Brest Brittany"
-        ],
-        "outbound": true
-    },
-    "LFRG": {
-        "iata": "DOL",
-        "inbound": true,
-        "latlng": [
-            49.365299,
-            0.154306
-        ],
-        "names": [
-            "Deauville"
         ],
         "outbound": true
     },
@@ -8657,7 +8937,7 @@ const airports = {
             -69.6688995
         ],
         "names": [
-            "Santo Domingo Las Am\u00e9ricas International Airport",
+            "Santo Domingo Las Americas International Airport",
             "Santo Domingo, Dominican Republic"
         ],
         "outbound": true
@@ -9767,7 +10047,7 @@ const airports = {
         "names": [
             "Sana'a International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "PAFA": {
         "iata": "FAI",
@@ -10531,7 +10811,7 @@ const airports = {
         "names": [
             "Indianapolis International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "SBGL": {
         "iata": "GIG",
@@ -11611,18 +11891,6 @@ const airports = {
         "latlng": [
             13.369167,
             104.223056
-        ],
-        "names": [
-            "Siem Reap"
-        ],
-        "outbound": true
-    },
-    "VDSR": {
-        "iata": "REP",
-        "inbound": true,
-        "latlng": [
-            13.41155,
-            103.813044
         ],
         "names": [
             "Siem Reap"
