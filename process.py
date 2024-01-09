@@ -30,7 +30,7 @@ logging.basicConfig(stream=sys.stdout)
 logging.setLoggerClass(DeduplicatingLogger)
 
 airline_mappings = {
-    'Allegiant Virtual'                :{'display_name':'Allegiant'},
+    'Allegiant Virtual'                :{'display_name':'Allegiant', 'type_mapping':{'A32N':'A20N'}},
     'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'sort_name':'Linugs', 'type_mapping': # Removed 'A320':'A20N', look into LatinVFR
         {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'}},
     'vANA'                             :{'display_name':'All Nippon', 'sort_name':'Nippon'},
