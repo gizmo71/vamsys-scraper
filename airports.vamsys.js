@@ -1161,8 +1161,8 @@ const airports = {
         "iata": "LEJ",
         "inbound": true,
         "latlng": [
-            51.423889,
-            12.236389
+            51.420657,
+            12.232705
         ],
         "names": [
             "Leipzig Halle",
@@ -1501,8 +1501,8 @@ const airports = {
         "iata": "BHX",
         "inbound": true,
         "latlng": [
-            52.4538994,
-            -1.7480299
+            52.453899,
+            -1.74803
         ],
         "names": [
             "Birmingham International"
@@ -1597,7 +1597,7 @@ const airports = {
         "iata": "LTN",
         "inbound": true,
         "latlng": [
-            51.8746986,
+            51.874699,
             -0.368333
         ],
         "names": [
@@ -1897,7 +1897,7 @@ const airports = {
         "iata": "STN",
         "inbound": true,
         "latlng": [
-            51.8849983,
+            51.884998,
             0.235
         ],
         "names": [
@@ -7169,8 +7169,8 @@ const airports = {
         "iata": "CMF",
         "inbound": true,
         "latlng": [
-            45.6380997,
-            5.8802299
+            45.6381,
+            5.88023
         ],
         "names": [
             "Chambery Aix-les-Bains"

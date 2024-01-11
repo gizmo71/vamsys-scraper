@@ -169,7 +169,7 @@ const airlines = {
             "WUK"
         ],
         "name": "Titan",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+33.8 Hours (14.6 PIREPs)\n\t+2109.0 Points (7.8 PIREPs)\nFirst Officer:\n\t+133.8 Hours (57.9 PIREPs)\n\t+12109.0 Points (44.8 PIREPs)\nSenior First Officer:\n\t+283.8 Hours (122.8 PIREPs)\n\t+25609.0 Points (94.8 PIREPs)\nCaptain:\n\t+583.8 Hours (252.5 PIREPs)\n\t+58109.0 Points (215.1 PIREPs)\nTraining Captain:\n\t+983.8 Hours (425.5 PIREPs)\n\t+98109.0 Points (363.2 PIREPs)\nBase Captain:\n\t+1983.8 Hours (858.1 PIREPs)\n\t+198109.0 Points (733.3 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+32.8 Hours (15.3 PIREPs)\n\t+1919.0 Points (7.4 PIREPs)\nFirst Officer:\n\t+132.8 Hours (61.9 PIREPs)\n\t+11919.0 Points (45.8 PIREPs)\nSenior First Officer:\n\t+282.8 Hours (131.9 PIREPs)\n\t+25419.0 Points (97.7 PIREPs)\nCaptain:\n\t+582.8 Hours (271.7 PIREPs)\n\t+57919.0 Points (222.7 PIREPs)\nTraining Captain:\n\t+982.8 Hours (458.2 PIREPs)\n\t+97919.0 Points (376.4 PIREPs)\nBase Captain:\n\t+1982.8 Hours (924.4 PIREPs)\n\t+197919.0 Points (760.9 PIREPs)\nTime mode: block",
         "sortName": "Titan"
     },
     "550": {
