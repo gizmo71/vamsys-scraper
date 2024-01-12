@@ -50,7 +50,7 @@ const airlines = {
         ],
         "name": "Aer Lingus",
         "rank_info": "First Officer:\n\t+2.6 Hours (1.8 PIREPs)\n\t+235.0 Points (1.0 PIREPs)\nSenior First Officer:\n\t+72.6 Hours (50.3 PIREPs)\n\t+7735.0 Points (34.5 PIREPs)\nCaptain:\n\t+272.6 Hours (189.0 PIREPs)\n\t+25735.0 Points (114.6 PIREPs)\n\t+2000.0 Bonus Points (19.0 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+872.6 Hours (604.9 PIREPs)\n\t+70735.0 Points (315.1 PIREPs)\n\t+10000.0 Bonus Points (95.0 PIREPs)\nBase Chief Pilot:\n\t+1472.6 Hours (1020.8 PIREPs)\n\t+125735.0 Points (560.1 PIREPs)\n\t+18000.0 Bonus Points (171.0 PIREPs)\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-02-07",
+        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-02-11",
         "sortName": "Linugs"
     },
     "35": {
