@@ -198,7 +198,7 @@ const airlines = {
             "VTI"
         ],
         "name": "Air India",
-        "rank_info": "First Officer:\n\t+46.3 Hours (50.4 PIREPs)\nSenior First Officer:\n\t+296.3 Hours (322.6 PIREPs)\n\t+14160.0 Points (67.4 PIREPs)\nCaptain:\n\t+596.3 Hours (649.3 PIREPs)\n\t+29160.0 Points (138.9 PIREPs)\nBase Captain:\n\t+996.3 Hours (1084.8 PIREPs)\n\t+59160.0 Points (281.7 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+45.6 Hours (51.7 PIREPs)\nSenior First Officer:\n\t+295.6 Hours (334.9 PIREPs)\n\t+13945.0 Points (66.1 PIREPs)\nCaptain:\n\t+595.6 Hours (674.8 PIREPs)\n\t+28945.0 Points (137.2 PIREPs)\nBase Captain:\n\t+995.6 Hours (1128.1 PIREPs)\n\t+58945.0 Points (279.4 PIREPs)\nTime mode: air",
         "sortName": "India"
     },
     "939": {
@@ -263,7 +263,7 @@ const airlines = {
             "AAY"
         ],
         "name": "Allegiant",
-        "rank_info": "Second Officer:\n\t+22.5 Hours (17.8 PIREPs)\n\t+409.0 Points (2.4 PIREPs)\nFirst Officer:\n\t+47.5 Hours (37.5 PIREPs)\n\t+1159.0 Points (6.8 PIREPs)\nCaptain:\n\t+197.5 Hours (156.1 PIREPs)\n\t+9659.0 Points (56.7 PIREPs)\n\t+1000.0 Bonus Points\nSenior Captain:\n\t+447.5 Hours (353.8 PIREPs)\n\t+24659.0 Points (144.6 PIREPs)\n\t+1500.0 Bonus Points\nTime mode: block",
+        "rank_info": "Second Officer:\n\t+22.5 Hours (17.8 PIREPs)\n\t+409.0 Points (2.4 PIREPs)\nFirst Officer:\n\t+47.5 Hours (37.5 PIREPs)\n\t+1159.0 Points (6.8 PIREPs)\nCaptain:\n\t+197.5 Hours (156.1 PIREPs)\n\t+9659.0 Points (56.7 PIREPs)\nSenior Captain:\n\t+447.5 Hours (353.8 PIREPs)\n\t+24659.0 Points (144.6 PIREPs)\nTime mode: block",
         "sortName": "Allegiant"
     }
 };

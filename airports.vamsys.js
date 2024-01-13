@@ -1416,7 +1416,7 @@ const airports = {
         "iata": "RVN",
         "inbound": true,
         "latlng": [
-            66.5647965,
+            66.5647964,
             25.8304005
         ],
         "names": [
@@ -1681,8 +1681,8 @@ const airports = {
         "iata": "LGW",
         "inbound": true,
         "latlng": [
-            51.148102,
-            -0.190278
+            51.148771,
+            -0.192089
         ],
         "names": [
             "London Gatwick Airport"
@@ -2345,8 +2345,8 @@ const airports = {
         "iata": "GDN",
         "inbound": true,
         "latlng": [
-            54.3776016,
-            18.4661999
+            54.377602,
+            18.4662
         ],
         "names": [
             "Gdansk Lech Walesa Airport"
@@ -2492,8 +2492,8 @@ const airports = {
         "iata": "WRO",
         "inbound": true,
         "latlng": [
-            51.102699,
-            16.885799
+            51.103719,
+            16.882096
         ],
         "names": [
             "Wroclaw Copernicus Airport"
@@ -2836,6 +2836,18 @@ const airports = {
         "names": [
             "Johannesburg OR Tambo International Airport",
             "O. R. Tambo International"
+        ],
+        "outbound": true
+    },
+    "FDMS": {
+        "iata": "MTS",
+        "inbound": true,
+        "latlng": [
+            -26.528999,
+            31.307501
+        ],
+        "names": [
+            "Matsapha Airport"
         ],
         "outbound": true
     },
@@ -4022,6 +4034,7 @@ const airports = {
             -78.4529037
         ],
         "names": [
+            "Charlottesville Albemarle Airport",
             "Charlotteville"
         ],
         "outbound": true
@@ -4067,8 +4080,8 @@ const airports = {
         "iata": "CLE",
         "inbound": true,
         "latlng": [
-            41.4117012,
-            -81.8498001
+            41.411701,
+            -81.8498
         ],
         "names": [
             "Cleveland Hopkins International Airport",
@@ -4232,8 +4245,8 @@ const airports = {
         ],
         "names": [
             "Washington Ronald Reagan Washington National Airport",
-            "Washington Dulles",
-            "Washington DCA"
+            "DCA-Washington, DC",
+            "Washington Dulles"
         ],
         "outbound": true
     },
@@ -5869,7 +5882,8 @@ const airports = {
             -71.425668
         ],
         "names": [
-            "Providence Rhode Island T. F. Green International Airport"
+            "Providence Rhode Island T. F. Green International Airport",
+            "Providence, RI"
         ],
         "outbound": true
     },
@@ -7543,8 +7557,8 @@ const airports = {
         "iata": "MJT",
         "inbound": true,
         "latlng": [
-            39.0567017,
-            26.5983009
+            39.057272,
+            26.598887
         ],
         "names": [
             "Mytilene International Airport"
@@ -7606,8 +7620,8 @@ const airports = {
         "iata": "JSI",
         "inbound": true,
         "latlng": [
-            39.1771011,
-            23.5037003
+            39.177101,
+            23.5037
         ],
         "names": [
             "Skiathos Island National Airport"
@@ -11330,8 +11344,8 @@ const airports = {
         "iata": "BDA",
         "inbound": true,
         "latlng": [
-            32.3639984,
-            -64.6787033
+            32.363998,
+            -64.678703
         ],
         "names": [
             "Bermuda L.F. Wade International Airport"

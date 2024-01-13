@@ -25,5 +25,6 @@ const aircraft = [
     "E190",
     "E195",
     "E75L",
-    "E75S"
+    "E75S",
+    "MD83"
 ];
