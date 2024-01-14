@@ -1,4 +1,16 @@
 const airports = {
+    "1NK2": {
+        "iata": null,
+        "inbound": true,
+        "latlng": [
+            43.0741997,
+            -75.6520996
+        ],
+        "names": [
+            "Cayo Coco Airport"
+        ],
+        "outbound": false
+    },
     "AGGH": {
         "iata": "HIR",
         "inbound": true,
@@ -9434,7 +9446,7 @@ const airports = {
     },
     "MUOC": {
         "iata": "MUOC",
-        "inbound": true,
+        "inbound": false,
         "latlng": [
             22.5132008,
             -78.5110016
