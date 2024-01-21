@@ -186,7 +186,7 @@ const airlines = {
             "IGO"
         ],
         "name": "IndiGo",
-        "rank_info": "First Officer:\n\t+35.8 Hours (25.2 PIREPs)\nSenior First Officer:\n\t+85.8 Hours (60.4 PIREPs)\n\t+9980.0 Points (49.4 PIREPs)\nCaptain:\n\t+235.8 Hours (165.9 PIREPs)\n\t+27980.0 Points (138.5 PIREPs)\nBase Captain:\n\t+485.8 Hours (341.8 PIREPs)\n\t+57980.0 Points (287.0 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+34.8 Hours (25.2 PIREPs)\nSenior First Officer:\n\t+84.8 Hours (61.3 PIREPs)\n\t+9755.0 Points (47.8 PIREPs)\nCaptain:\n\t+234.8 Hours (169.8 PIREPs)\n\t+27755.0 Points (136.0 PIREPs)\nBase Captain:\n\t+484.8 Hours (350.6 PIREPs)\n\t+57755.0 Points (283.0 PIREPs)\nTime mode: air",
         "sortName": "IndiGo"
     },
     "876": {
