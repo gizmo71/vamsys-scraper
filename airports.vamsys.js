@@ -1933,7 +1933,7 @@ const airports = {
         "iata": "NHT",
         "inbound": true,
         "latlng": [
-            51.5530014,
+            51.553001,
             -0.418167
         ],
         "names": [
