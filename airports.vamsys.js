@@ -1,6 +1,6 @@
 const airports = {
     "1NK2": {
-        "iata": null,
+        "iata": "1NK2",
         "inbound": true,
         "latlng": [
             43.0741997,
@@ -7795,7 +7795,6 @@ const airports = {
             14.607182
         ],
         "names": [
-            "Comiso Airport",
             "Sicily Comiso"
         ],
         "outbound": true
@@ -8166,7 +8165,7 @@ const airports = {
             18.1110992
         ],
         "names": [
-            "Ostrava"
+            "Leo\u0161 Jan\u00e1\u010dek Airport Ostrava"
         ],
         "outbound": true
     },
