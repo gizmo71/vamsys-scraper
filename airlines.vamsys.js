@@ -265,7 +265,7 @@ const airlines = {
             "AAY"
         ],
         "name": "Allegiant",
-        "rank_info": "Second Officer:\n\t+21.0 Hours (15.8 PIREPs)\n\t+194.0 Points (1.0 PIREPs)\nFirst Officer:\n\t+46.0 Hours (34.6 PIREPs)\n\t+944.0 Points (5.1 PIREPs)\nCaptain:\n\t+196.0 Hours (147.4 PIREPs)\n\t+9444.0 Points (51.0 PIREPs)\nSenior Captain:\n\t+446.0 Hours (335.4 PIREPs)\n\t+24444.0 Points (131.9 PIREPs)\nTime mode: block",
+        "rank_info": "Second Officer:\n\t+19.6 Hours (14.5 PIREPs)\nFirst Officer:\n\t+44.6 Hours (33.1 PIREPs)\n\t+736.0 Points (3.9 PIREPs)\nCaptain:\n\t+194.6 Hours (144.3 PIREPs)\n\t+9236.0 Points (48.4 PIREPs)\nSenior Captain:\n\t+444.6 Hours (329.6 PIREPs)\n\t+24236.0 Points (126.9 PIREPs)\nTime mode: block",
         "sortName": "Allegiant"
     }
 };
