@@ -127,7 +127,7 @@ def airport(airport):
     name = " ".join(airport['name'].split())
     iata = airport['iata']
     if not iata:
-        iata = {'EGHL':'QLA', 'LROV':'GHV', 'MUOC':'MUOC', 'VIKA':'KNU', 'VOBG':'VOBG'}.get(icao, None)
+        iata = {'1NK2':'1NK2', 'EGHL':'QLA', 'LROV':'GHV', 'MUOC':'MUOC', 'VIKA':'KNU', 'VOBG':'VOBG'}.get(icao, None)
     if icao in airports:
         airports[icao]['names'].add(name)
         latlng = [latitude, longitude]
