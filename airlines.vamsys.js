@@ -38,7 +38,7 @@ const airlines = {
             "VKG"
         ],
         "name": "vTCXgroup",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+61.5 Hours (33.6 PIREPs)\n\t+115.0 Points (0.4 PIREPs)\nSenior First Officer:\n\t+711.5 Hours (388.3 PIREPs)\n\t+1615.0 Points (5.7 PIREPs)\nCaptain:\n\t+961.5 Hours (524.7 PIREPs)\n\t+6115.0 Points (21.5 PIREPs)\nTraining Captain:\n\t+4461.5 Hours (2434.6 PIREPs)\n\t+27015.0 Points (94.8 PIREPs)\nChief Pilot:\n\t+4461.5 Hours (2434.6 PIREPs)\n\t+84015.0 Points (294.8 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+60.9 Hours (34.2 PIREPs)\n\t+1440.0 Points (6.8 PIREPs)\nSenior First Officer:\n\t+710.9 Hours (399.6 PIREPs)\n\t+2940.0 Points (13.9 PIREPs)\nCaptain:\n\t+960.9 Hours (540.2 PIREPs)\n\t+7440.0 Points (35.1 PIREPs)\nTraining Captain:\n\t+4460.9 Hours (2507.8 PIREPs)\n\t+28340.0 Points (133.8 PIREPs)\nChief Pilot:\n\t+4460.9 Hours (2507.8 PIREPs)\n\t+85340.0 Points (402.9 PIREPs)\nTime mode: air",
         "sortName": "Thomas Cook"
     },
     "30": {
@@ -104,7 +104,7 @@ const airlines = {
             "GEC"
         ],
         "name": "Lufthansa",
-        "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+443.5 Hours (290.4 PIREPs)\n\t+2542.0 Points (27.2 PIREPs)\nTraining Captain:\n\t+443.5 Hours (290.4 PIREPs)\n\t+31542.0 Points (337.5 PIREPs)\nBase Captain:\n\t+1443.5 Hours (945.3 PIREPs)\n\t+71542.0 Points (765.5 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+442.9 Hours (294.8 PIREPs)\n\t+2497.0 Points (27.1 PIREPs)\nTraining Captain:\n\t+442.9 Hours (294.8 PIREPs)\n\t+31497.0 Points (341.7 PIREPs)\nBase Captain:\n\t+1442.9 Hours (960.4 PIREPs)\n\t+71497.0 Points (775.6 PIREPs)\nTime mode: air",
         "sortName": "Lufthansa"
     },
     "227": {
