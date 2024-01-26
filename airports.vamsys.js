@@ -11048,8 +11048,7 @@ const airports = {
             -77.114305
         ],
         "names": [
-            "Lima Jorge Chavez International Airport",
-            "Lima, Peru"
+            "Lima Jorge Chavez International Airport"
         ],
         "outbound": true
     },
