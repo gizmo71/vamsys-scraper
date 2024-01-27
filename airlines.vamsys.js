@@ -198,7 +198,7 @@ const airlines = {
             "VTI"
         ],
         "name": "Air India",
-        "rank_info": "First Officer:\n\t+45.6 Hours (51.7 PIREPs)\nSenior First Officer:\n\t+295.6 Hours (334.9 PIREPs)\n\t+13945.0 Points (66.1 PIREPs)\nCaptain:\n\t+595.6 Hours (674.8 PIREPs)\n\t+28945.0 Points (137.2 PIREPs)\nBase Captain:\n\t+995.6 Hours (1128.1 PIREPs)\n\t+58945.0 Points (279.4 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+44.9 Hours (52.7 PIREPs)\nSenior First Officer:\n\t+294.9 Hours (346.3 PIREPs)\n\t+13760.0 Points (66.6 PIREPs)\nCaptain:\n\t+594.9 Hours (698.6 PIREPs)\n\t+28760.0 Points (139.2 PIREPs)\nBase Captain:\n\t+994.9 Hours (1168.4 PIREPs)\n\t+58760.0 Points (284.3 PIREPs)\nTime mode: air",
         "sortName": "India"
     },
     "939": {

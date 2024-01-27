@@ -9715,8 +9715,8 @@ const airports = {
         "iata": "RUH",
         "inbound": true,
         "latlng": [
-            24.9575996,
-            46.6987991
+            24.9576,
+            46.698799
         ],
         "names": [
             "Riyadh King Khalid International Airport"
@@ -11697,8 +11697,8 @@ const airports = {
         "iata": "DIU",
         "inbound": true,
         "latlng": [
-            20.7131,
-            70.921097
+            20.714185,
+            70.921855
         ],
         "names": [
             "Diu Airport"
