@@ -1334,8 +1334,7 @@ const airports = {
             24.8327999
         ],
         "names": [
-            "Tallinn Airport (Lennart Meri Tallinn Airport)",
-            "Talinn"
+            "Tallinn Airport (Lennart Meri Tallinn Airport)"
         ],
         "outbound": true
     },
@@ -1513,8 +1512,8 @@ const airports = {
         "iata": "BHX",
         "inbound": true,
         "latlng": [
-            52.453899,
-            -1.74803
+            52.4538994,
+            -1.7480299
         ],
         "names": [
             "Birmingham International"
@@ -1881,18 +1880,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "EGQS": {
-        "iata": "LMO",
-        "inbound": true,
-        "latlng": [
-            57.7052002,
-            -3.33917
-        ],
-        "names": [
-            "RAF Lossiemouth"
-        ],
-        "outbound": true
-    },
     "EGSH": {
         "iata": "NWI",
         "inbound": true,
@@ -2053,8 +2040,8 @@ const airports = {
         "iata": "BLL",
         "inbound": true,
         "latlng": [
-            55.7402992,
-            9.1517801
+            55.740496,
+            9.160452
         ],
         "names": [
             "Billund Airport"
@@ -3758,7 +3745,7 @@ const airports = {
     },
     "KBFI": {
         "iata": "BFI",
-        "inbound": true,
+        "inbound": false,
         "latlng": [
             47.529999,
             -122.302002
@@ -7066,8 +7053,7 @@ const airports = {
             -5.89311
         ],
         "names": [
-            "Seville San Pablo",
-            "Sevilla"
+            "Seville San Pablo"
         ],
         "outbound": true
     },
@@ -8549,8 +8535,7 @@ const airports = {
             26.3540993
         ],
         "names": [
-            "Suceava International Airport",
-            "Suceava \u0218tefan cel Mare"
+            "Suceava International Airport"
         ],
         "outbound": true
     },
