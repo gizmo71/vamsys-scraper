@@ -49,8 +49,8 @@ const airlines = {
             "EUK"
         ],
         "name": "Aer Lingus",
-        "rank_info": "First Officer:\n\t+0.4 Hours (0.3 PIREPs)\nSenior First Officer:\n\t+70.4 Hours (52.2 PIREPs)\n\t+7125.0 Points (32.2 PIREPs)\nCaptain:\n\t+270.4 Hours (200.6 PIREPs)\n\t+25125.0 Points (113.4 PIREPs)\n\t+800.0 Bonus Points (5.5 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+870.4 Hours (645.9 PIREPs)\n\t+70125.0 Points (316.5 PIREPs)\n\t+8800.0 Bonus Points (60.5 PIREPs)\nBase Chief Pilot:\n\t+1470.4 Hours (1091.1 PIREPs)\n\t+125125.0 Points (564.7 PIREPs)\n\t+16800.0 Bonus Points (115.5 PIREPs)\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-02-22",
+        "rank_info": "Bonus points count towards normal points total\nSenior First Officer:\n\t+69.8 Hours (53.0 PIREPs)\n\t+3355.0 Points (8.9 PIREPs)\nCaptain:\n\t+269.8 Hours (205.1 PIREPs)\n\t+21355.0 Points (56.8 PIREPs)\n\t+400.0 Bonus Points (2.6 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+869.8 Hours (661.4 PIREPs)\n\t+66355.0 Points (176.5 PIREPs)\n\t+8400.0 Bonus Points (53.7 PIREPs)\nBase Chief Pilot:\n\t+1469.8 Hours (1117.6 PIREPs)\n\t+121355.0 Points (322.9 PIREPs)\n\t+16400.0 Bonus Points (104.8 PIREPs)\nTime mode: air",
+        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-02-28",
         "sortName": "Linugs"
     },
     "35": {
