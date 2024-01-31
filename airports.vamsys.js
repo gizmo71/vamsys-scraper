@@ -9498,7 +9498,7 @@ const airports = {
             -159.806
         ],
         "names": [
-            "Rarotonga"
+            "Rarotonga International"
         ],
         "outbound": true
     },
@@ -9608,6 +9608,42 @@ const airports = {
         ],
         "names": [
             "Christchurch"
+        ],
+        "outbound": true
+    },
+    "NZDN": {
+        "iata": "DUD",
+        "inbound": true,
+        "latlng": [
+            -45.928101,
+            170.197998
+        ],
+        "names": [
+            "Dunedin"
+        ],
+        "outbound": true
+    },
+    "NZQN": {
+        "iata": "ZQN",
+        "inbound": true,
+        "latlng": [
+            -45.021099,
+            168.738998
+        ],
+        "names": [
+            "Queenstown"
+        ],
+        "outbound": true
+    },
+    "NZWN": {
+        "iata": "WLG",
+        "inbound": true,
+        "latlng": [
+            -41.3272018,
+            174.8049927
+        ],
+        "names": [
+            "Wellington International"
         ],
         "outbound": true
     },
@@ -13033,7 +13069,7 @@ const airports = {
             115.167
         ],
         "names": [
-            "Ngurah Rai International"
+            "I Gusti Ngurah Rai (Bali)"
         ],
         "outbound": true
     },
@@ -13134,6 +13170,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YBCG": {
+        "iata": "OOL",
+        "inbound": true,
+        "latlng": [
+            -28.165962,
+            153.506641
+        ],
+        "names": [
+            "Gold Coast"
+        ],
+        "outbound": true
+    },
     "YBCS": {
         "iata": "CNS",
         "inbound": true,
@@ -13143,6 +13191,114 @@ const airports = {
         ],
         "names": [
             "Cairns Airport"
+        ],
+        "outbound": true
+    },
+    "YBHM": {
+        "iata": "HTI",
+        "inbound": true,
+        "latlng": [
+            -20.3581009,
+            148.9519959
+        ],
+        "names": [
+            "Hamilton Island"
+        ],
+        "outbound": false
+    },
+    "YBLN": {
+        "iata": "BQB",
+        "inbound": true,
+        "latlng": [
+            -33.688423,
+            115.401596
+        ],
+        "names": [
+            "Busselton Regional"
+        ],
+        "outbound": true
+    },
+    "YBMK": {
+        "iata": "MKY",
+        "inbound": true,
+        "latlng": [
+            -21.170816,
+            149.182588
+        ],
+        "names": [
+            "Mackay"
+        ],
+        "outbound": false
+    },
+    "YBNA": {
+        "iata": "BNK",
+        "inbound": true,
+        "latlng": [
+            -28.833236,
+            153.561471
+        ],
+        "names": [
+            "Ballina Byron Gateway"
+        ],
+        "outbound": false
+    },
+    "YBPN": {
+        "iata": "PPP",
+        "inbound": true,
+        "latlng": [
+            -20.494416,
+            148.553583
+        ],
+        "names": [
+            "Proserpine Whitsunday Coast"
+        ],
+        "outbound": false
+    },
+    "YBSU": {
+        "iata": "MCY",
+        "inbound": true,
+        "latlng": [
+            -26.593324,
+            153.08319
+        ],
+        "names": [
+            "Sunshine Coast"
+        ],
+        "outbound": false
+    },
+    "YBTL": {
+        "iata": "TSV",
+        "inbound": true,
+        "latlng": [
+            -19.252904,
+            146.766512
+        ],
+        "names": [
+            "Townsville"
+        ],
+        "outbound": false
+    },
+    "YHBA": {
+        "iata": "HVB",
+        "inbound": true,
+        "latlng": [
+            -25.320127,
+            152.880662
+        ],
+        "names": [
+            "Hervey Bay"
+        ],
+        "outbound": true
+    },
+    "YMAV": {
+        "iata": "AVV",
+        "inbound": true,
+        "latlng": [
+            -38.039398,
+            144.468994
+        ],
+        "names": [
+            "Melbourne (Avalon)"
         ],
         "outbound": true
     },
@@ -13158,6 +13314,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YMLT": {
+        "iata": "LST",
+        "inbound": true,
+        "latlng": [
+            -41.5452995,
+            147.2140045
+        ],
+        "names": [
+            "Launceston"
+        ],
+        "outbound": false
+    },
     "YMML": {
         "iata": "MEL",
         "inbound": true,
@@ -13166,7 +13334,7 @@ const airports = {
             144.843002
         ],
         "names": [
-            "Melbourne Airport"
+            "Melbourne International"
         ],
         "outbound": true
     },
@@ -13179,6 +13347,18 @@ const airports = {
         ],
         "names": [
             "Adelaide"
+        ],
+        "outbound": true
+    },
+    "YPDN": {
+        "iata": "DRW",
+        "inbound": true,
+        "latlng": [
+            -12.41497,
+            130.88185
+        ],
+        "names": [
+            "Darwin"
         ],
         "outbound": true
     },
@@ -13206,6 +13386,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YSCB": {
+        "iata": "CBR",
+        "inbound": true,
+        "latlng": [
+            -35.3069,
+            149.195007
+        ],
+        "names": [
+            "Canberra International"
+        ],
+        "outbound": true
+    },
     "YSSY": {
         "iata": "SYD",
         "inbound": true,
@@ -13216,6 +13408,18 @@ const airports = {
         "names": [
             "Sidney Kingsford Smith Airport",
             "Sydney Kingsford Smith Airport"
+        ],
+        "outbound": true
+    },
+    "YWLM": {
+        "iata": "NTL",
+        "inbound": true,
+        "latlng": [
+            -32.7949982,
+            151.8339996
+        ],
+        "names": [
+            "Newcastle"
         ],
         "outbound": true
     },

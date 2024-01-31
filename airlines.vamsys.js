@@ -267,5 +267,13 @@ const airlines = {
         "name": "Allegiant",
         "rank_info": "Second Officer:\n\t+19.6 Hours (14.5 PIREPs)\nFirst Officer:\n\t+44.6 Hours (33.1 PIREPs)\n\t+736.0 Points (3.9 PIREPs)\nCaptain:\n\t+194.6 Hours (144.3 PIREPs)\n\t+9236.0 Points (48.4 PIREPs)\nSenior Captain:\n\t+444.6 Hours (329.6 PIREPs)\n\t+24236.0 Points (126.9 PIREPs)\nTime mode: block",
         "sortName": "Allegiant"
+    },
+    "1595": {
+        "callsigns": [
+            "JST"
+        ],
+        "name": "Jetstar Virtual",
+        "rank_info": "First Officer:\n\t+6.8 Hours (5.7 PIREPs)\n\t+790.0 Points (3.8 PIREPs)\nSenior First Officer:\n\t+118.8 Hours (99.0 PIREPs)\n\t+7790.0 Points (37.1 PIREPs)\nCaptain:\n\t+348.8 Hours (290.7 PIREPs)\n\t+14790.0 Points (70.4 PIREPs)\nSenior Captain:\n\t+498.8 Hours (415.7 PIREPs)\n\t+2290.0 Points (10.9 PIREPs)\nTime mode: block",
+        "sortName": "Jetstar Virtual"
     }
 };
