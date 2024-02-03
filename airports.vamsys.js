@@ -125,8 +125,8 @@ const airports = {
         "iata": "YBG",
         "inbound": true,
         "latlng": [
-            48.3306007,
-            -70.9963989
+            48.331908,
+            -70.992909
         ],
         "names": [
             "Saguenay-Bagotville Airport"
@@ -950,7 +950,7 @@ const airports = {
             10.2272
         ],
         "names": [
-            "Tunis Carthage International"
+            "Tunis Carthage International Airport"
         ],
         "outbound": true
     },
@@ -975,7 +975,7 @@ const airports = {
             1.25451
         ],
         "names": [
-            "Lome"
+            "Lome\u2013Tokoin Airport"
         ],
         "outbound": true
     },
@@ -1394,7 +1394,7 @@ const airports = {
             24.8467999
         ],
         "names": [
-            "Kittila Airport",
+            "Kittil\u00e4 Airport",
             "Kitilla"
         ],
         "outbound": true
@@ -1431,7 +1431,7 @@ const airports = {
             25.8304005
         ],
         "names": [
-            "Rovaniemi Airport"
+            "Rovaniemi"
         ],
         "outbound": true
     },
@@ -2838,6 +2838,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "FBSK": {
+        "iata": "GBE",
+        "inbound": true,
+        "latlng": [
+            -24.555201,
+            25.9182
+        ],
+        "names": [
+            "Sir Seretse Khama International Airport"
+        ],
+        "outbound": true
+    },
     "FDMS": {
         "iata": "MTS",
         "inbound": true,
@@ -2897,7 +2909,7 @@ const airports = {
         "names": [
             "Livingstone"
         ],
-        "outbound": true
+        "outbound": false
     },
     "FLKK": {
         "iata": "LUN",
@@ -2907,6 +2919,7 @@ const airports = {
             28.452722
         ],
         "names": [
+            "Kenneth Kaunda International Airport",
             "Lusaka Kenneth Kaunda International"
         ],
         "outbound": true
@@ -2936,6 +2949,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "FPST": {
+        "iata": "TMS",
+        "inbound": true,
+        "latlng": [
+            0.378175,
+            6.71215
+        ],
+        "names": [
+            "Sao Tome International Airport"
+        ],
+        "outbound": false
+    },
     "FQMA": {
         "iata": "MPM",
         "inbound": true,
@@ -2944,7 +2969,7 @@ const airports = {
             32.572601
         ],
         "names": [
-            "Maputo International"
+            "Maputo International Airport"
         ],
         "outbound": true
     },
@@ -2984,6 +3009,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "FWKI": {
+        "iata": "LLW",
+        "inbound": true,
+        "latlng": [
+            -13.7894001,
+            33.7809982
+        ],
+        "names": [
+            "Lilongwe International Airport"
+        ],
+        "outbound": true
+    },
     "FYWH": {
         "iata": "WDH",
         "inbound": true,
@@ -2992,6 +3029,7 @@ const airports = {
             17.4709
         ],
         "names": [
+            "Hosea Kutako International Airport",
             "Windhoek"
         ],
         "outbound": true
@@ -3195,8 +3233,8 @@ const airports = {
         "iata": "CMN",
         "inbound": true,
         "latlng": [
-            33.3675003,
-            -7.5899701
+            33.3675,
+            -7.58997
         ],
         "names": [
             "Casablanca Mohammed V International Airport"
@@ -3345,7 +3383,7 @@ const airports = {
             31.396694
         ],
         "names": [
-            "Cairo International"
+            "Cairo International Airport"
         ],
         "outbound": true
     },
@@ -3740,18 +3778,6 @@ const airports = {
         ],
         "names": [
             "Scottsbluff"
-        ],
-        "outbound": true
-    },
-    "KBFI": {
-        "iata": "BFI",
-        "inbound": false,
-        "latlng": [
-            47.529999,
-            -122.302002
-        ],
-        "names": [
-            "Boeing Field"
         ],
         "outbound": true
     },
@@ -4925,7 +4951,7 @@ const airports = {
         "inbound": true,
         "latlng": [
             34.2705994,
-            -77.9026032
+            -77.9026031
         ],
         "names": [
             "Wilimington"
@@ -6631,8 +6657,8 @@ const airports = {
         "iata": "TIA",
         "inbound": true,
         "latlng": [
-            41.4146996,
-            19.7206001
+            41.4147,
+            19.7206
         ],
         "names": [
             "Tirana International Airport"
@@ -6754,7 +6780,7 @@ const airports = {
         "iata": "ZAG",
         "inbound": true,
         "latlng": [
-            45.7429008,
+            45.742901,
             16.0688
         ],
         "names": [
@@ -7230,8 +7256,8 @@ const airports = {
         "iata": "MRS",
         "inbound": true,
         "latlng": [
-            43.4392719,
-            5.2214241
+            43.438088,
+            5.2125
         ],
         "names": [
             "Marseille Provence",
@@ -7505,8 +7531,8 @@ const airports = {
         "iata": "CFU",
         "inbound": true,
         "latlng": [
-            39.6018982,
-            19.9116993
+            39.601898,
+            19.911699
         ],
         "names": [
             "Corfu International Airport (Ioannis Kapodistrias Int'l Airport)",
@@ -7543,8 +7569,8 @@ const airports = {
         "iata": "JMK",
         "inbound": true,
         "latlng": [
-            37.4351006,
-            25.3481007
+            37.435101,
+            25.348101
         ],
         "names": [
             "Mykonos International"
@@ -7568,7 +7594,7 @@ const airports = {
         "inbound": true,
         "latlng": [
             38.925499,
-            20.7653008
+            20.765301
         ],
         "names": [
             "Aktion National Airport (Preveza)"
@@ -7606,8 +7632,8 @@ const airports = {
         "iata": "CHQ",
         "inbound": true,
         "latlng": [
-            35.5317001,
-            24.1497002
+            35.5317,
+            24.1497
         ],
         "names": [
             "Chania International Airport"
@@ -8147,8 +8173,8 @@ const airports = {
         "iata": "OSR",
         "inbound": true,
         "latlng": [
-            49.6963005,
-            18.1110992
+            49.696301,
+            18.111099
         ],
         "names": [
             "Leo\u0161 Jan\u00e1\u010dek Airport Ostrava"
@@ -8185,8 +8211,8 @@ const airports = {
         "iata": "TLV",
         "inbound": true,
         "latlng": [
-            32.0113983,
-            34.8866997
+            32.011398,
+            34.8867
         ],
         "names": [
             "Tel Aviv Ben Gurion International Airport",
@@ -8288,6 +8314,7 @@ const airports = {
             -7.96591
         ],
         "names": [
+            "Gago Coutinho Airport",
             "Faro Airport"
         ],
         "outbound": true
@@ -8567,8 +8594,8 @@ const airports = {
         "iata": "GVA",
         "inbound": true,
         "latlng": [
-            46.2380981,
-            6.1089501
+            46.238098,
+            6.10895
         ],
         "names": [
             "Geneva International Airport",
@@ -8700,8 +8727,8 @@ const airports = {
         "iata": "BJV",
         "inbound": true,
         "latlng": [
-            37.2505989,
-            27.6643009
+            37.250599,
+            27.664301
         ],
         "names": [
             "Bodrum Milas Airport",
@@ -9157,8 +9184,8 @@ const airports = {
         "iata": "OAX",
         "inbound": true,
         "latlng": [
-            16.999901,
-            -96.726601
+            17.000814,
+            -96.72197
         ],
         "names": [
             "Oaxaca, Mexico"
@@ -9169,8 +9196,8 @@ const airports = {
         "iata": "PBC",
         "inbound": true,
         "latlng": [
-            19.1581001,
-            -98.3713989
+            19.163836,
+            -98.375874
         ],
         "names": [
             "Puebla"
@@ -9292,8 +9319,8 @@ const airports = {
         "iata": "ZIH",
         "inbound": true,
         "latlng": [
-            17.601601,
-            -101.460999
+            17.606187,
+            -101.46389
         ],
         "names": [
             "Ixtapa/Zihuantanejo"
@@ -10152,8 +10179,7 @@ const airports = {
             -156.045603
         ],
         "names": [
-            "Kona International Airport",
-            "Kailua-Kona"
+            "Kona International Airport"
         ],
         "outbound": true
     },
@@ -10856,6 +10882,18 @@ const airports = {
         ],
         "names": [
             "Indianapolis International Airport"
+        ],
+        "outbound": true
+    },
+    "SBBR": {
+        "iata": "BSB",
+        "inbound": true,
+        "latlng": [
+            -15.869167,
+            -47.920834
+        ],
+        "names": [
+            "Bras\u00edlia\u2013President Juscelino Kubitschek International Airport"
         ],
         "outbound": true
     },
@@ -13142,7 +13180,7 @@ const airports = {
             103.994003
         ],
         "names": [
-            "Singapore Changi Airport"
+            "Singapore Changi Intl Airport"
         ],
         "outbound": true
     },
@@ -13444,7 +13482,8 @@ const airports = {
             116.41092
         ],
         "names": [
-            "Beijing Daxing International"
+            "Beijing Daxing International",
+            "Beijing Daxing Intl Airport"
         ],
         "outbound": true
     },
@@ -14974,6 +15013,18 @@ const airports = {
         ],
         "names": [
             "Yining Airport"
+        ],
+        "outbound": true
+    },
+    "ZYBS": {
+        "iata": "NBS",
+        "inbound": true,
+        "latlng": [
+            42.066944,
+            127.602222
+        ],
+        "names": [
+            "Baishan Changbaishan Airport"
         ],
         "outbound": true
     },

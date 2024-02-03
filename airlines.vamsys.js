@@ -6,7 +6,7 @@ const airlines = {
             "EZY"
         ],
         "name": "EasyJet",
-        "rank_info": "Senior First Officer:\n\t+89.4 Hours (53.1 PIREPs)\n\t+3905.0 Points (20.7 PIREPs)\nCaptain:\n\t+389.4 Hours (231.1 PIREPs)\n\t+36405.0 Points (192.9 PIREPs)\nTraining Captain:\n\t+789.4 Hours (468.6 PIREPs)\n\t+76405.0 Points (404.8 PIREPs)\nBase Captain:\n\t+1789.4 Hours (1062.1 PIREPs)\n\t+176405.0 Points (934.5 PIREPs)\nTime mode: block",
+        "rank_info": "Senior First Officer:\n\t+87.1 Hours (51.6 PIREPs)\n\t+3735.0 Points (19.8 PIREPs)\nCaptain:\n\t+387.1 Hours (229.1 PIREPs)\n\t+36235.0 Points (192.1 PIREPs)\nTraining Captain:\n\t+787.1 Hours (465.9 PIREPs)\n\t+76235.0 Points (404.2 PIREPs)\nBase Captain:\n\t+1787.1 Hours (1057.8 PIREPs)\n\t+176235.0 Points (934.4 PIREPs)\nTime mode: block",
         "sortName": "EasyJet"
     },
     "3": {
@@ -119,9 +119,11 @@ const airlines = {
     "265": {
         "callsigns": [
             "ANA",
+            "BJN",
             "CAO",
             "CCA",
-            "CPA"
+            "CPA",
+            "CSZ"
         ],
         "name": "Air China",
         "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+36.7 Hours (24.7 PIREPs)\n\t+3005.0 Points (27.2 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+136.7 Hours (92.2 PIREPs)\n\t+13005.0 Points (117.6 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+286.7 Hours (193.3 PIREPs)\n\t+26505.0 Points (239.7 PIREPs)\nCaptain / \u673a\u957f:\n\t+586.7 Hours (395.6 PIREPs)\n\t+59005.0 Points (533.7 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+986.7 Hours (665.4 PIREPs)\n\t+99005.0 Points (895.5 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1986.7 Hours (1339.7 PIREPs)\n\t+199005.0 Points (1800.0 PIREPs)\nTime mode: block",
@@ -161,6 +163,7 @@ const airlines = {
             "AWC",
             "BCS",
             "BIX",
+            "KRH",
             "LOG",
             "MSA",
             "RGN",
