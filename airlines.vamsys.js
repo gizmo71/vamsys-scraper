@@ -119,7 +119,6 @@ const airlines = {
     "265": {
         "callsigns": [
             "ANA",
-            "BJN",
             "CAO",
             "CCA",
             "CPA",

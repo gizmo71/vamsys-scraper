@@ -950,7 +950,7 @@ const airports = {
             10.2272
         ],
         "names": [
-            "Tunis Carthage International Airport"
+            "Tunis Carthage International"
         ],
         "outbound": true
     },
@@ -975,7 +975,7 @@ const airports = {
             1.25451
         ],
         "names": [
-            "Lome\u2013Tokoin Airport"
+            "Lome"
         ],
         "outbound": true
     },
@@ -3383,7 +3383,7 @@ const airports = {
             31.396694
         ],
         "names": [
-            "Cairo International Airport"
+            "Cairo International"
         ],
         "outbound": true
     },
@@ -9597,8 +9597,8 @@ const airports = {
             -149.606995
         ],
         "names": [
-            "Papeete",
-            "Faa'a"
+            "Faa'a International Airport",
+            "Papeete"
         ],
         "outbound": true
     },
@@ -10882,18 +10882,6 @@ const airports = {
         ],
         "names": [
             "Indianapolis International Airport"
-        ],
-        "outbound": true
-    },
-    "SBBR": {
-        "iata": "BSB",
-        "inbound": true,
-        "latlng": [
-            -15.869167,
-            -47.920834
-        ],
-        "names": [
-            "Bras\u00edlia\u2013President Juscelino Kubitschek International Airport"
         ],
         "outbound": true
     },
