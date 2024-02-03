@@ -36,7 +36,7 @@ airline_mappings = {
     'vANA'                             :{'display_name':'All Nippon', 'sort_name':'Nippon'},
     'vBAW'                             :{'display_name':'British Airways', 'type_mapping':{'B48F':'B748'}},
     'Air Canada Virtual'               :{'display_name':'Air Canada', 'sort_name':'Canada', 'type_mapping':{'76F':'B763', 'A21N':'A321', 'A330':'A333', 'A350':'A359'}},
-    'Virtual Air China'                :{'display_name':'Air China', 'sort_name':'China'},
+    'Virtual Air China'                :{'display_name':'Air China', 'sort_name':'China', 'type_mapping':{'BBJ1':'B737'}},
     'Dan Air Virtual'                  :{'display_name':'Dan Air', 'type_mapping':{'A333':'A339'}}, # Removed {'A320':'A20N'}, look into LatinVFR
     'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3', 'A313':'A310', 'E175':'E75L'}}, # Mappings questionable...
     'VEZY'                             :{'display_name':'EasyJet'},
