@@ -111,9 +111,7 @@ const airlines = {
         "callsigns": [
             "EFA",
             "NWK",
-            "QFA",
-            "QJE",
-            "QLK"
+            "QFA"
         ],
         "name": "Qantas",
         "rank_info": "Second Officer:\n\t+48.9 Hours (43.5 PIREPs)\n\t+3825.0 Points (21.9 PIREPs)\nFirst Officer:\n\t+148.9 Hours (132.5 PIREPs)\n\t+13825.0 Points (79.0 PIREPs)\nSenior First Officer:\n\t+298.9 Hours (266.0 PIREPs)\n\t+27325.0 Points (156.1 PIREPs)\nCaptain:\n\t+598.9 Hours (533.0 PIREPs)\n\t+59825.0 Points (341.9 PIREPs)\nTraining Captain:\n\t+998.9 Hours (889.0 PIREPs)\n\t+99825.0 Points (570.4 PIREPs)\nBase Captain:\n\t+2998.9 Hours (2669.0 PIREPs)\n\t+199825.0 Points (1141.9 PIREPs)\nTime mode: block",
