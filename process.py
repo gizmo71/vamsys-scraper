@@ -29,6 +29,7 @@ class DeduplicatingLogger(logging.getLoggerClass()):
 logging.basicConfig(stream=sys.stdout)
 logging.setLoggerClass(DeduplicatingLogger)
 
+# https://en.wikipedia.org/wiki/List_of_aircraft_type_designators
 airline_mappings = {
     'Allegiant Virtual'                :{'display_name':'Allegiant', 'type_mapping':{'A32N':'A20N'}},
     'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'sort_name':'Linugs', 'type_mapping': # Removed 'A320':'A20N', look into LatinVFR
@@ -47,6 +48,7 @@ airline_mappings = {
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
     'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
     'LH-Virtual'                       :{'display_name':'Lufthansa', 'type_mapping':{'A21F':'A321'}},
+    'VQFA'                             :{'display_name':'Qantas'},
     'vQatar'                           :{'display_name':'Qatar'},
     'vRYR'                             :{'display_name':'Ryanair'},
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
@@ -56,16 +58,19 @@ airline_mappings = {
     'Virtual United'                   :{'display_name':'United', 'type_mapping':{'A20N':'A320', 'A321':'A21N', 'E175':'E75L'}},
     'WZZ Virtual'                      :{'display_name':'Wizz'},
 }
+#TODO: Consider a mapping to MSFS aircraft rather than ICAO codes...
+#TODO: it would be nice if we could mark these as not worth individually selecting, but still shown individually.
+#TODO: Perhaps these are two halves of the same coin...
 exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
                      'B461', 'B462', 'B463',
                      'B732', 'B733', 'B734', 'B735', 'B736', 'B737', 'B738', 'B739', 'B37M', 'B38M', 'B39M',
                      'B742', 'B744', 'B762',  'B772', 'B773', 'B77L', 'B77W', 'B77F',
                      'B752', 'B753', 'B763', 'B764',
                      'B788', 'B789', 'B78X',
-                     'CONC', 'CRJ2', 'CRJ5', 'CRJ7', 'CRJ9', 'CRJX', 'DC4', 'DC6', 'DC7', 'DC10', 'DH8D',
+                     'CONC', 'CRJ2', 'CRJ5', 'CRJ7', 'CRJ9', 'CRJX', 'DC4', 'DC6', 'DC7', 'DC10', 'DH8B', 'DH8C', 'DH8D',
                      'E145', #'E170', 'E75L', 'E75S', 'E190', 'E195',
-                     'F28', 'F50', 'JU52', 'L101', 'MD11', 'MD80', 'MD82', 'PC12',
-                     'RJ1H', 'RJ85', 'SH36', 'SF34', 'SW4', 'TBM8',
+                     'F28', 'F50', 'F100', 'JU52', 'L101', 'MD11', 'MD80', 'MD82', 'MD83', 'PC12',
+                     'RJ1H', 'RJ85', 'SH36', 'SF34', 'SW4', 'TBM8', 'TBM9',
                      '-'])
 
 aircraft = set()
