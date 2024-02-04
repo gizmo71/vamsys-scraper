@@ -9549,7 +9549,8 @@ const airports = {
             -175.1499939
         ],
         "names": [
-            "Tongatapu Fua?amotu International Airport"
+            "Tongatapu Fua?amotu International Airport",
+            "FUA\u02bbAMOTU INTERNATIONAL AIRPORT"
         ],
         "outbound": true
     },
@@ -9622,7 +9623,7 @@ const airports = {
             174.786331
         ],
         "names": [
-            "Auckland Airport"
+            "Auckland International"
         ],
         "outbound": true
     },
@@ -10192,6 +10193,7 @@ const airports = {
         ],
         "names": [
             "Daniel K. Inouye International Airport",
+            "Dainel K. Inouye International",
             "Honolulu International Airport"
         ],
         "outbound": true
@@ -13160,6 +13162,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "WPDL": {
+        "iata": "DIL",
+        "inbound": true,
+        "latlng": [
+            -8.546562,
+            125.524507
+        ],
+        "names": [
+            "Presidente Nicolau Lobato International Airport"
+        ],
+        "outbound": true
+    },
     "WSSS": {
         "iata": "SIN",
         "inbound": true,
@@ -13172,6 +13186,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YARM": {
+        "iata": "ARM",
+        "inbound": true,
+        "latlng": [
+            -30.5280991,
+            151.6170044
+        ],
+        "names": [
+            "Armidale Airport"
+        ],
+        "outbound": true
+    },
     "YAYE": {
         "iata": "AYQ",
         "inbound": true,
@@ -13181,6 +13207,18 @@ const airports = {
         ],
         "names": [
             "Ayers Rock"
+        ],
+        "outbound": true
+    },
+    "YBAS": {
+        "iata": "ASP",
+        "inbound": true,
+        "latlng": [
+            -23.806588,
+            133.903427
+        ],
+        "names": [
+            "Alice Springs"
         ],
         "outbound": true
     },
@@ -13280,6 +13318,30 @@ const airports = {
         ],
         "outbound": false
     },
+    "YBRK": {
+        "iata": "ROK",
+        "inbound": true,
+        "latlng": [
+            -23.380019,
+            150.475359
+        ],
+        "names": [
+            "Rockhampton Airport"
+        ],
+        "outbound": true
+    },
+    "YBRM": {
+        "iata": "BME",
+        "inbound": true,
+        "latlng": [
+            -17.948789,
+            122.227407
+        ],
+        "names": [
+            "Broome International Airport"
+        ],
+        "outbound": true
+    },
     "YBSU": {
         "iata": "MCY",
         "inbound": true,
@@ -13300,7 +13362,55 @@ const airports = {
             146.766512
         ],
         "names": [
-            "Townsville"
+            "Townsville Airport"
+        ],
+        "outbound": true
+    },
+    "YCFS": {
+        "iata": "CFS",
+        "inbound": true,
+        "latlng": [
+            -30.320601,
+            153.115997
+        ],
+        "names": [
+            "Coffs Harbour"
+        ],
+        "outbound": true
+    },
+    "YEML": {
+        "iata": "EMD",
+        "inbound": false,
+        "latlng": [
+            -23.5674992,
+            148.1790009
+        ],
+        "names": [
+            "Emerald Airport"
+        ],
+        "outbound": true
+    },
+    "YGIA": {
+        "iata": "GBW",
+        "inbound": true,
+        "latlng": [
+            -22.5812,
+            120.03553
+        ],
+        "names": [
+            "Ginbata Airport"
+        ],
+        "outbound": true
+    },
+    "YGLA": {
+        "iata": "GLT",
+        "inbound": true,
+        "latlng": [
+            -23.869763,
+            151.225439
+        ],
+        "names": [
+            "Gladstone Airport"
         ],
         "outbound": false
     },
@@ -13313,6 +13423,30 @@ const airports = {
         ],
         "names": [
             "Hervey Bay"
+        ],
+        "outbound": true
+    },
+    "YKSC": {
+        "iata": "KGC",
+        "inbound": true,
+        "latlng": [
+            -35.7139015,
+            137.5209961
+        ],
+        "names": [
+            "Kingscote Airport"
+        ],
+        "outbound": true
+    },
+    "YLHI": {
+        "iata": "LDH",
+        "inbound": true,
+        "latlng": [
+            -31.538204,
+            159.07546
+        ],
+        "names": [
+            "Lord Howe Island"
         ],
         "outbound": true
     },
@@ -13340,6 +13474,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YMIA": {
+        "iata": "MQL",
+        "inbound": true,
+        "latlng": [
+            -34.2291985,
+            142.0859985
+        ],
+        "names": [
+            "Mildura"
+        ],
+        "outbound": true
+    },
     "YMLT": {
         "iata": "LST",
         "inbound": true,
@@ -13348,9 +13494,9 @@ const airports = {
             147.2140045
         ],
         "names": [
-            "Launceston"
+            "Launceston Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "YMML": {
         "iata": "MEL",
@@ -13361,6 +13507,42 @@ const airports = {
         ],
         "names": [
             "Melbourne International"
+        ],
+        "outbound": true
+    },
+    "YMOR": {
+        "iata": "MRZ",
+        "inbound": true,
+        "latlng": [
+            -29.4988995,
+            149.8450012
+        ],
+        "names": [
+            "Moree Airport"
+        ],
+        "outbound": true
+    },
+    "YMRB": {
+        "iata": "MOV",
+        "inbound": true,
+        "latlng": [
+            -22.0578003,
+            148.0769959
+        ],
+        "names": [
+            "Moranbah Airport"
+        ],
+        "outbound": true
+    },
+    "YNWN": {
+        "iata": "ZNE",
+        "inbound": true,
+        "latlng": [
+            -23.4178009,
+            119.8030014
+        ],
+        "names": [
+            "Newman"
         ],
         "outbound": true
     },
@@ -13385,6 +13567,66 @@ const airports = {
         ],
         "names": [
             "Darwin"
+        ],
+        "outbound": true
+    },
+    "YPKA": {
+        "iata": "KTA",
+        "inbound": true,
+        "latlng": [
+            -20.7122002,
+            116.7730026
+        ],
+        "names": [
+            "Karratha Airport"
+        ],
+        "outbound": true
+    },
+    "YPKG": {
+        "iata": "KGI",
+        "inbound": true,
+        "latlng": [
+            -30.791543,
+            121.464586
+        ],
+        "names": [
+            "Kalgoorlie Boulder Airport"
+        ],
+        "outbound": true
+    },
+    "YPLC": {
+        "iata": "PLO",
+        "inbound": true,
+        "latlng": [
+            -34.6053009,
+            135.8800049
+        ],
+        "names": [
+            "Port Lincoln Airport"
+        ],
+        "outbound": true
+    },
+    "YPMQ": {
+        "iata": "PQQ",
+        "inbound": true,
+        "latlng": [
+            -31.4358006,
+            152.8630066
+        ],
+        "names": [
+            "Port Macquarie Airport"
+        ],
+        "outbound": true
+    },
+    "YPPD": {
+        "iata": "PHE",
+        "inbound": true,
+        "latlng": [
+            -20.3778,
+            118.6259995
+        ],
+        "names": [
+            "Port Hedland International Airport"
         ],
         "outbound": true
     },
@@ -13424,6 +13666,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YSDU": {
+        "iata": "DBO",
+        "inbound": true,
+        "latlng": [
+            -32.2167015,
+            148.5749969
+        ],
+        "names": [
+            "Dubbo City Airport"
+        ],
+        "outbound": true
+    },
     "YSSY": {
         "iata": "SYD",
         "inbound": true,
@@ -13436,6 +13690,30 @@ const airports = {
             "Sydney Kingsford Smith Airport"
         ],
         "outbound": true
+    },
+    "YSTW": {
+        "iata": "TMW",
+        "inbound": true,
+        "latlng": [
+            -31.077898,
+            150.845484
+        ],
+        "names": [
+            "Tamworth Airport"
+        ],
+        "outbound": false
+    },
+    "YSWG": {
+        "iata": "WGA",
+        "inbound": true,
+        "latlng": [
+            -35.163484,
+            147.46832
+        ],
+        "names": [
+            "Wagga Wagga Airport"
+        ],
+        "outbound": false
     },
     "YWLM": {
         "iata": "NTL",
