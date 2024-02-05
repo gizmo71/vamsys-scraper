@@ -285,8 +285,8 @@ const airlines = {
         "callsigns": [
             "JST"
         ],
-        "name": "Jetstar Virtual",
+        "name": "JetStar",
         "rank_info": "Bonus points not included in normal points total\nFirst Officer:\n\t+5.5 Hours (4.4 PIREPs)\n\t+610.0 Points (3.1 PIREPs)\nSenior First Officer:\n\t+117.5 Hours (93.8 PIREPs)\n\t+7610.0 Points (39.0 PIREPs)\nCaptain:\n\t+347.5 Hours (277.5 PIREPs)\n\t+14610.0 Points (74.9 PIREPs)\nSenior Captain:\n\t+497.5 Hours (397.3 PIREPs)\n\t+2110.0 Points (10.8 PIREPs)\nTime mode: block",
-        "sortName": "Jetstar Virtual"
+        "sortName": "JetStar"
     }
 };
