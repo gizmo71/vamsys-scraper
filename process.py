@@ -47,6 +47,7 @@ airline_mappings = {
     'Air India Virtual'                :{'display_name':'Air India', 'sort_name':'India'},
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
     'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
+    'Jetstar Virtual'                  :{'display_name':'JetStar'},
     'LH-Virtual'                       :{'display_name':'Lufthansa', 'type_mapping':{'A21F':'A321'}},
     'VQFA'                             :{'display_name':'Qantas'},
     'vQatar'                           :{'display_name':'Qatar'},
