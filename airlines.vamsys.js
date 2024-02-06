@@ -49,8 +49,8 @@ const airlines = {
             "EUK"
         ],
         "name": "Aer Lingus",
-        "rank_info": "Bonus points count towards normal points total\nSenior First Officer:\n\t+69.8 Hours (53.0 PIREPs)\n\t+3355.0 Points (8.9 PIREPs)\nCaptain:\n\t+269.8 Hours (205.1 PIREPs)\n\t+21355.0 Points (56.8 PIREPs)\n\t+400.0 Bonus Points (2.6 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+869.8 Hours (661.4 PIREPs)\n\t+66355.0 Points (176.5 PIREPs)\n\t+8400.0 Bonus Points (53.7 PIREPs)\nBase Chief Pilot:\n\t+1469.8 Hours (1117.6 PIREPs)\n\t+121355.0 Points (322.9 PIREPs)\n\t+16400.0 Bonus Points (104.8 PIREPs)\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-02-28",
+        "rank_info": "Bonus points count towards normal points total\nSenior First Officer:\n\t+69.4 Hours (54.3 PIREPs)\n\t+2755.0 Points (7.2 PIREPs)\nCaptain:\n\t+269.4 Hours (211.0 PIREPs)\n\t+20755.0 Points (53.9 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+869.4 Hours (681.1 PIREPs)\n\t+65755.0 Points (170.7 PIREPs)\n\t+8000.0 Bonus Points (48.0 PIREPs)\nBase Chief Pilot:\n\t+1469.4 Hours (1151.2 PIREPs)\n\t+120755.0 Points (313.5 PIREPs)\n\t+16000.0 Bonus Points (96.0 PIREPs)\nTime mode: air",
+        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-03-07",
         "sortName": "Linugs"
     },
     "35": {
@@ -62,7 +62,7 @@ const airlines = {
             "SHT"
         ],
         "name": "British Airways",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+82.6 Hours (56.4 PIREPs)\n\t+6189.0 Points (30.9 PIREPs)\nSenior First Officer:\n\t+257.6 Hours (176.1 PIREPs)\n\t+21689.0 Points (108.2 PIREPs)\nCaptain:\n\t+557.6 Hours (381.1 PIREPs)\n\t+54189.0 Points (270.4 PIREPs)\nTraining Captain:\n\t+957.6 Hours (654.5 PIREPs)\n\t+94189.0 Points (470.1 PIREPs)\nBase Captain:\n\t+1957.6 Hours (1338.1 PIREPs)\n\t+194189.0 Points (969.1 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+81.3 Hours (55.8 PIREPs)\n\t+6024.0 Points (30.2 PIREPs)\nSenior First Officer:\n\t+256.3 Hours (175.8 PIREPs)\n\t+21524.0 Points (108.1 PIREPs)\nCaptain:\n\t+556.3 Hours (381.7 PIREPs)\n\t+54024.0 Points (271.2 PIREPs)\nTraining Captain:\n\t+956.3 Hours (656.1 PIREPs)\n\t+94024.0 Points (472.0 PIREPs)\nBase Captain:\n\t+1956.3 Hours (1342.2 PIREPs)\n\t+194024.0 Points (974.0 PIREPs)\nTime mode: block",
         "sortName": "British Airways"
     },
     "42": {
@@ -270,7 +270,7 @@ const airlines = {
             "WJA"
         ],
         "name": "Air Canada",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+38.1 Hours (19.2 PIREPs)\n\t+2761.0 Points (13.4 PIREPs)\nFirst Officer:\n\t+138.1 Hours (69.5 PIREPs)\n\t+12761.0 Points (61.8 PIREPs)\nSenior First Officer:\n\t+288.1 Hours (145.0 PIREPs)\n\t+26261.0 Points (127.2 PIREPs)\nCaptain:\n\t+588.1 Hours (295.9 PIREPs)\n\t+58761.0 Points (284.6 PIREPs)\nTraining Captain:\n\t+988.1 Hours (497.2 PIREPs)\n\t+98761.0 Points (478.3 PIREPs)\nBase Captain:\n\t+1988.1 Hours (1000.3 PIREPs)\n\t+198761.0 Points (962.5 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+36.1 Hours (18.1 PIREPs)\n\t+2561.0 Points (12.5 PIREPs)\nFirst Officer:\n\t+136.1 Hours (68.4 PIREPs)\n\t+12561.0 Points (61.1 PIREPs)\nSenior First Officer:\n\t+286.1 Hours (143.8 PIREPs)\n\t+26061.0 Points (126.8 PIREPs)\nCaptain:\n\t+586.1 Hours (294.6 PIREPs)\n\t+58561.0 Points (284.9 PIREPs)\nTraining Captain:\n\t+986.1 Hours (495.6 PIREPs)\n\t+98561.0 Points (479.4 PIREPs)\nBase Captain:\n\t+1986.1 Hours (998.2 PIREPs)\n\t+198561.0 Points (965.9 PIREPs)\nTime mode: block",
         "sortName": "Canada"
     },
     "1500": {

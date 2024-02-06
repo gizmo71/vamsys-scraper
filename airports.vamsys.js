@@ -1952,6 +1952,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EHRD": {
+        "iata": "RTM",
+        "inbound": true,
+        "latlng": [
+            51.956902,
+            4.43722
+        ],
+        "names": [
+            "Rotterdam The Hague Airport"
+        ],
+        "outbound": true
+    },
     "EICK": {
         "iata": "ORK",
         "inbound": true,
@@ -2090,8 +2102,8 @@ const airports = {
         "iata": "AAL",
         "inbound": true,
         "latlng": [
-            57.092759,
-            9.849243
+            57.094763,
+            9.84993
         ],
         "names": [
             "Aalborg Airport"
@@ -3287,6 +3299,7 @@ const airports = {
             -17.073333
         ],
         "names": [
+            "Blaise Diagne",
             "Dakar"
         ],
         "outbound": true
@@ -6762,6 +6775,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LDRI": {
+        "iata": "RJK",
+        "inbound": true,
+        "latlng": [
+            45.2168999,
+            14.5703001
+        ],
+        "names": [
+            "Rijeka"
+        ],
+        "outbound": true
+    },
     "LDSP": {
         "iata": "SPU",
         "inbound": true,
@@ -7386,7 +7411,7 @@ const airports = {
             -1.73479
         ],
         "names": [
-            "Rennes\u2013Saint-Jacques"
+            "Rennes Saint-Jacques"
         ],
         "outbound": true
     },
@@ -7517,8 +7542,8 @@ const airports = {
         "iata": "AOK",
         "inbound": true,
         "latlng": [
-            35.4213982,
-            27.1459999
+            35.421398,
+            27.146
         ],
         "names": [
             "Karpathos Island National Airport"
@@ -9596,8 +9621,8 @@ const airports = {
             -149.606995
         ],
         "names": [
-            "Faa'a International Airport",
-            "Papeete"
+            "Papeete",
+            "Faa'a"
         ],
         "outbound": true
     },
@@ -9633,7 +9658,7 @@ const airports = {
             172.5319977
         ],
         "names": [
-            "Christchurch"
+            "Christchurch International Airport"
         ],
         "outbound": true
     },
@@ -9670,18 +9695,6 @@ const airports = {
         ],
         "names": [
             "Wellington International"
-        ],
-        "outbound": true
-    },
-    "OAKB": {
-        "iata": "KBL",
-        "inbound": true,
-        "latlng": [
-            34.565899,
-            69.212303
-        ],
-        "names": [
-            "Kabul International Airport"
         ],
         "outbound": true
     },
@@ -9804,18 +9817,6 @@ const airports = {
         "names": [
             "Tehran Imam Khomeini International",
             "Teheran-Imam Chomeini"
-        ],
-        "outbound": true
-    },
-    "OIII": {
-        "iata": "THR",
-        "inbound": true,
-        "latlng": [
-            35.6892014,
-            51.3134003
-        ],
-        "names": [
-            "Mehrabad International Airport"
         ],
         "outbound": true
     },
@@ -9948,8 +9949,7 @@ const airports = {
             58.2844009
         ],
         "names": [
-            "Muscat International Airport",
-            "Seeb International Airport"
+            "Muscat International Airport"
         ],
         "outbound": true
     },
@@ -10111,7 +10111,7 @@ const airports = {
     },
     "OYSN": {
         "iata": "SAH",
-        "inbound": true,
+        "inbound": false,
         "latlng": [
             15.4763002,
             44.2196999
@@ -10307,6 +10307,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "RJCB": {
+        "iata": "OBO",
+        "inbound": true,
+        "latlng": [
+            42.7332993,
+            143.2169952
+        ],
+        "names": [
+            "Obihiro Tokachi Airport"
+        ],
+        "outbound": true
+    },
     "RJCC": {
         "iata": "CTS",
         "inbound": true,
@@ -10333,13 +10345,37 @@ const airports = {
     },
     "RJCK": {
         "iata": "KUH",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             43.0410004,
             144.1929932
         ],
         "names": [
             "Kushiro Airport"
+        ],
+        "outbound": true
+    },
+    "RJCM": {
+        "iata": "MMB",
+        "inbound": true,
+        "latlng": [
+            43.8806,
+            144.1640015
+        ],
+        "names": [
+            "Memanbetsu Airport"
+        ],
+        "outbound": true
+    },
+    "RJCN": {
+        "iata": "SHB",
+        "inbound": true,
+        "latlng": [
+            43.5774994,
+            144.9600067
+        ],
+        "names": [
+            "Nakashibetsu Airport"
         ],
         "outbound": true
     },
@@ -10355,6 +10391,90 @@ const airports = {
         ],
         "outbound": true
     },
+    "RJDA": {
+        "iata": "AXJ",
+        "inbound": true,
+        "latlng": [
+            32.482498,
+            130.158997
+        ],
+        "names": [
+            "Amakusa Airport"
+        ],
+        "outbound": true
+    },
+    "RJDC": {
+        "iata": "UBJ",
+        "inbound": true,
+        "latlng": [
+            33.9300003,
+            131.279007
+        ],
+        "names": [
+            "Ube Yamaguchi Airport"
+        ],
+        "outbound": true
+    },
+    "RJDT": {
+        "iata": "TSJ",
+        "inbound": true,
+        "latlng": [
+            34.2849007,
+            129.3309937
+        ],
+        "names": [
+            "Tsushima Airport"
+        ],
+        "outbound": true
+    },
+    "RJEB": {
+        "iata": "MBE",
+        "inbound": true,
+        "latlng": [
+            44.3039017,
+            143.404007
+        ],
+        "names": [
+            "Monbetsu Airport"
+        ],
+        "outbound": true
+    },
+    "RJEC": {
+        "iata": "AKJ",
+        "inbound": true,
+        "latlng": [
+            43.670799,
+            142.447006
+        ],
+        "names": [
+            "Asahikawa Airport"
+        ],
+        "outbound": true
+    },
+    "RJFC": {
+        "iata": "KUM",
+        "inbound": true,
+        "latlng": [
+            30.385599,
+            130.658997
+        ],
+        "names": [
+            "Yakushima Airport"
+        ],
+        "outbound": true
+    },
+    "RJFE": {
+        "iata": "FUJ",
+        "inbound": true,
+        "latlng": [
+            32.6663017,
+            128.8329926
+        ],
+        "names": [
+            "Fukue Airport"
+        ],
+        "outbound": true
+    },
     "RJFF": {
         "iata": "FUK",
         "inbound": true,
@@ -10364,6 +10484,18 @@ const airports = {
         ],
         "names": [
             "Fukuoka Airport"
+        ],
+        "outbound": true
+    },
+    "RJFG": {
+        "iata": "TNE",
+        "inbound": true,
+        "latlng": [
+            30.6051006,
+            130.9909973
+        ],
+        "names": [
+            "Tanegashima Airport"
         ],
         "outbound": true
     },
@@ -10463,6 +10595,42 @@ const airports = {
         ],
         "outbound": true
     },
+    "RJKB": {
+        "iata": "OKE",
+        "inbound": true,
+        "latlng": [
+            27.425501,
+            128.701004
+        ],
+        "names": [
+            "Okierabu Airport"
+        ],
+        "outbound": true
+    },
+    "RJKI": {
+        "iata": "KKX",
+        "inbound": true,
+        "latlng": [
+            28.3213005,
+            129.9279938
+        ],
+        "names": [
+            "Kikai Airport"
+        ],
+        "outbound": true
+    },
+    "RJKN": {
+        "iata": "TKN",
+        "inbound": true,
+        "latlng": [
+            27.836399,
+            128.880997
+        ],
+        "names": [
+            "Tokunoshima Airport"
+        ],
+        "outbound": true
+    },
     "RJNK": {
         "iata": "KMQ",
         "inbound": true,
@@ -10484,6 +10652,18 @@ const airports = {
         ],
         "names": [
             "Toyama Airport"
+        ],
+        "outbound": true
+    },
+    "RJNW": {
+        "iata": "NTQ",
+        "inbound": true,
+        "latlng": [
+            37.293098,
+            136.962006
+        ],
+        "names": [
+            "Wajima Noto Airport"
         ],
         "outbound": true
     },
@@ -10547,6 +10727,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "RJOM": {
+        "iata": "MYJ",
+        "inbound": true,
+        "latlng": [
+            33.8272018,
+            132.6999969
+        ],
+        "names": [
+            "Matsuyama Airport"
+        ],
+        "outbound": true
+    },
     "RJOO": {
         "iata": "ITM",
         "inbound": true,
@@ -10595,6 +10787,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "RJOW": {
+        "iata": "IWJ",
+        "inbound": true,
+        "latlng": [
+            34.6763992,
+            131.7899933
+        ],
+        "names": [
+            "Masuda Hagi Iwami Airport"
+        ],
+        "outbound": true
+    },
+    "RJSA": {
+        "iata": "AOJ",
+        "inbound": true,
+        "latlng": [
+            40.7346992,
+            140.6909943
+        ],
+        "names": [
+            "Aomori Airport"
+        ],
+        "outbound": true
+    },
     "RJSC": {
         "iata": "GAJ",
         "inbound": false,
@@ -10604,6 +10820,18 @@ const airports = {
         ],
         "names": [
             "Yamagata"
+        ],
+        "outbound": true
+    },
+    "RJSF": {
+        "iata": "FKS",
+        "inbound": true,
+        "latlng": [
+            37.2274017,
+            140.4309998
+        ],
+        "names": [
+            "Fukushima Airport"
         ],
         "outbound": true
     },
@@ -10796,6 +11024,18 @@ const airports = {
         ],
         "names": [
             "Miyako Airport"
+        ],
+        "outbound": true
+    },
+    "RORY": {
+        "iata": "RNJ",
+        "inbound": true,
+        "latlng": [
+            27.044001,
+            128.401993
+        ],
+        "names": [
+            "Yoronjima Yoron Airport"
         ],
         "outbound": true
     },
@@ -11581,18 +11821,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "UTAA": {
-        "iata": "ASB",
-        "inbound": true,
-        "latlng": [
-            37.986801,
-            58.361
-        ],
-        "names": [
-            "Ashgabat International Airport"
-        ],
-        "outbound": true
-    },
     "UTSS": {
         "iata": "SKD",
         "inbound": true,
@@ -11613,8 +11841,7 @@ const airports = {
             69.2811966
         ],
         "names": [
-            "Islam Karimov Tashkent International Airport",
-            "Tashkent-Yuzhny Airport"
+            "Islam Karimov Tashkent International Airport"
         ],
         "outbound": true
     },
@@ -12478,8 +12705,8 @@ const airports = {
         "iata": "DHM",
         "inbound": true,
         "latlng": [
-            32.1651,
-            76.263397
+            32.164902,
+            76.263018
         ],
         "names": [
             "Dharamsala Gaggal Kangra Airport"
@@ -13095,7 +13322,20 @@ const airports = {
             115.167
         ],
         "names": [
+            "I Gusti Ngurah Rai International Airport",
             "I Gusti Ngurah Rai (Bali)"
+        ],
+        "outbound": true
+    },
+    "WARR": {
+        "iata": "SUB",
+        "inbound": true,
+        "latlng": [
+            -7.37983,
+            112.787003
+        ],
+        "names": [
+            "Surabaya Juanda International Airport"
         ],
         "outbound": true
     },
@@ -13156,6 +13396,7 @@ const airports = {
             100.2770004
         ],
         "names": [
+            "Penang International Airport",
             "Penang intl"
         ],
         "outbound": true
@@ -14099,7 +14340,7 @@ const airports = {
         "names": [
             "Pyongyang Sunan International Airport"
         ],
-        "outbound": true
+        "outbound": false
     },
     "ZLDH": {
         "iata": "DNH",
