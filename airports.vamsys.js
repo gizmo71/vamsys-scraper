@@ -828,7 +828,7 @@ const airports = {
             2.3843501
         ],
         "names": [
-            "Cotonou"
+            "Cotonou Cadjehoun"
         ],
         "outbound": true
     },
@@ -881,6 +881,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "DNCA": {
+        "iata": "CBQ",
+        "inbound": true,
+        "latlng": [
+            4.9760199,
+            8.3472004
+        ],
+        "names": [
+            "Calabar Margaret Ekpo"
+        ],
+        "outbound": true
+    },
+    "DNIM": {
+        "iata": "QOW",
+        "inbound": true,
+        "latlng": [
+            5.4270601,
+            7.2060299
+        ],
+        "names": [
+            "Owerri Sam Abakwe"
+        ],
+        "outbound": true
+    },
     "DNKN": {
         "iata": "KAN",
         "inbound": true,
@@ -908,13 +932,25 @@ const airports = {
     },
     "DNPO": {
         "iata": "PHC",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             5.0154901,
             6.9495902
         ],
         "names": [
             "Port Harcourt International"
+        ],
+        "outbound": true
+    },
+    "DNSO": {
+        "iata": "SKO",
+        "inbound": true,
+        "latlng": [
+            12.9162998,
+            5.20719
+        ],
+        "names": [
+            "Sadiq Abubakar III"
         ],
         "outbound": true
     },
@@ -2874,6 +2910,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "FGSL": {
+        "iata": "SSG",
+        "inbound": true,
+        "latlng": [
+            3.75527,
+            8.7087202
+        ],
+        "names": [
+            "Malabo"
+        ],
+        "outbound": true
+    },
     "FIMP": {
         "iata": "MRU",
         "inbound": true,
@@ -2883,6 +2931,7 @@ const airports = {
         ],
         "names": [
             "Sir Seewoosagur Ramgoolam International Airport",
+            "Port Louis Sir Seewoosagur Ramgoolam",
             "Mauritius"
         ],
         "outbound": true
@@ -3140,6 +3189,7 @@ const airports = {
         ],
         "names": [
             "Tenerife South Airport",
+            "Tenrerife South",
             "Teneriffa S\u00fcd",
             "Tenerife Sur"
         ],
@@ -3299,8 +3349,7 @@ const airports = {
             -17.073333
         ],
         "names": [
-            "Blaise Diagne",
-            "Dakar"
+            "Dakar Blaise Diagne"
         ],
         "outbound": true
     },
@@ -3337,6 +3386,18 @@ const airports = {
         ],
         "names": [
             "Espargos Amilcar Cabral International Airport"
+        ],
+        "outbound": true
+    },
+    "GVBA": {
+        "iata": "BVC",
+        "inbound": true,
+        "latlng": [
+            16.1364994,
+            -22.8889008
+        ],
+        "names": [
+            "Boa Vista"
         ],
         "outbound": true
     },
@@ -3715,6 +3776,7 @@ const airports = {
         ],
         "names": [
             "Atlanta Hartsfield\u2013Jackson Atlanta International Airport",
+            "Atlanta Hartsflied-Jackson",
             "Atlanta, GA"
         ],
         "outbound": true
@@ -5671,7 +5733,8 @@ const airports = {
         "names": [
             "Chicago O'Hare International Airport",
             "Chicago O'Hare Intl.",
-            "ORD-Chicago, IL"
+            "ORD-Chicago, IL",
+            "Chicago OHare"
         ],
         "outbound": true
     },
@@ -7017,6 +7080,7 @@ const airports = {
         ],
         "names": [
             "Palma de Mallorca Airport",
+            "Palme de Mallorca",
             "Majorca Palma"
         ],
         "outbound": true
@@ -7299,6 +7363,7 @@ const airports = {
         "names": [
             "Nice Cote d'Azur Airport",
             "Nice Cote D' Azur",
+            "Nice Cote d'Azure",
             "Nice C\u00c3\u00b4te d'Azur",
             "Nizza"
         ],
@@ -8362,9 +8427,9 @@ const airports = {
             -16.7745
         ],
         "names": [
+            "Madeira Funchal Christiano Ronaldo",
             "Funchal Cristiano Ronaldo Airport",
-            "Madeira CR7 Airport",
-            "Funchal Madeira"
+            "Madeira CR7 Airport"
         ],
         "outbound": true
     },
@@ -9236,7 +9301,8 @@ const airports = {
         ],
         "names": [
             "Licenciado Gustavo D\u00edaz Ordaz International Airport",
-            "Puerto Vallarta International Airport"
+            "Puerto Vallarta International Airport",
+            "Licenciado Gustavo D\u00c3\u00adaz Ordaz"
         ],
         "outbound": true
     },
@@ -9917,6 +9983,19 @@ const airports = {
         ],
         "outbound": true
     },
+    "OMDW": {
+        "iata": "DWC",
+        "inbound": true,
+        "latlng": [
+            24.896356,
+            55.161389
+        ],
+        "names": [
+            "Dubai World Central",
+            "Al Maktoum"
+        ],
+        "outbound": true
+    },
     "OMRK": {
         "iata": "RKT",
         "inbound": true,
@@ -9973,7 +10052,8 @@ const airports = {
             72.82566
         ],
         "names": [
-            "Islamabad International Airport"
+            "Islamabad International Airport",
+            "New Islamabad"
         ],
         "outbound": true
     },
@@ -9997,7 +10077,8 @@ const airports = {
             74.403603
         ],
         "names": [
-            "Lahore Allama Iqbal International"
+            "Lahore Allama Iqbal International",
+            "Alama Iqbal"
         ],
         "outbound": true
     },
@@ -11537,6 +11618,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "TLPC": {
+        "iata": "SLU",
+        "inbound": true,
+        "latlng": [
+            14.0202,
+            -60.992901
+        ],
+        "names": [
+            "Castries George F. L. Charles"
+        ],
+        "outbound": true
+    },
     "TLPL": {
         "iata": "UVF",
         "inbound": true,
@@ -11633,7 +11726,8 @@ const airports = {
             -61.149945
         ],
         "names": [
-            "Kingstown Argyle International Airport"
+            "Kingstown Argyle International Airport",
+            "Kingston Argyle"
         ],
         "outbound": true
     },
@@ -13230,6 +13324,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VTBD": {
+        "iata": "DMK",
+        "inbound": true,
+        "latlng": [
+            13.9125996,
+            100.6070023
+        ],
+        "names": [
+            "Bangkok Don Mueang"
+        ],
+        "outbound": true
+    },
     "VTBS": {
         "iata": "BKK",
         "inbound": true,
@@ -13278,6 +13384,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VVDN": {
+        "iata": "DAD",
+        "inbound": true,
+        "latlng": [
+            16.0439,
+            108.198997
+        ],
+        "names": [
+            "Da Nang"
+        ],
+        "outbound": true
+    },
     "VVNB": {
         "iata": "HAN",
         "inbound": true,
@@ -13323,7 +13441,8 @@ const airports = {
         ],
         "names": [
             "I Gusti Ngurah Rai International Airport",
-            "I Gusti Ngurah Rai (Bali)"
+            "I Gusti Ngurah Rai (Bali)",
+            "Denpasar Ngurah Rai"
         ],
         "outbound": true
     },
@@ -13425,6 +13544,42 @@ const airports = {
         ],
         "outbound": true
     },
+    "YABA": {
+        "iata": "ALH",
+        "inbound": true,
+        "latlng": [
+            -34.9432983,
+            117.8089981
+        ],
+        "names": [
+            "Albany"
+        ],
+        "outbound": true
+    },
+    "YANG": {
+        "iata": "WLP",
+        "inbound": true,
+        "latlng": [
+            -23.1355556,
+            118.7072222
+        ],
+        "names": [
+            "West Angelas"
+        ],
+        "outbound": true
+    },
+    "YARG": {
+        "iata": "GYL",
+        "inbound": true,
+        "latlng": [
+            -16.6369,
+            128.451004
+        ],
+        "names": [
+            "Argyle"
+        ],
+        "outbound": false
+    },
     "YAYE": {
         "iata": "AYQ",
         "inbound": true,
@@ -13485,6 +13640,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YBGD": {
+        "iata": "OCM",
+        "inbound": true,
+        "latlng": [
+            -22.54,
+            117.275
+        ],
+        "names": [
+            "Boolgeeda"
+        ],
+        "outbound": true
+    },
     "YBHM": {
         "iata": "HTI",
         "inbound": true,
@@ -13493,9 +13660,9 @@ const airports = {
             148.9519959
         ],
         "names": [
-            "Hamilton Island"
+            "Hamilton Island Great Barrier Reed"
         ],
-        "outbound": false
+        "outbound": true
     },
     "YBLN": {
         "iata": "BQB",
@@ -13505,7 +13672,20 @@ const airports = {
             115.401596
         ],
         "names": [
-            "Busselton Regional"
+            "Busselton Regional",
+            "Brusselton"
+        ],
+        "outbound": true
+    },
+    "YBMA": {
+        "iata": "ISA",
+        "inbound": true,
+        "latlng": [
+            -20.6639004,
+            139.4889984
+        ],
+        "names": [
+            "Mount Isa"
         ],
         "outbound": true
     },
@@ -13519,7 +13699,7 @@ const airports = {
         "names": [
             "Mackay"
         ],
-        "outbound": false
+        "outbound": true
     },
     "YBNA": {
         "iata": "BNK",
@@ -13531,7 +13711,7 @@ const airports = {
         "names": [
             "Ballina Byron Gateway"
         ],
-        "outbound": false
+        "outbound": true
     },
     "YBPN": {
         "iata": "PPP",
@@ -13543,7 +13723,19 @@ const airports = {
         "names": [
             "Proserpine Whitsunday Coast"
         ],
-        "outbound": false
+        "outbound": true
+    },
+    "YBRK": {
+        "iata": "ROK",
+        "inbound": true,
+        "latlng": [
+            -23.380019,
+            150.475359
+        ],
+        "names": [
+            "Rockhampton"
+        ],
+        "outbound": true
     },
     "YBRM": {
         "iata": "BME",
@@ -13557,6 +13749,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YBRY": {
+        "iata": "BYP",
+        "inbound": true,
+        "latlng": [
+            -22.6739006,
+            119.1660004
+        ],
+        "names": [
+            "Barimunya"
+        ],
+        "outbound": true
+    },
     "YBSU": {
         "iata": "MCY",
         "inbound": true,
@@ -13567,7 +13771,7 @@ const airports = {
         "names": [
             "Sunshine Coast"
         ],
-        "outbound": false
+        "outbound": true
     },
     "YBTL": {
         "iata": "TSV",
@@ -13578,6 +13782,42 @@ const airports = {
         ],
         "names": [
             "Townsville Airport"
+        ],
+        "outbound": true
+    },
+    "YCWA": {
+        "iata": "CJF",
+        "inbound": true,
+        "latlng": [
+            -22.9666996,
+            118.8130035
+        ],
+        "names": [
+            "Coondewanna"
+        ],
+        "outbound": true
+    },
+    "YEML": {
+        "iata": "EMD",
+        "inbound": true,
+        "latlng": [
+            -23.5674992,
+            148.1790009
+        ],
+        "names": [
+            "Emerald"
+        ],
+        "outbound": true
+    },
+    "YGEL": {
+        "iata": "GET",
+        "inbound": true,
+        "latlng": [
+            -28.796101,
+            114.707001
+        ],
+        "names": [
+            "Geraldton"
         ],
         "outbound": true
     },
@@ -13593,6 +13833,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "YGLA": {
+        "iata": "GLT",
+        "inbound": true,
+        "latlng": [
+            -23.869763,
+            151.225439
+        ],
+        "names": [
+            "Gladstone"
+        ],
+        "outbound": true
+    },
+    "YGRM": {
+        "iata": "GYZ",
+        "inbound": true,
+        "latlng": [
+            -28.034548,
+            123.81506
+        ],
+        "names": [
+            "Gruyere Mine Site"
+        ],
+        "outbound": true
+    },
     "YHBA": {
         "iata": "HVB",
         "inbound": true,
@@ -13602,6 +13866,30 @@ const airports = {
         ],
         "names": [
             "Hervey Bay"
+        ],
+        "outbound": true
+    },
+    "YKDD": {
+        "iata": "OOD",
+        "inbound": true,
+        "latlng": [
+            -22.504291,
+            119.07683
+        ],
+        "names": [
+            "Koodaideri Mine"
+        ],
+        "outbound": true
+    },
+    "YLEO": {
+        "iata": "LNO",
+        "inbound": true,
+        "latlng": [
+            -28.8780994,
+            121.3150024
+        ],
+        "names": [
+            "Leonora"
         ],
         "outbound": true
     },
@@ -13639,7 +13927,7 @@ const airports = {
         "names": [
             "Launceston"
         ],
-        "outbound": false
+        "outbound": true
     },
     "YMML": {
         "iata": "MEL",
@@ -13665,6 +13953,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "YOLW": {
+        "iata": "ONS",
+        "inbound": true,
+        "latlng": [
+            -21.670161,
+            115.114902
+        ],
+        "names": [
+            "Onslow"
+        ],
+        "outbound": true
+    },
     "YPAD": {
         "iata": "ADL",
         "inbound": true,
@@ -13674,6 +13974,18 @@ const airports = {
         ],
         "names": [
             "Adelaide"
+        ],
+        "outbound": true
+    },
+    "YPCC": {
+        "iata": "CCK",
+        "inbound": true,
+        "latlng": [
+            -12.19134,
+            96.833696
+        ],
+        "names": [
+            "Cocos (Keeling) Islands"
         ],
         "outbound": true
     },
@@ -13710,6 +14022,30 @@ const airports = {
         ],
         "names": [
             "Kalgoorlie Boulder Airport"
+        ],
+        "outbound": true
+    },
+    "YPKU": {
+        "iata": "KNX",
+        "inbound": true,
+        "latlng": [
+            -15.7781,
+            128.707993
+        ],
+        "names": [
+            "Kununurra East Kimberley"
+        ],
+        "outbound": true
+    },
+    "YPLM": {
+        "iata": "LEA",
+        "inbound": true,
+        "latlng": [
+            -22.235201,
+            114.090024
+        ],
+        "names": [
+            "Learmonth"
         ],
         "outbound": true
     },
@@ -13783,6 +14119,18 @@ const airports = {
         ],
         "names": [
             "Newcastle"
+        ],
+        "outbound": true
+    },
+    "YWWI": {
+        "iata": "WWI",
+        "inbound": true,
+        "latlng": [
+            -21.64551,
+            121.191184
+        ],
+        "names": [
+            "Woodie Woodie"
         ],
         "outbound": true
     },

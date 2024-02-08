@@ -273,6 +273,17 @@ const airlines = {
         "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+36.1 Hours (18.1 PIREPs)\n\t+2561.0 Points (12.5 PIREPs)\nFirst Officer:\n\t+136.1 Hours (68.4 PIREPs)\n\t+12561.0 Points (61.1 PIREPs)\nSenior First Officer:\n\t+286.1 Hours (143.8 PIREPs)\n\t+26061.0 Points (126.8 PIREPs)\nCaptain:\n\t+586.1 Hours (294.6 PIREPs)\n\t+58561.0 Points (284.9 PIREPs)\nTraining Captain:\n\t+986.1 Hours (495.6 PIREPs)\n\t+98561.0 Points (479.4 PIREPs)\nBase Captain:\n\t+1986.1 Hours (998.2 PIREPs)\n\t+198561.0 Points (965.9 PIREPs)\nTime mode: block",
         "sortName": "Canada"
     },
+    "1316": {
+        "callsigns": [
+            "VGN",
+            "VIR",
+            "VOZ",
+            "VRD"
+        ],
+        "name": "Virgin",
+        "rank_info": "Flight-Attendant:\n\t+9.5 Hours (18.1 PIREPs)\nPurser:\n\t+19.5 Hours (37.3 PIREPs)\nTrainee:\n\t+49.5 Hours (94.6 PIREPs)\n\t+1860.0 Points (13.3 PIREPs)\nSecond Officer:\n\t+99.5 Hours (190.3 PIREPs)\n\t+3860.0 Points (27.6 PIREPs)\nFirst Officer:\n\t+199.5 Hours (381.6 PIREPs)\n\t+7360.0 Points (52.6 PIREPs)\n\t+860.0 Bonus Points (6.1 PIREPs)\nSenior First Officer:\n\t+499.5 Hours (955.4 PIREPs)\n\t+19860.0 Points (141.9 PIREPs)\n\t+4860.0 Bonus Points (34.7 PIREPs)\nCaptain:\n\t+999.5 Hours (1911.9 PIREPs)\n\t+39860.0 Points (284.7 PIREPs)\n\t+9860.0 Bonus Points (70.4 PIREPs)\nVRGN Captain:\n\t+1999.5 Hours (3824.7 PIREPs)\n\t+79860.0 Points (570.4 PIREPs)\n\t+19860.0 Bonus Points (141.9 PIREPs)\nTime mode: air",
+        "sortName": "Virgin"
+    },
     "1500": {
         "callsigns": [
             "AAY"
