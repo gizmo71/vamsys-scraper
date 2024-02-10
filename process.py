@@ -48,6 +48,7 @@ airline_mappings = {
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
     'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
     'Jetstar Virtual'                  :{'display_name':'JetStar'},
+    'Lion Group Virtual'               :{'display_name':'Lion Group', 'type_mapping':{'AT75':'AT76'}}, # Don't think there's really a -500 for MSFS.
     'LH-Virtual'                       :{'display_name':'Lufthansa', 'type_mapping':{'A21F':'A321'}},
     'VQFA'                             :{'display_name':'Qantas'},
     'vQatar'                           :{'display_name':'Qatar'},
@@ -56,6 +57,7 @@ airline_mappings = {
     'vspirit'                          :{'display_name':'Spirit', 'type_mapping':{'A319':'-', 'A320':'-', 'A321':'-', 'A21N':'-'}},
     'vTCXgroup'                        :{'sort_name':'Thomas Cook', 'type_mapping':{'A321':'A21N'}},
     'Titan Virtual'                    :{'display_name':'Titan'},
+    'VRGN Virtual'                     :{'display_name':'Virgin'},
     'Virtual United'                   :{'display_name':'United', 'type_mapping':{'A20N':'A320', 'A321':'A21N', 'E175':'E75L'}},
     'WZZ Virtual'                      :{'display_name':'Wizz'},
 }
