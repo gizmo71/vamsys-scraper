@@ -309,9 +309,9 @@ const airlines = {
             "TLM",
             "WON"
         ],
-        "name": "Lion Group Virtual",
+        "name": "Lion Group",
         "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+48.8 Hours (39.2 PIREPs)\n\t+2164.0 Points (1.2 PIREPs)\nFirst Officer:\n\t+148.8 Hours (119.5 PIREPs)\n\t+12164.0 Points (6.6 PIREPs)\nSenior First Officer:\n\t+298.8 Hours (239.9 PIREPs)\n\t+25664.0 Points (14.0 PIREPs)\nCaptain:\n\t+598.8 Hours (480.8 PIREPs)\n\t+58164.0 Points (31.7 PIREPs)\nTime mode: block",
         "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-03-11",
-        "sortName": "Lion Group Virtual"
+        "sortName": "Lion Group"
     }
 };
