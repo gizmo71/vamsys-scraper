@@ -15,7 +15,7 @@ const airlines = {
             "RYR"
         ],
         "name": "Ryanair",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+115.1 Hours (94.5 PIREPs)\n\t+12333.0 Points (42.3 PIREPs)\nType Rating Instructor:\n\t+305.1 Hours (250.5 PIREPs)\n\t+32933.0 Points (112.9 PIREPs)\nCaptain:\n\t+595.1 Hours (488.7 PIREPs)\n\t+64833.0 Points (222.2 PIREPs)\nLine Training Captain:\n\t+845.1 Hours (694.0 PIREPs)\n\t+92333.0 Points (316.5 PIREPs)\nType Rating Examiner:\n\t+1195.1 Hours (981.3 PIREPs)\n\t+130833.0 Points (448.4 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+113.4 Hours (85.5 PIREPs)\n\t+12098.0 Points (43.1 PIREPs)\nType Rating Instructor:\n\t+303.4 Hours (228.7 PIREPs)\n\t+32698.0 Points (116.6 PIREPs)\nCaptain:\n\t+593.4 Hours (447.3 PIREPs)\n\t+64598.0 Points (230.4 PIREPs)\nLine Training Captain:\n\t+843.4 Hours (635.7 PIREPs)\n\t+92098.0 Points (328.5 PIREPs)\nType Rating Examiner:\n\t+1193.4 Hours (899.5 PIREPs)\n\t+130598.0 Points (465.8 PIREPs)\nTime mode: air",
         "sortName": "Ryanair"
     },
     "9": {
