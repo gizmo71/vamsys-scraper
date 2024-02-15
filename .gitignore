@@ -1,4 +1,5 @@
 vamsys.*.json
+vamsys.*.png
 vamsys.py
 *.vamsys.js
 __pycache__

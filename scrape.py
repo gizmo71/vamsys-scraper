@@ -36,13 +36,14 @@ class ExitHooks(object):
         driver.quit()
 
 logging.basicConfig(stream=sys.stdout)
-logging.getLogger("selenium").setLevel(logging.DEBUG)
+#logging.getLogger("selenium").setLevel(logging.DEBUG)
 
 options = Options()
 options.add_argument("--headless=new")
 options.add_argument("--no-sandbox") # Only needed to run as root
 driver_manager = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
 driver = webdriver.Chrome(service=ChromiumService(driver_manager), options=options, seleniumwire_options={'request_storage': 'memory'})
+driver.set_window_size(1280, 768)
 driver.scopes = [ '.*/api/v1/.*' ]
 
 ExitHooks()
@@ -121,6 +122,7 @@ for pilot_id in pilot_ids:
     sleep(1)
     driver.get("https://vamsys.io/documents/ranks")
     airline_and_map['ranks_html'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@id = 'app']")).get_attribute('outerHTML')
+    driver.save_screenshot(f"vamsys.{pilot_id}.png")
 
     with open(f'vamsys.{pilot_id}.json', 'w', encoding="utf-8") as f:
         json.dump(airline_and_map, f, indent=4)
