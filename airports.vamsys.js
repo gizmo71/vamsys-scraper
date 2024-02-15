@@ -743,8 +743,7 @@ const airports = {
             -79.6306
         ],
         "names": [
-            "Toronto Lester B. Pearson International Aiport",
-            "Lester b pearson int"
+            "Toronto Lester B. Pearson International Aiport"
         ],
         "outbound": true
     },
@@ -1548,8 +1547,8 @@ const airports = {
         "iata": "BHX",
         "inbound": true,
         "latlng": [
-            52.4538994,
-            -1.7480299
+            52.453899,
+            -1.74803
         ],
         "names": [
             "Birmingham International"
@@ -2418,8 +2417,8 @@ const airports = {
         "iata": "KTW",
         "inbound": true,
         "latlng": [
-            50.4743,
-            19.08
+            50.476015,
+            19.080705
         ],
         "names": [
             "Katowice International Airport"
@@ -3265,7 +3264,7 @@ const airports = {
         "names": [
             "Oujda - Angads"
         ],
-        "outbound": true
+        "outbound": false
     },
     "GMME": {
         "iata": "RBA",
@@ -3326,18 +3325,6 @@ const airports = {
             "Marrakesh Menara Airport",
             "Marrakesch-Menara",
             "Marrakech"
-        ],
-        "outbound": true
-    },
-    "GMMZ": {
-        "iata": "OZZ",
-        "inbound": false,
-        "latlng": [
-            30.9391003,
-            -6.90943
-        ],
-        "names": [
-            "Ouarzazate intl"
         ],
         "outbound": true
     },
@@ -5292,6 +5279,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KLGB": {
+        "iata": "LGB",
+        "inbound": true,
+        "latlng": [
+            33.816523,
+            -118.149891
+        ],
+        "names": [
+            "Long Beach Airport"
+        ],
+        "outbound": true
+    },
     "KLIT": {
         "iata": "LIT",
         "inbound": true,
@@ -6206,7 +6205,7 @@ const airports = {
             -119.8399963
         ],
         "names": [
-            "Santa Barbara"
+            "Santa Barbara Municipal Airport"
         ],
         "outbound": true
     },
@@ -7546,8 +7545,8 @@ const airports = {
         "iata": "IOA",
         "inbound": true,
         "latlng": [
-            39.6963997,
-            20.8225002
+            39.6964,
+            20.8225
         ],
         "names": [
             "Ioannina National Airport"
@@ -8453,8 +8452,7 @@ const airports = {
             -8.6813898
         ],
         "names": [
-            "Francisco de Sa Carneiro Airport",
-            "Porto Francisco de Sa Carneiro"
+            "Porto Francisco de Sa Carneiro Airport"
         ],
         "outbound": true
     },
@@ -8749,7 +8747,7 @@ const airports = {
         "names": [
             "Adana Sakirpasa"
         ],
-        "outbound": true
+        "outbound": false
     },
     "LTAI": {
         "iata": "AYT",
@@ -8809,7 +8807,7 @@ const airports = {
         "names": [
             "Trabzon Airport"
         ],
-        "outbound": true
+        "outbound": false
     },
     "LTFE": {
         "iata": "BJV",
@@ -10893,18 +10891,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "RJSC": {
-        "iata": "GAJ",
-        "inbound": false,
-        "latlng": [
-            38.4119,
-            140.371002
-        ],
-        "names": [
-            "Yamagata"
-        ],
-        "outbound": true
-    },
     "RJSF": {
         "iata": "FKS",
         "inbound": true,
@@ -10926,18 +10912,6 @@ const airports = {
         ],
         "names": [
             "Akita Airport"
-        ],
-        "outbound": true
-    },
-    "RJSM": {
-        "iata": "MSJ",
-        "inbound": false,
-        "latlng": [
-            40.703201,
-            141.367996
-        ],
-        "names": [
-            "Misawa ab"
         ],
         "outbound": true
     },
@@ -11215,8 +11189,7 @@ const airports = {
             -43.250557
         ],
         "names": [
-            "Rio de Janeiro/Gale\u00e3o International",
-            "Galeao-antonio carlo"
+            "Rio de Janeiro/Gale\u00e3o International"
         ],
         "outbound": true
     },
@@ -11315,10 +11288,9 @@ const airports = {
             -73.1848
         ],
         "names": [
-            "Bucaramunga Palonegro Intl. Airport",
-            "Bucaramanga, Colombia"
+            "Bucaramunga Palonegro Intl. Airport"
         ],
-        "outbound": true
+        "outbound": false
     },
     "SKBO": {
         "iata": "BOG",
@@ -11765,6 +11737,18 @@ const airports = {
         ],
         "names": [
             "Nursultan Nazarbayev International Airport"
+        ],
+        "outbound": true
+    },
+    "UAIT": {
+        "iata": "HSA",
+        "inbound": true,
+        "latlng": [
+            43.313126,
+            68.549881
+        ],
+        "names": [
+            "Hazrat Sultan International Airport"
         ],
         "outbound": true
     },
@@ -13360,18 +13344,6 @@ const airports = {
         ],
         "names": [
             "Chiang Mai International Airport"
-        ],
-        "outbound": true
-    },
-    "VTSG": {
-        "iata": "KBV",
-        "inbound": false,
-        "latlng": [
-            8.0991201,
-            98.9861984
-        ],
-        "names": [
-            "Krabi"
         ],
         "outbound": true
     },
