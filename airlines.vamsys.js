@@ -239,9 +239,9 @@ const airlines = {
             "FFT",
             "VOI"
         ],
-        "last_pirep_start": "2023-12-30T11:00:45.000000Z",
+        "last_pirep_start": "2024-02-17T12:56:10.000000Z",
         "name": "Frontier",
-        "rank_info": "First Officer:\n\t+45.7 Hours (42.3 PIREPs)\nSenior First Officer:\n\t+245.7 Hours (227.3 PIREPs)\n\t+2327.0 Points (13.8 PIREPs)\nCaptain:\n\t+495.7 Hours (458.6 PIREPs)\n\t+4327.0 Points (25.7 PIREPs)\n\t+4500.0 Bonus Points (36.0 PIREPs)\nSenior Captain:\n\t+1495.7 Hours (1383.9 PIREPs)\n\t+99327.0 Points (590.4 PIREPs)\n\t+5500.0 Bonus Points (44.0 PIREPs)\nBase Captain:\n\t+2995.7 Hours (2771.8 PIREPs)\n\t+199327.0 Points (1184.7 PIREPs)\n\t+9500.0 Bonus Points (76.0 PIREPs)\nTime mode: block",
+        "rank_info": "First Officer:\n\t+44.3 Hours (39.1 PIREPs)\nSenior First Officer:\n\t+244.3 Hours (215.4 PIREPs)\n\t+2170.0 Points (13.1 PIREPs)\nCaptain:\n\t+494.3 Hours (435.7 PIREPs)\n\t+4170.0 Points (25.1 PIREPs)\n\t+4500.0 Bonus Points (45.0 PIREPs)\nSenior Captain:\n\t+1494.3 Hours (1317.2 PIREPs)\n\t+99170.0 Points (597.4 PIREPs)\n\t+5500.0 Bonus Points (55.0 PIREPs)\nBase Captain:\n\t+2994.3 Hours (2639.3 PIREPs)\n\t+199170.0 Points (1199.8 PIREPs)\n\t+9500.0 Bonus Points (95.0 PIREPs)\nTime mode: block",
         "sortName": "Frontier"
     },
     "1005": {
@@ -324,9 +324,9 @@ const airlines = {
         "callsigns": [
             "JST"
         ],
-        "last_pirep_start": "2024-02-15T14:37:43.000000Z",
+        "last_pirep_start": "2024-02-18T07:19:20.000000Z",
         "name": "JetStar",
-        "rank_info": "Bonus points not included in normal points total\nFirst Officer:\n\t+3.3 Hours (2.1 PIREPs)\n\t+370.0 Points (1.8 PIREPs)\nSenior First Officer:\n\t+115.3 Hours (73.7 PIREPs)\n\t+7370.0 Points (35.1 PIREPs)\nCaptain:\n\t+345.3 Hours (220.7 PIREPs)\n\t+14370.0 Points (68.4 PIREPs)\nSenior Captain:\n\t+495.3 Hours (316.5 PIREPs)\n\t+1870.0 Points (8.9 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nFirst Officer:\n\t+0.9 Hours (0.5 PIREPs)\n\t+150.0 Points (0.7 PIREPs)\nSenior First Officer:\n\t+112.9 Hours (63.8 PIREPs)\n\t+7150.0 Points (33.6 PIREPs)\nCaptain:\n\t+342.9 Hours (193.7 PIREPs)\n\t+14150.0 Points (66.6 PIREPs)\nSenior Captain:\n\t+492.9 Hours (278.4 PIREPs)\n\t+1650.0 Points (7.8 PIREPs)\nTime mode: block",
         "sortName": "JetStar"
     },
     "1613": {
