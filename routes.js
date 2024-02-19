@@ -1,11 +1,16 @@
 for (const [id, airline] of Object.entries(airlines).toSorted(([id1, airline1], [id2, airline2]) => airline1.sortName.localeCompare(airline2.sortName))) {
     var elementId = "airline-" + id;
+    var lastPirepDaysAgo = Math.ceil((Date.now() - Date.parse(airline['last_pirep_start'])) / 86400000)
+    var days = `+${lastPirepDaysAgo}`;
+    if (airline.requirements) {
+        days = `${days}<sup title='${airline.requirements}'>*</sup>`;
+    }
     var callsignSelectors = airline.callsigns.map(callsign => `<input id='${id}-${callsign}' type='checkbox' checked onmouseover='redraw("${id}-${callsign}", undefined);' onmouseout='redraw();' />`
         + `<label for='${id}-${callsign}'>${callsign}</label>`);
     document.getElementById("airline-picker").insertAdjacentHTML('beforeend',
         `<li onmouseout='document.getElementById("callsigns-${id}").style.display = "none";' onmouseover='document.getElementById("callsigns-${id}").style.display = "block";'>`
         + `<input type='checkbox' onmouseover='redraw("${id}-", undefined);' onmouseout='redraw();' onChange='airlineChanged(this, ${id}); redraw();' checked id='${elementId}'>`
-        + `<label for='${elementId}' title='${airline.rank_info}'>${airline.name}</label>` + (airline.requirements ? `<sup title='${airline.requirements}'>*</sup>` : "")
+        + `<label for='${elementId}' title='${airline.rank_info}'>${airline.name}</label> ${days}`
         + `<span style='float:right; position: absolute; background-color: #BFBFBF; display: none; margin-left: 1em;' id='callsigns-${id}'>${callsignSelectors.join('<br/>')}</span></li>`);
     airline.cb = document.getElementById(elementId);
 }
@@ -14,10 +19,19 @@ function airlineChanged(overallCheckbox, id) {
     var callsignCheckboxes = document.querySelectorAll(`[id^="${id}-"]`).forEach(callsignCheckbox => callsignCheckbox.checked = overallCheckbox.checked);
 }
 
+function excludeType(cb) {
+    //TODO: https://stackoverflow.com/questions/50699948/checkbox-with-three-states for "not" on airlines or types?
+    //window.alert('TODO not ' + cb.id);
+    //cb.readonly = !cb.readonly;
+    // Disabling it then stops the right click being seen again. :-( Perhaps we could hide it and show something else which was itself right-clickable?
+    // Deselect radio? https://ux.stackexchange.com/a/140978
+    return false;
+}
+
 for (const [index, icao] of Object.entries(aircraft)) {
     var flyable = icao == 'A319' || icao == 'A320' || icao == 'A20N' || icao == 'A21N' || icao == 'A339';
     document.getElementById("aircraft-picker").insertAdjacentHTML('beforeend',
-        `<li><input type='checkbox' ${flyable ? 'checked ' : ''}id='type-${icao}' onmouseover='redraw(undefined, "${icao}");' onmouseout='redraw();' onChange='redraw();'>`
+        `<li><input type='checkbox' class='wiggle' ${flyable ? 'checked ' : ''}id='type-${icao}' onmouseover='redraw(undefined, "${icao}");' onmouseout='redraw();' onChange='redraw();' oncontextmenu="return excludeType(this);">`
         + `<label for='type-${icao}' />${icao}</li>`);
 }
 
