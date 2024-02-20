@@ -261,9 +261,9 @@ const airlines = {
             "REP",
             "SKW"
         ],
-        "last_pirep_start": "2023-12-30T09:19:20.000000Z",
+        "last_pirep_start": "2024-02-20T14:59:15.000000Z",
         "name": "Delta",
-        "rank_info": "First Officer:\n\t+39.3 Hours (36.9 PIREPs)\nSenior First Officer:\n\t+89.3 Hours (83.8 PIREPs)\n\t+2072.0 Points (10.7 PIREPs)\nCaptain:\n\t+189.3 Hours (177.7 PIREPs)\n\t+8072.0 Points (41.9 PIREPs)\n\t+900.0 Bonus Points (90.0 PIREPs)\nSenior Captain:\n\t+439.3 Hours (412.2 PIREPs)\n\t+23072.0 Points (119.7 PIREPs)\n\t+1400.0 Bonus Points (140.0 PIREPs)\nBase Captain:\n\t+539.3 Hours (506.1 PIREPs)\n\t+48072.0 Points (249.3 PIREPs)\n\t+2400.0 Bonus Points (240.0 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+37.7 Hours (33.7 PIREPs)\nSenior First Officer:\n\t+87.7 Hours (78.5 PIREPs)\n\t+1887.0 Points (9.8 PIREPs)\nCaptain:\n\t+187.7 Hours (168.0 PIREPs)\n\t+7887.0 Points (41.1 PIREPs)\n\t+900.0 Bonus Points (99.0 PIREPs)\nSenior Captain:\n\t+437.7 Hours (391.6 PIREPs)\n\t+22887.0 Points (119.1 PIREPs)\n\t+1400.0 Bonus Points (154.0 PIREPs)\nBase Captain:\n\t+537.7 Hours (481.1 PIREPs)\n\t+47887.0 Points (249.3 PIREPs)\n\t+2400.0 Bonus Points (264.0 PIREPs)\nTime mode: air",
         "sortName": "Delta"
     },
     "1131": {
