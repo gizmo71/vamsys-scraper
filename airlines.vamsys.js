@@ -282,6 +282,8 @@ const airlines = {
             "ACV",
             "ANA",
             "DAL",
+            "DHK",
+            "ETD",
             "FDX",
             "JZA",
             "LOT",

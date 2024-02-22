@@ -1333,7 +1333,8 @@ const airports = {
             9.51149
         ],
         "names": [
-            "Friedrichshafen Airport (Bodensee Airport)"
+            "Friedrichshafen Airport (Bodensee Airport)",
+            "Friedrichschafen Airport"
         ],
         "outbound": true
     },
@@ -5189,7 +5190,7 @@ const airports = {
             -101.822998
         ],
         "names": [
-            "Lubbock"
+            "Lubbock Preston Smith International Airport"
         ],
         "outbound": true
     },
@@ -8890,7 +8891,8 @@ const airports = {
             21.622581
         ],
         "names": [
-            "Skopje International Airport"
+            "Skopje International Airport",
+            "Skopje Intl Airport"
         ],
         "outbound": true
     },
@@ -9965,7 +9967,8 @@ const airports = {
             54.651718
         ],
         "names": [
-            "Abu Dhabi International Airport"
+            "Abu Dhabi International Airport",
+            "Zayed International Airport"
         ],
         "outbound": true
     },
