@@ -296,9 +296,9 @@ const airlines = {
             "UPS",
             "WJA"
         ],
-        "last_pirep_start": "2024-02-01T14:19:25.000000Z",
+        "last_pirep_start": "2024-02-23T15:11:58.000000Z",
         "name": "Air Canada",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+36.1 Hours (18.1 PIREPs)\n\t+2561.0 Points (12.5 PIREPs)\nFirst Officer:\n\t+136.1 Hours (68.4 PIREPs)\n\t+12561.0 Points (61.1 PIREPs)\nSenior First Officer:\n\t+286.1 Hours (143.8 PIREPs)\n\t+26061.0 Points (126.8 PIREPs)\nCaptain:\n\t+586.1 Hours (294.6 PIREPs)\n\t+58561.0 Points (284.9 PIREPs)\nTraining Captain:\n\t+986.1 Hours (495.6 PIREPs)\n\t+98561.0 Points (479.4 PIREPs)\nBase Captain:\n\t+1986.1 Hours (998.2 PIREPs)\n\t+198561.0 Points (965.9 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+35.2 Hours (19.0 PIREPs)\n\t+2411.0 Points (12.1 PIREPs)\nFirst Officer:\n\t+135.2 Hours (73.1 PIREPs)\n\t+12411.0 Points (62.5 PIREPs)\nSenior First Officer:\n\t+285.2 Hours (154.2 PIREPs)\n\t+25911.0 Points (130.5 PIREPs)\nCaptain:\n\t+585.2 Hours (316.4 PIREPs)\n\t+58411.0 Points (294.1 PIREPs)\nTraining Captain:\n\t+985.2 Hours (532.7 PIREPs)\n\t+98411.0 Points (495.5 PIREPs)\nBase Captain:\n\t+1985.2 Hours (1073.4 PIREPs)\n\t+198411.0 Points (998.9 PIREPs)\nTime mode: block",
         "sortName": "Canada"
     },
     "1316": {
