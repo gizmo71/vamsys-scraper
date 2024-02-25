@@ -9526,7 +9526,7 @@ const airports = {
             -82.4091034
         ],
         "names": [
-            "Havana Jos\u00e9 Mart\u00ed International Airport",
+            "Havana Jose Marti International Airport",
             "JOSE MARTI INT'L AIRPORT",
             "Havanna"
         ],
