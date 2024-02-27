@@ -4833,6 +4833,7 @@ const airports = {
             -107.218002
         ],
         "names": [
+            "Yampa Valley Regional Airport",
             "Haydan/Steamboat Springs"
         ],
         "outbound": true
@@ -7993,8 +7994,8 @@ const airports = {
         "iata": "BGY",
         "inbound": true,
         "latlng": [
-            45.673901,
-            9.70417
+            45.670725,
+            9.709223
         ],
         "names": [
             "Milan Bergamo Il Caravaggio International Airport",
@@ -8019,12 +8020,12 @@ const airports = {
         "iata": "GOA",
         "inbound": true,
         "latlng": [
-            44.4133,
-            8.8375
+            44.412039,
+            8.840732
         ],
         "names": [
             "Genoa Cristoforo Colombo Airport",
-            "Genova"
+            "Genova City Airport"
         ],
         "outbound": true
     },

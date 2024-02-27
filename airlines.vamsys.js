@@ -52,10 +52,10 @@ const airlines = {
             "EIN",
             "EUK"
         ],
-        "last_pirep_start": "2024-02-19T15:05:35.000000Z",
+        "last_pirep_start": "2024-02-26T15:14:49.000000Z",
         "name": "Aer Lingus",
-        "rank_info": "Bonus points count towards normal points total\nSenior First Officer:\n\t+68.7 Hours (55.0 PIREPs)\n\t+2160.0 Points (5.5 PIREPs)\nCaptain:\n\t+268.7 Hours (215.0 PIREPs)\n\t+20160.0 Points (51.2 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+868.7 Hours (695.0 PIREPs)\n\t+65160.0 Points (165.5 PIREPs)\n\t+7600.0 Bonus Points (43.2 PIREPs)\nBase Chief Pilot:\n\t+1468.7 Hours (1174.9 PIREPs)\n\t+120160.0 Points (305.3 PIREPs)\n\t+15600.0 Bonus Points (88.6 PIREPs)\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-03-20",
+        "rank_info": "Bonus points count towards normal points total\nSenior First Officer:\n\t+67.9 Hours (55.0 PIREPs)\n\t+1590.0 Points (4.0 PIREPs)\nCaptain:\n\t+267.9 Hours (217.0 PIREPs)\n\t+19590.0 Points (48.9 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+867.9 Hours (702.9 PIREPs)\n\t+64590.0 Points (161.3 PIREPs)\n\t+7200.0 Bonus Points (39.0 PIREPs)\nBase Chief Pilot:\n\t+1467.9 Hours (1188.8 PIREPs)\n\t+119590.0 Points (298.7 PIREPs)\n\t+15200.0 Bonus Points (82.3 PIREPs)\nTime mode: air",
+        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-03-27",
         "sortName": "Linugs"
     },
     "35": {
@@ -156,9 +156,9 @@ const airlines = {
         "callsigns": [
             "JBU"
         ],
-        "last_pirep_start": "2024-01-09T14:50:03.000000Z",
+        "last_pirep_start": "2024-02-27T14:45:46.000000Z",
         "name": "JetBlue",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+39.8 Hours (39.1 PIREPs)\n\t+1865.0 Points (8.7 PIREPs)\nSenior First Officer:\n\t+189.8 Hours (186.3 PIREPs)\n\t+14865.0 Points (69.6 PIREPs)\nCaptain:\n\t+489.8 Hours (480.7 PIREPs)\n\t+42865.0 Points (200.8 PIREPs)\nTraining Captain:\n\t+989.8 Hours (971.4 PIREPs)\n\t+77865.0 Points (364.7 PIREPs)\nSenior Training Captain:\n\t+1489.8 Hours (1462.1 PIREPs)\n\t+127865.0 Points (598.9 PIREPs)\nChief Pilot:\n\t+2489.8 Hours (2443.5 PIREPs)\n\t+247865.0 Points (1161.0 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+38.4 Hours (36.6 PIREPs)\n\t+1665.0 Points (7.8 PIREPs)\nSenior First Officer:\n\t+188.4 Hours (179.5 PIREPs)\n\t+14665.0 Points (69.1 PIREPs)\nCaptain:\n\t+488.4 Hours (465.1 PIREPs)\n\t+42665.0 Points (201.0 PIREPs)\nTraining Captain:\n\t+988.4 Hours (941.3 PIREPs)\n\t+77665.0 Points (365.9 PIREPs)\nSenior Training Captain:\n\t+1488.4 Hours (1417.4 PIREPs)\n\t+127665.0 Points (601.4 PIREPs)\nChief Pilot:\n\t+2488.4 Hours (2369.7 PIREPs)\n\t+247665.0 Points (1166.7 PIREPs)\nTime mode: block",
         "sortName": "JetBlue"
     },
     "356": {
