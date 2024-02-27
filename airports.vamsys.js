@@ -3469,7 +3469,7 @@ const airports = {
             32.700012
         ],
         "names": [
-            "Luxor International"
+            "Luxor"
         ],
         "outbound": true
     },
@@ -8739,18 +8739,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LTAF": {
-        "iata": "ADA",
-        "inbound": true,
-        "latlng": [
-            36.982201,
-            35.280399
-        ],
-        "names": [
-            "Adana Sakirpasa"
-        ],
-        "outbound": false
-    },
     "LTAI": {
         "iata": "AYT",
         "inbound": true,
@@ -8799,18 +8787,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LTCG": {
-        "iata": "TZX",
-        "inbound": true,
-        "latlng": [
-            40.995098,
-            39.7897
-        ],
-        "names": [
-            "Trabzon Airport"
-        ],
-        "outbound": false
-    },
     "LTFE": {
         "iata": "BJV",
         "inbound": true,
@@ -8819,8 +8795,7 @@ const airports = {
             27.664301
         ],
         "names": [
-            "Bodrum Milas Airport",
-            "Milas\u0096Bodrum Airport"
+            "Bodrum Milas Airport"
         ],
         "outbound": true
     },
@@ -11863,8 +11838,7 @@ const airports = {
             30.894699
         ],
         "names": [
-            "Boryspil International Airport",
-            "Kyiv Boryspil International"
+            "Boryspil International Airport"
         ],
         "outbound": true
     },
