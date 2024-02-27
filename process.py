@@ -51,7 +51,7 @@ airline_mappings = {
     'Lion Group Virtual'               :{'display_name':'Lion Group', 'type_mapping':{'AT75':'AT76'}}, # Don't think there's really a -500 for MSFS.
     'LH-Virtual'                       :{'display_name':'Lufthansa', 'type_mapping':{'A21F':'A321'}},
     'VQFA'                             :{'display_name':'Qantas'},
-    'vQatar'                           :{'display_name':'Qatar'},
+    'Oryx'                             :{'display_name':'Oryx (Qatar)', 'sort_name': 'Qatar'},
     'vRYR'                             :{'display_name':'Ryanair'},
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
     'vspirit'                          :{'display_name':'Spirit', 'type_mapping':{'A319':'-', 'A320':'-', 'A321':'-', 'A21N':'-'}},
