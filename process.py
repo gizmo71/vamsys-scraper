@@ -55,7 +55,7 @@ airline_mappings = {
     'vRYR'                             :{'display_name':'Ryanair'},
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
     'vspirit'                          :{'display_name':'Spirit', 'type_mapping':{'A319':'-', 'A320':'-', 'A321':'-', 'A21N':'-'}},
-    'vTCXgroup'                        :{'sort_name':'Thomas Cook', 'type_mapping':{'A321':'A21N'}},
+    'vTCXgroup'                        :{'sort_name':'Thomas Cook'}, #, 'type_mapping':{'A321':'A21N'}
     'Titan Virtual'                    :{'display_name':'Titan'},
     'VRGN Virtual'                     :{'display_name':'Virgin'},
     'Virtual United'                   :{'display_name':'United', 'type_mapping':{'A20N':'A320', 'A321':'A21N', 'E175':'E75L'}},
