@@ -277,24 +277,10 @@ const airlines = {
     },
     "1259": {
         "callsigns": [
-            "AAL",
             "ACA",
             "ACV",
-            "ANA",
-            "DAL",
-            "DHK",
-            "ETD",
-            "FDX",
             "JZA",
-            "LOT",
-            "NKS",
-            "PAL",
-            "ROU",
-            "SWA",
-            "TNO",
-            "UAL",
-            "UPS",
-            "WJA"
+            "ROU"
         ],
         "last_pirep_start": "2024-02-23T15:11:58.000000Z",
         "name": "Air Canada",

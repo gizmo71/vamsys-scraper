@@ -9,7 +9,7 @@ const airports = {
         "names": [
             "Cayo Coco Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "AGGH": {
         "iata": "HIR",
@@ -474,7 +474,7 @@ const airports = {
         "iata": "YUL",
         "inbound": true,
         "latlng": [
-            45.4706001,
+            45.4706,
             -73.740799
         ],
         "names": [
@@ -1233,8 +1233,8 @@ const airports = {
         "iata": "STR",
         "inbound": true,
         "latlng": [
-            48.6898994,
-            9.2219601
+            48.689899,
+            9.22196
         ],
         "names": [
             "Stuttgart Airport"
@@ -1828,7 +1828,7 @@ const airports = {
             -1.32806
         ],
         "names": [
-            "East Midlands Airport"
+            "Nottingham East Midlands Airport"
         ],
         "outbound": true
     },
@@ -7559,8 +7559,8 @@ const airports = {
         "iata": "HER",
         "inbound": true,
         "latlng": [
-            35.3396988,
-            25.1802998
+            35.339699,
+            25.1803
         ],
         "names": [
             "Heraklion International Airport (Nikos Kazantzakis Airport)"
@@ -8609,8 +8609,8 @@ const airports = {
         "iata": "OTP",
         "inbound": true,
         "latlng": [
-            44.571111,
-            26.085
+            44.572127,
+            26.103396
         ],
         "names": [
             "Bucharest Henri Coanda International General Airport",
@@ -8836,11 +8836,11 @@ const airports = {
         "outbound": true
     },
     "LUKK": {
-        "iata": "KIV",
+        "iata": "RMO",
         "inbound": true,
         "latlng": [
             46.9277,
-            28.9309998
+            28.931
         ],
         "names": [
             "Chisinau International Airport"
@@ -9410,7 +9410,7 @@ const airports = {
         "inbound": true,
         "latlng": [
             9.0713596,
-            -79.3834992
+            -79.3834991
         ],
         "names": [
             "Panama City Tocumen International Airport"
@@ -9517,18 +9517,6 @@ const airports = {
         ],
         "names": [
             "Holguin Frank Pais Airport"
-        ],
-        "outbound": true
-    },
-    "MUOC": {
-        "iata": "MUOC",
-        "inbound": false,
-        "latlng": [
-            22.5132008,
-            -78.5110016
-        ],
-        "names": [
-            "Cayo Coco Airport"
         ],
         "outbound": true
     },
