@@ -34,6 +34,7 @@ airline_mappings = {
     'Allegiant Virtual'                :{'display_name':'Allegiant', 'type_mapping':{'A32N':'A20N'}},
     'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'sort_name':'Linugs', 'type_mapping': # Removed 'A320':'A20N', look into LatinVFR
         {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'}},
+    'ANZ Virtual'                      :{'display_name':'Air New Zealand', 'sort_name':'New Zealand'},
     'vANA'                             :{'display_name':'All Nippon', 'sort_name':'Nippon'},
     'vBAW'                             :{'display_name':'British Airways', 'type_mapping':{'B48F':'B748'}},
     'Air Canada Virtual'               :{'display_name':'Air Canada', 'sort_name':'Canada', 'type_mapping':{'76F':'B763', 'A21N':'A321', 'A330':'A333', 'A350':'A359'}},
