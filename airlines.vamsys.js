@@ -351,8 +351,8 @@ const airlines = {
             "ANZ"
         ],
         "last_pirep_start": "2024-03-02T08:16:09.000000Z",
-        "name": "ANZ Virtual",
+        "name": "Air New Zealand",
         "rank_info": "Bonus points not included in normal points total\nANZ - Second Officer:\n\t+8.7 Hours (6.5 PIREPs)\n\t+995.0 Points (4.9 PIREPs)\nANZ - First Officer:\n\t+48.7 Hours (36.6 PIREPs)\n\t+5295.0 Points (25.8 PIREPs)\nANZ - Senior First Officer:\n\t+248.7 Hours (187.2 PIREPs)\n\t+27295.0 Points (133.1 PIREPs)\nANZ - Captain:\n\t+448.7 Hours (337.7 PIREPs)\n\t+59795.0 Points (291.7 PIREPs)\nTime mode: block",
-        "sortName": "ANZ Virtual"
+        "sortName": "New Zealand"
     }
 };
