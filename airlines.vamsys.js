@@ -216,9 +216,9 @@ const airlines = {
         "callsigns": [
             "IGO"
         ],
-        "last_pirep_start": "2024-01-21T07:51:29.000000Z",
+        "last_pirep_start": "2024-03-02T10:28:09.000000Z",
         "name": "IndiGo",
-        "rank_info": "First Officer:\n\t+34.8 Hours (25.2 PIREPs)\nSenior First Officer:\n\t+84.8 Hours (61.3 PIREPs)\n\t+9755.0 Points (47.8 PIREPs)\nCaptain:\n\t+234.8 Hours (169.8 PIREPs)\n\t+17755.0 Points (87.0 PIREPs)\nBase Captain:\n\t+484.8 Hours (350.6 PIREPs)\n\t+57755.0 Points (283.0 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+33.8 Hours (25.0 PIREPs)\nSenior First Officer:\n\t+83.8 Hours (62.1 PIREPs)\n\t+9530.0 Points (46.3 PIREPs)\nCaptain:\n\t+233.8 Hours (173.2 PIREPs)\n\t+17530.0 Points (85.2 PIREPs)\nBase Captain:\n\t+483.8 Hours (358.3 PIREPs)\n\t+57530.0 Points (279.5 PIREPs)\nTime mode: air",
         "sortName": "IndiGo"
     },
     "876": {
@@ -345,5 +345,14 @@ const airlines = {
         "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+46.6 Hours (27.7 PIREPs)\n\t+1954.0 Points (1.9 PIREPs)\nFirst Officer:\n\t+146.6 Hours (87.2 PIREPs)\n\t+11954.0 Points (11.7 PIREPs)\nSenior First Officer:\n\t+296.6 Hours (176.4 PIREPs)\n\t+25454.0 Points (24.9 PIREPs)\nCaptain:\n\t+596.6 Hours (354.8 PIREPs)\n\t+57954.0 Points (56.7 PIREPs)\nTime mode: block",
         "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-03-25",
         "sortName": "Lion Group"
+    },
+    "1642": {
+        "callsigns": [
+            "ANZ"
+        ],
+        "last_pirep_start": "2024-03-02T08:16:09.000000Z",
+        "name": "ANZ Virtual",
+        "rank_info": "Bonus points not included in normal points total\nANZ - Second Officer:\n\t+8.7 Hours (6.5 PIREPs)\n\t+995.0 Points (4.9 PIREPs)\nANZ - First Officer:\n\t+48.7 Hours (36.6 PIREPs)\n\t+5295.0 Points (25.8 PIREPs)\nANZ - Senior First Officer:\n\t+248.7 Hours (187.2 PIREPs)\n\t+27295.0 Points (133.1 PIREPs)\nANZ - Captain:\n\t+448.7 Hours (337.7 PIREPs)\n\t+59795.0 Points (291.7 PIREPs)\nTime mode: block",
+        "sortName": "ANZ Virtual"
     }
 };

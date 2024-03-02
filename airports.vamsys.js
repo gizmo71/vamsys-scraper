@@ -9590,7 +9590,7 @@ const airports = {
             -159.806
         ],
         "names": [
-            "Rarotonga International"
+            "Avarua Rarotonga International Airport"
         ],
         "outbound": true
     },
@@ -9614,6 +9614,7 @@ const airports = {
             -175.1499939
         ],
         "names": [
+            "Tongatapu Fua'amotu International Airport",
             "Tongatapu Fua?amotu International Airport",
             "FUA\u02bbAMOTU INTERNATIONAL AIRPORT"
         ],
@@ -9640,6 +9641,18 @@ const airports = {
         ],
         "names": [
             "Tarawa Bonriki International Airport"
+        ],
+        "outbound": true
+    },
+    "NIUE": {
+        "iata": "IUE",
+        "inbound": true,
+        "latlng": [
+            -19.079031,
+            -169.9255981
+        ],
+        "names": [
+            "Niue International Airport"
         ],
         "outbound": true
     },
@@ -9680,6 +9693,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "NWWW": {
+        "iata": "NOU",
+        "inbound": true,
+        "latlng": [
+            -22.014601,
+            166.212997
+        ],
+        "names": [
+            "Noumea La Tontouta International Airport"
+        ],
+        "outbound": true
+    },
     "NZAA": {
         "iata": "AKL",
         "inbound": true,
@@ -9689,6 +9714,18 @@ const airports = {
         ],
         "names": [
             "Auckland International"
+        ],
+        "outbound": true
+    },
+    "NZAP": {
+        "iata": "TUO",
+        "inbound": true,
+        "latlng": [
+            -38.7397003,
+            176.0839996
+        ],
+        "names": [
+            "Taupo Airport"
         ],
         "outbound": true
     },
@@ -9712,7 +9749,115 @@ const airports = {
             170.197998
         ],
         "names": [
-            "Dunedin"
+            "Dunedin International Airport"
+        ],
+        "outbound": true
+    },
+    "NZGS": {
+        "iata": "GIS",
+        "inbound": true,
+        "latlng": [
+            -38.6632996,
+            177.9779968
+        ],
+        "names": [
+            "Gisborne Airport"
+        ],
+        "outbound": true
+    },
+    "NZHK": {
+        "iata": "HKK",
+        "inbound": true,
+        "latlng": [
+            -42.7136002,
+            170.9850006
+        ],
+        "names": [
+            "Hokitika Airport"
+        ],
+        "outbound": true
+    },
+    "NZHN": {
+        "iata": "HLZ",
+        "inbound": true,
+        "latlng": [
+            -37.8666992,
+            175.3320007
+        ],
+        "names": [
+            "Hamilton International Airport"
+        ],
+        "outbound": true
+    },
+    "NZKK": {
+        "iata": "KKE",
+        "inbound": true,
+        "latlng": [
+            -35.259148,
+            173.913317
+        ],
+        "names": [
+            "Kerikeri Airport"
+        ],
+        "outbound": true
+    },
+    "NZNP": {
+        "iata": "NPL",
+        "inbound": true,
+        "latlng": [
+            -39.0085983,
+            174.1790009
+        ],
+        "names": [
+            "New Plymouth Airport"
+        ],
+        "outbound": true
+    },
+    "NZNR": {
+        "iata": "NPE",
+        "inbound": true,
+        "latlng": [
+            -39.465801,
+            176.869995
+        ],
+        "names": [
+            "Napier Hawke's Bay Airport"
+        ],
+        "outbound": true
+    },
+    "NZNS": {
+        "iata": "NSN",
+        "inbound": true,
+        "latlng": [
+            -41.298302,
+            173.220993
+        ],
+        "names": [
+            "Nelson Airport"
+        ],
+        "outbound": true
+    },
+    "NZNV": {
+        "iata": "IVC",
+        "inbound": true,
+        "latlng": [
+            -46.4123993,
+            168.3130035
+        ],
+        "names": [
+            "Invercargill Airport"
+        ],
+        "outbound": true
+    },
+    "NZPM": {
+        "iata": "PMR",
+        "inbound": true,
+        "latlng": [
+            -40.320599,
+            175.617004
+        ],
+        "names": [
+            "Palmerston North International Airport"
         ],
         "outbound": true
     },
@@ -9724,7 +9869,55 @@ const airports = {
             168.738998
         ],
         "names": [
-            "Queenstown"
+            "Queenstown Airport"
+        ],
+        "outbound": true
+    },
+    "NZRO": {
+        "iata": "ROT",
+        "inbound": true,
+        "latlng": [
+            -38.1091995,
+            176.3170013
+        ],
+        "names": [
+            "Rotorua International Airport"
+        ],
+        "outbound": true
+    },
+    "NZTG": {
+        "iata": "TRG",
+        "inbound": true,
+        "latlng": [
+            -37.6719017,
+            176.1959991
+        ],
+        "names": [
+            "Tauranga Airport"
+        ],
+        "outbound": true
+    },
+    "NZTU": {
+        "iata": "TIU",
+        "inbound": true,
+        "latlng": [
+            -44.3027992,
+            171.2250061
+        ],
+        "names": [
+            "Timaru Richard Pearse Airport"
+        ],
+        "outbound": true
+    },
+    "NZWB": {
+        "iata": "BHE",
+        "inbound": true,
+        "latlng": [
+            -41.5182991,
+            173.8699951
+        ],
+        "names": [
+            "Blenheim Woodbourne Airport"
         ],
         "outbound": true
     },
@@ -9736,7 +9929,19 @@ const airports = {
             174.8049927
         ],
         "names": [
-            "Wellington International"
+            "Wellington International Airport"
+        ],
+        "outbound": true
+    },
+    "NZWR": {
+        "iata": "WRE",
+        "inbound": true,
+        "latlng": [
+            -35.769253,
+            174.363713
+        ],
+        "names": [
+            "Whangarei Airport"
         ],
         "outbound": true
     },
@@ -14574,7 +14779,7 @@ const airports = {
             153.506641
         ],
         "names": [
-            "Gold Coast"
+            "Gold Coast Airport"
         ],
         "outbound": true
     },
@@ -14863,7 +15068,7 @@ const airports = {
             147.5099945
         ],
         "names": [
-            "Hobart"
+            "Hobart International Airport"
         ],
         "outbound": true
     },
