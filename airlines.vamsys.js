@@ -55,7 +55,7 @@ const airlines = {
         "last_pirep_start": "2024-02-26T15:14:49.000000Z",
         "name": "Aer Lingus",
         "rank_info": "Bonus points count towards normal points total\nSenior First Officer:\n\t+67.9 Hours (55.0 PIREPs)\n\t+1590.0 Points (4.0 PIREPs)\nCaptain:\n\t+267.9 Hours (217.0 PIREPs)\n\t+19590.0 Points (48.9 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+867.9 Hours (702.9 PIREPs)\n\t+64590.0 Points (161.3 PIREPs)\n\t+7200.0 Bonus Points (39.0 PIREPs)\nBase Chief Pilot:\n\t+1467.9 Hours (1188.8 PIREPs)\n\t+119590.0 Points (298.7 PIREPs)\n\t+15200.0 Bonus Points (82.3 PIREPs)\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-03-27",
+        "requirements": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-04-26",
         "sortName": "Linugs"
     },
     "35": {
