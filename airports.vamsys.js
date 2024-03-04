@@ -8576,8 +8576,7 @@ const airports = {
             23.684292
         ],
         "names": [
-            "Avram Iancu Cluj International Airport",
-            "Cluj-Napoca"
+            "Avram Iancu Cluj International Airport"
         ],
         "outbound": true
     },
