@@ -1277,6 +1277,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EDHI": {
+        "iata": "XFW",
+        "inbound": false,
+        "latlng": [
+            53.5352783,
+            9.835556
+        ],
+        "names": [
+            "Hamburg Finkenwerder Airport"
+        ],
+        "outbound": true
+    },
     "EDJA": {
         "iata": "FMM",
         "inbound": true,
@@ -8266,7 +8278,7 @@ const airports = {
             18.111099
         ],
         "names": [
-            "Leo\u0161 Jan\u00e1\u010dek Airport Ostrava"
+            "Ostrava"
         ],
         "outbound": true
     },
