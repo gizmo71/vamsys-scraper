@@ -2117,7 +2117,6 @@ const airports = {
         ],
         "names": [
             "Copenhagen Airport",
-            "Copenhagen Kastrup",
             "Kopenhagen-Kastrup"
         ],
         "outbound": true
@@ -3802,6 +3801,7 @@ const airports = {
         ],
         "names": [
             "Austin Bergstrom International Airport",
+            "Austin-Bergstrom Intl (TX)",
             "Austin, TX"
         ],
         "outbound": true
@@ -4012,6 +4012,7 @@ const airports = {
         "names": [
             "General Edward Lawrence Logan International Airport",
             "Boston Logan International Airport",
+            "Logan International (MA)",
             "Boston, MA"
         ],
         "outbound": true
@@ -4382,7 +4383,8 @@ const airports = {
             -104.6729965
         ],
         "names": [
-            "Denver International Airport"
+            "Denver International Airport",
+            "Denver International (CO)"
         ],
         "outbound": true
     },
@@ -4396,6 +4398,7 @@ const airports = {
         "names": [
             "Dallas Fort Worth International Airport",
             "Dallas-Ft Worth International",
+            "Dallas Ft Worth (TX) (Dallas)",
             "Dallas/Fort Worth, TX",
             "Dallas/Forth Worth"
         ],
@@ -6831,8 +6834,8 @@ const airports = {
         "iata": "DBV",
         "inbound": true,
         "latlng": [
-            42.5614014,
-            18.2681999
+            42.562247,
+            18.265543
         ],
         "names": [
             "Dubrovnik Airport"
@@ -7042,7 +7045,6 @@ const airports = {
             -3.56264
         ],
         "names": [
-            "Adolfo Su\u00c3\u00a1rez Madrid\u00e2\u0080\u0093Barajas",
             "Madrid Barajas Airport"
         ],
         "outbound": true
@@ -7107,6 +7109,18 @@ const airports = {
         ],
         "names": [
             "Reus Air Base"
+        ],
+        "outbound": true
+    },
+    "LESO": {
+        "iata": "EAS",
+        "inbound": true,
+        "latlng": [
+            43.356499,
+            -1.79061
+        ],
+        "names": [
+            "San Sebastian"
         ],
         "outbound": true
     },
@@ -7264,18 +7278,6 @@ const airports = {
         ],
         "names": [
             "Biarritz Pays Basque Airport"
-        ],
-        "outbound": true
-    },
-    "LFKB": {
-        "iata": "BIA",
-        "inbound": true,
-        "latlng": [
-            42.5527,
-            9.4837303
-        ],
-        "names": [
-            "Bastia"
         ],
         "outbound": true
     },
@@ -7514,7 +7516,8 @@ const airports = {
         ],
         "names": [
             "Basel Mulhouse-Freiburg EuroAirport",
-            "Basle-Mulhouse"
+            "Basle-Mulhouse",
+            "Basel (Basel)"
         ],
         "outbound": true
     },
@@ -7632,8 +7635,8 @@ const airports = {
         "iata": "CFU",
         "inbound": true,
         "latlng": [
-            39.601898,
-            19.911699
+            39.6018982,
+            19.9116993
         ],
         "names": [
             "Corfu International Airport (Ioannis Kapodistrias Int'l Airport)",
@@ -7793,8 +7796,8 @@ const airports = {
         "iata": "SKG",
         "inbound": true,
         "latlng": [
-            40.5196991,
-            22.9708996
+            40.51928,
+            22.970009
         ],
         "names": [
             "Thessaloniki Macedonia International Airport",
@@ -8802,8 +8805,8 @@ const airports = {
         "iata": "BJV",
         "inbound": true,
         "latlng": [
-            37.250599,
-            27.664301
+            37.2505989,
+            27.6643009
         ],
         "names": [
             "Bodrum Milas Airport"
@@ -9374,7 +9377,6 @@ const airports = {
         ],
         "names": [
             "Cancun International Airport",
-            "Canc\u00c3\u00ban International",
             "Cancun, Mexico"
         ],
         "outbound": true
@@ -11372,7 +11374,8 @@ const airports = {
             -43.250557
         ],
         "names": [
-            "Rio de Janeiro/Gale\u00e3o International"
+            "Rio de Janeiro Intl (Int)",
+            "Rio Galeao"
         ],
         "outbound": true
     },
@@ -11409,7 +11412,6 @@ const airports = {
             -70.7857971
         ],
         "names": [
-            "Arturo Merino Ben\u00c3\u00adtez International",
             "Santiago"
         ],
         "outbound": true
@@ -12188,7 +12190,8 @@ const airports = {
         ],
         "names": [
             "Chhatrapati Shivaji Maharaj International Airport",
-            "Mumbai Chhatrapati Shivaji International Airport"
+            "Mumbai Chhatrapati Shivaji International Airport",
+            "Chhatrapati Shivaji Maharaj Intl (Mumbai)"
         ],
         "outbound": true
     },
