@@ -121,7 +121,8 @@ const airlines = {
         "callsigns": [
             "EFA",
             "NWK",
-            "QFA"
+            "QFA",
+            "QLK"
         ],
         "last_pirep_start": "2024-01-31T10:31:32.000000Z",
         "name": "Qantas",
@@ -185,6 +186,7 @@ const airlines = {
     },
     "500": {
         "callsigns": [
+            "AUR",
             "AWC",
             "AXE",
             "BCS",
@@ -193,13 +195,13 @@ const airlines = {
             "LOG",
             "MSA",
             "RGN",
-            "TMT",
             "TOM",
             "WUK"
         ],
         "last_pirep_start": "2024-01-28T08:36:35.000000Z",
         "name": "Titan",
         "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+31.8 Hours (17.4 PIREPs)\n\t+1475.0 Points (5.8 PIREPs)\nFirst Officer:\n\t+131.8 Hours (72.3 PIREPs)\n\t+11475.0 Points (45.4 PIREPs)\nSenior First Officer:\n\t+281.8 Hours (154.6 PIREPs)\n\t+24975.0 Points (98.9 PIREPs)\nCaptain:\n\t+581.8 Hours (319.2 PIREPs)\n\t+57475.0 Points (227.6 PIREPs)\nTraining Captain:\n\t+981.8 Hours (538.6 PIREPs)\n\t+97475.0 Points (386.0 PIREPs)\nBase Captain:\n\t+1981.8 Hours (1087.2 PIREPs)\n\t+197475.0 Points (782.1 PIREPs)\nTime mode: block",
+        "requirements": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2024-07-26",
         "sortName": "Titan"
     },
     "550": {
@@ -314,7 +316,8 @@ const airlines = {
         ],
         "last_pirep_start": "2024-02-25T08:10:32.000000Z",
         "name": "JetStar",
-        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+110.4 Hours (57.4 PIREPs)\n\t+6930.0 Points (32.4 PIREPs)\nCaptain:\n\t+340.4 Hours (177.1 PIREPs)\n\t+13930.0 Points (65.1 PIREPs)\nSenior Captain:\n\t+490.4 Hours (255.1 PIREPs)\n\t+1430.0 Points (6.7 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+110.4 Hours (57.4 PIREPs)\n\t+6930.0 Points (32.4 PIREPs)\nCaptain:\n\t+340.4 Hours (177.1 PIREPs)\n\t+13930.0 Points (65.1 PIREPs)\nSenior Captain:\n\t+490.4 Hours (255.1 PIREPs)\n\t+23930.0 Points (111.8 PIREPs)\nTime mode: block",
+        "requirements": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-04-25",
         "sortName": "JetStar"
     },
     "1613": {

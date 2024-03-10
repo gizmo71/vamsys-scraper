@@ -1362,6 +1362,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EDVE": {
+        "iata": "BWE",
+        "inbound": true,
+        "latlng": [
+            52.319199,
+            10.5561
+        ],
+        "names": [
+            "Braunschweig-Wolfsburg"
+        ],
+        "outbound": true
+    },
     "EDXW": {
         "iata": "GWT",
         "inbound": true,
@@ -1832,6 +1844,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EGNV": {
+        "iata": "MME",
+        "inbound": true,
+        "latlng": [
+            54.509201,
+            -1.42941
+        ],
+        "names": [
+            "Teesside"
+        ],
+        "outbound": true
+    },
     "EGNX": {
         "iata": "EMA",
         "inbound": true,
@@ -1973,6 +1997,18 @@ const airports = {
         ],
         "names": [
             "London RAF Northolt"
+        ],
+        "outbound": true
+    },
+    "EGYP": {
+        "iata": "MPN",
+        "inbound": true,
+        "latlng": [
+            -51.8227997,
+            -58.4472008
+        ],
+        "names": [
+            "Mount Pleasant"
         ],
         "outbound": true
     },
@@ -2921,6 +2957,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "FEFF": {
+        "iata": "BGF",
+        "inbound": true,
+        "latlng": [
+            4.3984799,
+            18.5188007
+        ],
+        "names": [
+            "Bangui M'Poko International Airport"
+        ],
+        "outbound": true
+    },
     "FGSL": {
         "iata": "SSG",
         "inbound": true,
@@ -2929,6 +2977,7 @@ const airports = {
             8.7087202
         ],
         "names": [
+            "Saint Isabel Airport",
             "Malabo"
         ],
         "outbound": true
@@ -2955,7 +3004,7 @@ const airports = {
             9.7194796
         ],
         "names": [
-            "Douala"
+            "Douala International Airport"
         ],
         "outbound": true
     },
@@ -2970,18 +3019,6 @@ const airports = {
             "Yaounde"
         ],
         "outbound": true
-    },
-    "FLHN": {
-        "iata": "LVI",
-        "inbound": true,
-        "latlng": [
-            -17.8218,
-            25.822701
-        ],
-        "names": [
-            "Livingstone"
-        ],
-        "outbound": false
     },
     "FLKK": {
         "iata": "LUN",
@@ -3021,6 +3058,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "FOOL": {
+        "iata": "LBV",
+        "inbound": true,
+        "latlng": [
+            0.4586,
+            9.4122801
+        ],
+        "names": [
+            "Leon M'Ba Airport"
+        ],
+        "outbound": true
+    },
     "FPST": {
         "iata": "TMS",
         "inbound": true,
@@ -3031,7 +3080,7 @@ const airports = {
         "names": [
             "Sao Tome International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "FQMA": {
         "iata": "MPM",
@@ -3056,6 +3105,18 @@ const airports = {
             "Victoria Seychelles International"
         ],
         "outbound": true
+    },
+    "FTTJ": {
+        "iata": "NDJ",
+        "inbound": true,
+        "latlng": [
+            12.1337,
+            15.034
+        ],
+        "names": [
+            "N\u2019Djamena International Airport"
+        ],
+        "outbound": false
     },
     "FVFA": {
         "iata": "VFA",
@@ -3114,6 +3175,7 @@ const airports = {
             15.4446
         ],
         "names": [
+            "Kinshasa-N Djili Intl Airport",
             "Kinshasa-N'Djili"
         ],
         "outbound": true
@@ -3266,6 +3328,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "GMFF": {
+        "iata": "FEZ",
+        "inbound": true,
+        "latlng": [
+            33.927299,
+            -4.97796
+        ],
+        "names": [
+            "Fez"
+        ],
+        "outbound": false
+    },
     "GMFO": {
         "iata": "OUD",
         "inbound": true,
@@ -3384,7 +3458,8 @@ const airports = {
             -22.9494
         ],
         "names": [
-            "Espargos Amilcar Cabral International Airport"
+            "Espargos Amilcar Cabral International Airport",
+            "Sal"
         ],
         "outbound": true
     },
@@ -3409,6 +3484,42 @@ const airports = {
         ],
         "names": [
             "Addis Ababa Bole International Airport"
+        ],
+        "outbound": true
+    },
+    "HAAX": {
+        "iata": "AXU",
+        "inbound": true,
+        "latlng": [
+            14.1468,
+            38.7728
+        ],
+        "names": [
+            "Axum Airport"
+        ],
+        "outbound": true
+    },
+    "HAKD": {
+        "iata": "ABK",
+        "inbound": true,
+        "latlng": [
+            6.732577,
+            44.241339
+        ],
+        "names": [
+            "Kabri Dar Airport"
+        ],
+        "outbound": false
+    },
+    "HBBA": {
+        "iata": "BJM",
+        "inbound": true,
+        "latlng": [
+            -3.32402,
+            29.318501
+        ],
+        "names": [
+            "Bujumbura International Airport"
         ],
         "outbound": true
     },
@@ -3533,6 +3644,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "HHAS": {
+        "iata": "ASM",
+        "inbound": true,
+        "latlng": [
+            15.2918997,
+            38.9107018
+        ],
+        "names": [
+            "Asmara International Airport"
+        ],
+        "outbound": true
+    },
+    "HJWW": {
+        "iata": "WUU",
+        "inbound": true,
+        "latlng": [
+            7.72583,
+            27.975
+        ],
+        "names": [
+            "Wau Airport"
+        ],
+        "outbound": true
+    },
     "HKJK": {
         "iata": "NBO",
         "inbound": true,
@@ -3541,6 +3676,7 @@ const airports = {
             36.9277992
         ],
         "names": [
+            "Jomo Kenyatta International Airport",
             "Nairobi Jomo Kenyatta International",
             "Nairobi Jomo Kenyatta Intl Airport",
             "Nairobi-Jomo Kenyatta Intl."
@@ -3579,7 +3715,19 @@ const airports = {
             30.1395
         ],
         "names": [
-            "Kigali"
+            "Kigali International Airport"
+        ],
+        "outbound": true
+    },
+    "HSPN": {
+        "iata": "PZU",
+        "inbound": true,
+        "latlng": [
+            19.4335995,
+            37.2341003
+        ],
+        "names": [
+            "Port Sudan New International Airport"
         ],
         "outbound": true
     },
@@ -3640,7 +3788,7 @@ const airports = {
             32.443501
         ],
         "names": [
-            "Entebbe International"
+            "Entebbe International Airport"
         ],
         "outbound": true
     },
@@ -6854,18 +7002,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LDRI": {
-        "iata": "RJK",
-        "inbound": true,
-        "latlng": [
-            45.2168999,
-            14.5703001
-        ],
-        "names": [
-            "Rijeka"
-        ],
-        "outbound": true
-    },
     "LDSP": {
         "iata": "SPU",
         "inbound": true,
@@ -7218,6 +7354,18 @@ const airports = {
         ],
         "names": [
             "Bergerac"
+        ],
+        "outbound": true
+    },
+    "LFBH": {
+        "iata": "LRH",
+        "inbound": true,
+        "latlng": [
+            46.1791992,
+            -1.19528
+        ],
+        "names": [
+            "La Rochelle"
         ],
         "outbound": true
     },
@@ -8914,8 +9062,8 @@ const airports = {
         "iata": "INI",
         "inbound": true,
         "latlng": [
-            43.337299,
-            21.853701
+            43.337009,
+            21.85451
         ],
         "names": [
             "Nis Constantine the Great Airport"
@@ -9677,8 +9825,7 @@ const airports = {
             -149.606995
         ],
         "names": [
-            "Papeete",
-            "Faa'a"
+            "Papeete"
         ],
         "outbound": true
     },
@@ -9958,6 +10105,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "OEAO": {
+        "iata": "ULH",
+        "inbound": true,
+        "latlng": [
+            26.48,
+            38.128889
+        ],
+        "names": [
+            "Al Ula Airport"
+        ],
+        "outbound": true
+    },
     "OEDF": {
         "iata": "DMM",
         "inbound": true,
@@ -9990,7 +10149,7 @@ const airports = {
             43.774399
         ],
         "names": [
-            "Prince naif bin abdu"
+            "Al-Qassim International Airport"
         ],
         "outbound": true
     },
@@ -10019,6 +10178,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "OENN": {
+        "iata": "NUM",
+        "inbound": true,
+        "latlng": [
+            27.927598,
+            35.28874
+        ],
+        "names": [
+            "Neom Bay Airport"
+        ],
+        "outbound": true
+    },
     "OERK": {
         "iata": "RUH",
         "inbound": true,
@@ -10031,6 +10202,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "OETB": {
+        "iata": "TUU",
+        "inbound": true,
+        "latlng": [
+            28.3654,
+            36.6189
+        ],
+        "names": [
+            "Tabuk Regional Airport"
+        ],
+        "outbound": true
+    },
     "OETF": {
         "iata": "TIF",
         "inbound": true,
@@ -10040,6 +10223,18 @@ const airports = {
         ],
         "names": [
             "Taif International"
+        ],
+        "outbound": true
+    },
+    "OEYN": {
+        "iata": "YNB",
+        "inbound": true,
+        "latlng": [
+            24.144199,
+            38.0634
+        ],
+        "names": [
+            "Yanbu Airport"
         ],
         "outbound": true
     },
@@ -11342,18 +11537,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "SARI": {
-        "iata": "IGR",
-        "inbound": true,
-        "latlng": [
-            -25.737301,
-            -54.4734
-        ],
-        "names": [
-            "Puerto Iguazu"
-        ],
-        "outbound": true
-    },
     "SAVP": {
         "iata": "IND",
         "inbound": true,
@@ -11392,15 +11575,27 @@ const airports = {
         ],
         "outbound": true
     },
-    "SCCI": {
-        "iata": "PUQ",
+    "SBSP": {
+        "iata": "CGH",
         "inbound": true,
         "latlng": [
-            -53.002602,
-            -70.854599
+            -23.627657,
+            -46.654601
         ],
         "names": [
-            "Punta Arenas"
+            "S\u00e3o Paulo\u2013Congonhas Airport"
+        ],
+        "outbound": true
+    },
+    "SBSR": {
+        "iata": "SJP",
+        "inbound": true,
+        "latlng": [
+            -20.817113,
+            -49.406963
+        ],
+        "names": [
+            "S\u00e3o Jos\u00e9 do Rio Preto Airport"
         ],
         "outbound": true
     },
@@ -11413,18 +11608,6 @@ const airports = {
         ],
         "names": [
             "Santiago"
-        ],
-        "outbound": true
-    },
-    "SCIP": {
-        "iata": "IPC",
-        "inbound": true,
-        "latlng": [
-            -27.1648006,
-            -109.4219971
-        ],
-        "names": [
-            "Mataveri"
         ],
         "outbound": true
     },
@@ -11450,6 +11633,18 @@ const airports = {
         ],
         "names": [
             "Quito Mariscal Sucre International Airport"
+        ],
+        "outbound": true
+    },
+    "SGAS": {
+        "iata": "ASU",
+        "inbound": true,
+        "latlng": [
+            -25.240156,
+            -57.519227
+        ],
+        "names": [
+            "Asuncion"
         ],
         "outbound": true
     },
@@ -11587,18 +11782,6 @@ const airports = {
         ],
         "names": [
             "Inca Manco Capac International Airport"
-        ],
-        "outbound": true
-    },
-    "SPSO": {
-        "iata": "PIO",
-        "inbound": true,
-        "latlng": [
-            -13.7449,
-            -76.220299
-        ],
-        "names": [
-            "Pisco"
         ],
         "outbound": true
     },
@@ -12853,7 +13036,8 @@ const airports = {
             113.915001
         ],
         "names": [
-            "Hong Kong International Airport (Chek Lap Kok Airport)"
+            "Hong Kong International Airport (Chek Lap Kok Airport)",
+            "Kai Tak"
         ],
         "outbound": true
     },
