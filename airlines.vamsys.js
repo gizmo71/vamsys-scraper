@@ -5,9 +5,9 @@ const airlines = {
             "EZS",
             "EZY"
         ],
-        "last_pirep_start": "2024-02-13T15:04:28.000000Z",
+        "last_pirep_start": "2024-03-11T15:26:08.000000Z",
         "name": "EasyJet",
-        "rank_info": "Senior First Officer:\n\t+83.9 Hours (49.7 PIREPs)\n\t+3370.0 Points (17.9 PIREPs)\nCaptain:\n\t+383.9 Hours (227.4 PIREPs)\n\t+35870.0 Points (190.3 PIREPs)\nTraining Captain:\n\t+783.9 Hours (464.3 PIREPs)\n\t+75870.0 Points (402.5 PIREPs)\nBase Captain:\n\t+1783.9 Hours (1056.6 PIREPs)\n\t+175870.0 Points (932.9 PIREPs)\nTime mode: block",
+        "rank_info": "Senior First Officer:\n\t+83.1 Hours (49.4 PIREPs)\n\t+3200.0 Points (17.0 PIREPs)\nCaptain:\n\t+383.1 Hours (227.8 PIREPs)\n\t+35700.0 Points (189.5 PIREPs)\nTraining Captain:\n\t+783.1 Hours (465.7 PIREPs)\n\t+75700.0 Points (401.9 PIREPs)\nBase Captain:\n\t+1783.1 Hours (1060.3 PIREPs)\n\t+175700.0 Points (932.7 PIREPs)\nTime mode: block",
         "sortName": "EasyJet"
     },
     "3": {
@@ -201,7 +201,6 @@ const airlines = {
         "last_pirep_start": "2024-01-28T08:36:35.000000Z",
         "name": "Titan",
         "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+31.8 Hours (17.4 PIREPs)\n\t+1475.0 Points (5.8 PIREPs)\nFirst Officer:\n\t+131.8 Hours (72.3 PIREPs)\n\t+11475.0 Points (45.4 PIREPs)\nSenior First Officer:\n\t+281.8 Hours (154.6 PIREPs)\n\t+24975.0 Points (98.9 PIREPs)\nCaptain:\n\t+581.8 Hours (319.2 PIREPs)\n\t+57475.0 Points (227.6 PIREPs)\nTraining Captain:\n\t+981.8 Hours (538.6 PIREPs)\n\t+97475.0 Points (386.0 PIREPs)\nBase Captain:\n\t+1981.8 Hours (1087.2 PIREPs)\n\t+197475.0 Points (782.1 PIREPs)\nTime mode: block",
-        "requirements": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2024-07-26",
         "sortName": "Titan"
     },
     "550": {
