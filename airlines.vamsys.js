@@ -328,10 +328,10 @@ const airlines = {
             "TLM",
             "WON"
         ],
-        "last_pirep_start": "2024-02-24T07:13:25.000000Z",
+        "last_pirep_start": "2024-03-13T07:36:44.000000Z",
         "name": "Lion Group",
-        "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+46.6 Hours (27.7 PIREPs)\n\t+1954.0 Points (1.9 PIREPs)\nFirst Officer:\n\t+146.6 Hours (87.2 PIREPs)\n\t+11954.0 Points (11.7 PIREPs)\nSenior First Officer:\n\t+296.6 Hours (176.4 PIREPs)\n\t+25454.0 Points (24.9 PIREPs)\nCaptain:\n\t+596.6 Hours (354.8 PIREPs)\n\t+57954.0 Points (56.7 PIREPs)\nTime mode: block",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-03-25",
+        "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+45.2 Hours (28.1 PIREPs)\n\t+1789.0 Points (2.4 PIREPs)\nFirst Officer:\n\t+145.2 Hours (90.4 PIREPs)\n\t+11789.0 Points (16.0 PIREPs)\nSenior First Officer:\n\t+295.2 Hours (183.7 PIREPs)\n\t+25289.0 Points (34.3 PIREPs)\nCaptain:\n\t+595.2 Hours (370.5 PIREPs)\n\t+57789.0 Points (78.4 PIREPs)\nTime mode: block",
+        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-04-12",
         "sortName": "Lion Group"
     },
     "1642": {
