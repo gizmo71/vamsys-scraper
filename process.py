@@ -137,6 +137,8 @@ def airport(airport):
     iata = airport['iata']
     if not iata:
         iata = {'1NK2':'1NK2', 'EGHL':'QLA', 'LROV':'GHV', 'MUOC':'MUOC', 'VIKA':'KNU', 'VOBG':'VOBG'}.get(icao, None)
+    elif iata == 'KIV' and icao == 'LUKK':
+        iata = 'RMO'
     if icao in airports:
         airports[icao]['names'].add(name)
         latlng = [latitude, longitude]
@@ -148,7 +150,7 @@ def airport(airport):
             elif diff >= 0.3:
                 logger.warning(msg)
         if airports[icao]['iata'] != iata:
-            raise ValueError(f"{iaco} has inconsistent IATA codes, {airports[icao]['iata']} versus {iata}")
+            raise ValueError(f"{icao} has inconsistent IATA codes, {airports[icao]['iata']} versus {iata}")
     else:
         airports[icao] = {'latlng': [latitude, longitude], 'iata': iata, 'names': {name}, 'inbound': False, 'outbound': False}
 
