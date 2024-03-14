@@ -103,7 +103,7 @@ const airlines = {
         ],
         "last_pirep_start": "2024-01-26T14:54:24.000000Z",
         "name": "Spirit",
-        "rank_info": "Bonus points not included in normal points total\nFirst Officer:\n\t+67.8 Hours (37.8 PIREPs)\n\t+6135.0 Points (28.6 PIREPs)\nCaptain:\n\t+242.8 Hours (135.5 PIREPs)\n\t+18635.0 Points (86.8 PIREPs)\n\t+2770.0 Bonus Points (16.7 PIREPs)\nSenior Captain:\n\t+717.8 Hours (400.7 PIREPs)\n\t+71135.0 Points (331.3 PIREPs)\n\t+13020.0 Bonus Points (78.6 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nFirst Officer:\n\t+67.1 Hours (38.8 PIREPs)\n\t+6135.0 Points (30.2 PIREPs)\nCaptain:\n\t+242.1 Hours (139.8 PIREPs)\n\t+18635.0 Points (91.6 PIREPs)\n\t+2770.0 Bonus Points (17.7 PIREPs)\nSenior Captain:\n\t+717.1 Hours (414.2 PIREPs)\n\t+71135.0 Points (349.7 PIREPs)\n\t+13020.0 Bonus Points (83.0 PIREPs)\nTime mode: air",
         "requirements": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-04-25",
         "sortName": "Spirit"
     },
