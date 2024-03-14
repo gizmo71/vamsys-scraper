@@ -201,15 +201,15 @@ for file in glob('vamsys.*.json'):
     airline_mapping = airline_mappings.get(airline['airline']['name'], {})
     airlines[airline_id] = {'name': airline_mapping.get('display_name', airline['airline']['name']), 'callsigns': []}
     airlines[airline_id]['sortName'] = airline_mapping.get('sort_name', airlines[airline_id]['name'])
+    completed_pireps = [pirep for pirep in airline['pireps']['pireps'] if pirep['status'] in set(['complete', 'accepted'])]
     if airline['airline']['activity_requirements']:
         if not airline['airline']['activity_requirement_type_pireps']:
             raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
         airlines[airline_id]['requirements'] = f"{airline['airline']['activity_requirement_value']} PIREP(s) required over {airline['airline']['activity_requirement_period']} days"
-        completed_pireps = [pirep for pirep in airline['pireps']['pireps'] if pirep['status'] in set(['complete', 'accepted'])]
         pirep_dates = [datetime.fromisoformat(pirep['pirep_end_time']).date() for pirep in reversed(completed_pireps[:airline['airline']['activity_requirement_value']])]
         req_dates = [f"{pirep_date + timedelta(days=airline['airline']['activity_requirement_period'])}" for pirep_date in pirep_dates]
         airlines[airline_id]['requirements'] += f"\nNext {airline['airline']['activity_requirement_value']} PIREP(s) required by {', '.join(req_dates)}"
-    last_pirep = airline['dashboard']['flightProgress']['lastPirep']
+    last_pirep = completed_pireps[0]
     airlines[airline_id]['rank_info'] = rank_info(airline['ranks_html'], time_mode(last_pirep))
     airlines[airline_id]['last_pirep_start'] = last_pirep['pirep_start_time']
     type_mapping = airline_mapping.get('type_mapping', {})
