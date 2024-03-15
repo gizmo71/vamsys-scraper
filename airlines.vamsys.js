@@ -134,10 +134,10 @@ const airlines = {
         "callsigns": [
             "QTR"
         ],
-        "last_pirep_start": "2024-02-28T10:34:47.000000Z",
+        "last_pirep_start": "2024-03-15T14:31:30.000000Z",
         "name": "Oryx (Qatar)",
-        "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+45.4 Hours (49.8 PIREPs)\n\t+1850.0 Points (8.0 PIREPs)\n\t+50.0 Bonus Points (1.7 PIREPs)\nFirst Officer:\n\t+195.4 Hours (214.1 PIREPs)\n\t+3850.0 Points (16.7 PIREPs)\n\t+1350.0 Bonus Points (45.0 PIREPs)\nSenior First Officer:\n\t+395.4 Hours (433.2 PIREPs)\n\t+7850.0 Points (34.1 PIREPs)\n\t+1850.0 Bonus Points (61.7 PIREPs)\nCaptain:\n\t+595.4 Hours (652.4 PIREPs)\n\t+10850.0 Points (47.2 PIREPs)\n\t+3350.0 Bonus Points (111.7 PIREPs)\nTraining Captain:\n\t+995.4 Hours (1090.6 PIREPs)\n\t+98850.0 Points (429.8 PIREPs)\n\t+3850.0 Bonus Points (128.3 PIREPs)\nBase Captain:\n\t+1995.4 Hours (2186.2 PIREPs)\n\t+198850.0 Points (864.6 PIREPs)\n\t+4850.0 Bonus Points (161.7 PIREPs)\nTime mode: block",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-03-29",
+        "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+44.4 Hours (47.6 PIREPs)\n\t+1650.0 Points (7.3 PIREPs)\n\t+50.0 Bonus Points (2.0 PIREPs)\nFirst Officer:\n\t+194.4 Hours (208.5 PIREPs)\n\t+3650.0 Points (16.2 PIREPs)\n\t+1350.0 Bonus Points (54.0 PIREPs)\nSenior First Officer:\n\t+394.4 Hours (423.0 PIREPs)\n\t+7650.0 Points (34.0 PIREPs)\n\t+1850.0 Bonus Points (74.0 PIREPs)\nCaptain:\n\t+594.4 Hours (637.5 PIREPs)\n\t+10650.0 Points (47.3 PIREPs)\n\t+3350.0 Bonus Points (134.0 PIREPs)\nTraining Captain:\n\t+994.4 Hours (1066.4 PIREPs)\n\t+98650.0 Points (438.4 PIREPs)\n\t+3850.0 Bonus Points (154.0 PIREPs)\nBase Captain:\n\t+1994.4 Hours (2138.9 PIREPs)\n\t+198650.0 Points (882.9 PIREPs)\n\t+4850.0 Bonus Points (194.0 PIREPs)\nTime mode: block",
+        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-04-14",
         "sortName": "Qatar"
     },
     "265": {
