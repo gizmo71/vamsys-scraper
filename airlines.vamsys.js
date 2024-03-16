@@ -124,10 +124,10 @@ const airlines = {
             "QFA",
             "QLK"
         ],
-        "last_pirep_start": "2024-01-31T10:31:32.000000Z",
+        "last_pirep_start": "2024-03-16T05:46:17.000000Z",
         "name": "Qantas",
-        "rank_info": "Second Officer:\n\t+48.9 Hours (43.5 PIREPs)\n\t+3825.0 Points (21.9 PIREPs)\nFirst Officer:\n\t+148.9 Hours (132.5 PIREPs)\n\t+13825.0 Points (79.0 PIREPs)\nSenior First Officer:\n\t+298.9 Hours (266.0 PIREPs)\n\t+27325.0 Points (156.1 PIREPs)\nCaptain:\n\t+598.9 Hours (533.0 PIREPs)\n\t+59825.0 Points (341.9 PIREPs)\nTraining Captain:\n\t+998.9 Hours (889.0 PIREPs)\n\t+99825.0 Points (570.4 PIREPs)\nBase Captain:\n\t+2998.9 Hours (2669.0 PIREPs)\n\t+199825.0 Points (1141.9 PIREPs)\nTime mode: block",
-        "requirements": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-04-30",
+        "rank_info": "Second Officer:\n\t+43.7 Hours (14.0 PIREPs)\n\t+3590.0 Points (17.5 PIREPs)\nFirst Officer:\n\t+143.7 Hours (46.0 PIREPs)\n\t+13590.0 Points (66.3 PIREPs)\nSenior First Officer:\n\t+293.7 Hours (94.0 PIREPs)\n\t+27090.0 Points (132.1 PIREPs)\nCaptain:\n\t+593.7 Hours (190.0 PIREPs)\n\t+59590.0 Points (290.7 PIREPs)\nTraining Captain:\n\t+993.7 Hours (318.0 PIREPs)\n\t+99590.0 Points (485.8 PIREPs)\nBase Captain:\n\t+2993.7 Hours (957.9 PIREPs)\n\t+199590.0 Points (973.6 PIREPs)\nTime mode: block",
+        "requirements": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-06-14",
         "sortName": "Qantas"
     },
     "227": {
