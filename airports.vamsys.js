@@ -2619,6 +2619,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "ESGJ": {
+        "iata": "JKG",
+        "inbound": true,
+        "latlng": [
+            57.7575989,
+            14.0686998
+        ],
+        "names": [
+            "J\u00f6nk\u00f6ping"
+        ],
+        "outbound": true
+    },
     "ESKN": {
         "iata": "NYO",
         "inbound": true,
@@ -6911,6 +6923,7 @@ const airports = {
             27.5151997
         ],
         "names": [
+            "Bourgas Airport",
             "Burgas Airport"
         ],
         "outbound": true
@@ -8251,18 +8264,6 @@ const airports = {
         "names": [
             "Treviso Airport",
             "Venice Treviso"
-        ],
-        "outbound": true
-    },
-    "LIPO": {
-        "iata": "VBS",
-        "inbound": true,
-        "latlng": [
-            45.428902,
-            10.3306
-        ],
-        "names": [
-            "Brescia"
         ],
         "outbound": true
     },
@@ -10369,8 +10370,7 @@ const airports = {
             55.161389
         ],
         "names": [
-            "Dubai World Central",
-            "Al Maktoum"
+            "Dubai World Central"
         ],
         "outbound": true
     },
@@ -12630,18 +12630,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "VDSA": {
-        "iata": "SAI",
-        "inbound": true,
-        "latlng": [
-            13.369167,
-            104.223056
-        ],
-        "names": [
-            "Siem Reap"
-        ],
-        "outbound": true
-    },
     "VE89": {
         "iata": "DBR",
         "inbound": true,
@@ -13687,8 +13675,7 @@ const airports = {
             100.6070023
         ],
         "names": [
-            "Don Mueang International Airport",
-            "Bangkok Don Mueang"
+            "Don Mueang International Airport"
         ],
         "outbound": true
     },
@@ -13725,18 +13712,6 @@ const airports = {
         ],
         "names": [
             "Phuket International Airport"
-        ],
-        "outbound": true
-    },
-    "VVDN": {
-        "iata": "DAD",
-        "inbound": true,
-        "latlng": [
-            16.0439,
-            108.198997
-        ],
-        "names": [
-            "Da Nang"
         ],
         "outbound": true
     },

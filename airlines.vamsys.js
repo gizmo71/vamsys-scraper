@@ -78,9 +78,9 @@ const airlines = {
             "WUK",
             "WZZ"
         ],
-        "last_pirep_start": "2024-03-07T15:15:57.000000Z",
+        "last_pirep_start": "2024-03-20T14:49:52.000000Z",
         "name": "Wizz",
-        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+76.8 Hours (45.1 PIREPs)\n\t+4020.0 Points (20.4 PIREPs)\nCaptain:\n\t+226.8 Hours (133.1 PIREPs)\n\t+16520.0 Points (83.8 PIREPs)\nTraining Captain:\n\t+526.8 Hours (309.3 PIREPs)\n\t+51520.0 Points (261.2 PIREPs)\nBase Captain:\n\t+1926.8 Hours (1131.2 PIREPs)\n\t+191520.0 Points (971.2 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+75.6 Hours (44.7 PIREPs)\n\t+3835.0 Points (19.5 PIREPs)\nCaptain:\n\t+225.6 Hours (133.5 PIREPs)\n\t+16335.0 Points (82.9 PIREPs)\nTraining Captain:\n\t+525.6 Hours (311.0 PIREPs)\n\t+51335.0 Points (260.7 PIREPs)\nBase Captain:\n\t+1925.6 Hours (1139.3 PIREPs)\n\t+191335.0 Points (971.6 PIREPs)\nTime mode: air",
         "sortName": "Wizz"
     },
     "46": {
@@ -188,19 +188,15 @@ const airlines = {
         "callsigns": [
             "AUR",
             "AWC",
-            "AXE",
             "BCS",
-            "BIX",
             "KRH",
             "LOG",
-            "MSA",
             "RGN",
-            "TOM",
-            "WUK"
+            "TOM"
         ],
-        "last_pirep_start": "2024-03-12T15:50:03.000000Z",
+        "last_pirep_start": "2024-03-19T14:58:57.000000Z",
         "name": "Titan",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+30.3 Hours (16.9 PIREPs)\n\t+1235.0 Points (4.9 PIREPs)\nFirst Officer:\n\t+130.3 Hours (72.7 PIREPs)\n\t+11235.0 Points (44.7 PIREPs)\nSenior First Officer:\n\t+280.3 Hours (156.3 PIREPs)\n\t+24735.0 Points (98.4 PIREPs)\nCaptain:\n\t+580.3 Hours (323.7 PIREPs)\n\t+57235.0 Points (227.7 PIREPs)\nTraining Captain:\n\t+980.3 Hours (546.8 PIREPs)\n\t+97235.0 Points (386.8 PIREPs)\nBase Captain:\n\t+1980.3 Hours (1104.6 PIREPs)\n\t+197235.0 Points (784.7 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+28.6 Hours (16.1 PIREPs)\n\t+970.0 Points (3.8 PIREPs)\nFirst Officer:\n\t+128.6 Hours (72.2 PIREPs)\n\t+10970.0 Points (43.4 PIREPs)\nSenior First Officer:\n\t+278.6 Hours (156.5 PIREPs)\n\t+24470.0 Points (96.9 PIREPs)\nCaptain:\n\t+578.6 Hours (324.9 PIREPs)\n\t+56970.0 Points (225.6 PIREPs)\nTraining Captain:\n\t+978.6 Hours (549.6 PIREPs)\n\t+96970.0 Points (384.0 PIREPs)\nBase Captain:\n\t+1978.6 Hours (1111.1 PIREPs)\n\t+196970.0 Points (780.1 PIREPs)\nTime mode: block",
         "sortName": "Titan"
     },
     "550": {
