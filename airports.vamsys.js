@@ -3350,7 +3350,7 @@ const airports = {
         "names": [
             "Fez"
         ],
-        "outbound": false
+        "outbound": true
     },
     "GMFO": {
         "iata": "OUD",
@@ -3423,6 +3423,30 @@ const airports = {
             "Marrakesh Menara Airport",
             "Marrakesch-Menara",
             "Marrakech"
+        ],
+        "outbound": true
+    },
+    "GMMZ": {
+        "iata": "OZZ",
+        "inbound": true,
+        "latlng": [
+            30.9391003,
+            -6.90943
+        ],
+        "names": [
+            "Ouarzazate"
+        ],
+        "outbound": true
+    },
+    "GMTT": {
+        "iata": "TNG",
+        "inbound": true,
+        "latlng": [
+            35.731741,
+            -5.921459
+        ],
+        "names": [
+            "Tangier"
         ],
         "outbound": true
     },
@@ -7295,6 +7319,18 @@ const airports = {
         ],
         "names": [
             "Valencia Airport"
+        ],
+        "outbound": true
+    },
+    "LEVT": {
+        "iata": "VIT",
+        "inbound": true,
+        "latlng": [
+            42.882801,
+            -2.72447
+        ],
+        "names": [
+            "Vitoria"
         ],
         "outbound": true
     },

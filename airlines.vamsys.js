@@ -15,9 +15,9 @@ const airlines = {
             "RUK",
             "RYR"
         ],
-        "last_pirep_start": "2024-02-11T08:22:39.000000Z",
+        "last_pirep_start": "2024-03-25T14:51:42.000000Z",
         "name": "Ryanair",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+113.4 Hours (85.5 PIREPs)\n\t+12098.0 Points (43.1 PIREPs)\nType Rating Instructor:\n\t+303.4 Hours (228.7 PIREPs)\n\t+32698.0 Points (116.6 PIREPs)\nCaptain:\n\t+593.4 Hours (447.3 PIREPs)\n\t+64598.0 Points (230.4 PIREPs)\nLine Training Captain:\n\t+843.4 Hours (635.7 PIREPs)\n\t+92098.0 Points (328.5 PIREPs)\nType Rating Examiner:\n\t+1193.4 Hours (899.5 PIREPs)\n\t+130598.0 Points (465.8 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+111.8 Hours (81.4 PIREPs)\n\t+11863.0 Points (43.5 PIREPs)\nType Rating Instructor:\n\t+301.8 Hours (219.7 PIREPs)\n\t+32463.0 Points (119.0 PIREPs)\nCaptain:\n\t+591.8 Hours (430.8 PIREPs)\n\t+64363.0 Points (235.9 PIREPs)\nLine Training Captain:\n\t+841.8 Hours (612.8 PIREPs)\n\t+91863.0 Points (336.7 PIREPs)\nType Rating Examiner:\n\t+1191.8 Hours (867.6 PIREPs)\n\t+130363.0 Points (477.8 PIREPs)\nTime mode: air",
         "sortName": "Ryanair"
     },
     "9": {
