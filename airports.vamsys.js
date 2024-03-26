@@ -827,6 +827,7 @@ const airports = {
             2.3843501
         ],
         "names": [
+            "Cadjehoun Airport",
             "Cotonou Cadjehoun"
         ],
         "outbound": true
@@ -839,7 +840,7 @@ const airports = {
             -1.51242
         ],
         "names": [
-            "Ouagadougou"
+            "Ouagadougou International Airport"
         ],
         "outbound": true
     },
@@ -851,7 +852,7 @@ const airports = {
             -0.166786
         ],
         "names": [
-            "Kotoka International",
+            "Kotoka International Airport",
             "Accra Kotoka"
         ],
         "outbound": true
@@ -864,7 +865,8 @@ const airports = {
             -3.92629
         ],
         "names": [
-            "Felix Houphouet Boigny Internatonal"
+            "Felix Houphouet Boigny Internatonal",
+            "Abidjan International Airport"
         ],
         "outbound": true
     },
@@ -876,6 +878,7 @@ const airports = {
             7.2631698
         ],
         "names": [
+            "Nnamdi Azikiwe International Airport",
             "Abuja Nnamdi Azikiwe International"
         ],
         "outbound": true
@@ -953,6 +956,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "DRRN": {
+        "iata": "NIM",
+        "inbound": true,
+        "latlng": [
+            13.4815,
+            2.18361
+        ],
+        "names": [
+            "Diori Hamani International Airport"
+        ],
+        "outbound": true
+    },
     "DTMB": {
         "iata": "MIR",
         "inbound": true,
@@ -985,7 +1000,7 @@ const airports = {
             10.2272
         ],
         "names": [
-            "Tunis Carthage International"
+            "Tunis Carthage International Airport"
         ],
         "outbound": true
     },
@@ -1010,7 +1025,7 @@ const airports = {
             1.25451
         ],
         "names": [
-            "Lome"
+            "Lome\u2013Tokoin Airport"
         ],
         "outbound": true
     },
@@ -3128,7 +3143,7 @@ const airports = {
         "names": [
             "N\u2019Djamena International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "FVFA": {
         "iata": "VFA",
@@ -3200,7 +3215,7 @@ const airports = {
             -7.94994
         ],
         "names": [
-            "Bamako"
+            "Bamako Senou International Airport"
         ],
         "outbound": true
     },
@@ -3212,7 +3227,7 @@ const airports = {
             -16.652201
         ],
         "names": [
-            "Banjul"
+            "Banjul International Airport"
         ],
         "outbound": true
     },
@@ -3312,7 +3327,32 @@ const airports = {
             -13.1955
         ],
         "names": [
+            "Lungi International Airport",
             "Freetown"
+        ],
+        "outbound": true
+    },
+    "GGOV": {
+        "iata": "OXB",
+        "inbound": true,
+        "latlng": [
+            11.8948002,
+            -15.6536999
+        ],
+        "names": [
+            "Osvaldo Vieiro International Airport"
+        ],
+        "outbound": true
+    },
+    "GLMR": {
+        "iata": "MLW",
+        "inbound": true,
+        "latlng": [
+            6.2890601,
+            -10.7587004
+        ],
+        "names": [
+            "Spriggs Payne Airport"
         ],
         "outbound": true
     },
@@ -3470,7 +3510,19 @@ const airports = {
             -17.4902
         ],
         "names": [
-            "Dakar"
+            "Dakar-Yoff-LeopoldS\u00e9dar SenghorInternational Airport"
+        ],
+        "outbound": true
+    },
+    "GQNC": {
+        "iata": "THI",
+        "inbound": true,
+        "latlng": [
+            18.4500008,
+            -9.5170002
+        ],
+        "names": [
+            "Tichitt Airport"
         ],
         "outbound": true
     },
@@ -3482,6 +3534,7 @@ const airports = {
             -13.612
         ],
         "names": [
+            "Gbessia Airport",
             "Conakry"
         ],
         "outbound": true
@@ -3603,7 +3656,7 @@ const airports = {
             31.396694
         ],
         "names": [
-            "Cairo International"
+            "Cairo International Airport"
         ],
         "outbound": true
     },
@@ -3728,6 +3781,18 @@ const airports = {
         ],
         "names": [
             "Mombasa Moi International Airport"
+        ],
+        "outbound": true
+    },
+    "HLLM": {
+        "iata": "MJI",
+        "inbound": true,
+        "latlng": [
+            32.89177,
+            13.287878
+        ],
+        "names": [
+            "Mitiga airport"
         ],
         "outbound": true
     },

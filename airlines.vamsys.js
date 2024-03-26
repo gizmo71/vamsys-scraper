@@ -143,14 +143,16 @@ const airlines = {
     "265": {
         "callsigns": [
             "ANA",
+            "BJN",
             "CAO",
             "CCA",
+            "CDG",
             "CPA",
             "CSZ"
         ],
-        "last_pirep_start": "2024-02-17T07:33:39.000000Z",
+        "last_pirep_start": "2024-03-23T06:58:50.000000Z",
         "name": "Air China",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+34.6 Hours (22.4 PIREPs)\n\t+2810.0 Points (23.6 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+134.6 Hours (87.1 PIREPs)\n\t+12810.0 Points (107.6 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+284.6 Hours (184.3 PIREPs)\n\t+26310.0 Points (221.1 PIREPs)\nCaptain / \u673a\u957f:\n\t+584.6 Hours (378.5 PIREPs)\n\t+58810.0 Points (494.2 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+984.6 Hours (637.6 PIREPs)\n\t+98810.0 Points (830.3 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1984.6 Hours (1285.1 PIREPs)\n\t+198810.0 Points (1670.7 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+32.8 Hours (20.9 PIREPs)\n\t+2630.0 Points (21.1 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+132.8 Hours (84.8 PIREPs)\n\t+12630.0 Points (101.4 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+282.8 Hours (180.5 PIREPs)\n\t+26130.0 Points (209.8 PIREPs)\nCaptain / \u673a\u957f:\n\t+582.8 Hours (372.1 PIREPs)\n\t+58630.0 Points (470.8 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+982.8 Hours (627.5 PIREPs)\n\t+98630.0 Points (791.9 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1982.8 Hours (1265.9 PIREPs)\n\t+198630.0 Points (1594.8 PIREPs)\nTime mode: block",
         "sortName": "China"
     },
     "291": {
