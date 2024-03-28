@@ -9715,6 +9715,7 @@ const airports = {
         ],
         "names": [
             "Monsenor Oscar Arnulfo Romero International Airport",
+            "San Salvador International Airport",
             "El Salvador International",
             "San Salvador, El Salvador"
         ],
