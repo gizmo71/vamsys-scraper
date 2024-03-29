@@ -30,7 +30,10 @@ const airlines = {
         "last_pirep_start": "2024-03-22T14:40:57.000000Z",
         "name": "Eurowings",
         "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+382.4 Hours (218.0 PIREPs)\n\t+27992.0 Points (187.4 PIREPs)\nCaptain:\n\t+882.4 Hours (502.9 PIREPs)\n\t+65992.0 Points (441.8 PIREPs)\n\t+14487.0 Bonus Points (62.6 PIREPs)\nSenior Captain:\n\t+1382.4 Hours (787.9 PIREPs)\n\t+103992.0 Points (696.2 PIREPs)\n\t+29487.0 Bonus Points (127.4 PIREPs)\nInstructor:\n\t+4882.4 Hours (2782.7 PIREPs)\n\t+369992.0 Points (2477.0 PIREPs)\nFlying Legend:\n\t+9882.4 Hours (5632.4 PIREPs)\n\t+751992.0 Points (5034.3 PIREPs)\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2024-09-18",
+        "requirements": {
+            "details": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2024-09-18",
+            "target_date": "2024-09-18T16:14:03+00:00"
+        },
         "sortName": "Eurowings"
     },
     "13": {
@@ -55,7 +58,10 @@ const airlines = {
         "last_pirep_start": "2024-03-24T07:52:38.000000Z",
         "name": "Aer Lingus",
         "rank_info": "Bonus points count towards normal points total\nSenior First Officer:\n\t+63.3 Hours (48.4 PIREPs)\n\t+355.0 Points (0.9 PIREPs)\nCaptain:\n\t+263.3 Hours (201.1 PIREPs)\n\t+18355.0 Points (44.1 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+863.3 Hours (659.2 PIREPs)\n\t+63355.0 Points (152.3 PIREPs)\n\t+6400.0 Bonus Points (32.0 PIREPs)\nBase Chief Pilot:\n\t+1463.3 Hours (1117.3 PIREPs)\n\t+118355.0 Points (284.6 PIREPs)\n\t+14400.0 Bonus Points (72.0 PIREPs)\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-05-23",
+        "requirements": {
+            "details": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-05-23",
+            "target_date": "2024-05-23T10:01:21+00:00"
+        },
         "sortName": "Linugs"
     },
     "35": {
@@ -104,7 +110,10 @@ const airlines = {
         "last_pirep_start": "2024-03-27T14:54:34.000000Z",
         "name": "Spirit",
         "rank_info": "Bonus points not included in normal points total\nFirst Officer:\n\t+66.4 Hours (39.6 PIREPs)\n\t+5925.0 Points (29.1 PIREPs)\nCaptain:\n\t+241.4 Hours (143.8 PIREPs)\n\t+18425.0 Points (90.4 PIREPs)\n\t+2770.0 Bonus Points (18.6 PIREPs)\nSenior Captain:\n\t+716.4 Hours (426.7 PIREPs)\n\t+70925.0 Points (348.1 PIREPs)\n\t+13020.0 Bonus Points (87.4 PIREPs)\nTime mode: air",
-        "requirements": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-06-25",
+        "requirements": {
+            "details": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-06-25",
+            "target_date": "2024-06-25T16:01:55+00:00"
+        },
         "sortName": "Spirit"
     },
     "64": {
@@ -127,7 +136,10 @@ const airlines = {
         "last_pirep_start": "2024-03-16T05:46:17.000000Z",
         "name": "Qantas",
         "rank_info": "Second Officer:\n\t+43.7 Hours (14.0 PIREPs)\n\t+3590.0 Points (17.5 PIREPs)\nFirst Officer:\n\t+143.7 Hours (46.0 PIREPs)\n\t+13590.0 Points (66.3 PIREPs)\nSenior First Officer:\n\t+293.7 Hours (94.0 PIREPs)\n\t+27090.0 Points (132.1 PIREPs)\nCaptain:\n\t+593.7 Hours (190.0 PIREPs)\n\t+59590.0 Points (290.7 PIREPs)\nTraining Captain:\n\t+993.7 Hours (318.0 PIREPs)\n\t+99590.0 Points (485.8 PIREPs)\nBase Captain:\n\t+2993.7 Hours (957.9 PIREPs)\n\t+199590.0 Points (973.6 PIREPs)\nTime mode: block",
-        "requirements": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-06-14",
+        "requirements": {
+            "details": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-06-14",
+            "target_date": "2024-06-14T11:14:01+00:00"
+        },
         "sortName": "Qantas"
     },
     "227": {
@@ -137,7 +149,10 @@ const airlines = {
         "last_pirep_start": "2024-03-15T14:31:30.000000Z",
         "name": "Oryx (Qatar)",
         "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+44.4 Hours (47.6 PIREPs)\n\t+1625.0 Points (7.1 PIREPs)\n\t+25.0 Bonus Points (0.9 PIREPs)\nFirst Officer:\n\t+194.4 Hours (208.5 PIREPs)\n\t+3625.0 Points (15.8 PIREPs)\n\t+1325.0 Bonus Points (45.4 PIREPs)\nSenior First Officer:\n\t+394.4 Hours (423.0 PIREPs)\n\t+7625.0 Points (33.3 PIREPs)\n\t+1825.0 Bonus Points (62.6 PIREPs)\nCaptain:\n\t+594.4 Hours (637.5 PIREPs)\n\t+10625.0 Points (46.4 PIREPs)\n\t+3325.0 Bonus Points (114.0 PIREPs)\nTraining Captain:\n\t+994.4 Hours (1066.4 PIREPs)\n\t+98625.0 Points (430.4 PIREPs)\n\t+3825.0 Bonus Points (131.1 PIREPs)\nBase Captain:\n\t+1994.4 Hours (2138.9 PIREPs)\n\t+198625.0 Points (866.7 PIREPs)\n\t+4825.0 Bonus Points (165.4 PIREPs)\nTime mode: block",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-04-14",
+        "requirements": {
+            "details": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-04-14",
+            "target_date": "2024-04-14T15:47:30+00:00"
+        },
         "sortName": "Qatar"
     },
     "265": {
@@ -315,7 +330,10 @@ const airlines = {
         "last_pirep_start": "2024-02-25T08:10:32.000000Z",
         "name": "JetStar",
         "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+110.4 Hours (57.4 PIREPs)\n\t+6930.0 Points (32.4 PIREPs)\nCaptain:\n\t+340.4 Hours (177.1 PIREPs)\n\t+13930.0 Points (65.1 PIREPs)\nSenior Captain:\n\t+490.4 Hours (255.1 PIREPs)\n\t+23930.0 Points (111.8 PIREPs)\nTime mode: block",
-        "requirements": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-04-25",
+        "requirements": {
+            "details": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-04-25",
+            "target_date": "2024-04-25T11:02:43+00:00"
+        },
         "sortName": "JetStar"
     },
     "1613": {
@@ -330,7 +348,10 @@ const airlines = {
         "last_pirep_start": "2024-03-13T07:36:44.000000Z",
         "name": "Lion Group",
         "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+45.2 Hours (28.1 PIREPs)\n\t+1789.0 Points (2.4 PIREPs)\nFirst Officer:\n\t+145.2 Hours (90.4 PIREPs)\n\t+11789.0 Points (16.0 PIREPs)\nSenior First Officer:\n\t+295.2 Hours (183.7 PIREPs)\n\t+25289.0 Points (34.3 PIREPs)\nCaptain:\n\t+595.2 Hours (370.5 PIREPs)\n\t+57789.0 Points (78.4 PIREPs)\nTime mode: block",
-        "requirements": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-04-12",
+        "requirements": {
+            "details": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-04-12",
+            "target_date": "2024-04-12T09:20:13+00:00"
+        },
         "sortName": "Lion Group"
     },
     "1642": {
