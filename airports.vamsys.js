@@ -3655,8 +3655,7 @@ const airports = {
             30.889252
         ],
         "names": [
-            "Giza Sphinx International Airport",
-            "Cairo-Sphinx"
+            "Giza Sphinx International Airport"
         ],
         "outbound": true
     },
@@ -7490,7 +7489,7 @@ const airports = {
             9.09778
         ],
         "names": [
-            "Figari"
+            "Figari, Corsica"
         ],
         "outbound": true
     },
@@ -7502,7 +7501,7 @@ const airports = {
             8.8029203
         ],
         "names": [
-            "Ajaccio"
+            "Ajaccio, Corsica"
         ],
         "outbound": true
     },
@@ -7942,7 +7941,8 @@ const airports = {
             24.1497
         ],
         "names": [
-            "Chania International Airport"
+            "Chania International Airport",
+            "Crete Chania"
         ],
         "outbound": true
     },
@@ -8016,7 +8016,8 @@ const airports = {
         ],
         "names": [
             "Zante, Dionysios Solomos Airport",
-            "Zakynthos Intl Airport"
+            "Zakynthos Intl Airport",
+            "Zante Zakynthos"
         ],
         "outbound": true
     },
@@ -8105,18 +8106,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LICB": {
-        "iata": "CIY",
-        "inbound": true,
-        "latlng": [
-            36.994601,
-            14.607182
-        ],
-        "names": [
-            "Sicily Comiso"
-        ],
-        "outbound": true
-    },
     "LICC": {
         "iata": "CTA",
         "inbound": true,
@@ -8127,6 +8116,18 @@ const airports = {
         "names": [
             "Catania Fontanarossa Airport",
             "Sicily Catania"
+        ],
+        "outbound": true
+    },
+    "LICD": {
+        "iata": "LMP",
+        "inbound": true,
+        "latlng": [
+            35.497898,
+            12.6181
+        ],
+        "names": [
+            "Lampedusa"
         ],
         "outbound": true
     },
