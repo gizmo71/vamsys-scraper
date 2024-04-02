@@ -1603,7 +1603,7 @@ const airports = {
             -3.34333
         ],
         "names": [
-            "Cardiff"
+            "Cardiff Airport"
         ],
         "outbound": true
     },
@@ -2488,18 +2488,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "EPRA": {
-        "iata": "RDO",
-        "inbound": true,
-        "latlng": [
-            51.389198,
-            21.213301
-        ],
-        "names": [
-            "Warsaw Radom Airport"
-        ],
-        "outbound": true
-    },
     "EPRZ": {
         "iata": "RZE",
         "inbound": true,
@@ -3328,7 +3316,8 @@ const airports = {
             -9.412003
         ],
         "names": [
-            "Agadir Al-Massira International Airport"
+            "Al Massira Airport",
+            "Agadir Al Massira"
         ],
         "outbound": true
     },
@@ -6950,6 +6939,7 @@ const airports = {
             27.5151997
         ],
         "names": [
+            "Bourgas Airport",
             "Burgas Airport"
         ],
         "outbound": true
@@ -7012,7 +7002,7 @@ const airports = {
             32.485699
         ],
         "names": [
-            "Paphos International",
+            "Paphos International Airport",
             "Cyprus Paphos"
         ],
         "outbound": true
@@ -7110,7 +7100,7 @@ const airports = {
             -6.03462
         ],
         "names": [
-            "Asturias"
+            "Asturias Airport"
         ],
         "outbound": true
     },
@@ -7172,6 +7162,7 @@ const airports = {
             2.761774
         ],
         "names": [
+            "Girona Costa Brava Airport",
             "Barcelona Girona"
         ],
         "outbound": true
@@ -7537,7 +7528,6 @@ const airports = {
             5.32937
         ],
         "names": [
-            "Grenoble-Is\u00e8re Airport",
             "Grenoble (Alpes\u2013Is\u00e8re)"
         ],
         "outbound": true
@@ -8549,7 +8539,7 @@ const airports = {
             11.344
         ],
         "names": [
-            "Innsbruck Kranebitten Airport"
+            "Innsbruck Kranebitten"
         ],
         "outbound": true
     },
@@ -8649,6 +8639,7 @@ const airports = {
             -25.6979008
         ],
         "names": [
+            "Jo\u00e3o Paulo II",
             "Ponta Delgada"
         ],
         "outbound": true
@@ -8783,7 +8774,8 @@ const airports = {
             23.684292
         ],
         "names": [
-            "Avram Iancu Cluj International Airport"
+            "Avram Iancu Cluj International Airport",
+            "Cluj-Napoca"
         ],
         "outbound": true
     },
@@ -8977,6 +8969,7 @@ const airports = {
             27.157
         ],
         "names": [
+            "Izmir Adnan Menderes International Airport",
             "Izmir - Adnan Menderes Intl"
         ],
         "outbound": true
@@ -10435,7 +10428,7 @@ const airports = {
             54.091301
         ],
         "names": [
-            "Salalah"
+            "Salalah International Airport"
         ],
         "outbound": true
     },
@@ -12046,8 +12039,8 @@ const airports = {
         ],
         "names": [
             "Arthur Napoleon Raymond Robinson International Airport",
-            "Scarborough International Airport",
-            "A.N.R. Robinson International"
+            "A.N.R. Robinson International",
+            "Scarborough"
         ],
         "outbound": true
     },
