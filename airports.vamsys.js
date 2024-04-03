@@ -7472,6 +7472,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LFKB": {
+        "iata": "BIA",
+        "inbound": true,
+        "latlng": [
+            42.5527,
+            9.4837303
+        ],
+        "names": [
+            "Bastia, Corsica"
+        ],
+        "outbound": true
+    },
     "LFKF": {
         "iata": "FSC",
         "inbound": true,
@@ -8614,6 +8626,18 @@ const airports = {
         ],
         "names": [
             "Horta"
+        ],
+        "outbound": true
+    },
+    "LPLA": {
+        "iata": "TER",
+        "inbound": true,
+        "latlng": [
+            38.761799,
+            -27.090799
+        ],
+        "names": [
+            "Aerogare Civil das Lajes"
         ],
         "outbound": true
     },
