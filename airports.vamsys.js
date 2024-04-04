@@ -7880,7 +7880,7 @@ const airports = {
             25.348101
         ],
         "names": [
-            "Mykonos International"
+            "Mykonos Island National Airport"
         ],
         "outbound": true
     },
