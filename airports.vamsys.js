@@ -1413,18 +1413,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "EFKS": {
-        "iata": "KAO",
-        "inbound": true,
-        "latlng": [
-            65.987602,
-            29.239401
-        ],
-        "names": [
-            "Kuusamo"
-        ],
-        "outbound": true
-    },
     "EFKT": {
         "iata": "KTT",
         "inbound": true,
@@ -1433,8 +1421,8 @@ const airports = {
             24.8467999
         ],
         "names": [
-            "Kittil\u00e4 Airport",
-            "Kitilla"
+            "Kitilla",
+            "Kittil\u00e4"
         ],
         "outbound": true
     },
