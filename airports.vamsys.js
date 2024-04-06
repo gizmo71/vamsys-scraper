@@ -3680,9 +3680,7 @@ const airports = {
             36.9277992
         ],
         "names": [
-            "Jomo Kenyatta International Airport",
-            "Nairobi Jomo Kenyatta International",
-            "Nairobi Jomo Kenyatta Intl Airport",
+            "Nairobi Jomo Kenyatta International Airport",
             "Nairobi-Jomo Kenyatta Intl."
         ],
         "outbound": true
@@ -10392,7 +10390,7 @@ const airports = {
             55.161389
         ],
         "names": [
-            "Dubai World Central"
+            "Dubai World Central International Airport"
         ],
         "outbound": true
     },
@@ -12136,8 +12134,7 @@ const airports = {
             50.0466995
         ],
         "names": [
-            "Heydar Aliyev International Airport",
-            "Baku Heydar Aliyev International"
+            "Baku Heydar Aliyev International Airport"
         ],
         "outbound": true
     },
@@ -12422,15 +12419,27 @@ const airports = {
         ],
         "outbound": true
     },
+    "VAGD": {
+        "iata": "GDB",
+        "inbound": false,
+        "latlng": [
+            21.526817,
+            80.290347
+        ],
+        "names": [
+            "Gondia Airport"
+        ],
+        "outbound": true
+    },
     "VAHS": {
         "iata": "HSR",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             22.378824,
             71.039391
         ],
         "names": [
-            "Rajkot International Airport"
+            "Rajkot Hirasar Airport"
         ],
         "outbound": true
     },
@@ -12650,6 +12659,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VEAY": {
+        "iata": "AYJ",
+        "inbound": true,
+        "latlng": [
+            26.753333,
+            82.150278
+        ],
+        "names": [
+            "Ayodhya Airport"
+        ],
+        "outbound": true
+    },
     "VEBD": {
         "iata": "IXB",
         "inbound": true,
@@ -12719,7 +12740,7 @@ const airports = {
             88.446701
         ],
         "names": [
-            "Kolkata International Airport"
+            "Kolkata Subhas Chandra Bose International Airport"
         ],
         "outbound": true
     },
@@ -12831,6 +12852,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VEJR": {
+        "iata": "JGB",
+        "inbound": true,
+        "latlng": [
+            19.074301,
+            82.036797
+        ],
+        "names": [
+            "Jagdalpur Airport"
+        ],
+        "outbound": true
+    },
     "VEJT": {
         "iata": "JRH",
         "inbound": true,
@@ -12840,6 +12873,18 @@ const airports = {
         ],
         "names": [
             "Jorhat Airport"
+        ],
+        "outbound": true
+    },
+    "VEKO": {
+        "iata": "HJR",
+        "inbound": true,
+        "latlng": [
+            24.8172,
+            79.918602
+        ],
+        "names": [
+            "Khajuraho Airport"
         ],
         "outbound": true
     },
@@ -13182,18 +13227,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "VIKA": {
-        "iata": "KNU",
-        "inbound": true,
-        "latlng": [
-            26.440857,
-            80.365029
-        ],
-        "names": [
-            "Kanpur Airport"
-        ],
-        "outbound": true
-    },
     "VILH": {
         "iata": "IXL",
         "inbound": true,
@@ -13290,18 +13323,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "VOBG": {
-        "iata": "VOBG",
-        "inbound": true,
-        "latlng": [
-            12.95,
-            77.668198
-        ],
-        "names": [
-            "HAL Airport"
-        ],
-        "outbound": false
-    },
     "VOBL": {
         "iata": "BLR",
         "inbound": true,
@@ -13394,7 +13415,7 @@ const airports = {
             73.860625
         ],
         "names": [
-            "Manhoar International Airport"
+            "Goa Mopa International Airport"
         ],
         "outbound": true
     },
@@ -13552,6 +13573,30 @@ const airports = {
         ],
         "names": [
             "Rajahmundry Airport"
+        ],
+        "outbound": true
+    },
+    "VOSH": {
+        "iata": "RQY",
+        "inbound": true,
+        "latlng": [
+            13.858024,
+            75.618868
+        ],
+        "names": [
+            "Shivamogga Airport"
+        ],
+        "outbound": true
+    },
+    "VOSM": {
+        "iata": "SXV",
+        "inbound": true,
+        "latlng": [
+            11.7833004,
+            78.0655975
+        ],
+        "names": [
+            "Salem Airport"
         ],
         "outbound": true
     },
@@ -14622,7 +14667,6 @@ const airports = {
             98.870566
         ],
         "names": [
-            "Medan Kuala Namu International Airport",
             "Kualanamu International Airport"
         ],
         "outbound": true
