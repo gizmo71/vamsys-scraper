@@ -72,9 +72,9 @@ const airlines = {
             "QTR",
             "SHT"
         ],
-        "last_pirep_start": "2024-03-08T14:43:59.000000Z",
+        "last_pirep_start": "2024-04-09T14:01:23.000000Z",
         "name": "British Airways",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+80.5 Hours (56.2 PIREPs)\n\t+5824.0 Points (29.2 PIREPs)\nSenior First Officer:\n\t+255.5 Hours (178.2 PIREPs)\n\t+21324.0 Points (107.0 PIREPs)\nCaptain:\n\t+555.5 Hours (387.4 PIREPs)\n\t+53824.0 Points (270.2 PIREPs)\nTraining Captain:\n\t+955.5 Hours (666.3 PIREPs)\n\t+93824.0 Points (470.9 PIREPs)\nBase Captain:\n\t+1955.5 Hours (1363.7 PIREPs)\n\t+193824.0 Points (972.9 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+79.7 Hours (56.3 PIREPs)\n\t+5679.0 Points (28.7 PIREPs)\nSenior First Officer:\n\t+254.7 Hours (179.9 PIREPs)\n\t+21179.0 Points (107.2 PIREPs)\nCaptain:\n\t+554.7 Hours (391.8 PIREPs)\n\t+53679.0 Points (271.7 PIREPs)\nTraining Captain:\n\t+954.7 Hours (674.3 PIREPs)\n\t+93679.0 Points (474.2 PIREPs)\nBase Captain:\n\t+1954.7 Hours (1380.6 PIREPs)\n\t+193679.0 Points (980.5 PIREPs)\nTime mode: block",
         "sortName": "British Airways"
     },
     "42": {

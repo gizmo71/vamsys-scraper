@@ -3304,8 +3304,7 @@ const airports = {
             -9.412003
         ],
         "names": [
-            "Al Massira Airport",
-            "Agadir Al Massira"
+            "Agadir Al-Massira International Airport"
         ],
         "outbound": true
     },
