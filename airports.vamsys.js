@@ -1811,18 +1811,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "EGNV": {
-        "iata": "MME",
-        "inbound": true,
-        "latlng": [
-            54.509201,
-            -1.42941
-        ],
-        "names": [
-            "Teesside"
-        ],
-        "outbound": true
-    },
     "EGNX": {
         "iata": "EMA",
         "inbound": true,
