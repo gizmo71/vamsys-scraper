@@ -158,7 +158,6 @@ const airlines = {
     "265": {
         "callsigns": [
             "ANA",
-            "BJN",
             "CAO",
             "CCA",
             "CDG",
@@ -312,15 +311,6 @@ const airlines = {
         "name": "Virgin",
         "rank_info": "Flight-Attendant:\n\t+6.1 Hours (6.1 PIREPs)\nPurser:\n\t+16.1 Hours (16.3 PIREPs)\nTrainee:\n\t+46.1 Hours (46.7 PIREPs)\n\t+1380.0 Points (8.9 PIREPs)\nSecond Officer:\n\t+96.1 Hours (97.4 PIREPs)\n\t+3380.0 Points (21.8 PIREPs)\nFirst Officer:\n\t+196.1 Hours (198.8 PIREPs)\n\t+6880.0 Points (44.4 PIREPs)\n\t+860.0 Bonus Points (24.6 PIREPs)\nSenior First Officer:\n\t+496.1 Hours (503.1 PIREPs)\n\t+19380.0 Points (125.0 PIREPs)\n\t+4860.0 Bonus Points (138.9 PIREPs)\nCaptain:\n\t+996.1 Hours (1010.2 PIREPs)\n\t+39380.0 Points (254.1 PIREPs)\n\t+9860.0 Bonus Points (281.7 PIREPs)\nVRGN Captain:\n\t+1996.1 Hours (2024.5 PIREPs)\n\t+79380.0 Points (512.1 PIREPs)\n\t+19860.0 Bonus Points (567.4 PIREPs)\nTime mode: air",
         "sortName": "Virgin"
-    },
-    "1500": {
-        "callsigns": [
-            "AAY"
-        ],
-        "last_pirep_start": "2024-01-24T14:35:25.000000Z",
-        "name": "Allegiant",
-        "rank_info": "Second Officer:\n\t+19.6 Hours (14.5 PIREPs)\nFirst Officer:\n\t+44.6 Hours (33.1 PIREPs)\n\t+736.0 Points (3.9 PIREPs)\nCaptain:\n\t+194.6 Hours (144.3 PIREPs)\n\t+9236.0 Points (48.4 PIREPs)\nSenior Captain:\n\t+444.6 Hours (329.6 PIREPs)\n\t+24236.0 Points (126.9 PIREPs)\nTime mode: block",
-        "sortName": "Allegiant"
     },
     "1595": {
         "callsigns": [
