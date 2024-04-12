@@ -3429,7 +3429,8 @@ const airports = {
             30.889252
         ],
         "names": [
-            "Giza Sphinx International Airport"
+            "Giza Sphinx International Airport",
+            "Cairo-Sphinx"
         ],
         "outbound": true
     },
@@ -7176,6 +7177,18 @@ const airports = {
         ],
         "names": [
             "Strasbourg"
+        ],
+        "outbound": true
+    },
+    "LFTH": {
+        "iata": "TLN",
+        "inbound": true,
+        "latlng": [
+            43.0973015,
+            6.1460299
+        ],
+        "names": [
+            "Toulon-Hy\u00e8res"
         ],
         "outbound": true
     },
