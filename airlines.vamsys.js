@@ -98,9 +98,9 @@ const airlines = {
             "UAL",
             "UCA"
         ],
-        "last_pirep_start": "2024-03-18T14:50:14.000000Z",
+        "last_pirep_start": "2024-04-16T14:08:49.000000Z",
         "name": "United",
-        "rank_info": "First Officer:\n\t+7.0 Hours (5.3 PIREPs)\n\t+258.0 Points (1.5 PIREPs)\nSenior First Officer:\n\t+27.0 Hours (20.7 PIREPs)\n\t+4258.0 Points (24.4 PIREPs)\nCaptain:\n\t+87.0 Hours (66.7 PIREPs)\n\t+8258.0 Points (47.4 PIREPs)\n\t+350.0 Bonus Points (5.4 PIREPs)\nBase Captain:\n\t+137.0 Hours (105.0 PIREPs)\n\t+13258.0 Points (76.1 PIREPs)\n\t+850.0 Bonus Points (13.1 PIREPs)\nChief Pilot:\n\t+287.0 Hours (220.1 PIREPs)\n\t+28258.0 Points (162.2 PIREPs)\n\t+1350.0 Bonus Points (20.8 PIREPs)\nTime mode: block",
+        "rank_info": "First Officer:\n\t+4.6 Hours (3.3 PIREPs)\n\t+28.0 Points (0.2 PIREPs)\nSenior First Officer:\n\t+24.6 Hours (17.6 PIREPs)\n\t+4028.0 Points (22.5 PIREPs)\nCaptain:\n\t+84.6 Hours (60.4 PIREPs)\n\t+8028.0 Points (44.8 PIREPs)\n\t+350.0 Bonus Points (5.9 PIREPs)\nBase Captain:\n\t+134.6 Hours (96.2 PIREPs)\n\t+13028.0 Points (72.7 PIREPs)\n\t+850.0 Bonus Points (14.4 PIREPs)\nChief Pilot:\n\t+284.6 Hours (203.3 PIREPs)\n\t+28028.0 Points (156.3 PIREPs)\n\t+1350.0 Bonus Points (22.8 PIREPs)\nTime mode: block",
         "sortName": "United"
     },
     "55": {
