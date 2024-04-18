@@ -3409,6 +3409,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "HESG": {
+        "iata": "HMB",
+        "inbound": true,
+        "latlng": [
+            26.339115,
+            31.737624
+        ],
+        "names": [
+            "Sohag International Airport"
+        ],
+        "outbound": true
+    },
     "HESH": {
         "iata": "SSH",
         "inbound": true,
@@ -7612,7 +7624,7 @@ const airports = {
             8.29077
         ],
         "names": [
-            "Alghero Fertilia"
+            "Alghero Fertilia Airport"
         ],
         "outbound": true
     },
@@ -8574,7 +8586,7 @@ const airports = {
             21.85451
         ],
         "names": [
-            "Nis Constantine the Great Airport"
+            "Nis"
         ],
         "outbound": true
     },
