@@ -6409,7 +6409,7 @@ const airports = {
             23.417671
         ],
         "names": [
-            "Sofia Airport"
+            "Sofia International"
         ],
         "outbound": true
     },
@@ -8008,7 +8008,7 @@ const airports = {
             11.344
         ],
         "names": [
-            "Innsbruck Kranebitten"
+            "Innsbruck Kranebitten Airport"
         ],
         "outbound": true
     },
@@ -8184,6 +8184,7 @@ const airports = {
             18.331499
         ],
         "names": [
+            "Salajevo International Airport",
             "Sarajevo International Airport"
         ],
         "outbound": true
@@ -8549,7 +8550,7 @@ const airports = {
             21.622581
         ],
         "names": [
-            "Skopje International Airport",
+            "Skopje Alexander the Great Airport",
             "Skopje Intl Airport"
         ],
         "outbound": true
@@ -11062,7 +11063,7 @@ const airports = {
             -46.467778
         ],
         "names": [
-            "S\u00e3o Paulo/Guarulhos - Governor Andr\u00e9 Franco Montoro International",
+            "Sao Paulo/Guarulhos-Governor Andre Franco Montoro International Airport",
             "Sao Paulo Garulhos"
         ],
         "outbound": true
@@ -15468,7 +15469,7 @@ const airports = {
         "names": [
             "Pyongyang Sunan International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "ZLDH": {
         "iata": "DNH",
