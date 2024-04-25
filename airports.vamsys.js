@@ -5420,7 +5420,7 @@ const airports = {
             -121.929188
         ],
         "names": [
-            "San Jose International",
+            "San Jose International Airport",
             "San Jose, CA"
         ],
         "outbound": true
@@ -5548,7 +5548,7 @@ const airports = {
             -84.350304
         ],
         "names": [
-            "Tallahassee"
+            "Tallahassee International Airport"
         ],
         "outbound": true
     },
@@ -8479,7 +8479,6 @@ const airports = {
         ],
         "names": [
             "Monsenor Oscar Arnulfo Romero International Airport",
-            "San Salvador International Airport",
             "El Salvador International",
             "San Salvador, El Salvador"
         ],
