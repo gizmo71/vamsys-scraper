@@ -6270,7 +6270,7 @@ const airports = {
             5.32937
         ],
         "names": [
-            "Grenoble (Alpes\u2013Is\u00e8re)"
+            "Grenoble Isere"
         ],
         "outbound": true
     },
