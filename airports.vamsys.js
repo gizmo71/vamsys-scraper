@@ -1067,7 +1067,7 @@ const airports = {
             -4.99541
         ],
         "names": [
-            "Newquay Cornwall"
+            "Newquay"
         ],
         "outbound": true
     },
@@ -1188,6 +1188,18 @@ const airports = {
         ],
         "names": [
             "Newcastle Airport"
+        ],
+        "outbound": true
+    },
+    "EGNV": {
+        "iata": "MME",
+        "inbound": true,
+        "latlng": [
+            54.509201,
+            -1.42941
+        ],
+        "names": [
+            "Teesside"
         ],
         "outbound": true
     },
@@ -1416,18 +1428,6 @@ const airports = {
         ],
         "names": [
             "Knock Ireland West"
-        ],
-        "outbound": true
-    },
-    "EIKY": {
-        "iata": "KIR",
-        "inbound": true,
-        "latlng": [
-            52.180901,
-            -9.52378
-        ],
-        "names": [
-            "Kerry"
         ],
         "outbound": true
     },
@@ -1990,6 +1990,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "ESMX": {
+        "iata": "VXO",
+        "inbound": true,
+        "latlng": [
+            56.9291,
+            14.7279997
+        ],
+        "names": [
+            "Vaxjo Smaland"
+        ],
+        "outbound": true
+    },
     "ESNN": {
         "iata": "SDL",
         "inbound": true,
@@ -2086,18 +2098,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "ESOW": {
-        "iata": "VST",
-        "inbound": true,
-        "latlng": [
-            59.5894012,
-            16.6336002
-        ],
-        "names": [
-            "Stockholm Vasteras"
-        ],
-        "outbound": true
-    },
     "ESPA": {
         "iata": "LLA",
         "inbound": true,
@@ -2191,18 +2191,6 @@ const airports = {
         ],
         "names": [
             "Kaunas Airport"
-        ],
-        "outbound": true
-    },
-    "EYPA": {
-        "iata": "PLQ",
-        "inbound": true,
-        "latlng": [
-            55.9732018,
-            21.0939007
-        ],
-        "names": [
-            "Palanga"
         ],
         "outbound": true
     },
@@ -2634,30 +2622,6 @@ const airports = {
             "Marrakesh Menara Airport",
             "Marrakesch-Menara",
             "Marrakech"
-        ],
-        "outbound": true
-    },
-    "GMMZ": {
-        "iata": "OZZ",
-        "inbound": true,
-        "latlng": [
-            30.9391003,
-            -6.90943
-        ],
-        "names": [
-            "Ouarzazate"
-        ],
-        "outbound": true
-    },
-    "GMTT": {
-        "iata": "TNG",
-        "inbound": true,
-        "latlng": [
-            35.731741,
-            -5.921459
-        ],
-        "names": [
-            "Tangier"
         ],
         "outbound": true
     },
@@ -5941,8 +5905,7 @@ const airports = {
             0.073333
         ],
         "names": [
-            "Castell\u00f3n\u2013Costa Azahar Airport",
-            "Castellon (Valencia)"
+            "Castell\u00f3n\u2013Costa Azahar Airport"
         ],
         "outbound": true
     },
@@ -6078,7 +6041,6 @@ const airports = {
             1.16717
         ],
         "names": [
-            "Barcelona Reus",
             "Reus Air Base"
         ],
         "outbound": true
@@ -6120,6 +6082,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LEVD": {
+        "iata": "VLL",
+        "inbound": true,
+        "latlng": [
+            41.7061,
+            -4.85194
+        ],
+        "names": [
+            "Valladolid"
+        ],
+        "outbound": true
+    },
     "LEVT": {
         "iata": "VIT",
         "inbound": true,
@@ -6129,18 +6103,6 @@ const airports = {
         ],
         "names": [
             "Vitoria"
-        ],
-        "outbound": true
-    },
-    "LEVX": {
-        "iata": "VGO",
-        "inbound": true,
-        "latlng": [
-            42.2318,
-            -8.62677
-        ],
-        "names": [
-            "Vigo"
         ],
         "outbound": true
     },
@@ -6192,18 +6154,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LFBE": {
-        "iata": "EGC",
-        "inbound": true,
-        "latlng": [
-            44.8252983,
-            0.518611
-        ],
-        "names": [
-            "Bergerac"
-        ],
-        "outbound": true
-    },
     "LFBH": {
         "iata": "LRH",
         "inbound": true,
@@ -6213,30 +6163,6 @@ const airports = {
         ],
         "names": [
             "La Rochelle"
-        ],
-        "outbound": true
-    },
-    "LFBI": {
-        "iata": "PIS",
-        "inbound": true,
-        "latlng": [
-            46.5876999,
-            0.306666
-        ],
-        "names": [
-            "Poitiers"
-        ],
-        "outbound": true
-    },
-    "LFBL": {
-        "iata": "LIG",
-        "inbound": true,
-        "latlng": [
-            45.8628006,
-            1.17944
-        ],
-        "names": [
-            "Limoges"
         ],
         "outbound": true
     },
@@ -6348,18 +6274,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LFMK": {
-        "iata": "CCF",
-        "inbound": true,
-        "latlng": [
-            43.2159996,
-            2.30632
-        ],
-        "names": [
-            "Carcassonne"
-        ],
-        "outbound": true
-    },
     "LFML": {
         "iata": "MRS",
         "inbound": true,
@@ -6435,7 +6349,6 @@ const airports = {
             0.727606
         ],
         "names": [
-            "Tours Loire Valley",
             "Tours Val de Loire"
         ],
         "outbound": true
@@ -7136,8 +7049,7 @@ const airports = {
             13.4722
         ],
         "names": [
-            "Friuli Venezia Giulia Airport",
-            "Trieste"
+            "Friuli Venezia Giulia Airport"
         ],
         "outbound": true
     },
@@ -7280,18 +7192,6 @@ const airports = {
             "Ljubljana Joze Pucnik Airport (Brnik Airport)",
             "Brink, Ljunljana, Slovenia",
             "Ljubijana"
-        ],
-        "outbound": true
-    },
-    "LKMT": {
-        "iata": "OSR",
-        "inbound": true,
-        "latlng": [
-            49.696301,
-            18.111099
-        ],
-        "names": [
-            "Ostrava"
         ],
         "outbound": true
     },
