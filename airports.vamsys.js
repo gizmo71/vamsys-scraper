@@ -4419,6 +4419,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KLGB": {
+        "iata": "LGB",
+        "inbound": true,
+        "latlng": [
+            33.816523,
+            -118.149891
+        ],
+        "names": [
+            "Long Beach Airport"
+        ],
+        "outbound": true
+    },
     "KLIT": {
         "iata": "LIT",
         "inbound": true,
@@ -4773,6 +4785,7 @@ const airports = {
             -107.893997
         ],
         "names": [
+            "Montrose Regional Airport",
             "Montrose/Telluride"
         ],
         "outbound": true
@@ -5562,7 +5575,7 @@ const airports = {
             -110.938053
         ],
         "names": [
-            "Tucson"
+            "Tucson International Airport"
         ],
         "outbound": true
     },
@@ -7922,6 +7935,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "MDCY": {
+        "iata": "AZS",
+        "inbound": true,
+        "latlng": [
+            19.269259,
+            -69.737405
+        ],
+        "names": [
+            "Samana El Catey International Airport"
+        ],
+        "outbound": true
+    },
     "MDLR": {
         "iata": "LRM",
         "inbound": true,
@@ -8421,6 +8446,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "MUCM": {
+        "iata": "CMW",
+        "inbound": true,
+        "latlng": [
+            21.4202995,
+            -77.8475037
+        ],
+        "names": [
+            "Camaguey Ignacio Agramonte International Airport"
+        ],
+        "outbound": true
+    },
     "MUHA": {
         "iata": "HAV",
         "inbound": true,
@@ -8444,7 +8481,19 @@ const airports = {
             -76.3151016
         ],
         "names": [
-            "Holguin"
+            "Holguin Frank Pais Airport"
+        ],
+        "outbound": true
+    },
+    "MUSC": {
+        "iata": "SNU",
+        "inbound": true,
+        "latlng": [
+            22.492201,
+            -79.943604
+        ],
+        "names": [
+            "Santa Clara Abel Santamaria Airport"
         ],
         "outbound": true
     },
