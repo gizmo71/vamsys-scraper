@@ -83,7 +83,7 @@ const airlines = {
             "WUK",
             "WZZ"
         ],
-        "last_pirep_start": "2024-03-20T14:49:52.000000Z",
+        "last_pirep_start": "2024-04-18T14:37:32.000000Z",
         "name": "Wizz",
         "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+73.6 Hours (43.3 PIREPs)\n\t+3835.0 Points (19.9 PIREPs)\nCaptain:\n\t+223.6 Hours (131.6 PIREPs)\n\t+16335.0 Points (84.8 PIREPs)\nTraining Captain:\n\t+523.6 Hours (308.3 PIREPs)\n\t+51335.0 Points (266.6 PIREPs)\nBase Captain:\n\t+1923.6 Hours (1132.6 PIREPs)\n\t+191335.0 Points (993.7 PIREPs)\nTime mode: air",
         "sortName": "Wizz"
@@ -261,7 +261,7 @@ const airlines = {
             "ANA",
             "APJ"
         ],
-        "last_pirep_start": "2024-03-17T07:59:24.000000Z",
+        "last_pirep_start": "2024-04-13T06:44:13.000000Z",
         "name": "All Nippon",
         "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+36.7 Hours (30.2 PIREPs)\n\t+3228.0 Points (46.0 PIREPs)\nFirst Officer:\n\t+136.7 Hours (112.7 PIREPs)\n\t+13228.0 Points (188.5 PIREPs)\nSenior First Officer:\n\t+286.7 Hours (236.3 PIREPs)\n\t+26728.0 Points (380.8 PIREPs)\nCaptain:\n\t+586.7 Hours (483.6 PIREPs)\n\t+59228.0 Points (843.9 PIREPs)\nTraining Captain:\n\t+986.7 Hours (813.4 PIREPs)\n\t+99228.0 Points (1413.9 PIREPs)\nBase Captain:\n\t+1986.7 Hours (1637.8 PIREPs)\n\t+199228.0 Points (2838.7 PIREPs)\nTime mode: air",
         "sortName": "Nippon"
