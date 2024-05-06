@@ -241,9 +241,9 @@ const airlines = {
             "LLR",
             "VTI"
         ],
-        "last_pirep_start": "2024-04-01T07:25:14.000000Z",
+        "last_pirep_start": "2024-05-06T06:27:07.000000Z",
         "name": "Air India",
-        "rank_info": "First Officer:\n\t+40.9 Hours (35.9 PIREPs)\nSenior First Officer:\n\t+290.9 Hours (255.4 PIREPs)\n\t+13340.0 Points (64.3 PIREPs)\nCaptain:\n\t+590.9 Hours (518.8 PIREPs)\n\t+28340.0 Points (136.6 PIREPs)\nBase Captain:\n\t+990.9 Hours (870.1 PIREPs)\n\t+58340.0 Points (281.2 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+37.0 Hours (25.7 PIREPs)\nSenior First Officer:\n\t+287.0 Hours (198.9 PIREPs)\n\t+13115.0 Points (62.6 PIREPs)\nCaptain:\n\t+587.0 Hours (406.8 PIREPs)\n\t+28115.0 Points (134.2 PIREPs)\nBase Captain:\n\t+987.0 Hours (684.1 PIREPs)\n\t+58115.0 Points (277.5 PIREPs)\nTime mode: air",
         "sortName": "India"
     },
     "939": {

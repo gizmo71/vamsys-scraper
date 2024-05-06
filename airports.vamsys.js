@@ -9085,8 +9085,7 @@ const airports = {
             35.9931984
         ],
         "names": [
-            "Queen Alia International Airport",
-            "Amman Queen Alia International"
+            "Amman Queen Alia International Airport"
         ],
         "outbound": true
     },
@@ -11145,6 +11144,7 @@ const airports = {
             71.039391
         ],
         "names": [
+            "Rajkot International Airport",
             "Rajkot Hirasar Airport"
         ],
         "outbound": true
