@@ -120,9 +120,9 @@ const airlines = {
             "DLH",
             "GEC"
         ],
-        "last_pirep_start": "2024-04-05T15:06:56.000000Z",
+        "last_pirep_start": "2024-05-09T16:03:32.000000Z",
         "name": "Lufthansa",
-        "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+440.1 Hours (294.0 PIREPs)\n\t+2347.0 Points (25.7 PIREPs)\nTraining Captain:\n\t+440.1 Hours (294.0 PIREPs)\n\t+31347.0 Points (343.2 PIREPs)\nBase Captain:\n\t+1440.1 Hours (962.0 PIREPs)\n\t+71347.0 Points (781.2 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+439.6 Hours (298.6 PIREPs)\n\t+2302.0 Points (25.5 PIREPs)\nTraining Captain:\n\t+439.6 Hours (298.6 PIREPs)\n\t+31302.0 Points (347.0 PIREPs)\nBase Captain:\n\t+1439.6 Hours (977.8 PIREPs)\n\t+71302.0 Points (790.5 PIREPs)\nTime mode: air",
         "sortName": "Lufthansa"
     },
     "67": {

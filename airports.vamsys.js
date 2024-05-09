@@ -438,6 +438,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EDAH": {
+        "iata": "HDF",
+        "inbound": true,
+        "latlng": [
+            53.8787003,
+            14.1522999
+        ],
+        "names": [
+            "Heringsdorf"
+        ],
+        "outbound": true
+    },
     "EDDB": {
         "iata": "BER",
         "inbound": true,
@@ -5812,6 +5824,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LDRI": {
+        "iata": "RJK",
+        "inbound": true,
+        "latlng": [
+            45.2168999,
+            14.5703001
+        ],
+        "names": [
+            "Rijeka"
+        ],
+        "outbound": true
+    },
     "LDSP": {
         "iata": "SPU",
         "inbound": true,
@@ -6423,6 +6447,7 @@ const airports = {
             -1.73479
         ],
         "names": [
+            "Rennes Bretagne Airport",
             "Rennes Saint-Jacques"
         ],
         "outbound": true
