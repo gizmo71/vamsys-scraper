@@ -37,6 +37,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "BIRK": {
+        "iata": "RKV",
+        "inbound": true,
+        "latlng": [
+            64.1299973,
+            -21.9405994
+        ],
+        "names": [
+            "Reykjavik"
+        ],
+        "outbound": true
+    },
     "BKPR": {
         "iata": "PRN",
         "inbound": true,
@@ -4772,7 +4784,7 @@ const airports = {
         "names": [
             "Minneapolis Saint Paul International Airport",
             "Minneapolis/Saint Paul, MN",
-            "Minneapolis/St. Paul"
+            "Minneapolis / St. Paul"
         ],
         "outbound": true
     },
@@ -5836,6 +5848,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LDSB": {
+        "iata": "BWK",
+        "inbound": true,
+        "latlng": [
+            43.285702,
+            16.679701
+        ],
+        "names": [
+            "Brac"
+        ],
+        "outbound": true
+    },
     "LDSP": {
         "iata": "SPU",
         "inbound": true,
@@ -6548,6 +6572,7 @@ const airports = {
         ],
         "names": [
             "Heraklion International Airport (Nikos Kazantzakis Airport)",
+            "Heraklion International \"Nikos Kazantzakis\"",
             "Crete Heraklion"
         ],
         "outbound": true
@@ -6897,6 +6922,18 @@ const airports = {
         ],
         "names": [
             "Lampedusa"
+        ],
+        "outbound": true
+    },
+    "LICG": {
+        "iata": "PNL",
+        "inbound": true,
+        "latlng": [
+            36.816502,
+            11.9689
+        ],
+        "names": [
+            "Pantelleria"
         ],
         "outbound": true
     },
@@ -7678,6 +7715,18 @@ const airports = {
         ],
         "names": [
             "Lugano"
+        ],
+        "outbound": true
+    },
+    "LSZB": {
+        "iata": "BRN",
+        "inbound": true,
+        "latlng": [
+            46.912868,
+            7.498512
+        ],
+        "names": [
+            "Bern"
         ],
         "outbound": true
     },
