@@ -194,9 +194,9 @@ const airlines = {
             "SAB",
             "TTN"
         ],
-        "last_pirep_start": "2024-04-08T13:53:15.000000Z",
+        "last_pirep_start": "2024-05-12T07:05:08.000000Z",
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+84.0 Hours (41.9 PIREPs)\nBase Captain:\n\t+699.0 Hours (348.7 PIREPs)\nChief Pilot:\n\t+2019.0 Hours (1007.3 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+81.9 Hours (40.9 PIREPs)\nBase Captain:\n\t+696.9 Hours (347.7 PIREPs)\nChief Pilot:\n\t+2016.9 Hours (1006.1 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
