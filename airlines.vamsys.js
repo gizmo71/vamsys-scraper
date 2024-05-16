@@ -5,9 +5,9 @@ const airlines = {
             "EZS",
             "EZY"
         ],
-        "last_pirep_start": "2024-04-12T14:05:29.000000Z",
+        "last_pirep_start": "2024-05-16T14:43:24.000000Z",
         "name": "EasyJet",
-        "rank_info": "Senior First Officer:\n\t+80.8 Hours (47.9 PIREPs)\n\t+3020.0 Points (16.0 PIREPs)\nCaptain:\n\t+380.8 Hours (225.8 PIREPs)\n\t+35520.0 Points (188.6 PIREPs)\nTraining Captain:\n\t+780.8 Hours (463.0 PIREPs)\n\t+75520.0 Points (401.0 PIREPs)\nBase Captain:\n\t+1780.8 Hours (1056.0 PIREPs)\n\t+175520.0 Points (932.1 PIREPs)\nTime mode: block",
+        "rank_info": "Senior First Officer:\n\t+78.6 Hours (46.5 PIREPs)\n\t+2785.0 Points (14.8 PIREPs)\nCaptain:\n\t+378.6 Hours (224.0 PIREPs)\n\t+35285.0 Points (187.0 PIREPs)\nTraining Captain:\n\t+778.6 Hours (460.7 PIREPs)\n\t+75285.0 Points (399.0 PIREPs)\nBase Captain:\n\t+1778.6 Hours (1052.4 PIREPs)\n\t+175285.0 Points (929.1 PIREPs)\nTime mode: block",
         "sortName": "EasyJet"
     },
     "3": {

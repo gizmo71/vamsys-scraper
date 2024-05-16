@@ -6900,6 +6900,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LICB": {
+        "iata": "CIY",
+        "inbound": true,
+        "latlng": [
+            36.994601,
+            14.607182
+        ],
+        "names": [
+            "Sicily Comiso"
+        ],
+        "outbound": true
+    },
     "LICC": {
         "iata": "CTA",
         "inbound": true,
