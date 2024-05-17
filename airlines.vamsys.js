@@ -251,9 +251,9 @@ const airlines = {
             "FFT",
             "VOI"
         ],
-        "last_pirep_start": "2024-04-15T13:55:38.000000Z",
+        "last_pirep_start": "2024-05-17T13:37:16.000000Z",
         "name": "Frontier",
-        "rank_info": "First Officer:\n\t+39.9 Hours (27.6 PIREPs)\nSenior First Officer:\n\t+239.9 Hours (165.8 PIREPs)\n\t+1796.0 Points (10.4 PIREPs)\nCaptain:\n\t+489.9 Hours (338.5 PIREPs)\n\t+3796.0 Points (22.1 PIREPs)\n\t+4106.0 Bonus Points (32.1 PIREPs)\nSenior Captain:\n\t+1489.9 Hours (1029.5 PIREPs)\n\t+98796.0 Points (574.4 PIREPs)\n\t+5106.0 Bonus Points (40.0 PIREPs)\nBase Captain:\n\t+2989.9 Hours (2066.1 PIREPs)\n\t+198796.0 Points (1155.8 PIREPs)\n\t+9106.0 Bonus Points (71.3 PIREPs)\nTime mode: block",
+        "rank_info": "First Officer:\n\t+37.5 Hours (24.1 PIREPs)\nSenior First Officer:\n\t+237.5 Hours (152.6 PIREPs)\n\t+1569.0 Points (8.8 PIREPs)\nCaptain:\n\t+487.5 Hours (313.1 PIREPs)\n\t+3569.0 Points (20.0 PIREPs)\n\t+4106.0 Bonus Points (36.7 PIREPs)\nSenior Captain:\n\t+1487.5 Hours (955.4 PIREPs)\n\t+98569.0 Points (551.0 PIREPs)\n\t+5106.0 Bonus Points (45.7 PIREPs)\nBase Captain:\n\t+2987.5 Hours (1918.7 PIREPs)\n\t+198569.0 Points (1110.1 PIREPs)\n\t+9106.0 Bonus Points (81.5 PIREPs)\nTime mode: block",
         "sortName": "Frontier"
     },
     "1005": {
