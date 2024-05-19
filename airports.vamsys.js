@@ -69,7 +69,7 @@ const airports = {
             -113.580002
         ],
         "names": [
-            "Edmonton"
+            "Edmonton International Airport"
         ],
         "outbound": true
     },
@@ -1962,7 +1962,7 @@ const airports = {
             14.0686998
         ],
         "names": [
-            "J\u00f6nk\u00f6ping"
+            "Jonkoping Airport"
         ],
         "outbound": true
     },
@@ -2122,6 +2122,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "ESOK": {
+        "iata": "KSD",
+        "inbound": true,
+        "latlng": [
+            59.4446983,
+            13.3374004
+        ],
+        "names": [
+            "Karlstad"
+        ],
+        "outbound": true
+    },
     "ESPA": {
         "iata": "LLA",
         "inbound": true,
@@ -2146,6 +2158,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "ESSD": {
+        "iata": "BLE",
+        "inbound": true,
+        "latlng": [
+            60.422001,
+            15.5152
+        ],
+        "names": [
+            "Borlange Dala Airport"
+        ],
+        "outbound": true
+    },
     "ESSL": {
         "iata": "LPI",
         "inbound": true,
@@ -2155,6 +2179,18 @@ const airports = {
         ],
         "names": [
             "Linkoping-Saab Airport"
+        ],
+        "outbound": true
+    },
+    "ESSP": {
+        "iata": "NRK",
+        "inbound": true,
+        "latlng": [
+            58.5862999,
+            16.2506008
+        ],
+        "names": [
+            "Norrkoping"
         ],
         "outbound": true
     },
@@ -2685,18 +2721,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "GVAC": {
-        "iata": "SID",
-        "inbound": true,
-        "latlng": [
-            16.7414,
-            -22.9494
-        ],
-        "names": [
-            "Espargos Amilcar Cabral International Airport"
-        ],
-        "outbound": true
-    },
     "GVBA": {
         "iata": "BVC",
         "inbound": true,
@@ -2837,7 +2861,7 @@ const airports = {
             30.889252
         ],
         "names": [
-            "Giza Sphinx International Airport",
+            "Sphinx International Airport",
             "Cairo-Sphinx"
         ],
         "outbound": true
@@ -5844,7 +5868,7 @@ const airports = {
             14.5703001
         ],
         "names": [
-            "Rijeka"
+            "Rijeka Airport"
         ],
         "outbound": true
     },
@@ -8066,7 +8090,7 @@ const airports = {
             -70.5699997
         ],
         "names": [
-            "Puerto Plata Gregorio Luper\u00f3n International Airport"
+            "Puerto Plata Gregorio Luperon International Airport"
         ],
         "outbound": true
     },
@@ -8078,7 +8102,7 @@ const airports = {
             -69.6688995
         ],
         "names": [
-            "Santo Domingo Las Am\u00e9ricas International Airport",
+            "Santo Domingo Las Americas International Airport",
             "Santo Domingo, Dominican Republic"
         ],
         "outbound": true
@@ -10393,18 +10417,6 @@ const airports = {
         ],
         "names": [
             "Buenos Aires Ministro Pistarini"
-        ],
-        "outbound": true
-    },
-    "SBEG": {
-        "iata": "MAO",
-        "inbound": true,
-        "latlng": [
-            -3.03861,
-            -60.049702
-        ],
-        "names": [
-            "Manaus Eduardo Gomes International Airport"
         ],
         "outbound": true
     },
