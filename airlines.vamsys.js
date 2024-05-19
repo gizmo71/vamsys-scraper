@@ -228,9 +228,9 @@ const airlines = {
         "callsigns": [
             "IGO"
         ],
-        "last_pirep_start": "2024-04-06T06:43:11.000000Z",
+        "last_pirep_start": "2024-05-19T08:09:23.000000Z",
         "name": "IndiGo",
-        "rank_info": "First Officer:\n\t+31.8 Hours (22.7 PIREPs)\nSenior First Officer:\n\t+81.8 Hours (58.4 PIREPs)\n\t+9335.0 Points (45.5 PIREPs)\nCaptain:\n\t+231.8 Hours (165.4 PIREPs)\n\t+17335.0 Points (84.6 PIREPs)\nBase Captain:\n\t+481.8 Hours (343.9 PIREPs)\n\t+57335.0 Points (279.7 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+30.2 Hours (21.4 PIREPs)\nSenior First Officer:\n\t+80.2 Hours (56.8 PIREPs)\n\t+9160.0 Points (45.2 PIREPs)\nCaptain:\n\t+230.2 Hours (163.1 PIREPs)\n\t+17160.0 Points (84.6 PIREPs)\nBase Captain:\n\t+480.2 Hours (340.2 PIREPs)\n\t+57160.0 Points (281.8 PIREPs)\nTime mode: air",
         "sortName": "IndiGo"
     },
     "876": {
