@@ -136,7 +136,7 @@ def airport(airport):
     name = " ".join(airport['name'].split())
     iata = airport['iata']
     if not iata:
-        iata = {'1NK2':'1NK2', 'EGHL':'QLA', 'LROV':'GHV', 'MUOC':'MUOC', 'VIKA':'KNU', 'VOBG':'VOBG'}.get(icao, None)
+        iata = {'1NK2':'1NK2', 'EGHL':'QLA', 'LROV':'GHV', 'MUOC':'MUOC', 'VIKA':'KNU', 'VOBG':'VOBG', 'EBMB':'EBMB'}.get(icao, None)
     elif iata == 'KIV' and icao == 'LUKK':
         iata = 'RMO'
     if icao in airports:
