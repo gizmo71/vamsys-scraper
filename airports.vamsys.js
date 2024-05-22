@@ -2927,18 +2927,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "HSSK": {
-        "iata": "KRT",
-        "inbound": true,
-        "latlng": [
-            15.5895,
-            32.5532
-        ],
-        "names": [
-            "Khartoum International"
-        ],
-        "outbound": true
-    },
     "HTDA": {
         "iata": "DAR",
         "inbound": true,
@@ -13471,7 +13459,8 @@ const airports = {
             98.870566
         ],
         "names": [
-            "Kualanamu International Airport"
+            "Kualanamu International Airport",
+            "Medan Kualanamu International"
         ],
         "outbound": true
     },
