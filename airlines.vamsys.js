@@ -201,9 +201,12 @@ const airlines = {
             "AWC",
             "BCS",
             "EXS",
-            "RGN",
+            "KRH",
+            "MSA",
             "SWT",
-            "TOM"
+            "TMT",
+            "TOM",
+            "WUK"
         ],
         "last_pirep_start": "2024-04-10T14:09:13.000000Z",
         "name": "Titan",

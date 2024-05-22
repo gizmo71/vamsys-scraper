@@ -438,6 +438,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EBMB": {
+        "iata": "EBMB",
+        "inbound": true,
+        "latlng": [
+            -1.0,
+            -1.0
+        ],
+        "names": [
+            "Melsbroek Air Base"
+        ],
+        "outbound": true
+    },
     "EBOS": {
         "iata": "OST",
         "inbound": true,
@@ -446,7 +458,8 @@ const airports = {
             2.874673
         ],
         "names": [
-            "Oostende-Brugge"
+            "Oostende-Brugge",
+            "Ostend-Bruges"
         ],
         "outbound": true
     },
@@ -745,18 +758,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "EDVE": {
-        "iata": "BWE",
-        "inbound": true,
-        "latlng": [
-            52.319199,
-            10.5561
-        ],
-        "names": [
-            "Braunschweig-Wolfsburg"
-        ],
-        "outbound": true
-    },
     "EDXW": {
         "iata": "GWT",
         "inbound": true,
@@ -777,7 +778,8 @@ const airports = {
             24.8327999
         ],
         "names": [
-            "Tallinn Airport (Lennart Meri Tallinn Airport)"
+            "Tallinn Airport (Lennart Meri Tallinn Airport)",
+            "Talinn"
         ],
         "outbound": true
     },
@@ -1356,6 +1358,18 @@ const airports = {
         ],
         "names": [
             "Exeter International Airport"
+        ],
+        "outbound": true
+    },
+    "EGVN": {
+        "iata": "BZZ",
+        "inbound": true,
+        "latlng": [
+            51.75,
+            -1.58362
+        ],
+        "names": [
+            "RAF Brize Norton"
         ],
         "outbound": true
     },
@@ -2404,7 +2418,7 @@ const airports = {
     },
     "FSIA": {
         "iata": "SEZ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -4.67434,
             55.521801
@@ -4954,6 +4968,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KPAE": {
+        "iata": "PAE",
+        "inbound": true,
+        "latlng": [
+            47.9063,
+            -122.281998
+        ],
+        "names": [
+            "Everett"
+        ],
+        "outbound": true
+    },
     "KPBI": {
         "iata": "PBI",
         "inbound": true,
@@ -7140,6 +7166,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LIPO": {
+        "iata": "VBS",
+        "inbound": true,
+        "latlng": [
+            45.428902,
+            10.3306
+        ],
+        "names": [
+            "Brescia"
+        ],
+        "outbound": true
+    },
     "LIPQ": {
         "iata": "TRS",
         "inbound": true,
@@ -7440,18 +7478,6 @@ const airports = {
         ],
         "names": [
             "Horta"
-        ],
-        "outbound": true
-    },
-    "LPLA": {
-        "iata": "TER",
-        "inbound": true,
-        "latlng": [
-            38.761799,
-            -27.090799
-        ],
-        "names": [
-            "Aerogare Civil das Lajes"
         ],
         "outbound": true
     },
@@ -12461,6 +12487,18 @@ const airports = {
         ],
         "names": [
             "Visakhapatnam Airport"
+        ],
+        "outbound": true
+    },
+    "VRMG": {
+        "iata": "GAN",
+        "inbound": true,
+        "latlng": [
+            -0.692694,
+            73.151557
+        ],
+        "names": [
+            "Gan"
         ],
         "outbound": true
     },
