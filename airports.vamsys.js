@@ -531,8 +531,8 @@ const airports = {
             7.68483
         ],
         "names": [
-            "Muenster Osnabrueck",
-            "Munster Osnabruck"
+            "Munster Osnabruck International Airport",
+            "Muenster Osnabrueck"
         ],
         "outbound": true
     },
@@ -596,7 +596,6 @@ const airports = {
         ],
         "names": [
             "Nuremberg Airport",
-            "Nurenburg",
             "N\u00fcrnberg"
         ],
         "outbound": true
@@ -6535,8 +6534,7 @@ const airports = {
         ],
         "names": [
             "Basel Mulhouse-Freiburg EuroAirport",
-            "Basle-Mulhouse",
-            "Basel (Basel)"
+            "Basle-Mulhouse"
         ],
         "outbound": true
     },
@@ -6586,6 +6584,18 @@ const airports = {
         "names": [
             "Athens International Airport (Eleftherios Venizelos Airport)",
             "Athen-Eleftherios-Venizelos"
+        ],
+        "outbound": true
+    },
+    "LGBL": {
+        "iata": "VOL",
+        "inbound": true,
+        "latlng": [
+            39.219601,
+            22.7943
+        ],
+        "names": [
+            "Volos Nea Anchialos National Airport"
         ],
         "outbound": true
     },
@@ -11157,8 +11167,7 @@ const airports = {
             72.634697
         ],
         "names": [
-            "Ahmedabad International Airport",
-            "Sardar Vallabhbhai Patel"
+            "Ahmedabad International Airport"
         ],
         "outbound": true
     },

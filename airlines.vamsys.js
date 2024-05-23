@@ -68,10 +68,9 @@ const airlines = {
             "BAW",
             "CFE",
             "EFW",
-            "QTR",
             "SHT"
         ],
-        "last_pirep_start": "2024-04-09T14:01:23.000000Z",
+        "last_pirep_start": "2024-05-19T15:18:32.000000Z",
         "name": "British Airways",
         "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+79.7 Hours (56.3 PIREPs)\n\t+5679.0 Points (28.7 PIREPs)\nSenior First Officer:\n\t+254.7 Hours (179.9 PIREPs)\n\t+21179.0 Points (107.2 PIREPs)\nCaptain:\n\t+554.7 Hours (391.8 PIREPs)\n\t+53679.0 Points (271.7 PIREPs)\nTraining Captain:\n\t+954.7 Hours (674.3 PIREPs)\n\t+93679.0 Points (474.2 PIREPs)\nBase Captain:\n\t+1954.7 Hours (1380.6 PIREPs)\n\t+193679.0 Points (980.5 PIREPs)\nTime mode: block",
         "sortName": "British Airways"
@@ -208,7 +207,7 @@ const airlines = {
             "TOM",
             "WUK"
         ],
-        "last_pirep_start": "2024-04-10T14:09:13.000000Z",
+        "last_pirep_start": "2024-05-23T13:56:35.000000Z",
         "name": "Titan",
         "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+27.8 Hours (16.3 PIREPs)\n\t+735.0 Points (2.9 PIREPs)\nFirst Officer:\n\t+127.8 Hours (74.8 PIREPs)\n\t+10735.0 Points (42.7 PIREPs)\nSenior First Officer:\n\t+277.8 Hours (162.5 PIREPs)\n\t+24235.0 Points (96.5 PIREPs)\nCaptain:\n\t+577.8 Hours (338.0 PIREPs)\n\t+56735.0 Points (225.9 PIREPs)\nTraining Captain:\n\t+977.8 Hours (572.0 PIREPs)\n\t+96735.0 Points (385.2 PIREPs)\nBase Captain:\n\t+1977.8 Hours (1157.0 PIREPs)\n\t+196735.0 Points (783.3 PIREPs)\nTime mode: block",
         "sortName": "Titan"
