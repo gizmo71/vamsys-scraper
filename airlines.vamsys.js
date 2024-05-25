@@ -167,9 +167,9 @@ const airlines = {
         "callsigns": [
             "JBU"
         ],
-        "last_pirep_start": "2024-04-25T13:55:19.000000Z",
+        "last_pirep_start": "2024-05-25T12:25:02.000000Z",
         "name": "JetBlue",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+35.3 Hours (31.2 PIREPs)\n\t+1295.0 Points (6.2 PIREPs)\nSenior First Officer:\n\t+185.3 Hours (163.7 PIREPs)\n\t+14295.0 Points (68.7 PIREPs)\nCaptain:\n\t+485.3 Hours (428.6 PIREPs)\n\t+42295.0 Points (203.3 PIREPs)\nTraining Captain:\n\t+985.3 Hours (870.3 PIREPs)\n\t+77295.0 Points (371.5 PIREPs)\nSenior Training Captain:\n\t+1485.3 Hours (1311.9 PIREPs)\n\t+127295.0 Points (611.8 PIREPs)\nChief Pilot:\n\t+2485.3 Hours (2195.1 PIREPs)\n\t+247295.0 Points (1188.5 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+28.6 Hours (18.8 PIREPs)\n\t+945.0 Points (4.3 PIREPs)\nSenior First Officer:\n\t+178.6 Hours (117.0 PIREPs)\n\t+13945.0 Points (63.9 PIREPs)\nCaptain:\n\t+478.6 Hours (313.6 PIREPs)\n\t+41945.0 Points (192.2 PIREPs)\nTraining Captain:\n\t+978.6 Hours (641.1 PIREPs)\n\t+76945.0 Points (352.6 PIREPs)\nSenior Training Captain:\n\t+1478.6 Hours (968.7 PIREPs)\n\t+126945.0 Points (581.7 PIREPs)\nChief Pilot:\n\t+2478.6 Hours (1623.8 PIREPs)\n\t+246945.0 Points (1131.7 PIREPs)\nTime mode: block",
         "sortName": "JetBlue"
     },
     "356": {
@@ -325,8 +325,8 @@ const airlines = {
         "name": "Lion Group",
         "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+39.0 Hours (21.2 PIREPs)\n\t+1249.0 Points (2.7 PIREPs)\nFirst Officer:\n\t+139.0 Hours (75.6 PIREPs)\n\t+11249.0 Points (24.5 PIREPs)\nSenior First Officer:\n\t+289.0 Hours (157.2 PIREPs)\n\t+24749.0 Points (54.0 PIREPs)\nCaptain:\n\t+589.0 Hours (320.4 PIREPs)\n\t+57249.0 Points (124.9 PIREPs)\nTime mode: block",
         "requirements": {
-            "details": "1 PIREP(s) required over 30 days\nNext 1 PIREP(s) required by 2024-06-13",
-            "target_date": "2024-06-13T15:14:31+00:00"
+            "details": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-07-13",
+            "target_date": "2024-07-13T15:14:31+00:00"
         },
         "sortName": "Lion Group"
     },
