@@ -7,7 +7,19 @@ const airports = {
             -45.425999
         ],
         "names": [
-            "Narsarsuaq"
+            "Narsarsuaq Airport"
+        ],
+        "outbound": true
+    },
+    "BGKK": {
+        "iata": "KUS",
+        "inbound": true,
+        "latlng": [
+            65.573601,
+            -37.1236
+        ],
+        "names": [
+            "Kulusuk Airport"
         ],
         "outbound": true
     },
@@ -45,7 +57,7 @@ const airports = {
             -21.9405994
         ],
         "names": [
-            "Reykjavik"
+            "Reykjav\u00edk Airport"
         ],
         "outbound": true
     },
@@ -93,7 +105,7 @@ const airports = {
             -75.669197
         ],
         "names": [
-            "Ottawa"
+            "Ottawa Macdonald-Cartier International Airport"
         ],
         "outbound": true
     },
@@ -111,7 +123,7 @@ const airports = {
     },
     "CYQX": {
         "iata": "YQX",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             48.936258,
             -54.567719
@@ -1452,7 +1464,7 @@ const airports = {
             -6.262121
         ],
         "names": [
-            "Dublin Airport"
+            "Dublin International Airport"
         ],
         "outbound": true
     },
@@ -6284,7 +6296,7 @@ const airports = {
             -0.006439
         ],
         "names": [
-            "Tarbes\u2013Lourdes\u2013Pyr\u00e9n\u00e9es"
+            "Tarbes\u2013Lourdes\u2013Pyr\u00e9n\u00e9es Airport"
         ],
         "outbound": true
     },
@@ -7615,6 +7627,7 @@ const airports = {
             26.1021
         ],
         "names": [
+            "Aurel Vlaicu International Airport",
             "Bucharest"
         ],
         "outbound": true
@@ -8601,7 +8614,6 @@ const airports = {
         ],
         "names": [
             "Havana Jos\u00e9 Mart\u00ed International Airport",
-            "Aeropuerto Internacional Jose Mart\u00c3\u00ad",
             "JOSE MARTI INT'L AIRPORT",
             "Havanna"
         ],
@@ -10323,6 +10335,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "RKSM": {
+        "iata": "SSN",
+        "inbound": true,
+        "latlng": [
+            37.444744,
+            127.112718
+        ],
+        "names": [
+            "Seoul Air Base"
+        ],
+        "outbound": true
+    },
     "RKSS": {
         "iata": "GMP",
         "inbound": true,
@@ -11459,6 +11483,18 @@ const airports = {
         ],
         "names": [
             "Phnom Penh International Airport"
+        ],
+        "outbound": true
+    },
+    "VDSA": {
+        "iata": "SAI",
+        "inbound": true,
+        "latlng": [
+            13.369167,
+            104.223056
+        ],
+        "names": [
+            "Siem Reap Angkor International Airport"
         ],
         "outbound": true
     },
@@ -14847,7 +14883,7 @@ const airports = {
         "names": [
             "Pyongyang Sunan International Airport"
         ],
-        "outbound": true
+        "outbound": false
     },
     "ZLDH": {
         "iata": "DNH",

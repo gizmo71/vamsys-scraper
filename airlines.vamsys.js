@@ -303,12 +303,12 @@ const airlines = {
             "JSA",
             "JST"
         ],
-        "last_pirep_start": "2024-03-30T07:43:15.000000Z",
+        "last_pirep_start": "2024-05-26T07:24:30.000000Z",
         "name": "JetStar",
-        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+108.5 Hours (56.8 PIREPs)\n\t+6730.0 Points (31.8 PIREPs)\nCaptain:\n\t+338.5 Hours (177.2 PIREPs)\n\t+13730.0 Points (64.9 PIREPs)\nSenior Captain:\n\t+488.5 Hours (255.7 PIREPs)\n\t+23730.0 Points (112.1 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+107.7 Hours (61.1 PIREPs)\n\t+6560.0 Points (31.9 PIREPs)\nCaptain:\n\t+337.7 Hours (191.6 PIREPs)\n\t+13560.0 Points (65.9 PIREPs)\nSenior Captain:\n\t+487.7 Hours (276.7 PIREPs)\n\t+23560.0 Points (114.5 PIREPs)\nTime mode: block",
         "requirements": {
-            "details": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-05-29",
-            "target_date": "2024-05-29T09:55:57+00:00"
+            "details": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-07-25",
+            "target_date": "2024-07-25T08:42:15+00:00"
         },
         "sortName": "JetStar"
     },
