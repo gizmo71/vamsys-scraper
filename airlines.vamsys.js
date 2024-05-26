@@ -12,7 +12,9 @@ const airlines = {
     },
     "3": {
         "callsigns": [
-            "RYR"
+            "RUK",
+            "RYR",
+            "RYS"
         ],
         "last_pirep_start": "2024-04-26T10:28:40.000000Z",
         "name": "Ryanair",
@@ -21,7 +23,6 @@ const airlines = {
     },
     "9": {
         "callsigns": [
-            "EWE",
             "EWG",
             "GWI",
             "OCN"
@@ -199,6 +200,7 @@ const airlines = {
             "AUR",
             "AWC",
             "BCS",
+            "EFW",
             "EXS",
             "KRH",
             "MSA",
@@ -209,7 +211,7 @@ const airlines = {
         ],
         "last_pirep_start": "2024-05-23T13:56:35.000000Z",
         "name": "Titan",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+27.8 Hours (16.3 PIREPs)\n\t+735.0 Points (2.9 PIREPs)\nFirst Officer:\n\t+127.8 Hours (74.8 PIREPs)\n\t+10735.0 Points (42.7 PIREPs)\nSenior First Officer:\n\t+277.8 Hours (162.5 PIREPs)\n\t+24235.0 Points (96.5 PIREPs)\nCaptain:\n\t+577.8 Hours (338.0 PIREPs)\n\t+56735.0 Points (225.9 PIREPs)\nTraining Captain:\n\t+977.8 Hours (572.0 PIREPs)\n\t+96735.0 Points (385.2 PIREPs)\nBase Captain:\n\t+1977.8 Hours (1157.0 PIREPs)\n\t+196735.0 Points (783.3 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+26.2 Hours (15.5 PIREPs)\n\t+460.0 Points (1.8 PIREPs)\nFirst Officer:\n\t+126.2 Hours (74.4 PIREPs)\n\t+10460.0 Points (41.4 PIREPs)\nSenior First Officer:\n\t+276.2 Hours (162.8 PIREPs)\n\t+23960.0 Points (94.8 PIREPs)\nCaptain:\n\t+576.2 Hours (339.5 PIREPs)\n\t+56460.0 Points (223.3 PIREPs)\nTraining Captain:\n\t+976.2 Hours (575.2 PIREPs)\n\t+96460.0 Points (381.5 PIREPs)\nBase Captain:\n\t+1976.2 Hours (1164.4 PIREPs)\n\t+196460.0 Points (777.0 PIREPs)\nTime mode: block",
         "sortName": "Titan"
     },
     "550": {
