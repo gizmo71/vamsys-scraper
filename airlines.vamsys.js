@@ -57,7 +57,7 @@ const airlines = {
         ],
         "last_pirep_start": "2024-05-27T06:43:23.000000Z",
         "name": "Aer Lingus",
-        "rank_info": "Senior First Officer:\n\t+50.8 Hours (34.1 PIREPs)\n\t+4805.0 Points (22.0 PIREPs)\nCaptain:\n\t+250.8 Hours (168.3 PIREPs)\n\t+22805.0 Points (104.6 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+850.8 Hours (570.8 PIREPs)\n\t+67805.0 Points (311.0 PIREPs)\n\t+4800.0 Bonus Points (22.0 PIREPs)\nBase Chief Pilot:\n\t+1450.8 Hours (973.3 PIREPs)\n\t+122805.0 Points (563.2 PIREPs)\n\t+12800.0 Bonus Points (58.7 PIREPs)\nTime mode: air",
+        "rank_info": "Senior First Officer:\n\t+50.8 Hours (34.1 PIREPs)\n\t+4805.0 Points (22.0 PIREPs)\nCaptain:\n\t+250.8 Hours (168.3 PIREPs)\n\t+22805.0 Points (104.6 PIREPs)\nSenior Captain (TRE/TRI/Line):\n\t+850.8 Hours (570.8 PIREPs)\n\t+67805.0 Points (311.0 PIREPs)\n\t+4400.0 Bonus Points (19.1 PIREPs)\nBase Chief Pilot:\n\t+1450.8 Hours (973.3 PIREPs)\n\t+122805.0 Points (563.2 PIREPs)\n\t+12400.0 Bonus Points (53.8 PIREPs)\nTime mode: air",
         "requirements": {
             "details": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-07-26",
             "target_date": "2024-07-26T10:41:04+00:00"
@@ -190,9 +190,9 @@ const airlines = {
             "SAB",
             "TTN"
         ],
-        "last_pirep_start": "2024-05-18T05:44:14.000000Z",
+        "last_pirep_start": "2024-05-28T13:46:24.000000Z",
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+78.9 Hours (39.3 PIREPs)\nBase Captain:\n\t+693.9 Hours (345.4 PIREPs)\nChief Pilot:\n\t+2013.9 Hours (1002.3 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+77.7 Hours (38.8 PIREPs)\nBase Captain:\n\t+692.7 Hours (345.4 PIREPs)\nChief Pilot:\n\t+2012.7 Hours (1003.6 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {
