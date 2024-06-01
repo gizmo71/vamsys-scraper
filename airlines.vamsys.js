@@ -159,9 +159,9 @@ const airlines = {
             "CPA",
             "CSZ"
         ],
-        "last_pirep_start": "2024-04-22T14:07:21.000000Z",
+        "last_pirep_start": "2024-06-01T07:39:51.000000Z",
         "name": "Air China",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+31.5 Hours (20.5 PIREPs)\n\t+2430.0 Points (18.6 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+131.5 Hours (85.4 PIREPs)\n\t+12430.0 Points (95.0 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+281.5 Hours (182.9 PIREPs)\n\t+25930.0 Points (198.2 PIREPs)\nCaptain / \u673a\u957f:\n\t+581.5 Hours (377.7 PIREPs)\n\t+58430.0 Points (446.6 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+981.5 Hours (637.6 PIREPs)\n\t+98430.0 Points (752.3 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1981.5 Hours (1287.1 PIREPs)\n\t+198430.0 Points (1516.7 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+29.9 Hours (19.3 PIREPs)\n\t+2250.0 Points (16.7 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+129.9 Hours (83.8 PIREPs)\n\t+12250.0 Points (91.0 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+279.9 Hours (180.7 PIREPs)\n\t+25750.0 Points (191.3 PIREPs)\nCaptain / \u673a\u957f:\n\t+579.9 Hours (374.3 PIREPs)\n\t+58250.0 Points (432.7 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+979.9 Hours (632.6 PIREPs)\n\t+98250.0 Points (729.9 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1979.9 Hours (1278.1 PIREPs)\n\t+198250.0 Points (1472.7 PIREPs)\nTime mode: block",
         "sortName": "China"
     },
     "291": {
@@ -190,9 +190,9 @@ const airlines = {
             "SAB",
             "TTN"
         ],
-        "last_pirep_start": "2024-05-28T13:46:24.000000Z",
+        "last_pirep_start": "2024-06-01T09:28:02.000000Z",
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+77.7 Hours (38.8 PIREPs)\nBase Captain:\n\t+692.7 Hours (345.4 PIREPs)\nChief Pilot:\n\t+2012.7 Hours (1003.6 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+77.0 Hours (38.5 PIREPs)\nBase Captain:\n\t+692.0 Hours (346.0 PIREPs)\nChief Pilot:\n\t+2012.0 Hours (1006.0 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "500": {

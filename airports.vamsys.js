@@ -8576,6 +8576,7 @@ const airports = {
         ],
         "names": [
             "Havana Jos\u00e9 Mart\u00ed International Airport",
+            "Aeropuerto Internacional Jose Mart\u00c3\u00ad",
             "JOSE MARTI INT'L AIRPORT",
             "Havanna"
         ],
