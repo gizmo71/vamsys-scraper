@@ -250,8 +250,7 @@ const airports = {
             -0.166786
         ],
         "names": [
-            "Kotoka International",
-            "Accra Kotoka"
+            "Accra Kotoka International"
         ],
         "outbound": true
     },
@@ -263,7 +262,8 @@ const airports = {
             -3.92629
         ],
         "names": [
-            "Felix Houphouet Boigny Internatonal"
+            "Felix Houphouet Boigny Internatonal",
+            "Abidjan Port Bouet"
         ],
         "outbound": true
     },
@@ -3369,6 +3369,7 @@ const airports = {
         ],
         "names": [
             "Baltimore\u2013Washington International Airport",
+            "Baltimore (MD) (Washington DC)",
             "Baltimore, MD"
         ],
         "outbound": true
@@ -4289,7 +4290,7 @@ const airports = {
         ],
         "names": [
             "New York John F. Kennedy International Airport",
-            "John F Kennedy International",
+            "John F Kennedy International Airport",
             "New York (JFK)"
         ],
         "outbound": true
@@ -4911,6 +4912,7 @@ const airports = {
         ],
         "names": [
             "Chicago O'Hare International Airport",
+            "O'Hare International (IL) (Chicago)",
             "Chicago O'Hare Intl.",
             "ORD-Chicago, IL",
             "Chicago OHare"
@@ -8724,7 +8726,7 @@ const airports = {
             -149.606995
         ],
         "names": [
-            "Papeete"
+            "Papeete Tahiti Faa'a International Airport"
         ],
         "outbound": true
     },
@@ -9546,6 +9548,7 @@ const airports = {
         ],
         "names": [
             "Dainel K. Inouye International",
+            "Daniel K. Inouye International",
             "Honolulu International Airport"
         ],
         "outbound": true
@@ -10379,7 +10382,7 @@ const airports = {
         "names": [
             "Angeles City Clark International"
         ],
-        "outbound": false
+        "outbound": true
     },
     "RPLL": {
         "iata": "MNL",
@@ -10404,7 +10407,7 @@ const airports = {
         "names": [
             "Francisco bangoy int"
         ],
-        "outbound": false
+        "outbound": true
     },
     "RPVM": {
         "iata": "CEB",
@@ -10464,7 +10467,8 @@ const airports = {
             -70.7857971
         ],
         "names": [
-            "Santiago"
+            "Arturo Merino Benitez International Airport",
+            "Santiago (Chile)"
         ],
         "outbound": true
     },
@@ -11117,7 +11121,8 @@ const airports = {
             37.4146
         ],
         "names": [
-            "Moscow Sheremetyevo International Airport"
+            "Moscow Sheremetyevo International Airport",
+            "Sheremetyevo - A.S. Pushkin International"
         ],
         "outbound": true
     },
@@ -12349,7 +12354,8 @@ const airports = {
             80.169296
         ],
         "names": [
-            "Chennai International Airport"
+            "Chennai International Airport",
+            "Chennai (Madras)"
         ],
         "outbound": true
     },
@@ -12577,7 +12583,8 @@ const airports = {
             106.652
         ],
         "names": [
-            "Ho Chi Minh City International Airport"
+            "Ho Chi Minh City International Airport",
+            "Tan Son Nhat International"
         ],
         "outbound": true
     },
@@ -12637,9 +12644,9 @@ const airports = {
             115.167
         ],
         "names": [
+            "Denpasar Ngurah Rai International Airport",
             "I Gusti Ngurah Rai International Airport",
-            "I Gusti Ngurah Rai (Bali)",
-            "Denpasar Ngurah Rai"
+            "I Gusti Ngurah Rai (Bali)"
         ],
         "outbound": true
     },
@@ -14662,6 +14669,7 @@ const airports = {
             113.810997
         ],
         "names": [
+            "Shenzhen Bao'an International Airport",
             "Shenzhen Baoan Airport"
         ],
         "outbound": true
@@ -15314,6 +15322,7 @@ const airports = {
             121.33426
         ],
         "names": [
+            "Shanghai Hongqiao International Airport",
             "Shanghai Hongqiao Intl Airport"
         ],
         "outbound": true

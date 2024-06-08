@@ -69,6 +69,7 @@ const airlines = {
             "BAW",
             "CFE",
             "EFW",
+            "QTR",
             "SHT"
         ],
         "last_pirep_start": "2024-05-19T15:18:32.000000Z",
