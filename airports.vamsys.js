@@ -2733,18 +2733,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "GVBA": {
-        "iata": "BVC",
-        "inbound": true,
-        "latlng": [
-            16.1364994,
-            -22.8889008
-        ],
-        "names": [
-            "Boa Vista"
-        ],
-        "outbound": true
-    },
     "HAAB": {
         "iata": "ADD",
         "inbound": true,
@@ -6396,7 +6384,6 @@ const airports = {
         "names": [
             "Nice Cote d'Azur Airport",
             "Nice Cote D' Azur",
-            "Nice Cote d'Azure",
             "Nice C\u00c3\u00b4te d'Azur",
             "Nizza"
         ],
@@ -7513,9 +7500,9 @@ const airports = {
         ],
         "names": [
             "Madeira FunchalCristiano Ronaldo International Airport",
-            "Madeira Funchal Christiano Ronaldo",
             "Funchal Cristiano Ronaldo Airport",
-            "Madeira CR7 Airport"
+            "Madeira CR7 Airport",
+            "Funchal Madeira"
         ],
         "outbound": true
     },
