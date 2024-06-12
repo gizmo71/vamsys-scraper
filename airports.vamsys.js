@@ -5991,6 +5991,7 @@ const airports = {
             -8.37726
         ],
         "names": [
+            "La Coru\u00c3\u00b1a",
             "La Coru\u00f1a"
         ],
         "outbound": true
@@ -6260,7 +6261,8 @@ const airports = {
             -0.006439
         ],
         "names": [
-            "Tarbes\u2013Lourdes\u2013Pyr\u00e9n\u00e9es Airport"
+            "Tarbes\u2013Lourdes\u2013Pyr\u00e9n\u00e9es Airport",
+            "Tarbes\u00e2\u0080\u0093Lourdes\u00e2\u0080\u0093Pyr\u00c3\u00a9n\u00c3\u00a9es"
         ],
         "outbound": true
     },
@@ -6496,7 +6498,8 @@ const airports = {
         ],
         "names": [
             "Rennes Bretagne Airport",
-            "Rennes Saint-Jacques"
+            "Rennes Saint-Jacques",
+            "Rennes\u00e2\u0080\u0093Saint-Jacques"
         ],
         "outbound": true
     },
@@ -6557,6 +6560,7 @@ const airports = {
             6.1460299
         ],
         "names": [
+            "Toulon-Hy\u00c3\u00a8res",
             "Toulon-Hy\u00e8res"
         ],
         "outbound": true

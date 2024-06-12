@@ -5,9 +5,9 @@ const airlines = {
             "EZS",
             "EZY"
         ],
-        "last_pirep_start": "2024-05-16T14:43:24.000000Z",
+        "last_pirep_start": "2024-06-12T13:55:44.000000Z",
         "name": "EasyJet",
-        "rank_info": "Senior First Officer:\n\t+78.6 Hours (46.5 PIREPs)\n\t+2785.0 Points (14.8 PIREPs)\nCaptain:\n\t+378.6 Hours (224.0 PIREPs)\n\t+35285.0 Points (187.0 PIREPs)\nTraining Captain:\n\t+778.6 Hours (460.7 PIREPs)\n\t+75285.0 Points (399.0 PIREPs)\nBase Captain:\n\t+1778.6 Hours (1052.4 PIREPs)\n\t+175285.0 Points (929.1 PIREPs)\nTime mode: block",
+        "rank_info": "Senior First Officer:\n\t+76.9 Hours (45.5 PIREPs)\n\t+2560.0 Points (13.5 PIREPs)\nCaptain:\n\t+376.9 Hours (223.1 PIREPs)\n\t+35060.0 Points (185.6 PIREPs)\nTraining Captain:\n\t+776.9 Hours (459.8 PIREPs)\n\t+75060.0 Points (397.3 PIREPs)\nBase Captain:\n\t+1776.9 Hours (1051.5 PIREPs)\n\t+175060.0 Points (926.5 PIREPs)\nTime mode: block",
         "sortName": "EasyJet"
     },
     "3": {
@@ -264,7 +264,7 @@ const airlines = {
         ],
         "last_pirep_start": "2024-04-13T06:44:13.000000Z",
         "name": "All Nippon",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+36.7 Hours (30.2 PIREPs)\n\t+3228.0 Points (46.0 PIREPs)\nFirst Officer:\n\t+136.7 Hours (112.7 PIREPs)\n\t+13228.0 Points (188.5 PIREPs)\nSenior First Officer:\n\t+286.7 Hours (236.3 PIREPs)\n\t+26728.0 Points (380.8 PIREPs)\nCaptain:\n\t+586.7 Hours (483.6 PIREPs)\n\t+59228.0 Points (843.9 PIREPs)\nTraining Captain:\n\t+986.7 Hours (813.4 PIREPs)\n\t+99228.0 Points (1413.9 PIREPs)\nBase Captain:\n\t+1986.7 Hours (1637.8 PIREPs)\n\t+199228.0 Points (2838.7 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+35.5 Hours (29.4 PIREPs)\n\t+3148.0 Points (44.3 PIREPs)\nFirst Officer:\n\t+135.5 Hours (112.3 PIREPs)\n\t+13148.0 Points (185.2 PIREPs)\nSenior First Officer:\n\t+285.5 Hours (236.6 PIREPs)\n\t+26648.0 Points (375.3 PIREPs)\nCaptain:\n\t+585.5 Hours (485.1 PIREPs)\n\t+59148.0 Points (833.1 PIREPs)\nTraining Captain:\n\t+985.5 Hours (816.5 PIREPs)\n\t+99148.0 Points (1396.5 PIREPs)\nBase Captain:\n\t+1985.5 Hours (1645.0 PIREPs)\n\t+199148.0 Points (2804.9 PIREPs)\nTime mode: air",
         "sortName": "Nippon"
     },
     "1033": {
