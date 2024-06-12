@@ -4147,6 +4147,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KHYA": {
+        "iata": "HYA",
+        "inbound": true,
+        "latlng": [
+            41.6693,
+            -70.280403
+        ],
+        "names": [
+            "Hyannis Barnstable Municipal Airport"
+        ],
+        "outbound": true
+    },
     "KHYS": {
         "iata": "HYS",
         "inbound": true,
@@ -5127,7 +5139,7 @@ const airports = {
             -70.309303
         ],
         "names": [
-            "Portland"
+            "Portland International Jetport"
         ],
         "outbound": true
     },
