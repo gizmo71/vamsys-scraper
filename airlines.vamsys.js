@@ -262,9 +262,9 @@ const airlines = {
             "ANA",
             "APJ"
         ],
-        "last_pirep_start": "2024-04-13T06:44:13.000000Z",
+        "last_pirep_start": "2024-06-15T06:35:43.000000Z",
         "name": "All Nippon",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+35.5 Hours (29.4 PIREPs)\n\t+3148.0 Points (44.3 PIREPs)\nFirst Officer:\n\t+135.5 Hours (112.3 PIREPs)\n\t+13148.0 Points (185.2 PIREPs)\nSenior First Officer:\n\t+285.5 Hours (236.6 PIREPs)\n\t+26648.0 Points (375.3 PIREPs)\nCaptain:\n\t+585.5 Hours (485.1 PIREPs)\n\t+59148.0 Points (833.1 PIREPs)\nTraining Captain:\n\t+985.5 Hours (816.5 PIREPs)\n\t+99148.0 Points (1396.5 PIREPs)\nBase Captain:\n\t+1985.5 Hours (1645.0 PIREPs)\n\t+199148.0 Points (2804.9 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+34.5 Hours (29.0 PIREPs)\n\t+3043.0 Points (41.3 PIREPs)\nFirst Officer:\n\t+134.5 Hours (113.0 PIREPs)\n\t+13043.0 Points (177.2 PIREPs)\nSenior First Officer:\n\t+284.5 Hours (238.9 PIREPs)\n\t+26543.0 Points (360.6 PIREPs)\nCaptain:\n\t+584.5 Hours (490.9 PIREPs)\n\t+59043.0 Points (802.0 PIREPs)\nTraining Captain:\n\t+984.5 Hours (826.8 PIREPs)\n\t+99043.0 Points (1345.4 PIREPs)\nBase Captain:\n\t+1984.5 Hours (1666.5 PIREPs)\n\t+199043.0 Points (2703.8 PIREPs)\nTime mode: air",
         "sortName": "Nippon"
     },
     "1033": {
