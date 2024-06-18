@@ -106,12 +106,12 @@ const airlines = {
         "callsigns": [
             "NKS"
         ],
-        "last_pirep_start": "2024-03-27T14:54:34.000000Z",
+        "last_pirep_start": "2024-06-18T13:59:10.000000Z",
         "name": "Spirit",
-        "rank_info": "Bonus points not included in normal points total\nFirst Officer:\n\t+66.4 Hours (39.6 PIREPs)\n\t+5925.0 Points (29.1 PIREPs)\nCaptain:\n\t+241.4 Hours (143.8 PIREPs)\n\t+18425.0 Points (90.4 PIREPs)\n\t+2770.0 Bonus Points (18.6 PIREPs)\nSenior Captain:\n\t+716.4 Hours (426.7 PIREPs)\n\t+70925.0 Points (348.1 PIREPs)\n\t+13020.0 Bonus Points (87.4 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nFirst Officer:\n\t+65.2 Hours (39.3 PIREPs)\n\t+5700.0 Points (27.8 PIREPs)\nCaptain:\n\t+240.2 Hours (144.9 PIREPs)\n\t+18200.0 Points (88.9 PIREPs)\n\t+2770.0 Bonus Points (19.5 PIREPs)\nSenior Captain:\n\t+715.2 Hours (431.6 PIREPs)\n\t+70700.0 Points (345.3 PIREPs)\n\t+13020.0 Bonus Points (91.8 PIREPs)\nTime mode: air",
         "requirements": {
-            "details": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-06-25",
-            "target_date": "2024-06-25T16:01:55+00:00"
+            "details": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-09-16",
+            "target_date": "2024-09-16T15:47:33+00:00"
         },
         "sortName": "Spirit"
     },
