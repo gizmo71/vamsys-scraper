@@ -147,7 +147,7 @@ const airlines = {
         ],
         "last_pirep_start": "2024-06-23T06:31:20.000000Z",
         "name": "Oryx (Qatar)",
-        "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+42.7 Hours (46.5 PIREPs)\n\t+1215.0 Points (5.4 PIREPs)\n\t+25.0 Bonus Points (1.1 PIREPs)\nFirst Officer:\n\t+192.7 Hours (210.1 PIREPs)\n\t+3215.0 Points (14.4 PIREPs)\n\t+1325.0 Bonus Points (60.6 PIREPs)\nSenior First Officer:\n\t+392.7 Hours (428.2 PIREPs)\n\t+7215.0 Points (32.3 PIREPs)\n\t+1825.0 Bonus Points (83.4 PIREPs)\nCaptain:\n\t+592.7 Hours (646.2 PIREPs)\n\t+10215.0 Points (45.8 PIREPs)\n\t+3325.0 Bonus Points (152.0 PIREPs)\nTraining Captain:\n\t+992.7 Hours (1082.4 PIREPs)\n\t+98215.0 Points (440.2 PIREPs)\n\t+3825.0 Bonus Points (174.9 PIREPs)\nTime mode: air",
+        "rank_info": "Second Officer:\n\t+342.7 Hours (373.6 PIREPs)\nFirst Officer:\n\t+892.7 Hours (973.4 PIREPs)\nSenior First Officer:\n\t+1492.7 Hours (1627.6 PIREPs)\nCaptain:\n\t+2192.7 Hours (2390.9 PIREPs)\nTraining Captain:\n\t+2992.7 Hours (3263.2 PIREPs)\nTime mode: air",
         "sortName": "Qatar"
     },
     "265": {
