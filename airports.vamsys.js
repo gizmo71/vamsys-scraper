@@ -7269,7 +7269,7 @@ const airports = {
             13.4722
         ],
         "names": [
-            "Friuli Venezia Giulia Airport"
+            "Trieste Friuli Venezia Giulia Airport"
         ],
         "outbound": true
     },
