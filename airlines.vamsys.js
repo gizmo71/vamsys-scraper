@@ -343,5 +343,14 @@ const airlines = {
         "name": "Air New Zealand",
         "rank_info": "ANZ - Second Officer:\n\t+4.5 Hours (3.2 PIREPs)\nANZ - First Officer:\n\t+44.5 Hours (32.1 PIREPs)\n\t+4210.0 Points (13.1 PIREPs)\nANZ - Senior First Officer:\n\t+244.5 Hours (176.5 PIREPs)\n\t+26210.0 Points (81.3 PIREPs)\nANZ - Captain:\n\t+444.5 Hours (320.9 PIREPs)\n\t+58710.0 Points (182.0 PIREPs)\nTime mode: block",
         "sortName": "New Zealand"
+    },
+    "1672": {
+        "callsigns": [
+            "ASA"
+        ],
+        "last_pirep_start": "2024-06-23T08:15:24.000000Z",
+        "name": "Alaska Virtual",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+23.9 Hours (21.3 PIREPs)\n\t+665.0 Points (7.8 PIREPs)\nFirst Officer:\n\t+48.9 Hours (43.7 PIREPs)\n\t+1415.0 Points (16.6 PIREPs)\nCaptain:\n\t+198.9 Hours (177.6 PIREPs)\n\t+9915.0 Points (116.6 PIREPs)\nTime mode: block",
+        "sortName": "Alaska Virtual"
     }
 };
