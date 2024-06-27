@@ -1792,6 +1792,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EPBY": {
+        "iata": "BZG",
+        "inbound": true,
+        "latlng": [
+            53.096802,
+            17.977699
+        ],
+        "names": [
+            "Bydgoszcz"
+        ],
+        "outbound": true
+    },
     "EPGD": {
         "iata": "GDN",
         "inbound": true,
