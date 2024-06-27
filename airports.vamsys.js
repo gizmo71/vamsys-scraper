@@ -14361,7 +14361,7 @@ const airports = {
             153.08319
         ],
         "names": [
-            "Sunshine Coast"
+            "Sunshine Coast Airport"
         ],
         "outbound": true
     },
