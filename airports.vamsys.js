@@ -619,7 +619,7 @@ const airports = {
             12.232705
         ],
         "names": [
-            "Leipzig Halle",
+            "Leipzig/Halle Airport",
             "Liepzig-Halle"
         ],
         "outbound": true
@@ -1844,7 +1844,7 @@ const airports = {
     },
     "EPLB": {
         "iata": "LUZ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             51.240278,
             22.713611
@@ -5851,6 +5851,7 @@ const airports = {
             27.5151997
         ],
         "names": [
+            "Bourgas Airport",
             "Burgas Airport"
         ],
         "outbound": true
@@ -6931,7 +6932,7 @@ const airports = {
         ],
         "names": [
             "Zante, Dionysios Solomos Airport",
-            "Zakynthos Airport",
+            "Zakynthos International Airport",
             "Zante Zakynthos"
         ],
         "outbound": true
