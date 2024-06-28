@@ -84,9 +84,9 @@ const airlines = {
             "WUK",
             "WZZ"
         ],
-        "last_pirep_start": "2024-06-03T14:29:24.000000Z",
+        "last_pirep_start": "2024-06-28T14:05:41.000000Z",
         "name": "Wizz",
-        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+72.1 Hours (42.6 PIREPs)\n\t+3620.0 Points (18.8 PIREPs)\nCaptain:\n\t+222.1 Hours (131.2 PIREPs)\n\t+16120.0 Points (83.5 PIREPs)\nTraining Captain:\n\t+522.1 Hours (308.4 PIREPs)\n\t+51120.0 Points (264.8 PIREPs)\nBase Captain:\n\t+1922.1 Hours (1135.4 PIREPs)\n\t+191120.0 Points (990.0 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+70.6 Hours (41.8 PIREPs)\n\t+3415.0 Points (17.7 PIREPs)\nCaptain:\n\t+220.6 Hours (130.5 PIREPs)\n\t+15915.0 Points (82.3 PIREPs)\nTraining Captain:\n\t+520.6 Hours (308.1 PIREPs)\n\t+50915.0 Points (263.4 PIREPs)\nBase Captain:\n\t+1920.6 Hours (1136.5 PIREPs)\n\t+190915.0 Points (987.7 PIREPs)\nTime mode: air",
         "sortName": "Wizz"
     },
     "46": {
