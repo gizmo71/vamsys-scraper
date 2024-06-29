@@ -340,9 +340,9 @@ const airlines = {
         "callsigns": [
             "ANZ"
         ],
-        "last_pirep_start": "2024-06-02T06:40:57.000000Z",
+        "last_pirep_start": "2024-06-29T06:10:26.000000Z",
         "name": "Air New Zealand",
-        "rank_info": "ANZ - Second Officer:\n\t+4.5 Hours (3.2 PIREPs)\nANZ - First Officer:\n\t+44.5 Hours (32.1 PIREPs)\n\t+4210.0 Points (13.1 PIREPs)\nANZ - Senior First Officer:\n\t+244.5 Hours (176.5 PIREPs)\n\t+26210.0 Points (81.3 PIREPs)\nANZ - Captain:\n\t+444.5 Hours (320.9 PIREPs)\n\t+58710.0 Points (182.0 PIREPs)\nTime mode: block",
+        "rank_info": "ANZ - Second Officer:\n\t+1.0 Hours (0.5 PIREPs)\nANZ - First Officer:\n\t+41.0 Hours (22.7 PIREPs)\n\t+3805.0 Points (11.2 PIREPs)\nANZ - Senior First Officer:\n\t+241.0 Hours (133.3 PIREPs)\n\t+25805.0 Points (76.1 PIREPs)\nANZ - Captain:\n\t+441.0 Hours (243.9 PIREPs)\n\t+58305.0 Points (172.0 PIREPs)\nTime mode: block",
         "sortName": "New Zealand"
     },
     "1672": {
