@@ -8843,6 +8843,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "NCAI": {
+        "iata": "AIT",
+        "inbound": true,
+        "latlng": [
+            -18.8309,
+            -159.764008
+        ],
+        "names": [
+            "Aitutaki Airport"
+        ],
+        "outbound": true
+    },
     "NCRG": {
         "iata": "RAR",
         "inbound": true,
@@ -10821,6 +10833,7 @@ const airports = {
             -58.5358
         ],
         "names": [
+            "Buenos Aires Ezeiza International Airport",
             "Buenos Aires Ministro Pistarini"
         ],
         "outbound": true
@@ -10859,7 +10872,7 @@ const airports = {
             -70.7857971
         ],
         "names": [
-            "Arturo Merino Benitez International Airport",
+            "Comodoro Arturo Merino Benitez International Airport",
             "Santiago (Chile)"
         ],
         "outbound": true
@@ -10872,7 +10885,7 @@ const airports = {
             -109.4219971
         ],
         "names": [
-            "Mataveri"
+            "Mataveri International Airport"
         ],
         "outbound": true
     },
@@ -10898,6 +10911,18 @@ const airports = {
         ],
         "names": [
             "Quito Mariscal Sucre International Airport"
+        ],
+        "outbound": true
+    },
+    "SGAS": {
+        "iata": "ASU",
+        "inbound": true,
+        "latlng": [
+            -25.240156,
+            -57.519227
+        ],
+        "names": [
+            "Asuncion Silvio Pettirossi International Airport"
         ],
         "outbound": true
     },
@@ -10990,6 +11015,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "SLVR": {
+        "iata": "VVI",
+        "inbound": true,
+        "latlng": [
+            -17.6448,
+            -63.135399
+        ],
+        "names": [
+            "Viru Viru International Airport"
+        ],
+        "outbound": true
+    },
     "SMJP": {
         "iata": "PBM",
         "inbound": true,
@@ -11035,6 +11072,18 @@ const airports = {
         ],
         "names": [
             "Inca Manco Capac International Airport"
+        ],
+        "outbound": true
+    },
+    "SULS": {
+        "iata": "PDP",
+        "inbound": true,
+        "latlng": [
+            -34.8550987,
+            -55.0942993
+        ],
+        "names": [
+            "Capitan Corbeta C.A. Curbelo International Airport"
         ],
         "outbound": true
     },
