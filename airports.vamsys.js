@@ -7715,7 +7715,7 @@ const airports = {
         ],
         "names": [
             "Aurel Vlaicu International Airport",
-            "Bucharest"
+            "Bucharest B\u0103neasa"
         ],
         "outbound": true
     },
@@ -7801,7 +7801,8 @@ const airports = {
             26.3540993
         ],
         "names": [
-            "Suceava International Airport"
+            "Suceava International Airport",
+            "Suceava \u0218tefan cel Mare"
         ],
         "outbound": true
     },
@@ -11551,6 +11552,18 @@ const airports = {
         ],
         "names": [
             "Minsk International Airport"
+        ],
+        "outbound": true
+    },
+    "UTSB": {
+        "iata": "BHK",
+        "inbound": true,
+        "latlng": [
+            39.775002,
+            64.483299
+        ],
+        "names": [
+            "Bukhara"
         ],
         "outbound": true
     },

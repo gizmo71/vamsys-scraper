@@ -199,6 +199,7 @@ const airlines = {
     "500": {
         "callsigns": [
             "AWC",
+            "BAW",
             "BCS",
             "EFW",
             "EXS",
@@ -209,12 +210,12 @@ const airlines = {
             "TOM",
             "WUK"
         ],
-        "last_pirep_start": "2024-05-23T13:56:35.000000Z",
+        "last_pirep_start": "2024-06-30T11:17:00.000000Z",
         "name": "Titan",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+26.2 Hours (15.5 PIREPs)\n\t+460.0 Points (1.8 PIREPs)\nFirst Officer:\n\t+126.2 Hours (74.4 PIREPs)\n\t+10460.0 Points (41.4 PIREPs)\nSenior First Officer:\n\t+276.2 Hours (162.8 PIREPs)\n\t+23960.0 Points (94.8 PIREPs)\nCaptain:\n\t+576.2 Hours (339.5 PIREPs)\n\t+56460.0 Points (223.3 PIREPs)\nTraining Captain:\n\t+976.2 Hours (575.2 PIREPs)\n\t+96460.0 Points (381.5 PIREPs)\nBase Captain:\n\t+1976.2 Hours (1164.4 PIREPs)\n\t+196460.0 Points (777.0 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+25.6 Hours (15.7 PIREPs)\n\t+245.0 Points (1.0 PIREPs)\nFirst Officer:\n\t+125.6 Hours (77.1 PIREPs)\n\t+10245.0 Points (40.9 PIREPs)\nSenior First Officer:\n\t+275.6 Hours (169.2 PIREPs)\n\t+23745.0 Points (94.9 PIREPs)\nCaptain:\n\t+575.6 Hours (353.5 PIREPs)\n\t+56245.0 Points (224.7 PIREPs)\nTraining Captain:\n\t+975.6 Hours (599.2 PIREPs)\n\t+96245.0 Points (384.5 PIREPs)\nBase Captain:\n\t+1975.6 Hours (1213.3 PIREPs)\n\t+196245.0 Points (783.9 PIREPs)\nTime mode: block",
         "requirements": {
-            "details": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2024-11-19",
-            "target_date": "2024-11-19T16:03:29+00:00"
+            "details": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2024-12-27",
+            "target_date": "2024-12-27T12:18:57+00:00"
         },
         "sortName": "Titan"
     },
