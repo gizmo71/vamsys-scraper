@@ -5975,8 +5975,7 @@ const airports = {
             16.0688
         ],
         "names": [
-            "Zagreb Franjo Tudman",
-            "Zadar Airport"
+            "Zagreb Franjo Tudman"
         ],
         "outbound": true
     },

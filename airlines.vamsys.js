@@ -224,9 +224,9 @@ const airlines = {
             "SAS",
             "SZS"
         ],
-        "last_pirep_start": "2024-06-06T14:29:56.000000Z",
+        "last_pirep_start": "2024-07-03T14:07:08.000000Z",
         "name": "SAS",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+25.9 Hours (20.3 PIREPs)\n\t+2539.0 Points (13.9 PIREPs)\nSenior First Officer:\n\t+175.9 Hours (138.4 PIREPs)\n\t+11539.0 Points (63.3 PIREPs)\nCaptain:\n\t+375.9 Hours (295.8 PIREPs)\n\t+26539.0 Points (145.7 PIREPs)\n\t+845.0 Bonus Points (103.6 PIREPs)\nSenior Captain:\n\t+775.9 Hours (610.6 PIREPs)\n\t+36539.0 Points (200.6 PIREPs)\n\t+1845.0 Bonus Points (226.2 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+23.8 Hours (18.2 PIREPs)\n\t+2329.0 Points (12.7 PIREPs)\nSenior First Officer:\n\t+173.8 Hours (132.9 PIREPs)\n\t+11329.0 Points (61.7 PIREPs)\nCaptain:\n\t+373.8 Hours (285.8 PIREPs)\n\t+26329.0 Points (143.4 PIREPs)\n\t+845.0 Bonus Points (109.0 PIREPs)\nSenior Captain:\n\t+773.8 Hours (591.6 PIREPs)\n\t+36329.0 Points (197.9 PIREPs)\n\t+1845.0 Bonus Points (238.1 PIREPs)\nTime mode: block",
         "sortName": "SAS"
     },
     "706": {
