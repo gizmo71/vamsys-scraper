@@ -4,8 +4,12 @@ for (const [id, airline] of Object.entries(airlines).toSorted(([id1, airline1], 
     var days = `+${lastPirepDaysAgo}`;
     if (airline.requirements) {
         var daysToTargetCompletion = Math.floor((Date.parse(airline.requirements.target_date) - Date.now()) / 86400000)
-        days = `<span style='color: red;' title='${airline.requirements.details}'>-${daysToTargetCompletion}</span>`;
-    } else {
+        var colour = 'green';
+        if (daysToTargetCompletion < 7 * 8) {
+          days = `<span>-${daysToTargetCompletion}`;
+          colour = 'red';
+        }
+        days = `<span style='color: ${colour};' title='${airline.requirements.details}'>${days}</span>`;
     }
     var callsignSelectors = airline.callsigns.map(callsign => `<input id='${id}-${callsign}' type='checkbox' checked onmouseover='redraw("${id}-${callsign}", undefined);' onmouseout='redraw();' />`
         + `<label for='${id}-${callsign}'>${callsign}</label>`);
