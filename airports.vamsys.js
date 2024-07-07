@@ -2657,18 +2657,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "GMMI": {
-        "iata": "ESU",
-        "inbound": true,
-        "latlng": [
-            31.397499,
-            -9.68167
-        ],
-        "names": [
-            "Essaouira"
-        ],
-        "outbound": true
-    },
     "GMMN": {
         "iata": "CMN",
         "inbound": true,
@@ -6072,8 +6060,7 @@ const airports = {
             -8.37726
         ],
         "names": [
-            "La Coru\u00c3\u00b1a",
-            "La Coru\u00f1a"
+            "La Coru\u00c3\u00b1a"
         ],
         "outbound": true
     },
@@ -6320,6 +6307,18 @@ const airports = {
         ],
         "names": [
             "La Rochelle"
+        ],
+        "outbound": true
+    },
+    "LFBL": {
+        "iata": "LIG",
+        "inbound": true,
+        "latlng": [
+            45.8628006,
+            1.17944
+        ],
+        "names": [
+            "Limoges"
         ],
         "outbound": true
     },
@@ -6642,8 +6641,7 @@ const airports = {
             6.1460299
         ],
         "names": [
-            "Toulon-Hy\u00c3\u00a8res",
-            "Toulon-Hy\u00e8res"
+            "Toulon-Hy\u00c3\u00a8res"
         ],
         "outbound": true
     },
@@ -6905,7 +6903,8 @@ const airports = {
             26.1012993
         ],
         "names": [
-            "Sitia Public Airport"
+            "Sitia Public Airport",
+            "Crete Sitia"
         ],
         "outbound": true
     },
