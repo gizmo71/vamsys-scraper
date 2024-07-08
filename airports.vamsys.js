@@ -7963,6 +7963,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LTBZ": {
+        "iata": "KZR",
+        "inbound": true,
+        "latlng": [
+            39.113079,
+            30.128111
+        ],
+        "names": [
+            "K\u00fctahya Zafer"
+        ],
+        "outbound": true
+    },
     "LTCG": {
         "iata": "TZX",
         "inbound": true,
@@ -7996,6 +8008,18 @@ const airports = {
         ],
         "names": [
             "Gazipasa-Alanya Airport"
+        ],
+        "outbound": true
+    },
+    "LTFH": {
+        "iata": "SZF",
+        "inbound": true,
+        "latlng": [
+            41.254501,
+            36.567101
+        ],
+        "names": [
+            "Samsun"
         ],
         "outbound": true
     },
