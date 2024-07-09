@@ -304,6 +304,20 @@ const airlines = {
         "rank_info": "Flight-Attendant:\n\t+2.9 Hours (2.5 PIREPs)\nPurser:\n\t+12.9 Hours (10.9 PIREPs)\nTrainee:\n\t+42.9 Hours (36.3 PIREPs)\n\t+1065.0 Points (6.8 PIREPs)\nSecond Officer:\n\t+92.9 Hours (78.6 PIREPs)\n\t+3065.0 Points (19.7 PIREPs)\nFirst Officer:\n\t+192.9 Hours (163.2 PIREPs)\n\t+6565.0 Points (42.1 PIREPs)\n\t+860.0 Bonus Points (36.9 PIREPs)\nSenior First Officer:\n\t+492.9 Hours (417.1 PIREPs)\n\t+19065.0 Points (122.3 PIREPs)\n\t+4860.0 Bonus Points (208.3 PIREPs)\nCaptain:\n\t+992.9 Hours (840.1 PIREPs)\n\t+39065.0 Points (250.7 PIREPs)\n\t+9860.0 Bonus Points (422.6 PIREPs)\nVRGN Captain:\n\t+1992.9 Hours (1686.3 PIREPs)\n\t+79065.0 Points (507.4 PIREPs)\n\t+19860.0 Bonus Points (851.1 PIREPs)\nTime mode: air",
         "sortName": "Virgin"
     },
+    "1355": {
+        "callsigns": [
+            "ACN",
+            "AZU"
+        ],
+        "last_pirep_start": "2024-07-09T14:08:09.000000Z",
+        "name": "Azul Virtual",
+        "rank_info": "Primeiro Oficial:\n\t+49.1 Hours (54.4 PIREPs)\n\t+3815.0 Points (20.6 PIREPs)\nComandante Nacional:\n\t+149.1 Hours (165.1 PIREPs)\n\t+13815.0 Points (74.7 PIREPs)\nCopiloto Internacional:\n\t+299.1 Hours (331.2 PIREPs)\n\t+27315.0 Points (147.6 PIREPs)\nComandante Internacional:\n\t+599.1 Hours (663.4 PIREPs)\n\t+59815.0 Points (323.3 PIREPs)\nTime mode: air",
+        "requirements": {
+            "details": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-10-07",
+            "target_date": "2024-10-07T15:35:08+00:00"
+        },
+        "sortName": "Azul Virtual"
+    },
     "1595": {
         "callsigns": [
             "JJP",

@@ -2731,6 +2731,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "GVAC": {
+        "iata": "SID",
+        "inbound": true,
+        "latlng": [
+            16.7414,
+            -22.9494
+        ],
+        "names": [
+            "Cabo Verde"
+        ],
+        "outbound": true
+    },
     "HAAB": {
         "iata": "ADD",
         "inbound": true,
@@ -3914,6 +3926,7 @@ const airports = {
         ],
         "names": [
             "Fort Lauderdale Hollywood International Airport",
+            "Ft lauderdale - hollywood",
             "Fort Lauderdale, FL"
         ],
         "outbound": true
@@ -4599,6 +4612,7 @@ const airports = {
         ],
         "names": [
             "Orlando International Airport",
+            "Orlando intl",
             "Orlando, FL"
         ],
         "outbound": true
@@ -10861,6 +10875,366 @@ const airports = {
         ],
         "outbound": true
     },
+    "SBAC": {
+        "iata": "ARX",
+        "inbound": true,
+        "latlng": [
+            -4.568896,
+            -37.805135
+        ],
+        "names": [
+            "Aeroporto de Aracati"
+        ],
+        "outbound": true
+    },
+    "SBAE": {
+        "iata": "JTC",
+        "inbound": true,
+        "latlng": [
+            -22.160755,
+            -49.070325
+        ],
+        "names": [
+            "Bauru - arealva"
+        ],
+        "outbound": true
+    },
+    "SBAR": {
+        "iata": "AJU",
+        "inbound": true,
+        "latlng": [
+            -10.984,
+            -37.070301
+        ],
+        "names": [
+            "Santa maria"
+        ],
+        "outbound": true
+    },
+    "SBAT": {
+        "iata": "AFL",
+        "inbound": true,
+        "latlng": [
+            -9.866389,
+            -56.106298
+        ],
+        "names": [
+            "Piloto osvaldo marques dias"
+        ],
+        "outbound": true
+    },
+    "SBAU": {
+        "iata": "ARU",
+        "inbound": true,
+        "latlng": [
+            -21.141479,
+            -50.424575
+        ],
+        "names": [
+            "Aracatuba"
+        ],
+        "outbound": true
+    },
+    "SBAX": {
+        "iata": "AAX",
+        "inbound": true,
+        "latlng": [
+            -19.5632,
+            -46.9604
+        ],
+        "names": [
+            "Araxa"
+        ],
+        "outbound": true
+    },
+    "SBBE": {
+        "iata": "BEL",
+        "inbound": true,
+        "latlng": [
+            -1.379279,
+            -48.476207
+        ],
+        "names": [
+            "Val de Caes"
+        ],
+        "outbound": true
+    },
+    "SBBG": {
+        "iata": "BGX",
+        "inbound": true,
+        "latlng": [
+            -31.390499,
+            -54.112202
+        ],
+        "names": [
+            "Comandante gustavo kraemer"
+        ],
+        "outbound": true
+    },
+    "SBBR": {
+        "iata": "BSB",
+        "inbound": true,
+        "latlng": [
+            -15.869167,
+            -47.920834
+        ],
+        "names": [
+            "Presidente juscelino kubitschek"
+        ],
+        "outbound": true
+    },
+    "SBBV": {
+        "iata": "BVB",
+        "inbound": true,
+        "latlng": [
+            2.845855,
+            -60.690944
+        ],
+        "names": [
+            "Atlas brasil cantanhede"
+        ],
+        "outbound": true
+    },
+    "SBBW": {
+        "iata": "BPG",
+        "inbound": true,
+        "latlng": [
+            -15.861417,
+            -52.389008
+        ],
+        "names": [
+            "Barra do garcas"
+        ],
+        "outbound": true
+    },
+    "SBCA": {
+        "iata": "CAC",
+        "inbound": true,
+        "latlng": [
+            -25.000323,
+            -53.501208
+        ],
+        "names": [
+            "Aeroporto regional do oeste - coronel adalberto mendes da silva"
+        ],
+        "outbound": true
+    },
+    "SBCB": {
+        "iata": "CFB",
+        "inbound": true,
+        "latlng": [
+            -22.921485,
+            -42.071874
+        ],
+        "names": [
+            "Cabo frio"
+        ],
+        "outbound": true
+    },
+    "SBCF": {
+        "iata": "CNF",
+        "inbound": true,
+        "latlng": [
+            -19.63571,
+            -43.966928
+        ],
+        "names": [
+            "Tancredo neves"
+        ],
+        "outbound": true
+    },
+    "SBCG": {
+        "iata": "CGR",
+        "inbound": true,
+        "latlng": [
+            -20.469998,
+            -54.673988
+        ],
+        "names": [
+            "Campo grande"
+        ],
+        "outbound": true
+    },
+    "SBCH": {
+        "iata": "XAP",
+        "inbound": true,
+        "latlng": [
+            -27.134199,
+            -52.656601
+        ],
+        "names": [
+            "Serafin enoss bertaso"
+        ],
+        "outbound": true
+    },
+    "SBCJ": {
+        "iata": "CKS",
+        "inbound": true,
+        "latlng": [
+            -6.117841,
+            -50.003372
+        ],
+        "names": [
+            "Carajas"
+        ],
+        "outbound": true
+    },
+    "SBCN": {
+        "iata": "CLV",
+        "inbound": true,
+        "latlng": [
+            -17.725096,
+            -48.606324
+        ],
+        "names": [
+            "Caldas novas"
+        ],
+        "outbound": true
+    },
+    "SBCP": {
+        "iata": "CAW",
+        "inbound": true,
+        "latlng": [
+            -21.698299,
+            -41.301701
+        ],
+        "names": [
+            "Bartolomeu lisandro"
+        ],
+        "outbound": true
+    },
+    "SBCR": {
+        "iata": "CMG",
+        "inbound": true,
+        "latlng": [
+            -19.01193,
+            -57.672772
+        ],
+        "names": [
+            "Corumba"
+        ],
+        "outbound": true
+    },
+    "SBCT": {
+        "iata": "CWB",
+        "inbound": true,
+        "latlng": [
+            -25.5285,
+            -49.1758
+        ],
+        "names": [
+            "Afonso pena"
+        ],
+        "outbound": true
+    },
+    "SBCX": {
+        "iata": "CXJ",
+        "inbound": true,
+        "latlng": [
+            -29.197183,
+            -51.187647
+        ],
+        "names": [
+            "Hugo cantergiani"
+        ],
+        "outbound": true
+    },
+    "SBCY": {
+        "iata": "CGB",
+        "inbound": true,
+        "latlng": [
+            -15.6529,
+            -56.116699
+        ],
+        "names": [
+            "Marechal rondon"
+        ],
+        "outbound": true
+    },
+    "SBDB": {
+        "iata": "BYO",
+        "inbound": true,
+        "latlng": [
+            -21.2473,
+            -56.452399
+        ],
+        "names": [
+            "Bonito"
+        ],
+        "outbound": true
+    },
+    "SBDN": {
+        "iata": "PPB",
+        "inbound": true,
+        "latlng": [
+            -22.1751,
+            -51.424599
+        ],
+        "names": [
+            "Presidente prudente"
+        ],
+        "outbound": true
+    },
+    "SBEG": {
+        "iata": "MAO",
+        "inbound": true,
+        "latlng": [
+            -3.03861,
+            -60.049702
+        ],
+        "names": [
+            "Eduardo Gomes"
+        ],
+        "outbound": true
+    },
+    "SBFI": {
+        "iata": "IGU",
+        "inbound": true,
+        "latlng": [
+            -25.594167,
+            -54.489444
+        ],
+        "names": [
+            "Cataratas"
+        ],
+        "outbound": true
+    },
+    "SBFL": {
+        "iata": "FLN",
+        "inbound": true,
+        "latlng": [
+            -27.670279,
+            -48.552502
+        ],
+        "names": [
+            "Hercilio luz"
+        ],
+        "outbound": true
+    },
+    "SBFN": {
+        "iata": "FEN",
+        "inbound": true,
+        "latlng": [
+            -3.854471,
+            -32.423302
+        ],
+        "names": [
+            "Fernando de noronha"
+        ],
+        "outbound": true
+    },
+    "SBFZ": {
+        "iata": "FOR",
+        "inbound": true,
+        "latlng": [
+            -3.775833,
+            -38.532222
+        ],
+        "names": [
+            "Pinto martins"
+        ],
+        "outbound": true
+    },
     "SBGL": {
         "iata": "GIG",
         "inbound": true,
@@ -10869,8 +11243,21 @@ const airports = {
             -43.250557
         ],
         "names": [
+            "Galeao - antonio carlos jobim",
             "Rio de Janeiro Intl (Int)",
             "Rio Galeao"
+        ],
+        "outbound": true
+    },
+    "SBGO": {
+        "iata": "GYN",
+        "inbound": true,
+        "latlng": [
+            -16.632,
+            -49.220699
+        ],
+        "names": [
+            "Santa genoveva"
         ],
         "outbound": true
     },
@@ -10883,7 +11270,860 @@ const airports = {
         ],
         "names": [
             "Sao Paulo/Guarulhos-Governor Andre Franco Montoro International Airport",
+            "Guarulhos - governador andre franco montoro",
             "Sao Paulo Garulhos"
+        ],
+        "outbound": true
+    },
+    "SBGV": {
+        "iata": "GVR",
+        "inbound": true,
+        "latlng": [
+            -18.895882,
+            -41.982869
+        ],
+        "names": [
+            "Coronel altino machado"
+        ],
+        "outbound": true
+    },
+    "SBHT": {
+        "iata": "ATM",
+        "inbound": true,
+        "latlng": [
+            -3.253144,
+            -52.253938
+        ],
+        "names": [
+            "Altamira"
+        ],
+        "outbound": true
+    },
+    "SBIH": {
+        "iata": "ITB",
+        "inbound": true,
+        "latlng": [
+            -4.242131,
+            -56.000651
+        ],
+        "names": [
+            "Itaituba"
+        ],
+        "outbound": true
+    },
+    "SBIL": {
+        "iata": "IOS",
+        "inbound": true,
+        "latlng": [
+            -14.815929,
+            -39.033458
+        ],
+        "names": [
+            "Jorge amado"
+        ],
+        "outbound": true
+    },
+    "SBIP": {
+        "iata": "IPN",
+        "inbound": true,
+        "latlng": [
+            -19.470699,
+            -42.487598
+        ],
+        "names": [
+            "Usiminas"
+        ],
+        "outbound": true
+    },
+    "SBIZ": {
+        "iata": "IMP",
+        "inbound": true,
+        "latlng": [
+            -5.53129,
+            -47.459999
+        ],
+        "names": [
+            "Prefeito renato moreira"
+        ],
+        "outbound": true
+    },
+    "SBJA": {
+        "iata": "JJG",
+        "inbound": true,
+        "latlng": [
+            -28.6753,
+            -49.0596
+        ],
+        "names": [
+            "Regional sul"
+        ],
+        "outbound": true
+    },
+    "SBJE": {
+        "iata": "JJD",
+        "inbound": true,
+        "latlng": [
+            -2.906425,
+            -40.357338
+        ],
+        "names": [
+            "Comandante ariston pessoa"
+        ],
+        "outbound": true
+    },
+    "SBJI": {
+        "iata": "JPR",
+        "inbound": true,
+        "latlng": [
+            -10.870743,
+            -61.846675
+        ],
+        "names": [
+            "Ji-parana"
+        ],
+        "outbound": true
+    },
+    "SBJP": {
+        "iata": "JPA",
+        "inbound": true,
+        "latlng": [
+            -7.148691,
+            -34.950554
+        ],
+        "names": [
+            "Presidente castro pinto"
+        ],
+        "outbound": true
+    },
+    "SBJR": {
+        "iata": "RRJ",
+        "inbound": true,
+        "latlng": [
+            -22.986773,
+            -43.372194
+        ],
+        "names": [
+            "Jacarepagua-roberto marinho"
+        ],
+        "outbound": true
+    },
+    "SBJU": {
+        "iata": "JDO",
+        "inbound": true,
+        "latlng": [
+            -7.21932,
+            -39.269096
+        ],
+        "names": [
+            "Orlando bezerra de menezes"
+        ],
+        "outbound": true
+    },
+    "SBJV": {
+        "iata": "JOI",
+        "inbound": true,
+        "latlng": [
+            -26.224501,
+            -48.797401
+        ],
+        "names": [
+            "Lauro carneiro de loyola"
+        ],
+        "outbound": true
+    },
+    "SBKG": {
+        "iata": "CPV",
+        "inbound": true,
+        "latlng": [
+            -7.269662,
+            -35.896057
+        ],
+        "names": [
+            "Presidente joao suassuna"
+        ],
+        "outbound": true
+    },
+    "SBKP": {
+        "iata": "VCP",
+        "inbound": true,
+        "latlng": [
+            -23.007404,
+            -47.134502
+        ],
+        "names": [
+            "Viracopos"
+        ],
+        "outbound": true
+    },
+    "SBLE": {
+        "iata": "LEC",
+        "inbound": true,
+        "latlng": [
+            -12.4823,
+            -41.277
+        ],
+        "names": [
+            "Horacio de mattos"
+        ],
+        "outbound": true
+    },
+    "SBLO": {
+        "iata": "LDB",
+        "inbound": true,
+        "latlng": [
+            -23.333599,
+            -51.1301
+        ],
+        "names": [
+            "Governador jose richa"
+        ],
+        "outbound": true
+    },
+    "SBMA": {
+        "iata": "MAB",
+        "inbound": true,
+        "latlng": [
+            -5.36859,
+            -49.138
+        ],
+        "names": [
+            "Joao correa da rocha"
+        ],
+        "outbound": true
+    },
+    "SBMD": {
+        "iata": "MEU",
+        "inbound": true,
+        "latlng": [
+            -0.889839,
+            -52.6022
+        ],
+        "names": [
+            "Monte dourado"
+        ],
+        "outbound": true
+    },
+    "SBMG": {
+        "iata": "MGF",
+        "inbound": true,
+        "latlng": [
+            -23.47606,
+            -52.016187
+        ],
+        "names": [
+            "Silvio name junior"
+        ],
+        "outbound": true
+    },
+    "SBMK": {
+        "iata": "MOC",
+        "inbound": true,
+        "latlng": [
+            -16.706919,
+            -43.818901
+        ],
+        "names": [
+            "Mario ribeiro"
+        ],
+        "outbound": true
+    },
+    "SBML": {
+        "iata": "MII",
+        "inbound": true,
+        "latlng": [
+            -22.196899,
+            -49.926485
+        ],
+        "names": [
+            "Frank miloye milenkovich"
+        ],
+        "outbound": true
+    },
+    "SBMO": {
+        "iata": "MCZ",
+        "inbound": true,
+        "latlng": [
+            -9.51081,
+            -35.791698
+        ],
+        "names": [
+            "Zumbi dos palmares"
+        ],
+        "outbound": true
+    },
+    "SBMQ": {
+        "iata": "MCP",
+        "inbound": true,
+        "latlng": [
+            0.050664,
+            -51.072201
+        ],
+        "names": [
+            "Alberto alcolumbre"
+        ],
+        "outbound": true
+    },
+    "SBMS": {
+        "iata": "MVF",
+        "inbound": true,
+        "latlng": [
+            -5.20192,
+            -37.3643
+        ],
+        "names": [
+            "Dix-sept rosado"
+        ],
+        "outbound": true
+    },
+    "SBMY": {
+        "iata": "MNX",
+        "inbound": true,
+        "latlng": [
+            -5.81138,
+            -61.278301
+        ],
+        "names": [
+            "Manicore"
+        ],
+        "outbound": true
+    },
+    "SBNF": {
+        "iata": "NVT",
+        "inbound": true,
+        "latlng": [
+            -26.879431,
+            -48.650979
+        ],
+        "names": [
+            "Ministro victor konder"
+        ],
+        "outbound": true
+    },
+    "SBNM": {
+        "iata": "GEL",
+        "inbound": true,
+        "latlng": [
+            -28.282503,
+            -54.169623
+        ],
+        "names": [
+            "Santo angelo"
+        ],
+        "outbound": true
+    },
+    "SBPA": {
+        "iata": "POA",
+        "inbound": true,
+        "latlng": [
+            -29.994712,
+            -51.166592
+        ],
+        "names": [
+            "Salgado filho"
+        ],
+        "outbound": true
+    },
+    "SBPB": {
+        "iata": "PHB",
+        "inbound": true,
+        "latlng": [
+            -2.89375,
+            -41.731998
+        ],
+        "names": [
+            "Prefeito doutor joao silva filho"
+        ],
+        "outbound": true
+    },
+    "SBPF": {
+        "iata": "PFB",
+        "inbound": true,
+        "latlng": [
+            -28.243976,
+            -52.32777
+        ],
+        "names": [
+            "Lauro kurtz"
+        ],
+        "outbound": true
+    },
+    "SBPG": {
+        "iata": "PGZ",
+        "inbound": true,
+        "latlng": [
+            -25.184476,
+            -50.143822
+        ],
+        "names": [
+            "Comandante antonio amilton beraldo"
+        ],
+        "outbound": true
+    },
+    "SBPJ": {
+        "iata": "PMW",
+        "inbound": true,
+        "latlng": [
+            -10.2915,
+            -48.356998
+        ],
+        "names": [
+            "Brigadeiro lysias rodrigues"
+        ],
+        "outbound": true
+    },
+    "SBPK": {
+        "iata": "PET",
+        "inbound": true,
+        "latlng": [
+            -31.717253,
+            -52.327952
+        ],
+        "names": [
+            "Joao simoes lopes neto"
+        ],
+        "outbound": true
+    },
+    "SBPL": {
+        "iata": "PNZ",
+        "inbound": true,
+        "latlng": [
+            -9.362422,
+            -40.569098
+        ],
+        "names": [
+            "Senador nilo coelho"
+        ],
+        "outbound": true
+    },
+    "SBPO": {
+        "iata": "PTO",
+        "inbound": true,
+        "latlng": [
+            -26.217184,
+            -52.694463
+        ],
+        "names": [
+            "Aeroporto regional de pato branco"
+        ],
+        "outbound": true
+    },
+    "SBPP": {
+        "iata": "PMG",
+        "inbound": true,
+        "latlng": [
+            -22.549601,
+            -55.702599
+        ],
+        "names": [
+            "Ponta pora"
+        ],
+        "outbound": true
+    },
+    "SBPS": {
+        "iata": "BPS",
+        "inbound": true,
+        "latlng": [
+            -16.438426,
+            -39.080584
+        ],
+        "names": [
+            "Porto seguro"
+        ],
+        "outbound": true
+    },
+    "SBPV": {
+        "iata": "PVH",
+        "inbound": true,
+        "latlng": [
+            -8.707854,
+            -63.90242
+        ],
+        "names": [
+            "Governador jorge teixeira de oliveira"
+        ],
+        "outbound": true
+    },
+    "SBRB": {
+        "iata": "RBR",
+        "inbound": true,
+        "latlng": [
+            -9.869031,
+            -67.893984
+        ],
+        "names": [
+            "Placido de castro"
+        ],
+        "outbound": true
+    },
+    "SBRD": {
+        "iata": "ROO",
+        "inbound": true,
+        "latlng": [
+            -16.584292,
+            -54.724803
+        ],
+        "names": [
+            "Maestro marinho franco"
+        ],
+        "outbound": true
+    },
+    "SBRF": {
+        "iata": "REC",
+        "inbound": true,
+        "latlng": [
+            -8.125984,
+            -34.923316
+        ],
+        "names": [
+            "Guararapes - gilberto freyre"
+        ],
+        "outbound": true
+    },
+    "SBRJ": {
+        "iata": "SDU",
+        "inbound": true,
+        "latlng": [
+            -22.9105,
+            -43.163101
+        ],
+        "names": [
+            "Santos dumont"
+        ],
+        "outbound": true
+    },
+    "SBRP": {
+        "iata": "RAO",
+        "inbound": true,
+        "latlng": [
+            -21.134314,
+            -47.774053
+        ],
+        "names": [
+            "Leite lopes"
+        ],
+        "outbound": true
+    },
+    "SBSG": {
+        "iata": "NAT",
+        "inbound": true,
+        "latlng": [
+            -5.769804,
+            -35.366578
+        ],
+        "names": [
+            "Sao goncalo do amarante - governador aluizio alves"
+        ],
+        "outbound": true
+    },
+    "SBSI": {
+        "iata": "OPS",
+        "inbound": true,
+        "latlng": [
+            -11.885001,
+            -55.586109
+        ],
+        "names": [
+            "Presidente joao batista figueiredo"
+        ],
+        "outbound": true
+    },
+    "SBSJ": {
+        "iata": "SJK",
+        "inbound": false,
+        "latlng": [
+            -23.2292,
+            -45.8615
+        ],
+        "names": [
+            "Sao Jos\u00e9 dos Campos"
+        ],
+        "outbound": true
+    },
+    "SBSL": {
+        "iata": "SLZ",
+        "inbound": true,
+        "latlng": [
+            -2.58536,
+            -44.2341
+        ],
+        "names": [
+            "Marechal cunha machado"
+        ],
+        "outbound": true
+    },
+    "SBSM": {
+        "iata": "RIA",
+        "inbound": true,
+        "latlng": [
+            -29.711399,
+            -53.688202
+        ],
+        "names": [
+            "Santa maria"
+        ],
+        "outbound": true
+    },
+    "SBSN": {
+        "iata": "STM",
+        "inbound": true,
+        "latlng": [
+            -2.422423,
+            -54.79306
+        ],
+        "names": [
+            "Maestro wilson fonseca"
+        ],
+        "outbound": true
+    },
+    "SBSO": {
+        "iata": "SMT",
+        "inbound": true,
+        "latlng": [
+            -12.479177,
+            -55.672341
+        ],
+        "names": [
+            "Regional de sorriso adolino bedin"
+        ],
+        "outbound": true
+    },
+    "SBSP": {
+        "iata": "CGH",
+        "inbound": true,
+        "latlng": [
+            -23.627657,
+            -46.654601
+        ],
+        "names": [
+            "Congonhas"
+        ],
+        "outbound": true
+    },
+    "SBSR": {
+        "iata": "SJP",
+        "inbound": true,
+        "latlng": [
+            -20.817113,
+            -49.406963
+        ],
+        "names": [
+            "Professor eriberto manoel reino"
+        ],
+        "outbound": true
+    },
+    "SBSV": {
+        "iata": "SSA",
+        "inbound": true,
+        "latlng": [
+            -12.908611,
+            -38.322498
+        ],
+        "names": [
+            "Deputado luis eduardo magalhaes"
+        ],
+        "outbound": true
+    },
+    "SBTB": {
+        "iata": "TMT",
+        "inbound": true,
+        "latlng": [
+            -1.4896,
+            -56.396801
+        ],
+        "names": [
+            "Trombetas"
+        ],
+        "outbound": true
+    },
+    "SBTC": {
+        "iata": "UNA",
+        "inbound": true,
+        "latlng": [
+            -15.354358,
+            -38.998729
+        ],
+        "names": [
+            "Una - Comandatuba"
+        ],
+        "outbound": true
+    },
+    "SBTE": {
+        "iata": "THE",
+        "inbound": true,
+        "latlng": [
+            -5.06025,
+            -42.823712
+        ],
+        "names": [
+            "Senador petronio portella"
+        ],
+        "outbound": true
+    },
+    "SBTF": {
+        "iata": "TFF",
+        "inbound": true,
+        "latlng": [
+            -3.38294,
+            -64.724098
+        ],
+        "names": [
+            "Prefeito orlando marinho"
+        ],
+        "outbound": true
+    },
+    "SBTG": {
+        "iata": "TJL",
+        "inbound": true,
+        "latlng": [
+            -20.752643,
+            -51.682026
+        ],
+        "names": [
+            "Tres lagoas"
+        ],
+        "outbound": true
+    },
+    "SBTT": {
+        "iata": "TBT",
+        "inbound": true,
+        "latlng": [
+            -4.25567,
+            -69.935799
+        ],
+        "names": [
+            "Tabatinga"
+        ],
+        "outbound": true
+    },
+    "SBTU": {
+        "iata": "TUR",
+        "inbound": true,
+        "latlng": [
+            -3.78601,
+            -49.720299
+        ],
+        "names": [
+            "Aeroporto de Tucurui"
+        ],
+        "outbound": true
+    },
+    "SBUA": {
+        "iata": "SJL",
+        "inbound": true,
+        "latlng": [
+            -0.14835,
+            -66.9855
+        ],
+        "names": [
+            "Sao gabriel da cachoeira"
+        ],
+        "outbound": true
+    },
+    "SBUF": {
+        "iata": "PAV",
+        "inbound": true,
+        "latlng": [
+            -9.40088,
+            -38.250599
+        ],
+        "names": [
+            "Paulo afonso"
+        ],
+        "outbound": true
+    },
+    "SBUG": {
+        "iata": "URG",
+        "inbound": true,
+        "latlng": [
+            -29.7822,
+            -57.0382
+        ],
+        "names": [
+            "Rubem berta"
+        ],
+        "outbound": true
+    },
+    "SBUL": {
+        "iata": "UDI",
+        "inbound": true,
+        "latlng": [
+            -18.883579,
+            -48.225936
+        ],
+        "names": [
+            "Ten cel av cesar bombonato"
+        ],
+        "outbound": true
+    },
+    "SBUR": {
+        "iata": "UBA",
+        "inbound": true,
+        "latlng": [
+            -19.7647228,
+            -47.9661102
+        ],
+        "names": [
+            "Mario de almeida franco"
+        ],
+        "outbound": true
+    },
+    "SBVC": {
+        "iata": "VDC",
+        "inbound": true,
+        "latlng": [
+            -14.907885,
+            -40.914804
+        ],
+        "names": [
+            "Glauber de andrade rocha"
+        ],
+        "outbound": true
+    },
+    "SBVG": {
+        "iata": "VAG",
+        "inbound": true,
+        "latlng": [
+            -21.591375,
+            -45.474116
+        ],
+        "names": [
+            "Major brigadeiro trompowsky"
+        ],
+        "outbound": true
+    },
+    "SBVH": {
+        "iata": "BVH",
+        "inbound": true,
+        "latlng": [
+            -12.6944,
+            -60.098301
+        ],
+        "names": [
+            "Vilhena"
+        ],
+        "outbound": true
+    },
+    "SBVT": {
+        "iata": "VIX",
+        "inbound": true,
+        "latlng": [
+            -20.258,
+            -40.285
+        ],
+        "names": [
+            "Eurico de aguiar salles"
+        ],
+        "outbound": true
+    },
+    "SBZM": {
+        "iata": "IZA",
+        "inbound": true,
+        "latlng": [
+            -21.513086,
+            -43.173069
+        ],
+        "names": [
+            "Presidente itamar franco"
         ],
         "outbound": true
     },
@@ -10909,6 +12149,18 @@ const airports = {
         ],
         "names": [
             "Mataveri International Airport"
+        ],
+        "outbound": true
+    },
+    "SDIY": {
+        "iata": "FEC",
+        "inbound": true,
+        "latlng": [
+            -12.200694,
+            -38.906164
+        ],
+        "names": [
+            "Joao durval carneiro"
         ],
         "outbound": true
     },
@@ -10946,6 +12198,18 @@ const airports = {
         ],
         "names": [
             "Asuncion Silvio Pettirossi International Airport"
+        ],
+        "outbound": true
+    },
+    "SJZA": {
+        "iata": "CJZ",
+        "inbound": true,
+        "latlng": [
+            -6.8827,
+            -38.61583
+        ],
+        "names": [
+            "Pedro vieira moreira"
         ],
         "outbound": true
     },
@@ -11062,6 +12326,306 @@ const airports = {
         ],
         "outbound": true
     },
+    "SN6L": {
+        "iata": "JSO",
+        "inbound": true,
+        "latlng": [
+            -3.614488,
+            -40.231426
+        ],
+        "names": [
+            "Dr Luciano de Arruda Coelho"
+        ],
+        "outbound": true
+    },
+    "SNAB": {
+        "iata": "JAW",
+        "inbound": true,
+        "latlng": [
+            -7.586417,
+            -40.535431
+        ],
+        "names": [
+            "Araripina"
+        ],
+        "outbound": true
+    },
+    "SNBR": {
+        "iata": "BRA",
+        "inbound": true,
+        "latlng": [
+            -12.0789,
+            -45.008999
+        ],
+        "names": [
+            "Dom ricardo weberberger"
+        ],
+        "outbound": true
+    },
+    "SNCP": {
+        "iata": "EEA",
+        "inbound": true,
+        "latlng": [
+            -27.634128,
+            -50.358253
+        ],
+        "names": [
+            "Aeroporto regional do planalto serrano"
+        ],
+        "outbound": true
+    },
+    "SNEB": {
+        "iata": "JPE",
+        "inbound": true,
+        "latlng": [
+            -3.019798,
+            -47.316474
+        ],
+        "names": [
+            "Nagib demachki"
+        ],
+        "outbound": true
+    },
+    "SNGI": {
+        "iata": "GNM",
+        "inbound": true,
+        "latlng": [
+            -14.2082005,
+            -42.7461014
+        ],
+        "names": [
+            "Isaac moura rocha"
+        ],
+        "outbound": true
+    },
+    "SNGN": {
+        "iata": "QGP",
+        "inbound": true,
+        "latlng": [
+            -8.83428,
+            -36.4715996
+        ],
+        "names": [
+            "Garanhuns"
+        ],
+        "outbound": true
+    },
+    "SNHS": {
+        "iata": "SET",
+        "inbound": true,
+        "latlng": [
+            -8.061433,
+            -38.328888
+        ],
+        "names": [
+            "Santa magalhaes"
+        ],
+        "outbound": true
+    },
+    "SNIG": {
+        "iata": "QIG",
+        "inbound": true,
+        "latlng": [
+            -6.346319,
+            -39.294448
+        ],
+        "names": [
+            "Iguatu"
+        ],
+        "outbound": true
+    },
+    "SNJM": {
+        "iata": "JMA",
+        "inbound": true,
+        "latlng": [
+            -20.2597218,
+            -42.1838875
+        ],
+        "names": [
+            "Manhua\u00e7u"
+        ],
+        "outbound": true
+    },
+    "SNLN": {
+        "iata": "LHN",
+        "inbound": true,
+        "latlng": [
+            -19.355202,
+            -40.07128
+        ],
+        "names": [
+            "Linhares"
+        ],
+        "outbound": true
+    },
+    "SNMA": {
+        "iata": "MTE",
+        "inbound": true,
+        "latlng": [
+            -1.9958,
+            -54.0742
+        ],
+        "names": [
+            "Monte alegre"
+        ],
+        "outbound": true
+    },
+    "SNMZ": {
+        "iata": "PTQ",
+        "inbound": true,
+        "latlng": [
+            -1.74145,
+            -52.2360992
+        ],
+        "names": [
+            "Porto de moz"
+        ],
+        "outbound": true
+    },
+    "SNOX": {
+        "iata": "ORX",
+        "inbound": true,
+        "latlng": [
+            -1.71408,
+            -55.8362007
+        ],
+        "names": [
+            "Oriximina"
+        ],
+        "outbound": true
+    },
+    "SNPD": {
+        "iata": "POJ",
+        "inbound": true,
+        "latlng": [
+            -18.6728001,
+            -46.4911995
+        ],
+        "names": [
+            "Patos de minas"
+        ],
+        "outbound": true
+    },
+    "SNRJ": {
+        "iata": "JRT",
+        "inbound": true,
+        "latlng": [
+            -2.186667,
+            -56.090279
+        ],
+        "names": [
+            "Aeroporto de Juruti"
+        ],
+        "outbound": true
+    },
+    "SNRU": {
+        "iata": "CAU",
+        "inbound": true,
+        "latlng": [
+            -8.28239,
+            -36.0135
+        ],
+        "names": [
+            "Caruaru"
+        ],
+        "outbound": true
+    },
+    "SNSM": {
+        "iata": "OPP",
+        "inbound": true,
+        "latlng": [
+            -0.696111,
+            -47.336111
+        ],
+        "names": [
+            "Salinopolis"
+        ],
+        "outbound": true
+    },
+    "SNSS": {
+        "iata": "IAL",
+        "inbound": true,
+        "latlng": [
+            -16.2082996,
+            -42.3219986
+        ],
+        "names": [
+            "Salinas"
+        ],
+        "outbound": true
+    },
+    "SNTO": {
+        "iata": "TFL",
+        "inbound": true,
+        "latlng": [
+            -17.8922997,
+            -41.5135994
+        ],
+        "names": [
+            "Juscelino kubitschek"
+        ],
+        "outbound": true
+    },
+    "SNTS": {
+        "iata": "JPO",
+        "inbound": true,
+        "latlng": [
+            -7.03899,
+            -37.251598
+        ],
+        "names": [
+            "Aeroporto brigadeiro firmino ayres"
+        ],
+        "outbound": true
+    },
+    "SNVS": {
+        "iata": "BVS",
+        "inbound": true,
+        "latlng": [
+            -1.63653,
+            -50.4435997
+        ],
+        "names": [
+            "Breves"
+        ],
+        "outbound": true
+    },
+    "SNWS": {
+        "iata": "JCS",
+        "inbound": true,
+        "latlng": [
+            -5.21135,
+            -40.704201
+        ],
+        "names": [
+            "Crateus"
+        ],
+        "outbound": true
+    },
+    "SNYA": {
+        "iata": "GGF",
+        "inbound": true,
+        "latlng": [
+            -1.479524,
+            -52.578214
+        ],
+        "names": [
+            "Aerodromo publico de almeirim"
+        ],
+        "outbound": true
+    },
+    "SNZR": {
+        "iata": "PYT",
+        "inbound": true,
+        "latlng": [
+            -17.242599,
+            -46.883099
+        ],
+        "names": [
+            "Pedro rabelo de souza"
+        ],
+        "outbound": true
+    },
     "SOCA": {
         "iata": "CAY",
         "inbound": true,
@@ -11098,6 +12662,150 @@ const airports = {
         ],
         "outbound": true
     },
+    "SSCN": {
+        "iata": "CEL",
+        "inbound": true,
+        "latlng": [
+            -29.370091,
+            -50.831729
+        ],
+        "names": [
+            "Canela"
+        ],
+        "outbound": true
+    },
+    "SSGG": {
+        "iata": "GPB",
+        "inbound": true,
+        "latlng": [
+            -25.388327,
+            -51.52349
+        ],
+        "names": [
+            "Aeroporto regional de guarapuava - tancredo thomas de farias"
+        ],
+        "outbound": true
+    },
+    "SSGY": {
+        "iata": "GGJ",
+        "inbound": true,
+        "latlng": [
+            -24.0811,
+            -54.1917
+        ],
+        "names": [
+            "Guaira"
+        ],
+        "outbound": true
+    },
+    "SSKW": {
+        "iata": "OAL",
+        "inbound": true,
+        "latlng": [
+            -11.496,
+            -61.4508
+        ],
+        "names": [
+            "Cacoal"
+        ],
+        "outbound": true
+    },
+    "SSLT": {
+        "iata": "ALQ",
+        "inbound": true,
+        "latlng": [
+            -29.811595,
+            -55.894707
+        ],
+        "names": [
+            "Gaudencio machado ramos"
+        ],
+        "outbound": true
+    },
+    "SSOU": {
+        "iata": "AIR",
+        "inbound": true,
+        "latlng": [
+            -10.187375,
+            -59.457469
+        ],
+        "names": [
+            "Aripuana"
+        ],
+        "outbound": true
+    },
+    "SSRS": {
+        "iata": "BRB",
+        "inbound": true,
+        "latlng": [
+            -2.756644,
+            -42.803187
+        ],
+        "names": [
+            "Barreirinhas"
+        ],
+        "outbound": true
+    },
+    "SSSC": {
+        "iata": "CSU",
+        "inbound": true,
+        "latlng": [
+            -29.6840992,
+            -52.4122009
+        ],
+        "names": [
+            "Santa cruz do sul"
+        ],
+        "outbound": true
+    },
+    "SSUM": {
+        "iata": "UMU",
+        "inbound": true,
+        "latlng": [
+            -23.7987,
+            -53.313801
+        ],
+        "names": [
+            "Orlando de carvalho"
+        ],
+        "outbound": true
+    },
+    "SSUV": {
+        "iata": "UVI",
+        "inbound": true,
+        "latlng": [
+            -26.233224,
+            -51.066754
+        ],
+        "names": [
+            "Uniao da vitoria"
+        ],
+        "outbound": true
+    },
+    "SSVL": {
+        "iata": "TEC",
+        "inbound": true,
+        "latlng": [
+            -24.317801,
+            -50.6516
+        ],
+        "names": [
+            "Telemaco borba"
+        ],
+        "outbound": true
+    },
+    "SSZR": {
+        "iata": "SRA",
+        "inbound": true,
+        "latlng": [
+            -27.90658,
+            -54.520628
+        ],
+        "names": [
+            "Luis alberto lehr"
+        ],
+        "outbound": true
+    },
     "SULS": {
         "iata": "PDP",
         "inbound": true,
@@ -11106,7 +12814,20 @@ const airports = {
             -55.0942993
         ],
         "names": [
-            "Capitan Corbeta C.A. Curbelo International Airport"
+            "Capitan Corbeta C.A. Curbelo International Airport",
+            "Capitan curbelo intl"
+        ],
+        "outbound": true
+    },
+    "SUMU": {
+        "iata": "MVD",
+        "inbound": true,
+        "latlng": [
+            -34.835647,
+            -56.026497
+        ],
+        "names": [
+            "Carrasco intl - gen c l berisso"
         ],
         "outbound": true
     },
@@ -11119,6 +12840,150 @@ const airports = {
         ],
         "names": [
             "Mctya Simon Bolivar International Airport"
+        ],
+        "outbound": true
+    },
+    "SWBC": {
+        "iata": "BAZ",
+        "inbound": true,
+        "latlng": [
+            -0.981191,
+            -62.918603
+        ],
+        "names": [
+            "Barcelos"
+        ],
+        "outbound": true
+    },
+    "SWBE": {
+        "iata": "JSB",
+        "inbound": true,
+        "latlng": [
+            -4.042841,
+            -40.893813
+        ],
+        "names": [
+            "Walfrido salmito de almeida"
+        ],
+        "outbound": true
+    },
+    "SWBR": {
+        "iata": "RBB",
+        "inbound": true,
+        "latlng": [
+            -4.40634,
+            -59.602402
+        ],
+        "names": [
+            "Borba"
+        ],
+        "outbound": true
+    },
+    "SWEI": {
+        "iata": "ERN",
+        "inbound": true,
+        "latlng": [
+            -6.6395302,
+            -69.8797989
+        ],
+        "names": [
+            "Eirunepe"
+        ],
+        "outbound": true
+    },
+    "SWJN": {
+        "iata": "JIA",
+        "inbound": true,
+        "latlng": [
+            -11.419444,
+            -58.701668
+        ],
+        "names": [
+            "Juina"
+        ],
+        "outbound": true
+    },
+    "SWKO": {
+        "iata": "CIZ",
+        "inbound": true,
+        "latlng": [
+            -4.13406,
+            -63.132599
+        ],
+        "names": [
+            "Coari"
+        ],
+        "outbound": true
+    },
+    "SWKQ": {
+        "iata": "NSR",
+        "inbound": true,
+        "latlng": [
+            -9.083392,
+            -42.644656
+        ],
+        "names": [
+            "Serra da capivara"
+        ],
+        "outbound": true
+    },
+    "SWLB": {
+        "iata": "LBR",
+        "inbound": true,
+        "latlng": [
+            -7.27897,
+            -64.769501
+        ],
+        "names": [
+            "Labrea"
+        ],
+        "outbound": true
+    },
+    "SWLC": {
+        "iata": "RVD",
+        "inbound": true,
+        "latlng": [
+            -17.8347225,
+            -50.9561119
+        ],
+        "names": [
+            "Gen. leite de castro"
+        ],
+        "outbound": true
+    },
+    "SWMW": {
+        "iata": "MBZ",
+        "inbound": true,
+        "latlng": [
+            -3.37217,
+            -57.7248
+        ],
+        "names": [
+            "Maues"
+        ],
+        "outbound": true
+    },
+    "SWPI": {
+        "iata": "PIN",
+        "inbound": true,
+        "latlng": [
+            -2.673521,
+            -56.777625
+        ],
+        "names": [
+            "Parintins"
+        ],
+        "outbound": true
+    },
+    "SWTP": {
+        "iata": "IRZ",
+        "inbound": true,
+        "latlng": [
+            -0.3786,
+            -64.9923
+        ],
+        "names": [
+            "Santa izabel do rio negro"
         ],
         "outbound": true
     },
