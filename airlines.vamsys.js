@@ -252,6 +252,30 @@ const airlines = {
         "rank_info": "First Officer:\n\t+34.7 Hours (24.9 PIREPs)\nSenior First Officer:\n\t+284.7 Hours (204.5 PIREPs)\n\t+12695.0 Points (60.6 PIREPs)\nCaptain:\n\t+584.7 Hours (419.9 PIREPs)\n\t+27695.0 Points (132.2 PIREPs)\nBase Captain:\n\t+984.7 Hours (707.2 PIREPs)\n\t+57695.0 Points (275.3 PIREPs)\nTime mode: air",
         "sortName": "India"
     },
+    "913": {
+        "callsigns": [
+            "BLX",
+            "EWG",
+            "KMM",
+            "LYN",
+            "MLH",
+            "NVD",
+            "SXS",
+            "TOM",
+            "TRA",
+            "VIV",
+            "WMT",
+            "WZZ"
+        ],
+        "last_pirep_start": "2024-07-13T13:56:31.000000Z",
+        "name": "Avion Virtual",
+        "rank_info": "Second Officer:\n\t+48.4 Hours (30.9 PIREPs)\n\t+3785.0 Points (17.6 PIREPs)\nFirst Officer:\n\t+148.4 Hours (94.6 PIREPs)\n\t+13785.0 Points (64.1 PIREPs)\nSenior First Officer:\n\t+298.4 Hours (190.1 PIREPs)\n\t+27285.0 Points (126.9 PIREPs)\nCaptain:\n\t+598.4 Hours (381.2 PIREPs)\n\t+59785.0 Points (278.1 PIREPs)\nTraining Captain:\n\t+998.4 Hours (636.1 PIREPs)\n\t+99785.0 Points (464.1 PIREPs)\nBase Captain:\n\t+1998.4 Hours (1273.1 PIREPs)\n\t+199785.0 Points (929.2 PIREPs)\nTime mode: block",
+        "requirements": {
+            "details": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2025-01-09",
+            "target_date": "2025-01-09T15:56:25+00:00"
+        },
+        "sortName": "Avion Virtual"
+    },
     "939": {
         "callsigns": [
             "FFT",

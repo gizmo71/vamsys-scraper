@@ -69,7 +69,8 @@ const airports = {
             21.035801
         ],
         "names": [
-            "Pristina Adem Jashari International Airport"
+            "Pristina Adem Jashari International Airport",
+            "Prishtina"
         ],
         "outbound": true
     },
@@ -788,7 +789,8 @@ const airports = {
             24.8327999
         ],
         "names": [
-            "Tallinn Airport (Lennart Meri Tallinn Airport)"
+            "Tallinn Airport (Lennart Meri Tallinn Airport)",
+            "Talinn"
         ],
         "outbound": true
     },
@@ -922,7 +924,8 @@ const airports = {
         ],
         "names": [
             "Belfast International Airport",
-            "Belfast Aldergrove"
+            "Belfast Aldergrove",
+            "Belfast Intl"
         ],
         "outbound": true
     },
@@ -6706,7 +6709,7 @@ const airports = {
         "names": [
             "Heraklion International Airport (Nikos Kazantzakis Airport)",
             "Heraklion International \"Nikos Kazantzakis\"",
-            "Crete Heraklion"
+            "Crete - Heraklion"
         ],
         "outbound": true
     },
@@ -6869,7 +6872,7 @@ const airports = {
         ],
         "names": [
             "Chania International Airport",
-            "Crete Chania"
+            "Crete - Chania"
         ],
         "outbound": true
     },
@@ -7639,7 +7642,8 @@ const airports = {
         ],
         "names": [
             "Francisco de Sa Carneiro Airport",
-            "Porto Francisco de Sa Carneiro"
+            "Porto Francisco de Sa Carneiro",
+            "Oporto"
         ],
         "outbound": true
     },
@@ -8382,6 +8386,42 @@ const airports = {
         ],
         "outbound": true
     },
+    "MMBT": {
+        "iata": "HUX",
+        "inbound": true,
+        "latlng": [
+            15.771987,
+            -96.258752
+        ],
+        "names": [
+            "Huatulco"
+        ],
+        "outbound": true
+    },
+    "MMCL": {
+        "iata": "CUL",
+        "inbound": true,
+        "latlng": [
+            24.76504,
+            -107.475228
+        ],
+        "names": [
+            "Culiac\u00e1n"
+        ],
+        "outbound": true
+    },
+    "MMCM": {
+        "iata": "CTM",
+        "inbound": true,
+        "latlng": [
+            18.5047,
+            -88.326797
+        ],
+        "names": [
+            "Chetumal"
+        ],
+        "outbound": true
+    },
     "MMCN": {
         "iata": "CEN",
         "inbound": true,
@@ -8390,7 +8430,44 @@ const airports = {
             -109.8330002
         ],
         "names": [
-            "Ciudad Obregon International Airport"
+            "Ciudad Obregon International Airport",
+            "Puerto Escondido"
+        ],
+        "outbound": true
+    },
+    "MMCS": {
+        "iata": "CJS",
+        "inbound": true,
+        "latlng": [
+            31.6361008,
+            -106.4290009
+        ],
+        "names": [
+            "Ciudad Juarez"
+        ],
+        "outbound": true
+    },
+    "MMCU": {
+        "iata": "CUU",
+        "inbound": true,
+        "latlng": [
+            28.7028999,
+            -105.9649963
+        ],
+        "names": [
+            "Chihuahua"
+        ],
+        "outbound": true
+    },
+    "MMCZ": {
+        "iata": "CZM",
+        "inbound": true,
+        "latlng": [
+            20.511425,
+            -86.930287
+        ],
+        "names": [
+            "Cozumel"
         ],
         "outbound": true
     },
@@ -8406,6 +8483,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "MMHO": {
+        "iata": "HMO",
+        "inbound": true,
+        "latlng": [
+            29.0958996,
+            -111.0479965
+        ],
+        "names": [
+            "Hermosillo"
+        ],
+        "outbound": true
+    },
+    "MMLM": {
+        "iata": "LMM",
+        "inbound": true,
+        "latlng": [
+            25.685447,
+            -109.081055
+        ],
+        "names": [
+            "Los Mochis"
+        ],
+        "outbound": true
+    },
     "MMLO": {
         "iata": "BJX",
         "inbound": true,
@@ -8414,7 +8515,20 @@ const airports = {
             -101.478825
         ],
         "names": [
-            "Leon/Guanajuato"
+            "Leon/Guanajuato",
+            "Silao"
+        ],
+        "outbound": true
+    },
+    "MMLP": {
+        "iata": "LAP",
+        "inbound": true,
+        "latlng": [
+            24.0727005,
+            -110.3619995
+        ],
+        "names": [
+            "La Paz"
         ],
         "outbound": true
     },
@@ -8438,7 +8552,20 @@ const airports = {
             -89.662621
         ],
         "names": [
-            "Manuel Crescencio Rejon International Airport"
+            "Manuel Crescencio Rejon International Airport",
+            "M\u00e9rida"
+        ],
+        "outbound": true
+    },
+    "MMML": {
+        "iata": "MXL",
+        "inbound": true,
+        "latlng": [
+            32.628479,
+            -115.247827
+        ],
+        "names": [
+            "Mexicali"
         ],
         "outbound": true
     },
@@ -8531,6 +8658,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "MMPS": {
+        "iata": "PXM",
+        "inbound": true,
+        "latlng": [
+            15.874859,
+            -97.091868
+        ],
+        "names": [
+            "Puerto Escondido"
+        ],
+        "outbound": true
+    },
     "MMQT": {
         "iata": "QRO",
         "inbound": true,
@@ -8540,6 +8679,18 @@ const airports = {
         ],
         "names": [
             "Queretaro"
+        ],
+        "outbound": true
+    },
+    "MMRX": {
+        "iata": "REX",
+        "inbound": true,
+        "latlng": [
+            26.0089,
+            -98.2285
+        ],
+        "names": [
+            "Reynosa"
         ],
         "outbound": true
     },
@@ -8555,6 +8706,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "MMSM": {
+        "iata": "NLU",
+        "inbound": true,
+        "latlng": [
+            19.7357,
+            -99.0257
+        ],
+        "names": [
+            "Mexico City"
+        ],
+        "outbound": true
+    },
     "MMSP": {
         "iata": "SLP",
         "inbound": true,
@@ -8567,6 +8730,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "MMTC": {
+        "iata": "TRC",
+        "inbound": true,
+        "latlng": [
+            25.5683,
+            -103.411003
+        ],
+        "names": [
+            "Torre\u00f3n International Airport"
+        ],
+        "outbound": true
+    },
     "MMTG": {
         "iata": "TGZ",
         "inbound": true,
@@ -8575,7 +8750,8 @@ const airports = {
             -93.0224991
         ],
         "names": [
-            "Angel Albino Corzo International Airport"
+            "Angel Albino Corzo International Airport",
+            "Tuxtla Guti\u00e9rrez"
         ],
         "outbound": true
     },
@@ -8627,6 +8803,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "MMTP": {
+        "iata": "TAP",
+        "inbound": true,
+        "latlng": [
+            14.790371,
+            -92.36883
+        ],
+        "names": [
+            "Tapachula International Airport"
+        ],
+        "outbound": true
+    },
     "MMUN": {
         "iata": "CUN",
         "inbound": true,
@@ -8637,6 +8825,18 @@ const airports = {
         "names": [
             "Cancun International Airport",
             "Cancun, Mexico"
+        ],
+        "outbound": true
+    },
+    "MMVA": {
+        "iata": "VSA",
+        "inbound": true,
+        "latlng": [
+            17.9969997,
+            -92.8173981
+        ],
+        "names": [
+            "Villahermosa"
         ],
         "outbound": true
     },
