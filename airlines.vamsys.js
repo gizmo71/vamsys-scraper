@@ -324,9 +324,9 @@ const airlines = {
             "VOZ",
             "VRD"
         ],
-        "last_pirep_start": "2024-06-16T06:28:57.000000Z",
+        "last_pirep_start": "2024-07-15T14:15:03.000000Z",
         "name": "Virgin",
-        "rank_info": "Flight-Attendant:\n\t+2.9 Hours (2.5 PIREPs)\nPurser:\n\t+12.9 Hours (10.9 PIREPs)\nTrainee:\n\t+42.9 Hours (36.3 PIREPs)\n\t+1065.0 Points (6.8 PIREPs)\nSecond Officer:\n\t+92.9 Hours (78.6 PIREPs)\n\t+3065.0 Points (19.7 PIREPs)\nFirst Officer:\n\t+192.9 Hours (163.2 PIREPs)\n\t+6565.0 Points (42.1 PIREPs)\n\t+860.0 Bonus Points (36.9 PIREPs)\nSenior First Officer:\n\t+492.9 Hours (417.1 PIREPs)\n\t+19065.0 Points (122.3 PIREPs)\n\t+4860.0 Bonus Points (208.3 PIREPs)\nCaptain:\n\t+992.9 Hours (840.1 PIREPs)\n\t+39065.0 Points (250.7 PIREPs)\n\t+9860.0 Bonus Points (422.6 PIREPs)\nVRGN Captain:\n\t+1992.9 Hours (1686.3 PIREPs)\n\t+79065.0 Points (507.4 PIREPs)\n\t+19860.0 Bonus Points (851.1 PIREPs)\nTime mode: air",
+        "rank_info": "Flight-Attendant:\n\t+1.4 Hours (1.2 PIREPs)\nPurser:\n\t+11.4 Hours (9.3 PIREPs)\nTrainee:\n\t+41.4 Hours (33.8 PIREPs)\n\t+905.0 Points (5.8 PIREPs)\nSecond Officer:\n\t+91.4 Hours (74.5 PIREPs)\n\t+2905.0 Points (18.6 PIREPs)\nFirst Officer:\n\t+191.4 Hours (156.0 PIREPs)\n\t+6405.0 Points (40.9 PIREPs)\n\t+860.0 Bonus Points (43.0 PIREPs)\nSenior First Officer:\n\t+491.4 Hours (400.5 PIREPs)\n\t+18905.0 Points (120.9 PIREPs)\n\t+4860.0 Bonus Points (243.0 PIREPs)\nCaptain:\n\t+991.4 Hours (808.1 PIREPs)\n\t+38905.0 Points (248.7 PIREPs)\n\t+9860.0 Bonus Points (493.0 PIREPs)\nVRGN Captain:\n\t+1991.4 Hours (1623.2 PIREPs)\n\t+78905.0 Points (504.4 PIREPs)\n\t+19860.0 Bonus Points (993.0 PIREPs)\nTime mode: air",
         "sortName": "Virgin"
     },
     "1355": {
