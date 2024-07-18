@@ -11,11 +11,12 @@ for (const [id, airline] of Object.entries(airlines).toSorted(([id1, airline1], 
         }
         days = `<span style='color: ${colour};' title='${airline.requirements.details}'>${days}</span>`;
     }
-    var callsignSelectors = airline.callsigns.map(callsign => `<input id='${id}-${callsign}' type='checkbox' checked onmouseover='redraw("${id}-${callsign}", undefined);' onmouseout='redraw();' />`
+    var preChecked = (id == 1672/*ASA*/ || id == 1131/*GBG*/) ? '' : 'checked';
+    var callsignSelectors = airline.callsigns.map(callsign => `<input id='${id}-${callsign}' type='checkbox' ${preChecked} onmouseover='redraw("${id}-${callsign}", undefined);' onmouseout='redraw();' />`
         + `<label for='${id}-${callsign}'>${callsign}</label>`);
     document.getElementById("airline-picker").insertAdjacentHTML('beforeend',
         `<li onmouseout='document.getElementById("callsigns-${id}").style.display = "none";' onmouseover='document.getElementById("callsigns-${id}").style.display = "block";'>`
-        + `<input type='checkbox' onmouseover='redraw("${id}-", undefined);' onmouseout='redraw();' onChange='airlineChanged(this, ${id}); redraw();' checked id='${elementId}'>`
+        + `<input type='checkbox' onmouseover='redraw("${id}-", undefined);' onmouseout='redraw();' onChange='airlineChanged(this, ${id}); redraw();' ${preChecked} id='${elementId}'>`
         + `<label for='${elementId}' title='${airline.rank_info}'>${airline.name}</label> ${days}`
         + `<span style='float:right; position: absolute; background-color: #BFBFBF; display: none; margin-left: 1em;' id='callsigns-${id}'>${callsignSelectors.join('<br/>')}</span></li>`);
     airline.cb = document.getElementById(elementId);
