@@ -31,11 +31,11 @@ logging.setLoggerClass(DeduplicatingLogger)
 
 # https://en.wikipedia.org/wiki/List_of_aircraft_type_designators
 airline_mappings = {
-    'Allegiant Virtual'                :{'display_name':'Allegiant', 'type_mapping':{'A32N':'A20N'}},
-    'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'sort_name':'Linugs', 'type_mapping': # Removed 'A320':'A20N', look into LatinVFR
+    'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'sort_name':'Lingus', 'type_mapping':
         {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'}},
     'ANZ Virtual'                      :{'display_name':'Air New Zealand', 'sort_name':'New Zealand'},
     'vANA'                             :{'display_name':'All Nippon', 'sort_name':'Nippon'},
+    'Avion Virtual'                    :{'display_name':'Avion'},
     'vBAW'                             :{'display_name':'British Airways', 'type_mapping':{'B48F':'B748'}},
     'Air Canada Virtual'               :{'display_name':'Air Canada', 'sort_name':'Canada', 'type_mapping':{'76F':'B763', 'A21N':'A321', 'A330':'A333', 'A350':'A359'}},
     'Virtual Air China'                :{'display_name':'Air China', 'sort_name':'China', 'type_mapping':{'BBJ1':'B737'}},
@@ -61,11 +61,12 @@ airline_mappings = {
     'VRGN Virtual'                     :{'display_name':'Virgin'},
     'Virtual United'                   :{'display_name':'United', 'type_mapping':{'A20N':'A320', 'A321':'A21N', 'E175':'E75L'}},
     'WZZ Virtual'                      :{'display_name':'Wizz'},
+    'vAFR/KLM'                         :{'display_name':'Air France-KLM', 'type_mapping': {'B74F':'B744'}},
 }
 #TODO: Consider a mapping to MSFS aircraft rather than ICAO codes...
 #TODO: it would be nice if we could mark these as not worth individually selecting, but still shown individually.
 #TODO: Perhaps these are two halves of the same coin...
-exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
+exclude_types = set(['AT45', 'AT72', 'AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
                      'B461', 'B462', 'B463',
                      'B732', 'B733', 'B734', 'B735', 'B736', 'B737', 'B738', 'B739', 'B37M', 'B38M', 'B39M',
                      'B742', 'B744', 'B762',  'B772', 'B773', 'B77L', 'B77W', 'B77F',
@@ -74,7 +75,7 @@ exclude_types = set(['AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
                      'CONC', 'CRJ2', 'CRJ5', 'CRJ7', 'CRJ9', 'CRJX', 'DC4', 'DC6', 'DC7', 'DC10', 'DH8B', 'DH8C', 'DH8D',
                      'E145', #'E170', 'E75L', 'E75S', 'E190', 'E195',
                      'F28', 'F50', 'F100', 'JU52', 'L101', 'MD11', 'MD80', 'MD82', 'MD83', 'MD88', 'PC12',
-                     'RJ1H', 'RJ85', 'SH36', 'SF34', 'SW4', 'TBM8', 'TBM9',
+                     'RJ1H', 'RJ85', 'SH36', 'SF34', 'SSC', 'SW4', 'TBM8', 'TBM9',
                      '-'])
 
 aircraft = set()
@@ -136,7 +137,7 @@ def airport(airport):
     name = " ".join(airport['name'].split())
     iata = airport['iata']
     if not iata:
-        iata = {'1NK2':'1NK2', 'EGHL':'QLA', 'LROV':'GHV', 'MUOC':'MUOC', 'VIKA':'KNU', 'VOBG':'VOBG', 'EBMB':'EBMB'}.get(icao, None)
+        iata = {'1NK2':'1NK2', 'EGHL':'QLA', 'LROV':'GHV', 'MUOC':'MUOC', 'VIKA':'KNU', 'VOBG':'VOBG', 'EBMB':'EBMB', 'SNJM':'JMA', 'SNSS':'IAL'}.get(icao, None)
     elif iata == 'KIV' and icao == 'LUKK':
         iata = 'RMO'
     if icao in airports:
