@@ -20,7 +20,6 @@ const aircraft = [
     "AT72",
     "AT76",
     "B748",
-    "B74F",
     "B788",
     "B789",
     "B78X",
@@ -34,6 +33,5 @@ const aircraft = [
     "E195",
     "E295",
     "E75L",
-    "E75S",
-    "SSC"
+    "E75S"
 ];

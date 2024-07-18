@@ -2615,7 +2615,7 @@ const airports = {
             31.0928
         ],
         "names": [
-            "Harare Robert Gabriel Mugabe International Airport"
+            "Harare Robert Gabriel Mugabe International"
         ],
         "outbound": true
     },
@@ -11998,7 +11998,7 @@ const airports = {
             -47.134502
         ],
         "names": [
-            "Campinas Viracopos International Airport"
+            "Viracopos"
         ],
         "outbound": true
     },
