@@ -179,7 +179,7 @@ const airports = {
             -114.0199966
         ],
         "names": [
-            "Calgary"
+            "Calgary International Airport"
         ],
         "outbound": true
     },
@@ -207,6 +207,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "DAAE": {
+        "iata": "BJA",
+        "inbound": true,
+        "latlng": [
+            36.711952,
+            5.069804
+        ],
+        "names": [
+            "Bejaia Soummam Airport"
+        ],
+        "outbound": true
+    },
     "DAAG": {
         "iata": "ALG",
         "inbound": true,
@@ -215,7 +227,67 @@ const airports = {
             3.214531
         ],
         "names": [
-            "Algiers Houari Boumediene"
+            "Algiers Houari Boumediene Airport"
+        ],
+        "outbound": true
+    },
+    "DAAS": {
+        "iata": "QSF",
+        "inbound": true,
+        "latlng": [
+            36.1781006,
+            5.3244901
+        ],
+        "names": [
+            "Setif Ain Arnat Airport"
+        ],
+        "outbound": true
+    },
+    "DABC": {
+        "iata": "CZL",
+        "inbound": true,
+        "latlng": [
+            36.276001,
+            6.6203899
+        ],
+        "names": [
+            "Constantine Mohamed Boudiaf International Airport"
+        ],
+        "outbound": true
+    },
+    "DAON": {
+        "iata": "TLM",
+        "inbound": true,
+        "latlng": [
+            35.013426,
+            -1.457191
+        ],
+        "names": [
+            "Tlemcen Zenata Airport"
+        ],
+        "outbound": true
+    },
+    "DAOO": {
+        "iata": "ORN",
+        "inbound": true,
+        "latlng": [
+            35.623901,
+            -0.621183
+        ],
+        "names": [
+            "Oran Es Senia Airport"
+        ],
+        "outbound": true
+    },
+    "DAUB": {
+        "iata": "BSK",
+        "inbound": true,
+        "latlng": [
+            34.793301,
+            5.73823
+        ],
+        "names": [
+            "Biskra Airport"
         ],
         "outbound": true
     },
@@ -227,7 +299,7 @@ const airports = {
             2.3843501
         ],
         "names": [
-            "Cotonou Cadjehoun"
+            "Cotonou Cadjehoun Airport"
         ],
         "outbound": true
     },
@@ -251,7 +323,7 @@ const airports = {
             -0.166786
         ],
         "names": [
-            "Accra Kotoka International"
+            "Accra Kotoka International Airport"
         ],
         "outbound": true
     },
@@ -264,7 +336,7 @@ const airports = {
         ],
         "names": [
             "Felix Houphouet Boigny Internatonal",
-            "Abidjan Port Bouet"
+            "Abidjan Port Bouet Airport"
         ],
         "outbound": true
     },
@@ -276,7 +348,7 @@ const airports = {
             7.26317
         ],
         "names": [
-            "Abuja Nnamdi Azikiwe International"
+            "Abuja Nnamdi Azikiwe International Airport"
         ],
         "outbound": true
     },
@@ -324,8 +396,8 @@ const airports = {
             3.3211601
         ],
         "names": [
-            "Murtala Muhammed International",
-            "Lagos Murtala Mohammed"
+            "Lagos Murtala Mohammed Airport",
+            "Murtala Muhammed International"
         ],
         "outbound": true
     },
@@ -385,7 +457,7 @@ const airports = {
             10.2272
         ],
         "names": [
-            "Tunis Carthage International"
+            "Tunis Carthage International Airport"
         ],
         "outbound": true
     },
@@ -397,8 +469,32 @@ const airports = {
             10.7755
         ],
         "names": [
-            "Djerba-Zarzis International Airport",
+            "Djerba Zarzis International Airport",
             "Djerba\u0096Zarzis International"
+        ],
+        "outbound": true
+    },
+    "DTTX": {
+        "iata": "SFA",
+        "inbound": true,
+        "latlng": [
+            34.7179985,
+            10.691
+        ],
+        "names": [
+            "Sfaxu2013Thyna International Airport"
+        ],
+        "outbound": true
+    },
+    "DTTZ": {
+        "iata": "TOE",
+        "inbound": true,
+        "latlng": [
+            33.9397011,
+            8.1105604
+        ],
+        "names": [
+            "Tozeur Nefta International Airport"
         ],
         "outbound": true
     },
@@ -410,7 +506,7 @@ const airports = {
             1.25451
         ],
         "names": [
-            "Lome"
+            "Lome Tokoin Airport"
         ],
         "outbound": true
     },
@@ -875,7 +971,7 @@ const airports = {
             25.8304005
         ],
         "names": [
-            "Rovaniemi"
+            "Rovaniemi Airport"
         ],
         "outbound": true
     },
@@ -937,7 +1033,7 @@ const airports = {
             -5.8725
         ],
         "names": [
-            "George Best Belfast City Airport"
+            "Belfast City George Best Airport"
         ],
         "outbound": true
     },
@@ -1081,7 +1177,7 @@ const airports = {
             -1.3568
         ],
         "names": [
-            "Southampton"
+            "Southampton Airport"
         ],
         "outbound": true
     },
@@ -1237,7 +1333,7 @@ const airports = {
             -1.42941
         ],
         "names": [
-            "Teesside"
+            "Teesside International Airport"
         ],
         "outbound": true
     },
@@ -1285,7 +1381,7 @@ const airports = {
             -4.0475001
         ],
         "names": [
-            "Inverness"
+            "Inverness Airport"
         ],
         "outbound": true
     },
@@ -1429,7 +1525,7 @@ const airports = {
             4.43722
         ],
         "names": [
-            "Rotterdam The Hague"
+            "Rotterdam The Hague Airport"
         ],
         "outbound": true
     },
@@ -1441,7 +1537,7 @@ const airports = {
             -8.49111
         ],
         "names": [
-            "Cork"
+            "Cork Airport"
         ],
         "outbound": true
     },
@@ -2191,6 +2287,7 @@ const airports = {
             15.6805
         ],
         "names": [
+            "Linkoping City Airport",
             "Linkoping-Saab Airport"
         ],
         "outbound": true
@@ -2328,6 +2425,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "FCBB": {
+        "iata": "BZV",
+        "inbound": true,
+        "latlng": [
+            -4.2516999,
+            15.2530003
+        ],
+        "names": [
+            "Brazzaville Maya Maya Airport"
+        ],
+        "outbound": true
+    },
+    "FCPP": {
+        "iata": "PNR",
+        "inbound": true,
+        "latlng": [
+            -4.81603,
+            11.8866
+        ],
+        "names": [
+            "Pointe Noire Airport"
+        ],
+        "outbound": true
+    },
     "FGSL": {
         "iata": "SSG",
         "inbound": true,
@@ -2336,7 +2457,7 @@ const airports = {
             8.7087202
         ],
         "names": [
-            "Malabo"
+            "Malabo International Airport"
         ],
         "outbound": true
     },
@@ -2349,7 +2470,7 @@ const airports = {
         ],
         "names": [
             "Sir Seewoosagur Ramgoolam International Airport",
-            "Port Louis Sir Seewoosagur Ramgoolam",
+            "Port Louis Sir Seewoosagur Ramgoolam Airport",
             "Mauritius"
         ],
         "outbound": true
@@ -2362,7 +2483,7 @@ const airports = {
             9.7194796
         ],
         "names": [
-            "Douala"
+            "Douala International Airport"
         ],
         "outbound": true
     },
@@ -2374,7 +2495,7 @@ const airports = {
             11.5532999
         ],
         "names": [
-            "Yaounde"
+            "Yaounde Airport"
         ],
         "outbound": true
     },
@@ -2390,6 +2511,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "FMEE": {
+        "iata": "RUN",
+        "inbound": true,
+        "latlng": [
+            -20.890087,
+            55.518894
+        ],
+        "names": [
+            "Saint-Denis Roland Garros Airport"
+        ],
+        "outbound": true
+    },
     "FMMI": {
         "iata": "TNR",
         "inbound": true,
@@ -2398,7 +2531,7 @@ const airports = {
             47.478802
         ],
         "names": [
-            "Ivato International Airport"
+            "Antananarivo Ivato International Airport"
         ],
         "outbound": true
     },
@@ -2410,8 +2543,19 @@ const airports = {
             13.2312
         ],
         "names": [
-            "Quatro de Fevereiro Airport",
-            "Luanda Quatro de Fevereiro"
+            "Luanda Quatro de Fevereiro Airport"
+        ],
+        "outbound": true
+    },
+    "FOOL": {
+        "iata": "LBV",
+        "inbound": true,
+        "latlng": [
+            0.4586,
+            9.4122801
+        ],
+        "names": [
+            "Libreville International Airport"
         ],
         "outbound": true
     },
@@ -2439,6 +2583,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "FTTJ": {
+        "iata": "NDJ",
+        "inbound": true,
+        "latlng": [
+            12.1337,
+            15.034
+        ],
+        "names": [
+            "N'Djamena International Airport"
+        ],
+        "outbound": true
+    },
     "FVFA": {
         "iata": "VFA",
         "inbound": true,
@@ -2459,7 +2615,7 @@ const airports = {
             31.0928
         ],
         "names": [
-            "Harare Robert Gabriel Mugabe International"
+            "Harare Robert Gabriel Mugabe International Airport"
         ],
         "outbound": true
     },
@@ -2644,7 +2800,32 @@ const airports = {
             -4.97796
         ],
         "names": [
+            "Fes Saiss Airport",
             "Fez"
+        ],
+        "outbound": true
+    },
+    "GMFK": {
+        "iata": "ERH",
+        "inbound": true,
+        "latlng": [
+            31.9475002,
+            -4.3983302
+        ],
+        "names": [
+            "Errachidia Moulay Ali Cherif Airport"
+        ],
+        "outbound": false
+    },
+    "GMFO": {
+        "iata": "OUD",
+        "inbound": true,
+        "latlng": [
+            34.789558,
+            -1.926041
+        ],
+        "names": [
+            "Oujda Angads Airport"
         ],
         "outbound": true
     },
@@ -2660,6 +2841,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "GMMH": {
+        "iata": "VIL",
+        "inbound": true,
+        "latlng": [
+            23.7183,
+            -15.932
+        ],
+        "names": [
+            "Dakhla Airport"
+        ],
+        "outbound": true
+    },
+    "GMMI": {
+        "iata": "ESU",
+        "inbound": true,
+        "latlng": [
+            31.397499,
+            -9.68167
+        ],
+        "names": [
+            "Essaouira Airport"
+        ],
+        "outbound": true
+    },
     "GMMN": {
         "iata": "CMN",
         "inbound": true,
@@ -2668,7 +2873,7 @@ const airports = {
             -7.58997
         ],
         "names": [
-            "Casablanca Mohammed V International"
+            "Casablanca Mohammed V International Airport"
         ],
         "outbound": true
     },
@@ -2680,7 +2885,7 @@ const airports = {
             -3.02821
         ],
         "names": [
-            "Nador"
+            "Nador International Airport"
         ],
         "outbound": true
     },
@@ -2698,6 +2903,42 @@ const airports = {
         ],
         "outbound": true
     },
+    "GMMZ": {
+        "iata": "OZZ",
+        "inbound": false,
+        "latlng": [
+            30.9391003,
+            -6.90943
+        ],
+        "names": [
+            "Ouarzazate Airport"
+        ],
+        "outbound": true
+    },
+    "GMTA": {
+        "iata": "AHU",
+        "inbound": true,
+        "latlng": [
+            35.1771011,
+            -3.83952
+        ],
+        "names": [
+            "Al Hoceima Cherif Al Idrissi Airport"
+        ],
+        "outbound": true
+    },
+    "GMTT": {
+        "iata": "TNG",
+        "inbound": true,
+        "latlng": [
+            35.731741,
+            -5.921459
+        ],
+        "names": [
+            "Tangier Ibn Battouta Airport"
+        ],
+        "outbound": true
+    },
     "GOBD": {
         "iata": "DSS",
         "inbound": true,
@@ -2706,7 +2947,7 @@ const airports = {
             -17.073333
         ],
         "names": [
-            "Dakar Blaise Diagne"
+            "Dakar Blaise Diagne International Airport"
         ],
         "outbound": true
     },
@@ -2722,6 +2963,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "GQNO": {
+        "iata": "NKC",
+        "inbound": true,
+        "latlng": [
+            18.31,
+            -15.969722
+        ],
+        "names": [
+            "Nouakchott Oumtounsy International Airport"
+        ],
+        "outbound": true
+    },
     "GUCY": {
         "iata": "CKY",
         "inbound": true,
@@ -2730,7 +2983,7 @@ const airports = {
             -13.612
         ],
         "names": [
-            "Conakry"
+            "Conakry International Airport"
         ],
         "outbound": true
     },
@@ -2742,7 +2995,32 @@ const airports = {
             -22.9494
         ],
         "names": [
+            "Espargos Amilcar Cabral International Airport",
             "Cabo Verde"
+        ],
+        "outbound": true
+    },
+    "GVBA": {
+        "iata": "BVC",
+        "inbound": true,
+        "latlng": [
+            16.1364994,
+            -22.8889008
+        ],
+        "names": [
+            "Boa Vista Rabil Airport"
+        ],
+        "outbound": true
+    },
+    "GVNP": {
+        "iata": "RAI",
+        "inbound": false,
+        "latlng": [
+            14.941126,
+            -23.484728
+        ],
+        "names": [
+            "Praia Nelson Mandela International Airport"
         ],
         "outbound": true
     },
@@ -2802,7 +3080,7 @@ const airports = {
             43.1595
         ],
         "names": [
-            "Djibouti Ambouli International"
+            "Djibouti Ambouli International Airport"
         ],
         "outbound": true
     },
@@ -2826,7 +3104,7 @@ const airports = {
             31.396694
         ],
         "names": [
-            "Cairo International"
+            "Cairo International Airport"
         ],
         "outbound": true
     },
@@ -2850,7 +3128,7 @@ const airports = {
             32.700012
         ],
         "names": [
-            "Luxor"
+            "Luxor International Airport"
         ],
         "outbound": true
     },
@@ -2862,7 +3140,7 @@ const airports = {
             34.59245
         ],
         "names": [
-            "Marsa Alam"
+            "Marsa Alam International Airport"
         ],
         "outbound": true
     },
@@ -2948,7 +3226,7 @@ const airports = {
             30.1395
         ],
         "names": [
-            "Kigali"
+            "Kigali Airport"
         ],
         "outbound": true
     },
@@ -2960,7 +3238,7 @@ const airports = {
             39.202599
         ],
         "names": [
-            "Dar-es-Salaam Julius Nyerere International"
+            "Dar-es-Salaam Julius Nyerere International Airport"
         ],
         "outbound": true
     },
@@ -2972,7 +3250,7 @@ const airports = {
             37.074501
         ],
         "names": [
-            "Kilimanjaro International"
+            "Kilimanjaro International Airport"
         ],
         "outbound": true
     },
@@ -5980,7 +6258,7 @@ const airports = {
             16.0688
         ],
         "names": [
-            "Zagreb Franjo Tudman"
+            "Zagreb Franjo Tudman Airport"
         ],
         "outbound": true
     },
@@ -6298,7 +6576,7 @@ const airports = {
             -5.89311
         ],
         "names": [
-            "Seville San Pablo",
+            "Seville San Pablo Airport",
             "Sevilla"
         ],
         "outbound": true
@@ -6311,7 +6589,19 @@ const airports = {
             -0.715556
         ],
         "names": [
-            "Bordeaux Merignac"
+            "Bordeaux Merignac Airport"
+        ],
+        "outbound": true
+    },
+    "LFBE": {
+        "iata": "EGC",
+        "inbound": true,
+        "latlng": [
+            44.8252983,
+            0.518611
+        ],
+        "names": [
+            "Bergerac Dordogne Perigord Airport"
         ],
         "outbound": true
     },
@@ -6351,6 +6641,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LFBP": {
+        "iata": "PUF",
+        "inbound": true,
+        "latlng": [
+            43.3800011,
+            -0.418611
+        ],
+        "names": [
+            "Pau Pyrenees Airport"
+        ],
+        "outbound": true
+    },
     "LFBT": {
         "iata": "LDE",
         "inbound": true,
@@ -6384,6 +6686,7 @@ const airports = {
             9.4837303
         ],
         "names": [
+            "Bastia Poretta Airport",
             "Bastia, Corsica"
         ],
         "outbound": true
@@ -6396,6 +6699,7 @@ const airports = {
             8.7930556
         ],
         "names": [
+            "Calvi Sainte-Catherine Airport",
             "Calvi, Corsica"
         ],
         "outbound": true
@@ -6408,6 +6712,7 @@ const airports = {
             9.09778
         ],
         "names": [
+            "Figari Sud-Corse Airport",
             "Figari, Corsica"
         ],
         "outbound": true
@@ -6420,6 +6725,7 @@ const airports = {
             8.8029203
         ],
         "names": [
+            "Ajaccio Napoleon Bonaparte Airport",
             "Ajaccio, Corsica"
         ],
         "outbound": true
@@ -6436,6 +6742,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LFLC": {
+        "iata": "CFE",
+        "inbound": true,
+        "latlng": [
+            45.7867012,
+            3.1691699
+        ],
+        "names": [
+            "Clermont-Ferrand Auvergne Airport"
+        ],
+        "outbound": true
+    },
     "LFLL": {
         "iata": "LYS",
         "inbound": true,
@@ -6444,7 +6762,7 @@ const airports = {
             5.081111
         ],
         "names": [
-            "Lyon\u2013Saint-Exup\u00e9ry Airport"
+            "Lyon Saint Exupery Airport"
         ],
         "outbound": true
     },
@@ -6460,6 +6778,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LFLX": {
+        "iata": "CHR",
+        "inbound": true,
+        "latlng": [
+            46.860278,
+            1.721111
+        ],
+        "names": [
+            "Chateauroux Centre Marcel Dassault Airport"
+        ],
+        "outbound": true
+    },
     "LFML": {
         "iata": "MRS",
         "inbound": true,
@@ -6468,7 +6798,7 @@ const airports = {
             5.2125
         ],
         "names": [
-            "Marseille Provence",
+            "Marseille Provence Airport",
             "Marseille Province",
             "Marseilles"
         ],
@@ -6497,7 +6827,7 @@ const airports = {
             2.8706701
         ],
         "names": [
-            "Perpignan Rivesaltes"
+            "Perpignan Rivesaltes Airport"
         ],
         "outbound": true
     },
@@ -6583,7 +6913,20 @@ const airports = {
             -4.41854
         ],
         "names": [
+            "Brest Bretagne Airport",
             "Brest Brittany"
+        ],
+        "outbound": true
+    },
+    "LFRK": {
+        "iata": "CFR",
+        "inbound": true,
+        "latlng": [
+            49.173302,
+            -0.45
+        ],
+        "names": [
+            "Caen Carpiquet Airport"
         ],
         "outbound": true
     },
@@ -6595,8 +6938,8 @@ const airports = {
             -1.73479
         ],
         "names": [
+            "Rennes Saint-Jacques Airport",
             "Rennes Bretagne Airport",
-            "Rennes Saint-Jacques",
             "Rennes\u00e2\u0080\u0093Saint-Jacques"
         ],
         "outbound": true
@@ -6609,7 +6952,7 @@ const airports = {
             -1.6107301
         ],
         "names": [
-            "Nantes Atlantique"
+            "Nantes Atlantique Airport"
         ],
         "outbound": true
     },
@@ -6646,7 +6989,7 @@ const airports = {
             7.6282301
         ],
         "names": [
-            "Strasbourg"
+            "Strasbourg Airport"
         ],
         "outbound": true
     },
@@ -6658,6 +7001,7 @@ const airports = {
             6.1460299
         ],
         "names": [
+            "Toulon-Hyeres Airport",
             "Toulon-Hy\u00c3\u00a8res"
         ],
         "outbound": true
@@ -6808,7 +7152,8 @@ const airports = {
             25.348101
         ],
         "names": [
-            "Mykonos Island National Airport"
+            "Mykonos Island National Airport",
+            "Mikonos Airport"
         ],
         "outbound": true
     },
@@ -6896,7 +7241,8 @@ const airports = {
             26.911699
         ],
         "names": [
-            "Samos International Airport"
+            "Samos International Airport",
+            "Samos Int\u2019I Airport"
         ],
         "outbound": true
     },
@@ -6946,8 +7292,8 @@ const airports = {
             20.8843
         ],
         "names": [
+            "Zakynthos International Airport Dionysios Solomos\"\"",
             "Zante, Dionysios Solomos Airport",
-            "Zakynthos International Airport",
             "Zante Zakynthos"
         ],
         "outbound": true
@@ -7033,7 +7379,7 @@ const airports = {
             17.947001
         ],
         "names": [
-            "Brindisi Airport"
+            "Brindisi Salento Airport"
         ],
         "outbound": true
     },
@@ -7185,7 +7531,7 @@ const airports = {
         ],
         "names": [
             "Milan Bergamo Il Caravaggio International Airport",
-            "Orio al Serio"
+            "Milan Bergamo Orio al Serio International Airport"
         ],
         "outbound": true
     },
@@ -7628,8 +7974,7 @@ const airports = {
             -25.6979008
         ],
         "names": [
-            "Jo\u00e3o Paulo II",
-            "Ponta Delgada"
+            "Ponta Delgada Joao Paulo II Airport"
         ],
         "outbound": true
     },
@@ -7641,8 +7986,7 @@ const airports = {
             -8.6813898
         ],
         "names": [
-            "Francisco de Sa Carneiro Airport",
-            "Porto Francisco de Sa Carneiro",
+            "Porto Francisco de Sa Carneiro Airport",
             "Oporto"
         ],
         "outbound": true
@@ -7915,7 +8259,8 @@ const airports = {
             32.9950981
         ],
         "names": [
-            "Ankara Esenboga International"
+            "Ankara Esenboga International",
+            "Esenboa International Airport"
         ],
         "outbound": true
     },
@@ -7939,7 +8284,7 @@ const airports = {
             30.800501
         ],
         "names": [
-            "Antalya Airport"
+            "Antalya International Airport"
         ],
         "outbound": true
     },
@@ -8013,7 +8358,7 @@ const airports = {
             27.664301
         ],
         "names": [
-            "Bodrum Milas Airport"
+            "Milas Bodrum International Airport"
         ],
         "outbound": true
     },
@@ -8899,7 +9244,7 @@ const airports = {
             -79.3834991
         ],
         "names": [
-            "Panama City Tocumen International"
+            "Panama City Tocumen International Airport"
         ],
         "outbound": true
     },
@@ -9000,7 +9345,7 @@ const airports = {
             -82.4091034
         ],
         "names": [
-            "Havana Jos\u00e9 Mart\u00ed International Airport",
+            "Havana Jose Marti International Airport",
             "Aeropuerto Internacional Jose Mart\u00c3\u00ad",
             "JOSE MARTI INT'L AIRPORT",
             "Havanna"
@@ -9704,7 +10049,8 @@ const airports = {
             55.161389
         ],
         "names": [
-            "Dubai World Central International Airport"
+            "Dubai World Central International Airport",
+            "Al Maktoum International Airport"
         ],
         "outbound": true
     },
@@ -11070,8 +11416,8 @@ const airports = {
             -58.5358
         ],
         "names": [
-            "Buenos Aires Ezeiza International Airport",
-            "Buenos Aires Ministro Pistarini"
+            "Buenos Aires Ministro Pistarini International Airport",
+            "Buenos Aires Ezeiza International Airport"
         ],
         "outbound": true
     },
@@ -11155,6 +11501,7 @@ const airports = {
             -48.476207
         ],
         "names": [
+            "Belem Val de Cans International Airport",
             "Val de Caes"
         ],
         "outbound": true
@@ -11431,7 +11778,7 @@ const airports = {
             -38.532222
         ],
         "names": [
-            "Pinto martins"
+            "Fortaleza Pinto Martins International Airport"
         ],
         "outbound": true
     },
@@ -11443,9 +11790,9 @@ const airports = {
             -43.250557
         ],
         "names": [
+            "Rio de Janeiro Galeao International Airport",
             "Galeao - antonio carlos jobim",
-            "Rio de Janeiro Intl (Int)",
-            "Rio Galeao"
+            "Rio de Janeiro Intl (Int)"
         ],
         "outbound": true
     },
@@ -11651,7 +11998,7 @@ const airports = {
             -47.134502
         ],
         "names": [
-            "Viracopos"
+            "Campinas Viracopos International Airport"
         ],
         "outbound": true
     },
@@ -12336,6 +12683,7 @@ const airports = {
         ],
         "names": [
             "Comodoro Arturo Merino Benitez International Airport",
+            "Santiago International Airport",
             "Santiago (Chile)"
         ],
         "outbound": true
@@ -12459,7 +12807,7 @@ const airports = {
             -75.513
         ],
         "names": [
-            "Cartagena Rafael N\u00fa\u00f1ez International Airport",
+            "Cartagena Rafael Nunez International Airport",
             "Cartagena, Colombia"
         ],
         "outbound": true
@@ -12522,6 +12870,7 @@ const airports = {
             -55.187801
         ],
         "names": [
+            "Paramaribo Zanderij International Airport",
             "Johan Adolf Pengel International Airport"
         ],
         "outbound": true
@@ -12846,7 +13195,7 @@ const airports = {
             -77.114305
         ],
         "names": [
-            "Lima Jorge Ch\u00e1vez International Airport"
+            "Lima Jorge Chavez International Airport"
         ],
         "outbound": true
     },
@@ -13246,6 +13595,7 @@ const airports = {
             -61.531799
         ],
         "names": [
+            "Pointe-a-Pitre International Airport",
             "Pointe-\u00e0-Pitre International Airport"
         ],
         "outbound": true
@@ -13381,7 +13731,7 @@ const airports = {
             -68.268501
         ],
         "names": [
-            "Bonaire"
+            "Bonaire Flamingo International Airport"
         ],
         "outbound": true
     },

@@ -21,6 +21,20 @@ const airlines = {
         "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+107.7 Hours (78.7 PIREPs)\n\t+11183.0 Points (43.4 PIREPs)\nType Rating Instructor:\n\t+297.7 Hours (217.5 PIREPs)\n\t+31783.0 Points (123.5 PIREPs)\nCaptain:\n\t+587.7 Hours (429.4 PIREPs)\n\t+63683.0 Points (247.4 PIREPs)\nLine Training Captain:\n\t+837.7 Hours (612.1 PIREPs)\n\t+91183.0 Points (354.2 PIREPs)\nType Rating Examiner:\n\t+1187.7 Hours (867.8 PIREPs)\n\t+129683.0 Points (503.7 PIREPs)\nTime mode: air",
         "sortName": "Ryanair"
     },
+    "8": {
+        "callsigns": [
+            "AFR",
+            "KLC",
+            "KLM",
+            "MPH",
+            "TRA",
+            "TVF"
+        ],
+        "last_pirep_start": "2024-07-18T13:33:37.000000Z",
+        "name": "vAFR/KLM",
+        "rank_info": "First Officer:\n\t+0.7 Hours (2.3 PIREPs)\nSenior First Officer:\n\t+249.7 Hours (820.2 PIREPs)\n\t+24815.0 Points (134.1 PIREPs)\nCaptain:\n\t+499.7 Hours (1641.3 PIREPs)\n\t+49815.0 Points (269.3 PIREPs)\nSenior Captain:\n\t+999.7 Hours (3283.7 PIREPs)\n\t+99815.0 Points (539.5 PIREPs)\nTime mode: air",
+        "sortName": "vAFR/KLM"
+    },
     "9": {
         "callsigns": [
             "EWG",
