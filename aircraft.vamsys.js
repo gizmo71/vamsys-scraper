@@ -15,7 +15,6 @@ const aircraft = [
     "A359",
     "A35K",
     "A388",
-    "AT45",
     "AT46",
     "AT72",
     "AT76",
