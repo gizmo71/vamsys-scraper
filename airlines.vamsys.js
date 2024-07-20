@@ -76,7 +76,7 @@ const airlines = {
             "details": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-08-19",
             "target_date": "2024-08-19T15:29:14+00:00"
         },
-        "sortName": "Linugs"
+        "sortName": "Lingus"
     },
     "35": {
         "callsigns": [
@@ -248,9 +248,9 @@ const airlines = {
         "callsigns": [
             "IGO"
         ],
-        "last_pirep_start": "2024-06-22T06:32:16.000000Z",
+        "last_pirep_start": "2024-07-20T05:22:28.000000Z",
         "name": "IndiGo",
-        "rank_info": "First Officer:\n\t+29.1 Hours (20.9 PIREPs)\nSenior First Officer:\n\t+79.1 Hours (56.9 PIREPs)\n\t+8960.0 Points (44.2 PIREPs)\nCaptain:\n\t+229.1 Hours (164.7 PIREPs)\n\t+16960.0 Points (83.7 PIREPs)\nBase Captain:\n\t+479.1 Hours (344.3 PIREPs)\n\t+56960.0 Points (281.1 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+27.8 Hours (20.1 PIREPs)\nSenior First Officer:\n\t+77.8 Hours (56.1 PIREPs)\n\t+8705.0 Points (42.3 PIREPs)\nCaptain:\n\t+227.8 Hours (164.3 PIREPs)\n\t+16705.0 Points (81.1 PIREPs)\nBase Captain:\n\t+477.8 Hours (344.6 PIREPs)\n\t+56705.0 Points (275.4 PIREPs)\nTime mode: air",
         "sortName": "IndiGo"
     },
     "876": {
