@@ -425,6 +425,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "DRRN": {
+        "iata": "NIM",
+        "inbound": true,
+        "latlng": [
+            13.4815,
+            2.18361
+        ],
+        "names": [
+            "Niamey Diori Hamani International Airport"
+        ],
+        "outbound": true
+    },
     "DTMB": {
         "iata": "MIR",
         "inbound": true,
@@ -1489,7 +1501,8 @@ const airports = {
             4.76389
         ],
         "names": [
-            "Amsterdam Airport Schiphol"
+            "Amsterdam Airport Schiphol",
+            "Schipol"
         ],
         "outbound": true
     },
@@ -1924,6 +1937,7 @@ const airports = {
         ],
         "names": [
             "Krakow John Paul II International Airport",
+            "Krakow John Paul II Internatinal Airport",
             "Krak\u00c3\u00b3w John Paul II International",
             "Krakau"
         ],
@@ -2408,7 +2422,7 @@ const airports = {
             31.1197222
         ],
         "names": [
-            "Durban King Shaka International"
+            "Durban King Shaka International Airport"
         ],
         "outbound": true
     },
@@ -2567,7 +2581,7 @@ const airports = {
             32.572601
         ],
         "names": [
-            "Maputo International"
+            "Maputo International Airport"
         ],
         "outbound": true
     },
@@ -2579,7 +2593,7 @@ const airports = {
             55.521801
         ],
         "names": [
-            "Victoria Seychelles International"
+            "Victoria Seychelles International Airport"
         ],
         "outbound": true
     },
@@ -2651,7 +2665,7 @@ const airports = {
             -7.94994
         ],
         "names": [
-            "Bamako"
+            "Bamako Senou International Airport"
         ],
         "outbound": true
     },
@@ -2663,7 +2677,7 @@ const airports = {
             -16.652201
         ],
         "names": [
-            "Banjul"
+            "Banjul International Airport"
         ],
         "outbound": true
     },
@@ -2764,7 +2778,7 @@ const airports = {
             -13.1955
         ],
         "names": [
-            "Freetown"
+            "Freetown Lungi International Airport"
         ],
         "outbound": true
     },
@@ -3068,7 +3082,7 @@ const airports = {
             45.3046989
         ],
         "names": [
-            "Mogadishu Aden Adde International"
+            "Mogadishu Aden Adde International Airport"
         ],
         "outbound": true
     },
@@ -3092,7 +3106,7 @@ const airports = {
             29.696437
         ],
         "names": [
-            "Alexandria Borg El Arab"
+            "Alexandria Borg El Arab Airport"
         ],
         "outbound": true
     },
@@ -3181,6 +3195,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "HHAS": {
+        "iata": "ASM",
+        "inbound": true,
+        "latlng": [
+            15.2918997,
+            38.9107018
+        ],
+        "names": [
+            "Asmara International Airport"
+        ],
+        "outbound": true
+    },
+    "HJJJ": {
+        "iata": "JUB",
+        "inbound": true,
+        "latlng": [
+            4.87201,
+            31.601101
+        ],
+        "names": [
+            "Juba Airport"
+        ],
+        "outbound": true
+    },
     "HKJK": {
         "iata": "NBO",
         "inbound": true,
@@ -3206,6 +3244,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "HLLM": {
+        "iata": "MJI",
+        "inbound": true,
+        "latlng": [
+            32.89177,
+            13.287878
+        ],
+        "names": [
+            "Mitiga Airport"
+        ],
+        "outbound": true
+    },
     "HLLT": {
         "iata": "TIP",
         "inbound": true,
@@ -3227,6 +3277,18 @@ const airports = {
         ],
         "names": [
             "Kigali Airport"
+        ],
+        "outbound": true
+    },
+    "HSSK": {
+        "iata": "KRT",
+        "inbound": false,
+        "latlng": [
+            15.5895,
+            32.5532
+        ],
+        "names": [
+            "Khartoum International Airport"
         ],
         "outbound": true
     },
@@ -3263,6 +3325,7 @@ const airports = {
         ],
         "names": [
             "Zanzibar Abeid Amani Karume International Airport",
+            "Zanzibar Abeid Amani Karume Internatio",
             "Tanzania Abeid Amani Karume"
         ],
         "outbound": true
@@ -4621,7 +4684,7 @@ const airports = {
         "names": [
             "New York John F. Kennedy International Airport",
             "John F Kennedy International Airport",
-            "New York (JFK)"
+            "New York JFK International Airport"
         ],
         "outbound": true
     },
@@ -4745,6 +4808,18 @@ const airports = {
         ],
         "names": [
             "Liberal"
+        ],
+        "outbound": true
+    },
+    "KLCK": {
+        "iata": "LCK",
+        "inbound": true,
+        "latlng": [
+            39.813801,
+            -82.927803
+        ],
+        "names": [
+            "Columbus Rickenbacker International Airport"
         ],
         "outbound": true
     },
@@ -5293,7 +5368,8 @@ const airports = {
             -122.281998
         ],
         "names": [
-            "Everett Paine Field"
+            "Everett Paine Field",
+            "Seattle Paine Intl"
         ],
         "outbound": true
     },
@@ -6160,6 +6236,18 @@ const airports = {
         ],
         "names": [
             "Varna Airport"
+        ],
+        "outbound": true
+    },
+    "LCEN": {
+        "iata": "ECN",
+        "inbound": true,
+        "latlng": [
+            35.152337,
+            33.506584
+        ],
+        "names": [
+            "Ercan International Airport"
         ],
         "outbound": true
     },
@@ -8091,6 +8179,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LRCK": {
+        "iata": "CND",
+        "inbound": true,
+        "latlng": [
+            44.3622017,
+            28.4883003
+        ],
+        "names": [
+            "Constanta"
+        ],
+        "outbound": true
+    },
     "LRCL": {
         "iata": "CLJ",
         "inbound": true,
@@ -8272,7 +8372,7 @@ const airports = {
             35.280399
         ],
         "names": [
-            "Adana Sakirpasa"
+            "Adana \u015eakirpa\u015fa Airport"
         ],
         "outbound": true
     },
@@ -8285,6 +8385,138 @@ const airports = {
         ],
         "names": [
             "Antalya International Airport"
+        ],
+        "outbound": true
+    },
+    "LTAJ": {
+        "iata": "GZT",
+        "inbound": true,
+        "latlng": [
+            36.947201,
+            37.478699
+        ],
+        "names": [
+            "Gaziantep"
+        ],
+        "outbound": true
+    },
+    "LTAL": {
+        "iata": "KFS",
+        "inbound": true,
+        "latlng": [
+            41.314201,
+            33.795799
+        ],
+        "names": [
+            "Kastamonu"
+        ],
+        "outbound": true
+    },
+    "LTAN": {
+        "iata": "KYA",
+        "inbound": true,
+        "latlng": [
+            37.979,
+            32.561901
+        ],
+        "names": [
+            "Konya"
+        ],
+        "outbound": true
+    },
+    "LTAP": {
+        "iata": "MZH",
+        "inbound": true,
+        "latlng": [
+            40.829399,
+            35.521999
+        ],
+        "names": [
+            "Merzifon"
+        ],
+        "outbound": true
+    },
+    "LTAR": {
+        "iata": "VAS",
+        "inbound": true,
+        "latlng": [
+            39.813801,
+            36.9035
+        ],
+        "names": [
+            "Sivas"
+        ],
+        "outbound": true
+    },
+    "LTAS": {
+        "iata": "ONQ",
+        "inbound": true,
+        "latlng": [
+            41.506401,
+            32.0886
+        ],
+        "names": [
+            "Zonguldak"
+        ],
+        "outbound": true
+    },
+    "LTAT": {
+        "iata": "MLX",
+        "inbound": true,
+        "latlng": [
+            38.4352989,
+            38.0909996
+        ],
+        "names": [
+            "Malatya"
+        ],
+        "outbound": true
+    },
+    "LTAU": {
+        "iata": "ASR",
+        "inbound": true,
+        "latlng": [
+            38.770401,
+            35.4953995
+        ],
+        "names": [
+            "Kayseri"
+        ],
+        "outbound": true
+    },
+    "LTAW": {
+        "iata": "TJK",
+        "inbound": true,
+        "latlng": [
+            40.3074303,
+            36.3674088
+        ],
+        "names": [
+            "Tokat"
+        ],
+        "outbound": true
+    },
+    "LTAY": {
+        "iata": "DNZ",
+        "inbound": true,
+        "latlng": [
+            37.7855988,
+            29.7012997
+        ],
+        "names": [
+            "Denizli"
+        ],
+        "outbound": true
+    },
+    "LTAZ": {
+        "iata": "NAV",
+        "inbound": true,
+        "latlng": [
+            38.7719,
+            34.5345
+        ],
+        "names": [
+            "Nevsehir"
         ],
         "outbound": true
     },
@@ -8301,6 +8533,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LTBH": {
+        "iata": "CKZ",
+        "inbound": true,
+        "latlng": [
+            40.1376991,
+            26.4267998
+        ],
+        "names": [
+            "Canakkale Airport"
+        ],
+        "outbound": true
+    },
     "LTBJ": {
         "iata": "ADB",
         "inbound": true,
@@ -8311,6 +8555,18 @@ const airports = {
         "names": [
             "Izmir Adnan Menderes International Airport",
             "Izmir - Adnan Menderes Intl"
+        ],
+        "outbound": true
+    },
+    "LTBR": {
+        "iata": "YEI",
+        "inbound": true,
+        "latlng": [
+            40.2551994,
+            29.5625992
+        ],
+        "names": [
+            "Bursa Yenisehir Airport"
         ],
         "outbound": true
     },
@@ -8326,6 +8582,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LTBY": {
+        "iata": "AOE",
+        "inbound": true,
+        "latlng": [
+            39.809898,
+            30.5194
+        ],
+        "names": [
+            "Eskisehir Airport"
+        ],
+        "outbound": true
+    },
     "LTBZ": {
         "iata": "KZR",
         "inbound": true,
@@ -8338,6 +8606,78 @@ const airports = {
         ],
         "outbound": true
     },
+    "LTCA": {
+        "iata": "EZS",
+        "inbound": true,
+        "latlng": [
+            38.597974,
+            39.28348
+        ],
+        "names": [
+            "Elazig Airport"
+        ],
+        "outbound": true
+    },
+    "LTCB": {
+        "iata": "OGU",
+        "inbound": true,
+        "latlng": [
+            40.966872,
+            38.085995
+        ],
+        "names": [
+            "Ordu"
+        ],
+        "outbound": true
+    },
+    "LTCC": {
+        "iata": "DIY",
+        "inbound": true,
+        "latlng": [
+            37.893902,
+            40.201
+        ],
+        "names": [
+            "Diyarbakir"
+        ],
+        "outbound": true
+    },
+    "LTCD": {
+        "iata": "ERC",
+        "inbound": true,
+        "latlng": [
+            39.7102013,
+            39.5270004
+        ],
+        "names": [
+            "Erzincan"
+        ],
+        "outbound": true
+    },
+    "LTCE": {
+        "iata": "ERZ",
+        "inbound": true,
+        "latlng": [
+            39.956501,
+            41.1702
+        ],
+        "names": [
+            "Erzurum"
+        ],
+        "outbound": true
+    },
+    "LTCF": {
+        "iata": "KSY",
+        "inbound": true,
+        "latlng": [
+            40.5621986,
+            43.1150017
+        ],
+        "names": [
+            "Kars"
+        ],
+        "outbound": true
+    },
     "LTCG": {
         "iata": "TZX",
         "inbound": true,
@@ -8347,6 +8687,210 @@ const airports = {
         ],
         "names": [
             "Trabzon"
+        ],
+        "outbound": true
+    },
+    "LTCI": {
+        "iata": "VAN",
+        "inbound": true,
+        "latlng": [
+            38.4682007,
+            43.3322983
+        ],
+        "names": [
+            "Van"
+        ],
+        "outbound": true
+    },
+    "LTCJ": {
+        "iata": "BAL",
+        "inbound": true,
+        "latlng": [
+            37.9290009,
+            41.1166
+        ],
+        "names": [
+            "Batman"
+        ],
+        "outbound": true
+    },
+    "LTCK": {
+        "iata": "MSR",
+        "inbound": true,
+        "latlng": [
+            38.7477989,
+            41.6612015
+        ],
+        "names": [
+            "Mus"
+        ],
+        "outbound": true
+    },
+    "LTCL": {
+        "iata": "SXZ",
+        "inbound": true,
+        "latlng": [
+            37.9789009,
+            41.8404007
+        ],
+        "names": [
+            "Siirt"
+        ],
+        "outbound": true
+    },
+    "LTCM": {
+        "iata": "NOP",
+        "inbound": true,
+        "latlng": [
+            42.018313,
+            35.071774
+        ],
+        "names": [
+            "Sinop"
+        ],
+        "outbound": true
+    },
+    "LTCN": {
+        "iata": "KCM",
+        "inbound": true,
+        "latlng": [
+            37.538826,
+            36.9535217
+        ],
+        "names": [
+            "Kahramanmaras"
+        ],
+        "outbound": true
+    },
+    "LTCO": {
+        "iata": "AJI",
+        "inbound": true,
+        "latlng": [
+            39.655642,
+            43.025742
+        ],
+        "names": [
+            "Agri"
+        ],
+        "outbound": true
+    },
+    "LTCP": {
+        "iata": "ADF",
+        "inbound": true,
+        "latlng": [
+            37.7314,
+            38.468899
+        ],
+        "names": [
+            "Adiyaman"
+        ],
+        "outbound": true
+    },
+    "LTCR": {
+        "iata": "MQM",
+        "inbound": true,
+        "latlng": [
+            37.2233009,
+            40.6316986
+        ],
+        "names": [
+            "Mardin"
+        ],
+        "outbound": true
+    },
+    "LTCS": {
+        "iata": "GNY",
+        "inbound": true,
+        "latlng": [
+            37.445663,
+            38.895592
+        ],
+        "names": [
+            "Sanliurfa"
+        ],
+        "outbound": true
+    },
+    "LTCT": {
+        "iata": "IGD",
+        "inbound": true,
+        "latlng": [
+            39.976627,
+            43.876648
+        ],
+        "names": [
+            "Igdir"
+        ],
+        "outbound": true
+    },
+    "LTCU": {
+        "iata": "BGG",
+        "inbound": true,
+        "latlng": [
+            38.8592606,
+            40.5959625
+        ],
+        "names": [
+            "Bingol"
+        ],
+        "outbound": true
+    },
+    "LTCV": {
+        "iata": "NKT",
+        "inbound": true,
+        "latlng": [
+            37.3647,
+            42.0582
+        ],
+        "names": [
+            "Sirnak"
+        ],
+        "outbound": true
+    },
+    "LTCW": {
+        "iata": "YKO",
+        "inbound": true,
+        "latlng": [
+            37.5497,
+            44.2381
+        ],
+        "names": [
+            "Yuksekova"
+        ],
+        "outbound": true
+    },
+    "LTDA": {
+        "iata": "HTY",
+        "inbound": true,
+        "latlng": [
+            36.362778,
+            36.282223
+        ],
+        "names": [
+            "Antakya"
+        ],
+        "outbound": true
+    },
+    "LTFC": {
+        "iata": "ISE",
+        "inbound": true,
+        "latlng": [
+            37.8554,
+            30.368401
+        ],
+        "names": [
+            "Isparta"
+        ],
+        "outbound": true
+    },
+    "LTFD": {
+        "iata": "EDO",
+        "inbound": true,
+        "latlng": [
+            39.5546,
+            27.0138
+        ],
+        "names": [
+            "Edremit Balikesir Koca Seyit Airport"
         ],
         "outbound": true
     },
@@ -8407,6 +8951,18 @@ const airports = {
         ],
         "names": [
             "Istanbul Ataturk Airport"
+        ],
+        "outbound": true
+    },
+    "LTFO": {
+        "iata": "RZV",
+        "inbound": true,
+        "latlng": [
+            41.179625,
+            40.850796
+        ],
+        "names": [
+            "Rize Artvin Airport"
         ],
         "outbound": true
     },
@@ -9775,6 +10331,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "OAKB": {
+        "iata": "KBL",
+        "inbound": true,
+        "latlng": [
+            34.565899,
+            69.212303
+        ],
+        "names": [
+            "Kabul International Airport"
+        ],
+        "outbound": true
+    },
     "OBBI": {
         "iata": "BAH",
         "inbound": true,
@@ -9855,7 +10423,7 @@ const airports = {
             39.705101
         ],
         "names": [
-            "Prince Mohammad Bin Abdulaziz Airport",
+            "Prince Mohammad bin Abdulaziz International Airport",
             "Medina Prince Mohammad bin Abdulaziz"
         ],
         "outbound": true
@@ -9928,7 +10496,7 @@ const airports = {
             51.861483
         ],
         "names": [
-            "Isfahan International"
+            "Isfahan International Airport"
         ],
         "outbound": true
     },
@@ -9940,7 +10508,7 @@ const airports = {
             51.1521988
         ],
         "names": [
-            "Tehran Imam Khomeini International",
+            "Tehran Imam Khomeini International Airport",
             "Teheran-Imam Chomeini"
         ],
         "outbound": true
@@ -9953,7 +10521,7 @@ const airports = {
             59.6409988
         ],
         "names": [
-            "Mashhad International"
+            "Mashhad International Airport"
         ],
         "outbound": true
     },
@@ -9965,7 +10533,31 @@ const airports = {
             52.589802
         ],
         "names": [
-            "Shiraz International"
+            "Shiraz International Airport"
+        ],
+        "outbound": true
+    },
+    "OITR": {
+        "iata": "OMH",
+        "inbound": true,
+        "latlng": [
+            37.6680984,
+            45.0686989
+        ],
+        "names": [
+            "Urmia Airport"
+        ],
+        "outbound": true
+    },
+    "OITT": {
+        "iata": "TBZ",
+        "inbound": true,
+        "latlng": [
+            38.1339,
+            46.235001
+        ],
+        "names": [
+            "Tabriz International Airport"
         ],
         "outbound": true
     },
@@ -10197,7 +10789,7 @@ const airports = {
             44.2346
         ],
         "names": [
-            "Baghdad International"
+            "Baghdad International Airport"
         ],
         "outbound": true
     },
@@ -10209,6 +10801,7 @@ const airports = {
             43.9631996
         ],
         "names": [
+            "Arbil International Airport",
             "Erbil International"
         ],
         "outbound": true
@@ -10221,7 +10814,7 @@ const airports = {
             47.662102
         ],
         "names": [
-            "Basra International"
+            "Basra International Airport"
         ],
         "outbound": true
     },
@@ -11404,7 +11997,7 @@ const airports = {
             123.97974
         ],
         "names": [
-            "Mactan Cebu International Airport"
+            "Cebu Mactan International Airport"
         ],
         "outbound": true
     },
@@ -13834,6 +14427,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "UAIT": {
+        "iata": "HSA",
+        "inbound": true,
+        "latlng": [
+            43.313126,
+            68.549881
+        ],
+        "names": [
+            "Hazret-Sultan International Airport"
+        ],
+        "outbound": true
+    },
     "UATE": {
         "iata": "SCO",
         "inbound": true,
@@ -13844,7 +14449,7 @@ const airports = {
         "names": [
             "Aktau Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "UBBB": {
         "iata": "GYD",
@@ -13858,6 +14463,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "UBBG": {
+        "iata": "KVD",
+        "inbound": true,
+        "latlng": [
+            40.737701,
+            46.3176
+        ],
+        "names": [
+            "Ganja International Airport"
+        ],
+        "outbound": true
+    },
+    "UBBN": {
+        "iata": "NAJ",
+        "inbound": true,
+        "latlng": [
+            39.1888008,
+            45.4584007
+        ],
+        "names": [
+            "Nakchivan"
+        ],
+        "outbound": true
+    },
     "UCFM": {
         "iata": "FRU",
         "inbound": true,
@@ -13866,9 +14495,9 @@ const airports = {
             74.4776001
         ],
         "names": [
-            "Manas International Airport"
+            "Bishkek Manas International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "UDYZ": {
         "iata": "EVN",
@@ -13891,6 +14520,18 @@ const airports = {
         ],
         "names": [
             "Kutaisi International Airport"
+        ],
+        "outbound": true
+    },
+    "UGSB": {
+        "iata": "BUS",
+        "inbound": true,
+        "latlng": [
+            41.610298,
+            41.599701
+        ],
+        "names": [
+            "Batumi International Airport"
         ],
         "outbound": true
     },
@@ -13992,6 +14633,54 @@ const airports = {
         ],
         "outbound": true
     },
+    "UTAA": {
+        "iata": "ASB",
+        "inbound": true,
+        "latlng": [
+            37.986801,
+            58.361
+        ],
+        "names": [
+            "Ashgabat International Airport"
+        ],
+        "outbound": true
+    },
+    "UTDD": {
+        "iata": "DYU",
+        "inbound": true,
+        "latlng": [
+            38.543301,
+            68.824997
+        ],
+        "names": [
+            "Dushanbe International Airport"
+        ],
+        "outbound": true
+    },
+    "UTFF": {
+        "iata": "FEG",
+        "inbound": true,
+        "latlng": [
+            40.358799,
+            71.745003
+        ],
+        "names": [
+            "Fergana International Airport"
+        ],
+        "outbound": true
+    },
+    "UTNU": {
+        "iata": "UGC",
+        "inbound": true,
+        "latlng": [
+            41.584301,
+            60.6417007
+        ],
+        "names": [
+            "Urgench International Airport"
+        ],
+        "outbound": true
+    },
     "UTSB": {
         "iata": "BHK",
         "inbound": true,
@@ -14000,7 +14689,7 @@ const airports = {
             64.483299
         ],
         "names": [
-            "Bukhara"
+            "Bukhara International Airport"
         ],
         "outbound": true
     },
@@ -14014,7 +14703,7 @@ const airports = {
         "names": [
             "Samarkand International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "UTTT": {
         "iata": "TAS",
@@ -14036,7 +14725,7 @@ const airports = {
             37.9062996
         ],
         "names": [
-            "Moscow Domodedovo Airport"
+            "Moscow Domodedovo International Airport"
         ],
         "outbound": true
     },
@@ -14062,6 +14751,18 @@ const airports = {
         ],
         "names": [
             "Moscow Vnukovo"
+        ],
+        "outbound": true
+    },
+    "UWKD": {
+        "iata": "KZN",
+        "inbound": true,
+        "latlng": [
+            55.6062012,
+            49.2787018
+        ],
+        "names": [
+            "Kazan"
         ],
         "outbound": true
     },
@@ -15209,7 +15910,8 @@ const airports = {
             78.429855
         ],
         "names": [
-            "Hyderabad Rajiv Gandhi International Airport"
+            "Hyderabad Rajiv Gandhi International Airport",
+            "Hyderabad Rajiv Ghandi International"
         ],
         "outbound": true
     },
@@ -15512,7 +16214,7 @@ const airports = {
         ],
         "names": [
             "Ho Chi Minh City International Airport",
-            "Tan Son Nhat International"
+            "T\u00e2n S\u01a1n Nh\u1ea5t International Airport"
         ],
         "outbound": true
     },
@@ -17873,7 +18575,8 @@ const airports = {
             106.819833
         ],
         "names": [
-            "Ulaanbaatar Chinggis Khaan International Airport"
+            "Ulaanbaatar Chinggis Khaan International Airport",
+            "Ulaanbaatar New International Airport"
         ],
         "outbound": true
     },
