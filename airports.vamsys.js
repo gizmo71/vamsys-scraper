@@ -311,7 +311,7 @@ const airports = {
             -1.51242
         ],
         "names": [
-            "Ouagadougou"
+            "Ouagadougou Airport"
         ],
         "outbound": true
     },
