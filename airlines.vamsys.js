@@ -279,6 +279,7 @@ const airlines = {
     "913": {
         "callsigns": [
             "BLX",
+            "BTI",
             "EWG",
             "KMM",
             "LYN",
@@ -291,12 +292,12 @@ const airlines = {
             "WMT",
             "WZZ"
         ],
-        "last_pirep_start": "2024-07-13T13:56:31.000000Z",
+        "last_pirep_start": "2024-07-22T13:53:53.000000Z",
         "name": "Avion",
-        "rank_info": "Second Officer:\n\t+48.4 Hours (30.9 PIREPs)\n\t+3785.0 Points (17.6 PIREPs)\nFirst Officer:\n\t+148.4 Hours (94.6 PIREPs)\n\t+13785.0 Points (64.1 PIREPs)\nSenior First Officer:\n\t+298.4 Hours (190.1 PIREPs)\n\t+27285.0 Points (126.9 PIREPs)\nCaptain:\n\t+598.4 Hours (381.2 PIREPs)\n\t+59785.0 Points (278.1 PIREPs)\nTraining Captain:\n\t+998.4 Hours (636.1 PIREPs)\n\t+99785.0 Points (464.1 PIREPs)\nBase Captain:\n\t+1998.4 Hours (1273.1 PIREPs)\n\t+199785.0 Points (929.2 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+46.9 Hours (30.1 PIREPs)\n\t+3410.0 Points (11.6 PIREPs)\nFirst Officer:\n\t+146.9 Hours (94.3 PIREPs)\n\t+13410.0 Points (45.5 PIREPs)\nSenior First Officer:\n\t+296.9 Hours (190.7 PIREPs)\n\t+26910.0 Points (91.2 PIREPs)\nCaptain:\n\t+596.9 Hours (383.3 PIREPs)\n\t+59410.0 Points (201.4 PIREPs)\nTraining Captain:\n\t+996.9 Hours (640.2 PIREPs)\n\t+99410.0 Points (337.0 PIREPs)\nBase Captain:\n\t+1996.9 Hours (1282.5 PIREPs)\n\t+199410.0 Points (676.0 PIREPs)\nTime mode: block",
         "requirements": {
-            "details": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2025-01-09",
-            "target_date": "2025-01-09T15:56:25+00:00"
+            "details": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2025-01-18",
+            "target_date": "2025-01-18T15:49:18+00:00"
         },
         "sortName": "Avion"
     },
