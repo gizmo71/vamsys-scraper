@@ -2350,6 +2350,7 @@ const airports = {
             12.2783003
         ],
         "names": [
+            "Rostock Laage Airport",
             "Rostock\u0096Laage Airport"
         ],
         "outbound": true
