@@ -184,9 +184,9 @@ const airlines = {
         "callsigns": [
             "JBU"
         ],
-        "last_pirep_start": "2024-06-26T14:18:51.000000Z",
+        "last_pirep_start": "2024-07-24T14:53:36.000000Z",
         "name": "JetBlue",
-        "rank_info": "First Officer:\n\t+27.7 Hours (18.7 PIREPs)\n\t+940.0 Points (4.6 PIREPs)\nSenior First Officer:\n\t+177.7 Hours (119.7 PIREPs)\n\t+13940.0 Points (68.3 PIREPs)\nCaptain:\n\t+477.7 Hours (321.7 PIREPs)\n\t+41940.0 Points (205.6 PIREPs)\nTraining Captain:\n\t+977.7 Hours (658.4 PIREPs)\n\t+76940.0 Points (377.2 PIREPs)\nSenior Training Captain:\n\t+1477.7 Hours (995.1 PIREPs)\n\t+126940.0 Points (622.3 PIREPs)\nChief Pilot:\n\t+2477.7 Hours (1668.5 PIREPs)\n\t+246940.0 Points (1210.5 PIREPs)\nTime mode: block",
+        "rank_info": "First Officer:\n\t+26.5 Hours (18.0 PIREPs)\n\t+715.0 Points (3.5 PIREPs)\nSenior First Officer:\n\t+176.5 Hours (120.0 PIREPs)\n\t+13715.0 Points (66.8 PIREPs)\nCaptain:\n\t+476.5 Hours (324.1 PIREPs)\n\t+41715.0 Points (203.2 PIREPs)\nTraining Captain:\n\t+976.5 Hours (664.1 PIREPs)\n\t+76715.0 Points (373.6 PIREPs)\nSenior Training Captain:\n\t+1476.5 Hours (1004.2 PIREPs)\n\t+126715.0 Points (617.2 PIREPs)\nChief Pilot:\n\t+2476.5 Hours (1684.3 PIREPs)\n\t+246715.0 Points (1201.7 PIREPs)\nTime mode: block",
         "sortName": "JetBlue"
     },
     "356": {
