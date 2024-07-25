@@ -1,4 +1,16 @@
 const airports = {
+    "AYPY": {
+        "iata": "POM",
+        "inbound": true,
+        "latlng": [
+            -9.4433804,
+            147.2200012
+        ],
+        "names": [
+            "Port Moresby Jacksons International Airport"
+        ],
+        "outbound": true
+    },
     "BGBW": {
         "iata": "UAK",
         "inbound": true,
@@ -2950,7 +2962,8 @@ const airports = {
             -5.921459
         ],
         "names": [
-            "Tangier Ibn Battouta Airport"
+            "Tangier Ibn Battouta Airport",
+            "Tanger-Boukhalef"
         ],
         "outbound": true
     },
@@ -3010,8 +3023,7 @@ const airports = {
             -22.9494
         ],
         "names": [
-            "Espargos Amilcar Cabral International Airport",
-            "Cabo Verde"
+            "Espargos Amilcar Cabral International Airport"
         ],
         "outbound": true
     },
@@ -3414,6 +3426,18 @@ const airports = {
         ],
         "names": [
             "Atlantic City, NJ"
+        ],
+        "outbound": true
+    },
+    "KADW": {
+        "iata": "ADW",
+        "inbound": true,
+        "latlng": [
+            38.810799,
+            -76.866997
+        ],
+        "names": [
+            "Joint Base Andrews"
         ],
         "outbound": true
     },
@@ -5068,7 +5092,7 @@ const airports = {
             -71.435699
         ],
         "names": [
-            "Manchester, NH"
+            "Manchester"
         ],
         "outbound": true
     },
@@ -7054,7 +7078,8 @@ const airports = {
         ],
         "names": [
             "Basel Mulhouse-Freiburg EuroAirport",
-            "Basle-Mulhouse"
+            "Basle-Mulhouse",
+            "Basel (Basel)"
         ],
         "outbound": true
     },
@@ -7154,8 +7179,8 @@ const airports = {
             20.5004997
         ],
         "names": [
-            "Kefallinia Airport",
-            "Kefalonia"
+            "Kefalonia International Airport",
+            "Kefallinia Airport"
         ],
         "outbound": true
     },
@@ -7809,6 +7834,18 @@ const airports = {
         "names": [
             "Rome Leonardo da Vinci Fiumicino Airport",
             "Roma Fiumicino"
+        ],
+        "outbound": true
+    },
+    "LIRI": {
+        "iata": "QSR",
+        "inbound": true,
+        "latlng": [
+            40.620399,
+            14.9113
+        ],
+        "names": [
+            "Amalfi Coast - Salerno"
         ],
         "outbound": true
     },
@@ -9866,7 +9903,8 @@ const airports = {
             -72.292503
         ],
         "names": [
-            "Port-au-Prince Toussaint Louverture International Airport"
+            "Port-au-Prince Toussaint Louverture International Airport",
+            "Port-au-Prince, Haiti"
         ],
         "outbound": true
     },
@@ -11159,6 +11197,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "PTRO": {
+        "iata": "ROR",
+        "inbound": true,
+        "latlng": [
+            7.36731,
+            134.544236
+        ],
+        "names": [
+            "Koror-Babelthuap Airport"
+        ],
+        "outbound": true
+    },
     "RCKH": {
         "iata": "KHH",
         "inbound": true,
@@ -12015,15 +12065,15 @@ const airports = {
         ],
         "outbound": true
     },
-    "SBAC": {
-        "iata": "ARX",
+    "SAZS": {
+        "iata": "BRC",
         "inbound": true,
         "latlng": [
-            -4.568896,
-            -37.805135
+            -41.151199,
+            -71.157501
         ],
         "names": [
-            "Aeroporto de Aracati"
+            "Bariloche"
         ],
         "outbound": true
     },
@@ -12097,18 +12147,6 @@ const airports = {
         "names": [
             "Belem Val de Cans International Airport",
             "Val de Caes"
-        ],
-        "outbound": true
-    },
-    "SBBG": {
-        "iata": "BGX",
-        "inbound": true,
-        "latlng": [
-            -31.390499,
-            -54.112202
-        ],
-        "names": [
-            "Comandante gustavo kraemer"
         ],
         "outbound": true
     },
@@ -12229,6 +12267,18 @@ const airports = {
         ],
         "names": [
             "Caldas novas"
+        ],
+        "outbound": true
+    },
+    "SBCO": {
+        "iata": "QNS",
+        "inbound": true,
+        "latlng": [
+            -29.945928,
+            -51.144413
+        ],
+        "names": [
+            "Canoas"
         ],
         "outbound": true
     },
@@ -12656,6 +12706,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "SBMI": {
+        "iata": "JMR",
+        "inbound": true,
+        "latlng": [
+            -22.9195,
+            -42.830898
+        ],
+        "names": [
+            "Marica"
+        ],
+        "outbound": true
+    },
     "SBMK": {
         "iata": "MOC",
         "inbound": true,
@@ -12884,18 +12946,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "SBRB": {
-        "iata": "RBR",
-        "inbound": true,
-        "latlng": [
-            -9.869031,
-            -67.893984
-        ],
-        "names": [
-            "Placido de castro"
-        ],
-        "outbound": true
-    },
     "SBRD": {
         "iata": "ROO",
         "inbound": true,
@@ -12965,18 +13015,6 @@ const airports = {
         ],
         "names": [
             "Presidente joao batista figueiredo"
-        ],
-        "outbound": true
-    },
-    "SBSJ": {
-        "iata": "SJK",
-        "inbound": false,
-        "latlng": [
-            -23.2292,
-            -45.8615
-        ],
-        "names": [
-            "Sao Jos\u00e9 dos Campos"
         ],
         "outbound": true
     },
@@ -13160,18 +13198,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "SBUF": {
-        "iata": "PAV",
-        "inbound": true,
-        "latlng": [
-            -9.40088,
-            -38.250599
-        ],
-        "names": [
-            "Paulo afonso"
-        ],
-        "outbound": true
-    },
     "SBUG": {
         "iata": "URG",
         "inbound": true,
@@ -13294,15 +13320,15 @@ const airports = {
         ],
         "outbound": true
     },
-    "SDIY": {
-        "iata": "FEC",
+    "SDOW": {
+        "iata": "OIA",
         "inbound": true,
         "latlng": [
-            -12.200694,
-            -38.906164
+            -6.762992,
+            -51.04993
         ],
         "names": [
-            "Joao durval carneiro"
+            "Ourilandia Do Norte"
         ],
         "outbound": true
     },
@@ -13601,18 +13627,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "SNMA": {
-        "iata": "MTE",
-        "inbound": true,
-        "latlng": [
-            -1.9958,
-            -54.0742
-        ],
-        "names": [
-            "Monte alegre"
-        ],
-        "outbound": true
-    },
     "SNMZ": {
         "iata": "PTQ",
         "inbound": true,
@@ -13622,18 +13636,6 @@ const airports = {
         ],
         "names": [
             "Porto de moz"
-        ],
-        "outbound": true
-    },
-    "SNOX": {
-        "iata": "ORX",
-        "inbound": true,
-        "latlng": [
-            -1.71408,
-            -55.8362007
-        ],
-        "names": [
-            "Oriximina"
         ],
         "outbound": true
     },
@@ -13649,15 +13651,15 @@ const airports = {
         ],
         "outbound": true
     },
-    "SNRJ": {
-        "iata": "JRT",
+    "SNQX": {
+        "iata": "QXD",
         "inbound": true,
         "latlng": [
-            -2.186667,
-            -56.090279
+            -4.9790702,
+            -38.9875984
         ],
         "names": [
-            "Aeroporto de Juruti"
+            "Quixada"
         ],
         "outbound": true
     },
@@ -13745,18 +13747,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "SNYA": {
-        "iata": "GGF",
-        "inbound": true,
-        "latlng": [
-            -1.479524,
-            -52.578214
-        ],
-        "names": [
-            "Aerodromo publico de almeirim"
-        ],
-        "outbound": true
-    },
     "SNZR": {
         "iata": "PYT",
         "inbound": true,
@@ -13805,18 +13795,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "SSCN": {
-        "iata": "CEL",
-        "inbound": true,
-        "latlng": [
-            -29.370091,
-            -50.831729
-        ],
-        "names": [
-            "Canela"
-        ],
-        "outbound": true
-    },
     "SSGG": {
         "iata": "GPB",
         "inbound": true,
@@ -13829,18 +13807,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "SSGY": {
-        "iata": "GGJ",
-        "inbound": true,
-        "latlng": [
-            -24.0811,
-            -54.1917
-        ],
-        "names": [
-            "Guaira"
-        ],
-        "outbound": true
-    },
     "SSKW": {
         "iata": "OAL",
         "inbound": true,
@@ -13850,18 +13816,6 @@ const airports = {
         ],
         "names": [
             "Cacoal"
-        ],
-        "outbound": true
-    },
-    "SSLT": {
-        "iata": "ALQ",
-        "inbound": true,
-        "latlng": [
-            -29.811595,
-            -55.894707
-        ],
-        "names": [
-            "Gaudencio machado ramos"
         ],
         "outbound": true
     },
@@ -13886,18 +13840,6 @@ const airports = {
         ],
         "names": [
             "Barreirinhas"
-        ],
-        "outbound": true
-    },
-    "SSSC": {
-        "iata": "CSU",
-        "inbound": true,
-        "latlng": [
-            -29.6840992,
-            -52.4122009
-        ],
-        "names": [
-            "Santa cruz do sul"
         ],
         "outbound": true
     },
@@ -13937,18 +13879,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "SSZR": {
-        "iata": "SRA",
-        "inbound": true,
-        "latlng": [
-            -27.90658,
-            -54.520628
-        ],
-        "names": [
-            "Luis alberto lehr"
-        ],
-        "outbound": true
-    },
     "SULS": {
         "iata": "PDP",
         "inbound": true,
@@ -13983,18 +13913,6 @@ const airports = {
         ],
         "names": [
             "Mctya Simon Bolivar International Airport"
-        ],
-        "outbound": true
-    },
-    "SWBC": {
-        "iata": "BAZ",
-        "inbound": true,
-        "latlng": [
-            -0.981191,
-            -62.918603
-        ],
-        "names": [
-            "Barcelos"
         ],
         "outbound": true
     },
@@ -14714,7 +14632,8 @@ const airports = {
             69.2811966
         ],
         "names": [
-            "Islam Karimov Tashkent International Airport"
+            "Islam Karimov Tashkent International Airport",
+            "Tashkent-Yuzhny Airport"
         ],
         "outbound": true
     },
@@ -14751,7 +14670,7 @@ const airports = {
             37.2615013
         ],
         "names": [
-            "Moscow Vnukovo"
+            "Moscow Vnukovo Airport"
         ],
         "outbound": true
     },
@@ -15734,6 +15653,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VLVT": {
+        "iata": "VTE",
+        "inbound": true,
+        "latlng": [
+            17.9883003,
+            102.5630035
+        ],
+        "names": [
+            "Vientiane Wattay International Airport"
+        ],
+        "outbound": true
+    },
     "VMMC": {
         "iata": "MFM",
         "inbound": true,
@@ -15862,7 +15793,8 @@ const airports = {
             73.860625
         ],
         "names": [
-            "Goa Mopa International Airport"
+            "Goa Mopa International Airport",
+            "Goa Manohar International"
         ],
         "outbound": true
     },
@@ -16121,6 +16053,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VQPR": {
+        "iata": "PBH",
+        "inbound": true,
+        "latlng": [
+            27.4032,
+            89.424599
+        ],
+        "names": [
+            "Paro Airport"
+        ],
+        "outbound": false
+    },
     "VRMG": {
         "iata": "GAN",
         "inbound": true,
@@ -16131,7 +16075,7 @@ const airports = {
         "names": [
             "Gan"
         ],
-        "outbound": true
+        "outbound": false
     },
     "VRMM": {
         "iata": "MLE",
@@ -16194,6 +16138,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VVDN": {
+        "iata": "DAD",
+        "inbound": true,
+        "latlng": [
+            16.0439,
+            108.198997
+        ],
+        "names": [
+            "Noibai International Airport"
+        ],
+        "outbound": true
+    },
     "VVNB": {
         "iata": "HAN",
         "inbound": true,
@@ -16215,7 +16171,7 @@ const airports = {
         ],
         "names": [
             "Ho Chi Minh City International Airport",
-            "T\u00e2n S\u01a1n Nh\u1ea5t International Airport"
+            "Tan Son Nhat International Airport"
         ],
         "outbound": true
     },
@@ -16977,6 +16933,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "WBSB": {
+        "iata": "BWN",
+        "inbound": true,
+        "latlng": [
+            4.9442,
+            114.928001
+        ],
+        "names": [
+            "Brunei International Airport"
+        ],
+        "outbound": true
+    },
     "WIBB": {
         "iata": "PKU",
         "inbound": true,
@@ -17322,7 +17290,7 @@ const airports = {
             125.524507
         ],
         "names": [
-            "Presidente Nicolau Lobato International Airport"
+            "Dili Presidente Nicolau Lobato International Airport"
         ],
         "outbound": true
     },

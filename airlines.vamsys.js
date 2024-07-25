@@ -229,11 +229,9 @@ const airlines = {
             "EFW",
             "EXS",
             "KRH",
-            "MSA",
             "SWT",
             "TMT",
-            "TOM",
-            "WUK"
+            "TOM"
         ],
         "last_pirep_start": "2024-06-30T11:17:00.000000Z",
         "name": "Titan",
@@ -285,6 +283,7 @@ const airlines = {
             "LYN",
             "MLH",
             "NVD",
+            "SVI",
             "SXS",
             "TOM",
             "TRA",
@@ -407,7 +406,7 @@ const airlines = {
         ],
         "last_pirep_start": "2024-06-29T06:10:26.000000Z",
         "name": "Air New Zealand",
-        "rank_info": "ANZ - Second Officer:\n\t+1.0 Hours (0.5 PIREPs)\nANZ - First Officer:\n\t+41.0 Hours (22.7 PIREPs)\n\t+3805.0 Points (11.2 PIREPs)\nANZ - Senior First Officer:\n\t+241.0 Hours (133.3 PIREPs)\n\t+25805.0 Points (76.1 PIREPs)\nANZ - Captain:\n\t+441.0 Hours (243.9 PIREPs)\n\t+58305.0 Points (172.0 PIREPs)\nTime mode: block",
+        "rank_info": "ANZ - Second Officer:\n\t+1.0 Hours (0.5 PIREPs)\nANZ - First Officer:\n\t+41.0 Hours (22.7 PIREPs)\n\t+3805.0 Points (11.2 PIREPs)\nANZ - Senior First Officer:\n\t+241.0 Hours (133.3 PIREPs)\n\t+13305.0 Points (39.2 PIREPs)\n\t+8270.0 Bonus Points (23.9 PIREPs)\nANZ - Junior Captain:\n\t+391.0 Hours (216.2 PIREPs)\n\t+23305.0 Points (68.7 PIREPs)\n\t+16270.0 Bonus Points (47.0 PIREPs)\nANZ - Captain:\n\t+491.0 Hours (271.6 PIREPs)\n\t+33305.0 Points (98.2 PIREPs)\n\t+23270.0 Bonus Points (67.3 PIREPs)\nANZ - Senior Captain:\n\t+641.0 Hours (354.5 PIREPs)\n\t+40305.0 Points (118.9 PIREPs)\n\t+28270.0 Bonus Points (81.7 PIREPs)\nTime mode: block",
         "sortName": "New Zealand"
     },
     "1672": {
