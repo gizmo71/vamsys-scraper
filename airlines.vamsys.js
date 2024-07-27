@@ -33,7 +33,7 @@ const airlines = {
         "last_pirep_start": "2024-07-18T13:33:37.000000Z",
         "name": "Air France-KLM",
         "rank_info": "First Officer:\n\t+0.7 Hours (2.3 PIREPs)\nSenior First Officer:\n\t+249.7 Hours (820.2 PIREPs)\n\t+24815.0 Points (134.1 PIREPs)\nCaptain:\n\t+499.7 Hours (1641.3 PIREPs)\n\t+49815.0 Points (269.3 PIREPs)\nSenior Captain:\n\t+999.7 Hours (3283.7 PIREPs)\n\t+99815.0 Points (539.5 PIREPs)\nTime mode: air",
-        "sortName": "Air France-KLM"
+        "sortName": "France-KLM"
     },
     "9": {
         "callsigns": [
