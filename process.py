@@ -62,7 +62,7 @@ airline_mappings = {
     'VRGN Virtual'                     :{'display_name':'Virgin'},
     'Virtual United'                   :{'display_name':'United', 'type_mapping':{'A20N':'A320', 'A321':'A21N', 'E175':'E75L'}},
     'WZZ Virtual'                      :{'display_name':'Wizz'},
-    'vAFR/KLM'                         :{'display_name':'Air France-KLM', 'type_mapping': {'B74F':'B744'}},
+    'vAFR/KLM'                         :{'display_name':'Air France-KLM', 'sort_name':'France-KLM', 'type_mapping': {'B74F':'B744'}},
 }
 #TODO: Consider a mapping to MSFS aircraft rather than ICAO codes...
 #TODO: it would be nice if we could mark these as not worth individually selecting, but still shown individually.
