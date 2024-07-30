@@ -408,14 +408,5 @@ const airlines = {
         "name": "Air New Zealand",
         "rank_info": "Bonus points not included in normal points total\nANZ - First Officer:\n\t+38.3 Hours (19.6 PIREPs)\n\t+3370.0 Points (9.5 PIREPs)\nANZ - Senior First Officer:\n\t+238.3 Hours (122.0 PIREPs)\n\t+12870.0 Points (36.3 PIREPs)\n\t+7944.0 Bonus Points (23.2 PIREPs)\nANZ - Junior Captain:\n\t+388.3 Hours (198.8 PIREPs)\n\t+22870.0 Points (64.4 PIREPs)\n\t+15944.0 Bonus Points (46.5 PIREPs)\nANZ - Captain:\n\t+488.3 Hours (249.9 PIREPs)\n\t+32870.0 Points (92.6 PIREPs)\n\t+22944.0 Bonus Points (67.0 PIREPs)\nANZ - Senior Captain:\n\t+638.3 Hours (326.7 PIREPs)\n\t+39870.0 Points (112.3 PIREPs)\n\t+27944.0 Bonus Points (81.5 PIREPs)\nTime mode: block",
         "sortName": "New Zealand"
-    },
-    "1672": {
-        "callsigns": [
-            "ASA"
-        ],
-        "last_pirep_start": "2024-06-23T08:15:24.000000Z",
-        "name": "Alaska Virtual",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+23.9 Hours (21.3 PIREPs)\n\t+665.0 Points (7.8 PIREPs)\nFirst Officer:\n\t+48.9 Hours (43.7 PIREPs)\n\t+1415.0 Points (16.6 PIREPs)\nCaptain:\n\t+198.9 Hours (177.6 PIREPs)\n\t+9915.0 Points (116.6 PIREPs)\nTime mode: block",
-        "sortName": "Alaska Virtual"
     }
 };
