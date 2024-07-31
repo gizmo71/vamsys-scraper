@@ -43,7 +43,7 @@ const airports = {
             -18.0727005
         ],
         "names": [
-            "Akureyri"
+            "Akureyri Airport"
         ],
         "outbound": true
     },
@@ -142,6 +142,7 @@ const airports = {
             -71.393303
         ],
         "names": [
+            "Quebec Jean Lesage International Airport",
             "Quebec City"
         ],
         "outbound": true
@@ -2476,6 +2477,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "FEFF": {
+        "iata": "BGF",
+        "inbound": true,
+        "latlng": [
+            4.3984799,
+            18.5188007
+        ],
+        "names": [
+            "Bangui Airport"
+        ],
+        "outbound": true
+    },
     "FGSL": {
         "iata": "SSG",
         "inbound": true,
@@ -2832,18 +2845,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "GMFK": {
-        "iata": "ERH",
-        "inbound": true,
-        "latlng": [
-            31.9475002,
-            -4.3983302
-        ],
-        "names": [
-            "Errachidia Moulay Ali Cherif Airport"
-        ],
-        "outbound": false
-    },
     "GMFO": {
         "iata": "OUD",
         "inbound": true,
@@ -2932,7 +2933,7 @@ const airports = {
     },
     "GMMZ": {
         "iata": "OZZ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             30.9391003,
             -6.90943
@@ -3041,7 +3042,7 @@ const airports = {
     },
     "GVNP": {
         "iata": "RAI",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             14.941126,
             -23.484728
@@ -6264,7 +6265,7 @@ const airports = {
             14.5703001
         ],
         "names": [
-            "Rijeka Airport"
+            "Zra\u010dna luka Rijeka Rijeka"
         ],
         "outbound": true
     },
@@ -7049,6 +7050,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "LFTW": {
+        "iata": "FNI",
+        "inbound": false,
+        "latlng": [
+            43.7574005,
+            4.4163499
+        ],
+        "names": [
+            "Nimes Ales Camargue Cevennes Airport"
+        ],
+        "outbound": true
+    },
     "LGAV": {
         "iata": "ATH",
         "inbound": true,
@@ -7446,6 +7459,7 @@ const airports = {
             14.607182
         ],
         "names": [
+            "Comiso \"Vincenzo Magliocco\"",
             "Sicily Comiso"
         ],
         "outbound": true
@@ -7686,6 +7700,7 @@ const airports = {
             13.4722
         ],
         "names": [
+            "Aeroporto di Trieste-Ronchi dei Legionari",
             "Trieste Friuli Venezia Giulia Airport"
         ],
         "outbound": true
@@ -8054,7 +8069,7 @@ const airports = {
             -16.3500004
         ],
         "names": [
-            "Porto Santo"
+            "Porto Santo Airport"
         ],
         "outbound": true
     },
@@ -9111,7 +9126,8 @@ const airports = {
         ],
         "names": [
             "Punta Cana International Airport",
-            "Punta Cana, Dominican Republic"
+            "Punta Cana, Dominican Republic",
+            "Punta Cana Int\u2019I Airport"
         ],
         "outbound": true
     },
