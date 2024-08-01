@@ -69,7 +69,7 @@ airline_mappings = {
 #TODO: Perhaps these are two halves of the same coin...
 exclude_types = set(['AT45', 'AT72', 'AJ27', 'B703', 'B712', 'B720', 'B721', 'B722',
                      'B461', 'B462', 'B463',
-                     'B732', 'B733', 'B734', 'B735', 'B736', 'B737', 'B738', 'B739', 'B37M', 'B38M', 'B39M',
+                     'B732', 'B733', 'B734', 'B735', 'B736', 'B737', 'B738', 'B739', 'B37M', 'B39M',
                      'B742', 'B744', 'B762',  'B772', 'B773', 'B77L', 'B77W', 'B77F',
                      'B752', 'B753', 'B763', 'B764',
                      'B788', 'B789', 'B78X',
