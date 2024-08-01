@@ -3821,7 +3821,6 @@ const airports = {
         ],
         "names": [
             "Baltimore\u2013Washington International Airport",
-            "Baltimore (MD) (Washington DC)",
             "Baltimore, MD"
         ],
         "outbound": true
@@ -4755,8 +4754,8 @@ const airports = {
         ],
         "names": [
             "New York John F. Kennedy International Airport",
-            "John F Kennedy International Airport",
-            "New York JFK International Airport"
+            "New York JFK International Airport",
+            "John F Kennedy International"
         ],
         "outbound": true
     },
@@ -5390,7 +5389,6 @@ const airports = {
         ],
         "names": [
             "Chicago O'Hare International Airport",
-            "O'Hare International (IL) (Chicago)",
             "Chicago O'Hare Intl.",
             "ORD-Chicago, IL",
             "Chicago OHare"
@@ -5442,10 +5440,9 @@ const airports = {
             -122.281998
         ],
         "names": [
-            "Seattle Paine Intl",
-            "Everett"
+            "Seattle Paine Intl"
         ],
-        "outbound": true
+        "outbound": false
     },
     "KPBI": {
         "iata": "PBI",
@@ -7619,18 +7616,6 @@ const airports = {
         ],
         "names": [
             "Bari Karol Wojtyla Airport"
-        ],
-        "outbound": true
-    },
-    "LIBG": {
-        "iata": "TAR",
-        "inbound": true,
-        "latlng": [
-            40.517502,
-            17.4032
-        ],
-        "names": [
-            "Taranto-Grottaglie"
         ],
         "outbound": true
     },
@@ -11117,6 +11102,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "OTBD": {
+        "iata": "DIA",
+        "inbound": true,
+        "latlng": [
+            25.261101,
+            51.565102
+        ],
+        "names": [
+            "Old Doha"
+        ],
+        "outbound": false
+    },
     "OTHH": {
         "iata": "DOH",
         "inbound": true,
@@ -11223,7 +11220,6 @@ const airports = {
         ],
         "names": [
             "Dainel K. Inouye International",
-            "Daniel K. Inouye International",
             "Honolulu International Airport"
         ],
         "outbound": true
@@ -12130,7 +12126,7 @@ const airports = {
         "names": [
             "Angeles City Clark International"
         ],
-        "outbound": true
+        "outbound": false
     },
     "RPLL": {
         "iata": "MNL",
@@ -12155,7 +12151,7 @@ const airports = {
         "names": [
             "Francisco bangoy int"
         ],
-        "outbound": true
+        "outbound": false
     },
     "RPVM": {
         "iata": "CEB",
@@ -13420,8 +13416,7 @@ const airports = {
         ],
         "names": [
             "Comodoro Arturo Merino Benitez International Airport",
-            "Santiago International Airport",
-            "Santiago (Chile)"
+            "Santiago International Airport"
         ],
         "outbound": true
     },
@@ -14776,8 +14771,7 @@ const airports = {
             37.4146
         ],
         "names": [
-            "Moscow Sheremetyevo International Airport",
-            "Sheremetyevo - A.S. Pushkin International"
+            "Moscow Sheremetyevo International Airport"
         ],
         "outbound": true
     },
@@ -16035,8 +16029,7 @@ const airports = {
             80.169296
         ],
         "names": [
-            "Chennai International Airport",
-            "Chennai (Madras)"
+            "Chennai International Airport"
         ],
         "outbound": true
     },
@@ -16182,18 +16175,6 @@ const airports = {
         ],
         "names": [
             "Paro Airport"
-        ],
-        "outbound": false
-    },
-    "VRMG": {
-        "iata": "GAN",
-        "inbound": true,
-        "latlng": [
-            -0.692694,
-            73.151557
-        ],
-        "names": [
-            "Gan"
         ],
         "outbound": false
     },
@@ -19113,7 +19094,6 @@ const airports = {
             121.33426
         ],
         "names": [
-            "Shanghai Hongqiao International Airport",
             "Shanghai Hongqiao Intl Airport"
         ],
         "outbound": true

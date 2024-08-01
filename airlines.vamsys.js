@@ -237,8 +237,8 @@ const airlines = {
         "name": "Titan",
         "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+25.6 Hours (15.7 PIREPs)\n\t+245.0 Points (1.0 PIREPs)\nFirst Officer:\n\t+125.6 Hours (77.1 PIREPs)\n\t+10245.0 Points (40.9 PIREPs)\nSenior First Officer:\n\t+275.6 Hours (169.2 PIREPs)\n\t+23745.0 Points (94.9 PIREPs)\nCaptain:\n\t+575.6 Hours (353.5 PIREPs)\n\t+56245.0 Points (224.7 PIREPs)\nTraining Captain:\n\t+975.6 Hours (599.2 PIREPs)\n\t+96245.0 Points (384.5 PIREPs)\nBase Captain:\n\t+1975.6 Hours (1213.3 PIREPs)\n\t+196245.0 Points (783.9 PIREPs)\nTime mode: block",
         "requirements": {
-            "details": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2024-12-27",
-            "target_date": "2024-12-27T12:18:57+00:00"
+            "details": "1 PIREP(s) required over 360 days\nNext 1 PIREP(s) required by 2025-06-25",
+            "target_date": "2025-06-25T12:18:57+00:00"
         },
         "sortName": "Titan"
     },
@@ -295,8 +295,8 @@ const airlines = {
         "name": "Avion",
         "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+46.9 Hours (30.1 PIREPs)\n\t+3410.0 Points (11.6 PIREPs)\nFirst Officer:\n\t+146.9 Hours (94.3 PIREPs)\n\t+13410.0 Points (45.5 PIREPs)\nSenior First Officer:\n\t+296.9 Hours (190.7 PIREPs)\n\t+26910.0 Points (91.2 PIREPs)\nCaptain:\n\t+596.9 Hours (383.3 PIREPs)\n\t+59410.0 Points (201.4 PIREPs)\nTraining Captain:\n\t+996.9 Hours (640.2 PIREPs)\n\t+99410.0 Points (337.0 PIREPs)\nBase Captain:\n\t+1996.9 Hours (1282.5 PIREPs)\n\t+199410.0 Points (676.0 PIREPs)\nTime mode: block",
         "requirements": {
-            "details": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2025-01-18",
-            "target_date": "2025-01-18T15:49:18+00:00"
+            "details": "1 PIREP(s) required over 360 days\nNext 1 PIREP(s) required by 2025-07-17",
+            "target_date": "2025-07-17T15:49:18+00:00"
         },
         "sortName": "Avion"
     },
