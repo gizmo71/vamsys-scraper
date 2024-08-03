@@ -161,9 +161,9 @@ const airlines = {
         "callsigns": [
             "QTR"
         ],
-        "last_pirep_start": "2024-06-23T06:31:20.000000Z",
+        "last_pirep_start": "2024-08-03T04:51:39.000000Z",
         "name": "Oryx (Qatar)",
-        "rank_info": "Second Officer:\n\t+342.7 Hours (373.6 PIREPs)\nFirst Officer:\n\t+892.7 Hours (973.4 PIREPs)\nSenior First Officer:\n\t+1492.7 Hours (1627.6 PIREPs)\nCaptain:\n\t+2192.7 Hours (2390.9 PIREPs)\nTraining Captain:\n\t+2992.7 Hours (3263.2 PIREPs)\nTime mode: air",
+        "rank_info": "Second Officer:\n\t+341.5 Hours (363.4 PIREPs)\nFirst Officer:\n\t+891.5 Hours (948.6 PIREPs)\nSenior First Officer:\n\t+1491.5 Hours (1587.1 PIREPs)\nCaptain:\n\t+2191.5 Hours (2331.9 PIREPs)\nTraining Captain:\n\t+2991.5 Hours (3183.1 PIREPs)\nTime mode: air",
         "sortName": "Qatar"
     },
     "265": {
@@ -269,9 +269,9 @@ const airlines = {
             "LLR",
             "VTI"
         ],
-        "last_pirep_start": "2024-07-02T14:20:07.000000Z",
+        "last_pirep_start": "2024-08-03T06:45:32.000000Z",
         "name": "Air India",
-        "rank_info": "First Officer:\n\t+34.7 Hours (24.9 PIREPs)\nSenior First Officer:\n\t+284.7 Hours (204.5 PIREPs)\n\t+12695.0 Points (60.6 PIREPs)\nCaptain:\n\t+584.7 Hours (419.9 PIREPs)\n\t+27695.0 Points (132.2 PIREPs)\nBase Captain:\n\t+984.7 Hours (707.2 PIREPs)\n\t+57695.0 Points (275.3 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+34.3 Hours (26.2 PIREPs)\nSenior First Officer:\n\t+284.3 Hours (217.5 PIREPs)\n\t+12535.0 Points (61.0 PIREPs)\nCaptain:\n\t+584.3 Hours (446.9 PIREPs)\n\t+27535.0 Points (134.0 PIREPs)\nBase Captain:\n\t+984.3 Hours (752.9 PIREPs)\n\t+57535.0 Points (280.1 PIREPs)\nTime mode: air",
         "sortName": "India"
     },
     "913": {
