@@ -414,12 +414,12 @@ const airlines = {
             "AAL"
         ],
         "last_pirep_start": "2024-08-10T16:58:31.000000Z",
-        "name": "American Airlines Virtual ",
+        "name": "American",
         "rank_info": "Regional First Officer:\n\t+49.4 Hours (79.5 PIREPs)\n\t+1235.0 Points (4.7 PIREPs)\nRegional Captain:\n\t+149.4 Hours (240.6 PIREPs)\n\t+4235.0 Points (16.0 PIREPs)\n\t+500.0 Bonus Points\nFirst Officer Short Haul:\n\t+199.4 Hours (321.1 PIREPs)\n\t+5735.0 Points (21.6 PIREPs)\n\t+1000.0 Bonus Points\nFirst Officer Long Haul:\n\t+299.4 Hours (482.2 PIREPs)\n\t+8735.0 Points (33.0 PIREPs)\n\t+2500.0 Bonus Points\nCaptain:\n\t+399.4 Hours (643.3 PIREPs)\n\t+10235.0 Points (38.6 PIREPs)\n\t+5500.0 Bonus Points\nTraining Captain:\n\t+499.4 Hours (804.4 PIREPs)\n\t+11735.0 Points (44.3 PIREPs)\n\t+7000.0 Bonus Points\nChief Pilot:\n\t+749.4 Hours (1207.1 PIREPs)\n\t+16735.0 Points (63.2 PIREPs)\n\t+9000.0 Bonus Points\nTime mode: air",
         "requirements": {
             "details": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-11-08",
             "target_date": "2024-11-08T18:00:23+00:00"
         },
-        "sortName": "American Airlines Virtual "
+        "sortName": "American"
     }
 };
