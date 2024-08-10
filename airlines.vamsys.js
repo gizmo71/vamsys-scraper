@@ -408,5 +408,18 @@ const airlines = {
         "name": "Air New Zealand",
         "rank_info": "Bonus points not included in normal points total\nANZ - First Officer:\n\t+38.3 Hours (19.6 PIREPs)\n\t+3370.0 Points (9.5 PIREPs)\nANZ - Senior First Officer:\n\t+238.3 Hours (122.0 PIREPs)\n\t+12870.0 Points (36.3 PIREPs)\n\t+7944.0 Bonus Points (23.2 PIREPs)\nANZ - Junior Captain:\n\t+388.3 Hours (198.8 PIREPs)\n\t+22870.0 Points (64.4 PIREPs)\n\t+15944.0 Bonus Points (46.5 PIREPs)\nANZ - Captain:\n\t+488.3 Hours (249.9 PIREPs)\n\t+32870.0 Points (92.6 PIREPs)\n\t+22944.0 Bonus Points (67.0 PIREPs)\nANZ - Senior Captain:\n\t+638.3 Hours (326.7 PIREPs)\n\t+39870.0 Points (112.3 PIREPs)\n\t+27944.0 Bonus Points (81.5 PIREPs)\nTime mode: block",
         "sortName": "New Zealand"
+    },
+    "2083": {
+        "callsigns": [
+            "AAL"
+        ],
+        "last_pirep_start": "2024-08-10T16:58:31.000000Z",
+        "name": "American Airlines Virtual ",
+        "rank_info": "Regional First Officer:\n\t+49.4 Hours (79.5 PIREPs)\n\t+1235.0 Points (4.7 PIREPs)\nRegional Captain:\n\t+149.4 Hours (240.6 PIREPs)\n\t+4235.0 Points (16.0 PIREPs)\n\t+500.0 Bonus Points\nFirst Officer Short Haul:\n\t+199.4 Hours (321.1 PIREPs)\n\t+5735.0 Points (21.6 PIREPs)\n\t+1000.0 Bonus Points\nFirst Officer Long Haul:\n\t+299.4 Hours (482.2 PIREPs)\n\t+8735.0 Points (33.0 PIREPs)\n\t+2500.0 Bonus Points\nCaptain:\n\t+399.4 Hours (643.3 PIREPs)\n\t+10235.0 Points (38.6 PIREPs)\n\t+5500.0 Bonus Points\nTraining Captain:\n\t+499.4 Hours (804.4 PIREPs)\n\t+11735.0 Points (44.3 PIREPs)\n\t+7000.0 Bonus Points\nChief Pilot:\n\t+749.4 Hours (1207.1 PIREPs)\n\t+16735.0 Points (63.2 PIREPs)\n\t+9000.0 Bonus Points\nTime mode: air",
+        "requirements": {
+            "details": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-11-08",
+            "target_date": "2024-11-08T18:00:23+00:00"
+        },
+        "sortName": "American Airlines Virtual "
     }
 };
