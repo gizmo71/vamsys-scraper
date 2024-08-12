@@ -280,7 +280,6 @@ const airlines = {
             "BTI",
             "EWG",
             "KMM",
-            "LYN",
             "MLH",
             "NVD",
             "SVI",

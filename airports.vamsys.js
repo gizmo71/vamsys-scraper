@@ -741,7 +741,7 @@ const airports = {
             12.232705
         ],
         "names": [
-            "Leipzig/Halle Airport",
+            "Leipzig Halle Airport",
             "Liepzig-Halle"
         ],
         "outbound": true
@@ -838,7 +838,7 @@ const airports = {
             8.61632
         ],
         "names": [
-            "Paderborn Lippstadt"
+            "Paderborn Lippstadt Airport"
         ],
         "outbound": true
     },
@@ -972,7 +972,7 @@ const airports = {
             27.7978
         ],
         "names": [
-            "Kuopio"
+            "Kuopio Airport"
         ],
         "outbound": true
     },
@@ -1552,6 +1552,18 @@ const airports = {
         ],
         "names": [
             "Eindhoven Airport"
+        ],
+        "outbound": true
+    },
+    "EHGG": {
+        "iata": "GRQ",
+        "inbound": true,
+        "latlng": [
+            53.119701,
+            6.57944
+        ],
+        "names": [
+            "Groningen Airport Eelde"
         ],
         "outbound": true
     },
@@ -3108,7 +3120,8 @@ const airports = {
             -22.9494
         ],
         "names": [
-            "Espargos Amilcar Cabral International Airport"
+            "Espargos Amilcar Cabral International Airport",
+            "Cabo Verde"
         ],
         "outbound": true
     },
@@ -5356,6 +5369,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "KMZJ": {
+        "iata": "MZJ",
+        "inbound": true,
+        "latlng": [
+            32.510601,
+            -111.3280029
+        ],
+        "names": [
+            "Marana Pinal Airport"
+        ],
+        "outbound": false
+    },
     "KOAK": {
         "iata": "OAK",
         "inbound": true,
@@ -5456,18 +5481,6 @@ const airports = {
             "North Bend"
         ],
         "outbound": true
-    },
-    "KPAE": {
-        "iata": "PAE",
-        "inbound": true,
-        "latlng": [
-            47.9063,
-            -122.281998
-        ],
-        "names": [
-            "Seattle Paine Intl"
-        ],
-        "outbound": false
     },
     "KPBI": {
         "iata": "PBI",
@@ -6528,7 +6541,7 @@ const airports = {
             0.073333
         ],
         "names": [
-            "Castell\u00f3n\u2013Costa Azahar Airport",
+            "Castellon Costa Azahar Airport",
             "Castellon (Valencia)"
         ],
         "outbound": true
@@ -7726,7 +7739,7 @@ const airports = {
             12.6181
         ],
         "names": [
-            "Lampedusa"
+            "Lampedusa Airport"
         ],
         "outbound": true
     },
@@ -8078,6 +8091,7 @@ const airports = {
             14.9113
         ],
         "names": [
+            "Salerno Costa d'Amalfi",
             "Amalfi Coast - Salerno"
         ],
         "outbound": true
@@ -10884,7 +10898,7 @@ const airports = {
         "names": [
             "Urmia Airport"
         ],
-        "outbound": true
+        "outbound": false
     },
     "OITT": {
         "iata": "TBZ",
@@ -11189,7 +11203,7 @@ const airports = {
         "names": [
             "Old Doha"
         ],
-        "outbound": false
+        "outbound": true
     },
     "OTHH": {
         "iata": "DOH",
@@ -14838,8 +14852,7 @@ const airports = {
             69.2811966
         ],
         "names": [
-            "Islam Karimov Tashkent International Airport",
-            "Tashkent-Yuzhny Airport"
+            "Islam Karimov Tashkent International Airport"
         ],
         "outbound": true
     },
@@ -14875,7 +14888,7 @@ const airports = {
             37.2615013
         ],
         "names": [
-            "Moscow Vnukovo Airport"
+            "Moscow Vnukovo"
         ],
         "outbound": true
     },
