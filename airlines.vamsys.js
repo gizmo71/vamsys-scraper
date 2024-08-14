@@ -216,9 +216,9 @@ const airlines = {
             "THY",
             "TKJ"
         ],
-        "last_pirep_start": "2024-07-21T15:20:53.000000Z",
+        "last_pirep_start": "2024-08-14T14:06:20.000000Z",
         "name": "Turkish Airlines",
-        "rank_info": "Flight-Attendant:\n\t+8.5 Hours (5.6 PIREPs)\nPurser:\n\t+18.5 Hours (12.2 PIREPs)\nTrainee:\n\t+48.5 Hours (32.0 PIREPs)\n\t+1785.0 Points (8.3 PIREPs)\nSecond Officer:\n\t+98.5 Hours (65.1 PIREPs)\n\t+3785.0 Points (17.6 PIREPs)\nFirst Officer:\n\t+198.5 Hours (131.1 PIREPs)\n\t+7285.0 Points (33.9 PIREPs)\n\t+1000.0 Bonus Points\nSenior Frist Officer:\n\t+498.5 Hours (329.3 PIREPs)\n\t+19785.0 Points (92.0 PIREPs)\n\t+5000.0 Bonus Points\nCaptain:\n\t+998.5 Hours (659.7 PIREPs)\n\t+39785.0 Points (185.0 PIREPs)\n\t+10000.0 Bonus Points\nTHY Captain:\n\t+1998.5 Hours (1320.3 PIREPs)\n\t+79785.0 Points (371.1 PIREPs)\n\t+20000.0 Bonus Points\nTime mode: air",
+        "rank_info": "Flight-Attendant:\n\t+7.3 Hours (5.5 PIREPs)\nPurser:\n\t+17.3 Hours (13.1 PIREPs)\nTrainee:\n\t+47.3 Hours (35.7 PIREPs)\n\t+1561.0 Points (7.1 PIREPs)\nSecond Officer:\n\t+97.3 Hours (73.4 PIREPs)\n\t+3561.0 Points (16.2 PIREPs)\nFirst Officer:\n\t+197.3 Hours (148.8 PIREPs)\n\t+7061.0 Points (32.2 PIREPs)\n\t+1000.0 Bonus Points\nSenior Frist Officer:\n\t+497.3 Hours (374.9 PIREPs)\n\t+19561.0 Points (89.1 PIREPs)\n\t+5000.0 Bonus Points\nCaptain:\n\t+997.3 Hours (751.8 PIREPs)\n\t+39561.0 Points (180.2 PIREPs)\n\t+10000.0 Bonus Points\nTHY Captain:\n\t+1997.3 Hours (1505.5 PIREPs)\n\t+79561.0 Points (362.5 PIREPs)\n\t+20000.0 Bonus Points\nTime mode: air",
         "sortName": "Turkish Airlines"
     },
     "500": {
