@@ -41,12 +41,12 @@ const airlines = {
             "GWI",
             "OCN"
         ],
-        "last_pirep_start": "2024-07-08T14:24:57.000000Z",
+        "last_pirep_start": "2024-08-16T14:06:32.000000Z",
         "name": "Eurowings",
-        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+380.3 Hours (219.2 PIREPs)\n\t+27647.0 Points (184.3 PIREPs)\nCaptain:\n\t+880.3 Hours (507.5 PIREPs)\n\t+65647.0 Points (437.5 PIREPs)\n\t+14487.0 Bonus Points (64.4 PIREPs)\nSenior Captain:\n\t+1380.3 Hours (795.7 PIREPs)\n\t+103647.0 Points (690.8 PIREPs)\n\t+29487.0 Bonus Points (131.2 PIREPs)\nInstructor:\n\t+4880.3 Hours (2813.3 PIREPs)\n\t+369647.0 Points (2463.6 PIREPs)\nFlying Legend:\n\t+9880.3 Hours (5695.7 PIREPs)\n\t+751647.0 Points (5009.5 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nSenior First Officer:\n\t+379.0 Hours (219.2 PIREPs)\n\t+27492.0 Points (183.1 PIREPs)\nCaptain:\n\t+879.0 Hours (508.5 PIREPs)\n\t+65492.0 Points (436.3 PIREPs)\n\t+14487.0 Bonus Points (65.4 PIREPs)\nSenior Captain:\n\t+1379.0 Hours (797.7 PIREPs)\n\t+103492.0 Points (689.4 PIREPs)\n\t+29487.0 Bonus Points (133.1 PIREPs)\nInstructor:\n\t+4879.0 Hours (2822.5 PIREPs)\n\t+369492.0 Points (2461.4 PIREPs)\nFlying Legend:\n\t+9879.0 Hours (5714.9 PIREPs)\n\t+751492.0 Points (5006.1 PIREPs)\nTime mode: air",
         "requirements": {
-            "details": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2025-01-04",
-            "target_date": "2025-01-04T15:52:24+00:00"
+            "details": "1 PIREP(s) required over 180 days\nNext 1 PIREP(s) required by 2025-02-12",
+            "target_date": "2025-02-12T15:58:37+00:00"
         },
         "sortName": "Eurowings"
     },
