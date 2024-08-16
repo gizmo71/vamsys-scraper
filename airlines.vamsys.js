@@ -381,24 +381,6 @@ const airlines = {
         },
         "sortName": "JetStar"
     },
-    "1613": {
-        "callsigns": [
-            "BTK",
-            "LNI",
-            "MXD",
-            "SJV",
-            "TLM",
-            "WON"
-        ],
-        "last_pirep_start": "2024-07-06T07:09:58.000000Z",
-        "name": "Lion Group",
-        "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+37.9 Hours (21.9 PIREPs)\n\t+1051.0 Points (2.5 PIREPs)\nFirst Officer:\n\t+137.9 Hours (79.8 PIREPs)\n\t+11051.0 Points (26.2 PIREPs)\nSenior First Officer:\n\t+287.9 Hours (166.7 PIREPs)\n\t+24551.0 Points (58.3 PIREPs)\nCaptain:\n\t+587.9 Hours (340.4 PIREPs)\n\t+57051.0 Points (135.4 PIREPs)\nTime mode: block",
-        "requirements": {
-            "details": "1 PIREP(s) required over 60 days\nNext 1 PIREP(s) required by 2024-09-04",
-            "target_date": "2024-09-04T08:30:20+00:00"
-        },
-        "sortName": "Lion Group"
-    },
     "1642": {
         "callsigns": [
             "ANZ"
