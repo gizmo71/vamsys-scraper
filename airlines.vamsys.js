@@ -328,7 +328,7 @@ const airlines = {
         ],
         "last_pirep_start": "2024-07-30T13:57:25.000000Z",
         "name": "Delta",
-        "rank_info": "First Officer:\n\t+22.4 Hours (13.8 PIREPs)\nSenior First Officer:\n\t+72.4 Hours (44.6 PIREPs)\n\t+711.0 Points (3.7 PIREPs)\nCaptain:\n\t+172.4 Hours (106.3 PIREPs)\n\t+6711.0 Points (34.7 PIREPs)\n\t+900.0 Bonus Points (153.0 PIREPs)\nSenior Captain:\n\t+422.4 Hours (260.3 PIREPs)\n\t+21711.0 Points (112.2 PIREPs)\n\t+1400.0 Bonus Points (238.0 PIREPs)\nBase Captain:\n\t+522.4 Hours (322.0 PIREPs)\n\t+46711.0 Points (241.4 PIREPs)\n\t+2400.0 Bonus Points (408.0 PIREPs)\nTime mode: air",
+        "rank_info": "Trainee:\n\t+22.4 Hours (13.8 PIREPs)\nSecond Officer:\n\t+72.4 Hours (44.6 PIREPs)\n\t+711.0 Points (3.7 PIREPs)\nFirst Officer:\n\t+172.4 Hours (106.3 PIREPs)\n\t+4211.0 Points (21.8 PIREPs)\n\t+900.0 Bonus Points (153.0 PIREPs)\nSenior First Officer:\n\t+472.4 Hours (291.2 PIREPs)\n\t+16711.0 Points (86.4 PIREPs)\n\t+4900.0 Bonus Points (833.0 PIREPs)\nCaptain:\n\t+972.4 Hours (599.3 PIREPs)\n\t+36711.0 Points (189.7 PIREPs)\n\t+9900.0 Bonus Points (1683.0 PIREPs)\nDelta Captain:\n\t+1972.4 Hours (1215.7 PIREPs)\n\t+76711.0 Points (396.5 PIREPs)\n\t+19900.0 Bonus Points (3383.0 PIREPs)\nTime mode: air",
         "sortName": "Delta"
     },
     "1131": {
@@ -392,15 +392,13 @@ const airlines = {
     },
     "2083": {
         "callsigns": [
-            "AAL"
+            "AAL",
+            "ENY",
+            "RPA"
         ],
         "last_pirep_start": "2024-08-10T16:58:31.000000Z",
         "name": "American",
         "rank_info": "Regional First Officer:\n\t+49.4 Hours (79.5 PIREPs)\n\t+1235.0 Points (4.7 PIREPs)\nRegional Captain:\n\t+149.4 Hours (240.6 PIREPs)\n\t+4235.0 Points (16.0 PIREPs)\n\t+500.0 Bonus Points\nFirst Officer Short Haul:\n\t+199.4 Hours (321.1 PIREPs)\n\t+5735.0 Points (21.6 PIREPs)\n\t+1000.0 Bonus Points\nFirst Officer Long Haul:\n\t+299.4 Hours (482.2 PIREPs)\n\t+8735.0 Points (33.0 PIREPs)\n\t+2500.0 Bonus Points\nCaptain:\n\t+399.4 Hours (643.3 PIREPs)\n\t+10235.0 Points (38.6 PIREPs)\n\t+5500.0 Bonus Points\nTraining Captain:\n\t+499.4 Hours (804.4 PIREPs)\n\t+11735.0 Points (44.3 PIREPs)\n\t+7000.0 Bonus Points\nChief Pilot:\n\t+749.4 Hours (1207.1 PIREPs)\n\t+16735.0 Points (63.2 PIREPs)\n\t+9000.0 Bonus Points\nTime mode: air",
-        "requirements": {
-            "details": "1 PIREP(s) required over 90 days\nNext 1 PIREP(s) required by 2024-11-08",
-            "target_date": "2024-11-08T18:00:23+00:00"
-        },
         "sortName": "American"
     }
 };
