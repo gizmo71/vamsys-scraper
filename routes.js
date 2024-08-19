@@ -11,7 +11,7 @@ for (const [id, airline] of Object.entries(airlines).toSorted(([id1, airline1], 
         }
         days = `<span style='color: ${colour};' title='${airline.requirements.details}'>${days}</span>`;
     }
-    var preChecked = (id == 1672/*ASA*/ || id == 1131/*GBG*/) ? '' : 'checked';
+    var preChecked = (id == 1131/*GBG*/) ? '' : 'checked';
     var callsignSelectors = airline.callsigns.map(callsign => `<input id='${id}-${callsign}' type='checkbox' ${preChecked} onmouseover='redraw("${id}-${callsign}", undefined);' onmouseout='redraw();' />`
         + `<label for='${id}-${callsign}'>${callsign}</label>`);
     document.getElementById("airline-picker").insertAdjacentHTML('beforeend',
