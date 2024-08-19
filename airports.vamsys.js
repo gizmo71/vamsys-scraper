@@ -35,6 +35,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "BGSF": {
+        "iata": "SFJ",
+        "inbound": true,
+        "latlng": [
+            67.010446,
+            -50.715294
+        ],
+        "names": [
+            "Kangerlussuaq Airport"
+        ],
+        "outbound": true
+    },
     "BIAR": {
         "iata": "AEY",
         "inbound": true,
@@ -470,7 +482,8 @@ const airports = {
             10.438611
         ],
         "names": [
-            "Enfidha - Hammamet International Airport"
+            "Enfidha - Hammamet International Airport",
+            "Enfidha\u00e2\u0080\u0093Hammamet International Airport"
         ],
         "outbound": true
     },
@@ -703,6 +716,7 @@ const airports = {
         ],
         "names": [
             "Dusseldorf International Airport",
+            "D\u00c3\u00bcsseldorf Airport",
             "Duesseldorf"
         ],
         "outbound": true
@@ -741,7 +755,7 @@ const airports = {
             12.232705
         ],
         "names": [
-            "Leipzig Halle Airport",
+            "Leipzig/Halle Airport",
             "Liepzig-Halle"
         ],
         "outbound": true
@@ -838,7 +852,7 @@ const airports = {
             8.61632
         ],
         "names": [
-            "Paderborn Lippstadt Airport"
+            "Paderborn Lippstadt"
         ],
         "outbound": true
     },
@@ -927,30 +941,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "EFIV": {
-        "iata": "IVL",
-        "inbound": true,
-        "latlng": [
-            68.6072998,
-            27.4053001
-        ],
-        "names": [
-            "Ivalo Airport"
-        ],
-        "outbound": true
-    },
-    "EFKK": {
-        "iata": "KOK",
-        "inbound": true,
-        "latlng": [
-            63.721199,
-            23.143101
-        ],
-        "names": [
-            "Kokkola-Pietarsaari"
-        ],
-        "outbound": true
-    },
     "EFKT": {
         "iata": "KTT",
         "inbound": true,
@@ -972,7 +962,7 @@ const airports = {
             27.7978
         ],
         "names": [
-            "Kuopio Airport"
+            "Kuopio"
         ],
         "outbound": true
     },
@@ -1009,18 +999,6 @@ const airports = {
         ],
         "names": [
             "Rovaniemi Airport"
-        ],
-        "outbound": true
-    },
-    "EFTP": {
-        "iata": "TMP",
-        "inbound": true,
-        "latlng": [
-            61.414101,
-            23.604401
-        ],
-        "names": [
-            "Tampere Pirkkala Airport"
         ],
         "outbound": true
     },
@@ -1454,7 +1432,7 @@ const airports = {
             -4.587019
         ],
         "names": [
-            "Glasgow Prestwick Airport"
+            "Glasgow Prestwick"
         ],
         "outbound": true
     },
@@ -1552,18 +1530,6 @@ const airports = {
         ],
         "names": [
             "Eindhoven Airport"
-        ],
-        "outbound": true
-    },
-    "EHGG": {
-        "iata": "GRQ",
-        "inbound": true,
-        "latlng": [
-            53.119701,
-            6.57944
-        ],
-        "names": [
-            "Groningen Airport Eelde"
         ],
         "outbound": true
     },
@@ -1708,7 +1674,8 @@ const airports = {
             -7.275782
         ],
         "names": [
-            "Vagar Airport"
+            "V\u00c3\u00a1gar Airport",
+            "Vagar"
         ],
         "outbound": true
     },
@@ -1744,7 +1711,8 @@ const airports = {
             6.1197
         ],
         "names": [
-            "Alesund Vigra Airport"
+            "Alesund Vigra Airport",
+            "\u00c3 lesund Airport"
         ],
         "outbound": true
     },
@@ -1768,7 +1736,7 @@ const airports = {
             14.3653
         ],
         "names": [
-            "Bodo Airport"
+            "Bod\u00c3\u00b8 Airport"
         ],
         "outbound": true
     },
@@ -1852,7 +1820,7 @@ const airports = {
             7.82452
         ],
         "names": [
-            "Kristiansund Kvernberget Airport"
+            "Kristiansund Airport"
         ],
         "outbound": true
     },
@@ -1864,7 +1832,7 @@ const airports = {
             29.8913
         ],
         "names": [
-            "Kirkenes Hoybuktmoen Airport"
+            "Kirkenes Airport"
         ],
         "outbound": true
     },
@@ -1876,7 +1844,7 @@ const airports = {
             7.2625
         ],
         "names": [
-            "Molde Aro Airport"
+            "Molde Airport"
         ],
         "outbound": true
     },
@@ -1888,7 +1856,7 @@ const airports = {
             24.973499
         ],
         "names": [
-            "Lakselv Banak Airport"
+            "Lakselv Airport"
         ],
         "outbound": true
     },
@@ -1900,7 +1868,7 @@ const airports = {
             15.4656
         ],
         "names": [
-            "Longyearbyen Svalbard Airport"
+            "Svalbard Airport"
         ],
         "outbound": true
     },
@@ -1912,6 +1880,7 @@ const airports = {
             18.9189
         ],
         "names": [
+            "Troms\u00c3\u00b8 Airport",
             "Tromse Airport",
             "Tromso Airport"
         ],
@@ -1973,7 +1942,8 @@ const airports = {
             18.4662
         ],
         "names": [
-            "Gdansk Lech Walesa Airport"
+            "Gdansk Lech Walesa Airport",
+            "Gda\u00c5\u0084sk Lech Wa\u00c5\u0082\u00c4\u0099sa Airport"
         ],
         "outbound": true
     },
@@ -2024,7 +1994,7 @@ const airports = {
             19.3980999
         ],
         "names": [
-            "Lodz Wladyslaw Reymont Airport"
+            "Lodz"
         ],
         "outbound": true
     },
@@ -2096,7 +2066,6 @@ const airports = {
             20.9671001
         ],
         "names": [
-            "Warszawa Chopin Airport",
             "Warsaw Chopin Airport"
         ],
         "outbound": true
@@ -2121,7 +2090,7 @@ const airports = {
             15.265
         ],
         "names": [
-            "Ronneby"
+            "Ronneby Airport"
         ],
         "outbound": true
     },
@@ -2134,6 +2103,7 @@ const airports = {
         ],
         "names": [
             "Gothenburg Landvetter Airport",
+            "G\u00c3\u00b6teborg Landvetter Airport",
             "G\u00f6teborg Landvetter Airport"
         ],
         "outbound": true
@@ -2162,18 +2132,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "ESKS": {
-        "iata": "SCR",
-        "inbound": true,
-        "latlng": [
-            61.158393,
-            12.842503
-        ],
-        "names": [
-            "S\u00e4len/Scandinavian Mountain Airport"
-        ],
-        "outbound": true
-    },
     "ESMQ": {
         "iata": "KLR",
         "inbound": true,
@@ -2194,6 +2152,7 @@ const airports = {
             13.376198
         ],
         "names": [
+            "Malm\u00c3\u00b6 Airport",
             "Malmo Airport"
         ],
         "outbound": true
@@ -2218,19 +2177,7 @@ const airports = {
             17.4438992
         ],
         "names": [
-            "Sundsvall Timra Airport"
-        ],
-        "outbound": true
-    },
-    "ESNO": {
-        "iata": "OER",
-        "inbound": true,
-        "latlng": [
-            63.4082985,
-            18.9899998
-        ],
-        "names": [
-            "Ornskoldsvik Airport"
+            "Sundsvall\u00e2\u0080\u0093Timr\u00c3\u00a5 Airport"
         ],
         "outbound": true
     },
@@ -2254,7 +2201,7 @@ const airports = {
             21.0769005
         ],
         "names": [
-            "Skelleftea Airport"
+            "Skellefte\u00c3\u00a5 Airport"
         ],
         "outbound": true
     },
@@ -2266,13 +2213,13 @@ const airports = {
             20.2828007
         ],
         "names": [
-            "Umea Airport"
+            "Ume\u00c3\u00a5 Airport"
         ],
         "outbound": true
     },
     "ESNX": {
         "iata": "AJR",
-        "inbound": true,
+        "inbound": false,
         "latlng": [
             65.5903015,
             19.2819004
@@ -2290,6 +2237,7 @@ const airports = {
             14.5003004
         ],
         "names": [
+            "\u00c3 re \u00c3\u0096stersund Airport",
             "Ostersund Are Airport"
         ],
         "outbound": true
@@ -2338,7 +2286,7 @@ const airports = {
             22.122
         ],
         "names": [
-            "Lulea Airport"
+            "Lule\u00c3\u00a5 Airport"
         ],
         "outbound": true
     },
@@ -2374,8 +2322,7 @@ const airports = {
             15.6805
         ],
         "names": [
-            "Linkoping City Airport",
-            "Linkoping-Saab Airport"
+            "Linkoping City Airport"
         ],
         "outbound": true
     },
@@ -2411,7 +2358,7 @@ const airports = {
             12.8471003
         ],
         "names": [
-            "Angelholm Helsingborg Aiport"
+            "\u00c3\u0084ngelholm\u00e2\u0080\u0093Helsingborg Airport"
         ],
         "outbound": true
     },
@@ -2460,7 +2407,7 @@ const airports = {
             21.0939007
         ],
         "names": [
-            "Palanga International Airport"
+            "Palanga"
         ],
         "outbound": true
     },
@@ -2472,7 +2419,7 @@ const airports = {
             25.285801
         ],
         "names": [
-            "Vilnius International Airport"
+            "Vilnius Airport"
         ],
         "outbound": true
     },
@@ -2843,18 +2790,6 @@ const airports = {
             "Tenerife North"
         ],
         "outbound": true
-    },
-    "GEML": {
-        "iata": "MLN",
-        "inbound": true,
-        "latlng": [
-            35.2798,
-            -2.95626
-        ],
-        "names": [
-            "Melilla Airport"
-        ],
-        "outbound": false
     },
     "GFLL": {
         "iata": "FNA",
@@ -5637,18 +5572,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "KMZJ": {
-        "iata": "MZJ",
-        "inbound": true,
-        "latlng": [
-            32.510601,
-            -111.3280029
-        ],
-        "names": [
-            "Marana Pinal Airport"
-        ],
-        "outbound": false
-    },
     "KNYL": {
         "iata": "YUM",
         "inbound": true,
@@ -6870,6 +6793,7 @@ const airports = {
             -0.558156
         ],
         "names": [
+            "Alicante\u00e2\u0080\u0093Elche Miguel Hern\u00c3\u00a1ndez Airport",
             "Alicante-Elche Airport"
         ],
         "outbound": true
@@ -6931,7 +6855,7 @@ const airports = {
             0.073333
         ],
         "names": [
-            "Castellon Costa Azahar Airport",
+            "Castell\u00f3n\u2013Costa Azahar Airport",
             "Castellon (Valencia)"
         ],
         "outbound": true
@@ -7005,7 +6929,8 @@ const airports = {
             -3.56264
         ],
         "names": [
-            "Madrid Barajas Airport"
+            "Madrid Barajas Airport",
+            "Madrid\u00e2\u0080\u0093Barajas Airport"
         ],
         "outbound": true
     },
@@ -7018,7 +6943,7 @@ const airports = {
         ],
         "names": [
             "Malaga Costa Del Sol Airport",
-            "M\u00c3\u00a1laga"
+            "M\u00c3\u00a1laga Airport"
         ],
         "outbound": true
     },
@@ -7030,7 +6955,8 @@ const airports = {
             4.21865
         ],
         "names": [
-            "Mahon Menorca Airport"
+            "Menorca Airport",
+            "Mahon Menorca"
         ],
         "outbound": true
     },
@@ -7324,7 +7250,7 @@ const airports = {
             9.4837303
         ],
         "names": [
-            "Bastia Poretta Airport",
+            "Bastia \u00e2\u0080\u0093 Poretta Airport",
             "Bastia, Corsica"
         ],
         "outbound": true
@@ -7462,9 +7388,9 @@ const airports = {
             7.21587
         ],
         "names": [
+            "Nice C\u00c3\u00b4te d'Azur Airport",
             "Nice Cote d'Azur Airport",
             "Nice Cote D' Azur",
-            "Nice C\u00c3\u00b4te d'Azur",
             "Nizza"
         ],
         "outbound": true
@@ -7489,6 +7415,7 @@ const airports = {
             3.9630101
         ],
         "names": [
+            "Montpellier\u00e2\u0080\u0093M\u00c3\u00a9diterran\u00c3\u00a9e Airport",
             "Montpellier Mediterranee Airport",
             "Montpellier\u2013M\u00e9diterran\u00e9e"
         ],
@@ -7689,6 +7616,7 @@ const airports = {
             6.1460299
         ],
         "names": [
+            "Toulon\u00e2\u0080\u0093Hy\u00c3\u00a8res Airport",
             "Toulon-Hyeres Airport",
             "Toulon-Hy\u00c3\u00a8res"
         ],
@@ -7877,7 +7805,8 @@ const airports = {
             20.765301
         ],
         "names": [
-            "Aktion National Airport (Preveza)"
+            "Aktion National Airport",
+            "Preveza - Aktion"
         ],
         "outbound": true
     },
@@ -7966,7 +7895,7 @@ const airports = {
             26.1012993
         ],
         "names": [
-            "Sitia Public Airport",
+            "Sitia Airport",
             "Crete Sitia"
         ],
         "outbound": true
@@ -8117,6 +8046,7 @@ const airports = {
         ],
         "names": [
             "Catania Fontanarossa Airport",
+            "Catania\u00e2\u0080\u0093Fontanarossa Airport",
             "Sicily Catania"
         ],
         "outbound": true
@@ -8597,9 +8527,9 @@ const airports = {
             14.256992
         ],
         "names": [
+            "Prague V\u00c3\u00a1clav Havel Airport",
             "Prague Vaclav Havel Airport",
-            "Prague Ruzyne",
-            "V\u00c3\u00a1clav Havel"
+            "Prague Ruzyne"
         ],
         "outbound": true
     },
@@ -9265,6 +9195,7 @@ const airports = {
         ],
         "names": [
             "Izmir Adnan Menderes International Airport",
+            "\u00c4\u00b0zmir Adnan Menderes Airport",
             "Izmir - Adnan Menderes Intl"
         ],
         "outbound": true
@@ -9613,7 +9544,8 @@ const airports = {
             27.664301
         ],
         "names": [
-            "Milas Bodrum International Airport"
+            "Milas Bodrum International Airport",
+            "Milas\u00e2\u0080\u0093Bodrum Airport"
         ],
         "outbound": true
     },
@@ -9625,7 +9557,9 @@ const airports = {
             32.300598
         ],
         "names": [
-            "Gazipasa-Alanya Airport"
+            "Gazipa\u00c5\u009fa\u00e2\u0080\u0093Alanya Airport",
+            "Gazipasa Airport",
+            "Gazipa\u015fa-Alanya"
         ],
         "outbound": true
     },
@@ -15230,7 +15164,7 @@ const airports = {
             30.894699
         ],
         "names": [
-            "Boryspil International Airport"
+            "Kyiv Boryspil International Airport"
         ],
         "outbound": true
     },
@@ -15243,18 +15177,6 @@ const airports = {
         ],
         "names": [
             "St. Petersburg Pulkovo Airport"
-        ],
-        "outbound": true
-    },
-    "UMKK": {
-        "iata": "KGD",
-        "inbound": true,
-        "latlng": [
-            54.8899994,
-            20.5925999
-        ],
-        "names": [
-            "Kaliningrad Khrabrovo Airport"
         ],
         "outbound": true
     },
@@ -16232,7 +16154,7 @@ const airports = {
             77.09519
         ],
         "names": [
-            "Delhi Indira Gandhi International Airport"
+            "New Delhi Indira Gandhi International Airport"
         ],
         "outbound": true
     },
@@ -16799,7 +16721,7 @@ const airports = {
             100.6070023
         ],
         "names": [
-            "Bangkok Don Mueang"
+            "Bangkok Don Mueang International Airport"
         ],
         "outbound": true
     },
@@ -16948,18 +16870,6 @@ const airports = {
         ],
         "names": [
             "Kuala Lumpur International Airport"
-        ],
-        "outbound": true
-    },
-    "WMKL": {
-        "iata": "LGK",
-        "inbound": true,
-        "latlng": [
-            6.32973,
-            99.7286987
-        ],
-        "names": [
-            "Langkawi International Airport"
         ],
         "outbound": true
     },

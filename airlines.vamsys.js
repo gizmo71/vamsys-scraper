@@ -245,8 +245,7 @@ const airlines = {
     },
     "550": {
         "callsigns": [
-            "SAS",
-            "SZS"
+            "SAS"
         ],
         "last_pirep_start": "2024-08-05T14:01:27.000000Z",
         "name": "SAS",
