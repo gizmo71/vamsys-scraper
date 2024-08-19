@@ -36,7 +36,7 @@ function excludeType(cb) {
 }
 
 for (const [index, icao] of Object.entries(aircraft)) {
-    var flyable = icao == 'A319' || icao == 'A320' || icao == 'A20N' || icao == 'A21N' || icao == 'A339';
+    var flyable = icao == 'A319' || icao == 'A320' || icao == 'A321' || icao == 'A20N' || icao == 'A21N' || icao == 'A339';
     document.getElementById("aircraft-picker").insertAdjacentHTML('beforeend',
         `<li><input type='checkbox' class='wiggle' ${flyable ? 'checked ' : ''}id='type-${icao}' onmouseover='redraw(undefined, "${icao}");' onmouseout='redraw();' onChange='redraw();' oncontextmenu="return excludeType(this);">`
         + `<label for='type-${icao}' />${icao}</li>`);
