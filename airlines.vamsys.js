@@ -57,9 +57,9 @@ const airlines = {
             "TCX",
             "VKG"
         ],
-        "last_pirep_start": "2024-07-23T15:05:04.000000Z",
+        "last_pirep_start": "2024-08-19T14:10:44.000000Z",
         "name": "vTCXgroup",
-        "rank_info": "First Officer:\n\t+51.7 Hours (29.0 PIREPs)\n\t+280.0 Points (1.3 PIREPs)\nSenior First Officer:\n\t+701.7 Hours (392.6 PIREPs)\n\t+1780.0 Points (8.3 PIREPs)\nCaptain:\n\t+951.7 Hours (532.5 PIREPs)\n\t+6280.0 Points (29.1 PIREPs)\nTraining Captain:\n\t+4451.7 Hours (2490.9 PIREPs)\n\t+27180.0 Points (126.1 PIREPs)\nChief Pilot:\n\t+4451.7 Hours (2490.9 PIREPs)\n\t+84180.0 Points (390.5 PIREPs)\nTime mode: air",
+        "rank_info": "First Officer:\n\t+50.9 Hours (29.1 PIREPs)\n\t+65.0 Points (0.3 PIREPs)\nSenior First Officer:\n\t+700.9 Hours (399.9 PIREPs)\n\t+1565.0 Points (7.3 PIREPs)\nCaptain:\n\t+950.9 Hours (542.5 PIREPs)\n\t+6065.0 Points (28.1 PIREPs)\nTraining Captain:\n\t+4450.9 Hours (2539.4 PIREPs)\n\t+26965.0 Points (125.1 PIREPs)\nChief Pilot:\n\t+4450.9 Hours (2539.4 PIREPs)\n\t+83965.0 Points (389.6 PIREPs)\nTime mode: air",
         "sortName": "Thomas Cook"
     },
     "30": {
