@@ -75,8 +75,8 @@ exclude_types = set(['AT45', 'AT72', 'AJ27', 'B703', 'B712', 'B720', 'B721', 'B7
                      'B788', 'B789', 'B78X',
                      'CONC', 'CRJ2', 'CRJ5', 'CRJ7', 'CRJ9', 'CRJX', 'DC4', 'DC6', 'DC7', 'DC10', 'DH8B', 'DH8C', 'DH8D',
                      'E145', #'E170', 'E75L', 'E75S', 'E190', 'E195',
-                     'F28', 'F50', 'F100', 'JU52', 'L101', 'MD11', 'MD80', 'MD82', 'MD83', 'MD88', 'PC12',
-                     'RJ1H', 'RJ85', 'SH36', 'SF34', 'SSC', 'SW4', 'TBM8', 'TBM9',
+                     'F28', 'F50', 'F100', 'JU52', 'L101', 'MD11', 'MD80', 'MD81', 'MD82', 'MD83', 'MD87', 'MD88', 'MD90',
+                     'PC12', 'RJ1H', 'RJ85', 'SH36', 'SF34', 'SSC', 'SW4', 'TBM8', 'TBM9',
                      '-'])
 
 aircraft = set()
