@@ -1930,7 +1930,7 @@ const airports = {
             17.977699
         ],
         "names": [
-            "Bydgoszcz"
+            "Bydgoszcz Ignacy Jan Paderewski Airport"
         ],
         "outbound": true
     },
@@ -2395,7 +2395,7 @@ const airports = {
             24.0848007
         ],
         "names": [
-            "Kaunas"
+            "Kaunas Airport"
         ],
         "outbound": true
     },
@@ -3128,7 +3128,7 @@ const airports = {
             29.696437
         ],
         "names": [
-            "Alexandria Borg El Arab Airport"
+            "Alexandria Borg El Arab International Airport"
         ],
         "outbound": true
     },
@@ -3177,6 +3177,18 @@ const airports = {
         ],
         "names": [
             "Marsa Alam International Airport"
+        ],
+        "outbound": true
+    },
+    "HESG": {
+        "iata": "HMB",
+        "inbound": true,
+        "latlng": [
+            26.339115,
+            31.737624
+        ],
+        "names": [
+            "Sohag International Airport"
         ],
         "outbound": true
     },
@@ -6622,7 +6634,7 @@ const airports = {
             24.8508
         ],
         "names": [
-            "Plovdiv"
+            "Plovdiv Airport"
         ],
         "outbound": true
     },
@@ -8828,6 +8840,7 @@ const airports = {
             28.4883003
         ],
         "names": [
+            "Mihail Kog\u0103lniceanu International Airport",
             "Constanta"
         ],
         "outbound": true
@@ -8891,6 +8904,18 @@ const airports = {
         ],
         "names": [
             "Sibiu International Airport"
+        ],
+        "outbound": true
+    },
+    "LRSM": {
+        "iata": "SUJ",
+        "inbound": true,
+        "latlng": [
+            47.7033005,
+            22.8857002
+        ],
+        "names": [
+            "Satu Mare International Airport"
         ],
         "outbound": true
     },
@@ -9728,7 +9753,7 @@ const airports = {
             21.2411003
         ],
         "names": [
-            "Kosice"
+            "Kosice International Airport"
         ],
         "outbound": true
     },
@@ -11425,7 +11450,7 @@ const airports = {
             54.091301
         ],
         "names": [
-            "Salalah"
+            "Salalah International Airport"
         ],
         "outbound": true
     },
@@ -11525,7 +11550,7 @@ const airports = {
         ],
         "names": [
             "Arbil International Airport",
-            "Erbil International"
+            "Erbil International Airport"
         ],
         "outbound": true
     },
@@ -15006,6 +15031,7 @@ const airports = {
             68.549881
         ],
         "names": [
+            "Hazrat Sultan International Airport",
             "Hazret-Sultan International Airport"
         ],
         "outbound": true
