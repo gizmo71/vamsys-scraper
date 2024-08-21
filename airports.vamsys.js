@@ -2823,7 +2823,7 @@ const airports = {
             -9.412003
         ],
         "names": [
-            "Agadir Al-Massira International Airport"
+            "Agadir Al Massira Airport"
         ],
         "outbound": true
     },
@@ -3311,18 +3311,6 @@ const airports = {
         ],
         "names": [
             "Kigali Airport"
-        ],
-        "outbound": true
-    },
-    "HSSK": {
-        "iata": "KRT",
-        "inbound": false,
-        "latlng": [
-            15.5895,
-            32.5532
-        ],
-        "names": [
-            "Khartoum International Airport"
         ],
         "outbound": true
     },
@@ -5096,18 +5084,6 @@ const airports = {
         ],
         "names": [
             "Lake Charles Regional Airport"
-        ],
-        "outbound": true
-    },
-    "KLCK": {
-        "iata": "LCK",
-        "inbound": true,
-        "latlng": [
-            39.813801,
-            -82.927803
-        ],
-        "names": [
-            "Columbus Rickenbacker International Airport"
         ],
         "outbound": true
     },
@@ -9249,18 +9225,6 @@ const airports = {
         ],
         "outbound": true
     },
-    "LTBY": {
-        "iata": "AOE",
-        "inbound": true,
-        "latlng": [
-            39.809898,
-            30.5194
-        ],
-        "names": [
-            "Eskisehir Airport"
-        ],
-        "outbound": true
-    },
     "LTBZ": {
         "iata": "KZR",
         "inbound": true,
@@ -11574,7 +11538,7 @@ const airports = {
             44.404317
         ],
         "names": [
-            "Al Najaf International Airport"
+            "Al Najaf International"
         ],
         "outbound": true
     },
@@ -12662,7 +12626,7 @@ const airports = {
             123.97974
         ],
         "names": [
-            "Cebu Mactan International Airport"
+            "Mactan Cebu International Airport"
         ],
         "outbound": true
     },
@@ -15266,6 +15230,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "UTSA": {
+        "iata": "NVI",
+        "inbound": false,
+        "latlng": [
+            40.117199,
+            65.170799
+        ],
+        "names": [
+            "Navoiy International Airport"
+        ],
+        "outbound": true
+    },
     "UTSB": {
         "iata": "BHK",
         "inbound": true,
@@ -15310,7 +15286,7 @@ const airports = {
             37.9062996
         ],
         "names": [
-            "Moscow Domodedovo International Airport"
+            "Moscow Domodedovo Airport"
         ],
         "outbound": true
     },
@@ -16725,7 +16701,7 @@ const airports = {
         "names": [
             "Paro Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "VRMM": {
         "iata": "MLE",

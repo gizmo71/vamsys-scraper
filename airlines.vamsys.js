@@ -160,6 +160,7 @@ const airlines = {
     },
     "227": {
         "callsigns": [
+            "IGO",
             "QTR"
         ],
         "last_pirep_start": "2024-08-03T04:51:39.000000Z",
@@ -229,6 +230,7 @@ const airlines = {
             "BCS",
             "EFW",
             "EXS",
+            "ICE",
             "KRH",
             "SWT",
             "TMT",
@@ -311,6 +313,7 @@ const airlines = {
     },
     "1005": {
         "callsigns": [
+            "ADO",
             "ANA",
             "APJ"
         ],
