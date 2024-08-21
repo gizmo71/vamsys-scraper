@@ -209,7 +209,7 @@ const airlines = {
         ],
         "last_pirep_start": "2024-08-20T13:50:48.000000Z",
         "name": "Dan Air",
-        "rank_info": "Senior Captain:\n\t+62.5 Hours (31.3 PIREPs)\nBase Captain:\n\t+677.5 Hours (339.8 PIREPs)\nChief Pilot:\n\t+1997.5 Hours (1001.8 PIREPs)\nTime mode: air",
+        "rank_info": "Senior Captain:\n\t+60.9 Hours (30.6 PIREPs)\nBase Captain:\n\t+675.9 Hours (339.3 PIREPs)\nChief Pilot:\n\t+1995.9 Hours (1002.0 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
     "439": {
