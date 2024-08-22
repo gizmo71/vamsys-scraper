@@ -399,9 +399,9 @@ const airlines = {
             "ENY",
             "RPA"
         ],
-        "last_pirep_start": "2024-08-10T16:58:31.000000Z",
+        "last_pirep_start": "2024-08-21T13:46:56.000000Z",
         "name": "American",
-        "rank_info": "Regional First Officer:\n\t+49.4 Hours (79.5 PIREPs)\n\t+1235.0 Points (4.7 PIREPs)\nRegional Captain:\n\t+149.4 Hours (240.6 PIREPs)\n\t+4235.0 Points (16.0 PIREPs)\n\t+500.0 Bonus Points\nFirst Officer Short Haul:\n\t+199.4 Hours (321.1 PIREPs)\n\t+5735.0 Points (21.6 PIREPs)\n\t+1000.0 Bonus Points\nFirst Officer Long Haul:\n\t+299.4 Hours (482.2 PIREPs)\n\t+8735.0 Points (33.0 PIREPs)\n\t+2500.0 Bonus Points\nCaptain:\n\t+399.4 Hours (643.3 PIREPs)\n\t+10235.0 Points (38.6 PIREPs)\n\t+5500.0 Bonus Points\nTraining Captain:\n\t+499.4 Hours (804.4 PIREPs)\n\t+11735.0 Points (44.3 PIREPs)\n\t+7000.0 Bonus Points\nChief Pilot:\n\t+749.4 Hours (1207.1 PIREPs)\n\t+16735.0 Points (63.2 PIREPs)\n\t+9000.0 Bonus Points\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nRegional First Officer:\n\t+47.8 Hours (44.1 PIREPs)\n\t+980.0 Points (3.8 PIREPs)\nRegional Captain:\n\t+147.8 Hours (136.3 PIREPs)\n\t+3980.0 Points (15.3 PIREPs)\n\t+450.0 Bonus Points (18.0 PIREPs)\nFirst Officer Short Haul:\n\t+197.8 Hours (182.4 PIREPs)\n\t+5480.0 Points (21.1 PIREPs)\n\t+950.0 Bonus Points (38.0 PIREPs)\nFirst Officer Long Haul:\n\t+297.8 Hours (274.5 PIREPs)\n\t+8480.0 Points (32.6 PIREPs)\n\t+2450.0 Bonus Points (98.0 PIREPs)\nCaptain:\n\t+397.8 Hours (366.7 PIREPs)\n\t+9980.0 Points (38.4 PIREPs)\n\t+5450.0 Bonus Points (218.0 PIREPs)\nTraining Captain:\n\t+497.8 Hours (458.9 PIREPs)\n\t+11480.0 Points (44.2 PIREPs)\n\t+6950.0 Bonus Points (278.0 PIREPs)\nChief Pilot:\n\t+747.8 Hours (689.3 PIREPs)\n\t+16480.0 Points (63.4 PIREPs)\n\t+8950.0 Bonus Points (358.0 PIREPs)\nTime mode: air",
         "sortName": "American"
     }
 };
