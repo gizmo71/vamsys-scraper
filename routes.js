@@ -146,10 +146,15 @@ function airportClicked(e) {
     redraw();
 }
 
+function utcTime(when) {
+    return when.getUTCHours().toString().padStart(2, '0') + ":" + when.getUTCMinutes().toString().padStart(2, '0') + "Z";
+}
+
 for (icao in airports) {
     const airport = airports[icao];
     const icon = L.divIcon({html: "<span id='airport-" + icao + "'>" + airportNeutral + "</span></br>" + airport['iata'], className: 'airport', iconAnchor: [18, 15], iconSize: [36, 30]});
+    var times = SunCalc.getTimes(new Date(), airport.latlng[0], airport.latlng[1]);
     airport.marker = L.marker(airport.latlng, {icao: icao, icon: icon}).addTo(map)
-        .bindTooltip("<b>" + icao + "</b><br/>" + airport.names.join('<br/>'))
+        .bindTooltip("<b>" + icao + "</b><br/>" + airport.names.join('<br/>') + "<br/>Sunrise: " + utcTime(times.sunrise) + "<br/>Sunset: " + utcTime(times.sunset))
         .on('click', airportClicked);
 }
