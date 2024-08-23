@@ -329,9 +329,9 @@ const airlines = {
             "REP",
             "SKW"
         ],
-        "last_pirep_start": "2024-07-30T13:57:25.000000Z",
+        "last_pirep_start": "2024-08-23T12:34:07.000000Z",
         "name": "Delta",
-        "rank_info": "Trainee:\n\t+22.4 Hours (13.8 PIREPs)\nSecond Officer:\n\t+72.4 Hours (44.6 PIREPs)\n\t+711.0 Points (3.7 PIREPs)\nFirst Officer:\n\t+172.4 Hours (106.3 PIREPs)\n\t+4211.0 Points (21.8 PIREPs)\n\t+900.0 Bonus Points (153.0 PIREPs)\nSenior First Officer:\n\t+472.4 Hours (291.2 PIREPs)\n\t+16711.0 Points (86.4 PIREPs)\n\t+4900.0 Bonus Points (833.0 PIREPs)\nCaptain:\n\t+972.4 Hours (599.3 PIREPs)\n\t+36711.0 Points (189.7 PIREPs)\n\t+9900.0 Bonus Points (1683.0 PIREPs)\nDelta Captain:\n\t+1972.4 Hours (1215.7 PIREPs)\n\t+76711.0 Points (396.5 PIREPs)\n\t+19900.0 Bonus Points (3383.0 PIREPs)\nTime mode: air",
+        "rank_info": "Trainee:\n\t+21.3 Hours (13.3 PIREPs)\nSecond Officer:\n\t+71.3 Hours (44.6 PIREPs)\n\t+566.0 Points (3.0 PIREPs)\nFirst Officer:\n\t+171.3 Hours (107.2 PIREPs)\n\t+4066.0 Points (21.3 PIREPs)\n\t+900.0 Bonus Points (162.0 PIREPs)\nSenior First Officer:\n\t+471.3 Hours (295.1 PIREPs)\n\t+16566.0 Points (86.8 PIREPs)\n\t+4900.0 Bonus Points (882.0 PIREPs)\nCaptain:\n\t+971.3 Hours (608.2 PIREPs)\n\t+36566.0 Points (191.7 PIREPs)\n\t+9900.0 Bonus Points (1782.0 PIREPs)\nDelta Captain:\n\t+1971.3 Hours (1234.5 PIREPs)\n\t+76566.0 Points (401.3 PIREPs)\n\t+19900.0 Bonus Points (3582.0 PIREPs)\nTime mode: air",
         "sortName": "Delta"
     },
     "1131": {
@@ -392,6 +392,20 @@ const airlines = {
         "name": "Air New Zealand",
         "rank_info": "Bonus points not included in normal points total\nANZ - First Officer:\n\t+38.3 Hours (19.6 PIREPs)\n\t+3370.0 Points (9.5 PIREPs)\nANZ - Senior First Officer:\n\t+238.3 Hours (122.0 PIREPs)\n\t+12870.0 Points (36.3 PIREPs)\n\t+7944.0 Bonus Points (23.2 PIREPs)\nANZ - Junior Captain:\n\t+388.3 Hours (198.8 PIREPs)\n\t+22870.0 Points (64.4 PIREPs)\n\t+15944.0 Bonus Points (46.5 PIREPs)\nANZ - Captain:\n\t+488.3 Hours (249.9 PIREPs)\n\t+32870.0 Points (92.6 PIREPs)\n\t+22944.0 Bonus Points (67.0 PIREPs)\nANZ - Senior Captain:\n\t+638.3 Hours (326.7 PIREPs)\n\t+39870.0 Points (112.3 PIREPs)\n\t+27944.0 Bonus Points (81.5 PIREPs)\nTime mode: block",
         "sortName": "New Zealand"
+    },
+    "2069": {
+        "callsigns": [
+            "ARE",
+            "LAN",
+            "LAP",
+            "LNE",
+            "LPE",
+            "TAM"
+        ],
+        "last_pirep_start": "2024-08-23T14:18:21.000000Z",
+        "name": "Latam Virtual",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+48.8 Hours (39.1 PIREPs)\n\t+3780.0 Points (17.2 PIREPs)\nFirst Officer:\n\t+148.8 Hours (119.2 PIREPs)\n\t+13780.0 Points (62.6 PIREPs)\nSenior First Officer:\n\t+298.8 Hours (239.3 PIREPs)\n\t+27280.0 Points (124.0 PIREPs)\nCaptain:\n\t+598.8 Hours (479.6 PIREPs)\n\t+59780.0 Points (271.7 PIREPs)\nTraining Captain:\n\t+998.8 Hours (800.1 PIREPs)\n\t+99780.0 Points (453.5 PIREPs)\nBase Captain:\n\t+1998.8 Hours (1601.1 PIREPs)\n\t+199780.0 Points (908.1 PIREPs)\nTime mode: air",
+        "sortName": "Latam Virtual"
     },
     "2083": {
         "callsigns": [

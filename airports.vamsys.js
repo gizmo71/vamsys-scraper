@@ -1496,6 +1496,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "EGYP": {
+        "iata": "MPN",
+        "inbound": true,
+        "latlng": [
+            -51.8227997,
+            -58.4472008
+        ],
+        "names": [
+            "RAF Mount Pleasant"
+        ],
+        "outbound": true
+    },
     "EHAM": {
         "iata": "AMS",
         "inbound": true,
@@ -12630,6 +12642,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "SABE": {
+        "iata": "AEP",
+        "inbound": true,
+        "latlng": [
+            -34.5592,
+            -58.4156
+        ],
+        "names": [
+            "Buenos Aires Jorge Newbery Airport"
+        ],
+        "outbound": true
+    },
+    "SACO": {
+        "iata": "COR",
+        "inbound": true,
+        "latlng": [
+            -31.323601,
+            -64.208
+        ],
+        "names": [
+            "Cordoba International Airport"
+        ],
+        "outbound": true
+    },
     "SAEZ": {
         "iata": "EZE",
         "inbound": true,
@@ -12640,6 +12676,42 @@ const airports = {
         "names": [
             "Buenos Aires Ministro Pistarini International Airport",
             "Buenos Aires Ezeiza International Airport"
+        ],
+        "outbound": true
+    },
+    "SAME": {
+        "iata": "MDZ",
+        "inbound": true,
+        "latlng": [
+            -32.8316994,
+            -68.7929001
+        ],
+        "names": [
+            "Mendoza International Airport"
+        ],
+        "outbound": true
+    },
+    "SASA": {
+        "iata": "SLA",
+        "inbound": true,
+        "latlng": [
+            -24.8560009,
+            -65.4861984
+        ],
+        "names": [
+            "Martin Miguel de Guemes International Airport"
+        ],
+        "outbound": true
+    },
+    "SAWG": {
+        "iata": "RGL",
+        "inbound": true,
+        "latlng": [
+            -51.6089,
+            -69.3126
+        ],
+        "names": [
+            "Piloto Civil Norberto Fernandez International Airport"
         ],
         "outbound": true
     },
@@ -12675,7 +12747,7 @@ const airports = {
             -37.070301
         ],
         "names": [
-            "Santa maria"
+            "Aracaju Santa Maria Airport"
         ],
         "outbound": true
     },
@@ -12736,7 +12808,8 @@ const airports = {
             -47.920834
         ],
         "names": [
-            "Presidente juscelino kubitschek"
+            "Presidente juscelino kubitschek",
+            "Brasilia International Airport"
         ],
         "outbound": true
     },
@@ -12748,6 +12821,7 @@ const airports = {
             -60.690944
         ],
         "names": [
+            "Boa Vista International Airport",
             "Atlas brasil cantanhede"
         ],
         "outbound": true
@@ -12772,7 +12846,8 @@ const airports = {
             -53.501208
         ],
         "names": [
-            "Aeroporto regional do oeste - coronel adalberto mendes da silva"
+            "Aeroporto regional do oeste - coronel adalberto mendes da silva",
+            "Cascavel Adalberto Mendes da Silva Airport"
         ],
         "outbound": true
     },
@@ -12796,7 +12871,7 @@ const airports = {
             -43.966928
         ],
         "names": [
-            "Tancredo neves"
+            "Belo Horizonte Tancredo Neves International Airport"
         ],
         "outbound": true
     },
@@ -12808,7 +12883,7 @@ const airports = {
             -54.673988
         ],
         "names": [
-            "Campo grande"
+            "Campo Grande International Airport"
         ],
         "outbound": true
     },
@@ -12820,7 +12895,8 @@ const airports = {
             -52.656601
         ],
         "names": [
-            "Serafin enoss bertaso"
+            "Serafin enoss bertaso",
+            "Chapeco Airport"
         ],
         "outbound": true
     },
@@ -12892,7 +12968,7 @@ const airports = {
             -49.1758
         ],
         "names": [
-            "Afonso pena"
+            "Curitiba Afonso Pena International Airport"
         ],
         "outbound": true
     },
@@ -12904,6 +12980,7 @@ const airports = {
             -51.187647
         ],
         "names": [
+            "Caxias do Sul Airport",
             "Hugo cantergiani"
         ],
         "outbound": true
@@ -12916,7 +12993,7 @@ const airports = {
             -56.116699
         ],
         "names": [
-            "Marechal rondon"
+            "Cuiaba Marechal Rondon International Airport"
         ],
         "outbound": true
     },
@@ -12964,6 +13041,7 @@ const airports = {
             -54.489444
         ],
         "names": [
+            "Foz do Iguacu International Airport",
             "Cataratas"
         ],
         "outbound": true
@@ -12976,7 +13054,7 @@ const airports = {
             -48.552502
         ],
         "names": [
-            "Hercilio luz"
+            "Florianopolis Hercilio Luz International Airport"
         ],
         "outbound": true
     },
@@ -12988,7 +13066,7 @@ const airports = {
             -32.423302
         ],
         "names": [
-            "Fernando de noronha"
+            "Fernando de Noronha Airport"
         ],
         "outbound": true
     },
@@ -13026,7 +13104,7 @@ const airports = {
             -49.220699
         ],
         "names": [
-            "Santa genoveva"
+            "Goiania Santa Genoveva Airport"
         ],
         "outbound": true
     },
@@ -13088,7 +13166,7 @@ const airports = {
             -39.033458
         ],
         "names": [
-            "Jorge amado"
+            "Ilheus Jorge Amado Airport"
         ],
         "outbound": true
     },
@@ -13112,7 +13190,8 @@ const airports = {
             -47.459999
         ],
         "names": [
-            "Prefeito renato moreira"
+            "Prefeito renato moreira",
+            "Imperatriz Airport"
         ],
         "outbound": true
     },
@@ -13124,6 +13203,7 @@ const airports = {
             -49.0596
         ],
         "names": [
+            "Jaguaruna Regional Airport",
             "Regional sul"
         ],
         "outbound": true
@@ -13136,7 +13216,8 @@ const airports = {
             -40.357338
         ],
         "names": [
-            "Comandante ariston pessoa"
+            "Comandante ariston pessoa",
+            "Jericoacoara Airport"
         ],
         "outbound": true
     },
@@ -13160,6 +13241,7 @@ const airports = {
             -34.950554
         ],
         "names": [
+            "Joao Pessoa Castro Pinto International Airport",
             "Presidente castro pinto"
         ],
         "outbound": true
@@ -13184,7 +13266,8 @@ const airports = {
             -39.269096
         ],
         "names": [
-            "Orlando bezerra de menezes"
+            "Orlando bezerra de menezes",
+            "Juazeiro do Norte Airport"
         ],
         "outbound": true
     },
@@ -13196,7 +13279,7 @@ const airports = {
             -48.797401
         ],
         "names": [
-            "Lauro carneiro de loyola"
+            "Joinville Lauro Carneiro de Loyola Airport"
         ],
         "outbound": true
     },
@@ -13244,7 +13327,8 @@ const airports = {
             -51.1301
         ],
         "names": [
-            "Governador jose richa"
+            "Governador jose richa",
+            "Londrina Airport"
         ],
         "outbound": true
     },
@@ -13256,7 +13340,8 @@ const airports = {
             -49.138
         ],
         "names": [
-            "Joao correa da rocha"
+            "Joao correa da rocha",
+            "Maraba Airport"
         ],
         "outbound": true
     },
@@ -13280,6 +13365,7 @@ const airports = {
             -52.016187
         ],
         "names": [
+            "Maringa Regional Airport",
             "Silvio name junior"
         ],
         "outbound": true
@@ -13304,6 +13390,7 @@ const airports = {
             -43.818901
         ],
         "names": [
+            "Montes Claros Airport",
             "Mario ribeiro"
         ],
         "outbound": true
@@ -13328,7 +13415,7 @@ const airports = {
             -35.791698
         ],
         "names": [
-            "Zumbi dos palmares"
+            "Maceio Zumbi dos Palmares International Airport"
         ],
         "outbound": true
     },
@@ -13340,6 +13427,7 @@ const airports = {
             -51.072201
         ],
         "names": [
+            "Macapa International Airport",
             "Alberto alcolumbre"
         ],
         "outbound": true
@@ -13376,6 +13464,7 @@ const airports = {
             -48.650979
         ],
         "names": [
+            "Navegantes Victor Konder International Airport",
             "Ministro victor konder"
         ],
         "outbound": true
@@ -13424,7 +13513,7 @@ const airports = {
             -52.32777
         ],
         "names": [
-            "Lauro kurtz"
+            "Lauro Kurtz Airport"
         ],
         "outbound": true
     },
@@ -13448,7 +13537,8 @@ const airports = {
             -48.356998
         ],
         "names": [
-            "Brigadeiro lysias rodrigues"
+            "Brigadeiro lysias rodrigues",
+            "Palmas Airport"
         ],
         "outbound": true
     },
@@ -13460,6 +13550,7 @@ const airports = {
             -52.327952
         ],
         "names": [
+            "Pelotas International Airport",
             "Joao simoes lopes neto"
         ],
         "outbound": true
@@ -13472,7 +13563,8 @@ const airports = {
             -40.569098
         ],
         "names": [
-            "Senador nilo coelho"
+            "Senador nilo coelho",
+            "Petrolina Airport"
         ],
         "outbound": true
     },
@@ -13508,7 +13600,7 @@ const airports = {
             -39.080584
         ],
         "names": [
-            "Porto seguro"
+            "Porto Seguro Airport"
         ],
         "outbound": true
     },
@@ -13520,7 +13612,20 @@ const airports = {
             -63.90242
         ],
         "names": [
-            "Governador jorge teixeira de oliveira"
+            "Governador jorge teixeira de oliveira",
+            "Porto Velho International Airport"
+        ],
+        "outbound": true
+    },
+    "SBRB": {
+        "iata": "RBR",
+        "inbound": true,
+        "latlng": [
+            -9.869031,
+            -67.893984
+        ],
+        "names": [
+            "Rio Branco International Airport"
         ],
         "outbound": true
     },
@@ -13544,7 +13649,8 @@ const airports = {
             -34.923316
         ],
         "names": [
-            "Guararapes - gilberto freyre"
+            "Guararapes - gilberto freyre",
+            "Recife Airport"
         ],
         "outbound": true
     },
@@ -13556,7 +13662,7 @@ const airports = {
             -43.163101
         ],
         "names": [
-            "Santos dumont"
+            "Rio de Janeiro Santos Dumont"
         ],
         "outbound": true
     },
@@ -13580,7 +13686,8 @@ const airports = {
             -35.366578
         ],
         "names": [
-            "Sao goncalo do amarante - governador aluizio alves"
+            "Sao goncalo do amarante - governador aluizio alves",
+            "Natal International Airport"
         ],
         "outbound": true
     },
@@ -13592,7 +13699,8 @@ const airports = {
             -55.586109
         ],
         "names": [
-            "Presidente joao batista figueiredo"
+            "Presidente joao batista figueiredo",
+            "Sinop Airport"
         ],
         "outbound": true
     },
@@ -13616,7 +13724,8 @@ const airports = {
             -44.2341
         ],
         "names": [
-            "Marechal cunha machado"
+            "Marechal cunha machado",
+            "Sao Luis Airport"
         ],
         "outbound": true
     },
@@ -13640,7 +13749,7 @@ const airports = {
             -54.79306
         ],
         "names": [
-            "Maestro wilson fonseca"
+            "Santarem Maestro Wilson Fonseca Airport"
         ],
         "outbound": true
     },
@@ -13664,7 +13773,7 @@ const airports = {
             -46.654601
         ],
         "names": [
-            "Congonhas"
+            "Sao Paulo Congonhas Airport"
         ],
         "outbound": true
     },
@@ -13676,7 +13785,8 @@ const airports = {
             -49.406963
         ],
         "names": [
-            "Professor eriberto manoel reino"
+            "Professor eriberto manoel reino",
+            "Sao Jose Do Rio Preto Airport"
         ],
         "outbound": true
     },
@@ -13688,7 +13798,8 @@ const airports = {
             -38.322498
         ],
         "names": [
-            "Deputado luis eduardo magalhaes"
+            "Deputado luis eduardo magalhaes",
+            "Salvador International Airport"
         ],
         "outbound": true
     },
@@ -13712,7 +13823,7 @@ const airports = {
             -38.998729
         ],
         "names": [
-            "Una - Comandatuba"
+            "Una Comandatuba Airport"
         ],
         "outbound": true
     },
@@ -13724,7 +13835,8 @@ const airports = {
             -42.823712
         ],
         "names": [
-            "Senador petronio portella"
+            "Senador petronio portella",
+            "Teresina Airport"
         ],
         "outbound": true
     },
@@ -13808,7 +13920,8 @@ const airports = {
             -48.225936
         ],
         "names": [
-            "Ten cel av cesar bombonato"
+            "Ten cel av cesar bombonato",
+            "Uberlandia Airport"
         ],
         "outbound": true
     },
@@ -13832,6 +13945,7 @@ const airports = {
             -40.914804
         ],
         "names": [
+            "Vitoria Da Conquista Airport",
             "Glauber de andrade rocha"
         ],
         "outbound": true
@@ -13868,7 +13982,7 @@ const airports = {
             -40.285
         ],
         "names": [
-            "Eurico de aguiar salles"
+            "Vitoria Eurico de Aguiar Salles Airport"
         ],
         "outbound": true
     },
@@ -13881,6 +13995,78 @@ const airports = {
         ],
         "names": [
             "Presidente itamar franco"
+        ],
+        "outbound": true
+    },
+    "SCAR": {
+        "iata": "ARI",
+        "inbound": true,
+        "latlng": [
+            -18.348499,
+            -70.338699
+        ],
+        "names": [
+            "Chacalutta International Airport"
+        ],
+        "outbound": true
+    },
+    "SCAT": {
+        "iata": "CPO",
+        "inbound": true,
+        "latlng": [
+            -27.2612,
+            -70.7791977
+        ],
+        "names": [
+            "Desierto de Atacama Airport"
+        ],
+        "outbound": true
+    },
+    "SCBA": {
+        "iata": "BBA",
+        "inbound": true,
+        "latlng": [
+            -45.915968,
+            -71.689499
+        ],
+        "names": [
+            "Balmaceda Airport"
+        ],
+        "outbound": true
+    },
+    "SCCF": {
+        "iata": "CJC",
+        "inbound": true,
+        "latlng": [
+            -22.4981995,
+            -68.9036026
+        ],
+        "names": [
+            "El Loa Airport"
+        ],
+        "outbound": true
+    },
+    "SCCI": {
+        "iata": "PUQ",
+        "inbound": true,
+        "latlng": [
+            -53.002602,
+            -70.854599
+        ],
+        "names": [
+            "Presidente Carlos Ibanez del Campo International Airport"
+        ],
+        "outbound": true
+    },
+    "SCDA": {
+        "iata": "IQQ",
+        "inbound": true,
+        "latlng": [
+            -20.5352001,
+            -70.1812973
+        ],
+        "names": [
+            "Diego Aracena International Airport"
         ],
         "outbound": true
     },
@@ -13897,6 +14083,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "SCFA": {
+        "iata": "ANF",
+        "inbound": true,
+        "latlng": [
+            -23.444501,
+            -70.445099
+        ],
+        "names": [
+            "Andres Sabella Galvez International Airport"
+        ],
+        "outbound": true
+    },
+    "SCIE": {
+        "iata": "CCP",
+        "inbound": true,
+        "latlng": [
+            -36.772701,
+            -73.063103
+        ],
+        "names": [
+            "Carriel Sur International Airport"
+        ],
+        "outbound": true
+    },
     "SCIP": {
         "iata": "IPC",
         "inbound": true,
@@ -13906,6 +14116,90 @@ const airports = {
         ],
         "names": [
             "Mataveri International Airport"
+        ],
+        "outbound": true
+    },
+    "SCJO": {
+        "iata": "ZOS",
+        "inbound": true,
+        "latlng": [
+            -40.611198,
+            -73.060997
+        ],
+        "names": [
+            "Canal Bajo Hott Siebert Airport"
+        ],
+        "outbound": true
+    },
+    "SCNT": {
+        "iata": "PNT",
+        "inbound": true,
+        "latlng": [
+            -51.67067,
+            -72.529078
+        ],
+        "names": [
+            "Teniente Julio Gallardo Airport"
+        ],
+        "outbound": true
+    },
+    "SCPQ": {
+        "iata": "MHC",
+        "inbound": true,
+        "latlng": [
+            -42.340388,
+            -73.715693
+        ],
+        "names": [
+            "Mocopulli Airport"
+        ],
+        "outbound": true
+    },
+    "SCQP": {
+        "iata": "ZCO",
+        "inbound": true,
+        "latlng": [
+            -38.9259,
+            -72.6515
+        ],
+        "names": [
+            "La Araucania International Airport"
+        ],
+        "outbound": true
+    },
+    "SCSE": {
+        "iata": "LSC",
+        "inbound": true,
+        "latlng": [
+            -29.916201,
+            -71.199501
+        ],
+        "names": [
+            "La Florida Airport"
+        ],
+        "outbound": true
+    },
+    "SCTE": {
+        "iata": "PMC",
+        "inbound": true,
+        "latlng": [
+            -41.4389,
+            -73.0940018
+        ],
+        "names": [
+            "El Tepual International Airport"
+        ],
+        "outbound": true
+    },
+    "SCVD": {
+        "iata": "ZAL",
+        "inbound": true,
+        "latlng": [
+            -39.6500015,
+            -73.0860977
+        ],
+        "names": [
+            "Pichoy Airport"
         ],
         "outbound": true
     },
@@ -13921,6 +14215,42 @@ const airports = {
         ],
         "outbound": true
     },
+    "SECO": {
+        "iata": "OCC",
+        "inbound": true,
+        "latlng": [
+            -0.462886,
+            -76.9868011
+        ],
+        "names": [
+            "Francisco de Orellana Airport"
+        ],
+        "outbound": true
+    },
+    "SECU": {
+        "iata": "CUE",
+        "inbound": true,
+        "latlng": [
+            -2.88947,
+            -78.984398
+        ],
+        "names": [
+            "Mariscal Lamar International Airport"
+        ],
+        "outbound": true
+    },
+    "SEGS": {
+        "iata": "GPS",
+        "inbound": true,
+        "latlng": [
+            -0.453758,
+            -90.2659
+        ],
+        "names": [
+            "Seymour Airport"
+        ],
+        "outbound": true
+    },
     "SEGU": {
         "iata": "GYE",
         "inbound": true,
@@ -13929,8 +14259,21 @@ const airports = {
             -79.883598
         ],
         "names": [
+            "Jose Joaquin de Olmedo International Airport",
             "Guayaquil International Airport",
             "Guayaquil, Ecuador"
+        ],
+        "outbound": true
+    },
+    "SEMT": {
+        "iata": "MEC",
+        "inbound": true,
+        "latlng": [
+            -0.946078,
+            -80.6788025
+        ],
+        "names": [
+            "Eloy Alfaro International Airport"
         ],
         "outbound": true
     },
@@ -13943,6 +14286,18 @@ const airports = {
         ],
         "names": [
             "Quito Mariscal Sucre International Airport"
+        ],
+        "outbound": true
+    },
+    "SEST": {
+        "iata": "SCY",
+        "inbound": true,
+        "latlng": [
+            -0.910206,
+            -89.617401
+        ],
+        "names": [
+            "San Cristobal Airport"
         ],
         "outbound": true
     },
@@ -13978,7 +14333,20 @@ const airports = {
             -75.7664
         ],
         "names": [
+            "El Eden International Airport",
             "Armenia, Colombia"
+        ],
+        "outbound": true
+    },
+    "SKBG": {
+        "iata": "BGA",
+        "inbound": true,
+        "latlng": [
+            7.1265,
+            -73.1848
+        ],
+        "names": [
+            "Palonegro International Airport"
         ],
         "outbound": true
     },
@@ -14008,6 +14376,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "SKCC": {
+        "iata": "CUC",
+        "inbound": true,
+        "latlng": [
+            7.92757,
+            -72.5115
+        ],
+        "names": [
+            "Camilo Daza International Airport"
+        ],
+        "outbound": true
+    },
     "SKCG": {
         "iata": "CTG",
         "inbound": true,
@@ -14034,6 +14414,54 @@ const airports = {
         ],
         "outbound": true
     },
+    "SKIB": {
+        "iata": "IBE",
+        "inbound": true,
+        "latlng": [
+            4.42161,
+            -75.1333
+        ],
+        "names": [
+            "Perales Airport"
+        ],
+        "outbound": true
+    },
+    "SKLT": {
+        "iata": "LET",
+        "inbound": true,
+        "latlng": [
+            -4.19355,
+            -69.9432
+        ],
+        "names": [
+            "Alfredo Vasquez Cobo International Airport"
+        ],
+        "outbound": true
+    },
+    "SKMR": {
+        "iata": "MTR",
+        "inbound": true,
+        "latlng": [
+            8.82374,
+            -75.8258
+        ],
+        "names": [
+            "Los Garzones Airport"
+        ],
+        "outbound": true
+    },
+    "SKNV": {
+        "iata": "NVA",
+        "inbound": true,
+        "latlng": [
+            2.95015,
+            -75.294
+        ],
+        "names": [
+            "Benito Salas Airport"
+        ],
+        "outbound": true
+    },
     "SKPE": {
         "iata": "PEI",
         "inbound": true,
@@ -14043,6 +14471,18 @@ const airports = {
         ],
         "names": [
             "Pereira Matecana International Airport"
+        ],
+        "outbound": true
+    },
+    "SKPS": {
+        "iata": "PSO",
+        "inbound": true,
+        "latlng": [
+            1.39625,
+            -77.2915
+        ],
+        "names": [
+            "Antonio Narino Airport"
         ],
         "outbound": true
     },
@@ -14059,6 +14499,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "SKRH": {
+        "iata": "RCH",
+        "inbound": true,
+        "latlng": [
+            11.5262,
+            -72.926
+        ],
+        "names": [
+            "Almirante Padilla Airport"
+        ],
+        "outbound": true
+    },
+    "SKSM": {
+        "iata": "SMR",
+        "inbound": true,
+        "latlng": [
+            11.1196,
+            -74.2306
+        ],
+        "names": [
+            "Simon Bolivar International Airport"
+        ],
+        "outbound": true
+    },
     "SKSP": {
         "iata": "ADZ",
         "inbound": true,
@@ -14068,6 +14532,30 @@ const airports = {
         ],
         "names": [
             "Gustavo Rojas Pinilla International Airport"
+        ],
+        "outbound": true
+    },
+    "SKYP": {
+        "iata": "EYP",
+        "inbound": true,
+        "latlng": [
+            5.31911,
+            -72.384
+        ],
+        "names": [
+            "El Alcaravan Airport"
+        ],
+        "outbound": true
+    },
+    "SLLP": {
+        "iata": "LPB",
+        "inbound": true,
+        "latlng": [
+            -16.5132999,
+            -68.1922989
+        ],
+        "names": [
+            "El Alto International Airport"
         ],
         "outbound": true
     },
@@ -14372,6 +14860,42 @@ const airports = {
         ],
         "outbound": true
     },
+    "SPCL": {
+        "iata": "PCL",
+        "inbound": true,
+        "latlng": [
+            -8.3779402,
+            -74.5743027
+        ],
+        "names": [
+            "Captain David Abensur Rengifo International Airport"
+        ],
+        "outbound": true
+    },
+    "SPHI": {
+        "iata": "CIX",
+        "inbound": true,
+        "latlng": [
+            -6.78748,
+            -79.828102
+        ],
+        "names": [
+            "Jose Abelardo Quinones Gonzales International Airport"
+        ],
+        "outbound": true
+    },
+    "SPHO": {
+        "iata": "AYP",
+        "inbound": true,
+        "latlng": [
+            -13.1548,
+            -74.204399
+        ],
+        "names": [
+            "Alfredo Mendivil Duarte Airport"
+        ],
+        "outbound": true
+    },
     "SPJC": {
         "iata": "LIM",
         "inbound": true,
@@ -14384,6 +14908,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "SPJJ": {
+        "iata": "JAU",
+        "inbound": true,
+        "latlng": [
+            -11.7831001,
+            -75.4733963
+        ],
+        "names": [
+            "Francisco Carle Airport"
+        ],
+        "outbound": true
+    },
     "SPJL": {
         "iata": "JUL",
         "inbound": true,
@@ -14393,6 +14929,138 @@ const airports = {
         ],
         "names": [
             "Inca Manco Capac International Airport"
+        ],
+        "outbound": true
+    },
+    "SPJR": {
+        "iata": "CJA",
+        "inbound": true,
+        "latlng": [
+            -7.1391802,
+            -78.4894028
+        ],
+        "names": [
+            "Armando Revoredo Iglesias Airport"
+        ],
+        "outbound": true
+    },
+    "SPME": {
+        "iata": "TBP",
+        "inbound": true,
+        "latlng": [
+            -3.552074,
+            -80.381086
+        ],
+        "names": [
+            "Captain Pedro Canga Rodriguez Airport"
+        ],
+        "outbound": true
+    },
+    "SPQT": {
+        "iata": "IQT",
+        "inbound": true,
+        "latlng": [
+            -3.78474,
+            -73.3088
+        ],
+        "names": [
+            "Francisco Secada Vignetta International Airport"
+        ],
+        "outbound": true
+    },
+    "SPQU": {
+        "iata": "AQP",
+        "inbound": true,
+        "latlng": [
+            -16.3411007,
+            -71.5830994
+        ],
+        "names": [
+            "Rodriguez Ballon International Airport"
+        ],
+        "outbound": true
+    },
+    "SPRU": {
+        "iata": "TRU",
+        "inbound": true,
+        "latlng": [
+            -8.0814104,
+            -79.1088028
+        ],
+        "names": [
+            "Carlos Martinez de P\u00c3\u0083\u00c2\u0083\u00c3\u0082\u00c2\u00acnillos International Airport"
+        ],
+        "outbound": true
+    },
+    "SPST": {
+        "iata": "TPP",
+        "inbound": true,
+        "latlng": [
+            -6.5087399,
+            -76.3731995
+        ],
+        "names": [
+            "Guillermo del Castillo Paredes Airport"
+        ],
+        "outbound": true
+    },
+    "SPTN": {
+        "iata": "TCQ",
+        "inbound": true,
+        "latlng": [
+            -18.0533009,
+            -70.2758026
+        ],
+        "names": [
+            "Carlos Ciriani Santa Rosa International Airport"
+        ],
+        "outbound": true
+    },
+    "SPTU": {
+        "iata": "PEM",
+        "inbound": true,
+        "latlng": [
+            -12.6135998,
+            -69.2285995
+        ],
+        "names": [
+            "Pedro Aldamiz International Airport"
+        ],
+        "outbound": true
+    },
+    "SPUR": {
+        "iata": "PIU",
+        "inbound": true,
+        "latlng": [
+            -5.20575,
+            -80.6164017
+        ],
+        "names": [
+            "Guillermo Concha Iberico International Airport"
+        ],
+        "outbound": true
+    },
+    "SPYL": {
+        "iata": "TYL",
+        "inbound": true,
+        "latlng": [
+            -4.57664,
+            -81.254097
+        ],
+        "names": [
+            "Victor Montes Arias International Airport"
+        ],
+        "outbound": true
+    },
+    "SPZO": {
+        "iata": "CUZ",
+        "inbound": true,
+        "latlng": [
+            -13.5356998,
+            -71.938797
+        ],
+        "names": [
+            "Alejandro Velasco Astete International Airport"
         ],
         "outbound": true
     },
@@ -14501,6 +15169,7 @@ const airports = {
             -56.026497
         ],
         "names": [
+            "Montevideo Carrasco International Airport",
             "Carrasco intl - gen c l berisso"
         ],
         "outbound": true
@@ -14513,6 +15182,7 @@ const airports = {
             -66.991222
         ],
         "names": [
+            "Simon Bolivar International Airport Venezuela",
             "Mctya Simon Bolivar International Airport"
         ],
         "outbound": true
