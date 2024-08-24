@@ -112,7 +112,7 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
         mergeEndpoint(from, 'from');
         var polyline = shown.get(canonicalRoute);
         if (!polyline) {
-            polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: lineColour, weight: 1.5, dashArray: '8 4 2'});
+            polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: lineColour, weight: 1.5});
             if (tooltip)
                 polyline.bindTooltip(tooltip, {sticky: true});
             polyline.addTo(map);
@@ -121,9 +121,10 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
             polyline.setStyle({color: 'purple', dashArray: null});
         }
     }
+    if (currentIcao) endpoints.set(currentIcao, 'selected');
     for (icao in airports) {
         var classList = airports[icao].marker.getElement().classList;
-        ["to", "from", "both"].forEach(css => classList.remove(`airport-${css}`));
+        ["to", "from", "both", "selected"].forEach(css => classList.remove(`airport-${css}`));
         if (endpoints.has(icao)) classList.add(`airport-${endpoints.get(icao)}`);
     }
 }
