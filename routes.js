@@ -92,6 +92,7 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
     for (route in routes) {
         const from = route.substring(0, 4);
         const to = route.substring(5, 9);
+        var lineColour = 'purple';
         var tooltip;
         var airlineFilter = (id, callsign) => document.getElementById(`${id}-${callsign}`).checked;
         var typeFilter = id => document.getElementById(`type-${id}`).checked;
@@ -102,8 +103,10 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
             typeFilter = id => { if (id == icaoType) return true; if (byCheckbox(id)) throw "exclude"; return false; }
         } else if (from == currentIcao && !isInbound) {
             tooltip = "To " + to;
+            lineColour = 'red';
         } else if (to == currentIcao && isInbound) {
             tooltip = "From " + from;
+            lineColour = 'blue';
         } else {
             continue;
         }
@@ -116,11 +119,13 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
         var canonicalRoute = to < from ? `${to}-${from}` : `${from}-${to}`;
         var polyline = shown.get(canonicalRoute);
         if (!polyline) {
-            polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: 'purple', weight: 1.5});
+            polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: lineColour, weight: 1.5, dashArray: currentIcao ? '1' : '3 3'});
             if (tooltip)
                 polyline.bindTooltip(tooltip, {sticky: true});
             polyline.addTo(map);
             shown.set(canonicalRoute, polyline);
+        } else {
+            polyline.setStyle({color: 'purple', dashArray: null});
         }
     }
     for (icao in airports) {
