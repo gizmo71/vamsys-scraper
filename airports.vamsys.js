@@ -13706,7 +13706,7 @@ const airports = {
     },
     "SBSJ": {
         "iata": "SJK",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -23.2292,
             -45.8615
@@ -15275,8 +15275,8 @@ const airports = {
         "iata": "RVD",
         "inbound": true,
         "latlng": [
-            -17.8347225,
-            -50.9561119
+            -17.834723,
+            -50.956112
         ],
         "names": [
             "Gen. leite de castro"
