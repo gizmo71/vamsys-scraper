@@ -177,9 +177,9 @@ const airlines = {
             "CPA",
             "CSZ"
         ],
-        "last_pirep_start": "2024-07-28T07:19:39.000000Z",
+        "last_pirep_start": "2024-08-24T09:13:07.000000Z",
         "name": "Air China",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+26.6 Hours (17.1 PIREPs)\n\t+1895.0 Points (13.5 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+126.6 Hours (81.4 PIREPs)\n\t+11895.0 Points (84.8 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+276.6 Hours (177.7 PIREPs)\n\t+25395.0 Points (181.0 PIREPs)\nCaptain / \u673a\u957f:\n\t+576.6 Hours (370.4 PIREPs)\n\t+57895.0 Points (412.6 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+976.6 Hours (627.4 PIREPs)\n\t+97895.0 Points (697.6 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1976.6 Hours (1269.8 PIREPs)\n\t+197895.0 Points (1410.2 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+25.1 Hours (16.1 PIREPs)\n\t+1740.0 Points (12.3 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+125.1 Hours (80.4 PIREPs)\n\t+11740.0 Points (83.1 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+275.1 Hours (176.8 PIREPs)\n\t+25240.0 Points (178.7 PIREPs)\nCaptain / \u673a\u957f:\n\t+575.1 Hours (369.7 PIREPs)\n\t+57740.0 Points (408.8 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+975.1 Hours (626.8 PIREPs)\n\t+97740.0 Points (692.0 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1975.1 Hours (1269.6 PIREPs)\n\t+197740.0 Points (1399.9 PIREPs)\nTime mode: block",
         "sortName": "China"
     },
     "291": {
@@ -388,9 +388,9 @@ const airlines = {
         "callsigns": [
             "ANZ"
         ],
-        "last_pirep_start": "2024-07-27T06:38:34.000000Z",
+        "last_pirep_start": "2024-08-24T06:25:49.000000Z",
         "name": "Air New Zealand",
-        "rank_info": "Bonus points not included in normal points total\nANZ - First Officer:\n\t+38.3 Hours (19.6 PIREPs)\n\t+3370.0 Points (9.5 PIREPs)\nANZ - Senior First Officer:\n\t+238.3 Hours (122.0 PIREPs)\n\t+12870.0 Points (36.3 PIREPs)\n\t+7944.0 Bonus Points (23.2 PIREPs)\nANZ - Junior Captain:\n\t+388.3 Hours (198.8 PIREPs)\n\t+22870.0 Points (64.4 PIREPs)\n\t+15944.0 Bonus Points (46.5 PIREPs)\nANZ - Captain:\n\t+488.3 Hours (249.9 PIREPs)\n\t+32870.0 Points (92.6 PIREPs)\n\t+22944.0 Bonus Points (67.0 PIREPs)\nANZ - Senior Captain:\n\t+638.3 Hours (326.7 PIREPs)\n\t+39870.0 Points (112.3 PIREPs)\n\t+27944.0 Bonus Points (81.5 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nANZ - First Officer:\n\t+36.9 Hours (19.7 PIREPs)\n\t+2965.0 Points (8.2 PIREPs)\nANZ - Senior First Officer:\n\t+236.9 Hours (126.7 PIREPs)\n\t+12465.0 Points (34.4 PIREPs)\n\t+7640.0 Bonus Points (22.7 PIREPs)\nANZ - Junior Captain:\n\t+386.9 Hours (206.9 PIREPs)\n\t+22465.0 Points (62.0 PIREPs)\n\t+15640.0 Bonus Points (46.4 PIREPs)\nANZ - Captain:\n\t+486.9 Hours (260.4 PIREPs)\n\t+32465.0 Points (89.6 PIREPs)\n\t+22640.0 Bonus Points (67.2 PIREPs)\nANZ - Senior Captain:\n\t+636.9 Hours (340.6 PIREPs)\n\t+39465.0 Points (109.0 PIREPs)\n\t+27640.0 Bonus Points (82.0 PIREPs)\nTime mode: block",
         "sortName": "New Zealand"
     },
     "2069": {
