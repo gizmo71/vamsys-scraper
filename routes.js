@@ -53,11 +53,6 @@ const shown = new Map();
 const endpoints = new Map();
 
 var currentIcao = undefined;
-var isInbound = false;
-
-const airportNeutral = "\u2708";
-const airportDepart = "\ud83d\udeeb"; // 1F6EB as a surrogate pair
-const airportArrive = "\ud83d\udeec"; // 1F6EC
 
 function typesToAirlineNames(route, airlineFilter, typeFilter) {
     try {
@@ -83,9 +78,7 @@ function mergeEndpoint(icao, direction) {
 
 function redraw(airlineCallsignIdPrefix, icaoType) {
 //for (id in airlines) { var cb = airlines[id].cb; console.log(id + " -> " + cb + " == " + cb.checked + " with ID " + cb.id); }
-//console.log(`currentIcao ${currentIcao} in? ${isInbound}, airline ${airlineCallsignIdPrefix}, type ${icaoType}`);
-    if (currentIcao)
-        document.getElementById("airport-" + currentIcao).innerText = isInbound ? airportArrive : airportDepart;
+//console.log(`currentIcao ${currentIcao}, airline ${airlineCallsignIdPrefix}, type ${icaoType}`);
     for (polyline of shown.values()) polyline.removeFrom(map);
     shown.clear();
     endpoints.clear();
@@ -96,15 +89,16 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
         var tooltip;
         var airlineFilter = (id, callsign) => document.getElementById(`${id}-${callsign}`).checked;
         var typeFilter = id => document.getElementById(`type-${id}`).checked;
+        var canonicalRoute = to < from ? `${to}-${from}` : `${from}-${to}`;
         if (airlineCallsignIdPrefix) {
             airlineFilter = (id, callsign) => `${id}-${callsign}`.startsWith(airlineCallsignIdPrefix);
         } else if (icaoType) {
             byCheckbox = typeFilter;
             typeFilter = id => { if (id == icaoType) return true; if (byCheckbox(id)) throw "exclude"; return false; }
-        } else if (from == currentIcao && !isInbound) {
+        } else if (from == currentIcao) {
             tooltip = "To " + to;
             lineColour = 'red';
-        } else if (to == currentIcao && isInbound) {
+        } else if (to == currentIcao) {
             tooltip = "From " + from;
             lineColour = 'blue';
         } else {
@@ -116,10 +110,9 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
         airlinesByType.forEach((names, type) => tooltip += `<br/>${type}: ${names}`);
         mergeEndpoint(to, 'to');
         mergeEndpoint(from, 'from');
-        var canonicalRoute = to < from ? `${to}-${from}` : `${from}-${to}`;
         var polyline = shown.get(canonicalRoute);
         if (!polyline) {
-            polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: lineColour, weight: 1.5, dashArray: currentIcao ? '1' : '3 3'});
+            polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: lineColour, weight: 1.5, dashArray: '8 4 2'});
             if (tooltip)
                 polyline.bindTooltip(tooltip, {sticky: true});
             polyline.addTo(map);
@@ -135,19 +128,9 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
     }
 }
 
-var icaoClicks = 0;
 function airportClicked(e) {
     var icao = e.target.options.icao;
-    if (currentIcao) document.getElementById("airport-" + currentIcao).innerText = airportNeutral;
-    if (icao == currentIcao) {
-        if (++icaoClicks >= 2)
-            currentIcao = undefined;
-        else
-            isInbound = !isInbound;
-    } else {
-        currentIcao = icao;
-        icaoClicks = 0;
-    }
+    currentIcao = icao == currentIcao ? undefined : icao;
     redraw();
 }
 
@@ -157,7 +140,7 @@ function utcTime(when) {
 
 for (icao in airports) {
     const airport = airports[icao];
-    const icon = L.divIcon({html: "<span id='airport-" + icao + "'>" + airportNeutral + "</span></br>" + airport['iata'], className: 'airport', iconAnchor: [18, 15], iconSize: [36, 30]});
+    const icon = L.divIcon({html: "\u2708</br>" + airport['iata'], className: 'airport', iconAnchor: [18, 15], iconSize: [36, 30]});
     var times = SunCalc.getTimes(new Date(), airport.latlng[0], airport.latlng[1]);
     airport.marker = L.marker(airport.latlng, {icao: icao, icon: icon}).addTo(map)
         .bindTooltip("<b>" + icao + "</b><br/>" + airport.names.join('<br/>') + "<br/>Sunrise: " + utcTime(times.sunrise) + "<br/>Sunset: " + utcTime(times.sunset))
