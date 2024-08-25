@@ -106,19 +106,22 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
         }
         var airlinesByType = typesToAirlineNames(routes[route], airlineFilter, typeFilter);
         if (!airlinesByType.size) continue;
-        tooltip += `, ${routes[route].distance}`
         airlinesByType.forEach((names, type) => tooltip += `<br/>${type}: ${names}`);
         mergeEndpoint(to, 'to');
         mergeEndpoint(from, 'from');
         var polyline = shown.get(canonicalRoute);
         if (!polyline) {
             polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: lineColour, weight: 1.5});
-            if (tooltip)
+            if (tooltip) {
+                tooltip = `${routes[route].distance}<br/>` + tooltip
                 polyline.bindTooltip(tooltip, {sticky: true});
+            }
             polyline.addTo(map);
             shown.set(canonicalRoute, polyline);
         } else {
             polyline.setStyle({color: 'purple', dashArray: null});
+            if (tooltip)
+                polyline.getTooltip().setContent(polyline.getTooltip().getContent() + '<hr/>' + tooltip);
         }
     }
     if (currentIcao) endpoints.set(currentIcao, 'selected');
