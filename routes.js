@@ -111,7 +111,7 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
         mergeEndpoint(from, 'from');
         var polyline = shown.get(canonicalRoute);
         if (!polyline) {
-            polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: lineColour, weight: 1.5});
+            polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: lineColour, weight: 1.5, dashArray: '8 3 5 3 2 3', wrap: true});
             if (tooltip) {
                 tooltip = `${routes[route].distance}<br/>` + tooltip
                 polyline.bindTooltip(tooltip, {sticky: true});
