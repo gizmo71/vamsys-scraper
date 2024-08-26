@@ -79,7 +79,11 @@ function mergeEndpoint(icao, direction) {
 function redraw(airlineCallsignIdPrefix, icaoType) {
 //for (id in airlines) { var cb = airlines[id].cb; console.log(id + " -> " + cb + " == " + cb.checked + " with ID " + cb.id); }
 //console.log(`currentIcao ${currentIcao}, airline ${airlineCallsignIdPrefix}, type ${icaoType}`);
-    for (polyline of shown.values()) polyline.removeFrom(map);
+    for (polyline of shown.values()) {
+        var oneWay = polyline.oneWayMarkers;
+        if (oneWay) oneWay.removeFrom(map);
+        polyline.removeFrom(map);
+    }
     shown.clear();
     endpoints.clear();
     for (route in routes) {
@@ -111,7 +115,9 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
         mergeEndpoint(from, 'from');
         var polyline = shown.get(canonicalRoute);
         if (!polyline) {
-            polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: lineColour, weight: 1.5, dashArray: '8 3 5 3 2 3', wrap: true});
+            polyline = new L.Geodesic([airports[from].latlng, airports[to].latlng], {opacity: 0.666, color: lineColour, weight: 1.5, wrap: true});
+            polyline.oneWayMarkers = L.polylineDecorator(polyline, { patterns: [ {repeat: 40, symbol: L.Symbol.arrowHead({pixelSize: 4, polygon: false, pathOptions: {stroke: true, color: lineColour}}) } ] });
+            polyline.oneWayMarkers.addTo(map);
             if (tooltip) {
                 tooltip = `${routes[route].distance}<br/>` + tooltip
                 polyline.bindTooltip(tooltip, {sticky: true});
@@ -119,7 +125,9 @@ function redraw(airlineCallsignIdPrefix, icaoType) {
             polyline.addTo(map);
             shown.set(canonicalRoute, polyline);
         } else {
-            polyline.setStyle({color: 'purple', dashArray: null});
+            polyline.setStyle({color: 'purple'});
+            polyline.oneWayMarkers.removeFrom(map);
+            polyline.oneWayMarkers = null;
             if (tooltip)
                 polyline.getTooltip().setContent(polyline.getTooltip().getContent() + '<hr/>' + tooltip);
         }
