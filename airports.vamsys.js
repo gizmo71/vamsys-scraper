@@ -1902,8 +1902,8 @@ const airports = {
         "iata": "TRF",
         "inbound": true,
         "latlng": [
-            59.1866989,
-            10.2586002
+            59.186699,
+            10.2586
         ],
         "names": [
             "Oslo Torp Sandefjord Airport"
