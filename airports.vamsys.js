@@ -2160,8 +2160,8 @@ const airports = {
         "iata": "MMX",
         "inbound": true,
         "latlng": [
-            55.536305,
-            13.376198
+            55.535564,
+            13.376327
         ],
         "names": [
             "Malm\u00c3\u00b6 Airport",
@@ -10061,8 +10061,8 @@ const airports = {
         "iata": "HMO",
         "inbound": true,
         "latlng": [
-            29.0958996,
-            -111.0479965
+            29.093527,
+            -111.049891
         ],
         "names": [
             "Hermosillo"
@@ -10123,8 +10123,8 @@ const airports = {
         "iata": "MXL",
         "inbound": true,
         "latlng": [
-            32.628479,
-            -115.247827
+            32.630629,
+            -115.242805
         ],
         "names": [
             "Mexicali"
@@ -10199,8 +10199,8 @@ const airports = {
         "iata": "PBC",
         "inbound": true,
         "latlng": [
-            19.163836,
-            -98.375874
+            19.158465,
+            -98.371582
         ],
         "names": [
             "Puebla"
