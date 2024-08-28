@@ -18,7 +18,7 @@ const airlines = {
         ],
         "last_pirep_start": "2024-08-28T05:46:03.000000Z",
         "name": "Ryanair",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+105.8 Hours (74.5 PIREPs)\n\t+10942.0 Points (42.8 PIREPs)\nType Rating Instructor:\n\t+295.8 Hours (208.4 PIREPs)\n\t+31542.0 Points (123.3 PIREPs)\nCaptain:\n\t+585.8 Hours (412.6 PIREPs)\n\t+63442.0 Points (248.0 PIREPs)\nLine Training Captain:\n\t+835.8 Hours (588.7 PIREPs)\n\t+90942.0 Points (355.5 PIREPs)\nType Rating Examiner:\n\t+1185.8 Hours (835.3 PIREPs)\n\t+129442.0 Points (506.0 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+104.6 Hours (74.7 PIREPs)\n\t+10727.0 Points (42.6 PIREPs)\nType Rating Instructor:\n\t+294.6 Hours (210.3 PIREPs)\n\t+31327.0 Points (124.3 PIREPs)\nCaptain:\n\t+584.6 Hours (417.4 PIREPs)\n\t+63227.0 Points (250.8 PIREPs)\nLine Training Captain:\n\t+834.6 Hours (595.9 PIREPs)\n\t+90727.0 Points (359.9 PIREPs)\nType Rating Examiner:\n\t+1184.6 Hours (845.8 PIREPs)\n\t+129227.0 Points (512.6 PIREPs)\nTime mode: air",
         "sortName": "Ryanair"
     },
     "8": {
@@ -238,7 +238,7 @@ const airlines = {
         ],
         "last_pirep_start": "2024-08-26T12:50:28.000000Z",
         "name": "Titan",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+25.6 Hours (15.7 PIREPs)\n\t+245.0 Points (1.0 PIREPs)\nFirst Officer:\n\t+125.6 Hours (77.1 PIREPs)\n\t+10245.0 Points (40.9 PIREPs)\nSenior First Officer:\n\t+275.6 Hours (169.2 PIREPs)\n\t+23745.0 Points (94.9 PIREPs)\nCaptain:\n\t+575.6 Hours (353.5 PIREPs)\n\t+56245.0 Points (224.7 PIREPs)\nTraining Captain:\n\t+975.6 Hours (599.2 PIREPs)\n\t+96245.0 Points (384.5 PIREPs)\nBase Captain:\n\t+1975.6 Hours (1213.3 PIREPs)\n\t+196245.0 Points (783.9 PIREPs)\nTime mode: block",
+        "rank_info": "Second Officer:\n\t+25.0 Hours (16.0 PIREPs)\nFirst Officer:\n\t+125.0 Hours (79.9 PIREPs)\n\t+9988.0 Points (39.8 PIREPs)\nSenior First Officer:\n\t+275.0 Hours (175.8 PIREPs)\n\t+23488.0 Points (93.7 PIREPs)\nCaptain:\n\t+575.0 Hours (367.7 PIREPs)\n\t+55988.0 Points (223.3 PIREPs)\nTraining Captain:\n\t+975.0 Hours (623.4 PIREPs)\n\t+95988.0 Points (382.8 PIREPs)\nBase Captain:\n\t+1975.0 Hours (1262.8 PIREPs)\n\t+195988.0 Points (781.6 PIREPs)\nTime mode: block",
         "requirements": {
             "details": "1 PIREP(s) required over 360 days\nNext 1 PIREP(s) required by 2025-08-21",
             "target_date": "2025-08-21T13:52:32+00:00"
