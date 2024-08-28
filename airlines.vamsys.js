@@ -16,7 +16,7 @@ const airlines = {
             "RYR",
             "RYS"
         ],
-        "last_pirep_start": "2024-07-29T14:06:19.000000Z",
+        "last_pirep_start": "2024-08-28T05:46:03.000000Z",
         "name": "Ryanair",
         "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+105.8 Hours (74.5 PIREPs)\n\t+10942.0 Points (42.8 PIREPs)\nType Rating Instructor:\n\t+295.8 Hours (208.4 PIREPs)\n\t+31542.0 Points (123.3 PIREPs)\nCaptain:\n\t+585.8 Hours (412.6 PIREPs)\n\t+63442.0 Points (248.0 PIREPs)\nLine Training Captain:\n\t+835.8 Hours (588.7 PIREPs)\n\t+90942.0 Points (355.5 PIREPs)\nType Rating Examiner:\n\t+1185.8 Hours (835.3 PIREPs)\n\t+129442.0 Points (506.0 PIREPs)\nTime mode: air",
         "sortName": "Ryanair"
@@ -236,12 +236,12 @@ const airlines = {
             "TMT",
             "TOM"
         ],
-        "last_pirep_start": "2024-06-30T11:17:00.000000Z",
+        "last_pirep_start": "2024-08-26T12:50:28.000000Z",
         "name": "Titan",
         "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+25.6 Hours (15.7 PIREPs)\n\t+245.0 Points (1.0 PIREPs)\nFirst Officer:\n\t+125.6 Hours (77.1 PIREPs)\n\t+10245.0 Points (40.9 PIREPs)\nSenior First Officer:\n\t+275.6 Hours (169.2 PIREPs)\n\t+23745.0 Points (94.9 PIREPs)\nCaptain:\n\t+575.6 Hours (353.5 PIREPs)\n\t+56245.0 Points (224.7 PIREPs)\nTraining Captain:\n\t+975.6 Hours (599.2 PIREPs)\n\t+96245.0 Points (384.5 PIREPs)\nBase Captain:\n\t+1975.6 Hours (1213.3 PIREPs)\n\t+196245.0 Points (783.9 PIREPs)\nTime mode: block",
         "requirements": {
-            "details": "1 PIREP(s) required over 360 days\nNext 1 PIREP(s) required by 2025-06-25",
-            "target_date": "2025-06-25T12:18:57+00:00"
+            "details": "1 PIREP(s) required over 360 days\nNext 1 PIREP(s) required by 2025-08-21",
+            "target_date": "2025-08-21T13:52:32+00:00"
         },
         "sortName": "Titan"
     },

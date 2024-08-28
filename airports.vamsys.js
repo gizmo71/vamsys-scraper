@@ -1476,8 +1476,8 @@ const airports = {
         "iata": "EXT",
         "inbound": true,
         "latlng": [
-            50.734402,
-            -3.41389
+            50.734261,
+            -3.413984
         ],
         "names": [
             "Exeter International Airport"
@@ -2075,7 +2075,7 @@ const airports = {
         "inbound": true,
         "latlng": [
             52.165699,
-            20.9671001
+            20.9671
         ],
         "names": [
             "Warsaw Chopin Airport"
@@ -2306,8 +2306,8 @@ const airports = {
         "iata": "ARN",
         "inbound": true,
         "latlng": [
-            59.6519012,
-            17.9186001
+            59.64849,
+            17.928829
         ],
         "names": [
             "Stockholm Arlanda Airport"
@@ -6705,8 +6705,8 @@ const airports = {
         "iata": "OSI",
         "inbound": true,
         "latlng": [
-            45.4627,
-            18.8102
+            45.462355,
+            18.811278
         ],
         "names": [
             "Osijek"
@@ -6717,8 +6717,8 @@ const airports = {
         "iata": "PUY",
         "inbound": true,
         "latlng": [
-            44.8935013,
-            13.9222002
+            44.893501,
+            13.9222
         ],
         "names": [
             "Pula Airport"
@@ -6753,8 +6753,8 @@ const airports = {
         "iata": "SPU",
         "inbound": true,
         "latlng": [
-            43.5388985,
-            16.2980003
+            43.538898,
+            16.298
         ],
         "names": [
             "Split Airport"
@@ -7411,8 +7411,8 @@ const airports = {
         "iata": "MPL",
         "inbound": true,
         "latlng": [
-            43.5761986,
-            3.9630101
+            43.576199,
+            3.96301
         ],
         "names": [
             "Montpellier\u00e2\u0080\u0093M\u00c3\u00a9diterran\u00c3\u00a9e Airport",
@@ -7714,8 +7714,8 @@ const airports = {
         "iata": "KGS",
         "inbound": true,
         "latlng": [
-            36.7933006,
-            27.0916996
+            36.794523,
+            27.09115
         ],
         "names": [
             "Kos Island International Airport"
