@@ -30,9 +30,9 @@ const airlines = {
             "TRA",
             "TVF"
         ],
-        "last_pirep_start": "2024-08-26T08:35:45.000000Z",
+        "last_pirep_start": "2024-08-29T14:19:13.000000Z",
         "name": "Air France-KLM",
-        "rank_info": "Bonus points count towards normal points total\nSenior First Officer:\n\t+248.3 Hours (447.8 PIREPs)\n\t+24265.0 Points (99.0 PIREPs)\nCaptain:\n\t+498.3 Hours (898.7 PIREPs)\n\t+49265.0 Points (201.1 PIREPs)\nSenior Captain:\n\t+998.3 Hours (1800.3 PIREPs)\n\t+99265.0 Points (405.2 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points count towards normal points total\nSenior First Officer:\n\t+247.7 Hours (422.2 PIREPs)\n\t+23880.0 Points (85.3 PIREPs)\nCaptain:\n\t+497.7 Hours (848.5 PIREPs)\n\t+48880.0 Points (174.6 PIREPs)\nSenior Captain:\n\t+997.7 Hours (1700.9 PIREPs)\n\t+98880.0 Points (353.1 PIREPs)\nTime mode: air",
         "sortName": "France-KLM"
     },
     "9": {
