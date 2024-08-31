@@ -3225,7 +3225,8 @@ const airports = {
         ],
         "names": [
             "Sphinx International Airport",
-            "Cairo-Sphinx"
+            "Cairo-Sphinx",
+            "Giza"
         ],
         "outbound": true
     },
@@ -7411,8 +7412,8 @@ const airports = {
         "iata": "MPL",
         "inbound": true,
         "latlng": [
-            43.576199,
-            3.96301
+            43.5761986,
+            3.9630101
         ],
         "names": [
             "Montpellier\u00e2\u0080\u0093M\u00c3\u00a9diterran\u00c3\u00a9e Airport",
@@ -11091,6 +11092,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "OEAB": {
+        "iata": "AHB",
+        "inbound": true,
+        "latlng": [
+            18.2404,
+            42.656601
+        ],
+        "names": [
+            "Abha"
+        ],
+        "outbound": true
+    },
     "OEAO": {
         "iata": "ULH",
         "inbound": true,
@@ -11127,6 +11140,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "OEGN": {
+        "iata": "GIZ",
+        "inbound": true,
+        "latlng": [
+            16.9011,
+            42.5858
+        ],
+        "names": [
+            "Jizan"
+        ],
+        "outbound": true
+    },
     "OEGS": {
         "iata": "ELQ",
         "inbound": true,
@@ -11136,6 +11161,18 @@ const airports = {
         ],
         "names": [
             "Al-Qassim International Airport"
+        ],
+        "outbound": true
+    },
+    "OEHL": {
+        "iata": "HAS",
+        "inbound": true,
+        "latlng": [
+            27.437901,
+            41.686298
+        ],
+        "names": [
+            "Ha'il"
         ],
         "outbound": true
     },
@@ -11185,6 +11222,18 @@ const airports = {
         ],
         "names": [
             "Riyadh King Khalid International Airport"
+        ],
+        "outbound": true
+    },
+    "OESK": {
+        "iata": "AJF",
+        "inbound": true,
+        "latlng": [
+            29.7851009,
+            40.0999985
+        ],
+        "names": [
+            "Sakaka"
         ],
         "outbound": true
     },
@@ -11261,6 +11310,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "OISL": {
+        "iata": "LRR",
+        "inbound": true,
+        "latlng": [
+            27.6747,
+            54.383301
+        ],
+        "names": [
+            "Lar"
+        ],
+        "outbound": true
+    },
     "OISS": {
         "iata": "SYZ",
         "inbound": true,
@@ -11329,7 +11390,8 @@ const airports = {
             47.968899
         ],
         "names": [
-            "Kuwait International Airport"
+            "Kuwait International Airport",
+            "Kuwait City"
         ],
         "outbound": true
     },
@@ -11430,6 +11492,30 @@ const airports = {
         ],
         "outbound": true
     },
+    "OOSH": {
+        "iata": "OHS",
+        "inbound": true,
+        "latlng": [
+            24.38604,
+            56.62541
+        ],
+        "names": [
+            "Sohar"
+        ],
+        "outbound": true
+    },
+    "OPFA": {
+        "iata": "LYP",
+        "inbound": true,
+        "latlng": [
+            31.3649998,
+            72.9947968
+        ],
+        "names": [
+            "Faisalabad"
+        ],
+        "outbound": true
+    },
     "OPIS": {
         "iata": "ISB",
         "inbound": true,
@@ -11490,6 +11576,18 @@ const airports = {
         ],
         "names": [
             "Peshawar Bacha Khan International"
+        ],
+        "outbound": true
+    },
+    "OPQT": {
+        "iata": "UET",
+        "inbound": true,
+        "latlng": [
+            30.2514,
+            66.9377975
+        ],
+        "names": [
+            "Quetta"
         ],
         "outbound": true
     },
@@ -15852,6 +15950,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "USSS": {
+        "iata": "SVX",
+        "inbound": true,
+        "latlng": [
+            56.7430992,
+            60.8027
+        ],
+        "names": [
+            "Yekaterinburg"
+        ],
+        "outbound": true
+    },
     "UTAA": {
         "iata": "ASB",
         "inbound": true,
@@ -16709,6 +16819,18 @@ const airports = {
         ],
         "outbound": true
     },
+    "VGEG": {
+        "iata": "CGP",
+        "inbound": true,
+        "latlng": [
+            22.249599,
+            91.813301
+        ],
+        "names": [
+            "Chittagong"
+        ],
+        "outbound": true
+    },
     "VGHS": {
         "iata": "DAC",
         "inbound": true,
@@ -17345,7 +17467,8 @@ const airports = {
             76.920097
         ],
         "names": [
-            "Trivandrum International Airport"
+            "Trivandrum International Airport",
+            "Thiruvananthapuram"
         ],
         "outbound": true
     },

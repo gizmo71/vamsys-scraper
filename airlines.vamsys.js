@@ -213,6 +213,19 @@ const airlines = {
         "rank_info": "Senior Captain:\n\t+59.1 Hours (29.7 PIREPs)\nBase Captain:\n\t+674.1 Hours (338.6 PIREPs)\nChief Pilot:\n\t+1994.1 Hours (1001.5 PIREPs)\nTime mode: air",
         "sortName": "Dan Air"
     },
+    "431": {
+        "callsigns": [
+            "ABY",
+            "ADY",
+            "FJL",
+            "MAC",
+            "RBG"
+        ],
+        "last_pirep_start": "2024-08-31T13:42:16.000000Z",
+        "name": "vABY",
+        "rank_info": "Second Officer:\n\t+49.0 Hours (51.6 PIREPs)\n\t+3805.0 Points (19.5 PIREPs)\nFirst Officer:\n\t+149.0 Hours (156.8 PIREPs)\n\t+13805.0 Points (70.8 PIREPs)\nSenior First Officer:\n\t+299.0 Hours (314.7 PIREPs)\n\t+27305.0 Points (140.0 PIREPs)\nCaptain:\n\t+599.0 Hours (630.4 PIREPs)\n\t+59805.0 Points (306.7 PIREPs)\nTime mode: block",
+        "sortName": "vABY"
+    },
     "439": {
         "callsigns": [
             "THY",
