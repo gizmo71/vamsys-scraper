@@ -163,9 +163,9 @@ const airlines = {
             "IGO",
             "QTR"
         ],
-        "last_pirep_start": "2024-08-03T04:51:39.000000Z",
+        "last_pirep_start": "2024-08-31T08:09:57.000000Z",
         "name": "Oryx (Qatar)",
-        "rank_info": "Second Officer:\n\t+341.5 Hours (363.4 PIREPs)\nFirst Officer:\n\t+891.5 Hours (948.6 PIREPs)\nSenior First Officer:\n\t+1491.5 Hours (1587.1 PIREPs)\nCaptain:\n\t+2191.5 Hours (2331.9 PIREPs)\nTraining Captain:\n\t+2991.5 Hours (3183.1 PIREPs)\nTime mode: air",
+        "rank_info": "Second Officer:\n\t+338.8 Hours (303.5 PIREPs)\nFirst Officer:\n\t+888.8 Hours (796.2 PIREPs)\nSenior First Officer:\n\t+1488.8 Hours (1333.7 PIREPs)\nCaptain:\n\t+2188.8 Hours (1960.7 PIREPs)\nTraining Captain:\n\t+2988.8 Hours (2677.4 PIREPs)\nTime mode: air",
         "sortName": "Qatar"
     },
     "265": {
