@@ -1687,7 +1687,7 @@ const airports = {
         ],
         "names": [
             "V\u00c3\u00a1gar Airport",
-            "Vagar"
+            "Vagar Airport"
         ],
         "outbound": true
     },
@@ -1748,7 +1748,8 @@ const airports = {
             14.3653
         ],
         "names": [
-            "Bod\u00c3\u00b8 Airport"
+            "Bod\u00c3\u00b8 Airport",
+            "Bodo Airport"
         ],
         "outbound": true
     },
@@ -2116,7 +2117,7 @@ const airports = {
         "names": [
             "Gothenburg Landvetter Airport",
             "G\u00c3\u00b6teborg Landvetter Airport",
-            "G\u00f6teborg Landvetter Airport"
+            "Goteborg Landvetter Airport"
         ],
         "outbound": true
     },
@@ -2189,7 +2190,8 @@ const airports = {
             17.4438992
         ],
         "names": [
-            "Sundsvall\u00e2\u0080\u0093Timr\u00c3\u00a5 Airport"
+            "Sundsvall\u00e2\u0080\u0093Timr\u00c3\u00a5 Airport",
+            "Sundsvall-Timra Airport"
         ],
         "outbound": true
     },
@@ -2250,7 +2252,7 @@ const airports = {
         ],
         "names": [
             "\u00c3 re \u00c3\u0096stersund Airport",
-            "Ostersund Are Airport"
+            "Are \u00d6stersund Airport"
         ],
         "outbound": true
     },
@@ -2370,7 +2372,8 @@ const airports = {
             12.8471003
         ],
         "names": [
-            "\u00c3\u0084ngelholm\u00e2\u0080\u0093Helsingborg Airport"
+            "\u00c3\u0084ngelholm\u00e2\u0080\u0093Helsingborg Airport",
+            "\u00c4ngelholm\u2013Helsingborg Airport"
         ],
         "outbound": true
     },
