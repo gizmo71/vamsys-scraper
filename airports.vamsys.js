@@ -482,8 +482,7 @@ const airports = {
             10.438611
         ],
         "names": [
-            "Enfidha - Hammamet International Airport",
-            "Enfidha\u00e2\u0080\u0093Hammamet International Airport"
+            "Enfidha - Hammamet International Airport"
         ],
         "outbound": true
     },
@@ -1686,7 +1685,6 @@ const airports = {
             -7.275782
         ],
         "names": [
-            "V\u00c3\u00a1gar Airport",
             "Vagar Airport"
         ],
         "outbound": true
@@ -1955,8 +1953,7 @@ const airports = {
             18.4662
         ],
         "names": [
-            "Gdansk Lech Walesa Airport",
-            "Gda\u00c5\u0084sk Lech Wa\u00c5\u0082\u00c4\u0099sa Airport"
+            "Gdansk Lech Walesa Airport"
         ],
         "outbound": true
     },
@@ -2422,7 +2419,7 @@ const airports = {
             21.0939007
         ],
         "names": [
-            "Palanga"
+            "Palanga International Airport"
         ],
         "outbound": true
     },
@@ -2838,7 +2835,7 @@ const airports = {
             -9.412003
         ],
         "names": [
-            "Agadir Al Massira Airport"
+            "Agadir Al-Massira International Airport"
         ],
         "outbound": true
     },
@@ -6933,8 +6930,7 @@ const airports = {
             -3.56264
         ],
         "names": [
-            "Madrid Barajas Airport",
-            "Madrid\u00e2\u0080\u0093Barajas Airport"
+            "Madrid Barajas Airport"
         ],
         "outbound": true
     },
@@ -7254,7 +7250,7 @@ const airports = {
             9.4837303
         ],
         "names": [
-            "Bastia \u00e2\u0080\u0093 Poretta Airport",
+            "Bastia Poretta Airport",
             "Bastia, Corsica"
         ],
         "outbound": true
@@ -7419,7 +7415,6 @@ const airports = {
             3.9630101
         ],
         "names": [
-            "Montpellier\u00e2\u0080\u0093M\u00c3\u00a9diterran\u00c3\u00a9e Airport",
             "Montpellier Mediterranee Airport",
             "Montpellier\u2013M\u00e9diterran\u00e9e"
         ],
@@ -7620,7 +7615,6 @@ const airports = {
             6.1460299
         ],
         "names": [
-            "Toulon\u00e2\u0080\u0093Hy\u00c3\u00a8res Airport",
             "Toulon-Hyeres Airport",
             "Toulon-Hy\u00c3\u00a8res"
         ],
@@ -8050,7 +8044,6 @@ const airports = {
         ],
         "names": [
             "Catania Fontanarossa Airport",
-            "Catania\u00e2\u0080\u0093Fontanarossa Airport",
             "Sicily Catania"
         ],
         "outbound": true
@@ -9212,7 +9205,6 @@ const airports = {
         ],
         "names": [
             "Izmir Adnan Menderes International Airport",
-            "\u00c4\u00b0zmir Adnan Menderes Airport",
             "Izmir - Adnan Menderes Intl"
         ],
         "outbound": true
@@ -9549,8 +9541,7 @@ const airports = {
             27.664301
         ],
         "names": [
-            "Milas Bodrum International Airport",
-            "Milas\u00e2\u0080\u0093Bodrum Airport"
+            "Milas Bodrum International Airport"
         ],
         "outbound": true
     },
@@ -9909,8 +9900,7 @@ const airports = {
         ],
         "names": [
             "Kingston Norman Manley International Airport",
-            "Kingston, Jamaica",
-            "Palisadoes"
+            "Kingston, Jamaica"
         ],
         "outbound": true
     },
@@ -15440,8 +15430,7 @@ const airports = {
             -61.792702
         ],
         "names": [
-            "Antigua V. C. Bird International Airport",
-            "V.C Bird International"
+            "Antigua V. C. Bird International Airport"
         ],
         "outbound": true
     },
@@ -15679,7 +15668,6 @@ const airports = {
         ],
         "names": [
             "Arthur Napoleon Raymond Robinson International Airport",
-            "A.N.R. Robinson International",
             "Scarborough"
         ],
         "outbound": true
@@ -15933,8 +15921,8 @@ const airports = {
         "iata": "LED",
         "inbound": true,
         "latlng": [
-            59.8003006,
-            30.2625008
+            59.800301,
+            30.262501
         ],
         "names": [
             "St. Petersburg Pulkovo Airport"

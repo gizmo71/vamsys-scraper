@@ -86,9 +86,9 @@ const airlines = {
             "EFW",
             "SHT"
         ],
-        "last_pirep_start": "2024-08-09T04:59:52.000000Z",
+        "last_pirep_start": "2024-09-01T07:58:18.000000Z",
         "name": "British Airways",
-        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+74.2 Hours (52.6 PIREPs)\n\t+5099.0 Points (26.6 PIREPs)\nSenior First Officer:\n\t+249.2 Hours (176.7 PIREPs)\n\t+20599.0 Points (107.5 PIREPs)\nCaptain:\n\t+549.2 Hours (389.3 PIREPs)\n\t+53099.0 Points (277.0 PIREPs)\nTraining Captain:\n\t+949.2 Hours (672.8 PIREPs)\n\t+93099.0 Points (485.7 PIREPs)\nBase Captain:\n\t+1949.2 Hours (1381.7 PIREPs)\n\t+193099.0 Points (1007.3 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+73.1 Hours (52.1 PIREPs)\n\t+4737.0 Points (24.1 PIREPs)\nSenior First Officer:\n\t+248.1 Hours (176.9 PIREPs)\n\t+20237.0 Points (103.1 PIREPs)\nCaptain:\n\t+548.1 Hours (390.8 PIREPs)\n\t+52737.0 Points (268.7 PIREPs)\nTraining Captain:\n\t+948.1 Hours (676.0 PIREPs)\n\t+92737.0 Points (472.4 PIREPs)\nBase Captain:\n\t+1948.1 Hours (1389.0 PIREPs)\n\t+192737.0 Points (981.9 PIREPs)\nTime mode: block",
         "sortName": "British Airways"
     },
     "42": {
@@ -136,9 +136,9 @@ const airlines = {
             "GEC",
             "LHX"
         ],
-        "last_pirep_start": "2024-08-07T13:43:05.000000Z",
+        "last_pirep_start": "2024-09-01T09:35:56.000000Z",
         "name": "Lufthansa",
-        "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+437.0 Hours (305.3 PIREPs)\n\t+2142.0 Points (24.4 PIREPs)\nTraining Captain:\n\t+437.0 Hours (305.3 PIREPs)\n\t+31142.0 Points (355.2 PIREPs)\nBase Captain:\n\t+1437.0 Hours (1003.9 PIREPs)\n\t+71142.0 Points (811.4 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points count towards normal points total\nCaptain:\n\t+436.0 Hours (306.4 PIREPs)\n\t+2052.0 Points (23.4 PIREPs)\nTraining Captain:\n\t+436.0 Hours (306.4 PIREPs)\n\t+31052.0 Points (353.9 PIREPs)\nBase Captain:\n\t+1436.0 Hours (1009.3 PIREPs)\n\t+71052.0 Points (809.9 PIREPs)\nTime mode: air",
         "sortName": "Lufthansa"
     },
     "67": {
@@ -262,7 +262,7 @@ const airlines = {
         "callsigns": [
             "SAS"
         ],
-        "last_pirep_start": "2024-08-05T14:01:27.000000Z",
+        "last_pirep_start": "2024-09-01T06:08:28.000000Z",
         "name": "SAS",
         "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+22.7 Hours (17.5 PIREPs)\n\t+2110.0 Points (11.4 PIREPs)\n\t+145.0 Bonus Points (19.6 PIREPs)\nSenior First Officer:\n\t+172.7 Hours (132.9 PIREPs)\n\t+11110.0 Points (60.0 PIREPs)\n\t+745.0 Bonus Points (100.9 PIREPs)\nCaptain:\n\t+372.7 Hours (286.9 PIREPs)\n\t+26110.0 Points (141.0 PIREPs)\n\t+2845.0 Bonus Points (385.5 PIREPs)\nSenior Captain:\n\t+772.7 Hours (594.8 PIREPs)\n\t+36110.0 Points (194.9 PIREPs)\n\t+5845.0 Bonus Points (791.9 PIREPs)\nTime mode: block",
         "sortName": "SAS"
