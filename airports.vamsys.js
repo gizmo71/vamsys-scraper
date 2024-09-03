@@ -7137,7 +7137,7 @@ const airports = {
         "iata": "LRH",
         "inbound": true,
         "latlng": [
-            46.1791992,
+            46.179199,
             -1.19528
         ],
         "names": [
@@ -7893,8 +7893,7 @@ const airports = {
             26.1012993
         ],
         "names": [
-            "Sitia Airport",
-            "Crete Sitia"
+            "Sitia Airport"
         ],
         "outbound": true
     },
@@ -8026,8 +8025,8 @@ const airports = {
         "iata": "CIY",
         "inbound": true,
         "latlng": [
-            36.994601,
-            14.607182
+            36.99583,
+            14.60889
         ],
         "names": [
             "Comiso \"Vincenzo Magliocco\"",
