@@ -8820,8 +8820,8 @@ const airports = {
         "iata": "CND",
         "inbound": true,
         "latlng": [
-            44.3622017,
-            28.4883003
+            44.362202,
+            28.4883
         ],
         "names": [
             "Mihail Kog\u0103lniceanu International Airport",
@@ -9022,7 +9022,7 @@ const airports = {
             35.280399
         ],
         "names": [
-            "Adana \u015eakirpa\u015fa Airport"
+            "Adana"
         ],
         "outbound": true
     },
@@ -9138,8 +9138,8 @@ const airports = {
         "iata": "TJK",
         "inbound": true,
         "latlng": [
-            40.3074303,
-            36.3674088
+            40.32472,
+            36.39056
         ],
         "names": [
             "Tokat"
@@ -9505,6 +9505,18 @@ const airports = {
         ],
         "names": [
             "Antakya"
+        ],
+        "outbound": true
+    },
+    "LTDB": {
+        "iata": "COV",
+        "inbound": true,
+        "latlng": [
+            36.890908,
+            35.070522
+        ],
+        "names": [
+            "Mersin Cukurova International Airport"
         ],
         "outbound": true
     },
