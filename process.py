@@ -1,10 +1,14 @@
+import codecs
+import csv
 import geopy.distance
 import json
 import logging
 import operator
 import regex
+import requests
 import sys
 
+from contextlib import closing
 from datetime import date, datetime, timedelta
 from glob import glob
 from locale import strxfrm
@@ -34,6 +38,7 @@ airline_mappings = {
     'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'sort_name':'Lingus', 'type_mapping':
         {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'}},
     'American Airlines Virtual '       :{'display_name':'American'},
+    'vABY'                             :{'display_name':'Air Arabia'},
     'ANZ Virtual'                      :{'display_name':'Air New Zealand', 'sort_name':'New Zealand'},
     'vANA'                             :{'display_name':'All Nippon', 'sort_name':'Nippon'},
     'Avion Virtual'                    :{'display_name':'Avion'},
@@ -146,15 +151,28 @@ def airport(airport):
         latlng = [latitude, longitude]
         if airports[icao]['latlng'] != latlng:
             diff = geopy.distance.distance(airports[icao]['latlng'], latlng).nautical
-            msg = f"Mismatch in location for {icao}; {airports[icao]['latlng']} against {latlng}, difference of {diff:.3f}"
-            if diff >= 0.8:
+            msg = f"Mismatch in location for {icao}; {airports[icao]['latlng']} against {latlng}, difference of {diff:.3f} - {airports[icao]} versus {airport}"
+            if diff >= 4:
                 raise ValueError(msg)
-            elif diff >= 0.3:
+            elif diff >= 2:
                 logger.warning(msg)
         if airports[icao]['iata'] != iata:
             raise ValueError(f"{icao} has inconsistent IATA codes, {airports[icao]['iata']} versus {iata}")
     else:
         airports[icao] = {'latlng': [latitude, longitude], 'iata': iata, 'names': {name}, 'inbound': False, 'outbound': False}
+
+with closing(requests.get('https://github.com/ip2location/ip2location-iata-icao/raw/master/iata-icao.csv', stream=True)) as r:
+    logger = logging.getLogger('airport_csv')
+    reader = csv.DictReader(codecs.iterdecode(r.iter_lines(), 'utf-8'), delimiter=',', quotechar='"')
+    for row in reader:
+        # Also row['country_code' (2-char)/'region_name']
+        if row['icao'] == 'VOGB' or row['icao'] == 'SNCP':
+            logger.warning(f"{row} has bad data")
+        elif row['icao'] or row['iata']:
+            vamsys_format = {'icao': row['icao'] or row['iata'], 'iata': row['iata'] or row['icao'], 'name': row['airport'], 'latitude': row['latitude'], 'longitude': row['longitude']}
+            airport(vamsys_format)
+        else:
+            logger.warning(f"{row} has neither IATA nor ICAO code")
 
 def add_or_update_route(origin, destination, distance, airline, type, callsigns):
     key = f"{origin}-{destination}"
