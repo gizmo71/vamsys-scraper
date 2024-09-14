@@ -152,9 +152,14 @@ function utcTime(when) {
 
 for (icao in airports) {
     const airport = airports[icao];
+    const isRoutable = airport.inbound || airport.outbound;
     const icon = L.divIcon({html: "\u2708</br>" + airport['iata'], className: 'airport', iconAnchor: [18, 15], iconSize: [36, 30]});
     var times = SunCalc.getTimes(new Date(), airport.latlng[0], airport.latlng[1]);
     airport.marker = L.marker(airport.latlng, {icao: icao, icon: icon}).addTo(map)
-        .bindTooltip("<b>" + icao + "</b><br/>" + airport.names.join('<br/>') + "<br/>Sunrise: " + utcTime(times.sunrise) + "<br/>Sunset: " + utcTime(times.sunset))
-        .on('click', airportClicked);
+        .bindTooltip("<b>" + icao + "</b><br/>" + airport.names.join('<br/>') +
+                     "<br/>Sunrise: " + utcTime(times.sunrise) + "<br/>Sunset: " + utcTime(times.sunset));
+    if (isRoutable)
+        airport.marker.on('click', airportClicked);
+    else
+        airports[icao].marker.getElement().classList.add('airport-unroutable')
 }

@@ -6794,6 +6794,18 @@ const airports = {
         ],
         "outbound": false
     },
+    "CTP": {
+        "iata": "CTP",
+        "inbound": false,
+        "latlng": [
+            -1.25028,
+            -46.0172
+        ],
+        "names": [
+            "Carutapera Airport"
+        ],
+        "outbound": false
+    },
     "CTR": {
         "iata": "CTR",
         "inbound": false,
@@ -80503,11 +80515,11 @@ const airports = {
         "iata": "EEA",
         "inbound": true,
         "latlng": [
-            -27.634128,
-            -50.358253
+            -27.666389,
+            -50.358056
         ],
         "names": [
-            "Aeroporto regional do planalto serrano"
+            "Aeroporto Regional do Planalto Serrano"
         ],
         "outbound": true
     },
@@ -85666,8 +85678,8 @@ const airports = {
         "iata": "SVD",
         "inbound": true,
         "latlng": [
-            13.1443,
-            -61.2109
+            13.156389,
+            -61.150278
         ],
         "names": [
             "Kingstown Argyle International Airport",
@@ -92555,8 +92567,8 @@ const airports = {
         "iata": "GBI",
         "inbound": true,
         "latlng": [
-            17.308154,
-            76.965246
+            17.307778,
+            76.958056
         ],
         "names": [
             "Gulbarga Kalaburagi Airport"
@@ -105261,8 +105273,8 @@ const airports = {
         "iata": "WWI",
         "inbound": true,
         "latlng": [
-            -21.6628,
-            121.234
+            -21.645,
+            121.191667
         ],
         "names": [
             "Woodie Woodie Airport"
@@ -105479,25 +105491,13 @@ const airports = {
         "iata": "CIF",
         "inbound": true,
         "latlng": [
-            42.157708,
-            118.839455
-        ],
-        "names": [
-            "Chifeng Airport"
-        ],
-        "outbound": true
-    },
-    "ZBCF-old": {
-        "iata": "CIF-old",
-        "inbound": false,
-        "latlng": [
-            42.235,
-            118.908
+            42.15486,
+            118.83462
         ],
         "names": [
             "Chifeng Yulong Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "ZBCZ": {
         "iata": "CIH",
@@ -105986,25 +105986,13 @@ const airports = {
         "iata": "HNY",
         "inbound": true,
         "latlng": [
-            26.72208,
-            112.617958
+            26.723889,
+            112.618333
         ],
         "names": [
             "Hengyang Nanyue Airport"
         ],
         "outbound": true
-    },
-    "ZGHY-old": {
-        "iata": "HNY-old",
-        "inbound": false,
-        "latlng": [
-            26.9053,
-            112.628
-        ],
-        "names": [
-            "Hengyang Nanyue Airport"
-        ],
-        "outbound": false
     },
     "ZGHZ": {
         "iata": "HUZ",
@@ -106131,8 +106119,8 @@ const airports = {
         "iata": "WUZ",
         "inbound": false,
         "latlng": [
-            23.4567,
-            111.248
+            23.401389,
+            111.098611
         ],
         "names": [
             "Wuzhou Xijiang Airport"
@@ -106183,21 +106171,9 @@ const airports = {
             110.590278
         ],
         "names": [
-            "Zhanjiang Wuchuan Airport"
+            "Zhanjiang Wuchuan International Airport"
         ],
         "outbound": true
-    },
-    "ZGZJ-old": {
-        "iata": "ZHA-old",
-        "inbound": false,
-        "latlng": [
-            21.2144,
-            110.358
-        ],
-        "names": [
-            "Zhanjiang Airport"
-        ],
-        "outbound": false
     },
     "ZHAY": {
         "iata": "AYN",
@@ -106782,25 +106758,14 @@ const airports = {
         "iata": "ENY",
         "inbound": true,
         "latlng": [
-            36.479413,
-            109.464083
+            36.476389,
+            109.465278
         ],
         "names": [
+            "Yan'an Nanniwan Airport",
             "Yanan Nanniwan Airport"
         ],
         "outbound": true
-    },
-    "ZLYA-old": {
-        "iata": "ENY-old",
-        "inbound": false,
-        "latlng": [
-            36.6369,
-            109.554
-        ],
-        "names": [
-            "Yan'an Ershilipu Airport"
-        ],
-        "outbound": false
     },
     "ZLYL": {
         "iata": "UYN",
@@ -107565,25 +107530,13 @@ const airports = {
         "iata": "LYG",
         "inbound": true,
         "latlng": [
-            34.41406,
-            119.17899
+            34.413056,
+            119.177222
         ],
         "names": [
             "Lianyungang Huaguoshan Airport"
         ],
         "outbound": true
-    },
-    "ZSLG-old": {
-        "iata": "LYG-old",
-        "inbound": false,
-        "latlng": [
-            34.5717,
-            118.874
-        ],
-        "names": [
-            "Lianyungang Baitabu Airport"
-        ],
-        "outbound": false
     },
     "ZSLO": {
         "iata": "LCX",
@@ -107662,25 +107615,13 @@ const airports = {
         "iata": "HFE",
         "inbound": true,
         "latlng": [
-            31.78,
-            117.298
+            31.986667,
+            116.975
         ],
         "names": [
             "Hefei Xinqiao International Airport"
         ],
         "outbound": true
-    },
-    "ZSOF-old": {
-        "iata": "HFE-old",
-        "inbound": false,
-        "latlng": [
-            31.98779,
-            116.9769
-        ],
-        "names": [
-            "Hefei Xinqiao International Airport"
-        ],
-        "outbound": false
     },
     "ZSPD": {
         "iata": "PVG",
@@ -107699,25 +107640,13 @@ const airports = {
         "iata": "TAO",
         "inbound": true,
         "latlng": [
-            36.2661,
-            120.374
+            36.361944,
+            120.088333
         ],
         "names": [
-            "Qingdao Liuting International Airport"
+            "Qingdao Jiaodong International Airport"
         ],
         "outbound": true
-    },
-    "ZSQD-old": {
-        "iata": "TAO-old",
-        "inbound": false,
-        "latlng": [
-            36.361953,
-            120.088171
-        ],
-        "names": [
-            "Qingdao Jiaodong Airport"
-        ],
-        "outbound": false
     },
     "ZSQZ": {
         "iata": "JJN",
@@ -107820,8 +107749,8 @@ const airports = {
         "iata": "WHA",
         "inbound": true,
         "latlng": [
-            31.1045,
-            118.66687
+            31.104444,
+            118.667222
         ],
         "names": [
             "Wuhu Xuanzhou Airport"
@@ -107856,11 +107785,11 @@ const airports = {
         "iata": "WHU",
         "inbound": false,
         "latlng": [
-            31.3906,
-            118.409
+            31.390556,
+            118.409444
         ],
         "names": [
-            "Wuhu Airport"
+            "Wuhu Wanli Airport"
         ],
         "outbound": false
     },
@@ -108258,8 +108187,8 @@ const airports = {
         "iata": "WMT",
         "inbound": true,
         "latlng": [
-            27.8164,
-            106.333
+            27.968056,
+            106.438889
         ],
         "names": [
             "Zunyi Maotai Airport"
@@ -108452,12 +108381,11 @@ const airports = {
         "iata": "YBP",
         "inbound": true,
         "latlng": [
-            28.8006,
-            104.545
+            28.858,
+            104.525
         ],
         "names": [
-            "Yibin Wuliangye Airport",
-            "Yibin Caiba Airport"
+            "Yibin Wuliangye Airport"
         ],
         "outbound": true
     },
