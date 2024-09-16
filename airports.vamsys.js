@@ -92860,7 +92860,8 @@ const airports = {
             78.7097
         ],
         "names": [
-            "Tiruchirappalli International Airport"
+            "Tiruchirappalli International Airport",
+            "Tiruchirapalli International Airport"
         ],
         "outbound": true
     },
@@ -94489,7 +94490,7 @@ const airports = {
     },
     "WAAA": {
         "iata": "UPG",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -5.06163,
             119.554
@@ -94497,7 +94498,7 @@ const airports = {
         "names": [
             "Sultan Hasanuddin International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WABB": {
         "iata": "BIK",
@@ -94549,15 +94550,16 @@ const airports = {
     },
     "WABI": {
         "iata": "NBX",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -3.36818,
             135.496
         ],
         "names": [
+            "Douw Aturure Airport",
             "Nabire Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WABK": {
         "iata": "KBF",
@@ -94681,7 +94683,7 @@ const airports = {
     },
     "WADB": {
         "iata": "BMU",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -8.53965,
             118.687
@@ -94689,7 +94691,7 @@ const airports = {
         "names": [
             "Sultan Muhammad Salahudin Airport (Bima Airport)"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WADD": {
         "iata": "DPS",
@@ -94707,7 +94709,7 @@ const airports = {
     },
     "WADL": {
         "iata": "LOP",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -8.75732,
             116.277
@@ -94715,11 +94717,11 @@ const airports = {
         "names": [
             "Lombok International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WADS": {
         "iata": "SWQ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -8.48904,
             117.412
@@ -94727,7 +94729,7 @@ const airports = {
         "names": [
             "Sultan Muhammad Kaharuddin III Airport (Brangbiji Airport)"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WADT": {
         "iata": "TMC",
@@ -94767,19 +94769,20 @@ const airports = {
     },
     "WADY": {
         "iata": "BWX",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -8.31015,
             114.34
         ],
         "names": [
-            "Blimbingsari Airport"
+            "Blimbingsari Airport",
+            "Banyuwangi Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAEE": {
         "iata": "TTE",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             0.831414,
             127.381
@@ -94787,23 +94790,59 @@ const airports = {
         "names": [
             "Sultan Babullah Airport"
         ],
-        "outbound": false
+        "outbound": true
+    },
+    "WAEW": {
+        "iata": "OTI",
+        "inbound": true,
+        "latlng": [
+            2.04599,
+            128.324997
+        ],
+        "names": [
+            "Leo Wattimena Airport"
+        ],
+        "outbound": true
+    },
+    "WAFB": {
+        "iata": "TRT",
+        "inbound": true,
+        "latlng": [
+            -3.185833,
+            119.91775
+        ],
+        "names": [
+            "Toraja Airport"
+        ],
+        "outbound": true
+    },
+    "WAFD": {
+        "iata": "LLO",
+        "inbound": true,
+        "latlng": [
+            -3.082997,
+            120.245018
+        ],
+        "names": [
+            "Bua Airport"
+        ],
+        "outbound": true
     },
     "WAFF": {
         "iata": "PLW",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -0.918542,
             119.91
         ],
         "names": [
-            "Mutiara Airport"
+            "Mutiara SIS Al-Jufrie Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAFJ": {
         "iata": "MJU",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -2.58333,
             119.033
@@ -94811,7 +94850,31 @@ const airports = {
         "names": [
             "Tampa Padang Airport"
         ],
-        "outbound": false
+        "outbound": true
+    },
+    "WAFW": {
+        "iata": "LUW",
+        "inbound": true,
+        "latlng": [
+            -1.035893,
+            122.773934
+        ],
+        "names": [
+            "Syukuran Aminuddin Amir Airport"
+        ],
+        "outbound": true
+    },
+    "WAGB": {
+        "iata": "HMS",
+        "inbound": true,
+        "latlng": [
+            -1.02581,
+            114.92881
+        ],
+        "names": [
+            "Haji Muhammad Sidik Airport"
+        ],
+        "outbound": true
     },
     "WAGD": {
         "iata": "TJS",
@@ -94827,7 +94890,7 @@ const airports = {
     },
     "WAGG": {
         "iata": "PKY",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -2.22513,
             113.943
@@ -94835,11 +94898,35 @@ const airports = {
         "names": [
             "Tjilik Riwut Airport"
         ],
-        "outbound": false
+        "outbound": true
+    },
+    "WAGI": {
+        "iata": "PKN",
+        "inbound": true,
+        "latlng": [
+            -2.7052,
+            111.672997
+        ],
+        "names": [
+            "Iskandar Airport"
+        ],
+        "outbound": true
+    },
+    "WAGS": {
+        "iata": "SMQ",
+        "inbound": true,
+        "latlng": [
+            -2.499198,
+            112.974987
+        ],
+        "names": [
+            "H. Asan Airport"
+        ],
+        "outbound": true
     },
     "WAHI": {
         "iata": "YIA",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -7.90534,
             110.057
@@ -94847,7 +94934,7 @@ const airports = {
         "names": [
             "Yogyakarta International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAHL": {
         "iata": "CXP",
@@ -94872,6 +94959,30 @@ const airports = {
             "Wirasaba Airport"
         ],
         "outbound": false
+    },
+    "WAHQ": {
+        "iata": "SOC",
+        "inbound": true,
+        "latlng": [
+            -7.516044,
+            110.757492
+        ],
+        "names": [
+            "Adisumarmo International Airport"
+        ],
+        "outbound": true
+    },
+    "WAHS": {
+        "iata": "SRG",
+        "inbound": true,
+        "latlng": [
+            -6.970732,
+            110.373244
+        ],
+        "names": [
+            "Achmad Yani International Airport"
+        ],
+        "outbound": true
     },
     "WAJA": {
         "iata": "ARJ",
@@ -94947,7 +95058,7 @@ const airports = {
     },
     "WAJJ": {
         "iata": "DJJ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -2.57695,
             140.516
@@ -94955,7 +95066,7 @@ const airports = {
         "names": [
             "Sentani Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAJL": {
         "iata": "LHI",
@@ -95137,6 +95248,18 @@ const airports = {
         ],
         "outbound": false
     },
+    "WALE": {
+        "iata": "GHS",
+        "inbound": true,
+        "latlng": [
+            -0.203611,
+            115.760002
+        ],
+        "names": [
+            "West Kutai Melalan Airport"
+        ],
+        "outbound": true
+    },
     "WALJ": {
         "iata": "DTD",
         "inbound": false,
@@ -95163,15 +95286,15 @@ const airports = {
     },
     "WALL": {
         "iata": "BPN",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -1.26827,
             116.894
         ],
         "names": [
-            "Sultan Aji Muhammad Sulaiman Airport"
+            "Sultan Aji Muhammad Sulaiman International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WALR": {
         "iata": "TRK",
@@ -95187,15 +95310,16 @@ const airports = {
     },
     "WALS": {
         "iata": "AAP",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -0.374448,
             117.249
         ],
         "names": [
+            "Aji Pangeran Tumenggung Pranoto Airport",
             "APT Pranoto International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WALT": {
         "iata": "TSX",
@@ -95235,7 +95359,7 @@ const airports = {
     },
     "WAMG": {
         "iata": "GTO",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             0.637119,
             122.85
@@ -95243,11 +95367,11 @@ const airports = {
         "names": [
             "Jalaluddin Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAMH": {
         "iata": "NAH",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             3.68321,
             125.528
@@ -95255,11 +95379,11 @@ const airports = {
         "names": [
             "Naha Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAMI": {
         "iata": "TLI",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             1.12343,
             120.794
@@ -95267,7 +95391,7 @@ const airports = {
         "names": [
             "Sultan Bantilan Airport (Lalos Airport)"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAMJ": {
         "iata": "GEB",
@@ -95283,19 +95407,20 @@ const airports = {
     },
     "WAMK": {
         "iata": "KAZ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             1.18528,
             127.896
         ],
         "names": [
+            "Kuabang Airport",
             "Kao Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAMM": {
         "iata": "MDC",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             1.54926,
             124.926
@@ -95303,7 +95428,7 @@ const airports = {
         "names": [
             "Sam Ratulangi International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAMN": {
         "iata": "MNA",
@@ -95379,15 +95504,16 @@ const airports = {
     },
     "WAOC": {
         "iata": "BTW",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -3.41241,
             115.995
         ],
         "names": [
-            "Batu Licin Airport"
+            "Batu Licin Airport",
+            "Bersujud Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAOI": {
         "iata": "PKN",
@@ -95400,6 +95526,18 @@ const airports = {
             "Iskandar Airport"
         ],
         "outbound": false
+    },
+    "WAOK": {
+        "iata": "KBU",
+        "inbound": true,
+        "latlng": [
+            -3.29472,
+            116.165001
+        ],
+        "names": [
+            "Gusti Syamsir Alam Airport"
+        ],
+        "outbound": true
     },
     "WAON": {
         "iata": "TJG",
@@ -95415,15 +95553,15 @@ const airports = {
     },
     "WAOO": {
         "iata": "BDJ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -3.44236,
             114.763
         ],
         "names": [
-            "Syamsudin Noor Airport"
+            "Syamsudin Noor International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAOS": {
         "iata": "SMQ",
@@ -95475,15 +95613,16 @@ const airports = {
     },
     "WAPD": {
         "iata": "DOB",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -5.77222,
             134.212
         ],
         "names": [
+            "Rar Gwamar Airport",
             "Dobo Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAPE": {
         "iata": "MAL",
@@ -95499,7 +95638,7 @@ const airports = {
     },
     "WAPF": {
         "iata": "LUV",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -5.76028,
             132.759
@@ -95507,7 +95646,7 @@ const airports = {
         "names": [
             "Karel Sadsuitubun Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAPG": {
         "iata": "NRE",
@@ -95571,7 +95710,7 @@ const airports = {
     },
     "WAPP": {
         "iata": "AMQ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -3.71026,
             128.089
@@ -95579,19 +95718,20 @@ const airports = {
         "names": [
             "Pattimura Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAPR": {
         "iata": "NAM",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -3.23557,
             127.1
         ],
         "names": [
+            "Namniwel Airport",
             "Namlea Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAPT": {
         "iata": "TAX",
@@ -95617,9 +95757,33 @@ const airports = {
         ],
         "outbound": false
     },
+    "WAQQ": {
+        "iata": "TRK",
+        "inbound": true,
+        "latlng": [
+            3.325145,
+            117.564169
+        ],
+        "names": [
+            "Juwata Airport"
+        ],
+        "outbound": true
+    },
+    "WAQT": {
+        "iata": "BEJ",
+        "inbound": true,
+        "latlng": [
+            2.1555,
+            117.431999
+        ],
+        "names": [
+            "Kalimarau Airport"
+        ],
+        "outbound": true
+    },
     "WARA": {
         "iata": "MLG",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -7.92656,
             112.715
@@ -95627,7 +95791,7 @@ const airports = {
         "names": [
             "Abdul Rachman Saleh Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WARC": {
         "iata": "CPF",
@@ -95763,7 +95927,7 @@ const airports = {
     },
     "WASF": {
         "iata": "FKQ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -2.92019,
             132.267
@@ -95771,7 +95935,7 @@ const airports = {
         "names": [
             "Fakfak Torea Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WASG": {
         "iata": "AGD",
@@ -95799,7 +95963,7 @@ const airports = {
     },
     "WASK": {
         "iata": "KNG",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -3.64452,
             133.696
@@ -95807,7 +95971,7 @@ const airports = {
         "names": [
             "Kaimana Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WASM": {
         "iata": "RDE",
@@ -95835,7 +95999,7 @@ const airports = {
     },
     "WASO": {
         "iata": "BXB",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -2.53224,
             133.439
@@ -95843,7 +96007,7 @@ const airports = {
         "names": [
             "Babo Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WASR": {
         "iata": "MKW",
@@ -95859,15 +96023,16 @@ const airports = {
     },
     "WASS": {
         "iata": "SOQ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -0.894,
             131.287
         ],
         "names": [
-            "Dominique Edward Osok Airport"
+            "Dominique Edward Osok Airport",
+            "Domine Edward Osok Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAST": {
         "iata": "TXM",
@@ -95907,19 +96072,32 @@ const airports = {
     },
     "WATA": {
         "iata": "ABU",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -9.07305,
             124.905
         ],
         "names": [
-            "A.A. Bere Tallo Airport"
+            "A.A. Bere Tallo Airport",
+            "Haliwen Airport"
         ],
-        "outbound": false
+        "outbound": true
+    },
+    "WATB": {
+        "iata": "BJW",
+        "inbound": true,
+        "latlng": [
+            -8.707435,
+            121.057427
+        ],
+        "names": [
+            "Turelelo Soa Airport"
+        ],
+        "outbound": true
     },
     "WATC": {
         "iata": "MOF",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -8.64065,
             122.237
@@ -95927,11 +96105,11 @@ const airports = {
         "names": [
             "Frans Seda Airport (Wai Oti Airport)"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WATE": {
         "iata": "ENE",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -8.84929,
             121.661
@@ -95939,7 +96117,7 @@ const airports = {
         "names": [
             "H. Hasan Aroeboesman Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WATG": {
         "iata": "RTG",
@@ -95953,9 +96131,21 @@ const airports = {
         ],
         "outbound": false
     },
+    "WATK": {
+        "iata": "TMC",
+        "inbound": true,
+        "latlng": [
+            -9.409224,
+            119.242558
+        ],
+        "names": [
+            "Lede Kalumbang Airport"
+        ],
+        "outbound": true
+    },
     "WATL": {
         "iata": "LKA",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -8.27442,
             123.002
@@ -95963,23 +96153,24 @@ const airports = {
         "names": [
             "Gewayantana Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WATM": {
         "iata": "ARD",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -8.13234,
             124.597
         ],
         "names": [
-            "Alor Island Airport"
+            "Alor Island Airport",
+            "Mali Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WATO": {
         "iata": "LBJ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -8.48666,
             119.889
@@ -95987,7 +96178,7 @@ const airports = {
         "names": [
             "Komodo Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WATR": {
         "iata": "RTI",
@@ -96015,7 +96206,7 @@ const airports = {
     },
     "WATT": {
         "iata": "KOE",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -10.1716,
             123.671
@@ -96023,7 +96214,19 @@ const airports = {
         "names": [
             "El Tari Airport"
         ],
-        "outbound": false
+        "outbound": true
+    },
+    "WATU": {
+        "iata": "WGP",
+        "inbound": true,
+        "latlng": [
+            -9.66922,
+            120.302002
+        ],
+        "names": [
+            "Umbu Mehang Kunda Airport"
+        ],
+        "outbound": true
     },
     "WATW": {
         "iata": "LWE",
@@ -96049,9 +96252,33 @@ const airports = {
         ],
         "outbound": false
     },
+    "WAUU": {
+        "iata": "MKW",
+        "inbound": true,
+        "latlng": [
+            -0.891833,
+            134.048996
+        ],
+        "names": [
+            "Rendani Airport"
+        ],
+        "outbound": true
+    },
+    "WAVD": {
+        "iata": "DEX",
+        "inbound": true,
+        "latlng": [
+            -4.8557,
+            139.482006
+        ],
+        "names": [
+            "Nop Goliat Dekai Airport"
+        ],
+        "outbound": true
+    },
     "WAVV": {
         "iata": "WMX",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -4.10251,
             138.957
@@ -96059,11 +96286,11 @@ const airports = {
         "names": [
             "Wamena Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAWB": {
         "iata": "BUW",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -5.48688,
             122.569
@@ -96071,7 +96298,7 @@ const airports = {
         "names": [
             "Betoambari Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WAWM": {
         "iata": "MXB",
@@ -96135,15 +96362,28 @@ const airports = {
     },
     "WAWW": {
         "iata": "KDI",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -4.08161,
             122.418
         ],
         "names": [
-            "Wolter Monginsidi Airport"
+            "Wolter Monginsidi Airport",
+            "Haluoleo Airport"
         ],
-        "outbound": false
+        "outbound": true
+    },
+    "WAYY": {
+        "iata": "TIM",
+        "inbound": true,
+        "latlng": [
+            -4.52978,
+            136.887388
+        ],
+        "names": [
+            "Mozes Kilangin Airport"
+        ],
+        "outbound": true
     },
     "WBB": {
         "iata": "WBB",
@@ -96219,7 +96459,7 @@ const airports = {
     },
     "WBGG": {
         "iata": "KCH",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             1.4847,
             110.347
@@ -96227,7 +96467,7 @@ const airports = {
         "names": [
             "Kuching International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WBGI": {
         "iata": "ODN",
@@ -96471,7 +96711,7 @@ const airports = {
     },
     "WBKK": {
         "iata": "BKI",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             5.93721,
             116.051
@@ -96479,7 +96719,7 @@ const airports = {
         "names": [
             "Kota Kinabalu International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WBKL": {
         "iata": "LBU",
@@ -96759,7 +96999,7 @@ const airports = {
     },
     "WIBB": {
         "iata": "PKU",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             0.460786,
             101.445
@@ -96767,7 +97007,7 @@ const airports = {
         "names": [
             "Sultan Syarif Kasim II International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIBD": {
         "iata": "DUM",
@@ -96831,7 +97071,7 @@ const airports = {
     },
     "WICA": {
         "iata": "KJT",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -6.64892,
             108.167
@@ -96839,7 +97079,7 @@ const airports = {
         "names": [
             "Kertajati International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WICC": {
         "iata": "BDO",
@@ -96891,15 +97131,15 @@ const airports = {
     },
     "WIDD": {
         "iata": "BTH",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             1.12103,
             104.119
         ],
         "names": [
-            "Hang Nadim Airport"
+            "Hang Nadim International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIDE": {
         "iata": "PPR",
@@ -96913,9 +97153,21 @@ const airports = {
         ],
         "outbound": false
     },
+    "WIDL": {
+        "iata": "LMU",
+        "inbound": true,
+        "latlng": [
+            2.96447,
+            105.75484
+        ],
+        "names": [
+            "Letung Airport"
+        ],
+        "outbound": true
+    },
     "WIDN": {
         "iata": "TNJ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             0.922683,
             104.532
@@ -96923,7 +97175,19 @@ const airports = {
         "names": [
             "Raja Haji Fisabilillah Airport"
         ],
-        "outbound": false
+        "outbound": true
+    },
+    "WIDO": {
+        "iata": "NTX",
+        "inbound": true,
+        "latlng": [
+            3.90871,
+            108.388
+        ],
+        "names": [
+            "Raden Sadjad Airport"
+        ],
+        "outbound": true
     },
     "WIDS": {
         "iata": "SIQ",
@@ -96936,6 +97200,42 @@ const airports = {
             "Dabo Singkep Airport"
         ],
         "outbound": false
+    },
+    "WIEE": {
+        "iata": "PDG",
+        "inbound": true,
+        "latlng": [
+            -0.786917,
+            100.280998
+        ],
+        "names": [
+            "Minangkabau International Airport"
+        ],
+        "outbound": true
+    },
+    "WIGG": {
+        "iata": "BKS",
+        "inbound": true,
+        "latlng": [
+            -3.8637,
+            102.338997
+        ],
+        "names": [
+            "Fatmawati Soekarno Airport"
+        ],
+        "outbound": true
+    },
+    "WIHH": {
+        "iata": "HLP",
+        "inbound": true,
+        "latlng": [
+            -6.2666101,
+            106.8909988
+        ],
+        "names": [
+            "Halim Perdanakusuma Airport"
+        ],
+        "outbound": true
     },
     "WIHP": {
         "iata": "PCB",
@@ -96986,6 +97286,18 @@ const airports = {
         ],
         "outbound": false
     },
+    "WIJJ": {
+        "iata": "DJB",
+        "inbound": true,
+        "latlng": [
+            -1.63802,
+            103.643997
+        ],
+        "names": [
+            "Sultan Thaha Airport"
+        ],
+        "outbound": true
+    },
     "WIKD": {
         "iata": "TJQ",
         "inbound": false,
@@ -97000,7 +97312,7 @@ const airports = {
     },
     "WILL": {
         "iata": "TKG",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -5.24056,
             105.176
@@ -97008,11 +97320,11 @@ const airports = {
         "names": [
             "Radin Inten II Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIMB": {
         "iata": "GNS",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             1.16638,
             97.7047
@@ -97020,7 +97332,7 @@ const airports = {
         "names": [
             "Binaka Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIME": {
         "iata": "AEG",
@@ -97048,7 +97360,7 @@ const airports = {
     },
     "WIMM": {
         "iata": "KNO",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             3.64222,
             98.8853
@@ -97056,11 +97368,11 @@ const airports = {
         "names": [
             "Kualanamu International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIMN": {
         "iata": "DTB",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             2.25973,
             98.9919
@@ -97068,7 +97380,7 @@ const airports = {
         "names": [
             "Silangit Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIMP": {
         "iata": "SIW",
@@ -97084,7 +97396,7 @@ const airports = {
     },
     "WIMS": {
         "iata": "FLZ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             1.55594,
             98.8889
@@ -97092,7 +97404,7 @@ const airports = {
         "names": [
             "Ferdinand Lumban Tobing Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIOG": {
         "iata": "NPO",
@@ -97108,7 +97420,7 @@ const airports = {
     },
     "WIOK": {
         "iata": "KTG",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -1.81664,
             109.963
@@ -97116,7 +97428,7 @@ const airports = {
         "names": [
             "Rahadi Osman Airport (Ketapang Airport)"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIOM": {
         "iata": "MWK",
@@ -97144,7 +97456,7 @@ const airports = {
     },
     "WIOO": {
         "iata": "PNK",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -0.150711,
             109.404
@@ -97152,11 +97464,11 @@ const airports = {
         "names": [
             "Supadio Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIOP": {
         "iata": "PSU",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             0.835578,
             112.937
@@ -97164,11 +97476,11 @@ const airports = {
         "names": [
             "Pangsuma Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIOS": {
         "iata": "SQG",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             0.063619,
             111.473
@@ -97176,7 +97488,7 @@ const airports = {
         "names": [
             "Sintang Airport (Susilo Airport)"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIPA": {
         "iata": "DJB",
@@ -97192,7 +97504,7 @@ const airports = {
     },
     "WIPB": {
         "iata": "LLJ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -3.28,
             102.917
@@ -97200,7 +97512,7 @@ const airports = {
         "names": [
             "Silampari Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIPH": {
         "iata": "KRC",
@@ -97228,7 +97540,7 @@ const airports = {
     },
     "WIPK": {
         "iata": "PGK",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -2.1622,
             106.139
@@ -97236,7 +97548,7 @@ const airports = {
         "names": [
             "Depati Amir Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIPL": {
         "iata": "BKS",
@@ -97252,7 +97564,7 @@ const airports = {
     },
     "WIPP": {
         "iata": "PLM",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             -2.89825,
             104.7
@@ -97260,7 +97572,7 @@ const airports = {
         "names": [
             "Sultan Mahmud Badaruddin II International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WIPQ": {
         "iata": "PDO",
@@ -97324,15 +97636,15 @@ const airports = {
     },
     "WITC": {
         "iata": "MEQ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
-            4.25,
-            96.217
+            4.043717,
+            96.250836
         ],
         "names": [
             "Cut Nyak Dhien Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WITL": {
         "iata": "LSX",
@@ -97348,7 +97660,7 @@ const airports = {
     },
     "WITM": {
         "iata": "LSW",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             5.22668,
             96.9503
@@ -97356,7 +97668,7 @@ const airports = {
         "names": [
             "Malikus Saleh Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WITN": {
         "iata": "SBG",
@@ -97372,7 +97684,7 @@ const airports = {
     },
     "WITT": {
         "iata": "BTJ",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             5.52287,
             95.4206
@@ -97380,7 +97692,7 @@ const airports = {
         "names": [
             "Sultan Iskandar Muda International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WJA": {
         "iata": "WJA",
@@ -97528,7 +97840,7 @@ const airports = {
     },
     "WMKC": {
         "iata": "KBR",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             6.16685,
             102.293
@@ -97536,7 +97848,7 @@ const airports = {
         "names": [
             "Sultan Ismail Petra Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WMKD": {
         "iata": "KUA",
@@ -97576,7 +97888,7 @@ const airports = {
     },
     "WMKJ": {
         "iata": "JHB",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             1.64131,
             103.67
@@ -97584,7 +97896,7 @@ const airports = {
         "names": [
             "Senai International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WMKK": {
         "iata": "KUL",
@@ -97600,7 +97912,7 @@ const airports = {
     },
     "WMKL": {
         "iata": "LGK",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             6.32973,
             99.7287
@@ -97608,7 +97920,7 @@ const airports = {
         "names": [
             "Langkawi International Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "WMKM": {
         "iata": "MKZ",
