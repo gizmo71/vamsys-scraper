@@ -22,6 +22,7 @@ const aircraft = [
     "BCS1",
     "BCS3",
     "C208",
+    "C919",
     "DC3",
     "E170",
     "E175",
