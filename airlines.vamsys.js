@@ -427,9 +427,9 @@ const airlines = {
             "ENY",
             "RPA"
         ],
-        "last_pirep_start": "2024-08-21T13:46:56.000000Z",
+        "last_pirep_start": "2024-09-18T14:22:40.000000Z",
         "name": "American",
-        "rank_info": "Bonus points not included in normal points total\nRegional First Officer:\n\t+47.8 Hours (44.1 PIREPs)\n\t+980.0 Points (3.8 PIREPs)\nRegional Captain:\n\t+147.8 Hours (136.3 PIREPs)\n\t+3980.0 Points (15.3 PIREPs)\n\t+450.0 Bonus Points (18.0 PIREPs)\nFirst Officer Short Haul:\n\t+197.8 Hours (182.4 PIREPs)\n\t+5480.0 Points (21.1 PIREPs)\n\t+950.0 Bonus Points (38.0 PIREPs)\nFirst Officer Long Haul:\n\t+297.8 Hours (274.5 PIREPs)\n\t+8480.0 Points (32.6 PIREPs)\n\t+2450.0 Bonus Points (98.0 PIREPs)\nCaptain:\n\t+397.8 Hours (366.7 PIREPs)\n\t+9980.0 Points (38.4 PIREPs)\n\t+5450.0 Bonus Points (218.0 PIREPs)\nTraining Captain:\n\t+497.8 Hours (458.9 PIREPs)\n\t+11480.0 Points (44.2 PIREPs)\n\t+6950.0 Bonus Points (278.0 PIREPs)\nChief Pilot:\n\t+747.8 Hours (689.3 PIREPs)\n\t+16480.0 Points (63.4 PIREPs)\n\t+8950.0 Bonus Points (358.0 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nRegional First Officer:\n\t+46.0 Hours (34.3 PIREPs)\n\t+745.0 Points (3.0 PIREPs)\nRegional Captain:\n\t+146.0 Hours (108.9 PIREPs)\n\t+3745.0 Points (14.9 PIREPs)\n\t+450.0 Bonus Points (27.0 PIREPs)\nFirst Officer Short Haul:\n\t+196.0 Hours (146.2 PIREPs)\n\t+5245.0 Points (20.8 PIREPs)\n\t+950.0 Bonus Points (57.0 PIREPs)\nFirst Officer Long Haul:\n\t+296.0 Hours (220.8 PIREPs)\n\t+8245.0 Points (32.8 PIREPs)\n\t+2450.0 Bonus Points (147.0 PIREPs)\nCaptain:\n\t+396.0 Hours (295.4 PIREPs)\n\t+9745.0 Points (38.7 PIREPs)\n\t+5450.0 Bonus Points (327.0 PIREPs)\nTraining Captain:\n\t+496.0 Hours (370.0 PIREPs)\n\t+11245.0 Points (44.7 PIREPs)\n\t+6950.0 Bonus Points (417.0 PIREPs)\nChief Pilot:\n\t+746.0 Hours (556.5 PIREPs)\n\t+16245.0 Points (64.5 PIREPs)\n\t+8950.0 Bonus Points (537.0 PIREPs)\nTime mode: air",
         "sortName": "American"
     }
 };
