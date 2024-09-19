@@ -208,9 +208,9 @@ const airlines = {
             "MAC",
             "RBG"
         ],
-        "last_pirep_start": "2024-08-31T13:42:16.000000Z",
+        "last_pirep_start": "2024-09-19T14:31:56.000000Z",
         "name": "Air Arabia",
-        "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+49.0 Hours (51.6 PIREPs)\n\t+2805.0 Points (2.3 PIREPs)\nFirst Officer:\n\t+149.0 Hours (156.8 PIREPs)\n\t+12805.0 Points (10.7 PIREPs)\nSenior First Officer:\n\t+299.0 Hours (314.7 PIREPs)\n\t+26305.0 Points (22.0 PIREPs)\nCaptain:\n\t+599.0 Hours (630.4 PIREPs)\n\t+58805.0 Points (49.2 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points count towards normal points total\nSecond Officer:\n\t+47.0 Hours (31.3 PIREPs)\n\t+2470.0 Points (3.2 PIREPs)\nFirst Officer:\n\t+147.0 Hours (98.0 PIREPs)\n\t+12470.0 Points (16.3 PIREPs)\nSenior First Officer:\n\t+297.0 Hours (198.0 PIREPs)\n\t+25970.0 Points (33.9 PIREPs)\nCaptain:\n\t+597.0 Hours (398.0 PIREPs)\n\t+58470.0 Points (76.4 PIREPs)\nTime mode: block",
         "sortName": "Arabia"
     },
     "439": {
