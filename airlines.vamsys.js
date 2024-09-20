@@ -78,6 +78,19 @@ const airlines = {
         },
         "sortName": "Lingus"
     },
+    "35": {
+        "callsigns": [
+            "BAW",
+            "CAW",
+            "CFE",
+            "EFW",
+            "SHT"
+        ],
+        "last_pirep_start": "2024-09-01T07:58:18.000000Z",
+        "name": "British Airways",
+        "rank_info": "Bonus points count towards normal points total\nFirst Officer:\n\t+73.1 Hours (52.1 PIREPs)\n\t+4737.0 Points (24.1 PIREPs)\nSenior First Officer:\n\t+248.1 Hours (176.9 PIREPs)\n\t+20237.0 Points (103.1 PIREPs)\nCaptain:\n\t+548.1 Hours (390.8 PIREPs)\n\t+52737.0 Points (268.7 PIREPs)\nTraining Captain:\n\t+948.1 Hours (676.0 PIREPs)\n\t+92737.0 Points (472.4 PIREPs)\nBase Captain:\n\t+1948.1 Hours (1389.0 PIREPs)\n\t+192737.0 Points (981.9 PIREPs)\nTime mode: block",
+        "sortName": "British Airways"
+    },
     "42": {
         "callsigns": [
             "WAZ",

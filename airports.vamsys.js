@@ -18149,6 +18149,7 @@ const airports = {
         "names": [
             "John Paul II International Airport Krakow-Balice",
             "Krakow John Paul II Internatinal Airport",
+            "Krak\u00c3\u00b3w John Paul II International",
             "Krakau"
         ],
         "outbound": true
@@ -26154,7 +26155,7 @@ const airports = {
             -9.41307
         ],
         "names": [
-            "Agadir Al Massira Airport"
+            "Agadir Al-Massira International Airport"
         ],
         "outbound": true
     },
@@ -31805,6 +31806,7 @@ const airports = {
         ],
         "names": [
             "Austin Bergstrom International Airport",
+            "Austin-Bergstrom Intl (TX)",
             "Austin, TX"
         ],
         "outbound": true
@@ -32882,6 +32884,7 @@ const airports = {
         "names": [
             "General Edward Lawrence Logan International Airport",
             "Boston Logan International Airport",
+            "Logan International (MA)",
             "Boston, MA"
         ],
         "outbound": true
@@ -35128,7 +35131,8 @@ const airports = {
             -104.673
         ],
         "names": [
-            "Denver International Airport"
+            "Denver International Airport",
+            "Denver International (CO)"
         ],
         "outbound": true
     },
@@ -35154,6 +35158,7 @@ const airports = {
         "names": [
             "Dallas Fort Worth International Airport",
             "Dallas-Ft Worth International",
+            "Dallas Ft Worth (TX) (Dallas)",
             "Dallas/Fort Worth, TX",
             "Dallas/Forth Worth",
             "Dallas-Ft. Worth"
@@ -40059,7 +40064,8 @@ const airports = {
         ],
         "names": [
             "New York John F. Kennedy International Airport",
-            "New York JFK International Airport"
+            "New York JFK International Airport",
+            "John F Kennedy International"
         ],
         "outbound": true
     },
@@ -40409,6 +40415,7 @@ const airports = {
         ],
         "names": [
             "Las Vegas Harry Reid International Airport",
+            "McCarran International",
             "Las Vegas, NV"
         ],
         "outbound": true
@@ -50532,6 +50539,7 @@ const airports = {
             2.07846
         ],
         "names": [
+            "Josep Tarradellas Barcelona\u00e2\u0080\u0093El Prat",
             "Barcelona El Prat Intl Airport"
         ],
         "outbound": true
@@ -50716,7 +50724,8 @@ const airports = {
             -4.49911
         ],
         "names": [
-            "Malaga Costa Del Sol Airport"
+            "Malaga Costa Del Sol Airport",
+            "M\u00c3\u00a1laga"
         ],
         "outbound": true
     },
@@ -50846,7 +50855,7 @@ const airports = {
     },
     "LESO": {
         "iata": "EAS",
-        "inbound": false,
+        "inbound": true,
         "latlng": [
             43.3565,
             -1.79061
@@ -50854,7 +50863,7 @@ const airports = {
         "names": [
             "San Sebastian Airport"
         ],
-        "outbound": false
+        "outbound": true
     },
     "LEST": {
         "iata": "SCQ",
@@ -51531,7 +51540,8 @@ const airports = {
             5.88023
         ],
         "names": [
-            "Chambery-Savoie Airport"
+            "Chambery-Savoie Airport",
+            "Chambery Aix-les-Bains"
         ],
         "outbound": true
     },
@@ -51775,6 +51785,7 @@ const airports = {
         "names": [
             "Nice Cote d'Azur Airport",
             "Nice Cote D' Azur",
+            "Nice C\u00c3\u00b4te d'Azur",
             "Nizza"
         ],
         "outbound": true
@@ -51823,7 +51834,8 @@ const airports = {
             3.96301
         ],
         "names": [
-            "Montpellier-Mediterranee Airport (Frejorgues Airport)"
+            "Montpellier-Mediterranee Airport (Frejorgues Airport)",
+            "Montpellier\u2013M\u00e9diterran\u00e9e"
         ],
         "outbound": true
     },
@@ -52357,7 +52369,8 @@ const airports = {
         ],
         "names": [
             "Basel Mulhouse-Freiburg EuroAirport",
-            "Basle-Mulhouse"
+            "Basle-Mulhouse",
+            "Basel (Basel)"
         ],
         "outbound": true
     },
@@ -52944,6 +52957,7 @@ const airports = {
         "names": [
             "Rhodes International Airport",
             "Rhodes Diagoras Airport",
+            "Rhodes Diogaras",
             "Rhodos"
         ],
         "outbound": true
@@ -53067,7 +53081,8 @@ const airports = {
             22.9709
         ],
         "names": [
-            "Thessaloniki Macedonia International Airport"
+            "Thessaloniki Macedonia International Airport",
+            "Thessolaniki"
         ],
         "outbound": true
     },
@@ -53953,7 +53968,8 @@ const airports = {
         ],
         "names": [
             "Ljubljana Joze Pucnik Airport (Brnik Airport)",
-            "Brink, Ljunljana, Slovenia"
+            "Brink, Ljunljana, Slovenia",
+            "Ljubijana"
         ],
         "outbound": true
     },
@@ -54123,7 +54139,8 @@ const airports = {
         ],
         "names": [
             "Prague Vaclav Havel Airport",
-            "Prague Ruzyne"
+            "Prague Ruzyne",
+            "V\u00c3\u00a1clav Havel"
         ],
         "outbound": true
     },
@@ -56147,7 +56164,7 @@ const airports = {
             29.3092
         ],
         "names": [
-            "Istanbul Sabiha G\u00f6k\u00e7en International Airport"
+            "Istanbul Sabiha Gokcen International Airport"
         ],
         "outbound": true
     },
@@ -75619,7 +75636,8 @@ const airports = {
         ],
         "names": [
             "Galeao-Antonio Carlos Jobim International Airport",
-            "Rio de Janeiro Galeao International Airport"
+            "Rio de Janeiro Galeao International Airport",
+            "Rio de Janeiro Intl (Int)"
         ],
         "outbound": true
     },
@@ -84572,6 +84590,7 @@ const airports = {
         ],
         "names": [
             "Bridgetown Grantley Adams International Airport",
+            "Grantley Adams Barbados",
             "Bridgetown, Barbados"
         ],
         "outbound": true
@@ -89813,7 +89832,8 @@ const airports = {
         ],
         "names": [
             "Chhatrapati Shivaji Maharaj International Airport",
-            "Mumbai Chhatrapati Shivaji International Airport"
+            "Mumbai Chhatrapati Shivaji International Airport",
+            "Chhatrapati Shivaji Maharaj Intl (Mumbai)"
         ],
         "outbound": true
     },
