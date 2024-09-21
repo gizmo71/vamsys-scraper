@@ -177,9 +177,9 @@ const airlines = {
             "CPA",
             "CSZ"
         ],
-        "last_pirep_start": "2024-08-24T09:13:07.000000Z",
+        "last_pirep_start": "2024-09-21T06:41:13.000000Z",
         "name": "Air China",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+25.1 Hours (16.1 PIREPs)\n\t+1740.0 Points (12.3 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+125.1 Hours (80.4 PIREPs)\n\t+11740.0 Points (83.1 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+275.1 Hours (176.8 PIREPs)\n\t+25240.0 Points (178.7 PIREPs)\nCaptain / \u673a\u957f:\n\t+575.1 Hours (369.7 PIREPs)\n\t+57740.0 Points (408.8 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+975.1 Hours (626.8 PIREPs)\n\t+97740.0 Points (692.0 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1975.1 Hours (1269.6 PIREPs)\n\t+197740.0 Points (1399.9 PIREPs)\nTime mode: block",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer / \u7b2c\u4e8c\u526f\u9a7e\u9a76:\n\t+22.6 Hours (14.0 PIREPs)\n\t+1740.0 Points (13.1 PIREPs)\nFirst Officer / \u7b2c\u4e00\u526f\u9a7e\u9a76:\n\t+122.6 Hours (76.0 PIREPs)\n\t+11740.0 Points (88.3 PIREPs)\nSenior First Officer / \u8d44\u6df1\u526f\u9a7e\u9a76:\n\t+272.6 Hours (169.1 PIREPs)\n\t+25240.0 Points (189.9 PIREPs)\nCaptain / \u673a\u957f:\n\t+572.6 Hours (355.2 PIREPs)\n\t+57740.0 Points (434.3 PIREPs)\nTraining Captain / \u98de\u884c\u6559\u5458:\n\t+972.6 Hours (603.3 PIREPs)\n\t+97740.0 Points (735.2 PIREPs)\nFleet Captain / \u98de\u884c\u5927\u961f\u961f\u957f:\n\t+1972.6 Hours (1223.6 PIREPs)\n\t+197740.0 Points (1487.4 PIREPs)\nTime mode: block",
         "sortName": "China"
     },
     "291": {
