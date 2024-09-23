@@ -429,9 +429,9 @@ const airlines = {
             "LPE",
             "TAM"
         ],
-        "last_pirep_start": "2024-08-23T14:18:21.000000Z",
+        "last_pirep_start": "2024-09-22T18:13:40.000000Z",
         "name": "Latam Virtual",
-        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+48.8 Hours (39.1 PIREPs)\n\t+3780.0 Points (17.2 PIREPs)\nFirst Officer:\n\t+148.8 Hours (119.2 PIREPs)\n\t+13780.0 Points (62.6 PIREPs)\nSenior First Officer:\n\t+298.8 Hours (239.3 PIREPs)\n\t+27280.0 Points (124.0 PIREPs)\nCaptain:\n\t+598.8 Hours (479.6 PIREPs)\n\t+59780.0 Points (271.7 PIREPs)\nTraining Captain:\n\t+998.8 Hours (800.1 PIREPs)\n\t+99780.0 Points (453.5 PIREPs)\nBase Captain:\n\t+1998.8 Hours (1601.1 PIREPs)\n\t+199780.0 Points (908.1 PIREPs)\nTime mode: air",
+        "rank_info": "Bonus points not included in normal points total\nSecond Officer:\n\t+47.6 Hours (39.2 PIREPs)\n\t+3610.0 Points (18.5 PIREPs)\nFirst Officer:\n\t+147.6 Hours (121.7 PIREPs)\n\t+13610.0 Points (69.8 PIREPs)\nSenior First Officer:\n\t+297.6 Hours (245.4 PIREPs)\n\t+27110.0 Points (139.0 PIREPs)\nCaptain:\n\t+597.6 Hours (492.8 PIREPs)\n\t+59610.0 Points (305.7 PIREPs)\nTraining Captain:\n\t+997.6 Hours (822.7 PIREPs)\n\t+99610.0 Points (510.8 PIREPs)\nBase Captain:\n\t+1997.6 Hours (1647.5 PIREPs)\n\t+199610.0 Points (1023.6 PIREPs)\nTime mode: block",
         "sortName": "Latam Virtual"
     },
     "2083": {
