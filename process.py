@@ -1,5 +1,6 @@
 import codecs
 import csv
+import elementpath
 import geopy.distance
 import json
 import logging
@@ -37,14 +38,15 @@ logging.setLoggerClass(DeduplicatingLogger)
 airline_mappings = {
     'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'sort_name':'Lingus', 'type_mapping':
         {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'}},
-    'American Airlines Virtual '       :{'display_name':'American'},
+    'American Airlines Virtual'        :{'display_name':'American'},
     'vABY'                             :{'display_name':'Air Arabia', 'sort_name': 'Arabia'},
     'ANZ Virtual'                      :{'display_name':'Air New Zealand', 'sort_name':'New Zealand'},
     'vANA'                             :{'display_name':'All Nippon', 'sort_name':'Nippon'},
     'Avion Virtual'                    :{'display_name':'Avion'},
+    'Azul Virtual'                     :{'display_name':'Azul'},
     'vBAW'                             :{'display_name':'British Airways', 'type_mapping':{'B48F':'B748'}},
     'Virtual Air China'                :{'display_name':'Air China', 'sort_name':'China', 'type_mapping':{'BBJ1':'B737'}},
-    'Dan Air Virtual'                  :{'display_name':'Dan Air', 'type_mapping':{'A333':'A339'}}, # Removed {'A320':'A20N'}, look into LatinVFR
+    'Dan Air Virtual'                  :{'display_name':'Dan Air', 'type_mapping':{'A333':'A339'}},
     'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3', 'A313':'A310', 'E175':'E75L'}}, # Mappings questionable...
     'VEZY'                             :{'display_name':'EasyJet'},
     'vEWG'                             :{'display_name':'Eurowings'},
@@ -54,10 +56,11 @@ airline_mappings = {
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
     'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
     'Jetstar Virtual'                  :{'display_name':'JetStar'},
+    'Latam Virtual'                    :{'display_name':'Latam'},
     'Lion Group Virtual'               :{'display_name':'Lion Group', 'type_mapping':{'AT75':'AT76'}}, # Don't think there's really a -500 for MSFS.
     'LH-Virtual'                       :{'display_name':'Lufthansa', 'type_mapping':{'A21F':'A321'}},
     'VQFA'                             :{'display_name':'Qantas'},
-    'Oryx'                             :{'display_name':'Oryx (Qatar)', 'sort_name': 'Qatar'},
+    'Oryx Virtual'                     :{'display_name':'Oryx (Qatar)', 'sort_name': 'Qatar'},
     'vRYR'                             :{'display_name':'Ryanair'},
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
     'vspirit'                          :{'display_name':'Spirit', 'type_mapping':{'A21N':'-'}},
@@ -77,7 +80,7 @@ exclude_types = set(['AT45', 'AT72', 'AJ27', 'B703', 'B712', 'B720', 'B721', 'B7
                      'B732', 'B733', 'B734', 'B735', 'B736', 'B737', 'B738', 'B739', 'B37M', 'B39M',
                      'B742', 'B744', 'B762',  'B772', 'B773', 'B77L', 'B77W', 'B77F',
                      'B752', 'B753', 'B763', 'B764',
-                     'B788', 'B789', 'B78X',
+                     'B788', 'B789', 'B78X', 'C919',
                      'CONC', 'CRJ2', 'CRJ5', 'CRJ7', 'CRJ9', 'CRJX', 'DC4', 'DC6', 'DC7', 'DC10', 'DH8B', 'DH8C', 'DH8D',
                      'E145', #'E170', 'E75L', 'E75S', 'E190', 'E195',
                      'F28', 'F50', 'F100', 'JU52', 'L101', 'MD11', 'MD80', 'MD81', 'MD82', 'MD83', 'MD87', 'MD88', 'MD90',
@@ -97,6 +100,19 @@ def hours_or_points(s):
     return float(regex.sub(r'(\d+):(\d\d):(\d\d)', parse_hours, s))
 
 rank_criteria = {"Hours": 3, "Points": 4, "Bonus Points": 5}
+
+def parse_pirep(html):
+    div = etree.HTML(html)
+    sub_ts_text = div.xpath("normalize-space(//div[normalize-space(p) = 'Submitted']//h5)")
+    sub_ts_text = regex.sub(r'(\d)(st|nd|rd|th) ', r'\1 ', sub_ts_text)
+    return {'submitted_timestamp': datetime.strptime(sub_ts_text, '%d %b %y %H:%M')}
+
+def parse_pirep_per(html):
+    div = etree.HTML(html)
+    days_expr = r'1 PIREP every (\d+) days'
+    days = elementpath.select(div, f"normalize-space(//div[normalize-space(h5) = 'Required Activity:']/p)")
+    days = regex.search(days_expr, days).group(1) if days else None
+    return int(days) if days else None
 
 def rank_info(html, time_mode):
     div = etree.HTML(html)
@@ -210,18 +226,27 @@ def time_mode(last_pirep):
         return "block"
     raise ValueError(f"Couldn't match flight_length {flight_length} against air {air_time} or block {block_time} time for {last_pirep['booking']['callsign']} with pauses in block {block_paused}s/air {air_paused}s")
 
+#TODO: "events" under "dashboard" too - but lacking any real detail
 
 for file in glob('vamsys.*.json'):
     print(file)
     with open(file, 'r') as f:
         airline = json.load(f)
-    airline_id = airline['airline']['id']
-    airline_mapping = airline_mappings.get(airline['airline']['name'], {})
-    airlines[airline_id] = {'name': airline_mapping.get('display_name', airline['airline']['name']), 'callsigns': []}
+    airline_id = airline['id']
+    airline_name = regex.search(r'>\nEdit Your (.+?) Settings\n<', airline['profile']).group(1)
+    airline_mapping = airline_mappings.get(airline_name, {})
+    airlines[airline_id] = {'name': airline_mapping.get('display_name', airline_name), 'callsigns': []}
     airlines[airline_id]['sortName'] = airline_mapping.get('sort_name', airlines[airline_id]['name'])
-    all_pireps = airline['pireps']['pireps']
-    completed_pireps = [pirep for pirep in all_pireps if pirep['status'] in set(['complete', 'accepted', 'failed'])]
-    if airline['airline']['activity_requirements']:
+    #all_pireps = airline['pireps']['pireps']
+    #completed_pireps = [pirep for pirep in all_pireps if pirep['status'] in set(['complete', 'accepted', 'failed'])]
+    pirep_per = parse_pirep_per(airline['profile'])
+    last_pirep = parse_pirep(airline['latest_pirep'])
+    airlines[airline_id]['last_pirep_start'] = f"{last_pirep['submitted_timestamp']}"
+    if pirep_per:
+        airlines[airline_id]['requirements'] = {'details':f"1 PIREP(s) required over pirep_per days"}
+        req_pirep_timestamp = last_pirep['submitted_timestamp'] + timedelta(days=pirep_per)
+        airlines[airline_id]['requirements']['target_date'] = f"{req_pirep_timestamp.isoformat()}"
+    if 0 and airline['airline']['activity_requirements']:
         if not airline['airline']['activity_requirement_type_pireps']:
             raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
         pirep_timestamps = [datetime.fromisoformat(pirep['pirep_end_time']) for pirep in reversed(completed_pireps[:airline['airline']['activity_requirement_value']])]
@@ -229,11 +254,10 @@ for file in glob('vamsys.*.json'):
         airlines[airline_id]['requirements'] = {'details':f"{airline['airline']['activity_requirement_value']} PIREP(s) required over {airline['airline']['activity_requirement_period']} days"}
         airlines[airline_id]['requirements']['details'] += f"\nNext {airline['airline']['activity_requirement_value']} PIREP(s) required by {', '.join([f'{t.date()}' for t in req_pirep_timestamps])}"
         airlines[airline_id]['requirements']['target_date'] = f"{max(req_pirep_timestamps).isoformat()}"
-    last_pirep = all_pireps[0]
-    airlines[airline_id]['rank_info'] = rank_info(airline['ranks_html'], time_mode(last_pirep))
-    airlines[airline_id]['last_pirep_start'] = last_pirep['pirep_start_time']
+    airlines[airline_id]['rank_info'] = 'TODO' #rank_info(airline['ranks_html'], time_mode(last_pirep))
     type_mapping = airline_mapping.get('type_mapping', {})
-    for route in airline['map']['routes']:
+    if 0:
+      for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
         for dest in route['destinations']:
             to_latlon = (dest['latitude'], dest['longitude'])

@@ -6,8 +6,8 @@ import re
 import selenium.common.exceptions
 import sys
 
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromiumService
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -30,30 +30,37 @@ class ExitHooks(object):
         atexit.register(self.driver_quit)
     def excepthook(self, exception_type, exception, *args):
         if driver:
-            print(f"--- page start --- {driver.current_url}", driver.page_source, '--- page end ---', sep='\n')
+            #TODO: dump just a small bit to stdout and the whole thing to a file
+            with open(f'unprocessable.html', 'w', encoding="utf-8") as f:
+                f.write(f"<!-- Error processing {driver.current_url} -->\n")
+                f.write(driver.page_source)
+            for request in filter(lambda req: req.response, driver.requests):
+                print(f"\t{request.url} {type(request.response.body)} {request.response.headers.get('Content-Type', 'none')}")
         self.original_excepthook(exception_type, exception, args)
     def driver_quit(self):
         driver.quit()
 
 logging.basicConfig(stream=sys.stdout)
-#logging.getLogger("selenium").setLevel(logging.DEBUG)
+#logging.getLogger("selenium.webdriver.remote.remote_connection").setLevel(logging.DEBUG)
 
 options = Options()
-options.add_argument("--headless=new")
+options.add_argument("--headless")
 options.add_argument("--no-sandbox") # Only needed to run as root
-driver_manager = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
-driver = webdriver.Chrome(service=ChromiumService(driver_manager), options=options, seleniumwire_options={'request_storage': 'memory'})
+options.add_argument('--disable-dev-shm-usage')
+service = Service()
+driver = webdriver.Firefox(options=options, service=service)
+driver.set_page_load_timeout(60)
 driver.set_window_size(1280, 768)
-driver.scopes = [ '.*/api/v1/.*' ]
+driver.scopes = [ r'^https://(cdn.vamsys.xyz|vamsys\.io)/(?!livewire/update|broadcasting/auth)' ]
 
 ExitHooks()
 
 driver.get("https://vamsys.io/login")
 
-username_box = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.ID, value="email"))
+username_box = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.ID, value="emailaddress"))
 password_box = driver.find_element(by=By.ID, value="password")
-remember_me_checkbox = driver.find_element(by=By.ID, value="remember-me")
-sign_in_button = driver.find_element(by=By.XPATH, value="//div/button[@type='submit' and normalize-space()='Sign in']")
+remember_me_checkbox = driver.find_element(by=By.ID, value="checkbox-signin")
+sign_in_button = driver.find_element(by=By.XPATH, value="//div/button[@type='submit' and normalize-space()='Sign In']")
 
 username_box.send_keys(config["username"])
 password_box.send_keys(config["password"])
@@ -70,17 +77,9 @@ def handle_destinations(driver):
         body = body.decode("utf-8")
         if request.url == 'https://vamsys.io/api/v1/airline':
             airline = json.loads(body)
-        if request.url == 'https://vamsys.io/api/v1/destinations/map':
+        elif request.url == 'https://vamsys.io/api/v1/destinations/map':
             map = json.loads(body)
     return {'airline':airline, 'map':map} if airline and map else None
-
-def handle_dashboard(driver):
-    for request in filter(lambda req: req.response, driver.requests):
-        body = sw_decode(request.response.body, request.response.headers.get('Content-Encoding', 'identity'))
-        body = body.decode("utf-8")
-        if request.url == 'https://vamsys.io/api/v1/dashboard':
-            return json.loads(body)
-    return None
 
 def handle_pireps(driver):
     for request in filter(lambda req: req.response, driver.requests):
@@ -89,43 +88,48 @@ def handle_pireps(driver):
         if request.url == 'https://vamsys.io/api/v1/pilot/pireps':
             return json.loads(body)
 
+sleep(1)
+driver.get("https://vamsys.io/select")
+
 # Or something from https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
-pilot_id_elements = WebDriverWait(driver, 30).until(lambda d: d.find_elements(by=By.XPATH, value="//div[.//p[text()='PIREPs Filed']]/dl/dd/div/button[./i[@class='fal fa-plane-departure']]"))
-all_pilot_ids = list(map(lambda e: e.text, pilot_id_elements))
-print(f'All pilot_ids: {all_pilot_ids}')
-pilot_ids = args.pilot_ids or all_pilot_ids
+pilot_id_elements = WebDriverWait(driver, 30).until(lambda d: d.find_elements(by=By.XPATH, value="//button[starts-with(@*, 'login(')]"))
+all_pilot_ids = list(map(lambda e: e.text.strip(), pilot_id_elements))
+print(*(['All pilot_ids:'] + all_pilot_ids))
+pilot_ids = args.pilot_ids or [id for id in all_pilot_ids if id not in ['suppress']]
 unknown_ids = set(pilot_ids) - set(all_pilot_ids)
 if unknown_ids:
     raise ValueError(f"Unknown airlines: {unknown_ids}; known airlines are {all_pilot_ids}")
-print(f'filtered: {pilot_ids}')
+print(*(['filtered:'] + pilot_ids))
 
 for pilot_id in pilot_ids:
     del driver.requests
+    airline_and_map = {}
 
     print(pilot_id)
-    xpath = f"//button[normalize-space() = '{pilot_id}']//ancestor::div[2]"
+    xpath = f"//button[normalize-space() = '{pilot_id}']"
     pilot_id_element = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value=xpath))
-    driver.execute_script("arguments[0].scrollIntoView();", pilot_id_element)
-    pilot_id_element.click()
+    driver.execute_script("arguments[0].click();", pilot_id_element)
 
-    dashboard_json = WebDriverWait(driver, 30).until(handle_dashboard)
-
+    profile_link = WebDriverWait(driver, 60).until(lambda d: d.find_element(by=By.XPATH, value="//a[./span[normalize-space() = 'Your Profile']]")).get_attribute('href')
+    airline_and_map['id'] = re.search(r'https://vamsys.io/phoenix/profile/([A-Z]{3})(\d+)/\1\d+', profile_link).group(2)
+    sleep(2)
+    driver.get(profile_link)
+    airline_and_map['profile'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//main/div")).get_attribute('outerHTML')
+    # We can grab the latest PIREP even if invalidated for the purposes of block/air time check.
+    # We need latest "Accepted" or "Rejected" for non-participation requirements VAs, but(?) must be Accepted for those with "PIREPs per" requirements.
+    pirep_link = WebDriverWait(driver, 5).until(lambda d: d.find_element(by=By.XPATH, value="//table[thead/tr/th//span[normalize-space() = 'Status']]/tbody/tr/td//a")).get_attribute('href')
     sleep(1)
-    driver.get("https://vamsys.io/destinations")
-    airline_and_map = WebDriverWait(driver, 30).until(handle_destinations)
-    airline_and_map['dashboard'] = dashboard_json
+    driver.get(pirep_link)
 
-    sleep(1)
-    driver.get("https://vamsys.io/pireps")
-    airline_and_map['pireps'] = WebDriverWait(driver, 30).until(handle_pireps)
+    airline_and_map['latest_pirep'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@class='card' and .//h4[normalize-space() = 'Flight Details']]")).get_attribute('outerHTML')
 
-    sleep(1)
-    driver.get("https://vamsys.io/documents/ranks")
-    airline_and_map['ranks_html'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@id = 'app']")).get_attribute('outerHTML')
+    sleep(2)
+    driver.get("https://vamsys.io/phoenix/flight-center/pireps")
+    airline_and_map['pireps'] = WebDriverWait(driver, 5).until(lambda d: d.find_element(by=By.XPATH, value="//table")).get_attribute('outerHTML')
+
     driver.save_screenshot(f"vamsys.{pilot_id}.png")
 
     with open(f'vamsys.{pilot_id}.json', 'w', encoding="utf-8") as f:
         json.dump(airline_and_map, f, indent=4)
-
     sleep(1)
     driver.get("https://vamsys.io/select") # Back to the airline selection page for the next airline.
