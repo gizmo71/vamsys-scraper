@@ -176,7 +176,7 @@ const airlines = {
     },
     "550": {
         "callsigns": [],
-        "last_pirep_start": "2024-09-01 07:46:00",
+        "last_pirep_start": "2024-10-06 10:59:00",
         "name": "SAS",
         "rank_info": "TODO",
         "sortName": "SAS"
