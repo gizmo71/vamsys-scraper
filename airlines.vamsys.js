@@ -33,7 +33,7 @@ const airlines = {
         "name": "Azul",
         "rank_info": "TODO",
         "requirements": {
-            "details": "1 PIREP(s) required over pirep_per days",
+            "details": "1 PIREP(s) required over 60 days",
             "target_date": "2024-11-27T14:24:00"
         },
         "sortName": "Azul"
@@ -44,7 +44,7 @@ const airlines = {
         "name": "JetStar",
         "rank_info": "TODO",
         "requirements": {
-            "details": "1 PIREP(s) required over pirep_per days",
+            "details": "1 PIREP(s) required over 60 days",
             "target_date": "2024-11-28T08:49:00"
         },
         "sortName": "JetStar"
@@ -62,7 +62,7 @@ const airlines = {
         "name": "Air New Zealand",
         "rank_info": "TODO",
         "requirements": {
-            "details": "1 PIREP(s) required over pirep_per days",
+            "details": "1 PIREP(s) required over 90 days",
             "target_date": "2024-11-22T08:08:00"
         },
         "sortName": "New Zealand"
@@ -73,7 +73,7 @@ const airlines = {
         "name": "Latam",
         "rank_info": "TODO",
         "requirements": {
-            "details": "1 PIREP(s) required over pirep_per days",
+            "details": "1 PIREP(s) required over 90 days",
             "target_date": "2024-12-21T19:47:00"
         },
         "sortName": "Latam"
@@ -112,7 +112,7 @@ const airlines = {
         "name": "Aer Lingus",
         "rank_info": "TODO",
         "requirements": {
-            "details": "1 PIREP(s) required over pirep_per days",
+            "details": "1 PIREP(s) required over 60 days",
             "target_date": "2024-11-29T15:10:00"
         },
         "sortName": "Lingus"
@@ -158,7 +158,7 @@ const airlines = {
         "name": "Titan",
         "rank_info": "TODO",
         "requirements": {
-            "details": "1 PIREP(s) required over pirep_per days",
+            "details": "1 PIREP(s) required over 180 days",
             "target_date": "2025-02-22T13:52:00"
         },
         "sortName": "Titan"
@@ -169,7 +169,7 @@ const airlines = {
         "name": "Spirit",
         "rank_info": "TODO",
         "requirements": {
-            "details": "1 PIREP(s) required over pirep_per days",
+            "details": "1 PIREP(s) required over 90 days",
             "target_date": "2024-11-28T15:57:00"
         },
         "sortName": "Spirit"
@@ -215,7 +215,7 @@ const airlines = {
         "name": "Eurowings",
         "rank_info": "TODO",
         "requirements": {
-            "details": "1 PIREP(s) required over pirep_per days",
+            "details": "1 PIREP(s) required over 180 days",
             "target_date": "2025-03-26T16:12:00"
         },
         "sortName": "Eurowings"
@@ -226,7 +226,7 @@ const airlines = {
         "name": "Avion",
         "rank_info": "TODO",
         "requirements": {
-            "details": "1 PIREP(s) required over pirep_per days",
+            "details": "1 PIREP(s) required over 180 days",
             "target_date": "2025-02-23T15:21:00"
         },
         "sortName": "Avion"
