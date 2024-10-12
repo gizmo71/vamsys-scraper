@@ -262,6 +262,16 @@ const airlines = {
         ],
         "sortName": "Lufthansa"
     },
+    "67": {
+        "callsigns": [],
+        "last_pirep_start": "2024-08-18 09:30:00",
+        "name": "Qantas",
+        "rank_info": [
+            "Block Time",
+            "Airborne Time"
+        ],
+        "sortName": "Qantas"
+    },
     "706": {
         "callsigns": [],
         "last_pirep_start": "2024-10-12 08:41:00",
