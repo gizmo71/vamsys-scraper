@@ -4,6 +4,7 @@ import elementpath
 import geopy.distance
 import json
 import logging
+import numbers
 import operator
 import regex
 import requests
@@ -105,14 +106,21 @@ def parse_pirep(html):
     div = etree.HTML(html)
     sub_ts_text = div.xpath("normalize-space(//div[normalize-space(p) = 'Submitted']//h5)")
     sub_ts_text = regex.sub(r'(\d)(st|nd|rd|th) ', r'\1 ', sub_ts_text)
-    return {'submitted_timestamp': datetime.strptime(sub_ts_text, '%d %b %y %H:%M')}
+    time_mode = div.xpath("//div[position() > 2]/div/p[following-sibling::div/h5/text() = ../../../div[2]/div[p/text() = 'Credited Flight Time']/div/h5/text()]/text()")
+    return {'submitted_timestamp': datetime.strptime(sub_ts_text, '%d %b %y %H:%M'), 'time_mode': time_mode}
 
 def parse_pirep_per(html):
     div = etree.HTML(html)
     days_expr = r'1 PIREP every (\d+) days'
-    days = elementpath.select(div, f"normalize-space(//div[normalize-space(h5) = 'Required Activity:']/p)")
-    days = regex.search(days_expr, days).group(1) if days else None
-    return int(days) if days else None
+    activity = elementpath.select(div, f"normalize-space(//div[normalize-space(h5) = 'Required Activity:']/p)")
+    pirep1 = regex.search(days_expr, activity) if activity else None
+    days = int(pirep1.group(1)) if pirep1 else None
+    return days if days else activity
+
+def scan_airports(html):
+    html = etree.HTML(html)
+    snapshot = html.xpath("string(//div/@*[local-name() = 'wire:snapshot' and contains(., 'airports')])")
+    airports = json.loads(snapshot)['data']['airports']
 
 def rank_info(html, time_mode):
     div = etree.HTML(html)
@@ -195,37 +203,6 @@ def add_or_update_route(origin, destination, distance, airline, type, callsigns)
     type_to_airlines[airline] = callsigns
     airports[origin]['outbound'] = airports[destination]['inbound'] = True
 
-def time_mode(last_pirep):
-    def pause_time(last_pirep, after, before):
-        def just_timestamps(events, after, before):
-            def transform(item):
-                return datetime.fromisoformat(item['timestamp'])
-            return [item for item in map(transform, events) if after < item <= before]
-        pauses = just_timestamps(last_pirep['pirep_data'].get('pauses', []), after, before)
-        unpauses = just_timestamps(last_pirep['pirep_data'].get('unpauses', []), after, before)
-        if len(pauses) != len(unpauses):
-            raise ValueError(f"Between {after} and {before}, number of pauses {pauses} inconsistent with unpauses {unpauses}")
-        return sum(map(operator.sub, unpauses, pauses), start=timedelta()).total_seconds()
-
-    departure_time = datetime.fromisoformat(last_pirep['departure_time'])
-    landing_time = datetime.fromisoformat(last_pirep['landing_time'])
-    air_time = (landing_time - departure_time).total_seconds()
-    off_blocks_time = datetime.fromisoformat(last_pirep['off_blocks_time'])
-    on_blocks_time = datetime.fromisoformat(last_pirep['on_blocks_time'])
-    block_time = (on_blocks_time - off_blocks_time).total_seconds()
-
-    off_blocks_time -= timedelta(seconds = 1)
-    on_blocks_time += timedelta(seconds = 1)
-    block_paused = pause_time(last_pirep, off_blocks_time, on_blocks_time)
-    air_paused = pause_time(last_pirep, departure_time, landing_time)
-
-    flight_length = last_pirep['flight_length']
-    if abs(air_time - air_paused - flight_length) <= 2:
-        return "air"
-    elif abs(block_time - block_paused - flight_length) <= 2:
-        return "block"
-    raise ValueError(f"Couldn't match flight_length {flight_length} against air {air_time} or block {block_time} time for {last_pirep['booking']['callsign']} with pauses in block {block_paused}s/air {air_paused}s")
-
 #TODO: "events" under "dashboard" too - but lacking any real detail
 
 for file in glob('vamsys.*.json'):
@@ -242,10 +219,12 @@ for file in glob('vamsys.*.json'):
     pirep_per = parse_pirep_per(airline['profile'])
     last_pirep = parse_pirep(airline['latest_pirep'])
     airlines[airline_id]['last_pirep_start'] = f"{last_pirep['submitted_timestamp']}"
-    if pirep_per:
-        airlines[airline_id]['requirements'] = {'details':f"1 PIREP(s) required over pirep_per days"}
+    if isinstance(pirep_per, numbers.Number):
+        airlines[airline_id]['requirements'] = {'details':f"1 PIREP(s) required over {pirep_per} days"}
         req_pirep_timestamp = last_pirep['submitted_timestamp'] + timedelta(days=pirep_per)
         airlines[airline_id]['requirements']['target_date'] = f"{req_pirep_timestamp.isoformat()}"
+    elif pirep_per:
+        airlines[airline_id]['requirements'] = {'details':pirep_per}
     if 0 and airline['airline']['activity_requirements']:
         if not airline['airline']['activity_requirement_type_pireps']:
             raise ValueError(f"Activity requirements for {airline['airline']['name']} not PIREPs")
@@ -254,8 +233,9 @@ for file in glob('vamsys.*.json'):
         airlines[airline_id]['requirements'] = {'details':f"{airline['airline']['activity_requirement_value']} PIREP(s) required over {airline['airline']['activity_requirement_period']} days"}
         airlines[airline_id]['requirements']['details'] += f"\nNext {airline['airline']['activity_requirement_value']} PIREP(s) required by {', '.join([f'{t.date()}' for t in req_pirep_timestamps])}"
         airlines[airline_id]['requirements']['target_date'] = f"{max(req_pirep_timestamps).isoformat()}"
-    airlines[airline_id]['rank_info'] = 'TODO' #rank_info(airline['ranks_html'], time_mode(last_pirep))
+    airlines[airline_id]['rank_info'] = last_pirep['time_mode'] #rank_info(airline['ranks_html'], ...))
     type_mapping = airline_mapping.get('type_mapping', {})
+    scan_airports(airline['airports'])
     if 0:
       for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])

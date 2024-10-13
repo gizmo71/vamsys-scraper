@@ -51,7 +51,7 @@ service = Service()
 driver = webdriver.Firefox(options=options, service=service)
 driver.set_page_load_timeout(60)
 driver.set_window_size(1280, 768)
-driver.scopes = [ r'^https://(cdn.vamsys.xyz|vamsys\.io)/(?!livewire/update|broadcasting/auth)' ]
+driver.scopes = [ r'^https://(?:(?:ws\.auth\.)?vamsys\.io|(?:map|plausible)\.vamsys\.dev)/(?!broadcasting/auth)' ]
 
 ExitHooks()
 
@@ -120,8 +120,12 @@ for pilot_id in pilot_ids:
     pirep_link = WebDriverWait(driver, 5).until(lambda d: d.find_element(by=By.XPATH, value="//table[thead/tr/th//span[normalize-space() = 'Status']]/tbody/tr/td//a")).get_attribute('href')
     sleep(1)
     driver.get(pirep_link)
-
     airline_and_map['latest_pirep'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[@class='card' and .//h4[normalize-space() = 'Flight Details']]")).get_attribute('outerHTML')
+
+    del driver.requests # Avoid "wrong" livewire/update calls. But somehow it's getting the PIREP update anyway. Hmm.
+    sleep(1)
+    driver.get("https://vamsys.io/phoenix/flight-center/destinations")
+    airline_and_map['airports'] = driver.page_source #WebDriverWait(driver, 30).until(handle_airports)
 
     sleep(2)
     driver.get("https://vamsys.io/phoenix/flight-center/pireps")
