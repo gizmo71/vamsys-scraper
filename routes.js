@@ -8,6 +8,8 @@ for (const [id, airline] of Object.entries(airlines).toSorted(([id1, airline1], 
         if (daysToTargetCompletion < 7 * 8) {
           days = `<span>-${daysToTargetCompletion}`;
           colour = 'red';
+        } else if (!airline.requirements.target_date && airline.requirements.details) {
+          colour = 'DarkMagenta';
         }
         days = `<span style='color: ${colour};' title='${airline.requirements.details}'>${days}</span>`;
     }
