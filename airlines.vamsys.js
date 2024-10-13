@@ -269,6 +269,9 @@ const airlines = {
             "Block Time",
             "Airborne Time"
         ],
+        "requirements": {
+            "details": "5 hours every 60 days"
+        },
         "sortName": "Qantas"
     },
     "706": {
