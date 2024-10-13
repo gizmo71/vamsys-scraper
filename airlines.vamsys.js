@@ -263,11 +263,10 @@ const airlines = {
     },
     "67": {
         "callsigns": [],
-        "last_pirep_start": "2024-08-18 09:30:00",
+        "last_pirep_start": "2024-10-13 14:37:00",
         "name": "Qantas",
         "rank_info": [
-            "Block Time",
-            "Airborne Time"
+            "Block Time"
         ],
         "requirements": {
             "details": "5 hours every 60 days"
