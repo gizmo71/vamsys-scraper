@@ -23,6 +23,10 @@ parser = argparse.ArgumentParser(description='Scrape route and other data from v
 parser.add_argument('pilot_ids', help='Only scrape specific IDs', nargs='*')
 args = parser.parse_args()
 
+def decode_body(doc):
+    uncompressed = sw_decode(doc.body, doc.headers.get('content-encoding', 'identity'))
+    return uncompressed.decode('UTF-8')
+
 class ExitHooks(object):
     def __init__(self):
         self.original_excepthook = sys.excepthook
@@ -35,7 +39,7 @@ class ExitHooks(object):
                 f.write(f"<!-- Error processing {driver.current_url} -->\n")
                 f.write(driver.page_source)
             for request in filter(lambda req: req.response, driver.requests):
-                print(f"\t{request.url} {type(request.response.body)} {request.response.headers.get('Content-Type', 'none')}")
+                print(f"\t{request.url} {request.response.headers.get('Content-Encoding', 'none')} {type(request.response.body)} {request.response.headers.get('Content-Type', 'none')}")
         self.original_excepthook(exception_type, exception, args)
     def driver_quit(self):
         driver.quit()
@@ -51,7 +55,7 @@ service = Service()
 driver = webdriver.Firefox(options=options, service=service)
 driver.set_page_load_timeout(60)
 driver.set_window_size(1280, 768)
-driver.scopes = [ r'^https://(?:(?:ws\.auth\.)?vamsys\.io|(?:map|plausible)\.vamsys\.dev)/(?!broadcasting/auth)' ]
+driver.scopes = [ r'^https://(?:(?:ws\.auth\.)?vamsys\.io|(?:map|plausible)\.vamsys\.dev)/(?!broadcasting/auth|cdn-cgi/rum)' ]
 
 ExitHooks()
 
@@ -83,8 +87,7 @@ def handle_destinations(driver):
 
 def handle_pireps(driver):
     for request in filter(lambda req: req.response, driver.requests):
-        body = sw_decode(request.response.body, request.response.headers.get('Content-Encoding', 'identity'))
-        body = body.decode("utf-8")
+        body = decode_body(request.response)
         if request.url == 'https://vamsys.io/api/v1/pilot/pireps':
             return json.loads(body)
 
@@ -126,6 +129,15 @@ for pilot_id in pilot_ids:
     sleep(1)
     driver.get("https://vamsys.io/phoenix/flight-center/destinations")
     airline_and_map['airports'] = driver.page_source #WebDriverWait(driver, 30).until(handle_airports)
+
+    airline_and_map['history'] = []
+    for request in driver.requests:
+        def json_headers(httpHeaders):
+            return [f"{x}: {httpHeaders[x]}" for x in httpHeaders]
+        data = {'url':request.url, 'request':{'headers':json_headers(request.headers), 'body':decode_body(request)}}
+        if request.response:
+            data['response'] = {'headers':json_headers(request.response.headers), 'body':decode_body(request.response)}
+        airline_and_map['history'].append(data)
 
     sleep(2)
     driver.get("https://vamsys.io/phoenix/flight-center/pireps")
