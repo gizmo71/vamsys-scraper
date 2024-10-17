@@ -109,7 +109,7 @@ const airlines = {
     },
     "2083": {
         "callsigns": [],
-        "last_pirep_start": "2024-09-18 16:47:00",
+        "last_pirep_start": "2024-10-17 15:48:00",
         "name": "American",
         "rank_info": [
             "Airborne Time"
@@ -267,7 +267,7 @@ const airlines = {
             "Block Time"
         ],
         "requirements": {
-            "details": "5 hours every 60 days"
+            "details": "5 hours every 90 days"
         },
         "sortName": "Qantas"
     },
