@@ -188,11 +188,10 @@ const airlines = {
     },
     "431": {
         "callsigns": [],
-        "last_pirep_start": "2024-09-19 16:56:00",
+        "last_pirep_start": "2024-10-18 16:08:00",
         "name": "Air Arabia",
         "rank_info": [
-            "Block Time",
-            "Airborne Time"
+            "Block Time"
         ],
         "sortName": "Arabia"
     },
