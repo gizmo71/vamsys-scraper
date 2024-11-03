@@ -81,15 +81,14 @@ const airlines = {
     },
     "1642": {
         "callsigns": [],
-        "last_pirep_start": "2024-08-24 08:08:00",
+        "last_pirep_start": "2024-11-03 10:16:00",
         "name": "Air New Zealand",
         "rank_info": [
-            "Block Time",
-            "Airborne Time"
+            "Block Time"
         ],
         "requirements": {
             "details": "1 PIREP(s) required over 90 days",
-            "target_date": "2024-11-22T08:08:00"
+            "target_date": "2025-02-01T10:16:00"
         },
         "sortName": "New Zealand"
     },
