@@ -37,7 +37,7 @@ const airlines = {
     },
     "1316": {
         "callsigns": [],
-        "last_pirep_start": "2024-10-08 16:08:00",
+        "last_pirep_start": "2024-11-07 17:09:00",
         "name": "Virgin",
         "rank_info": [
             "Airborne Time"
@@ -166,7 +166,7 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2024-10-29 16:46:00",
+        "last_pirep_start": "2024-11-06 21:24:00",
         "name": "Dan Air",
         "rank_info": [
             "Airborne Time"
