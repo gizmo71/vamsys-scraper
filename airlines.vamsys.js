@@ -193,7 +193,7 @@ const airlines = {
     },
     "439": {
         "callsigns": [],
-        "last_pirep_start": "2024-10-09 15:29:00",
+        "last_pirep_start": "2024-11-08 16:49:00",
         "name": "Turkish Airlines",
         "rank_info": [
             "Airborne Time"
