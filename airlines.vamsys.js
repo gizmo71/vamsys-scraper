@@ -59,15 +59,11 @@ const airlines = {
     },
     "1595": {
         "callsigns": [],
-        "last_pirep_start": "2024-09-29 08:49:00",
+        "last_pirep_start": "2024-11-09 10:29:00",
         "name": "JetStar",
         "rank_info": [
-            "Airborne Time"
+            "Block Time"
         ],
-        "requirements": {
-            "details": "1 PIREP(s) required over 60 days",
-            "target_date": "2024-11-28T08:49:00"
-        },
         "sortName": "JetStar"
     },
     "1613": {
@@ -133,6 +129,15 @@ const airlines = {
         ],
         "sortName": "China"
     },
+    "291": {
+        "callsigns": [],
+        "last_pirep_start": "2024-11-09 17:45:00",
+        "name": "JetBlue",
+        "rank_info": [
+            "Block Time"
+        ],
+        "sortName": "JetBlue"
+    },
     "3": {
         "callsigns": [],
         "last_pirep_start": "2024-10-28 16:29:00",
@@ -181,6 +186,19 @@ const airlines = {
             "Block Time"
         ],
         "sortName": "Wizz"
+    },
+    "420": {
+        "callsigns": [],
+        "last_pirep_start": "2024-11-09 14:20:00",
+        "name": "VirtuAvia Solutions",
+        "rank_info": [
+            "Block Time"
+        ],
+        "requirements": {
+            "details": "1 PIREP(s) required over 360 days",
+            "target_date": "2025-11-04T14:20:00"
+        },
+        "sortName": "VirtuAvia Solutions"
     },
     "431": {
         "callsigns": [],
@@ -304,20 +322,6 @@ const airlines = {
             "target_date": "2025-03-26T16:12:00"
         },
         "sortName": "Eurowings"
-    },
-    "913": {
-        "callsigns": [],
-        "last_pirep_start": "2024-08-27 15:21:00",
-        "name": "Avion",
-        "rank_info": [
-            "Block Time",
-            "Airborne Time"
-        ],
-        "requirements": {
-            "details": "1 PIREP(s) required over 180 days",
-            "target_date": "2025-02-23T15:21:00"
-        },
-        "sortName": "Avion"
     },
     "939": {
         "callsigns": [],
