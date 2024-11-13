@@ -210,7 +210,7 @@ for file in glob('vamsys.*.json'):
     with open(file, 'r') as f:
         airline = json.load(f)
     airline_id = airline['id']
-    airline_name = regex.search(r'>\s+Edit Your (.+?) Settings\s+<', airline['profile']).group(1)
+    airline_name = airline['info']['name'].strip()
     airline_mapping = airline_mappings.get(airline_name, {})
     airlines[airline_id] = {'name': airline_mapping.get('display_name', airline_name), 'callsigns': []}
     airlines[airline_id]['sortName'] = airline_mapping.get('sort_name', airlines[airline_id]['name'])

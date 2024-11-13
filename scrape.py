@@ -94,6 +94,9 @@ def handle_pireps(driver):
 sleep(1)
 driver.get("https://vamsys.io/select")
 
+airline_snapshot = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="(//div[./@*[local-name() = 'wire:snapshot' and contains(., 'Dan Air Virtual')]])[1]")).get_attribute('wire:snapshot')
+id_to_airline = dict((row[0]['pilot_username'], row[0]) for row in json.loads(airline_snapshot)['data']['airlines'][0])
+
 # Or something from https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
 pilot_id_elements = WebDriverWait(driver, 30).until(lambda d: d.find_elements(by=By.XPATH, value="//button[starts-with(@*, 'login(')]"))
 all_pilot_ids = list(map(lambda e: e.text.strip(), pilot_id_elements))
@@ -113,8 +116,9 @@ for pilot_id in pilot_ids:
     pilot_id_element = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value=xpath))
     driver.execute_script("arguments[0].click();", pilot_id_element)
 
-    profile_link = WebDriverWait(driver, 60).until(lambda d: d.find_element(by=By.XPATH, value="//a[./span[normalize-space() = 'Your Profile']]")).get_attribute('href')
+    profile_link = WebDriverWait(driver, 60).until(lambda d: d.find_element(by=By.XPATH, value="//li[./a/span[normalize-space() = 'My Profile']]/ul/li/a[./span[normalize-space() = 'Dashboard']]")).get_attribute('href')
     airline_and_map['id'] = re.search(r'https://vamsys.io/phoenix/profile/([A-Z]{3})(\d+)/\1\d+', profile_link).group(2)
+    airline_and_map['info'] = id_to_airline[pilot_id]
     sleep(2)
     driver.get(profile_link)
     airline_and_map['profile'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//main/div")).get_attribute('outerHTML')
