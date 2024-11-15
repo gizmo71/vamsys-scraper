@@ -68,7 +68,7 @@ const airlines = {
     },
     "1613": {
         "callsigns": [],
-        "last_pirep_start": "2024-10-16 15:59:00",
+        "last_pirep_start": "2024-11-15 17:08:00",
         "name": "Lion Group",
         "rank_info": [
             "Block Time"
