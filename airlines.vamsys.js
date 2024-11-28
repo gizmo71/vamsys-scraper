@@ -44,19 +44,6 @@ const airlines = {
         ],
         "sortName": "Virgin"
     },
-    "1355": {
-        "callsigns": [],
-        "last_pirep_start": "2024-09-28 14:24:00",
-        "name": "Azul",
-        "rank_info": [
-            "Airborne Time"
-        ],
-        "requirements": {
-            "details": "1 PIREP(s) required over 60 days",
-            "target_date": "2024-11-27T14:24:00"
-        },
-        "sortName": "Azul"
-    },
     "1595": {
         "callsigns": [],
         "last_pirep_start": "2024-11-09 10:29:00",
@@ -167,7 +154,7 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2024-11-14 17:50:00",
+        "last_pirep_start": "2024-11-27 09:24:00",
         "name": "Dan Air",
         "rank_info": [
             "Airborne Time"
@@ -318,14 +305,5 @@ const airlines = {
             "target_date": "2025-03-26T16:12:00"
         },
         "sortName": "Eurowings"
-    },
-    "939": {
-        "callsigns": [],
-        "last_pirep_start": "2024-10-30 16:28:00",
-        "name": "Frontier",
-        "rank_info": [
-            "Block Time"
-        ],
-        "sortName": "Frontier"
     }
 };
