@@ -254,18 +254,6 @@ const airlines = {
         ],
         "sortName": "Lufthansa"
     },
-    "67": {
-        "callsigns": [],
-        "last_pirep_start": "2024-10-13 14:37:00",
-        "name": "Qantas",
-        "rank_info": [
-            "Block Time"
-        ],
-        "requirements": {
-            "details": "5 hours every 90 days"
-        },
-        "sortName": "Qantas"
-    },
     "706": {
         "callsigns": [],
         "last_pirep_start": "2024-11-10 11:26:00",
