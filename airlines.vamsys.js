@@ -71,29 +71,6 @@ const airlines = {
         ],
         "sortName": "New Zealand"
     },
-    "2069": {
-        "callsigns": [],
-        "last_pirep_start": "2024-09-22 19:47:00",
-        "name": "Latam",
-        "rank_info": [
-            "Block Time",
-            "Airborne Time"
-        ],
-        "requirements": {
-            "details": "1 PIREP(s) required over 90 days",
-            "target_date": "2024-12-21T19:47:00"
-        },
-        "sortName": "Latam"
-    },
-    "2083": {
-        "callsigns": [],
-        "last_pirep_start": "2024-11-13 16:26:00",
-        "name": "American",
-        "rank_info": [
-            "Airborne Time"
-        ],
-        "sortName": "American"
-    },
     "227": {
         "callsigns": [],
         "last_pirep_start": "2024-12-01 10:18:00",
@@ -170,37 +147,6 @@ const airlines = {
         ],
         "sortName": "Wizz"
     },
-    "420": {
-        "callsigns": [],
-        "last_pirep_start": "2024-11-09 14:20:00",
-        "name": "VirtuAvia Solutions",
-        "rank_info": [
-            "Block Time"
-        ],
-        "requirements": {
-            "details": "1 PIREP(s) required over 360 days",
-            "target_date": "2025-11-04T14:20:00"
-        },
-        "sortName": "VirtuAvia Solutions"
-    },
-    "431": {
-        "callsigns": [],
-        "last_pirep_start": "2024-11-21 11:01:00",
-        "name": "Air Arabia",
-        "rank_info": [
-            "Block Time"
-        ],
-        "sortName": "Arabia"
-    },
-    "439": {
-        "callsigns": [],
-        "last_pirep_start": "2024-11-08 16:49:00",
-        "name": "Turkish Airlines",
-        "rank_info": [
-            "Airborne Time"
-        ],
-        "sortName": "Turkish Airlines"
-    },
     "46": {
         "callsigns": [],
         "last_pirep_start": "2024-11-12 16:45:00",
@@ -262,15 +208,6 @@ const airlines = {
             "Block Time"
         ],
         "sortName": "IndiGo"
-    },
-    "8": {
-        "callsigns": [],
-        "last_pirep_start": "2024-11-25 09:54:00",
-        "name": "Air France-KLM",
-        "rank_info": [
-            "Airborne Time"
-        ],
-        "sortName": "France-KLM"
     },
     "876": {
         "callsigns": [],
