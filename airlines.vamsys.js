@@ -28,7 +28,7 @@ const airlines = {
     },
     "13": {
         "callsigns": [],
-        "last_pirep_start": "2024-11-11 16:09:00",
+        "last_pirep_start": "2024-12-12 16:59:00",
         "name": "vTCXgroup",
         "rank_info": [
             "Block Time"
