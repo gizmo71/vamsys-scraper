@@ -160,15 +160,6 @@ const airlines = {
         ],
         "sortName": "Wizz"
     },
-    "46": {
-        "callsigns": [],
-        "last_pirep_start": "2024-11-12 16:45:00",
-        "name": "United",
-        "rank_info": [
-            "Block Time"
-        ],
-        "sortName": "United"
-    },
     "500": {
         "callsigns": [],
         "last_pirep_start": "2024-10-19 16:37:00",
@@ -215,7 +206,7 @@ const airlines = {
     },
     "706": {
         "callsigns": [],
-        "last_pirep_start": "2024-11-10 11:26:00",
+        "last_pirep_start": "2024-12-15 10:39:00",
         "name": "IndiGo",
         "rank_info": [
             "Block Time"
