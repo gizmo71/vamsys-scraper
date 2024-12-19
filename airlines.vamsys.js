@@ -71,6 +71,19 @@ const airlines = {
         ],
         "sortName": "New Zealand"
     },
+    "2069": {
+        "callsigns": [],
+        "last_pirep_start": "2024-12-19 17:06:00",
+        "name": "Latam",
+        "rank_info": [
+            "Airborne Time"
+        ],
+        "requirements": {
+            "details": "1 PIREP(s) required over 90 days",
+            "target_date": "2025-03-19T17:06:00"
+        },
+        "sortName": "Latam"
+    },
     "227": {
         "callsigns": [],
         "last_pirep_start": "2024-12-01 10:18:00",
