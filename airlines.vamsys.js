@@ -201,7 +201,7 @@ const airlines = {
     },
     "64": {
         "callsigns": [],
-        "last_pirep_start": "2024-11-28 16:22:00",
+        "last_pirep_start": "2024-12-28 11:08:00",
         "name": "Lufthansa",
         "rank_info": [
             "Airborne Time"
