@@ -238,5 +238,14 @@ const airlines = {
             "target_date": "2025-06-05T10:49:00"
         },
         "sortName": "Eurowings"
+    },
+    "939": {
+        "callsigns": [],
+        "last_pirep_start": "2024-10-30 16:28:00",
+        "name": "Frontier",
+        "rank_info": [
+            "Block Time"
+        ],
+        "sortName": "Frontier"
     }
 };
