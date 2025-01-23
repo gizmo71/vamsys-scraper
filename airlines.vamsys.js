@@ -84,6 +84,15 @@ const airlines = {
         },
         "sortName": "Latam"
     },
+    "2083": {
+        "callsigns": [],
+        "last_pirep_start": "2025-01-23 17:00:00",
+        "name": "American",
+        "rank_info": [
+            "Airborne Time"
+        ],
+        "sortName": "American"
+    },
     "227": {
         "callsigns": [],
         "last_pirep_start": "2025-01-04 11:13:00",
