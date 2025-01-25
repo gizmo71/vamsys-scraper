@@ -104,7 +104,7 @@ const airlines = {
     },
     "265": {
         "callsigns": [],
-        "last_pirep_start": "2024-12-22 10:44:00",
+        "last_pirep_start": "2025-01-25 10:27:00",
         "name": "Air China",
         "rank_info": [
             "Block Time"
