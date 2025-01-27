@@ -144,11 +144,15 @@ const airlines = {
     },
     "35": {
         "callsigns": [],
-        "last_pirep_start": "2024-12-27 14:22:00",
+        "last_pirep_start": "2025-01-27 17:30:00",
         "name": "British Airways",
         "rank_info": [
             "Block Time"
         ],
+        "requirements": {
+            "details": "1 PIREP(s) required over 90 days",
+            "target_date": "2025-04-27T17:30:00"
+        },
         "sortName": "British Airways"
     },
     "356": {
