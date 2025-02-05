@@ -255,10 +255,10 @@ const airlines = {
     "939": {
         "callsigns": [],
         "last_pirep_start": "2025-02-05 16:36:00",
-        "name": "Frontier Virtual Airlines",
+        "name": "Frontier",
         "rank_info": [
             "Block Time"
         ],
-        "sortName": "Frontier Virtual Airlines"
+        "sortName": "Frontier"
     }
 };
