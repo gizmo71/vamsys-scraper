@@ -254,11 +254,11 @@ const airlines = {
     },
     "939": {
         "callsigns": [],
-        "last_pirep_start": "2025-01-03 17:06:00",
-        "name": "Frontier",
+        "last_pirep_start": "2025-02-05 16:36:00",
+        "name": "Frontier Virtual Airlines",
         "rank_info": [
             "Block Time"
         ],
-        "sortName": "Frontier"
+        "sortName": "Frontier Virtual Airlines"
     }
 };
