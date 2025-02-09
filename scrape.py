@@ -117,11 +117,12 @@ for pilot_id in pilot_ids:
     driver.execute_script("arguments[0].click();", pilot_id_element)
 
     profile_link = WebDriverWait(driver, 60).until(lambda d: d.find_element(by=By.XPATH, value="//li[./a/span[normalize-space() = 'My Profile']]/ul/li/a[./span[normalize-space() = 'Dashboard']]")).get_attribute('href')
-    airline_and_map['id'] = re.search(r'https://vamsys.io/phoenix/profile/([A-Z]{3})(\d+)/\1\d+', profile_link).group(2)
+    airline_and_map['id'] = re.search(r'https://vamsys.io/phoenix/profile/([A-Z]{3})(\d+?)/' + pilot_id, profile_link).group(2)
     airline_and_map['info'] = id_to_airline[pilot_id]
     sleep(2)
     driver.get(profile_link)
     airline_and_map['profile'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//main/div")).get_attribute('outerHTML')
+    driver.save_screenshot(f"vamsys.{pilot_id}.png")
     # We can grab the latest PIREP even if invalidated for the purposes of block/air time check.
     # We need latest "Accepted" or "Rejected" for non-participation requirements VAs, but(?) must be Accepted for those with "PIREPs per" requirements.
     pirep_link = WebDriverWait(driver, 5).until(lambda d: d.find_element(by=By.XPATH, value="//table[thead/tr/th//span[normalize-space() = 'Status']]/tbody/tr/td//a")).get_attribute('href')
