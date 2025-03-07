@@ -254,7 +254,7 @@ const airlines = {
     },
     "939": {
         "callsigns": [],
-        "last_pirep_start": "2025-02-05 16:36:00",
+        "last_pirep_start": "2025-03-07 17:11:00",
         "name": "Frontier",
         "rank_info": [
             "Block Time"
