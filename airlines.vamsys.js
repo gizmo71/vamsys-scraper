@@ -230,6 +230,15 @@ const airlines = {
         ],
         "sortName": "IndiGo"
     },
+    "8": {
+        "callsigns": [],
+        "last_pirep_start": "2024-11-25 09:54:00",
+        "name": "Air France-KLM",
+        "rank_info": [
+            "Airborne Time"
+        ],
+        "sortName": "France-KLM"
+    },
     "876": {
         "callsigns": [],
         "last_pirep_start": "2025-03-01 09:29:00",
