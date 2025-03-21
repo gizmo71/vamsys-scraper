@@ -232,7 +232,7 @@ const airlines = {
     },
     "8": {
         "callsigns": [],
-        "last_pirep_start": "2024-11-25 09:54:00",
+        "last_pirep_start": "2025-03-21 16:54:00",
         "name": "Air France-KLM",
         "rank_info": [
             "Airborne Time"
