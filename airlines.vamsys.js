@@ -100,6 +100,10 @@ const airlines = {
         "rank_info": [
             "Airborne Time"
         ],
+        "requirements": {
+            "details": "1 PIREP(s) required over 60 days",
+            "target_date": "2025-05-14T09:38:00"
+        },
         "sortName": "Qatar"
     },
     "265": {
