@@ -170,7 +170,7 @@ const airlines = {
     },
     "42": {
         "callsigns": [],
-        "last_pirep_start": "2025-03-04 16:27:00",
+        "last_pirep_start": "2025-04-03 16:06:00",
         "name": "Wizz",
         "rank_info": [
             "Block Time"
