@@ -192,14 +192,14 @@ const airlines = {
     },
     "55": {
         "callsigns": [],
-        "last_pirep_start": "2024-11-10 20:33:00",
+        "last_pirep_start": "2025-04-21 17:32:00",
         "name": "Spirit",
         "rank_info": [
             "Airborne Time"
         ],
         "requirements": {
             "details": "1 PIREP(s) required over 90 days",
-            "target_date": "2025-02-08T20:33:00"
+            "target_date": "2025-07-20T17:32:00"
         },
         "sortName": "Spirit"
     },
