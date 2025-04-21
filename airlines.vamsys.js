@@ -46,7 +46,7 @@ const airlines = {
     },
     "1595": {
         "callsigns": [],
-        "last_pirep_start": "2025-03-20 16:57:00",
+        "last_pirep_start": "2025-04-21 08:23:00",
         "name": "JetStar",
         "rank_info": [
             "Block Time"
@@ -135,14 +135,14 @@ const airlines = {
     },
     "30": {
         "callsigns": [],
-        "last_pirep_start": "2025-02-28 16:25:00",
+        "last_pirep_start": "2025-04-21 10:11:00",
         "name": "Aer Lingus",
         "rank_info": [
             "Airborne Time"
         ],
         "requirements": {
             "details": "1 PIREP(s) required over 60 days",
-            "target_date": "2025-04-29T16:25:00"
+            "target_date": "2025-06-20T10:11:00"
         },
         "sortName": "Lingus"
     },
