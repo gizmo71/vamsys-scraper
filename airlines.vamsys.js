@@ -95,14 +95,14 @@ const airlines = {
     },
     "227": {
         "callsigns": [],
-        "last_pirep_start": "2025-03-15 09:38:00",
+        "last_pirep_start": "2025-04-26 08:15:00",
         "name": "Oryx (Qatar)",
         "rank_info": [
             "Airborne Time"
         ],
         "requirements": {
             "details": "1 PIREP(s) required over 60 days",
-            "target_date": "2025-05-14T09:38:00"
+            "target_date": "2025-06-25T08:15:00"
         },
         "sortName": "Qatar"
     },
@@ -157,14 +157,14 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2025-04-21 15:29:00",
+        "last_pirep_start": "2025-04-26 11:48:00",
         "name": "Dan Air",
         "rank_info": [
             "Airborne Time"
         ],
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2026-04-21T15:29:00"
+            "target_date": "2026-04-26T11:48:00"
         },
         "sortName": "Dan Air"
     },
