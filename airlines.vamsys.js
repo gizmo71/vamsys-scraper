@@ -73,14 +73,14 @@ const airlines = {
     },
     "2069": {
         "callsigns": [],
-        "last_pirep_start": "2025-02-21 16:34:00",
+        "last_pirep_start": "2025-05-13 15:20:00",
         "name": "Latam",
         "rank_info": [
             "Airborne Time"
         ],
         "requirements": {
             "details": "1 PIREP(s) required over 90 days",
-            "target_date": "2025-05-22T16:34:00"
+            "target_date": "2025-08-11T15:20:00"
         },
         "sortName": "Latam"
     },
