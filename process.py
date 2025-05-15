@@ -51,7 +51,7 @@ airline_mappings = {
     'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3', 'A313':'A310', 'E175':'E75L'}}, # Mappings questionable...
     'VEZY'                             :{'display_name':'EasyJet'},
     'vEWG'                             :{'display_name':'Eurowings'},
-    'Frontier Airlines'                :{'display_name':'Frontier'},
+    'Frontier Virtual Airlines'        :{'display_name':'Frontier'},
     'AirGoldberg'                      :{'display_name':'Air Goldberg', 'sort_name':'Goldberg'},
     'Air India Virtual'                :{'display_name':'Air India', 'sort_name':'India'},
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
@@ -70,7 +70,7 @@ airline_mappings = {
     'Titan Virtual'                    :{'display_name':'Titan'},
     'VRGN Virtual'                     :{'display_name':'Virgin'},
     'Virtual United'                   :{'display_name':'United', 'type_mapping':{'A20N':'A320', 'A321':'A21N', 'E175':'E75L'}},
-    'WZZ Virtual'                      :{'display_name':'Wizz'},
+    'vWZZ'                             :{'display_name':'Wizz'},
     'vAFR/KLM'                         :{'display_name':'Air France-KLM', 'sort_name':'France-KLM', 'type_mapping': {'B74F':'B744'}},
 }
 #TODO: Consider a mapping to MSFS aircraft rather than ICAO codes...
@@ -235,7 +235,7 @@ for file in glob('vamsys.*.json'):
         airlines[airline_id]['requirements']['target_date'] = f"{max(req_pirep_timestamps).isoformat()}"
     airlines[airline_id]['rank_info'] = last_pirep['time_mode'] #rank_info(airline['ranks_html'], ...))
     type_mapping = airline_mapping.get('type_mapping', {})
-    scan_airports(airline['airports'])
+    #scan_airports(airline['airports'])
     if 0:
       for route in airline['map']['routes']:
         from_latlon = (route['latitude'], route['longitude'])
