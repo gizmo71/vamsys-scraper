@@ -198,8 +198,8 @@ const airlines = {
             "Airborne Time"
         ],
         "requirements": {
-            "details": "1 PIREP(s) required over 90 days",
-            "target_date": "2025-07-20T17:32:00"
+            "details": "1 PIREP(s) required over 120 days",
+            "target_date": "2025-08-19T17:32:00"
         },
         "sortName": "Spirit"
     },
