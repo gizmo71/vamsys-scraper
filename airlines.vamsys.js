@@ -117,7 +117,7 @@ const airlines = {
     },
     "291": {
         "callsigns": [],
-        "last_pirep_start": "2025-04-22 16:43:00",
+        "last_pirep_start": "2025-05-25 14:28:00",
         "name": "JetBlue",
         "rank_info": [
             "Block Time"
@@ -157,14 +157,14 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-24 14:50:00",
+        "last_pirep_start": "2025-05-25 15:43:00",
         "name": "Dan Air",
         "rank_info": [
             "Airborne Time"
         ],
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2026-05-24T14:50:00"
+            "target_date": "2026-05-25T15:43:00"
         },
         "sortName": "Dan Air"
     },
