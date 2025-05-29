@@ -1,273 +1,212 @@
 const airlines = {
     "1": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-19 16:36:00",
+        "last_pirep_start": "2025-05-19 16:36:48",
         "name": "EasyJet",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "EasyJet"
     },
     "1005": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-17 07:25:00",
+        "last_pirep_start": "2025-05-17 07:25:36",
         "name": "All Nippon",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "sortName": "Nippon"
     },
     "1033": {
         "callsigns": [],
-        "last_pirep_start": "2025-04-27 10:21:00",
+        "last_pirep_start": "2025-04-27 10:21:09",
         "name": "Delta",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "sortName": "Delta"
     },
     "13": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-24 08:29:00",
+        "last_pirep_start": "2025-05-24 08:30:07",
         "name": "vTCXgroup",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "Thomas Cook"
     },
     "1316": {
         "callsigns": [],
-        "last_pirep_start": "2025-04-25 14:14:00",
+        "last_pirep_start": "2025-05-29 16:33:05",
         "name": "Virgin",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "sortName": "Virgin"
     },
     "1595": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-25 09:13:00",
+        "last_pirep_start": "2025-05-25 09:13:22",
         "name": "JetStar",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "JetStar"
-    },
-    "1613": {
-        "callsigns": [],
-        "last_pirep_start": "2025-03-29 09:56:00",
-        "name": "Lion Group",
-        "rank_info": [
-            "Block Time"
-        ],
-        "sortName": "Lion Group"
     },
     "1642": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-18 10:15:00",
+        "last_pirep_start": "2025-05-18 10:15:38",
         "name": "Air New Zealand",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "New Zealand"
     },
     "2069": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-13 15:20:00",
+        "last_pirep_start": "2025-05-13 15:20:08",
         "name": "Latam",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "requirements": {
-            "details": "1 PIREP(s) required over 90 days",
-            "target_date": "2025-08-11T15:20:00"
+            "details": "1 PIREP(s) required over 120 days",
+            "target_date": "2025-09-10T15:20:08"
         },
         "sortName": "Latam"
     },
     "2083": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-20 16:59:00",
+        "last_pirep_start": "2025-05-20 16:59:40",
         "name": "American",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "sortName": "American"
     },
     "227": {
         "callsigns": [],
-        "last_pirep_start": "2025-04-26 08:15:00",
+        "last_pirep_start": "2025-04-26 08:15:32",
         "name": "Oryx (Qatar)",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "requirements": {
             "details": "1 PIREP(s) required over 60 days",
-            "target_date": "2025-06-25T08:15:00"
+            "target_date": "2025-06-25T08:15:32"
         },
         "sortName": "Qatar"
     },
     "265": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-17 09:16:00",
+        "last_pirep_start": "2025-05-17 09:16:40",
         "name": "Air China",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "China"
     },
     "291": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-25 14:28:00",
+        "last_pirep_start": "2025-05-25 14:28:42",
         "name": "JetBlue",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "JetBlue"
     },
     "3": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-12 15:23:00",
+        "last_pirep_start": "2025-05-12 15:23:58",
         "name": "Ryanair",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "sortName": "Ryanair"
     },
     "30": {
         "callsigns": [],
-        "last_pirep_start": "2025-04-21 10:11:00",
+        "last_pirep_start": "2025-04-21 10:11:06",
         "name": "Aer Lingus",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "requirements": {
             "details": "1 PIREP(s) required over 60 days",
-            "target_date": "2025-06-20T10:11:00"
+            "target_date": "2025-06-20T10:11:06"
         },
         "sortName": "Lingus"
     },
     "35": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-24 10:17:00",
+        "last_pirep_start": "2025-05-24 10:17:31",
         "name": "British Airways",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "British Airways"
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-27 16:15:00",
+        "last_pirep_start": "2025-05-27 16:15:12",
         "name": "Dan Air",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2026-05-27T16:15:00"
+            "target_date": "2026-05-27T16:15:12"
         },
         "sortName": "Dan Air"
     },
     "42": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-15 17:39:00",
+        "last_pirep_start": "2025-05-15 17:39:13",
         "name": "Wizz",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "Wizz"
     },
     "500": {
         "callsigns": [],
-        "last_pirep_start": "2025-03-28 16:11:00",
+        "last_pirep_start": "2025-03-28 16:10:58",
         "name": "Titan",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "requirements": {
             "details": "1 PIREP(s) required over 360 days",
-            "target_date": "2026-03-23T16:11:00"
+            "target_date": "2026-03-23T16:10:58"
         },
         "sortName": "Titan"
     },
     "55": {
         "callsigns": [],
-        "last_pirep_start": "2025-04-21 17:32:00",
+        "last_pirep_start": "2025-04-21 17:32:07",
         "name": "Spirit",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "requirements": {
             "details": "1 PIREP(s) required over 120 days",
-            "target_date": "2025-08-19T17:32:00"
+            "target_date": "2025-08-19T17:32:07"
         },
         "sortName": "Spirit"
     },
     "550": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-22 15:40:00",
+        "last_pirep_start": "2025-05-22 15:40:59",
         "name": "SAS",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "SAS"
     },
     "64": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-11 08:53:00",
+        "last_pirep_start": "2025-05-11 08:53:57",
         "name": "Lufthansa",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "sortName": "Lufthansa"
     },
     "706": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-23 11:12:00",
+        "last_pirep_start": "2025-05-23 11:13:07",
         "name": "IndiGo",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "IndiGo"
     },
     "8": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-28 15:39:00",
+        "last_pirep_start": "2025-05-28 15:39:14",
         "name": "Air France-KLM",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "sortName": "France-KLM"
     },
     "876": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-10 07:52:00",
+        "last_pirep_start": "2025-05-10 07:51:59",
         "name": "Air India",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "sortName": "India"
     },
     "9": {
         "callsigns": [],
-        "last_pirep_start": "2025-03-03 17:43:00",
+        "last_pirep_start": "2025-03-03 17:43:19",
         "name": "Eurowings",
-        "rank_info": [
-            "Airborne Time"
-        ],
+        "rank_info": [],
         "requirements": {
             "details": "1 PIREP(s) required over 180 days",
-            "target_date": "2025-08-30T17:43:00"
+            "target_date": "2025-08-30T17:43:19"
         },
         "sortName": "Eurowings"
     },
     "939": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-17 11:06:00",
+        "last_pirep_start": "2025-05-17 11:05:55",
         "name": "Frontier",
-        "rank_info": [
-            "Block Time"
-        ],
+        "rank_info": [],
         "sortName": "Frontier"
     }
 };
