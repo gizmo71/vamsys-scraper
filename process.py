@@ -104,10 +104,9 @@ rank_criteria = {"Hours": 3, "Points": 4, "Bonus Points": 5}
 
 def parse_pirep(html):
     div = etree.HTML(html)
-    sub_ts_text = div.xpath("normalize-space(//div[normalize-space(p) = 'Submitted']//h5)")
-    sub_ts_text = regex.sub(r'(\d)(st|nd|rd|th) ', r'\1 ', sub_ts_text)
-    time_mode = div.xpath("//div[position() > 2]/div/p[following-sibling::div/h5/text() = ../../../div[2]/div[p/text() = 'Credited Flight Time']/div/h5/text()]/text()")
-    return {'submitted_timestamp': datetime.strptime(sub_ts_text, '%d %b %y %H:%M'), 'time_mode': time_mode}
+    sub_ts_text = div.xpath("normalize-space(//div[normalize-space(div/dt/span) = 'Tracking End']//dd)")
+    time_mode = div.xpath("normalize-space(//div[normalize-space(div/dd) = normalize-space(//div[normalize-space(div/dt/span) = 'Awarded Time']//dd)]//dt)")
+    return {'submitted_timestamp': datetime.strptime(sub_ts_text, '%b %d, %Y %H:%M:%S'), 'time_mode': time_mode}
 
 def parse_pirep_per(html):
     div = etree.HTML(html)
