@@ -193,12 +193,12 @@ const airlines = {
     },
     "9": {
         "callsigns": [],
-        "last_pirep_start": "2025-03-03 17:43:19",
+        "last_pirep_start": "2025-05-31 08:27:58",
         "name": "Eurowings",
         "rank_info": "Airborne Time",
         "requirements": {
             "details": "1 PIREP(s) required over 180 days",
-            "target_date": "2025-08-30T17:43:19"
+            "target_date": "2025-11-27T08:27:58"
         },
         "sortName": "Eurowings"
     },
