@@ -136,12 +136,12 @@ const airlines = {
     },
     "500": {
         "callsigns": [],
-        "last_pirep_start": "2025-03-28 16:10:58",
+        "last_pirep_start": "2025-06-02 15:54:59",
         "name": "Titan",
         "rank_info": "Block Time",
         "requirements": {
             "details": "1 PIREP(s) required over 360 days",
-            "target_date": "2026-03-23T16:10:58"
+            "target_date": "2026-05-28T15:54:59"
         },
         "sortName": "Titan"
     },
