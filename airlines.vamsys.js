@@ -118,12 +118,12 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2025-06-05 15:45:04",
+        "last_pirep_start": "2025-06-06 16:33:25",
         "name": "Dan Air",
         "rank_info": "Airborne Time",
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2026-06-05T15:45:04"
+            "target_date": "2026-06-06T16:33:25"
         },
         "sortName": "Dan Air"
     },
