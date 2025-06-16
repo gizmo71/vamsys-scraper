@@ -68,13 +68,9 @@ const airlines = {
     },
     "227": {
         "callsigns": [],
-        "last_pirep_start": "2025-04-26 08:15:32",
+        "last_pirep_start": "2025-06-16 15:19:59",
         "name": "Oryx (Qatar)",
         "rank_info": "Airborne Time",
-        "requirements": {
-            "details": "1 PIREP(s) required over 60 days",
-            "target_date": "2025-06-25T08:15:32"
-        },
         "sortName": "Qatar"
     },
     "265": {
