@@ -22,7 +22,7 @@ const airlines = {
     },
     "13": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-24 08:30:07",
+        "last_pirep_start": "2025-07-05 09:32:55",
         "name": "vTCXgroup",
         "rank_info": "Block Time",
         "sortName": "Thomas Cook"
@@ -36,7 +36,7 @@ const airlines = {
     },
     "1595": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-25 09:13:22",
+        "last_pirep_start": "2025-07-05 08:32:49",
         "name": "JetStar",
         "rank_info": "Block Time",
         "sortName": "JetStar"
