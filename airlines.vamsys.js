@@ -82,7 +82,7 @@ const airlines = {
     },
     "291": {
         "callsigns": [],
-        "last_pirep_start": "2025-05-25 14:28:42",
+        "last_pirep_start": "2025-07-07 16:08:57",
         "name": "JetBlue",
         "rank_info": "Block Time",
         "sortName": "JetBlue"
