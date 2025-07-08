@@ -156,8 +156,6 @@ for pilot_id in pilot_ids:
     driver.get("https://vamsys.io/phoenix/flight-center/pireps")
     airline_and_map['pireps'] = WebDriverWait(driver, 5).until(lambda d: d.find_element(by=By.XPATH, value="//table")).get_attribute('outerHTML')
 
-    driver.save_screenshot(f"vamsys.{pilot_id}.png")
-
     with open(f'vamsys.{pilot_id}.json', 'w', encoding="utf-8") as f:
         json.dump(airline_and_map, f, indent=4)
     sleep(1)
