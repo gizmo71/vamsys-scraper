@@ -75,7 +75,7 @@ const airlines = {
     },
     "265": {
         "callsigns": [],
-        "last_pirep_start": "2025-06-29 07:52:51",
+        "last_pirep_start": "2025-08-16 08:53:41",
         "name": "Air China",
         "rank_info": "Block Time",
         "sortName": "China"
