@@ -22,7 +22,7 @@ const airlines = {
     },
     "13": {
         "callsigns": [],
-        "last_pirep_start": "2025-08-16 09:33:40",
+        "last_pirep_start": "2025-09-19 14:47:51",
         "name": "vTCXgroup",
         "rank_info": "Block Time",
         "sortName": "Thomas Cook"
