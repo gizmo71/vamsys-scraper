@@ -6,13 +6,6 @@ const airlines = {
         "rank_info": "Block Time",
         "sortName": "EasyJet"
     },
-    "1005": {
-        "callsigns": [],
-        "last_pirep_start": "2025-08-30 09:50:38",
-        "name": "All Nippon",
-        "rank_info": "Airborne Time",
-        "sortName": "Nippon"
-    },
     "1033": {
         "callsigns": [],
         "last_pirep_start": "2025-09-04 15:24:08",
@@ -161,7 +154,7 @@ const airlines = {
     },
     "64": {
         "callsigns": [],
-        "last_pirep_start": "2025-08-23 08:54:12",
+        "last_pirep_start": "2025-09-28 08:45:24",
         "name": "Lufthansa",
         "rank_info": "Airborne Time",
         "sortName": "Lufthansa"
