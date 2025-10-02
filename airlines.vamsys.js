@@ -6,6 +6,13 @@ const airlines = {
         "rank_info": "Block Time",
         "sortName": "EasyJet"
     },
+    "1005": {
+        "callsigns": [],
+        "last_pirep_start": "2025-08-30 09:50:38",
+        "name": "All Nippon",
+        "rank_info": "Airborne Time",
+        "sortName": "Nippon"
+    },
     "1033": {
         "callsigns": [],
         "last_pirep_start": "2025-09-04 15:24:08",
