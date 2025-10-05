@@ -182,9 +182,9 @@ const airlines = {
     },
     "876": {
         "callsigns": [],
-        "last_pirep_start": "2025-09-09 15:45:10",
+        "last_pirep_start": "2025-10-05 08:36:29",
         "name": "Air India",
-        "rank_info": "Airborne Time",
+        "rank_info": "Block Time",
         "sortName": "India"
     },
     "9": {
