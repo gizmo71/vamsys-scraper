@@ -64,7 +64,7 @@ driver.get("https://vamsys.io/login")
 username_box = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.ID, value="emailaddress"))
 password_box = driver.find_element(by=By.ID, value="password")
 remember_me_checkbox = driver.find_element(by=By.ID, value="checkbox-signin")
-sign_in_button = driver.find_element(by=By.XPATH, value="//div/button[@type='submit' and normalize-space()='Sign In']")
+sign_in_button = driver.find_element(by=By.ID, value="sign-in-button")
 
 username_box.send_keys(config["username"])
 password_box.send_keys(config["password"])
