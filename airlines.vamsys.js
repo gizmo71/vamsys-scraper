@@ -36,7 +36,7 @@ const airlines = {
     },
     "1595": {
         "callsigns": [],
-        "last_pirep_start": "2025-09-13 09:59:39",
+        "last_pirep_start": "2025-10-15 08:42:38",
         "name": "JetStar",
         "rank_info": "Block Time",
         "sortName": "JetStar"
@@ -89,7 +89,7 @@ const airlines = {
     },
     "3": {
         "callsigns": [],
-        "last_pirep_start": "2025-08-22 13:17:34",
+        "last_pirep_start": "2025-10-15 15:57:16",
         "name": "Ryanair",
         "rank_info": "Airborne Time",
         "sortName": "Ryanair"
@@ -132,12 +132,12 @@ const airlines = {
     },
     "500": {
         "callsigns": [],
-        "last_pirep_start": "2025-07-17 16:08:16",
+        "last_pirep_start": "2025-10-15 13:25:50",
         "name": "Titan",
         "rank_info": "Block Time",
         "requirements": {
             "details": "1 PIREP(s) required over 360 days",
-            "target_date": "2026-07-12T16:08:16"
+            "target_date": "2026-10-10T13:25:50"
         },
         "sortName": "Titan"
     },
