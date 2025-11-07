@@ -15,7 +15,7 @@ const airlines = {
     },
     "1033": {
         "callsigns": [],
-        "last_pirep_start": "2025-10-03 14:57:56",
+        "last_pirep_start": "2025-11-06 17:18:56",
         "name": "Delta",
         "rank_info": "Airborne Time",
         "sortName": "Delta"
@@ -107,7 +107,7 @@ const airlines = {
     },
     "35": {
         "callsigns": [],
-        "last_pirep_start": "2025-10-18 16:18:45",
+        "last_pirep_start": "2025-11-07 17:19:51",
         "name": "British Airways",
         "rank_info": "Block Time",
         "sortName": "British Airways"
