@@ -8,7 +8,7 @@ const airlines = {
     },
     "1005": {
         "callsigns": [],
-        "last_pirep_start": "2025-11-08 08:31:53",
+        "last_pirep_start": "2025-12-12 08:36:18",
         "name": "All Nippon",
         "rank_info": "Airborne Time",
         "sortName": "Nippon"
