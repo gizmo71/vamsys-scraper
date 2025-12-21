@@ -168,7 +168,7 @@ const airlines = {
     },
     "706": {
         "callsigns": [],
-        "last_pirep_start": "2025-11-15 08:39:02",
+        "last_pirep_start": "2025-12-21 10:48:10",
         "name": "IndiGo",
         "rank_info": "Block Time",
         "sortName": "IndiGo"
