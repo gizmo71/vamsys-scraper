@@ -175,9 +175,9 @@ const airlines = {
     },
     "8": {
         "callsigns": [],
-        "last_pirep_start": "2025-11-22 09:55:13",
+        "last_pirep_start": "2025-12-27 10:08:38",
         "name": "Air France-KLM",
-        "rank_info": "Airborne Time",
+        "rank_info": "Block Time",
         "sortName": "France-KLM"
     },
     "876": {
