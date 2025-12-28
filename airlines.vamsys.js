@@ -114,12 +114,12 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2025-12-23 13:34:46",
+        "last_pirep_start": "2025-12-28 10:16:31",
         "name": "Dan Air",
         "rank_info": "Airborne Time",
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2026-12-23T13:34:46"
+            "target_date": "2026-12-28T10:16:31"
         },
         "sortName": "Dan Air"
     },
@@ -132,12 +132,12 @@ const airlines = {
     },
     "500": {
         "callsigns": [],
-        "last_pirep_start": "2025-12-24 11:34:37",
+        "last_pirep_start": "2025-12-28 14:29:57",
         "name": "Titan",
         "rank_info": "Block Time",
         "requirements": {
             "details": "1 PIREP(s) required over 360 days",
-            "target_date": "2026-12-19T11:34:37"
+            "target_date": "2026-12-23T14:29:57"
         },
         "sortName": "Titan"
     },
