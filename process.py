@@ -102,11 +102,19 @@ def hours_or_points(s):
 
 rank_criteria = {"Hours": 3, "Points": 4, "Bonus Points": 5}
 
-def parse_pirep(html):
+def parse_pirep_old(html):
     div = etree.HTML(html)
     sub_ts_text = div.xpath("normalize-space(//div[normalize-space(div/dt/span) = 'Tracking End']//dd)")
     time_mode = div.xpath("normalize-space(//div[normalize-space(div/dd) = normalize-space(//div[normalize-space(div/dt/span) = 'Awarded Time']//dd)]//dt)")
     return {'submitted_timestamp': datetime.strptime(sub_ts_text, '%b %d, %Y %H:%M:%S'), 'time_mode': time_mode}
+
+def pirep_new(pirep):
+    time_mode = 'unknown'
+    if pirep['credited_time'] == pirep['flight_length']:
+        time_mode = 'Airborne Time'
+    elif pirep['credited_time'] == pirep['block_length']:
+        time_mode = 'Block Time'
+    return {'submitted_timestamp': datetime.strptime(pirep['pirep_end_time'], '%b %d, %Y %H:%M'), 'time_mode': time_mode}
 
 def parse_pirep_per(html):
     div = etree.HTML(html)
@@ -216,7 +224,10 @@ for file in glob('vamsys.*.json'):
     #all_pireps = airline['pireps']['pireps']
     #completed_pireps = [pirep for pirep in all_pireps if pirep['status'] in set(['complete', 'accepted', 'failed'])]
     pirep_per = parse_pirep_per(airline['profile'])
-    last_pirep = parse_pirep(airline['latest_pirep'])
+    if 'latest_pirep' in airline:
+        last_pirep = parse_pirep_old(airline['latest_pirep'])
+    else:
+        last_pirep = pirep_new(airline['latest_pirep_json']['flightData'][0])
     airlines[airline_id]['last_pirep_start'] = f"{last_pirep['submitted_timestamp']}"
     if isinstance(pirep_per, numbers.Number):
         airlines[airline_id]['requirements'] = {'details':f"1 PIREP(s) required over {pirep_per} days"}

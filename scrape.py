@@ -136,7 +136,10 @@ for pilot_id in pilot_ids:
     pirep_link = WebDriverWait(driver, 5).until(lambda d: d.find_element(by=By.XPATH, value="//table[thead/tr/th//span[normalize-space() = 'Status']]/tbody/tr[not(.//span[normalize-space() = 'Invalidated'])]/td//a")).get_attribute('href')
     sleep(1)
     driver.get(pirep_link)
-    airline_and_map['latest_pirep'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//fieldset[.//legend[normalize-space() = 'Flight Details']]")).get_attribute('outerHTML')
+    pirep_data = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[./@*[local-name() = 'wire:snapshot' and contains(., 'flightData')]]"));
+    driver.execute_script("arguments[0].scrollIntoView()", pirep_data)
+    sleep(5)
+    airline_and_map['latest_pirep_json'] = json.loads(pirep_data.get_attribute('wire:snapshot'))['data']
 
     del driver.requests # Avoid "wrong" livewire/update calls. But somehow it's getting the PIREP update anyway. Hmm.
     sleep(1)
