@@ -111,7 +111,7 @@ def parse_pirep_old(html):
 def pirep_new(pirep):
     time_mode = 'unknown'
     if pirep['credited_time'] == pirep['flight_length']:
-        time_mode = 'Airborne Time'
+        time_mode = 'Air Time'
     elif pirep['credited_time'] == pirep['block_length']:
         time_mode = 'Block Time'
     return {'submitted_timestamp': datetime.strptime(pirep['pirep_end_time'], '%b %d, %Y %H:%M'), 'time_mode': time_mode}
