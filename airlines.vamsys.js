@@ -1,7 +1,7 @@
 const airlines = {
     "1": {
         "callsigns": [],
-        "last_pirep_start": "2026-01-08 17:14:00",
+        "last_pirep_start": "2026-01-17 12:04:00",
         "name": "EasyJet",
         "rank_info": "Block Time",
         "sortName": "EasyJet"
@@ -182,7 +182,7 @@ const airlines = {
     },
     "876": {
         "callsigns": [],
-        "last_pirep_start": "2025-12-11 10:03:23",
+        "last_pirep_start": "2026-01-17 09:14:00",
         "name": "Air India",
         "rank_info": "Block Time",
         "sortName": "India"
