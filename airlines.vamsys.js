@@ -43,7 +43,7 @@ const airlines = {
     },
     "1642": {
         "callsigns": [],
-        "last_pirep_start": "2025-12-16 16:59:46",
+        "last_pirep_start": "2026-01-21 15:44:00",
         "name": "Air New Zealand",
         "rank_info": "Block Time",
         "sortName": "New Zealand"
@@ -132,12 +132,12 @@ const airlines = {
     },
     "500": {
         "callsigns": [],
-        "last_pirep_start": "2026-01-20 16:35:00",
+        "last_pirep_start": "2026-01-21 14:48:00",
         "name": "Titan",
         "rank_info": "Block Time",
         "requirements": {
             "details": "1 PIREP(s) required over 360 days",
-            "target_date": "2027-01-15T16:35:00"
+            "target_date": "2027-01-16T14:48:00"
         },
         "sortName": "Titan"
     },
