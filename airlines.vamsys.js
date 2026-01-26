@@ -29,9 +29,9 @@ const airlines = {
     },
     "1316": {
         "callsigns": [],
-        "last_pirep_start": "2025-12-17 14:34:03",
+        "last_pirep_start": "2026-01-26 16:44:00",
         "name": "Virgin",
-        "rank_info": "Airborne Time",
+        "rank_info": "Air Time",
         "sortName": "Virgin"
     },
     "1595": {
