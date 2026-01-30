@@ -61,9 +61,9 @@ const airlines = {
     },
     "2083": {
         "callsigns": [],
-        "last_pirep_start": "2025-12-28 18:57:24",
+        "last_pirep_start": "2026-01-30 17:18:00",
         "name": "American",
-        "rank_info": "Airborne Time",
+        "rank_info": "Air Time",
         "sortName": "American"
     },
     "227": {
