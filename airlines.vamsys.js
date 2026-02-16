@@ -1,7 +1,7 @@
 const airlines = {
     "1": {
         "callsigns": [],
-        "last_pirep_start": "2026-01-17 12:04:00",
+        "last_pirep_start": "2026-02-16 16:40:00",
         "name": "EasyJet",
         "rank_info": "Block Time",
         "sortName": "EasyJet"
