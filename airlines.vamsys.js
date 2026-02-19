@@ -130,6 +130,13 @@ const airlines = {
         "rank_info": "Block Time",
         "sortName": "Wizz"
     },
+    "4262": {
+        "callsigns": [],
+        "last_pirep_start": "2026-02-19 16:46:00",
+        "name": "Lion Group",
+        "rank_info": "Air Time",
+        "sortName": "Lion Group"
+    },
     "500": {
         "callsigns": [],
         "last_pirep_start": "2026-02-18 14:56:00",
