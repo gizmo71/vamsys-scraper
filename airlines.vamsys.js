@@ -59,13 +59,6 @@ const airlines = {
         },
         "sortName": "Latam"
     },
-    "2083": {
-        "callsigns": [],
-        "last_pirep_start": "2026-01-30 17:18:00",
-        "name": "American",
-        "rank_info": "Air Time",
-        "sortName": "American"
-    },
     "227": {
         "callsigns": [],
         "last_pirep_start": "2026-02-04 09:56:00",
@@ -132,12 +125,12 @@ const airlines = {
     },
     "500": {
         "callsigns": [],
-        "last_pirep_start": "2026-02-24 18:56:00",
+        "last_pirep_start": "2026-02-25 17:22:00",
         "name": "Titan",
         "rank_info": "Block Time",
         "requirements": {
             "details": "1 PIREP(s) required over 360 days",
-            "target_date": "2027-02-19T18:56:00"
+            "target_date": "2027-02-20T17:22:00"
         },
         "sortName": "Titan"
     },
@@ -197,12 +190,5 @@ const airlines = {
             "target_date": "2026-06-29T10:59:20"
         },
         "sortName": "Eurowings"
-    },
-    "939": {
-        "callsigns": [],
-        "last_pirep_start": "2026-02-10 17:50:00",
-        "name": "Frontier",
-        "rank_info": "Block Time",
-        "sortName": "Frontier"
     }
 };
