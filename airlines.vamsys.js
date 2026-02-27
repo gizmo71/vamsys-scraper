@@ -29,7 +29,7 @@ const airlines = {
     },
     "1316": {
         "callsigns": [],
-        "last_pirep_start": "2026-01-26 16:44:00",
+        "last_pirep_start": "2026-02-27 12:54:00",
         "name": "Virgin",
         "rank_info": "Air Time",
         "sortName": "Virgin"
@@ -118,7 +118,7 @@ const airlines = {
     },
     "4262": {
         "callsigns": [],
-        "last_pirep_start": "2026-02-19 16:46:00",
+        "last_pirep_start": "2026-02-27 12:09:00",
         "name": "Lion Group",
         "rank_info": "Air Time",
         "sortName": "Lion Group"
