@@ -61,7 +61,7 @@ const airlines = {
     },
     "227": {
         "callsigns": [],
-        "last_pirep_start": "2026-02-04 09:56:00",
+        "last_pirep_start": "2026-03-01 08:56:00",
         "name": "Oryx (Qatar)",
         "rank_info": "Air Time",
         "sortName": "Qatar"
