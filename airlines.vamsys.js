@@ -125,12 +125,12 @@ const airlines = {
     },
     "500": {
         "callsigns": [],
-        "last_pirep_start": "2026-02-28 16:15:00",
+        "last_pirep_start": "2026-03-04 10:38:00",
         "name": "Titan",
         "rank_info": "Block Time",
         "requirements": {
             "details": "1 PIREP(s) required over 360 days",
-            "target_date": "2027-02-23T16:15:00"
+            "target_date": "2027-02-27T10:38:00"
         },
         "sortName": "Titan"
     },
@@ -154,14 +154,14 @@ const airlines = {
     },
     "64": {
         "callsigns": [],
-        "last_pirep_start": "2026-01-30 07:52:00",
+        "last_pirep_start": "2026-03-04 09:31:00",
         "name": "Lufthansa",
         "rank_info": "Air Time",
         "sortName": "Lufthansa"
     },
     "706": {
         "callsigns": [],
-        "last_pirep_start": "2026-02-03 08:13:00",
+        "last_pirep_start": "2026-03-04 12:20:00",
         "name": "IndiGo",
         "rank_info": "Block Time",
         "sortName": "IndiGo"
