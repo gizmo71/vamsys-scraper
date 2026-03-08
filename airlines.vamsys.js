@@ -36,7 +36,7 @@ const airlines = {
     },
     "1595": {
         "callsigns": [],
-        "last_pirep_start": "2026-01-29 20:14:00",
+        "last_pirep_start": "2026-03-08 10:32:00",
         "name": "JetStar",
         "rank_info": "Block Time",
         "sortName": "JetStar"
@@ -100,7 +100,7 @@ const airlines = {
     },
     "35": {
         "callsigns": [],
-        "last_pirep_start": "2026-02-02 16:54:00",
+        "last_pirep_start": "2026-03-08 12:38:00",
         "name": "British Airways",
         "rank_info": "Block Time",
         "sortName": "British Airways"
@@ -182,12 +182,12 @@ const airlines = {
     },
     "9": {
         "callsigns": [],
-        "last_pirep_start": "2025-12-31 10:59:20",
+        "last_pirep_start": "2026-03-08 14:48:00",
         "name": "Eurowings",
-        "rank_info": "Airborne Time",
+        "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 180 days",
-            "target_date": "2026-06-29T10:59:20"
+            "target_date": "2026-09-04T14:48:00"
         },
         "sortName": "Eurowings"
     }
