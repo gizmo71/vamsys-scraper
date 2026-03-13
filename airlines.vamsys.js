@@ -75,7 +75,7 @@ const airlines = {
     },
     "291": {
         "callsigns": [],
-        "last_pirep_start": "2026-02-05 17:41:00",
+        "last_pirep_start": "2026-03-13 16:23:00",
         "name": "JetBlue",
         "rank_info": "Block Time",
         "sortName": "JetBlue"
@@ -125,12 +125,12 @@ const airlines = {
     },
     "500": {
         "callsigns": [],
-        "last_pirep_start": "2026-03-09 17:39:00",
+        "last_pirep_start": "2026-03-13 14:08:00",
         "name": "Titan",
         "rank_info": "Block Time",
         "requirements": {
             "details": "1 PIREP(s) required over 360 days",
-            "target_date": "2027-03-04T17:39:00"
+            "target_date": "2027-03-08T14:08:00"
         },
         "sortName": "Titan"
     },
