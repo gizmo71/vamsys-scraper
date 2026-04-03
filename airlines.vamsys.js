@@ -68,7 +68,7 @@ const airlines = {
     },
     "265": {
         "callsigns": [],
-        "last_pirep_start": "2026-02-21 09:43:00",
+        "last_pirep_start": "2026-04-03 08:47:00",
         "name": "Air China",
         "rank_info": "Block Time",
         "sortName": "China"
@@ -107,12 +107,12 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2026-03-23 16:38:00",
+        "last_pirep_start": "2026-04-02 16:11:00",
         "name": "Dan Air",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2027-03-23T16:38:00"
+            "target_date": "2027-04-02T16:11:00"
         },
         "sortName": "Dan Air"
     },
