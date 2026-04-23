@@ -34,13 +34,6 @@ const airlines = {
         "rank_info": "Air Time",
         "sortName": "Virgin"
     },
-    "1595": {
-        "callsigns": [],
-        "last_pirep_start": "2026-04-05 08:54:00",
-        "name": "JetStar",
-        "rank_info": "Block Time",
-        "sortName": "JetStar"
-    },
     "1642": {
         "callsigns": [],
         "last_pirep_start": "2026-04-19 13:26:00",
@@ -182,12 +175,12 @@ const airlines = {
     },
     "9": {
         "callsigns": [],
-        "last_pirep_start": "2026-03-08 14:48:00",
+        "last_pirep_start": "2026-04-23 16:09:00",
         "name": "Eurowings",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 180 days",
-            "target_date": "2026-09-04T14:48:00"
+            "target_date": "2026-10-20T16:09:00"
         },
         "sortName": "Eurowings"
     }
