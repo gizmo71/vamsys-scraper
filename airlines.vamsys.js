@@ -93,19 +93,19 @@ const airlines = {
     },
     "35": {
         "callsigns": [],
-        "last_pirep_start": "2026-04-09 15:35:00",
+        "last_pirep_start": "2026-05-08 16:44:00",
         "name": "British Airways",
         "rank_info": "Block Time",
         "sortName": "British Airways"
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2026-05-06 14:45:00",
+        "last_pirep_start": "2026-05-08 15:30:00",
         "name": "Dan Air",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2027-05-06T14:45:00"
+            "target_date": "2027-05-08T15:30:00"
         },
         "sortName": "Dan Air"
     },
