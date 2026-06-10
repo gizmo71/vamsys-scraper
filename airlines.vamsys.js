@@ -82,7 +82,7 @@ const airlines = {
     },
     "3": {
         "callsigns": [],
-        "last_pirep_start": "2026-05-31 08:41:00",
+        "last_pirep_start": "2026-06-10 09:01:00",
         "name": "Ryanair",
         "rank_info": "Air Time",
         "sortName": "Ryanair"
