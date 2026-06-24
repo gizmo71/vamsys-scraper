@@ -36,7 +36,7 @@ const airlines = {
     },
     "1595": {
         "callsigns": [],
-        "last_pirep_start": "2026-05-17 06:52:00",
+        "last_pirep_start": "2026-06-20 08:23:00",
         "name": "JetStar",
         "rank_info": "Block Time",
         "sortName": "JetStar"
