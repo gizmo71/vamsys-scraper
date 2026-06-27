@@ -118,7 +118,7 @@ const airlines = {
     },
     "4262": {
         "callsigns": [],
-        "last_pirep_start": "2026-05-25 08:26:00",
+        "last_pirep_start": "2026-06-27 07:41:00",
         "name": "Lion Group",
         "rank_info": "Air Time",
         "sortName": "Lion Group"
