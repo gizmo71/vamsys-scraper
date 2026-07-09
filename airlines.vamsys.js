@@ -61,7 +61,7 @@ const airlines = {
     },
     "227": {
         "callsigns": [],
-        "last_pirep_start": "2026-06-14 08:19:00",
+        "last_pirep_start": "2026-07-09 11:35:00",
         "name": "Oryx (Qatar)",
         "rank_info": "Air Time",
         "sortName": "Qatar"
@@ -182,12 +182,12 @@ const airlines = {
     },
     "9": {
         "callsigns": [],
-        "last_pirep_start": "2026-04-23 16:09:00",
+        "last_pirep_start": "2026-07-09 08:42:00",
         "name": "Eurowings",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 180 days",
-            "target_date": "2026-10-20T16:09:00"
+            "target_date": "2027-01-05T08:42:00"
         },
         "sortName": "Eurowings"
     }
