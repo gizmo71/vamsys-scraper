@@ -22,7 +22,7 @@ const airlines = {
     },
     "13": {
         "callsigns": [],
-        "last_pirep_start": "2026-06-14 10:54:00",
+        "last_pirep_start": "2026-07-13 14:52:00",
         "name": "vTCXgroup",
         "rank_info": "Block Time",
         "sortName": "Thomas Cook"
@@ -136,12 +136,12 @@ const airlines = {
     },
     "55": {
         "callsigns": [],
-        "last_pirep_start": "2026-04-20 16:38:00",
+        "last_pirep_start": "2026-07-14 13:13:00",
         "name": "Spirit",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 120 days",
-            "target_date": "2026-08-18T16:38:00"
+            "target_date": "2026-11-11T13:13:00"
         },
         "sortName": "Spirit"
     },
