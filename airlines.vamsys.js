@@ -15,7 +15,7 @@ const airlines = {
     },
     "1033": {
         "callsigns": [],
-        "last_pirep_start": "2026-06-15 17:49:00",
+        "last_pirep_start": "2026-07-14 11:37:00",
         "name": "Delta",
         "rank_info": "Air Time",
         "sortName": "Delta"
@@ -75,7 +75,7 @@ const airlines = {
     },
     "291": {
         "callsigns": [],
-        "last_pirep_start": "2026-06-14 11:34:00",
+        "last_pirep_start": "2026-07-14 09:58:00",
         "name": "JetBlue",
         "rank_info": "Block Time",
         "sortName": "JetBlue"
@@ -107,12 +107,12 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2026-07-12 11:10:00",
+        "last_pirep_start": "2026-07-13 15:53:00",
         "name": "Dan Air",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2027-07-12T11:10:00"
+            "target_date": "2027-07-13T15:53:00"
         },
         "sortName": "Dan Air"
     },
