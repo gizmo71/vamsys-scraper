@@ -118,7 +118,7 @@ const airlines = {
     },
     "4262": {
         "callsigns": [],
-        "last_pirep_start": "2026-07-16 09:00:00",
+        "last_pirep_start": "2026-07-27 09:23:00",
         "name": "Lion Group",
         "rank_info": "Air Time",
         "sortName": "Lion Group"
@@ -168,7 +168,7 @@ const airlines = {
     },
     "8": {
         "callsigns": [],
-        "last_pirep_start": "2026-06-28 09:24:00",
+        "last_pirep_start": "2026-07-27 11:05:00",
         "name": "Air France-KLM",
         "rank_info": "Block Time",
         "sortName": "France-KLM"
