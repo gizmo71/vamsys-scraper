@@ -89,12 +89,12 @@ const airlines = {
     },
     "30": {
         "callsigns": [],
-        "last_pirep_start": "2026-07-26 11:31:00",
+        "last_pirep_start": "2026-08-03 11:58:00",
         "name": "Aer Lingus",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 60 days",
-            "target_date": "2026-09-24T11:31:00"
+            "target_date": "2026-10-02T11:58:00"
         },
         "sortName": "Lingus"
     },
