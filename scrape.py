@@ -133,18 +133,22 @@ for pilot_id in pilot_ids:
     driver.save_screenshot(f"vamsys.{pilot_id}.png")
     # We can grab the latest PIREP even if invalidated for the purposes of block/air time check.
     # We need latest "Accepted" or "Rejected" for non-participation requirements VAs, but must(?) be Accepted for those with "PIREPs per" requirements.
-    pirep_link = WebDriverWait(driver, 5).until(lambda d: d.find_element(by=By.XPATH, value="//table[thead/tr/th//span[normalize-space() = 'Status']]/tbody/tr[not(.//span[normalize-space() = 'Invalidated'])]/td//a")).get_attribute('href')
-    sleep(1)
-    driver.get(pirep_link)
-    pirep_data = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//div[./@*[local-name() = 'wire:snapshot' and contains(., 'flightData')]]"));
-    driver.execute_script("arguments[0].scrollIntoView()", pirep_data)
-    sleep(5)
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+    pirep_link = WebDriverWait(driver, 5).until(EC.element_to_be_clickable(driver.find_element(by=By.XPATH, value="//table[thead/tr/th//span[normalize-space() = 'Status']]/tbody/tr[not(.//span[normalize-space() = 'Invalidated'])]/td//a")))
+    pirep_href = pirep_link.get_attribute('href');
+    pirep_link.click()
+    WebDriverWait(driver, 5).until(lambda d: EC.url_to_be(pirep_href))
+    def get_flightdata(d):
+        d.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+        return d.find_element(by=By.XPATH, value="//div[./@*[local-name() = 'wire:snapshot' and contains(., 'flightData') and contains(., '\"lazyLoaded\":true')]]")
+    pirep_data = WebDriverWait(driver, 30).until(get_flightdata)
     airline_and_map['latest_pirep_json'] = json.loads(pirep_data.get_attribute('wire:snapshot'))['data']
-
+    sleep(5)
     del driver.requests # Avoid "wrong" livewire/update calls. But somehow it's getting the PIREP update anyway. Hmm.
-    sleep(1)
-    driver.get("https://vamsys.io/phoenix/flight-center/destinations")
-    airline_and_map['airports'] = driver.page_source #WebDriverWait(driver, 30).until(handle_airports)
+    #driver.get("https://vamsys.io/phoenix/flight-center/destinations")
+    # window.destinationMapController.getAirports().then((result) => window.alert(result)); - gets undefined, perhaps it just updates the state?
+    #mapController = WebDriverWait(driver, 60).until(lambda d: d.execute_script("window.destinationMapController"))
+    #airline_and_map['airports'] = WebDriverWait(driver, 30).until(get_airports)
 
     airline_and_map['history'] = []
     for request in driver.requests:
@@ -155,6 +159,8 @@ for pilot_id in pilot_ids:
             data['response'] = {'headers':json_headers(request.response.headers), 'body':decode_body(request.response)}
         airline_and_map['history'].append(data)
 
+    WebDriverWait(driver, 5).until(EC.element_to_be_clickable(driver.find_element(by=By.XPATH, value="//span[@class = 'menu-text' and normalize-space() = 'My Profile']"))).click()
+    WebDriverWait(driver, 1).until(EC.element_to_be_clickable(driver.find_element(by=By.XPATH, value="//a[./span[@class = 'menu-text' and normalize-space() = 'PIREPs']]"))).click()
     sleep(2)
     driver.get("https://vamsys.io/phoenix/flight-center/pireps")
     airline_and_map['pireps'] = WebDriverWait(driver, 5).until(lambda d: d.find_element(by=By.XPATH, value="//table")).get_attribute('outerHTML')
