@@ -54,7 +54,7 @@ options.add_argument('--disable-dev-shm-usage')
 service = Service()
 driver = webdriver.Firefox(options=options, service=service)
 driver.set_page_load_timeout(60)
-driver.set_window_size(1280, 768)
+driver.set_window_size(1920, 1080*2)
 driver.scopes = [ r'^https://(?:(?:ws\.auth\.)?vamsys\.io|(?:map|plausible)\.vamsys\.dev)/(?!broadcasting/auth|cdn-cgi/rum)' ]
 
 ExitHooks()
