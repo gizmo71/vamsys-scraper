@@ -165,6 +165,10 @@ for pilot_id in pilot_ids:
     driver.get("https://vamsys.io/phoenix/flight-center/pireps")
     airline_and_map['pireps'] = WebDriverWait(driver, 5).until(lambda d: d.find_element(by=By.XPATH, value="//table")).get_attribute('outerHTML')
 
+    sleep(2)
+    driver.get("https://vamsys.io/phoenix/documents/ranks")
+    airline_and_map['ranks_html'] = WebDriverWait(driver, 30).until(lambda d: d.find_element(by=By.XPATH, value="//main[.//h4[normalize-space() = 'Pilot Ranks']]")).get_attribute('outerHTML')
+
     with open(f'vamsys.{pilot_id}.json', 'w', encoding="utf-8") as f:
         json.dump(airline_and_map, f, indent=4)
     sleep(1)
