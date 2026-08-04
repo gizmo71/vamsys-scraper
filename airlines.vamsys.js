@@ -107,12 +107,12 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2026-07-29 08:54:00",
+        "last_pirep_start": "2026-08-04 12:01:00",
         "name": "Dan Air",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2027-07-29T08:54:00"
+            "target_date": "2027-08-04T12:01:00"
         },
         "sortName": "Dan Air"
     },
@@ -175,7 +175,7 @@ const airlines = {
     },
     "876": {
         "callsigns": [],
-        "last_pirep_start": "2026-07-05 11:19:00",
+        "last_pirep_start": "2026-08-04 08:25:00",
         "name": "Air India",
         "rank_info": "Block Time",
         "sortName": "India"
