@@ -15,7 +15,7 @@ const airlines = {
     },
     "1033": {
         "callsigns": [],
-        "last_pirep_start": "2026-07-14 11:37:00",
+        "last_pirep_start": "2026-08-11 13:49:00",
         "name": "Delta",
         "rank_info": "Air Time",
         "sortName": "Delta"
