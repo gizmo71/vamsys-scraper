@@ -166,6 +166,13 @@ const airlines = {
         "rank_info": "Block Time",
         "sortName": "IndiGo"
     },
+    "7069": {
+        "callsigns": [],
+        "last_pirep_start": "2026-08-25 07:21:00",
+        "name": "Qantas Virtual",
+        "rank_info": "Block Time",
+        "sortName": "Qantas Virtual"
+    },
     "8": {
         "callsigns": [],
         "last_pirep_start": "2026-08-22 08:24:00",
