@@ -34,13 +34,6 @@ const airlines = {
         "rank_info": "Air Time",
         "sortName": "Virgin"
     },
-    "1595": {
-        "callsigns": [],
-        "last_pirep_start": "2026-06-20 08:23:00",
-        "name": "JetStar",
-        "rank_info": "Block Time",
-        "sortName": "JetStar"
-    },
     "1642": {
         "callsigns": [],
         "last_pirep_start": "2026-08-23 10:31:00",
@@ -107,12 +100,12 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2026-08-22 14:19:00",
+        "last_pirep_start": "2026-08-24 11:42:00",
         "name": "Dan Air",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2027-08-22T14:19:00"
+            "target_date": "2027-08-24T11:42:00"
         },
         "sortName": "Dan Air"
     },
@@ -169,9 +162,9 @@ const airlines = {
     "7069": {
         "callsigns": [],
         "last_pirep_start": "2026-08-25 07:21:00",
-        "name": "Qantas Virtual",
+        "name": "Qantas",
         "rank_info": "Block Time",
-        "sortName": "Qantas Virtual"
+        "sortName": "Qantas"
     },
     "8": {
         "callsigns": [],
