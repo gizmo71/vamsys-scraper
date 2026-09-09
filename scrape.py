@@ -160,8 +160,6 @@ for pilot_id in pilot_ids:
             data['response'] = {'headers':json_headers(request.response.headers), 'body':decode_body(request.response)}
         airline_and_map['history'].append(data)
 
-    WebDriverWait(driver, 5).until(EC.element_to_be_clickable(driver.find_element(by=By.XPATH, value="//span[@class = 'menu-text' and normalize-space() = 'My Profile']"))).click()
-    WebDriverWait(driver, 1).until(EC.element_to_be_clickable(driver.find_element(by=By.XPATH, value="//a[./span[@class = 'menu-text' and normalize-space() = 'PIREPs']]"))).click()
     sleep(2)
     driver.get("https://vamsys.io/phoenix/flight-center/pireps")
     airline_and_map['pireps'] = WebDriverWait(driver, 5).until(lambda d: d.find_element(by=By.XPATH, value="//table")).get_attribute('outerHTML')
