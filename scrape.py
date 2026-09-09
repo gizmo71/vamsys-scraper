@@ -34,6 +34,7 @@ class ExitHooks(object):
         atexit.register(self.driver_quit)
     def excepthook(self, exception_type, exception, *args):
         if driver:
+            driver.save_screenshot(f"unprocessable.png")
             #TODO: dump just a small bit to stdout and the whole thing to a file
             with open(f'unprocessable.html', 'w', encoding="utf-8") as f:
                 f.write(f"<!-- Error processing {driver.current_url} -->\n")
