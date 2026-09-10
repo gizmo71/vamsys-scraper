@@ -43,12 +43,12 @@ const airlines = {
     },
     "2069": {
         "callsigns": [],
-        "last_pirep_start": "2026-07-30 11:59:00",
+        "last_pirep_start": "2026-09-10 10:35:00",
         "name": "Latam",
         "rank_info": "Block Time",
         "requirements": {
             "details": "1 PIREP(s) required over 120 days",
-            "target_date": "2026-11-27T11:59:00"
+            "target_date": "2027-01-08T10:35:00"
         },
         "sortName": "Latam"
     },
@@ -154,7 +154,7 @@ const airlines = {
     },
     "706": {
         "callsigns": [],
-        "last_pirep_start": "2026-08-19 07:32:00",
+        "last_pirep_start": "2026-09-10 11:51:00",
         "name": "IndiGo",
         "rank_info": "Block Time",
         "sortName": "IndiGo"
