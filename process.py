@@ -39,38 +39,30 @@ logging.setLoggerClass(DeduplicatingLogger)
 airline_mappings = {
     'ALVA (Aer Lingus Virtual Airline)':{'display_name':'Aer Lingus', 'sort_name':'Lingus', 'type_mapping':
         {'A333':'A339', '732':'B732', '733':'B733', '734':'B734', '735':'B735', '742':'B742', '752':'B752', '763':'B763', 'B72':'B720', 'L10':'L101', 'SF3':'SF34', 'SH6':'SH36'}},
-    'American Airlines Virtual'        :{'display_name':'American'},
-    'vABY'                             :{'display_name':'Air Arabia', 'sort_name': 'Arabia'},
     'ANZ Virtual'                      :{'display_name':'Air New Zealand', 'sort_name':'New Zealand'},
     'vANA'                             :{'display_name':'All Nippon', 'sort_name':'Nippon'},
-    'Avion Virtual'                    :{'display_name':'Avion'},
-    'Azul Virtual'                     :{'display_name':'Azul'},
     'vBAW'                             :{'display_name':'British Airways', 'type_mapping':{'B48F':'B748'}},
     'Virtual Air China'                :{'display_name':'Air China', 'sort_name':'China', 'type_mapping':{'BBJ1':'B737'}},
     'Dan Air Virtual'                  :{'display_name':'Dan Air', 'type_mapping':{'A333':'A339'}},
     'Delta Virtual'                    :{'display_name':'Delta', 'type_mapping':{'A32N':'A20N', 'A333':'A339', 'A221':'BCS1', 'A223':'BCS3', 'A313':'A310', 'E175':'E75L'}}, # Mappings questionable...
     'VEZY'                             :{'display_name':'EasyJet'},
     'vEWG'                             :{'display_name':'Eurowings'},
-    'Frontier Virtual Airlines'        :{'display_name':'Frontier'},
-    'AirGoldberg'                      :{'display_name':'Air Goldberg', 'sort_name':'Goldberg'},
+    'Gulf Skies Virtual'               :{'display_name':'Gulf Skies'},
     'Air India Group Virtual'          :{'display_name':'Air India', 'sort_name':'India'},
     'IndiGo Virtual'                   :{'display_name':'IndiGo'},
     'vJBU'                             :{'display_name':'JetBlue'}, # Removed {'A320':'A20N'}, look into LatinVFR
     'Jetstar Virtual'                  :{'display_name':'JetStar'},
     'Latam Virtual'                    :{'display_name':'Latam'},
-    'Lion Group Virtual'               :{'display_name':'Lion Group', 'type_mapping':{'AT75':'AT76'}}, # Don't think there's really a -500 for MSFS.
+    'Virtual Lion Air Group'           :{'display_name':'Lion Group', 'type_mapping':{'AT75':'AT76'}}, # Don't think there's really a -500 for MSFS.
     'LH-Virtual'                       :{'display_name':'Lufthansa', 'type_mapping':{'A21F':'A321'}},
-    'VQFA'                             :{'display_name':'Qantas'},
+    'Qantas Virtual'                   :{'display_name':'Qantas'},
     'Oryx Virtual'                     :{'display_name':'Oryx (Qatar)', 'sort_name': 'Qatar'},
     'vRYR'                             :{'display_name':'Ryanair'},
     'vSAS'                             :{'display_name':'SAS', 'type_mapping':{'A333':'A339'}},
     'vspirit'                          :{'display_name':'Spirit', 'type_mapping':{'A21N':'-'}},
     'vTCXgroup'                        :{'sort_name':'Thomas Cook'}, #, 'type_mapping':{'A321':'A21N'}
-    'vTHY'                             :{'display_name':'Turkish Airlines', 'type_mapping':{'A33F':'A332'}},
     'Titan Virtual'                    :{'display_name':'Titan'},
     'VRGN Virtual'                     :{'display_name':'Virgin'},
-    'Virtual United'                   :{'display_name':'United', 'type_mapping':{'A20N':'A320', 'A321':'A21N', 'E175':'E75L'}},
-    'vWZZ'                             :{'display_name':'Wizz'},
     'vAFR/KLM'                         :{'display_name':'Air France-KLM', 'sort_name':'France-KLM', 'type_mapping': {'B74F':'B744'}},
 }
 #TODO: Consider a mapping to MSFS aircraft rather than ICAO codes...

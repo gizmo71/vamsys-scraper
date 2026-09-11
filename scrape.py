@@ -126,7 +126,7 @@ for pilot_id in pilot_ids:
 
     profile_link = WebDriverWait(driver, 60).until(lambda d: d.find_element(by=By.XPATH, value="//li[./a/span[normalize-space() = 'My Profile']]/ul/li/a[./span[normalize-space() = 'Statistics']]")).get_attribute('href')
     profile_link = profile_link.removesuffix('/statistics')
-    airline_and_map['id'] = re.search(r'https://vamsys.io/phoenix/profile/([A-Z]{3})(\d+?)/' + pilot_id, profile_link).group(2)
+    airline_and_map['id'] = re.search(r'https://vamsys.io/phoenix/profile/([A-Z0-9]{3})(\d+?)/' + pilot_id, profile_link).group(2)
     airline_and_map['info'] = id_to_airline[pilot_id]
     sleep(2)
     driver.get(profile_link)
