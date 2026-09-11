@@ -91,6 +91,13 @@ const airlines = {
         },
         "sortName": "Lingus"
     },
+    "3180": {
+        "callsigns": [],
+        "last_pirep_start": "2026-09-11 11:48:00",
+        "name": "Gulf Skies",
+        "rank_info": "Block Time",
+        "sortName": "Gulf Skies"
+    },
     "35": {
         "callsigns": [],
         "last_pirep_start": "2026-09-04 09:38:00",
