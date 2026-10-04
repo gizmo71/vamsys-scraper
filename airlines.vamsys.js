@@ -100,7 +100,7 @@ const airlines = {
     },
     "35": {
         "callsigns": [],
-        "last_pirep_start": "2026-09-04 09:38:00",
+        "last_pirep_start": "2026-10-04 09:35:00",
         "name": "British Airways",
         "rank_info": "Block Time",
         "sortName": "British Airways"
@@ -147,7 +147,7 @@ const airlines = {
     },
     "550": {
         "callsigns": [],
-        "last_pirep_start": "2026-09-04 07:38:00",
+        "last_pirep_start": "2026-10-04 08:18:00",
         "name": "SAS",
         "rank_info": "Block Time",
         "sortName": "SAS"
