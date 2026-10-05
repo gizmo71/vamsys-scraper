@@ -8,7 +8,7 @@ const airlines = {
     },
     "1005": {
         "callsigns": [],
-        "last_pirep_start": "2026-09-06 08:27:00",
+        "last_pirep_start": "2026-10-05 08:48:00",
         "name": "All Nippon",
         "rank_info": "Air Time",
         "sortName": "Nippon"
@@ -61,7 +61,7 @@ const airlines = {
     },
     "265": {
         "callsigns": [],
-        "last_pirep_start": "2026-09-04 12:30:00",
+        "last_pirep_start": "2026-10-05 10:28:00",
         "name": "Air China",
         "rank_info": "Block Time",
         "sortName": "China"
