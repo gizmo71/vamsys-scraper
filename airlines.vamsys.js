@@ -168,7 +168,7 @@ const airlines = {
     },
     "7069": {
         "callsigns": [],
-        "last_pirep_start": "2026-09-09 07:59:00",
+        "last_pirep_start": "2026-10-07 08:21:00",
         "name": "Qantas",
         "rank_info": "Block Time",
         "sortName": "Qantas"
