@@ -66,6 +66,13 @@ const airlines = {
         "rank_info": "Block Time",
         "sortName": "China"
     },
+    "2860": {
+        "callsigns": [],
+        "last_pirep_start": "2026-10-11 12:23:00",
+        "name": "Virtual United Airlines",
+        "rank_info": "Air Time",
+        "sortName": "Virtual United Airlines"
+    },
     "291": {
         "callsigns": [],
         "last_pirep_start": "2026-10-01 15:02:00",
