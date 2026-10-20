@@ -13,13 +13,6 @@ const airlines = {
         "rank_info": "Air Time",
         "sortName": "Nippon"
     },
-    "1033": {
-        "callsigns": [],
-        "last_pirep_start": "2026-09-22 16:51:00",
-        "name": "Delta",
-        "rank_info": "Air Time",
-        "sortName": "Delta"
-    },
     "13": {
         "callsigns": [],
         "last_pirep_start": "2026-10-09 09:00:00",
@@ -68,7 +61,7 @@ const airlines = {
     },
     "2860": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-17 11:22:00",
+        "last_pirep_start": "2026-10-20 11:44:00",
         "name": "United",
         "rank_info": "Air Time",
         "sortName": "United"
@@ -125,7 +118,7 @@ const airlines = {
     },
     "4262": {
         "callsigns": [],
-        "last_pirep_start": "2026-09-29 08:18:00",
+        "last_pirep_start": "2026-10-20 10:11:00",
         "name": "Lion Group",
         "rank_info": "Air Time",
         "sortName": "Lion Group"
