@@ -13,6 +13,13 @@ const airlines = {
         "rank_info": "Air Time",
         "sortName": "Nippon"
     },
+    "1033": {
+        "callsigns": [],
+        "last_pirep_start": "2026-10-21 14:52:00",
+        "name": "Delta",
+        "rank_info": "Air Time",
+        "sortName": "Delta"
+    },
     "13": {
         "callsigns": [],
         "last_pirep_start": "2026-10-09 09:00:00",
