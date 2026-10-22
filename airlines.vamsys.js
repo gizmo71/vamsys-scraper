@@ -100,7 +100,7 @@ const airlines = {
     },
     "3180": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-18 08:09:00",
+        "last_pirep_start": "2026-10-22 13:53:00",
         "name": "Gulf Skies",
         "rank_info": "Block Time",
         "sortName": "Gulf Skies"
@@ -114,12 +114,12 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-17 10:10:00",
+        "last_pirep_start": "2026-10-22 09:47:00",
         "name": "Dan Air",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2027-10-17T10:10:00"
+            "target_date": "2027-10-22T09:47:00"
         },
         "sortName": "Dan Air"
     },
@@ -168,21 +168,21 @@ const airlines = {
     },
     "706": {
         "callsigns": [],
-        "last_pirep_start": "2026-09-25 10:18:00",
+        "last_pirep_start": "2026-10-22 10:53:00",
         "name": "IndiGo",
         "rank_info": "Block Time",
         "sortName": "IndiGo"
     },
     "7069": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-16 15:54:00",
+        "last_pirep_start": "2026-10-22 08:21:00",
         "name": "Qantas",
         "rank_info": "Block Time",
         "sortName": "Qantas"
     },
     "8": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-19 12:32:00",
+        "last_pirep_start": "2026-10-22 12:35:00",
         "name": "Air France-KLM",
         "rank_info": "Block Time",
         "sortName": "France-KLM"
