@@ -132,12 +132,12 @@ const airlines = {
     },
     "500": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-15 14:17:00",
+        "last_pirep_start": "2026-10-23 11:19:00",
         "name": "Titan",
         "rank_info": "Block Time",
         "requirements": {
             "details": "1 PIREP(s) required over 360 days",
-            "target_date": "2027-10-10T14:17:00"
+            "target_date": "2027-10-18T11:19:00"
         },
         "sortName": "Titan"
     },
@@ -182,7 +182,7 @@ const airlines = {
     },
     "8": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-22 12:35:00",
+        "last_pirep_start": "2026-10-23 14:05:00",
         "name": "Air France-KLM",
         "rank_info": "Block Time",
         "sortName": "France-KLM"
