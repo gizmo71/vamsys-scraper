@@ -36,7 +36,7 @@ const airlines = {
     },
     "1642": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-03 12:04:00",
+        "last_pirep_start": "2026-10-24 09:05:00",
         "name": "Air New Zealand",
         "rank_info": "Block Time",
         "sortName": "New Zealand"
@@ -182,7 +182,7 @@ const airlines = {
     },
     "8": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-23 14:05:00",
+        "last_pirep_start": "2026-10-24 12:18:00",
         "name": "Air France-KLM",
         "rank_info": "Block Time",
         "sortName": "France-KLM"
