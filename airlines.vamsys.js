@@ -68,7 +68,7 @@ const airlines = {
     },
     "2860": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-20 11:44:00",
+        "last_pirep_start": "2026-11-01 12:38:00",
         "name": "United",
         "rank_info": "Air Time",
         "sortName": "United"
@@ -114,12 +114,12 @@ const airlines = {
     },
     "356": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-22 09:47:00",
+        "last_pirep_start": "2026-11-01 10:46:00",
         "name": "Dan Air",
         "rank_info": "Air Time",
         "requirements": {
             "details": "1 PIREP(s) required over 365 days",
-            "target_date": "2027-10-22T09:47:00"
+            "target_date": "2027-11-01T10:46:00"
         },
         "sortName": "Dan Air"
     },
@@ -154,7 +154,7 @@ const airlines = {
     },
     "550": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-04 08:18:00",
+        "last_pirep_start": "2026-11-01 09:04:00",
         "name": "SAS",
         "rank_info": "Block Time",
         "sortName": "SAS"
