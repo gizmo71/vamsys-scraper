@@ -189,7 +189,7 @@ const airlines = {
     },
     "8": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-31 12:34:00",
+        "last_pirep_start": "2026-11-04 14:46:00",
         "name": "Air France-KLM",
         "rank_info": "Block Time",
         "sortName": "France-KLM"
