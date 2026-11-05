@@ -15,7 +15,7 @@ const airlines = {
     },
     "1033": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-21 14:52:00",
+        "last_pirep_start": "2026-11-05 15:38:00",
         "name": "Delta",
         "rank_info": "Air Time",
         "sortName": "Delta"
@@ -54,7 +54,7 @@ const airlines = {
     },
     "227": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-21 12:48:00",
+        "last_pirep_start": "2026-11-05 13:39:00",
         "name": "Oryx (Qatar)",
         "rank_info": "Air Time",
         "sortName": "Qatar"
