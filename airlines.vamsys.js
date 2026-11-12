@@ -68,9 +68,9 @@ const airlines = {
     },
     "2860": {
         "callsigns": [],
-        "last_pirep_start": "2026-11-01 12:38:00",
+        "last_pirep_start": "2026-11-12 10:22:00",
         "name": "United",
-        "rank_info": "Air Time",
+        "rank_info": "Block Time",
         "sortName": "United"
     },
     "291": {
