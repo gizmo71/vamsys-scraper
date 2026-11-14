@@ -36,7 +36,7 @@ const airlines = {
     },
     "1642": {
         "callsigns": [],
-        "last_pirep_start": "2026-10-24 09:05:00",
+        "last_pirep_start": "2026-11-14 09:43:00",
         "name": "Air New Zealand",
         "rank_info": "Block Time",
         "sortName": "New Zealand"
