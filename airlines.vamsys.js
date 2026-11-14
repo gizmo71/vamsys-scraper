@@ -76,9 +76,9 @@ const airlines = {
     "291": {
         "callsigns": [],
         "last_pirep_start": "2026-10-01 15:02:00",
-        "name": "JetBlue",
+        "name": "JetBlue (FVAA)",
         "rank_info": "Block Time",
-        "sortName": "JetBlue"
+        "sortName": "JetBlue (FVAA)"
     },
     "3": {
         "callsigns": [],
@@ -186,6 +186,20 @@ const airlines = {
         "name": "Qantas",
         "rank_info": "Block Time",
         "sortName": "Qantas"
+    },
+    "7452": {
+        "callsigns": [],
+        "last_pirep_start": "2026-11-14 10:59:00",
+        "name": "JetBlue",
+        "rank_info": "Block Time",
+        "sortName": "JetBlue"
+    },
+    "7453": {
+        "callsigns": [],
+        "last_pirep_start": "2026-11-14 11:50:00",
+        "name": "Frontier Virtual",
+        "rank_info": "Block Time",
+        "sortName": "Frontier Virtual"
     },
     "8": {
         "callsigns": [],
