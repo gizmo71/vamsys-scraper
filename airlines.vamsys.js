@@ -1,7 +1,7 @@
 const airlines = {
     "1": {
         "callsigns": [],
-        "last_pirep_start": "2026-11-02 12:43:00",
+        "last_pirep_start": "2026-11-16 11:25:00",
         "name": "EasyJet",
         "rank_info": "Block Time",
         "sortName": "EasyJet"
@@ -93,7 +93,7 @@ const airlines = {
     },
     "3180": {
         "callsigns": [],
-        "last_pirep_start": "2026-11-12 14:12:00",
+        "last_pirep_start": "2026-11-16 14:08:00",
         "name": "Gulf Skies",
         "rank_info": "Block Time",
         "sortName": "Gulf Skies"
@@ -189,7 +189,7 @@ const airlines = {
     },
     "7453": {
         "callsigns": [],
-        "last_pirep_start": "2026-11-14 11:50:00",
+        "last_pirep_start": "2026-11-16 12:53:00",
         "name": "Frontier",
         "rank_info": "Block Time",
         "sortName": "Frontier"
