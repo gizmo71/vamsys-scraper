@@ -15,7 +15,7 @@ const airlines = {
     },
     "1033": {
         "callsigns": [],
-        "last_pirep_start": "2026-11-05 15:38:00",
+        "last_pirep_start": "2026-11-23 13:37:00",
         "name": "Delta",
         "rank_info": "Air Time",
         "sortName": "Delta"
@@ -93,7 +93,7 @@ const airlines = {
     },
     "3180": {
         "callsigns": [],
-        "last_pirep_start": "2026-11-21 08:45:00",
+        "last_pirep_start": "2026-11-23 15:14:00",
         "name": "Gulf Skies",
         "rank_info": "Block Time",
         "sortName": "Gulf Skies"
